@@ -15,5 +15,6 @@
     </head>
     <body class="antialiased">
         @include('components.header.header')
+        @include('components.footer.footer')
     </body>
 </html>
