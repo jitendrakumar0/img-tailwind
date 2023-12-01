@@ -4,32 +4,16 @@ module.exports = {
     "./resources/**/*.{js,jsx,ts,scss,vue,tsx,php,blade.php}"
   ],
   theme: {
-    colors: {
-      'theme1': '#011422',
-      'theme2': '#04272f',
-      'theme3': '#090c37',
-      'theme4': '#179dda',
-      'theme5': '#35092d',
-      'theme6': '#0a5978',
-      'theme7': '#031720',
-      'blacklighter': '#1c4b91',
-      'blacklight': '#173d77',
-      'white': '#ffffff',
-      'blue': '#1fb6ff',
-      'purple': '#7e5bef',
-      'pink': '#da2f68',
-      'orange': '#f89e00',
-      'green': '#13ce66',
-      'yellow': '#ffc82c',
-      'gray-dark': '#273444',
-      'gray': '#8492a6',
-      'gray-light': '#d3dce6',
-    },
-    // fontFamily: {
-    //   sans: ['Graphik', 'sans-serif'],
-    //   serif: ['Merriweather', 'serif'],
-    // },
     extend: {
+      colors: {
+        'theme1': '#011422',
+        'theme2': '#04272f',
+        'theme3': '#090c37',
+        'theme4': '#179dda',
+        'theme5': '#35092d',
+        'theme6': '#0a5978',
+        'theme7': '#031720',
+      },
       spacing: {
         '8xl': '96rem',
         '9xl': '128rem',
@@ -71,5 +55,6 @@ module.exports = {
       }
     },
   },
+  variants: {},
   plugins: [],
 }
