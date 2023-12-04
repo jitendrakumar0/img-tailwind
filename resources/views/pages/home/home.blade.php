@@ -20,7 +20,7 @@
 <link rel="canonical" href="{{asset('/')}}" />
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <!-- Meta Pixel Code -->
-<script>
+{{-- <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -34,7 +34,7 @@ fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
-/></noscript>
+/></noscript> --}}
 <!-- End Meta Pixel Code -->
 @endpush
 
@@ -43,8 +43,37 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 
 @section('content')
 
+<div class="flex w-full pt-32 bg-gradient-to-br from-sky-950 to-teal-900 relative before:absolute before:inset-0 before:bg-contain before:bg-repeat before:[background-image:url(https://play.tailwindcss.com/img/grid.svg)]">
+    <div class="swiper heroSwiper h-[calc(100vh-128px)]">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide group py-5">
+            <div class="flex h-full items-center justify-center rounded-2xl w-full group-[.swiper-slide-active]:w-[147.5%] group-[.swiper-slide-next]:w-[55%] group-[.swiper-slide-active]:translate-x-[6%] group-[.swiper-slide-next]:translate-x-[101%] translate-x-[10%] duration-500 bg-gradient-to-bl from-sky-900 to-teal-950 shadow-2xl before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:[background-image:url(https://play.tailwindcss.com/img/beams.jpg)]">Slide 1 </div>
+          </div>
+          <div class="swiper-slide group py-5">
+            <div class="flex h-full items-center justify-center rounded-2xl w-full group-[.swiper-slide-active]:w-[147.5%] group-[.swiper-slide-next]:w-[55%] group-[.swiper-slide-active]:translate-x-[6%] group-[.swiper-slide-next]:translate-x-[101%] translate-x-[10%] duration-500 bg-gradient-to-bl from-sky-900 to-teal-950 shadow-2xl before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:[background-image:url(https://play.tailwindcss.com/img/beams.jpg)]">Slide 2</div>
+          </div>
+          <div class="swiper-slide group py-5">
+            <div class="flex h-full items-center justify-center rounded-2xl w-full group-[.swiper-slide-active]:w-[147.5%] group-[.swiper-slide-next]:w-[55%] group-[.swiper-slide-active]:translate-x-[6%] group-[.swiper-slide-next]:translate-x-[101%] translate-x-[10%] duration-500 bg-gradient-to-bl from-sky-900 to-teal-950 shadow-2xl before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:[background-image:url(https://play.tailwindcss.com/img/beams.jpg)]">Slide 3</div>
+          </div>
+          <div class="swiper-slide group py-5">
+            <div class="flex h-full items-center justify-center rounded-2xl w-full group-[.swiper-slide-active]:w-[147.5%] group-[.swiper-slide-next]:w-[55%] group-[.swiper-slide-active]:translate-x-[6%] group-[.swiper-slide-next]:translate-x-[101%] translate-x-[10%] duration-500 bg-gradient-to-bl from-sky-900 to-teal-950 shadow-2xl before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:[background-image:url(https://play.tailwindcss.com/img/beams.jpg)]">Slide 4</div>
+          </div>
+          <div class="swiper-slide group py-5">
+            <div class="flex h-full items-center justify-center rounded-2xl w-full group-[.swiper-slide-active]:w-[147.5%] group-[.swiper-slide-next]:w-[55%] group-[.swiper-slide-active]:translate-x-[6%] group-[.swiper-slide-next]:translate-x-[101%] translate-x-[10%] duration-500 bg-gradient-to-bl from-sky-900 to-teal-950 shadow-2xl before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:[background-image:url(https://play.tailwindcss.com/img/beams.jpg)]">Slide 5</div>
+          </div>
+          <div class="swiper-slide group py-5">
+            <div class="flex h-full items-center justify-center rounded-2xl w-full group-[.swiper-slide-active]:w-[147.5%] group-[.swiper-slide-next]:w-[55%] group-[.swiper-slide-active]:translate-x-[6%] group-[.swiper-slide-next]:translate-x-[101%] translate-x-[10%] duration-500 bg-gradient-to-bl from-sky-900 to-teal-950 shadow-2xl before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:[background-image:url(https://play.tailwindcss.com/img/beams.jpg)]">Slide 6</div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        {{-- <div class="swiper-scrollbar"></div> --}}
+      </div>
+</div>
 @endsection
 
 @push('scripts')
-
 @endpush

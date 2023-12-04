@@ -7,7 +7,7 @@
         0 0  0  0 "000000   "000000 00000 '0000' 0000d' 0"""""0 d0000   0 0   db 0     '0000'   0   d000b d000b  0    0
         -->
     <head>
-        <script type="application/ld+json">{
+        {{-- <script type="application/ld+json">{
             "@context": "http://schema.org/",
             "@type": "WebSite",
             "url": "https://www.imgglobalinfotech.com/",
@@ -44,7 +44,7 @@
                 "streetAddress": "1st Floor, Riddhi Siddhi Tower, Nursery Cir, Acharya Vinoba Bhave Nagar, B Block, Vaishali Nagar" 
                 }
             }
-        </script>
+        </script> --}}
         <!-- Required meta tags -->
         <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -60,7 +60,7 @@
         <meta name="reply-to" content="info@imgglobalinfotech.com">
         <meta name="distribution" content="Global" />
         <meta name="rating" content="General" />
-        <!-- Twitter Meta -->
+        {{-- <!-- Twitter Meta -->
         <meta name="twitter:site" content="@imgglobal">
         <meta name="twitter:creator" content="@imgglobal">
         <meta name="twitter:card" content="summary">
@@ -83,7 +83,7 @@
         <link rel="shortcut icon" href="{{asset('/public/assets/img/logos/favicon.ico')}}">
         <meta name="msapplication-TileColor" content="#1a73e9">
         <meta name="msapplication-TileImage" content="{{asset('/public/assets/img/logos/mstile-144x144.png')}}">
-        <meta name="msapplication-config" content="{{asset('/public/assets/img/logos/browserconfig.xml')}}">
+        <meta name="msapplication-config" content="{{asset('/public/assets/img/logos/browserconfig.xml')}}"> --}}
         <meta name="theme-color" content="#1a73e9">
 
         @stack('meta')
@@ -98,6 +98,7 @@
     </head>
     <body>
         @yield('content')
+        <script src="{{ asset('js/app.js') }}"></script>
         @stack('scripts')
     </body>
 </html>
