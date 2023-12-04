@@ -55,10 +55,10 @@
             </div>
             <div class="relative mx-auto grid max-w-2xl grid-cols-1 gap-x-32 gap-y-8 sm:gap-y-10 md:gap-y-14 xl:max-w-none xl:grid-cols-2">
                 <div>
-                    <div class="font-display text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
+                    <div class="font-display text-3xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
                         Stay up to date
                     </div>
-                    <div class="mt-4 text-lg tracking-tight text-blue-900">
+                    <div class="mt-4 text-md sm:text-lg tracking-tight text-blue-900 text-ellipsis line-clamp-2">
                         Get updates on all of our events and be the first to get notified when tickets go on sale.
                     </div>
                 </div>
