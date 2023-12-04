@@ -6,7 +6,7 @@
 @endpush
 
 @section('content')
-<div class=" bg-theme1 py-10 relative overflow-hidden  after:absolute after:right-0 after:top-0 after:bg-[url('../../../../../../img/hero-dot-bg.png')] after:bg-cover after:bg-center after:bg-no-repeat after:h-[600px] after:w-[600px] after:scale-[1.8]">
+<div class=" border bg-theme1 py-10 relative overflow-hidden  after:absolute after:right-0 after:top-0 after:bg-[url('../../../../../../img/hero-dot-bg.png')] after:bg-cover after:bg-center after:bg-no-repeat after:h-[600px] after:w-[600px] after:scale-[1.8]">
     <div class="container mx-auto z-30 after:absolute after:w-20 after:rounded-full after:h-20 after:right-[50px] after:bottom-[50px] after:bg-gradient-to-br after:from-blue-300 after:to-green-500  before:absolute before:w-20 before:rounded-full before:h-20 before:lg:left-[500px] md:left-[300px] :left-[200px] before:top-[300px] before:bg-gradient-to-br before:from-pink-400 before:to-pink-600 ">
         <div class="ps-4">
             <div class="lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold text-white">Alchemy of Excellence</div>
@@ -200,27 +200,47 @@
 <div class="container mx-auto py-10">
     <div class="flex flex-row">
         <div class="w-1/4 p-3 flex-1 hover:flex-[3] duration-300">
-            <div class="relative bg-[url('../../../../../../img/case-study-1.jpg')] bg-no-repeat bg-cover bg-center h-80 rounded-xl overflow-hidden">
-                <div class="absolute inset-0 flex items-center justify-center">
+            <div class="relative [background-image:url('../img/case-study-1.jpg')] hover:[background-image:linear-gradient(45deg,black,transparent),url('../img/case-study-1.jpg')] bg-no-repeat bg-cover bg-center group h-80 rounded-xl overflow-hidden duration-300 hover:bg-amber-950">
+                <div class="absolute  bottom-10 left-0 right-0 overflow-hidden flex items-center translate-y-full group-hover:translate-y-0 justify-center content opacity-0 duration-1000 group-hover:opacity-100 ">
                     <div class="content">
-                        <div class="text-white text-2xl font-semibold">Content Management</div>
+                        <div class="text-white text-2xl font-semibold text-center mt-1 ">Content Management</div>
+                        <div class="text-base text-white text-center mt-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, fugit.</div>
+                        <div class="mx-auto text-center mt-1"><a href="javascript:;" class="text-decoration-none inline-flex text-center mx-auto items-center justify-center text-white text-sm rounded-lg bg-theme1 border-solid border-white border-[1px] px-10 py-3 duration-300 hover:bg-theme1/5">heloo</a></div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="w-1/4 p-3 flex-1 hover:flex-[3] duration-300">
-            <div class="relative bg-[url('../../../../../../img/case-study-1.jpg')] bg-no-repeat bg-cover bg-center h-80 rounded-xl overflow-hidden">
-                <div class="absolute"> hello</div>
+            <div class="relative [background-image:url('../img/case-study-2.jpg')] hover:[background-image:linear-gradient(45deg,black,transparent),url('../img/case-study-2.jpg')] bg-no-repeat bg-cover bg-center group h-80 rounded-xl overflow-hidden duration-300 hover:bg-amber-950">
+                <div class="absolute  bottom-10 left-0 right-0 overflow-hidden flex items-center translate-y-full group-hover:translate-y-0 justify-center content opacity-0 duration-1000 group-hover:opacity-100 ">
+                    <div class="content">
+                        <div class="text-white text-2xl font-semibold text-center mt-1 ">Content Management</div>
+                        <div class="text-base text-white text-center mt-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, fugit.</div>
+                        <div class="mx-auto text-center mt-1"><a href="javascript:;" class="text-decoration-none inline-flex text-center mx-auto items-center justify-center text-white text-sm rounded-lg bg-theme1 border-solid border-white border-[1px] px-10 py-3 duration-300 hover:bg-theme1/5">heloo</a></div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="w-1/4 p-3 flex-1 hover:flex-[3] duration-300">
-            <div class="relative bg-[url('../../../../../../img/case-study-1.jpg')] bg-no-repeat bg-cover bg-center h-80 rounded-xl overflow-hidden">
-                <div class="absolute"> hello</div>
+            <div class="relative [background-image:url('../img/case-study-3.jpg')] hover:[background-image:linear-gradient(45deg,black,transparent),url('../img/case-study-3.jpg')] bg-no-repeat bg-cover bg-center group h-80 rounded-xl overflow-hidden duration-300 hover:bg-amber-950">
+                <div class="absolute  bottom-10 left-0 right-0 overflow-hidden flex items-center translate-y-full group-hover:translate-y-0 justify-center content opacity-0 duration-1000 group-hover:opacity-100 ">
+                    <div class="content">
+                        <div class="text-white text-2xl font-semibold text-center mt-1 ">Content Management</div>
+                        <div class="text-base text-white text-center mt-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, fugit.</div>
+                        <div class="mx-auto text-center mt-1"><a href="javascript:;" class="text-decoration-none inline-flex text-center mx-auto items-center justify-center text-white text-sm rounded-lg bg-theme1 border-solid border-white border-[1px] px-10 py-3 duration-300 hover:bg-theme1/5">heloo</a></div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="w-1/4 p-3 flex-1 hover:flex-[3] duration-300">
-            <div class="relative bg-[url('../../../../../../img/case-study-1.jpg')] bg-no-repeat bg-cover bg-center h-80 rounded-xl overflow-hidden">
-                <div class="absolute"> hello</div>
+            <div class="relative [background-image:url('../img/case-study-4.jpg')] hover:[background-image:linear-gradient(45deg,black,transparent),url('../img/case-study-4.jpg')] bg-no-repeat bg-cover bg-center group h-80 rounded-xl overflow-hidden duration-300 hover:bg-amber-950">
+                <div class="absolute  bottom-10 left-0 right-0 overflow-hidden flex items-center translate-y-full group-hover:translate-y-0 justify-center content opacity-0 duration-1000 group-hover:opacity-100 ">
+                    <div class="content">
+                        <div class="text-white text-2xl font-semibold text-center mt-1 ">Content Management</div>
+                        <div class="text-base text-white text-center mt-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, fugit.</div>
+                        <div class="mx-auto text-center mt-1"><a href="javascript:;" class="text-decoration-none inline-flex text-center mx-auto items-center justify-center text-white text-sm rounded-lg bg-theme1 border-solid border-white border-[1px] px-10 py-3 duration-300 hover:bg-theme1/5">heloo</a></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
