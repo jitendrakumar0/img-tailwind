@@ -2410,6 +2410,9 @@ select {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity));
 }
+.focus\:ring-transparent:focus {
+  --tw-ring-color: transparent;
+}
 .focus-visible\:outline:focus-visible {
   outline-style: solid;
 }
