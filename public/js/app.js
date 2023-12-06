@@ -637,6 +637,29 @@ document.addEventListener('DOMContentLoaded', function () {
       hide: true
     }
   });
+  var swiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".mySwiper", {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true
+  });
+  var swiper2 = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".mySwiper2", {
+    spaceBetween: 10,
+    // navigation: {
+    // nextEl: ".swiper-button-next",
+    // prevEl: ".swiper-button-prev",
+    // },
+    thumbs: {
+      swiper: swiper
+    }
+  });
+  var card = document.querySelector('.card');
+  // console.log(card)
+  card.forEach(function (e) {
+    e.addEventListener('click', function (aa) {
+      aa.classList.add('show');
+    });
+  });
 });
 
 /***/ }),
