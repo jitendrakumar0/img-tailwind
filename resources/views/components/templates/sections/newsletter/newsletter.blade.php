@@ -78,11 +78,109 @@
                 </div>
             </div>
         </div>
-    </section>
+</section>
+
+{{-- portFolio Swiper start --}}
+<div class="bg-black items-center px-20 mx-36 rounded-4xl overflow-hidden py-5">
+    <div class="heading text-center py-5 text-white font-bold text-4xl">
+        Take A Sneak Peak to Our Portfolio And Elevate Your Expectations!
+    </div>
+    <div class="flex bg-black h-[420px] mt-5">
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2 doubleSwiper2 flex relative w-[30%]">
+            <div class="swiper-wrapper absolute top-0 right-0 !w-[100%]">
+                <div class="swiper-slide bg-[#0a4c67] !h-[400px] !w-full rounded-3xl overflow-hidden p-4 px-auto">
+                    <div class="textDiv h-full my-auto flex items-center justify-center flex-col">
+                        <div class="heading text-[50px] font-bold text-white py-5">
+                            My Fab 11
+                        </div>
+                        <div class="subHEading text-xl font-medium  text-white">
+                            Fantasy Sports App
+                        </div>
+                    </div>
+                </div>
+            <div class="swiper-slide !h-[400px] !w-full rounded-3xl overflow-hidden">
+                <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+            </div>
+            <div class="swiper-slide !h-[400px] !w-full rounded-3xl overflow-hidden">
+                <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+            </div>
+            <div class="swiper-slide !h-[400px] !w-full rounded-3xl overflow-hidden">
+                <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+            </div>
+            <div class="swiper-slide !h-[400px] !w-full rounded-3xl overflow-hidden">
+                <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+            </div>
+            <div class="swiper-slide !h-[400px] !w-full rounded-3xl overflow-hidden">
+                <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+            </div>
+            <div class="swiper-slide !h-[400px] !w-full rounded-3xl overflow-hidden">
+                <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+            </div>
+            <div class="swiper-slide !h-[400px] !w-full rounded-3xl overflow-hidden">
+                <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+            </div>
+            <div class="swiper-slide !h-[400px] !w-full rounded-3xl overflow-hidden">
+                <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+            </div>
+            <div class="swiper-slide !h-[400px] !w-full rounded-3xl overflow-hidden">
+                <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+            </div>
+            </div>
+            {{-- <div class="swiper-button-next opacity-100 after:!content-[*] right-[20px]">
+                <div class="prevIcon h-[200px] w-[60px] rotate-[180deg]">
+                    <img src="{{asset("img/leftArrow.svg")}}" alt="" class="h-full w-full">
+                </div>
+            </div>
+            <div class="swiper-button-prev opacity-100 after:!content-[*] left-[20px]">
+                <div class="prevIcon h-[200px] w-[60px]">
+                    <img src="{{asset("img/leftArrow.svg")}}" alt="" class="h-full w-full">
+                </div>
+            </div> --}}
+        </div>
+        <div thumbsSlider="" class="swiper mySwiper doubleSwiper absolute top-0 left-0 !w-[60%] overflow-hidden h-[400px]">
+            <div class="swiper-wrapper h-[400px]">
+                <div class="swiper-slide my-auto h-[400px]  rounded-4xl">
+                    <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{-- portFolio Swiper Ends --}}
 
 
-@endsection
+
+
+
+
+    @endsection
 
 @push('scripts')
-
 @endpush

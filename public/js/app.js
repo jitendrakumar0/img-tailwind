@@ -637,6 +637,28 @@ document.addEventListener('DOMContentLoaded', function () {
       hide: true
     }
   });
+  var swiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".doubleSwiper", {
+    loop: true,
+    spaceBetween: 20,
+    slidesPerView: 1,
+    freeMode: true,
+    watchSlidesProgress: true,
+    mousewheel: true,
+    direction: "vertical",
+    autoplay: true
+  });
+  var swiper2 = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".doubleSwiper2", {
+    loop: true,
+    spaceBetween: 10,
+    autoplay: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    thumbs: {
+      swiper: swiper
+    }
+  });
 });
 
 /***/ }),
