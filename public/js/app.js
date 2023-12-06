@@ -595,25 +595,50 @@ __webpack_require__.r(__webpack_exports__);
 
 
 document.addEventListener('DOMContentLoaded', function () {
+  var progressCircles = document.querySelectorAll(".autoplay-progress svg");
+  var progressContents = document.querySelectorAll(".autoplay-progress span");
+  var heroSwiperThumbsSlider = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".heroSwiperThumbsSlider", {
+    // spaceBetween: 0,
+    slidesPerView: 1,
+    // watchSlidesProgress: true,
+    effect: "fade",
+    speed: 5500,
+    pagination: false,
+    navigation: false
+  });
   var heroSwiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"]('.heroSwiper', {
     slidesPerView: 1,
     spaceBetween: 10,
-    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    },
     speed: 1500,
+    thumbs: {
+      swiper: heroSwiperThumbsSlider
+    },
+    loop: true,
+    keyboard: {
+      enabled: true
+    },
     breakpoints: {
       320: {
-        slidesPerView: 1.1,
+        centeredSlides: true,
+        slidesPerView: 1.2,
         spaceBetween: 20
       },
       480: {
-        slidesPerView: 1.1,
-        spaceBetween: 30
+        centeredSlides: true,
+        slidesPerView: 1.2,
+        spaceBetween: 20
       },
       640: {
-        slidesPerView: 1.5,
-        spaceBetween: 40
+        centeredSlides: true,
+        slidesPerView: 1.2,
+        spaceBetween: 20
       },
-      1150: {
+      1024: {
+        centeredSlides: false,
         slidesPerView: 2.5,
         spaceBetween: 40
       },
@@ -622,12 +647,13 @@ document.addEventListener('DOMContentLoaded', function () {
         spaceBetween: 40
       }
     },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      dynamicBullets: true
-      //   type: 'progressbar',
-    },
+    // pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //     dynamicBullets: true,
+    //     //   type: 'progressbar',
+    // },
+
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
@@ -635,8 +661,138 @@ document.addEventListener('DOMContentLoaded', function () {
     scrollbar: {
       el: '.swiper-scrollbar',
       hide: true
+    },
+    on: {
+      autoplayTimeLeft: function autoplayTimeLeft(s, time, progress) {
+        progressCircles.forEach(function (progressCircle) {
+          // Do something with each progress circle
+          progressCircle.style.setProperty("--progress", 1 - progress);
+        });
+        progressContents.forEach(function (progressContent) {
+          // Do something with each progress content
+          progressContent.textContent = "".concat(Math.ceil(time / 1000), "s");
+        });
+      }
     }
   });
+  var logoClouds = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".logo-clouds", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    breakpoints: {
+      320: {
+        slidesPerView: 5,
+        spaceBetween: 20
+      },
+      480: {
+        slidesPerView: 5,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 7,
+        spaceBetween: 30
+      },
+      1024: {
+        slidesPerView: 7,
+        spaceBetween: 30
+      },
+      1350: {
+        slidesPerView: 9,
+        spaceBetween: 30
+      }
+    },
+    speed: 5000,
+    allowTouchMove: false,
+    autoplay: {
+      enabled: true,
+      delay: 0
+    }
+  });
+  var AwardsRecognitions = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".AwardsRecognitions", {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    speed: 5000,
+    // allowTouchMove: false,
+    autoplay: {
+      enabled: true,
+      delay: 0
+    },
+    loop: true,
+    effect: 'coverflow',
+    centeredSlides: true,
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 30
+      },
+      1024: {
+        slidesPerView: 2,
+        spaceBetween: 30
+      },
+      1350: {
+        slidesPerView: 2,
+        spaceBetween: 30
+      }
+    }
+  });
+  document.body.addEventListener("mousemove", function (event) {
+    var cursor = document.getElementById("cursor");
+    var cursor2 = document.getElementById("cursor2");
+    cursor.style.left = event.clientX + "px";
+    cursor.style.top = event.clientY + "px";
+    cursor2.style.left = event.clientX + "px";
+    cursor2.style.top = event.clientY + "px";
+  });
+  var cursor2 = document.getElementById("cursor2");
+  function addHoverClass() {
+    document.body.classList.add("hover");
+  }
+  function removeHoverClass() {
+    document.body.classList.remove("hover");
+  }
+  removeHoverClass();
+  var hoverLinks = document.querySelectorAll(".hoverLink");
+  hoverLinks.forEach(function (link) {
+    link.addEventListener("mouseover", addHoverClass);
+    link.addEventListener("mouseout", removeHoverClass);
+  });
+
+  // Color change on scroll
+  var buttons = document.querySelectorAll("button");
+  var anchors = document.querySelectorAll("a");
+  buttons.forEach(function (button) {
+    // Your code for each button
+    button.addEventListener("mouseover", addColorViolet);
+    button.addEventListener("mouseout", removeColorViolet);
+  });
+  anchors.forEach(function (anchor) {
+    // Your code for each anchor
+    anchor.addEventListener("mouseover", addPreload);
+    anchor.addEventListener("mouseout", removePreload);
+  });
+
+  // Other functions...
+
+  function addColorViolet() {
+    document.body.classList.add("group/cyan");
+  }
+  function removeColorViolet() {
+    document.body.classList.remove("group/cyan");
+  }
+  function addPreload() {
+    document.body.classList.add("group/preload");
+  }
+  function removePreload() {
+    document.body.classList.remove("group/preload");
+  }
 });
 
 /***/ }),
