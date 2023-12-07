@@ -160,6 +160,30 @@ document.addEventListener('DOMContentLoaded', function () {
             },
         },
     });
+    
+    
+    var servicesSwiperThumb = new Swiper(".servicesSwiperThumb", {
+        spaceBetween: 20,
+        slidesPerView: "auto",
+        freeMode: false,
+        loop:true,
+        watchSlidesProgress: false,
+        // centeredSlides: true,
+        centerInsufficientSlides: true,
+        centeredSlidesBounds: true,
+        speed: 500,
+
+    });
+    var servicesSwiper = new Swiper(".servicesSwiper", {
+        spaceBetween: 10,
+        loop:true,
+        slidesPerView: 1,
+        effect: 'fade',
+        thumbs: {
+            swiper: servicesSwiperThumb,
+        },
+        speed: 1500,
+    });
 
     document.body.addEventListener("mousemove", function (event) {
         var cursor = document.getElementById("cursor");
@@ -225,49 +249,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     
     
-    
-    var swiper3 = new Swiper(".mySwiper", {
-        spaceBetween: 10,
-        slidesPerView: 4,
-        freeMode: true,
-        watchSlidesProgress: true,
 
-    });
-    var swiper2 = new Swiper(".mySwiper2", {
-        spaceBetween: 10,
-        // navigation: {
-        // nextEl: ".swiper-button-next",
-        // prevEl: ".swiper-button-prev",
-        // },
-        thumbs: {
-        swiper: swiper,
-    },
-    });
 
-    
+    let card =  document.querySelector('.card')
+    // console.log(card)
+    card.forEach(function(e){
+        e.addEventListener('click', (aa)=>{
+            aa.classList.add('show')
+        })
     })
-
-    var swiper = new Swiper(".doubleSwiper", {
-        loop: true,
-        spaceBetween: 20,
-        slidesPerView: 1,
-        freeMode: true,
-        watchSlidesProgress: true,
-        mousewheel: true,
-        direction: "vertical",
-        autoplay: true,
-        });
-        var swiper = new Swiper(".doubleSwiper2", {
-        loop: true,
-        spaceBetween: 10,
-        autoplay: true,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        thumbs: {
-            swiper: swiper,
-        },
-        });
 });
 
