@@ -79,5 +79,28 @@ document.addEventListener('DOMContentLoaded', function () {
             aa.classList.add('show')
         })
     })
+
+    var swiper = new Swiper(".doubleSwiper", {
+        loop: true,
+        spaceBetween: 20,
+        slidesPerView: 1,
+        freeMode: true,
+        watchSlidesProgress: true,
+        mousewheel: true,
+        direction: "vertical",
+        autoplay: true,
+        });
+        var swiper2 = new Swiper(".doubleSwiper2", {
+        loop: true,
+        spaceBetween: 10,
+        autoplay: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+            swiper: swiper,
+        },
+        });
 });
 
