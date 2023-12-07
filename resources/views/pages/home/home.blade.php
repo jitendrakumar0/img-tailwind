@@ -362,8 +362,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 <p class="mt-4 select-none text-base leading-7 text-slate-600">At IMG, we pride ourselves on timely delivery, transforming visions into reality. From mobile app development to custom software solutions and dedicated developer hiring, we cater to businesses of all scales. Experience top-notch development, reasonable prices, and a partnership that exceeds expectations – at IMG Global Infotech, we make digital dreams come true.</p>
 
                 <div class="mt-8 flex gap-4">
-                    <a href="javascript:;" class="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Read More <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
-                    <a class="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="javascript:;">
+                    <a href="javascript:;" class="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Read More <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
+                    <a class="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="javascript:;">
                         <span class="select-none">
                         Coffee With Us <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
                         </span>
@@ -461,7 +461,99 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
 </div>
 
-<div class="relative isolate overflow-hidden py-16 sm:py-24 lg:py-32">
+
+
+<div class="container mx-auto py-10 relative">
+    <div class="absolute inset-x-0 top-0 h-96 text-slate-600/10 [mask-image:linear-gradient(to_top,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="pricing-pattern" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#pricing-pattern)"></rect>
+        </svg>
+    </div>
+    <div class="flex flex-col w-full max-w-7xl mx-auto px-9 lg:px-11 pb-5">
+        <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
+            <span class="font-normal">Client Journeys to Success –</span> 
+            <span class="font-bold bg-gradient-to-r from-theme6 via-yellow-600 to-theme6 bg-clip-text text-transparent"> Glimpse of Our Case Studies</span>
+        </p>
+        <div class="mt-4 select-none text-base md:text-lg leading-7 text-slate-600">Explore our client success stories, witnessing transformative journeys to success. Each case study below reflects our impactful solutions, showcasing innovation, dedication, and tangible results.</div>
+    </div>
+    <div class="flex flex-row flex-wrap mx-auto max-w-7xl px-6 lg:px-8 group/caseStudies">
+        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/caseStudy">
+            <div class="relative [background-image:url(https://www.imgglobalinfotech.com/public/assets/img/hero-section/frame12.webp)] bg-purple-600 before:bg-purple-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-purple-700/70">
+                <div class="relative h-full flex flex-col-reverse p-8 group-hover/caseStudies:py-8 group-hover/caseStudies:px-3 duration-300 group-hover/caseStudy:!p-8">
+                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-purple-950/50 mix-blend-multiply xl:group-hover/caseStudy:bg-transparent before:bg-gradient-to-t before:from-purple-950 before:via-purple-900/80 before:to-purple-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/caseStudy:translate-y-0 before:duration-300"></div>
+                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/caseStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/caseStudies:translate-y-[calc(100%-20px)] xl:group-hover/caseStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
+                        <div class="w-full">
+                            <span class="rounded-md rounded-br-none duration-300 select-none text-base xl:text-xl xl:group-hover/caseStudies:text-base xl:group-hover/caseStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-purple-600 via-white to-purple-600 bg-clip-text text-transparent">BOBI Live</span>
+                        </div>
+                        <div class="w-full font-bold text-xl mb-4 select-none bg-gradient-to-bl from-purple-300 via-white to-purple-300 bg-clip-text text-transparent">Socializing, interacting, exploring, all fascinating things are here for you !</div>
+                        <div class="w-full">
+                            <a href="javascript:;" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/caseStudy">
+            <div class="relative [background-image:url(https://www.imgglobalinfotech.com/public/assets/img/hero-section/hozzo.webp)] bg-green-600 before:bg-green-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-green-700/70">
+                <div class="relative h-full flex flex-col-reverse p-8 group-hover/caseStudies:py-8 group-hover/caseStudies:px-3 duration-300 group-hover/caseStudy:!p-8">
+                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-green-950/50 mix-blend-multiply xl:group-hover/caseStudy:bg-transparent before:bg-gradient-to-t before:from-green-950 before:via-green-900/80 before:to-green-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/caseStudy:translate-y-0 before:duration-300"></div>
+                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/caseStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/caseStudies:translate-y-[calc(100%-20px)] xl:group-hover/caseStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
+                        <div class="w-full">
+                            <span class="rounded-md rounded-br-none duration-300 select-none text-base xl:text-xl xl:group-hover/caseStudies:text-base xl:group-hover/caseStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-green-600 via-white to-green-600 bg-clip-text text-transparent">Hozzo - Car wash</span>
+                        </div>
+                        <div class="w-full font-bold text-xl mb-4 select-none bg-gradient-to-bl from-green-300 via-white to-green-300 bg-clip-text text-transparent">Waterless car washing services across india</div>
+                        <div class="w-full">
+                            <a href="javascript:;" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/caseStudy">
+            <div class="relative [background-image:url(https://www.imgglobalinfotech.com/public/assets/img/hero-section/fab11.webp)] bg-emerald-600 before:bg-emerald-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-emerald-700/70">
+                <div class="relative h-full flex flex-col-reverse p-8 group-hover/caseStudies:py-8 group-hover/caseStudies:px-3 duration-300 group-hover/caseStudy:!p-8">
+                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-emerald-950/50 mix-blend-multiply xl:group-hover/caseStudy:bg-transparent before:bg-gradient-to-t before:from-emerald-950 before:via-emerald-900/80 before:to-emerald-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/caseStudy:translate-y-0 before:duration-300"></div>
+                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/caseStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/caseStudies:translate-y-[calc(100%-20px)] xl:group-hover/caseStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
+                        <div class="w-full">
+                            <span class="rounded-md rounded-br-none duration-300 select-none text-base xl:text-xl xl:group-hover/caseStudies:text-base xl:group-hover/caseStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-emerald-600 via-white to-emerald-600 bg-clip-text text-transparent">MyFab11</span>
+                        </div>
+                        <div class="w-full font-bold text-xl mb-4 select-none bg-gradient-to-bl from-emerald-300 via-white to-emerald-300 bg-clip-text text-transparent">Principle Partner of KKR. india's most trusted Fantasy Cricket App</div>
+                        <div class="w-full">
+                            <a href="javascript:;" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/caseStudy">
+            <div class="relative [background-image:url(https://www.imgglobalinfotech.com/public/assets/img/hero-section/fabindia.webp)] bg-red-600 before:bg-red-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-red-700/70">
+                <div class="relative h-full flex flex-col-reverse p-8 group-hover/caseStudies:py-8 group-hover/caseStudies:px-3 duration-300 group-hover/caseStudy:!p-8">
+                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-red-950/50 mix-blend-multiply xl:group-hover/caseStudy:bg-transparent before:bg-gradient-to-t before:from-red-950 before:via-red-900/80 before:to-red-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/caseStudy:translate-y-0 before:duration-300"></div>
+                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/caseStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/caseStudies:translate-y-[calc(100%-20px)] xl:group-hover/caseStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
+                        <div class="w-full">
+                            <span class="rounded-md rounded-br-none duration-300 select-none text-base xl:text-xl xl:group-hover/caseStudies:text-base xl:group-hover/caseStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-red-600 via-white to-red-600 bg-clip-text text-transparent">Fabindia</span>
+                        </div>
+                        <div class="w-full font-bold text-xl mb-4 select-none bg-gradient-to-bl from-red-300 via-white to-red-300 bg-clip-text text-transparent">Shop for Handwoven Garments & home fusnishings</div>
+                        <div class="w-full">
+                            <a href="javascript:;" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xl:w-24 w-full p-3 relative group/caseStudy block text-center">
+            <a class="xl:absolute inset-3 max-xl:py-3 max-xl:px-5 bg-pink-950 cursor-pointer group-hover/caseStudy:scale-95 duration-200 ease-in-out rounded-xl rounded-br-none text-base font-bold text-white xl:[writing-mode:vertical-lr] xl:flex inline-flex items-center justify-center">View All CaseStudy</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="relative isolate py-16 sm:py-24 lg:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto grid items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
             <div class="max-w-xl lg:max-w-lg">
@@ -518,35 +610,31 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         </div>
     </div>
     <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
-        <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-pink-600 to-purple-600 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
 </div>
 
 
 
 <div class="bg-white">
-    <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-        <h2 class="font-bold text-theme2/20 text-3xl py-3">CTA Button One</h2>
-        <div class="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="relative isolate overflow-hidden text-center justify-center bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
             <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0" aria-hidden="true">
                 <circle cx="512" cy="512" r="512" fill="url(#759c1415)" fill-opacity="0.7" />
                 <defs>
                     <radialGradient id="759c1415">
-                        <stop stop-color="#7775D6" />
-                        <stop offset="1" stop-color="#E935C1" />
+                        <stop stop-color="#9333ea" />
+                        <stop offset="1" stop-color="#db2777" />
                     </radialGradient>
                 </defs>
             </svg>
-            <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-                <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Boost your productivity.<br>Start using our app today.</h2>
-                <p class="mt-6 text-lg leading-8 text-gray-300">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.</p>
-                <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                    <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
-                    <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+            <div class="mx-auto max-w-3xl lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+                <h2 class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center">Let’s turn your <span class="font-bold bg-gradient-to-r from-fuchsia-800 via-purple-600 to-fuchsia-800 bg-clip-text text-transparent">business idea into reality</span></h2>
+                <p class="mt-6 text-lg leading-8 text-gray-300 text-center">Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one of our executives will catch you up in no time by Call, Email or Skype.</p>
+                <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Book A Discovery Call</a>
+                    {{-- <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a> --}}
                 </div>
-            </div>
-            <div class="relative mt-16 h-80 lg:mt-8">
-                <img class="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10" src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="App screenshot" width="1824" height="1080">
             </div>
         </div>
     </div>
