@@ -244,12 +244,7 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     });
 
-    let card =  document.querySelector('.card')
-    // console.log(card)
-    card.forEach(function(e){
-        e.addEventListener('click', (aa)=>{
-            aa.classList.add('show')
-        })
+    
     })
 
     var swiper = new Swiper(".doubleSwiper", {
@@ -262,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function () {
         direction: "vertical",
         autoplay: true,
         });
-        var swiper2 = new Swiper(".doubleSwiper2", {
+        var swiper = new Swiper(".doubleSwiper2", {
         loop: true,
         spaceBetween: 10,
         autoplay: true,
