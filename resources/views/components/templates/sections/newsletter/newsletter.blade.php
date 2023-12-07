@@ -86,11 +86,11 @@
         Take A Sneak Peak to Our Portfolio And Elevate Your Expectations!
     </div>
     <div class="flex bg-black h-[420px] mt-5">
-        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2 doubleSwiper2 flex relative w-[30%]">
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper doubleSwiper2 flex relative w-[30%]">
             <div class="swiper-wrapper absolute top-0 right-0 !w-[100%]">
-                <div class="swiper-slide bg-[#0a4c67] !h-[400px] !w-full rounded-3xl overflow-hidden p-4 px-auto">
+                <div class="swiper-slide bg-gradient-to-r from-pink-600 to-red-500 !h-[400px] !w-full rounded-3xl overflow-hidden p-4 px-auto">
                     <div class="textDiv h-full my-auto flex items-center justify-center flex-col">
-                        <div class="heading text-[50px] font-bold text-white py-5">
+                        <div class="heading text-[50px] font-bold text-white pt-5">
                             My Fab 11
                         </div>
                         <div class="subHEading text-xl font-medium  text-white">
@@ -137,10 +137,14 @@
                 </div>
             </div> --}}
         </div>
-        <div thumbsSlider="" class="swiper mySwiper doubleSwiper absolute top-0 left-0 !w-[60%] overflow-hidden h-[400px]">
+        <div thumbsSlider="" class="swiper doubleSwiper absolute top-0 left-0 !w-[60%] overflow-hidden h-[400px]">
             <div class="swiper-wrapper h-[400px]">
                 <div class="swiper-slide my-auto h-[400px]  rounded-4xl">
-                    <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
+                    <div class="bg-gradient-to-r from-pink-600 to-red-500 h-full w-full rounded-2xl group duration-300">
+                        <img src="{{asset("img/fabindia.webp")}}" class="h-full mx-auto duration-300 group-hover:scale-105"/>
+                    </div>
+
+                
                 </div>
                 <div class="swiper-slide">
                     <img src="{{asset("img/pizza.webp")}}" class="h-full w-full object-cover"/>
