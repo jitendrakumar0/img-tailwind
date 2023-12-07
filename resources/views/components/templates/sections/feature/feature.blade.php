@@ -1011,6 +1011,105 @@
         </div>
     </div>
 
+    
+    <div class="container mx-auto">
+        <div class="flex flex-row flex-wrap w-full gap3">
+            <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
+                <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/25 after:to-black/5 after:mix-blend-multiply after:duration-700 duration-300">
+                    <img src="{{asset("img/bank-and-finance.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150">
+                    <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
+                        Banking and Finance
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/3  md:w-1/3 w-1/2 p-1">
+                <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/25 after:to-black/5 after:mix-blend-multiply after:duration-700 duration-300">
+                    <img src="{{asset("img/fantasy-sports.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150">
+                    <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
+                        Fantasy Sports 
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/6  md:w-1/3 w-1/2 p-1">
+                <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/25 after:to-black/5 after:mix-blend-multiply after:duration-700 duration-300">
+                    <img src="{{asset("img/healthcare.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150">
+                    <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
+                        Healthcare 
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
+                <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/25 after:to-black/5 after:mix-blend-multiply after:duration-700 duration-300">
+                    <img src="{{asset("img/edTech-solution.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150">
+                    <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
+                        EdTech Solution 
+                    </div>
+                </a>
+
+            
+            </div>
+            <div class="xl:w-1/4 md:w-1/3 sm:w-1/2 w-full p-1">
+                <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/25 after:to-black/5 after:mix-blend-multiply after:duration-700 duration-300">
+                    <img src="{{asset("img/travel-and-tourism.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150">
+                    <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
+                        Travel and Tourism 
+                    </div>
+                </a>
+
+            
+            </div>
+            <div class="xl:w-1/2 md:w-1/3 sm:w-1/2 w-full p-1">
+                <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/25 after:to-black/5 after:mix-blend-multiply after:duration-700 duration-300">
+                    <img src="{{asset("img/media-and-entertainment.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150">
+                    <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
+                        Media and Entertainment 
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
+                <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/25 after:to-black/5 after:mix-blend-multiply after:duration-700 duration-300">
+                    <img src="{{asset("img/retail-and-ecommerce-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150">
+                    <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
+                        Retail and Ecommerce App 
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
+                <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/25 after:to-black/5 after:mix-blend-multiply after:duration-700 duration-300">
+                    <img src="{{asset("img/logistics-services-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150">
+                    <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
+                        Logistics Services App 
+                    </div>
+                </a>
+
+            
+            </div>
+            <div class="xl:w-1/6 md:w-1/3 w-1/2 p-1">
+                <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/25 after:to-black/5 after:mix-blend-multiply after:duration-700 duration-300">
+                    <img src="{{asset("img/social-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150">
+                    <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
+                        Social App 
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 w-1/2 p-1">
+                <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/25 after:to-black/5 after:mix-blend-multiply after:duration-700 duration-300">
+                    <img src="{{asset("img/real-estate.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150">
+                    <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
+                        Real Estate  
+                    </div>
+                </a>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 sm:w-1/2 w-full p-1">
+                <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/25 after:to-black/5 after:mix-blend-multiply after:duration-700 duration-300">
+                    <img src="{{asset("img/on-demand.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150">
+                    <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
+                        Event management 
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 
 @endsection
 
