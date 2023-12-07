@@ -6,7 +6,7 @@
 @endpush
 
 @section('content')
-<div class=" border bg-theme1 py-10 relative overflow-hidden after:absolute after:right-0 after:top-0 after:bg-[url('../../../../../../img/hero-dot-bg.png')] after:bg-cover after:bg-center after:bg-no-repeat after:h-[600px] after:w-[600px] after:scale-[1.8]">
+<div class=" border bg-theme1 py-10 relative overflow-hidden after:absolute after:right-0 after:top-0 after:bg-[url('./img/hero-dot-bg.png')] after:bg-cover after:bg-center after:bg-no-repeat after:h-[600px] after:w-[600px] after:scale-[1.8]">
     <div class="container mx-auto z-30 after:absolute after:w-20 after:rounded-full after:h-20 after:right-[50px] after:bottom-[50px] after:bg-gradient-to-br after:from-blue-300 after:to-green-500  before:absolute before:w-20 before:rounded-full before:h-20 before:lg:left-[500px] md:left-[300px] :left-[200px] before:top-[300px] before:bg-gradient-to-br before:from-pink-400 before:to-pink-600 ">
         <div class="ps-4">
             <div class="lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-bold text-white">Alchemy of Excellence</div>
@@ -141,7 +141,7 @@
 </div>
 
 
-<div class="overflow-hidden bg-[url('../../../../../../img/meeting.jpg')] bg-no-repeat bg-cover bg-center py-10 lg:h-screen relative after:absolute after:inset-0 after:bg-gradient-to-b after:from-blue-900/90 after:to-blue-950/90 after:mix-blend-multiply before:absolute before:inset-0 before:bg-gradint before:bg-gradient-to-b before:from-black/70 before:to-black/70 before:mix-blend-multiply">
+<div class="overflow-hidden bg-[url('./img/meeting.jpg')] bg-no-repeat bg-cover bg-center py-10 lg:h-screen relative after:absolute after:inset-0 after:bg-gradient-to-b after:from-blue-900/90 after:to-blue-950/90 after:mix-blend-multiply before:absolute before:inset-0 before:bg-gradint before:bg-gradient-to-b before:from-black/70 before:to-black/70 before:mix-blend-multiply">
     <div class="container mx-auto relative z-20 h-full before:absolute before:w-52 before:mix-blend-screen before:h-52  before:bottom-0 before:rounded-full before:left-[-100px] before:bg-gradient-to-br before:from-pink-400/5 before:to-pink-600/5  after:absolute after:w-52 after:mix-blend-screen after:h-52  after:top-0 after:rounded-full after:right-[-100px] after:bg-gradient-to-br after:from-pink-400/5 after:to-pink-600/5">
         <div class="flex   justify-center h-full flex-col">
             <div class="ps-4">
