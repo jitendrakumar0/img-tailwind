@@ -100,6 +100,7 @@
     <body>
         @include('components.header.header')
         @yield('content')
+        @include('components.footer.footer')
         {{-- <script src="{{ asset('./build/assets/app-ad931ccf.js') }}"></script> --}}
         <script src="{{ asset('./js/app.js') }}"></script>
         @stack('scripts')
