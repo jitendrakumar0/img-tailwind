@@ -315,7 +315,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 
 <div class="relative -mt-[5.75rem] overflow-hidden bg-slate-50 pt-12 md:pt-[5.75rem]">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
-        <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('/img/beams1.png')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block"></div>
+        <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.png')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block"></div>
         <div class="mx-auto max-w-container gap-7 px-4 pt-4 sm:px-6 lg:flex lg:px-8">
             <div class="relative z-10 hidden lg:block select-none pointer-events-none">
                 <div class="mt-6 flex [transform:rotateY(180deg)]">
