@@ -88,21 +88,16 @@
 
         @stack('meta')
         
-
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-        
-        {{-- <link rel="stylesheet" href="{{ asset('./build/assets/app-9bee4986.css') }}"> --}}
-        <link rel="stylesheet" href="{{ asset('./css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('./build/assets/app-a00625de.css') }}">
+        {{-- <link rel="stylesheet" href="{{ asset('./css/app.css') }}"> --}}
         @stack('styles')
     </head>
     <body>
         @include('components.header.header')
         @yield('content')
         @include('components.footer.footer')
-        {{-- <script src="{{ asset('./build/assets/app-ad931ccf.js') }}"></script> --}}
-        <script src="{{ asset('./js/app.js') }}"></script>
+        <script src="{{ asset('./build/assets/app-749d591c.js') }}"></script>
+        {{-- <script src="{{ asset('./js/app.js') }}"></script> --}}
         @stack('scripts')
         <div 
             class='

@@ -359,7 +359,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
             <div class="relative z-20 mx-auto max-w-[40rem] pb-10 md:pb-16 pt-10 md:pt-16 lg:mx-0 lg:w-[40rem] lg:max-w-none lg:flex-none lg:pb-24 lg:pr-4 lg:pt-20">
-                <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black"><span class="font-normal">A Quick Insight Into</span> <span class="font-bold bg-gradient-to-r from-gray-300 via-sky-600 to-gray-300 bg-clip-text text-transparent">IMG Global Infotech</span></p>
+                <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black"><span class="font-normal">A Quick Insight Into</span> <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">IMG Global Infotech</span></p>
                 <p class="mt-4 select-none text-sm md:text-base leading-7 text-slate-600">Discover innovation and excellence at IMG Global Infotech! Immerse yourself in cutting-edge services and high-quality development solutions that redefine the digital landscape. Our dynamic work environment fosters creativity and collaboration to fuel groundbreaking ideas.</p>
                 <p class="mt-4 select-none text-sm md:text-base leading-7 text-slate-600">At IMG, we pride ourselves on timely delivery, transforming visions into reality. From mobile app development to custom software solutions and dedicated developer hiring, we cater to businesses of all scales. Experience top-notch development, reasonable prices, and a partnership that exceeds expectations – at IMG Global Infotech, we make digital dreams come true.</p>
   
@@ -479,7 +479,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
         <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
             <span class="font-normal">What We Can Do</span> 
-            <span class="font-bold bg-gradient-to-r from-gray-300 via-sky-600 to-gray-300 bg-clip-text text-transparent"> For You?</span>
+            <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> For You?</span>
         </p>
         <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1 select-none">
             Experience a journey of innovation with us, where every pixel, code, and concept converges to transform your dreams into reality. Unveil a spectrum of top-notch development services that empower your business vision to thrive in the boundless realm of possibilities.
@@ -1161,7 +1161,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 <div class="flex flex-col w-full max-w-7xl mx-auto px-6 md:px-9 lg:px-11 pb-5">
     <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
         <span class="font-normal">Client Journeys to Success –</span> 
-        <span class="font-bold bg-gradient-to-r from-gray-300 via-sky-600 to-gray-300 bg-clip-text text-transparent"> Glimpse of Our Case Studies</span>
+        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> Glimpse of Our Case Studies</span>
     </p>
     <div class="mt-4 select-none text-base md:text-lg leading-7 text-slate-600">Explore our client success stories, witnessing transformative journeys to success. Each case study below reflects our impactful solutions, showcasing innovation, dedication, and tangible results.</div>
 </div>
@@ -1292,7 +1292,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 <div class="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative pb-5">
     <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white text-center">
         <span class="font-normal">Take A Sneak Peak to Our Portfolio </span> 
-        <span class="font-bold bg-gradient-to-r from-gray-300 via-sky-600 to-gray-300 bg-clip-text text-transparent"> And Elevate Your Expectations!</span>
+        <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-600 to-gray-100 bg-clip-text text-transparent"> And Elevate Your Expectations!</span>
     </p>
 </div>
 <div class="swiper portfolioSwiper w-full">
@@ -1404,7 +1404,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </svg>
         </div>
         <div class="mx-auto max-w-3xl lg:mx-0 lg:flex-auto py-12 md:py-16 lg:py-32 lg:text-left relative z-[1]">
-            <h2 class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center">Let’s turn your <span class="font-bold bg-gradient-to-r from-gray-300 via-sky-600 to-gray-300 bg-clip-text text-transparent">business idea into reality</span></h2>
+            <h2 class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center">Let’s turn your <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent">business idea into reality</span></h2>
             <p class="mt-6 text-base md:text-lg md:leading-8 text-gray-300 text-center select-none">Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one of our executives will catch you up in no time by Call, Email or Skype.</p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
                 <a href="#" class="rounded-md rounded-br-none bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 select-none shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Book A Discovery Call</a>
@@ -1429,7 +1429,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
     <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
         <span class="font-normal">Wide Range of </span> 
-        <span class="font-bold bg-gradient-to-r from-gray-300 via-sky-600 to-gray-300 bg-clip-text text-transparent"> Industries Covered By Us!</span>
+        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> Industries Covered By Us!</span>
     </p>
     <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1 select-none">
         Discover the endless possibilities with our versatile mobile app and web development solutions. From tech to healthcare, we cater to a diverse array of industries, ensuring innovation and excellence across every sector. Explore the major sector we deal in!
@@ -1548,7 +1548,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 <div class="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative">
     <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white text-center">
         <span class="font-normal">What Our Clients </span> 
-        <span class="font-bold bg-gradient-to-r from-gray-300 via-sky-600 to-gray-300 bg-clip-text text-transparent"> Have to Say?</span>
+        <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent"> Have to Say?</span>
     </p>
     <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 select-none text-center">
         Dive into the testimonials that paint a vivid picture of our journey with our potential client so far. Take a glimpse into our exceptional assistance and begin your success story with us today.
@@ -1973,7 +1973,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative">
         <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white">
             <span class="font-normal">Transform Your Business </span> 
-            <span class="font-bold bg-gradient-to-r from-gray-300 via-sky-600 to-gray-300 bg-clip-text text-transparent"> Idea Into Reality!</span>
+            <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent"> Idea Into Reality!</span>
         </p>
         <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 select-none">
             Are you looking for skilled professionals who can bring your business vision into life? IMG Global Infotech can be your one-stop destination. Connect with us today!
