@@ -2969,21 +2969,6 @@ select {
 .\[background-image\:linear-gradient\(90deg\2c rgba\(56\2c 189\2c 248\2c 0\)_0\%\2c \#0EA5E9_32\.29\%\2c rgba\(236\2c 72\2c 153\2c 0\.3\)_67\.19\%\2c rgba\(236\2c 72\2c 153\2c 0\)_100\%\)\] {
   background-image: linear-gradient(90deg,rgba(56,189,248,0) 0%,#0EA5E9 32.29%,rgba(236,72,153,0.3) 67.19%,rgba(236,72,153,0) 100%);
 }
-.\[background-image\:url\(\.\.\/img\/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders\.png\)\] {
-  background-image: url(../img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.png);
-}
-.\[background-image\:url\(\.\.\/img\/elevate-your-vision-with-robust-and-scalable-mobile-app-development1\.png\)\] {
-  background-image: url(../img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.png);
-}
-.\[background-image\:url\(\.\.\/img\/enhance-your-brand-presence-with-innovative-web-development-solutions\.png\)\] {
-  background-image: url(../img/enhance-your-brand-presence-with-innovative-web-development-solutions.png);
-}
-.\[background-image\:url\(\.\.\/img\/level_up_your_business_game_with_fantasy_sports_app_development\!\.png\)\] {
-  background-image: url(../img/level_up_your_business_game_with_fantasy_sports_app_development!.png);
-}
-.\[background-image\:url\(\.\.\/img\/unlock-access-to-bespoke-apps-and-product-innovation-with-us\.png\)\] {
-  background-image: url(../img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.png);
-}
 .\[background-image\:url\(https\:\/\/www\.imgglobalinfotech\.com\/public\/assets\/img\/hero-section\/fab11\.webp\)\] {
   background-image: url(https://www.imgglobalinfotech.com/public/assets/img/hero-section/fab11.webp);
 }
@@ -2995,6 +2980,21 @@ select {
 }
 .\[background-image\:url\(https\:\/\/www\.imgglobalinfotech\.com\/public\/assets\/img\/hero-section\/hozzo\.webp\)\] {
   background-image: url(https://www.imgglobalinfotech.com/public/assets/img/hero-section/hozzo.webp);
+}
+.\[background-image\:url\(public\/img\/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders\.png\)\] {
+  background-image: url(public/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.png);
+}
+.\[background-image\:url\(public\/img\/elevate-your-vision-with-robust-and-scalable-mobile-app-development1\.png\)\] {
+  background-image: url(public/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.png);
+}
+.\[background-image\:url\(public\/img\/enhance-your-brand-presence-with-innovative-web-development-solutions\.png\)\] {
+  background-image: url(public/img/enhance-your-brand-presence-with-innovative-web-development-solutions.png);
+}
+.\[background-image\:url\(public\/img\/level_up_your_business_game_with_fantasy_sports_app_development\!\.png\)\] {
+  background-image: url(public/img/level_up_your_business_game_with_fantasy_sports_app_development!.png);
+}
+.\[background-image\:url\(public\/img\/unlock-access-to-bespoke-apps-and-product-innovation-with-us\.png\)\] {
+  background-image: url(public/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.png);
 }
 .\[box-shadow\:_0_0_12px_rgba\(255\2c 255\2c 255\2c 0\.3\)\] {
   box-shadow: 0 0 12px rgba(255,255,255,0.3);
@@ -3037,6 +3037,21 @@ select {
 }
 .\[transform\:rotateY\(180deg\)\] {
   transform: rotateY(180deg);
+}
+.\[background-image\:url\(\.\.\/img\/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders\.png\)\] {
+  background-image: url(../img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.png);
+}
+.\[background-image\:url\(\.\.\/img\/elevate-your-vision-with-robust-and-scalable-mobile-app-development1\.png\)\] {
+  background-image: url(../img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.png);
+}
+.\[background-image\:url\(\.\.\/img\/enhance-your-brand-presence-with-innovative-web-development-solutions\.png\)\] {
+  background-image: url(../img/enhance-your-brand-presence-with-innovative-web-development-solutions.png);
+}
+.\[background-image\:url\(\.\.\/img\/level_up_your_business_game_with_fantasy_sports_app_development\!\.png\)\] {
+  background-image: url(../img/level_up_your_business_game_with_fantasy_sports_app_development!.png);
+}
+.\[background-image\:url\(\.\.\/img\/unlock-access-to-bespoke-apps-and-product-innovation-with-us\.png\)\] {
+  background-image: url(../img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.png);
 }
 /**
  * Swiper 11.0.5
@@ -3781,6 +3796,10 @@ select {
 .after\:duration-700::after {
   content: var(--tw-content);
   transition-duration: 700ms;
+}
+.after\:\[background-image\:url\(public\/img\/grid\.svg\)\]::after {
+  content: var(--tw-content);
+  background-image: url(public/img/grid.svg);
 }
 .after\:\[background-image\:url\(\.\.\/img\/grid\.svg\)\]::after {
   content: var(--tw-content);

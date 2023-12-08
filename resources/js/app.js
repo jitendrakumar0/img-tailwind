@@ -1,5 +1,5 @@
 import Swiper from 'swiper/bundle';
-
+import '../sass/app.scss';
 
 import 'swiper';
 import 'swiper/css';
