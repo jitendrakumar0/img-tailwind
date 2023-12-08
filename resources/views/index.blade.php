@@ -93,12 +93,93 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        {{-- <link rel="stylesheet" href="{{ asset('./build/assets/app-9bee4986.css') }}"> --}}
+        <link rel="stylesheet" href="{{ asset('./css/app.css') }}">
         @stack('styles')
     </head>
     <body>
+        @include('components.header.header')
         @yield('content')
-        <script src="{{ asset('js/app.js') }}"></script>
+        {{-- <script src="{{ asset('./build/assets/app-ad931ccf.js') }}"></script> --}}
+        <script src="{{ asset('./js/app.js') }}"></script>
         @stack('scripts')
+        <div 
+            class='
+            cursor 
+            fixed 
+            rounded-full 
+            -translate-x-1/2 
+            -translate-y-1/2 
+            pointer-events-none 
+            -left-[100px] 
+            top-1/2 
+            border-[3px] 
+            border-white 
+            w-0 
+            h-0 
+            z-[1000] 
+            group-[]/preload:border-0
+            transition
+            ' 
+            id="cursor"
+        ></div>
+        <div 
+            class='
+            cursor2 
+            fixed 
+            rounded-full 
+            -translate-x-1/2 
+            -translate-y-1/2 
+            pointer-events-none 
+            -left-[100px] 
+            top-1/2 
+            border-[3px] 
+            border-white 
+            shadow-2xl 
+            shadow-white/60 
+            z-[1000] 
+            w-9 
+            h-9
+            transition
+            [box-shadow:_0_0_12px_rgba(255,255,255,0.3)]
+
+            group-[.hover]:scale-[2]
+            group-[.hover]:-translate-x-1/2
+            group-[.hover]:-translate-y-1/2
+            group-[.hover]:border-0
+            group-[.hover]:bg-white/10
+            group-[.hover]:[box-shadow:_0_0_12px_rgba(255,255,255,0.3)]
+
+            group-[]/cyan:border-[3px]
+            group-[]/cyan:border-solid
+            group-[]/cyan:border-cyan-600
+            group-[]/cyan:[box-shadow:0_0_14px_rgba(155,89,182,0.6)]
+
+
+            group-[.hover]/cyan:bg-cyan-600/10
+            group-[.hover]/cyan:border-0
+            group-[.hover]/cyan:[box-shadow:0_0_14px_rgba(155,89,182,0.3)]
+
+            group-[]/preload:border
+            group-[]/preload:border-solid
+            group-[]/preload:border-white
+            group-[]/preload:[box-shadow:_0_0_12px_rgba(255,255,255,0.6)]
+            group-[]/preload:scale-[2]
+            group-[]/preload:-translate-x-1/2
+            group-[]/preload:-translate-y-1/2
+            group-[]/preload:backdrop-sepia
+
+            group-[.hover]/preload:bg-transparent
+            group-[.hover]/preload:bg-no-repeat
+            group-[.hover]/preload:drop-shadow-lg
+            group-[.hover]/preload:[background-image:url(https://ivang-design.com/svg-load/rings.svg)]
+            group-[.hover]/preload:[background-size:55px_55px]
+            group-[.hover]/preload:[background-position:center_center]
+            group-[.hover]/preload:border-0
+            group-[.hover]/preload:[box-shadow:0_0_14px_rgba(255,255,255,0)]
+            group-[.hover]/preload:opacity-50
+            ' 
+            id="cursor2"
+        ></div>
     </body>
 </html>
