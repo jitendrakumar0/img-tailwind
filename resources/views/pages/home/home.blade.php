@@ -320,7 +320,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="relative z-10 hidden lg:block select-none pointer-events-none">
                 <div class="mt-6 flex [transform:rotateY(180deg)]">
                     <div class="relative flex-shrink-0 p-4">
-                        <div class="relative z-10 overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px]" src="/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.png"></div>
+                        <div class="relative z-10 overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px]" src="{{ asset('img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.png') }}"></div>
                         <div class="z-0">
                         <div class="absolute -right-12 left-0 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
                         <div class="absolute -top-8 bottom-0 left-12 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
@@ -335,7 +335,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </div>
                     </div>
                     <div class="relative mt-14 flex-shrink-0 p-4">
-                        <div class="overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px]" src="/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.png"></div>
+                        <div class="overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px]" src="{{ asset('/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.png') }}"></div>
                         <div>
                         <div class="absolute -left-4 -right-8 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
                         <div class="absolute -bottom-12 -top-20 right-0 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>

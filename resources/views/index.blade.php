@@ -88,16 +88,16 @@
 
         @stack('meta')
         
-        <link rel="stylesheet" href="{{ asset('./build/assets/app-a00625de.css') }}">
-        {{-- <link rel="stylesheet" href="{{ asset('./css/app.css') }}"> --}}
+        {{-- <link rel="stylesheet" href="build/{{ mix_versioned('public/css/app.css') }}"> --}}
+        <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
         @stack('styles')
     </head>
     <body>
         @include('components.header.header')
         @yield('content')
         @include('components.footer.footer')
-        <script src="{{ asset('./build/assets/app-749d591c.js') }}"></script>
-        {{-- <script src="{{ asset('./js/app.js') }}"></script> --}}
+        {{-- <script src="build/{{ mix_versioned('public/js/app.js') }}"></script> --}}
+        <script src="{{ asset('/js/app.js') }}"></script>
         @stack('scripts')
         <div 
             class='
