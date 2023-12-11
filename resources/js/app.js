@@ -249,15 +249,27 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.classList.remove("group/preload");
     }
     
+
+    const accordionButtons = document.querySelectorAll('.accordion-btn');
+
+    accordionButtons.forEach( function (e){
+        e.addEventListener('click', function(event){
+            this.classList.toggle('active');
+
+            const contentInner = this.nextElementSibling;
+            if(contentInner.style.display ===  'block'){
+                contentInner.style.display = "none";
+            } else{
+                contentInner.style.display = "block";
+            }
+        
+
+        })
+    })
     
 
 
-    let card =  document.querySelector('.card')
-    // console.log(card)
-    card.forEach(function(e){
-        e.addEventListener('click', (aa)=>{
-            aa.classList.add('show')
-        })
-    })
+
+
 });
 
