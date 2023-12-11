@@ -583,11 +583,13 @@ module.exports = function (list, options) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper/bundle */ "./node_modules/swiper/swiper-bundle.mjs");
-/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.mjs");
-/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/css */ "./node_modules/swiper/swiper.css");
-/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper/css/navigation */ "./node_modules/swiper/modules/navigation.css");
-/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! swiper/css/pagination */ "./node_modules/swiper/modules/pagination.css");
-/* harmony import */ var swiper_css_scrollbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! swiper/css/scrollbar */ "./node_modules/swiper/modules/scrollbar.css");
+/* harmony import */ var _sass_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../sass/app.scss */ "./resources/sass/app.scss");
+/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.mjs");
+/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper/css */ "./node_modules/swiper/swiper.css");
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! swiper/css/navigation */ "./node_modules/swiper/modules/navigation.css");
+/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! swiper/css/pagination */ "./node_modules/swiper/modules/pagination.css");
+/* harmony import */ var swiper_css_scrollbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! swiper/css/scrollbar */ "./node_modules/swiper/modules/scrollbar.css");
+
 
 
 
@@ -743,6 +745,105 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
   });
+  var testimonialsSwiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".testimonialsSwiper", {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    speed: 2000,
+    // allowTouchMove: false,
+    autoplay: {
+      enabled: true,
+      delay: 2500
+    },
+    loop: true,
+    effect: 'coverflow',
+    centeredSlides: true,
+    breakpoints: {
+      320: {
+        slidesPerView: 1.3,
+        spaceBetween: 0
+      },
+      480: {
+        slidesPerView: 1.4,
+        spaceBetween: 10
+      },
+      640: {
+        slidesPerView: 1.5,
+        spaceBetween: 30
+      },
+      1024: {
+        slidesPerView: 1.8,
+        spaceBetween: 30
+      },
+      1350: {
+        slidesPerView: 2,
+        spaceBetween: 30
+      }
+    }
+  });
+  var portfolioSwiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".portfolioSwiper", {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    speed: 2000,
+    // allowTouchMove: false,
+    autoplay: {
+      enabled: true,
+      delay: 2500
+    },
+    loop: true,
+    effect: 'coverflow',
+    centeredSlides: true,
+    breakpoints: {
+      320: {
+        slidesPerView: 1.5,
+        spaceBetween: 20
+      },
+      480: {
+        slidesPerView: 1.8,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 2.5,
+        spaceBetween: 30
+      },
+      1024: {
+        slidesPerView: 3.5,
+        spaceBetween: 30
+      },
+      1350: {
+        slidesPerView: 4,
+        spaceBetween: 30
+      }
+    }
+  });
+  var blogsSwiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".blogsSwiper", {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    speed: 1000,
+    loop: false,
+    effect: 'slide',
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 30
+      },
+      480: {
+        slidesPerView: 1.2,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 30
+      },
+      1024: {
+        slidesPerView: 2.6,
+        spaceBetween: 30
+      },
+      1350: {
+        slidesPerView: 3,
+        spaceBetween: 30
+      }
+    }
+  });
   var servicesSwiperThumb = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".servicesSwiperThumb", {
     spaceBetween: 20,
     slidesPerView: "auto",
@@ -785,23 +886,16 @@ document.addEventListener('DOMContentLoaded', function () {
     link.addEventListener("mouseover", addHoverClass);
     link.addEventListener("mouseout", removeHoverClass);
   });
-
-  // Color change on scroll
   var buttons = document.querySelectorAll("button");
   var anchors = document.querySelectorAll("a");
   buttons.forEach(function (button) {
-    // Your code for each button
     button.addEventListener("mouseover", addColorViolet);
     button.addEventListener("mouseout", removeColorViolet);
   });
   anchors.forEach(function (anchor) {
-    // Your code for each anchor
     anchor.addEventListener("mouseover", addPreload);
     anchor.addEventListener("mouseout", removePreload);
   });
-
-  // Other functions...
-
   function addColorViolet() {
     document.body.classList.add("group/cyan");
   }
@@ -814,18 +908,6 @@ document.addEventListener('DOMContentLoaded', function () {
   function removePreload() {
     document.body.classList.remove("group/preload");
   }
-  var accordionButtons = document.querySelectorAll('.accordion-btn');
-  accordionButtons.forEach(function (e) {
-    e.addEventListener('click', function (event) {
-      this.classList.toggle('active');
-      var contentInner = this.nextElementSibling;
-      if (contentInner.style.display === 'block') {
-        contentInner.style.display = "none";
-      } else {
-        contentInner.style.display = "block";
-      }
-    });
-  });
 });
 
 /***/ }),
