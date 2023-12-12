@@ -1,17 +1,11 @@
 import Swiper from 'swiper/bundle';
-import '../sass/app.scss';
-
 import 'swiper';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 
 document.addEventListener('DOMContentLoaded', function () {
     const progressCircles = document.querySelectorAll(".autoplay-progress svg");
     const progressContents = document.querySelectorAll(".autoplay-progress span");
-    var heroSwiperThumbsSlider = new Swiper(".heroSwiperThumbsSlider", {
+    var heroSwiperThumbs = new Swiper(".heroSwiperThumbs", {
         // spaceBetween: 0,
         slidesPerView: 1,
         // watchSlidesProgress: true,
@@ -29,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         speed: 1500,
         thumbs: {
-            swiper: heroSwiperThumbsSlider,
+            swiper: heroSwiperThumbs,
         },
         loop: true,
         keyboard: {
@@ -96,6 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
         slidesPerView: 1,
         spaceBetween: 20,
         loop: true,
+        centeredSlides: true,
         breakpoints: {
             320: {
                 slidesPerView: 5,
@@ -346,5 +341,31 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.classList.remove("group/preload");
     }
 
+    
+    
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll("img[data-src]");
+
+    const options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.5
+    };
+
+    const observer = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.getAttribute("data-src");
+                observer.unobserve(img);
+            }
+        });
+    }, options);
+
+    images.forEach(img => {
+        observer.observe(img);
+    });
 });
 

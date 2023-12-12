@@ -51,7 +51,7 @@
 <section class="newsletter py-5">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="relative mx-4 overflow-hidden bg-indigo-50 px-4 py-12 sm:py-16 md:py-20 sm:-mx-6 sm:px-6 md:mx-0 rounded-4xl md:px-12 xl:px-24 xl:py-36">
-            <div class="backImg bg-[url('../img/newsBack.jpg')] h-full w-full bg-center absolute lg:left-1/2 top-0  translate-x-[-5%]  md:translate-x-[-7%] lg:translate-x-[-50%]">
+            <div class="backImg bg-[url('../img/newsBack.webp')] h-full w-full bg-center absolute lg:left-1/2 top-0  translate-x-[-5%]  md:translate-x-[-7%] lg:translate-x-[-50%]">
             </div>
             <div class="relative mx-auto grid max-w-2xl grid-cols-1 gap-x-32 gap-y-8 sm:gap-y-10 md:gap-y-14 xl:max-w-none xl:grid-cols-2">
                 <div>
