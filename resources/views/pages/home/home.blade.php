@@ -1260,7 +1260,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
                 <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" data-src="public{{mix('/img/myfab11.webp')}}" alt="MyFab11 App">
+                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                            srcset="
+                                public{{mix('/img/mobile/myfab11.webp')}} 480w,
+                                public{{mix('/img/tablet/myfab11.webp')}} 800w,
+                                public{{mix('/img/myfab11.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix('/img/myfab11.webp')}}" alt="MyFab11 App">
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-green-900/70 before:to-green-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1273,7 +1280,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
                 <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" data-src="public{{mix('/img/Health-app.webp')}}" alt="I-KNOW">
+                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                            srcset="
+                                public{{mix('/img/mobile/Health-app.webp')}} 480w,
+                                public{{mix('/img/tablet/Health-app.webp')}} 800w,
+                                public{{mix('/img/Health-app.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix('/img/Health-app.webp')}}" alt="I KNOW">
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-fuchsia-900/70 before:to-fuchsia-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1286,7 +1300,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
                 <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" data-src="public{{mix('/img/now-vue.webp')}}" alt="Now Vue">
+                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                            srcset="
+                                public{{mix('/img/mobile/now-vue.webp')}} 480w,
+                                public{{mix('/img/tablet/now-vue.webp')}} 800w,
+                                public{{mix('/img/now-vue.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix('/img/now-vue.webp')}}" alt="Now Vue">
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-amber-900/70 before:to-amber-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1299,7 +1320,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
                 <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" data-src="public{{mix('/img/ipay.webp')}}" alt="iPay">
+                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                            srcset="
+                                public{{mix('/img/mobile/ipay.webp')}} 480w,
+                                public{{mix('/img/tablet/ipay.webp')}} 800w,
+                                public{{mix('/img/ipay.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix('/img/ipay.webp')}}" alt="iPay project">
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-indigo-900/70 before:to-indigo-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1312,7 +1340,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
                 <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" data-src="public{{mix('/img/destist-online.webp')}}" alt="Dentist Online">
+                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                            srcset="
+                                public{{mix('/img/mobile/destist-online.webp')}} 480w,
+                                public{{mix('/img/tablet/destist-online.webp')}} 800w,
+                                public{{mix('/img/destist-online.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix('/img/destist-online.webp')}}" alt="Dentist Online">
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-cyan-900/70 before:to-cyan-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1325,7 +1360,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
                 <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" data-src="public{{mix('/img/EcoCosmo-Project.webp')}}" alt="EcoCosmo">
+                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                            srcset="
+                                public{{mix('/img/mobile/EcoCosmo-Project.webp')}} 480w,
+                                public{{mix('/img/tablet/EcoCosmo-Project.webp')}} 800w,
+                                public{{mix('/img/EcoCosmo-Project.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix('/img/EcoCosmo-Project.webp')}}" alt="EcoCosmo Project">
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-emerald-900/70 before:to-emerald-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1398,7 +1440,20 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="flex flex-row flex-wrap w-full gap3 pt-8">
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" data-src="public{{mix("/img/bank-and-finance.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img 
+                            width="296" 
+                            height="222" 
+                            srcset="
+                                public{{mix('/img/mobile/bank-and-finance.webp')}} 480w,
+                                public{{mix('/img/tablet/bank-and-finance.webp')}} 800w,
+                                public{{mix('/img/bank-and-finance.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix("/img/bank-and-finance.webp")}}" 
+                            alt="thanku" 
+                            class="w-full h-full object-cover duration-1000 group-hover:scale-150" 
+                            loading="lazy"
+                        >
                         <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
                             Banking and Finance
                         </div>
@@ -1406,7 +1461,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/3  md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="297.33" height="222" data-src="public{{mix("/img/fantasy-sports.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="297.33" height="222" 
+                            srcset="
+                                public{{mix('/img/mobile/fantasy-sports.webp')}} 480w,
+                                public{{mix('/img/tablet/fantasy-sports.webp')}} 800w,
+                                public{{mix('/img/fantasy-sports.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix("/img/fantasy-sports.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
                             Fantasy Sports 
                         </div>
@@ -1414,7 +1476,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/6  md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="194.66" height="222" data-src="public{{mix("/img/healthcare.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="194.66" height="222" 
+                            srcset="
+                                public{{mix('/img/mobile/healthcare.webp')}} 480w,
+                                public{{mix('/img/tablet/healthcare.webp')}} 800w,
+                                public{{mix('/img/healthcare.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix("/img/healthcare.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
                             Healthcare 
                         </div>
@@ -1422,7 +1491,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" data-src="public{{mix("/img/edTech-solution.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" 
+                            srcset="
+                                public{{mix('/img/mobile/edTech-solution.webp')}} 480w,
+                                public{{mix('/img/tablet/edTech-solution.webp')}} 800w,
+                                public{{mix('/img/edTech-solution.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix("/img/edTech-solution.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
                             EdTech Solution 
                         </div>
@@ -1432,7 +1508,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 sm:w-1/2 w-full p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" data-src="public{{mix("/img/travel-and-tourism.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" 
+                            srcset="
+                                public{{mix('/img/mobile/travel-and-tourism.webp')}} 480w,
+                                public{{mix('/img/tablet/travel-and-tourism.webp')}} 800w,
+                                public{{mix('/img/travel-and-tourism.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix("/img/travel-and-tourism.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
                             Travel and Tourism 
                         </div>
@@ -1442,7 +1525,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/2 md:w-1/3 sm:w-1/2 w-full p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="600" height="222" data-src="public{{mix("/img/media-and-entertainment.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="600" height="222" 
+                            srcset="
+                                public{{mix('/img/mobile/media-and-entertainment.webp')}} 480w,
+                                public{{mix('/img/tablet/media-and-entertainment.webp')}} 800w,
+                                public{{mix('/img/media-and-entertainment.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix("/img/media-and-entertainment.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
                             Media and Entertainment 
                         </div>
@@ -1450,7 +1540,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" data-src="public{{mix("/img/retail-and-ecommerce-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" 
+                            srcset="
+                                public{{mix('/img/mobile/retail-and-ecommerce-app.webp')}} 480w,
+                                public{{mix('/img/tablet/retail-and-ecommerce-app.webp')}} 800w,
+                                public{{mix('/img/retail-and-ecommerce-app.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix("/img/retail-and-ecommerce-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
                             Retail and Ecommerce App 
                         </div>
@@ -1458,7 +1555,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" data-src="public{{mix("/img/logistics-services-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" 
+                            srcset="
+                                public{{mix('/img/mobile/logistics-services-app.webp')}} 480w,
+                                public{{mix('/img/tablet/logistics-services-app.webp')}} 800w,
+                                public{{mix('/img/logistics-services-app.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix("/img/logistics-services-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
                             Logistics Services App 
                         </div>
@@ -1468,7 +1572,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/6 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="194.66" height="222" data-src="public{{mix("/img/social-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="194.66" height="222" 
+                            srcset="
+                                public{{mix('/img/mobile/social-app.webp')}} 480w,
+                                public{{mix('/img/tablet/social-app.webp')}} 800w,
+                                public{{mix('/img/social-app.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix("/img/social-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
                             Social App 
                         </div>
@@ -1476,7 +1587,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/3 md:w-1/2 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="397.33" height="222" data-src="public{{mix("/img/real-estate.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="397.33" height="222" 
+                            srcset="
+                                public{{mix('/img/mobile/real-estate.webp')}} 480w,
+                                public{{mix('/img/tablet/real-estate.webp')}} 800w,
+                                public{{mix('/img/real-estate.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix("/img/real-estate.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
                             Real Estate  
                         </div>
@@ -1484,7 +1602,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/4 md:w-1/2 sm:w-1/2 w-full p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" data-src="public{{mix("/img/on-demand.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" 
+                            srcset="
+                                public{{mix('/img/mobile/on-demand.webp')}} 480w,
+                                public{{mix('/img/tablet/on-demand.webp')}} 800w,
+                                public{{mix('/img/on-demand.webp')}} 1200w
+                            "
+                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
+                            data-src="public{{mix("/img/on-demand.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
                             Event management 
                         </div>
