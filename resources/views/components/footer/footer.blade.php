@@ -1,5 +1,5 @@
 
-<div class="relative bg-gradient-to-b via-gray-800 from-gray-900 py-8 sm:py-16">
+<div class="relative bg-gradient-to-b via-gray-800 from-gray-900 py-8 sm:py-16 text-white">
     <div class="text-black/20">
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
             <defs>
@@ -11,16 +11,16 @@
         </svg>
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative">
-        <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white">
+        <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
             <span class="font-normal">Transform Your Business </span> 
             <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent"> Idea Into Reality!</span>
         </p>
-        <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 select-none">
+        <div class="md:text-base text-sm opacity-70 mt-3 mb-lg-1 select-none">
             Are you looking for skilled professionals who can bring your business vision into life? IMG Global Infotech can be your one-stop destination. Connect with us today!
         </div>
         <div class="relative flex flex-wrap py-6 md:py-14 xl:py-16">
             <div class="w-full lg:w-1/2 p-8 md:p-16 bg-cyan-800 relative select-none">
-                <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 [mask-image:linear-gradient(to_bottom,transparent,white)] pointer-events-none">
+                <div class="absolute inset-x-0 bottom-0 h-96 z-0 opacity-20 [mask-image:linear-gradient(to_bottom,transparent,white)] pointer-events-none">
                     <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                         <defs>
                             <pattern id="ryhhgfbyyui" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
@@ -30,32 +30,32 @@
                         <rect width="100%" height="100%" fill="url(#ryhhgfbyyui)"></rect>
                     </svg>
                 </div>
-                <div class="w-full text-lg md:text-xl lg:text-2xl text-white font-bold">What can we help you with?</div>
-                <div class="w-full text-sm md:text-base text-white pt-2">Our Consultants Will Reply Back To You Within 8 Hours Or Less</div>
+                <div class="w-full text-lg md:text-xl lg:text-2xl font-bold">What can we help you with?</div>
+                <div class="w-full text-sm md:text-base pt-2">Our Consultants Will Reply Back To You Within 8 Hours Or Less</div>
                 <div class="flex flex-wrap items-center justify-between py-8">
                     <div class="w-auto group/ba">
                         <div class="w-full">
                             <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900 lazyload" width="80" height="80" data-src="public{{mix('/img/evelyn.webp')}}" alt="Image of evelyn">
                         </div>
-                        <div class="w-full text-center text-sm md:text-base text-white pt-2">Evelyn</div>
+                        <div class="w-full text-center text-sm md:text-base pt-2">Evelyn</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
                             <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900 lazyload" width="80" height="80" data-src="public{{mix('/img/kapil1.webp')}}" alt="Image of Kapil Sharma">
                         </div>
-                        <div class="w-full text-center text-sm md:text-base text-white pt-2">Kapil Sharma</div>
+                        <div class="w-full text-center text-sm md:text-base pt-2">Kapil Sharma</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
                             <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900 lazyload" width="80" height="80" data-src="public{{mix('/img/Yeshi.webp')}}" alt="Image of Yeshi S.">
                         </div>
-                        <div class="w-full text-center text-sm md:text-base text-white pt-2">Yeshi S.</div>
+                        <div class="w-full text-center text-sm md:text-base pt-2">Yeshi S.</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
                             <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900 lazyload" width="80" height="80" data-src="public{{mix('/img/mohd-nizamuddin.webp')}}" alt="Image of Mohd. Nizam">
                         </div>
-                        <div class="w-full text-center text-sm md:text-base text-white pt-2">Mohd. Nizam</div>
+                        <div class="w-full text-center text-sm md:text-base pt-2">Mohd. Nizam</div>
                     </div>
                 </div>
                 <div class="flex flex-wrap items-center gap-y-8 py-5">
@@ -64,8 +64,8 @@
                             <img class="w-full h-full object-contain lazyload" width="48" height="52" data-src="public{{mix('/img/Apps-Delivered.webp')}}" alt="Apps Delivered">
                         </div>
                         <div class="grow pl-3">
-                            <div class="w-full text-base md:text-lg text-white font-bold">1000 +</div>
-                            <div class="w-full text-sm md:text-base text-white font-semibold">Apps Delivered</div>
+                            <div class="w-full text-base md:text-lg font-bold">1000 +</div>
+                            <div class="w-full text-sm md:text-base font-semibold">Apps Delivered</div>
                         </div>
                     </div>
                     <div class="w-1/2 flex">
@@ -73,8 +73,8 @@
                             <img class="w-full h-full object-contain lazyload" width="48" height="52" data-src="public{{mix('/img/Awards-In-Last-11-Years.webp')}}" alt="Awards In Last 11 Years">
                         </div>
                         <div class="grow pl-3">
-                            <div class="w-full text-base md:text-lg text-white font-bold">100 +</div>
-                            <div class="w-full text-sm md:text-base text-white font-semibold">Awards In Last 11 Years</div>
+                            <div class="w-full text-base md:text-lg font-bold">100 +</div>
+                            <div class="w-full text-sm md:text-base font-semibold">Awards In Last 11 Years</div>
                         </div>
                     </div>
                     <div class="w-1/2 flex">
@@ -82,8 +82,8 @@
                             <img class="w-full h-full object-contain lazyload" width="48" height="52" data-src="public{{mix('/img/Client-Satisfaction.webp')}}" alt="Awards In Last 11 Years">
                         </div>
                         <div class="grow pl-3">
-                            <div class="w-full text-base md:text-lg text-white font-bold">100 %</div>
-                            <div class="w-full text-sm md:text-base text-white font-semibold">Client Satisfaction</div>
+                            <div class="w-full text-base md:text-lg font-bold">100 %</div>
+                            <div class="w-full text-sm md:text-base font-semibold">Client Satisfaction</div>
                         </div>
                     </div>
                     <div class="w-1/2 flex">
@@ -91,8 +91,8 @@
                             <img class="w-full h-full object-contain lazyload" width="48" height="52" data-src="public{{mix('/img/Startups-We-Worked-With.webp')}}" alt="Startups We Worked With">
                         </div>
                         <div class="grow pl-3">
-                            <div class="w-full text-base md:text-lg text-white font-bold">150 +</div>
-                            <div class="w-full text-sm md:text-base text-white font-semibold">Startups We Worked With</div>
+                            <div class="w-full text-base md:text-lg font-bold">150 +</div>
+                            <div class="w-full text-sm md:text-base font-semibold">Startups We Worked With</div>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                 <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6 pointer-events-none" aria-hidden="true">
                     <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-pink-600 to-purple-600 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
                 </div>
-                <div class="w-full text-lg md:text-xl lg:text-2xl text-white">
+                <div class="w-full text-lg md:text-xl lg:text-2xl">
                     <form>
                         <div class="space-y-12">
                             <div class="">
@@ -166,7 +166,7 @@
                         </div>
                     
                         <div class="mt-6 flex items-center justify-center gap-x-6">
-                            <button type="submit" class="rounded-md bg-sky-700 px-12 py-3 text-sm uppercase font-semibold text-white shadow-sm duration-200 hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-700 rounded-br-none">Send Now</button>
+                            <button type="submit" class="rounded-md bg-sky-700 px-12 py-3 text-sm uppercase font-semibold shadow-sm duration-200 hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-700 rounded-br-none">Send Now</button>
                         </div>
                     </form>
 
@@ -175,11 +175,11 @@
         </div>
     </div>
 </div>
-<footer class="relative bg-gradient-to-br from-gray-950 via-sky-950 to-gray-950 py-8 sm:py-16 select-none">
+<footer class="relative bg-gradient-to-br from-gray-950 via-sky-950 to-gray-950 py-8 sm:py-16 select-none text-white">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative">
         <div class="w-full flex flex-wrap items-center justify-center gap-6 lg:gap-12">
             <div class="w-auto">
-                <div class="w-full text-white inline-flex items-center gap-1 justify-center">
+                <div class="w-full inline-flex items-center gap-1 justify-center">
                     <span class="w-5 h-5 inline-block text-sm">
                         <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Star"><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
@@ -190,7 +190,7 @@
                 </div>
             </div>
             <div class="w-auto">
-                <div class="w-full text-white inline-flex items-center gap-1 justify-center">
+                <div class="w-full inline-flex items-center gap-1 justify-center">
                     <span class="w-5 h-5 inline-block text-sm">
                         <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Star"><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
@@ -201,7 +201,7 @@
                 </div>
             </div>
             <div class="w-auto">
-                <div class="w-full text-white inline-flex items-center gap-1 justify-center">
+                <div class="w-full inline-flex items-center gap-1 justify-center">
                     <span class="w-5 h-5 inline-block text-sm">
                         <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Star"><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
@@ -212,7 +212,7 @@
                 </div>
             </div>
             <div class="w-auto">
-                <div class="w-full text-white inline-flex items-center gap-1 justify-center">
+                <div class="w-full inline-flex items-center gap-1 justify-center">
                     <span class="w-5 h-5 inline-block text-sm">
                         <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Star"><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
@@ -223,7 +223,7 @@
                 </div>
             </div>
             <div class="w-auto">
-                <div class="w-full text-white inline-flex items-center gap-1 justify-center">
+                <div class="w-full inline-flex items-center gap-1 justify-center">
                     <span class="w-5 h-5 inline-block text-sm">
                         <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Star"><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
@@ -253,59 +253,59 @@
         </div>
         <div class="w-full flex flex-wrap py-12 my-8 gap-y-10 border-y border-white/20">
             <div class="w-full sm:w-1/2 lg:w-1/4">
-                <div class="flex flex-col w-full px-3">
-                    <div class="w-full font-bold text-white text-base lg:text-lg pb-4">Corporate Home</div>
-                    <div class="w-full text-white/80 text-sm lg:text-base pb-1">Dwaraka, Delhi</div>
-                    <div class="w-full text-white/80 text-sm lg:text-base">Phone : +91-86450 10203 , +91-9561043688</div>
+                <div class="flex flex-col w-full px-3 text-sm lg:text-base">
+                    <div class="w-full font-bold text-base lg:text-lg pb-4">Corporate Home</div>
+                    <div class="w-full opacity-80 pb-1">Dwaraka, Delhi</div>
+                    <div class="w-full opacity-80">Phone : +91-86450 10203 , +91-9561043688</div>
                 </div>
             </div>
             <div class="w-full sm:w-1/2 lg:w-1/4">
-                <div class="flex flex-col w-full px-3">
-                    <div class="w-full font-bold text-white text-base lg:text-lg pb-4">Regional Office</div>
-                    <div class="w-full text-white/80 text-sm lg:text-base pb-1">Ridhi Sidhhi Tower, Vaishali Nagar, Jaipur</div>
-                    <div class="w-full text-white/80 text-sm lg:text-base">Phone : +91-8058100200</div>
+                <div class="flex flex-col w-full px-3 text-sm lg:text-base">
+                    <div class="w-full font-bold text-base lg:text-lg pb-4">Regional Office</div>
+                    <div class="w-full opacity-80 pb-1">Ridhi Sidhhi Tower, Vaishali Nagar, Jaipur</div>
+                    <div class="w-full opacity-80">Phone : +91-8058100200</div>
                 </div>
             </div>
             <div class="w-full sm:w-1/2 lg:w-1/4">
-                <div class="flex flex-col w-full px-3">
-                    <div class="w-full font-bold text-white text-base lg:text-lg pb-4">Regional Office</div>
-                    <div class="w-full text-white/80 text-sm lg:text-base pb-1">Amarpali Marg,Vaishali Nagar, Jaipur</div>
-                    <div class="w-full text-white/80 text-sm lg:text-base">Phone : +91-9166373236</div>
+                <div class="flex flex-col w-full px-3 text-sm lg:text-base">
+                    <div class="w-full font-bold text-base lg:text-lg pb-4">Regional Office</div>
+                    <div class="w-full opacity-80 pb-1">Amarpali Marg,Vaishali Nagar, Jaipur</div>
+                    <div class="w-full opacity-80">Phone : +91-9166373236</div>
                 </div>
             </div>
             <div class="w-full sm:w-1/2 lg:w-1/4">
-                <div class="flex flex-col w-full px-3">
-                    <div class="w-full font-bold text-white text-base lg:text-lg pb-4">Regional Office</div>
-                    <div class="w-full text-white/80 text-sm lg:text-base pb-1">203 Schm No.2 Daudpur Fatak, Alwar</div>
-                    <div class="w-full text-white/80 text-sm lg:text-base">Phone : +91-9694097245</div>
+                <div class="flex flex-col w-full px-3 text-sm lg:text-base">
+                    <div class="w-full font-bold text-base lg:text-lg pb-4">Regional Office</div>
+                    <div class="w-full opacity-80 pb-1">203 Schm No.2 Daudpur Fatak, Alwar</div>
+                    <div class="w-full opacity-80">Phone : +91-9694097245</div>
                 </div>
             </div>
         </div>
-        <div class="w-full flex flex-wrap py-8 gap-y-10">
+        <div class="w-full flex flex-wrap py-8 gap-y-10 text-sm lg:text-base">
             <div class="w-full md:w-1/2 lg:w-1/4">
                 <div class="flex flex-col w-full px-3">
-                    <div class="w-full font-bold text-white text-base lg:text-lg pb-4">Quick Links</div>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <div class="w-full font-bold text-base lg:text-lg pb-4">Quick Links</div>
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>About Us</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Testimonials</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Life @IMG</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Career</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Blog</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Contact Us</span>
                     </a>
@@ -313,28 +313,28 @@
             </div>
             <div class="w-full md:w-1/2 lg:w-1/4">
                 <div class="flex flex-col w-full px-3">
-                    <div class="w-full font-bold text-white text-base lg:text-lg pb-4">Our Exclusive Services</div>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <div class="w-full font-bold text-base lg:text-lg pb-4">Our Exclusive Services</div>
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Mobile App</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Web</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Blockchain</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Software</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Ecommerce</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Fintech</span>
                     </a>
@@ -342,40 +342,40 @@
             </div>
             <div class="w-full md:w-1/2 lg:w-1/4">
                 <div class="flex flex-col w-full px-3">
-                    <div class="w-full font-bold text-white text-base lg:text-lg pb-4">On Demand Solutions</div>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <div class="w-full font-bold text-base lg:text-lg pb-4">On Demand Solutions</div>
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Fantasy Sports App</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Healthcare App</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Education App</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Ewallet App</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Video Streaming App</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Grocery Delivery</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Pharmacy App</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Fitness App</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Dating App</span>
                     </a>
@@ -383,60 +383,60 @@
             </div>
             <div class="w-full md:w-1/2 lg:w-1/4">
                 <div class="flex flex-col w-full px-3">
-                    <div class="w-full font-bold text-white text-base lg:text-lg pb-4">Cost and Features</div>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <div class="w-full font-bold text-base lg:text-lg pb-4">Cost and Features</div>
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Software development cost</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Mobile app development cost</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Website development cost</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Blockchain app development cost</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Ecommerce app development cost</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Fintech software development cost</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>E-wallet app development cost</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Social media app development cost</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Fantasy sports app development cost</span>
                     </a>
-                    <a href="javascript:;" class="w-full text-white/80 hover:text-cyan-500 duration-200 text-sm lg:text-base py-4 md:py-1 hoverLink flex items-center gap-2">
+                    <a href="javascript:;" class="w-full opacity-80 hover:text-cyan-500 duration-200 py-4 md:py-1 hoverLink flex items-center gap-2">
                         <svg class="w-2.5 h-2.5 opacity-60" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z"></path></svg>
                         <span>Marketplace development cost</span>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="w-full flex flex-wrap items-center gap-x-10 gap-y-5 justify-center pt-8 lg:pt-14 lg:mt-8 border-t border-white/20">
-            <div class="w-auto text-white/80 text-xs lg:text-sm">©2014 - 2023 IMG Global Infotech. All rights Reserved</div>
+        <div class="w-full flex flex-wrap items-center gap-x-10 gap-y-5 justify-center pt-8 lg:pt-14 lg:mt-8 border-t border-white/20 text-xs lg:text-sm">
+            <div class="w-auto opacity-80">©2014 - 2023 IMG Global Infotech. All rights Reserved</div>
             <div class="w-auto inline-flex flex-wrap gap-2 items-center">
-                <a href="javascript:;" class="w-auto text-white/80 hover:text-cyan-500 duration-200 text-xs lg:text-sm hoverLink flex items-center gap-2">Privacy Policy</a>
+                <a href="javascript:;" class="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Privacy Policy</a>
                 <div class="border-l border-white/20 h-4 w-[1px]"></div>
-                <a href="javascript:;" class="w-auto text-white/80 hover:text-cyan-500 duration-200 text-xs lg:text-sm hoverLink flex items-center gap-2">Terms & Conditions</a>
+                <a href="javascript:;" class="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Terms & Conditions</a>
                 <div class="border-l border-white/20 h-4 w-[1px]"></div>
-                <a href="javascript:;" class="w-auto text-white/80 hover:text-cyan-500 duration-200 text-xs lg:text-sm hoverLink flex items-center gap-2">Disclaimer</a>
+                <a href="javascript:;" class="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Disclaimer</a>
                 <div class="border-l border-white/20 h-4 w-[1px]"></div>
-                <a href="javascript:;" class="w-auto text-white/80 hover:text-cyan-500 duration-200 text-xs lg:text-sm hoverLink flex items-center gap-2">Sitemap</a>
+                <a href="javascript:;" class="w-auto opacity-80 hover:text-cyan-500 duration-200 hoverLink flex items-center gap-2">Sitemap</a>
             </div>
         </div>
     </div>

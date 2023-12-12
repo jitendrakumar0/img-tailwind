@@ -68,7 +68,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         <div class="swiper-wrapper">
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-yellow-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp)] before:bg-gradient-to-r before:from-yellow-950 before:via-yellow-900 before:to-yellow-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
-                    <a class="swiper-button-next opacity-0 position-absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
+                    <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
                             <circle cx="24" cy="24" r="20"></circle>
@@ -104,7 +104,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-lime-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp)] before:bg-gradient-to-r before:from-lime-950 before:via-lime-900 before:to-lime-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
-                    <a class="swiper-button-next opacity-0 position-absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
+                    <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
                             <circle cx="24" cy="24" r="20"></circle>
@@ -140,7 +140,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-sky-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/level_up_your_business_game_with_fantasy_sports_app_development!.webp)] before:bg-gradient-to-r before:from-sky-950 before:via-sky-900 before:to-sky-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
-                    <a class="swiper-button-next opacity-0 position-absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
+                    <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
                             <circle cx="24" cy="24" r="20"></circle>
@@ -176,7 +176,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-purple-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/enhance-your-brand-presence-with-innovative-web-development-solutions.webp)] before:bg-gradient-to-r before:from-purple-950 before:via-purple-900 before:to-purple-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
-                    <a class="swiper-button-next opacity-0 position-absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
+                    <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
                             <circle cx="24" cy="24" r="20"></circle>
@@ -212,7 +212,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-rose-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.webp)] before:bg-gradient-to-r before:from-rose-950 before:via-rose-900 before:to-rose-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
-                    <a class="swiper-button-next opacity-0 position-absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
+                    <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
                             <circle cx="24" cy="24" r="20"></circle>
@@ -266,34 +266,34 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper logo-clouds before:bg-gradient-to-r before:from-slate-50 before:to-transparent before:w-32 before:z-10 before:inset-0 before:absolute before:pointer-events-none after:bg-gradient-to-l after:from-slate-50 after:to-transparent after:w-32 after:z-10 after:inset-0 after:absolute after:pointer-events-none after:left-auto">
                 <div class="swiper-wrapper !ease-linear mt-10 flex items-center">
                     <a class="swiper-slide !h-8">
-                        <img class="col-span-2 mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain lg:col-span-1" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-titan.webp') }}" alt="logo clouds titan" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-titan.webp') }}" alt="logo clouds titan" width="158" height="48">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="col-span-2 mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain lg:col-span-1" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-adani.webp') }}" alt="logo clouds adani" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-adani.webp') }}" alt="logo clouds adani" width="158" height="48">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="col-span-2 mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain lg:col-span-1" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-fabindia.webp') }}" alt="logo clouds fabindia" alt="Tuple" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-fabindia.webp') }}" alt="logo clouds fabindia" alt="Tuple" width="158" height="48">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="col-span-2 mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain lg:col-span-1" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-hero.webp') }}" alt="logo clouds hero" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-hero.webp') }}" alt="logo clouds hero" width="158" height="48">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="col-span-2 mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain lg:col-span-1" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-myfab11.webp') }}" alt="logo clouds myfab11" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-myfab11.webp') }}" alt="logo clouds myfab11" width="158" height="48">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="col-span-2 mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain lg:col-span-1" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-parle.webp') }}" alt="logo clouds parle" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-parle.webp') }}" alt="logo clouds parle" width="158" height="48">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="col-span-2 mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain lg:col-span-1" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-tata.webp') }}" alt="logo clouds tata" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-tata.webp') }}" alt="logo clouds tata" width="158" height="48">
                     </a>
                     <a class="swiper-slide !h-5 md:!h-7">
-                        <img class="col-span-2 mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain lg:col-span-1" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-titan.webp') }}" alt="logo clouds titan" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-titan.webp') }}" alt="logo clouds titan" width="158" height="48">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="col-span-2 mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain lg:col-span-1" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-adani.webp') }}" alt="logo clouds adani" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-adani.webp') }}" alt="logo clouds adani" width="158" height="48">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="col-span-2 mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain lg:col-span-1" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-fabindia.webp') }}" alt="logo clouds fabindia" alt="Tuple" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-fabindia.webp') }}" alt="logo clouds fabindia" alt="Tuple" width="158" height="48">
                     </a>
                 </div>
             </div>
@@ -394,66 +394,66 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
         <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 text-white">
         <div class="mx-auto max-w-2xl lg:mx-0">
             <div>
-                <input type="radio" name="mainly" checked id="Inception" class="hidden peer/Inception">
-                <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-white sm:text-4xl peer-checked/Inception:relative absolute peer-checked/Inception:z-[1] -z-20 peer-checked/Inception:translate-x-0 translate-x-1/4 peer-checked/Inception:opacity-100 opacity-0 duration-300 transition-[transform,opacity] ease-in">Inception</h2>
-                <p class="mt-6 text-sm md:text-base md:leading-8 text-gray-300 peer-checked/Inception:relative absolute peer-checked/Inception:z-[1] -z-20 peer-checked/Inception:translate-x-0 translate-x-1/4 peer-checked/Inception:opacity-100 opacity-0 duration-300 delay-150 transition-[transform,opacity] ease-in">Commence on a digital journey with IMG Global Infotech, where ideas unfold into cutting-edge solutions, shaping a dynamic future.</p>
+                <input type="radio" name="mainly" checked id="inc" class="hidden peer/inc">
+                <h2 class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/inc:relative absolute peer-checked/inc:z-[1] -z-20 peer-checked/inc:translate-x-0 translate-x-1/4 peer-checked/inc:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Inception</h2>
+                <p class="mt-6 text-sm md:text-base md:leading-8 peer-checked/inc:relative absolute peer-checked/inc:z-[1] -z-20 peer-checked/inc:translate-x-0 translate-x-1/4 peer-checked/inc:opacity-70 opacity-0 duration-300 delay-150 transition-[transform,opacity]">Commence on a digital journey with IMG Global Infotech, where ideas unfold into cutting-edge solutions, shaping a dynamic future.</p>
             </div>
             <div>
-                <input type="radio" name="mainly" id="Innovation" class="hidden peer/Innovation">
-                <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-white sm:text-4xl peer-checked/Innovation:relative absolute peer-checked/Innovation:z-[1] -z-20 peer-checked/Innovation:translate-x-0 translate-x-1/4 peer-checked/Innovation:opacity-100 opacity-0 duration-300 transition-[transform,opacity] ease-in">Innovation</h2>
-                <p class="mt-6 text-sm md:text-base md:leading-8 text-gray-300 peer-checked/Innovation:relative absolute peer-checked/Innovation:z-[1] -z-20 peer-checked/Innovation:translate-x-0 translate-x-1/4 peer-checked/Innovation:opacity-100 opacity-0 duration-300 delay-150 transition-[transform,opacity] ease-in">IMG Global Infotech pioneers transformative solutions, pushing boundaries to redefine industries via inventive technology.</p>
+                <input type="radio" name="mainly" id="inn" class="hidden peer/inn">
+                <h2 class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/inn:relative absolute peer-checked/inn:z-[1] -z-20 peer-checked/inn:translate-x-0 translate-x-1/4 peer-checked/inn:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Innovation</h2>
+                <p class="mt-6 text-sm md:text-base md:leading-8 peer-checked/inn:relative absolute peer-checked/inn:z-[1] -z-20 peer-checked/inn:translate-x-0 translate-x-1/4 peer-checked/inn:opacity-70 opacity-0 duration-300 delay-150 transition-[transform,opacity]">IMG Global Infotech pioneers transformative solutions, pushing boundaries to redefine industries via inventive technology.</p>
             </div>
             <div>
-                <input type="radio" name="mainly" id="Experience" class="hidden peer/Experience">
-                <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-white sm:text-4xl peer-checked/Experience:relative absolute peer-checked/Experience:z-[1] -z-20 peer-checked/Experience:translate-x-0 translate-x-1/4 peer-checked/Experience:opacity-100 opacity-0 duration-300 transition-[transform,opacity] ease-in">Experience</h2>
-                <p class="mt-6 text-sm md:text-base md:leading-8 text-gray-300 peer-checked/Experience:relative absolute peer-checked/Experience:z-[1] -z-20 peer-checked/Experience:translate-x-0 translate-x-1/4 peer-checked/Experience:opacity-100 opacity-0 duration-300 delay-150 transition-[transform,opacity] ease-in">Boosting online presence with a skilled team, crafting immersive experiences that resonate with precision and expertise.</p>
+                <input type="radio" name="mainly" id="exp" class="hidden peer/exp">
+                <h2 class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/exp:relative absolute peer-checked/exp:z-[1] -z-20 peer-checked/exp:translate-x-0 translate-x-1/4 peer-checked/exp:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Experience</h2>
+                <p class="mt-6 text-sm md:text-base md:leading-8 peer-checked/exp:relative absolute peer-checked/exp:z-[1] -z-20 peer-checked/exp:translate-x-0 translate-x-1/4 peer-checked/exp:opacity-70 opacity-0 duration-300 delay-150 transition-[transform,opacity]">Boosting online presence with a skilled team, crafting immersive experiences that resonate with precision and expertise.</p>
             </div>
             <div>
-                <input type="radio" name="mainly" id="Expertise" class="hidden peer/Expertise">
-                <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-white sm:text-4xl peer-checked/Expertise:relative absolute peer-checked/Expertise:z-[1] -z-20 peer-checked/Expertise:translate-x-0 translate-x-1/4 peer-checked/Expertise:opacity-100 opacity-0 duration-300 transition-[transform,opacity] ease-in">Expertise</h2>
-                <p class="mt-6 text-sm md:text-base md:leading-8 text-gray-300 peer-checked/Expertise:relative absolute peer-checked/Expertise:z-[1] -z-20 peer-checked/Expertise:translate-x-0 translate-x-1/4 peer-checked/Expertise:opacity-100 opacity-0 duration-300 delay-150 transition-[transform,opacity] ease-in">Navigate the complex digital landscape with IMG Global Infotech's mastery, delivering tailored solutions fueled by unparalleled industry knowledge.</p>
+                <input type="radio" name="mainly" id="ets" class="hidden peer/ets">
+                <h2 class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/ets:relative absolute peer-checked/ets:z-[1] -z-20 peer-checked/ets:translate-x-0 translate-x-1/4 peer-checked/ets:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Expertise</h2>
+                <p class="mt-6 text-sm md:text-base md:leading-8 peer-checked/ets:relative absolute peer-checked/ets:z-[1] -z-20 peer-checked/ets:translate-x-0 translate-x-1/4 peer-checked/ets:opacity-70 opacity-0 duration-300 delay-150 transition-[transform,opacity]">Navigate the complex digital landscape with IMG Global Infotech's mastery, delivering tailored solutions fueled by unparalleled industry knowledge.</p>
             </div>
             <div>
-                <input type="radio" name="mainly" id="Assurance" class="hidden peer/Assurance">
-                <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-white sm:text-4xl peer-checked/Assurance:relative absolute peer-checked/Assurance:z-[1] -z-20 peer-checked/Assurance:translate-x-0 translate-x-1/4 peer-checked/Assurance:opacity-100 opacity-0 duration-300 transition-[transform,opacity] ease-in">Assurance</h2>
-                <p class="mt-6 text-sm md:text-base md:leading-8 text-gray-300 peer-checked/Assurance:relative absolute peer-checked/Assurance:z-[1] -z-20 peer-checked/Assurance:translate-x-0 translate-x-1/4 peer-checked/Assurance:opacity-100 opacity-0 duration-300 delay-150 transition-[transform,opacity] ease-in">Trust our unwavering commitment to reliability, security, and excellence, ensuring your digital endeavors thrive with confidence.</p>
+                <input type="radio" name="mainly" id="ass" class="hidden peer/ass">
+                <h2 class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/ass:relative absolute peer-checked/ass:z-[1] -z-20 peer-checked/ass:translate-x-0 translate-x-1/4 peer-checked/ass:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Assurance</h2>
+                <p class="mt-6 text-sm md:text-base md:leading-8 peer-checked/ass:relative absolute peer-checked/ass:z-[1] -z-20 peer-checked/ass:translate-x-0 translate-x-1/4 peer-checked/ass:opacity-70 opacity-0 duration-300 delay-150 transition-[transform,opacity]">Trust our unwavering commitment to reliability, security, and excellence, ensuring your digital endeavors thrive with confidence.</p>
             </div>
         </div>
         <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-            <div class="grid grid-cols-3 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-3 md:flex lg:gap-x-10">
-                <a href="javascript:;"><label class="cursor-pointer" for="Inception">Inception <span aria-hidden="true">&rarr;</span></label></a>
-                <a href="javascript:;"><label class="cursor-pointer" for="Innovation">Innovation <span aria-hidden="true">&rarr;</span></label></a>
-                <a href="javascript:;"><label class="cursor-pointer" for="Experience">Experience <span aria-hidden="true">&rarr;</span></label></a>
-                <a href="javascript:;"><label class="cursor-pointer" for="Expertise">Expertise <span aria-hidden="true">&rarr;</span></label></a>
-                <a href="javascript:;"><label class="cursor-pointer" for="Assurance">Assurance <span aria-hidden="true">&rarr;</span></label></a>
+            <div class="grid grid-cols-3 gap-x-8 gap-y-6 text-base font-semibold leading-7 sm:grid-cols-3 md:flex lg:gap-x-10">
+                <a href="javascript:;"><label class="cursor-pointer" for="inc">Inception <span aria-hidden="true">&rarr;</span></label></a>
+                <a href="javascript:;"><label class="cursor-pointer" for="inn">Innovation <span aria-hidden="true">&rarr;</span></label></a>
+                <a href="javascript:;"><label class="cursor-pointer" for="exp">Experience <span aria-hidden="true">&rarr;</span></label></a>
+                <a href="javascript:;"><label class="cursor-pointer" for="ets">Expertise <span aria-hidden="true">&rarr;</span></label></a>
+                <a href="javascript:;"><label class="cursor-pointer" for="ass">Assurance <span aria-hidden="true">&rarr;</span></label></a>
             </div>
             <div class="mt-16 grid grid-cols-2 gap-x-8 gap-y-10 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
                 <div class="flex flex-col-reverse">
-                    <div class="text-base leading-7 text-gray-300">Years’ Experience</div>
-                    <div class="text-2xl font-bold leading-9 tracking-tight text-white">11</div>
+                    <div class="text-base leading-7 opacity-70">Years’ Experience</div>
+                    <div class="text-2xl font-bold leading-9 tracking-tight">11</div>
                 </div>
                 <div class="flex flex-col-reverse">
-                    <div class="text-base leading-7 text-gray-300">Countries Served</div>
-                    <div class="text-2xl font-bold leading-9 tracking-tight text-white">80+</div>
+                    <div class="text-base leading-7 opacity-70">Countries Served</div>
+                    <div class="text-2xl font-bold leading-9 tracking-tight">80+</div>
                 </div>
                 <div class="flex flex-col-reverse">
-                    <div class="text-base leading-7 text-gray-300">Successful Projects</div>
-                    <div class="text-2xl font-bold leading-9 tracking-tight text-white">1000+</div>
+                    <div class="text-base leading-7 opacity-70">Successful Projects</div>
+                    <div class="text-2xl font-bold leading-9 tracking-tight">1000+</div>
                 </div>
                 <div class="flex flex-col-reverse">
-                    <div class="text-base leading-7 text-gray-300">Client Retention Rate</div>
-                    <div class="text-2xl font-bold leading-9 tracking-tight text-white">95%</div>
+                    <div class="text-base leading-7 opacity-70">Client Retention Rate</div>
+                    <div class="text-2xl font-bold leading-9 tracking-tight">95%</div>
                 </div>
                 <div class="flex flex-col-reverse">
-                    <div class="text-base leading-7 text-gray-300">Clients Worldwide</div>
-                    <div class="text-2xl font-bold leading-9 tracking-tight text-white">1000+</div>
+                    <div class="text-base leading-7 opacity-70">Clients Worldwide</div>
+                    <div class="text-2xl font-bold leading-9 tracking-tight">1000+</div>
                 </div>
                 <div class="flex flex-col-reverse">
-                    <div class="text-base leading-7 text-gray-300">Five Star Reviews</div>
-                    <div class="text-2xl font-bold leading-9 tracking-tight text-white">250+</div>
+                    <div class="text-base leading-7 opacity-70">Five Star Reviews</div>
+                    <div class="text-2xl font-bold leading-9 tracking-tight">250+</div>
                 </div>
             </div>
         </div>
@@ -466,11 +466,11 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         <div class="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/10 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
             <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                 <defs>
-                    <pattern id="pricing-pattern" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <pattern id="pp0" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
                         <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
                     </pattern>
                 </defs>
-                <rect width="100%" height="100%" fill="url(#pricing-pattern)"></rect>
+                <rect width="100%" height="100%" fill="url(#pp0)"></rect>
             </svg>
         </div>
         <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
@@ -492,26 +492,26 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="w-full -mb-[120px] z-[2] p-4 md:p-6">
                 <div class="swiper servicesSwiperThumb bg-white border-[10px] border-white rounded-xl">
                     <div class="swiper-wrapper flex items-center !h-auto">
-                        <div class="swiper-slide !w-auto group/service py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-sky-800 bg-sky-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/service:shadow-sky-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/service:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/service:from-sky-900 group-[.swiper-slide-thumb-active]/service:to-sky-700 group-[.swiper-slide-thumb-active]/service:text-white">Software Development</a>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-sky-800 bg-sky-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-sky-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-sky-900 group-[.swiper-slide-thumb-active]/svc:to-sky-700 group-[.swiper-slide-thumb-active]/svc:text-white">Software Development</a>
                         </div>
-                        <div class="swiper-slide !w-auto group/service py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-fuchsia-800 bg-fuchsia-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/service:shadow-fuchsia-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/service:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/service:from-fuchsia-900 group-[.swiper-slide-thumb-active]/service:to-fuchsia-700 group-[.swiper-slide-thumb-active]/service:text-white">Mobile App Development</a>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-fuchsia-800 bg-fuchsia-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-fuchsia-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-fuchsia-900 group-[.swiper-slide-thumb-active]/svc:to-fuchsia-700 group-[.swiper-slide-thumb-active]/svc:text-white">Mobile App Development</a>
                         </div>
-                        <div class="swiper-slide !w-auto group/service py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-teal-800 bg-teal-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/service:shadow-teal-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/service:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/service:from-teal-900 group-[.swiper-slide-thumb-active]/service:to-teal-700 group-[.swiper-slide-thumb-active]/service:text-white">Web Development</a>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-teal-800 bg-teal-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-teal-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-teal-900 group-[.swiper-slide-thumb-active]/svc:to-teal-700 group-[.swiper-slide-thumb-active]/svc:text-white">Web Development</a>
                         </div>
-                        <div class="swiper-slide !w-auto group/service py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-amber-800 bg-amber-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/service:shadow-amber-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/service:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/service:from-amber-900 group-[.swiper-slide-thumb-active]/service:to-amber-700 group-[.swiper-slide-thumb-active]/service:text-white">Blockchain Development</a>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-amber-800 bg-amber-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-amber-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-amber-900 group-[.swiper-slide-thumb-active]/svc:to-amber-700 group-[.swiper-slide-thumb-active]/svc:text-white">Blockchain Development</a>
                         </div>
-                        <div class="swiper-slide !w-auto group/service py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-lime-800 bg-lime-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/service:shadow-lime-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/service:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/service:from-lime-900 group-[.swiper-slide-thumb-active]/service:to-lime-700 group-[.swiper-slide-thumb-active]/service:text-white">Ecommerce Solutions</a>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-lime-800 bg-lime-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-lime-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-lime-900 group-[.swiper-slide-thumb-active]/svc:to-lime-700 group-[.swiper-slide-thumb-active]/svc:text-white">Ecommerce Solutions</a>
                         </div>
-                        <div class="swiper-slide !w-auto group/service py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-orange-800 bg-orange-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/service:shadow-orange-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/service:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/service:from-orange-900 group-[.swiper-slide-thumb-active]/service:to-orange-700 group-[.swiper-slide-thumb-active]/service:text-white">Hire Developers</a>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-orange-800 bg-orange-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-orange-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-orange-900 group-[.swiper-slide-thumb-active]/svc:to-orange-700 group-[.swiper-slide-thumb-active]/svc:text-white">Hire Developers</a>
                         </div>
-                        <div class="swiper-slide !w-auto group/service py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-cyan-800 bg-cyan-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/service:shadow-cyan-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/service:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/service:from-cyan-900 group-[.swiper-slide-thumb-active]/service:to-cyan-700 group-[.swiper-slide-thumb-active]/service:text-white">Trending Solutions</a>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-cyan-800 bg-cyan-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-cyan-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-cyan-900 group-[.swiper-slide-thumb-active]/svc:to-cyan-700 group-[.swiper-slide-thumb-active]/svc:text-white">Trending Solutions</a>
                         </div>
                     </div>
                 </div>
@@ -519,8 +519,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="w-full">
                 <div class="swiper servicesSwiper text-white">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide group/service">
-                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/service:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/service:opacity-100 bg-gradient-to-b from-sky-950 via-sky-900 to-sky-800 !pt-28">
+                        <div class="swiper-slide group/svc">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-sky-950 via-sky-900 to-sky-800 !pt-28">
                                 <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
                                     <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
                                 </div>
@@ -537,14 +537,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <rect width="100%" height="100%" fill="url(#SoftwareDevelopment)"></rect>
                                     </svg>
                                 </div>
-                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <span class="font-normal">Software</span> 
                                     <span class="font-bold bg-gradient-to-r from-sky-300 via-sky-200 to-sky-400 bg-clip-text text-transparent"> Development</span>
                                 </p>
-                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/service:opacity-70 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0">
                                     Avail software development services tailored to your unique business needs. Our software developers combine cutting-edge technology with their expertise to empower your business with innovative software that drives success.
                                 </div>
-                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Bespoke Software Development</a>
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">SaaS Development</a>
@@ -552,8 +552,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">ERP Software Development</a>
                                     </div>
                                 </div>
-                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">Core Tech:</div>
-                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
+                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
                                             <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M277.74 312.9c9.8-6.7 23.4-12.5 23.4-12.5s-38.7 7-77.2 10.2c-47.1 3.9-97.7 4.7-123.1 1.3-60.1-8 33-30.1 33-30.1s-36.1-2.4-80.6 19c-52.5 25.4 130 37 224.5 12.1zm-85.4-32.1c-19-42.7-83.1-80.2 0-145.8C296 53.2 242.84 0 242.84 0c21.5 84.5-75.6 110.1-110.7 162.6-23.9 35.9 11.7 74.4 60.2 118.2zm114.6-176.2c.1 0-175.2 43.8-91.5 140.2 24.7 28.4-6.5 54-6.5 54s62.7-32.4 33.9-72.9c-26.9-37.8-47.5-56.6 64.1-121.3zm-6.1 270.5a12.19 12.19 0 0 1-2 2.6c128.3-33.7 81.1-118.9 19.8-97.3a17.33 17.33 0 0 0-8.2 6.3 70.45 70.45 0 0 1 11-3c31-6.5 75.5 41.5-20.6 91.4zM348 437.4s14.5 11.9-15.9 21.2c-57.9 17.5-240.8 22.8-291.6.7-18.3-7.9 16-19 26.8-21.3 11.2-2.4 17.7-2 17.7-2-20.3-14.3-131.3 28.1-56.4 40.2C232.84 509.4 401 461.3 348 437.4zM124.44 396c-78.7 22 47.9 67.4 148.1 24.5a185.89 185.89 0 0 1-28.2-13.8c-44.7 8.5-65.4 9.1-106 4.5-33.5-3.8-13.9-15.2-13.9-15.2zm179.8 97.2c-78.7 14.8-175.8 13.1-233.3 3.6 0-.1 11.8 9.7 72.4 13.6 92.2 5.9 233.8-3.3 237.1-46.9 0 0-6.4 16.5-76.2 29.7zM260.64 353c-59.2 11.4-93.5 11.1-136.8 6.6-33.5-3.5-11.6-19.7-11.6-19.7-86.8 28.8 48.2 61.4 169.5 25.9a60.37 60.37 0 0 1-21.1-12.8z"></path></svg>
@@ -593,8 +593,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide group/service">
-                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/service:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/service:opacity-100 bg-gradient-to-b from-fuchsia-950 via-fuchsia-900 to-fuchsia-800 !pt-28">
+                        <div class="swiper-slide group/svc">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-fuchsia-950 via-fuchsia-900 to-fuchsia-800 !pt-28">
                                 <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
                                     <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
                                 </div>
@@ -611,14 +611,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <rect width="100%" height="100%" fill="url(#l10)"></rect>
                                     </svg>
                                 </div>
-                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <span class="font-normal">Mobile App</span> 
                                     <span class="font-bold bg-gradient-to-r from-fuchsia-300 via-fuchsia-200 to-fuchsia-400 bg-clip-text text-transparent"> Development</span>
                                 </p>
-                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/service:opacity-70 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0">
                                     Step into the future of digital interaction with our top-notch mobile app development services. Your ideas are the fuel, and we are the creators, transforming concepts into powerful mobile solutions that captivate users and elevate your digital footprint.
                                 </div>
-                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Android App Development</a>
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Cross-Platform App Development</a>
@@ -629,8 +629,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">React Native App Development</a>
                                     </div>
                                 </div>
-                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">Core Tech:</div>
-                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
+                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
                                             <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.5039 2.00098L3.50391 12.001L6.58724 15.0843L19.6673 2.00098H13.5039ZM13.4985 11.1989L8.12328 16.6199L13.4956 21.9998H19.6842L14.2975 16.5999L19.6856 11.1998L13.4985 11.1989Z"></path></svg>
@@ -670,8 +670,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide group/service">
-                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/service:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/service:opacity-100 bg-gradient-to-b from-teal-950 via-teal-900 to-teal-800 !pt-28">
+                        <div class="swiper-slide group/svc">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-teal-950 via-teal-900 to-teal-800 !pt-28">
                                 <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
                                     <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
                                 </div>
@@ -688,14 +688,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <rect width="100%" height="100%" fill="url(#webDevelopment)"></rect>
                                     </svg>
                                 </div>
-                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <span class="font-normal">Web</span> 
                                     <span class="font-bold bg-gradient-to-r from-teal-300 via-teal-200 to-teal-400 bg-clip-text text-transparent"> Development</span>
                                 </p>
-                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/service:opacity-70 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0">
                                     Beyond mere websites, we weave digital tales with interactive website design and development services. Let us sculpt your online presence into a masterpiece that resonates with your brand essence and captivates your audience in just a click.
                                 </div>
-                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Website Design</a>
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">CMS Development</a>
@@ -705,8 +705,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Web Portal Development</a>
                                     </div>
                                 </div>
-                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">Core Tech:</div>
-                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
+                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
                                             <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg>
@@ -746,8 +746,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide group/service">
-                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/service:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/service:opacity-100 bg-gradient-to-b from-amber-950 via-amber-900 to-amber-800 !pt-28">
+                        <div class="swiper-slide group/svc">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-amber-950 via-amber-900 to-amber-800 !pt-28">
                                 <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
                                     <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
                                 </div>
@@ -764,14 +764,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <rect width="100%" height="100%" fill="url(#blockchainDevelopment)"></rect>
                                     </svg>
                                 </div>
-                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <span class="font-normal">Blockchain</span> 
                                     <span class="font-bold bg-gradient-to-r from-amber-300 via-amber-200 to-amber-400 bg-clip-text text-transparent"> Development</span>
                                 </p>
-                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/service:opacity-70 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0">
                                     Unlock the door to decentralized innovation with our cutting-edge blockchain development services. Experience security, transparency, and groundbreaking blockchain development solutions redefining trust and scalability in the digital era.
                                 </div>
-                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Blockchain Development</a>
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Smart Contract Development</a>
@@ -781,8 +781,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Metaverse Development</a>
                                     </div>
                                 </div>
-                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">Core Tech:</div>
-                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
+                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
                                             <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M4.409 6.608L7.981.255l3.572 6.353H4.409zM8.411 0l3.569 6.348L15.552 0H8.411zm4.036 17.392l3.572 6.354 3.575-6.354h-7.147zm-.608-10.284h-7.43l3.715 6.605 3.715-6.605zm.428-.25h7.428L15.982.255l-3.715 6.603zM15.589 24l-3.569-6.349L8.448 24h7.141zm-3.856-6.858H4.306l3.712 6.603 3.715-6.603zm.428-.25h7.433l-3.718-6.605-3.715 6.605z"></path></svg>
@@ -822,8 +822,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide group/service">
-                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/service:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/service:opacity-100 bg-gradient-to-b from-lime-950 via-lime-900 to-lime-800 !pt-28">
+                        <div class="swiper-slide group/svc">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-lime-950 via-lime-900 to-lime-800 !pt-28">
                                 <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
                                     <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
                                 </div>
@@ -840,14 +840,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <rect width="100%" height="100%" fill="url(#ecommerceSolutions)"></rect>
                                     </svg>
                                 </div>
-                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <span class="font-normal">Ecommerce</span> 
                                     <span class="font-bold bg-gradient-to-r from-lime-300 via-lime-200 to-lime-400 bg-clip-text text-transparent"> Solutions</span>
                                 </p>
-                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/service:opacity-70 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0">
                                     Witness the transformation of your small store into a global powerhouse with our Ecommerce Solutions. From intuitive shopping experiences to seamless payment integration, we're here to turn your Ecommerce venture into a thriving business, reaching new heights.
                                 </div>
-                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Ecommerce Development</a>
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Magento Development</a>
@@ -855,8 +855,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Wordpress Development</a>
                                     </div>
                                 </div>
-                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">Core Tech:</div>
-                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
+                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
                                             <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M445.7 127.9V384l-63.4 36.5V164.7L223.8 73.1 65.2 164.7l.4 255.9L2.3 384V128.1L224.2 0l221.5 127.9zM255.6 420.5L224 438.9l-31.8-18.2v-256l-63.3 36.6.1 255.9 94.9 54.9 95.1-54.9v-256l-63.4-36.6v255.9z"></path></svg>
@@ -896,8 +896,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide group/service">
-                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/service:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/service:opacity-100 bg-gradient-to-b from-orange-950 via-orange-900 to-orange-800 !pt-28">
+                        <div class="swiper-slide group/svc">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-orange-950 via-orange-900 to-orange-800 !pt-28">
                                 <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
                                     <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
                                 </div>
@@ -914,14 +914,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <rect width="100%" height="100%" fill="url(#hireDevelopers)"></rect>
                                     </svg>
                                 </div>
-                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <span class="font-normal">Hire </span> 
                                     <span class="font-bold bg-gradient-to-r from-orange-300 via-orange-200 to-orange-400 bg-clip-text text-transparent"> Developers</span>
                                 </p>
-                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/service:opacity-70 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0">
                                     Your vision, our expertise. Hire Developers who breathe life into ideas. A dedicated team ready to propel your projects forward, delivering excellence with every line of code. Connect now!
                                 </div>
-                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Mobile App Developers</a>
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire iOS App Developers</a>
@@ -948,8 +948,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide group/service">
-                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/service:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/service:opacity-100 bg-gradient-to-b from-cyan-950 via-cyan-900 to-cyan-800 !pt-28">
+                        <div class="swiper-slide group/svc">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-cyan-950 via-cyan-900 to-cyan-800 !pt-28">
                                 <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
                                     <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
                                 </div>
@@ -966,14 +966,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <rect width="100%" height="100%" fill="url(#trendingSolutions)"></rect>
                                     </svg>
                                 </div>
-                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <span class="font-normal">Trending </span> 
                                     <span class="font-bold bg-gradient-to-r from-cyan-300 via-cyan-200 to-cyan-400 bg-clip-text text-transparent"> Solutions</span>
                                 </p>
-                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/service:opacity-70 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0">
                                     Explore our trending ready-to-use applications, meticulously crafted to elevate your business instantly. From cutting-edge food delivery apps to innovative elearning platforms, our trending solutions are designed to streamline operations.
                                 </div>
-                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Food Delivery App Development</a>
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Grocery Delivery</a>
@@ -989,8 +989,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Healthacare App</a>
                                     </div>
                                 </div>
-                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">Core Tech:</div>
-                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/service:opacity-100 group-[.swiper-slide-active]/service:translate-x-0">
+                                <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
+                                <div class="flex items-center flex-wrap overflow-hidden mt-5 gap-8 opacity-0 translate-x-1/4 delay-300 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
                                             <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg"><path d="M316.3 452c-2.1 0-4.2-.6-6.1-1.6L291 439c-2.9-1.6-1.5-2.2-.5-2.5 3.8-1.3 4.6-1.6 8.7-4 .4-.2 1-.1 1.4.1l14.8 8.8c.5.3 1.3.3 1.8 0L375 408c.5-.3.9-.9.9-1.6v-66.7c0-.7-.3-1.3-.9-1.6l-57.8-33.3c-.5-.3-1.2-.3-1.8 0l-57.8 33.3c-.6.3-.9 1-.9 1.6v66.7c0 .6.4 1.2.9 1.5l15.8 9.1c8.6 4.3 13.9-.8 13.9-5.8v-65.9c0-.9.7-1.7 1.7-1.7h7.3c.9 0 1.7.7 1.7 1.7v65.9c0 11.5-6.2 18-17.1 18-3.3 0-6 0-13.3-3.6l-15.2-8.7c-3.7-2.2-6.1-6.2-6.1-10.5v-66.7c0-4.3 2.3-8.4 6.1-10.5l57.8-33.4c3.7-2.1 8.5-2.1 12.1 0l57.8 33.4c3.7 2.2 6.1 6.2 6.1 10.5v66.7c0 4.3-2.3 8.4-6.1 10.5l-57.8 33.4c-1.7 1.1-3.8 1.7-6 1.7zm46.7-65.8c0-12.5-8.4-15.8-26.2-18.2-18-2.4-19.8-3.6-19.8-7.8 0-3.5 1.5-8.1 14.8-8.1 11.9 0 16.3 2.6 18.1 10.6.2.8.8 1.3 1.6 1.3h7.5c.5 0 .9-.2 1.2-.5.3-.4.5-.8.4-1.3-1.2-13.8-10.3-20.2-28.8-20.2-16.5 0-26.3 7-26.3 18.6 0 12.7 9.8 16.1 25.6 17.7 18.9 1.9 20.4 4.6 20.4 8.3 0 6.5-5.2 9.2-17.4 9.2-15.3 0-18.7-3.8-19.8-11.4-.1-.8-.8-1.4-1.7-1.4h-7.5c-.9 0-1.7.7-1.7 1.7 0 9.7 5.3 21.3 30.6 21.3 18.5 0 29-7.2 29-19.8zm54.5-50.1c0 6.1-5 11.1-11.1 11.1s-11.1-5-11.1-11.1c0-6.3 5.2-11.1 11.1-11.1 6-.1 11.1 4.8 11.1 11.1zm-1.8 0c0-5.2-4.2-9.3-9.4-9.3-5.1 0-9.3 4.1-9.3 9.3 0 5.2 4.2 9.4 9.3 9.4 5.2-.1 9.4-4.3 9.4-9.4zm-4.5 6.2h-2.6c-.1-.6-.5-3.8-.5-3.9-.2-.7-.4-1.1-1.3-1.1h-2.2v5h-2.4v-12.5h4.3c1.5 0 4.4 0 4.4 3.3 0 2.3-1.5 2.8-2.4 3.1 1.7.1 1.8 1.2 2.1 2.8.1 1 .3 2.7.6 3.3zm-2.8-8.8c0-1.7-1.2-1.7-1.8-1.7h-2v3.5h1.9c1.6 0 1.9-1.1 1.9-1.8zM137.3 191c0-2.7-1.4-5.1-3.7-6.4l-61.3-35.3c-1-.6-2.2-.9-3.4-1h-.6c-1.2 0-2.3.4-3.4 1L3.7 184.6C1.4 185.9 0 188.4 0 191l.1 95c0 1.3.7 2.5 1.8 3.2 1.1.7 2.5.7 3.7 0L42 268.3c2.3-1.4 3.7-3.8 3.7-6.4v-44.4c0-2.6 1.4-5.1 3.7-6.4l15.5-8.9c1.2-.7 2.4-1 3.7-1 1.3 0 2.6.3 3.7 1l15.5 8.9c2.3 1.3 3.7 3.8 3.7 6.4v44.4c0 2.6 1.4 5.1 3.7 6.4l36.4 20.9c1.1.7 2.6.7 3.7 0 1.1-.6 1.8-1.9 1.8-3.2l.2-95zM472.5 87.3v176.4c0 2.6-1.4 5.1-3.7 6.4l-61.3 35.4c-2.3 1.3-5.1 1.3-7.4 0l-61.3-35.4c-2.3-1.3-3.7-3.8-3.7-6.4v-70.8c0-2.6 1.4-5.1 3.7-6.4l61.3-35.4c2.3-1.3 5.1-1.3 7.4 0l15.3 8.8c1.7 1 3.9-.3 3.9-2.2v-94c0-2.8 3-4.6 5.5-3.2l36.5 20.4c2.3 1.2 3.8 3.7 3.8 6.4zm-46 128.9c0-.7-.4-1.3-.9-1.6l-21-12.2c-.6-.3-1.3-.3-1.9 0l-21 12.2c-.6.3-.9.9-.9 1.6v24.3c0 .7.4 1.3.9 1.6l21 12.1c.6.3 1.3.3 1.8 0l21-12.1c.6-.3.9-.9.9-1.6v-24.3zm209.8-.7c2.3-1.3 3.7-3.8 3.7-6.4V192c0-2.6-1.4-5.1-3.7-6.4l-60.9-35.4c-2.3-1.3-5.1-1.3-7.4 0l-61.3 35.4c-2.3 1.3-3.7 3.8-3.7 6.4v70.8c0 2.7 1.4 5.1 3.7 6.4l60.9 34.7c2.2 1.3 5 1.3 7.3 0l36.8-20.5c2.5-1.4 2.5-5 0-6.4L550 241.6c-1.2-.7-1.9-1.9-1.9-3.2v-22.2c0-1.3.7-2.5 1.9-3.2l19.2-11.1c1.1-.7 2.6-.7 3.7 0l19.2 11.1c1.1.7 1.9 1.9 1.9 3.2v17.4c0 2.8 3.1 4.6 5.6 3.2l36.7-21.3zM559 219c-.4.3-.7.7-.7 1.2v13.6c0 .5.3 1 .7 1.2l11.8 6.8c.4.3 1 .3 1.4 0L584 235c.4-.3.7-.7.7-1.2v-13.6c0-.5-.3-1-.7-1.2l-11.8-6.8c-.4-.3-1-.3-1.4 0L559 219zm-254.2 43.5v-70.4c0-2.6-1.6-5.1-3.9-6.4l-61.1-35.2c-2.1-1.2-5-1.4-7.4 0l-61.1 35.2c-2.3 1.3-3.9 3.7-3.9 6.4v70.4c0 2.8 1.9 5.2 4 6.4l61.2 35.2c2.4 1.4 5.2 1.3 7.4 0l61-35.2c1.8-1 3.1-2.7 3.6-4.7.1-.5.2-1.1.2-1.7zm-74.3-124.9l-.8.5h1.1l-.3-.5zm76.2 130.2l-.4-.7v.9l.4-.2z"></path></svg>
@@ -1238,7 +1238,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 
 
 
-<section class="relative bg-gray-900 py-8 sm:py-16 select-none">
+<section class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
     <div class="text-white/10">
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
             <defs>
@@ -1250,7 +1250,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         </svg>
     </div>
     <div class="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative pb-5">
-        <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white text-center">
+        <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-center">
             <span class="font-normal">Take A Sneak Peak to Our Portfolio </span> 
             <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-600 to-gray-100 bg-clip-text text-transparent"> And Elevate Your Expectations!</span>
         </p>
@@ -1271,8 +1271,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-green-900/70 before:to-green-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-white text-center">MyFab11 App</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300 text-center">Fantasy Sports App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight text-center">MyFab11 App</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Fantasy Sports App</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -1291,8 +1291,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-fuchsia-900/70 before:to-fuchsia-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-white text-center">I-KNOW</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300 text-center">Health App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight text-center">I-KNOW</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Health App</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -1311,8 +1311,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-amber-900/70 before:to-amber-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-white text-center">Now Vue</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300 text-center">Guest Check In App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight text-center">Now Vue</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Guest Check In App</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -1331,8 +1331,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-indigo-900/70 before:to-indigo-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-white text-center">iPay</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300 text-center">Recharge App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight text-center">iPay</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Recharge App</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -1351,8 +1351,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-cyan-900/70 before:to-cyan-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-white text-center">Dentist Online</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300 text-center">Health App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight text-center">Dentist Online</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Health App</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -1371,8 +1371,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-emerald-900/70 before:to-emerald-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-white text-center">EcoCosmo</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300 text-center">Tracking App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight text-center">EcoCosmo</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Tracking App</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -1410,7 +1410,6 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <p class="mt-6 text-base md:text-lg md:leading-8 text-gray-300 text-center">Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one of our executives will catch you up in no time by Call, Email or Skype.</p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
                         <a href="#" class="rounded-md rounded-br-none bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Book A Discovery Call</a>
-                        {{-- <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a> --}}
                     </div>
                 </div>
             </div>
@@ -1437,182 +1436,78 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 Discover the endless possibilities with our versatile mobile app and web development solutions. From tech to healthcare, we cater to a diverse array of industries, ensuring innovation and excellence across every sector. Explore the major sector we deal in!
             </div>
             
-            <div class="flex flex-row flex-wrap w-full gap3 pt-8">
+            <div class="flex flex-row flex-wrap w-full gap3 pt-8 font-bold md:text-base text-sm uppercase text-white">
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img 
-                            width="296" 
-                            height="222" 
-                            srcset="
-                                public{{mix('/img/mobile/bank-and-finance.webp')}} 480w,
-                                public{{mix('/img/tablet/bank-and-finance.webp')}} 800w,
-                                public{{mix('/img/bank-and-finance.webp')}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix("/img/bank-and-finance.webp")}}" 
-                            alt="thanku" 
-                            class="w-full h-full object-cover duration-1000 group-hover:scale-150" 
-                            loading="lazy"
+                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/bank-and-finance.webp')}} 480w, public{{mix('/img/tablet/bank-and-finance.webp')}} 800w, public{{mix('/img/bank-and-finance.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/bank-and-finance.webp")}}" alt="Banking and Finance" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy"
                         >
-                        <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
-                            Banking and Finance
-                        </div>
+                        <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Banking and Finance</div>
                     </a>
                 </div>
                 <div class="xl:w-1/3  md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="297.33" height="222" 
-                            srcset="
-                                public{{mix('/img/mobile/fantasy-sports.webp')}} 480w,
-                                public{{mix('/img/tablet/fantasy-sports.webp')}} 800w,
-                                public{{mix('/img/fantasy-sports.webp')}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix("/img/fantasy-sports.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
-                        <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
-                            Fantasy Sports 
-                        </div>
+                        <img width="297.33" height="222" srcset=" public{{mix('/img/mobile/fantasy-sports.webp')}} 480w, public{{mix('/img/tablet/fantasy-sports.webp')}} 800w, public{{mix('/img/fantasy-sports.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/fantasy-sports.webp")}}" alt="Fantasy Sports" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Fantasy Sports</div>
                     </a>
                 </div>
                 <div class="xl:w-1/6  md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="194.66" height="222" 
-                            srcset="
-                                public{{mix('/img/mobile/healthcare.webp')}} 480w,
-                                public{{mix('/img/tablet/healthcare.webp')}} 800w,
-                                public{{mix('/img/healthcare.webp')}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix("/img/healthcare.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
-                        <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
-                            Healthcare 
-                        </div>
+                        <img width="194.66" height="222" srcset=" public{{mix('/img/mobile/healthcare.webp')}} 480w, public{{mix('/img/tablet/healthcare.webp')}} 800w, public{{mix('/img/healthcare.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/healthcare.webp")}}" alt="Healthcare" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Healthcare</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" 
-                            srcset="
-                                public{{mix('/img/mobile/edTech-solution.webp')}} 480w,
-                                public{{mix('/img/tablet/edTech-solution.webp')}} 800w,
-                                public{{mix('/img/edTech-solution.webp')}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix("/img/edTech-solution.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
-                        <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
-                            EdTech Solution 
-                        </div>
+                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/edTech-solution.webp')}} 480w, public{{mix('/img/tablet/edTech-solution.webp')}} 800w, public{{mix('/img/edTech-solution.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/edTech-solution.webp")}}" alt="EdTech Solution" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">EdTech Solution</div>
                     </a>
 
                 
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 sm:w-1/2 w-full p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" 
-                            srcset="
-                                public{{mix('/img/mobile/travel-and-tourism.webp')}} 480w,
-                                public{{mix('/img/tablet/travel-and-tourism.webp')}} 800w,
-                                public{{mix('/img/travel-and-tourism.webp')}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix("/img/travel-and-tourism.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
-                        <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
-                            Travel and Tourism 
-                        </div>
+                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/travel-and-tourism.webp')}} 480w, public{{mix('/img/tablet/travel-and-tourism.webp')}} 800w, public{{mix('/img/travel-and-tourism.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/travel-and-tourism.webp")}}" alt="Travel and Tourism" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Travel and Tourism</div>
                     </a>
 
                 
                 </div>
                 <div class="xl:w-1/2 md:w-1/3 sm:w-1/2 w-full p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="600" height="222" 
-                            srcset="
-                                public{{mix('/img/mobile/media-and-entertainment.webp')}} 480w,
-                                public{{mix('/img/tablet/media-and-entertainment.webp')}} 800w,
-                                public{{mix('/img/media-and-entertainment.webp')}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix("/img/media-and-entertainment.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
-                        <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
-                            Media and Entertainment 
-                        </div>
+                        <img width="600" height="222" srcset=" public{{mix('/img/mobile/media-and-entertainment.webp')}} 480w, public{{mix('/img/tablet/media-and-entertainment.webp')}} 800w, public{{mix('/img/media-and-entertainment.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/media-and-entertainment.webp")}}" alt="Media and Entertainment" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Media and Entertainment</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" 
-                            srcset="
-                                public{{mix('/img/mobile/retail-and-ecommerce-app.webp')}} 480w,
-                                public{{mix('/img/tablet/retail-and-ecommerce-app.webp')}} 800w,
-                                public{{mix('/img/retail-and-ecommerce-app.webp')}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix("/img/retail-and-ecommerce-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
-                        <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
-                            Retail and Ecommerce App 
-                        </div>
+                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/retail-and-ecommerce-app.webp')}} 480w, public{{mix('/img/tablet/retail-and-ecommerce-app.webp')}} 800w, public{{mix('/img/retail-and-ecommerce-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/retail-and-ecommerce-app.webp")}}" alt="Retail and Ecommerce App" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Retail and Ecommerce App</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" 
-                            srcset="
-                                public{{mix('/img/mobile/logistics-services-app.webp')}} 480w,
-                                public{{mix('/img/tablet/logistics-services-app.webp')}} 800w,
-                                public{{mix('/img/logistics-services-app.webp')}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix("/img/logistics-services-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
-                        <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
-                            Logistics Services App 
-                        </div>
+                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/logistics-services-app.webp')}} 480w, public{{mix('/img/tablet/logistics-services-app.webp')}} 800w, public{{mix('/img/logistics-services-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/logistics-services-app.webp")}}" alt="Logistics Services App" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Logistics Services App</div>
                     </a>
 
                 
                 </div>
                 <div class="xl:w-1/6 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="194.66" height="222" 
-                            srcset="
-                                public{{mix('/img/mobile/social-app.webp')}} 480w,
-                                public{{mix('/img/tablet/social-app.webp')}} 800w,
-                                public{{mix('/img/social-app.webp')}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix("/img/social-app.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
-                        <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
-                            Social App 
-                        </div>
+                        <img width="194.66" height="222" srcset=" public{{mix('/img/mobile/social-app.webp')}} 480w, public{{mix('/img/tablet/social-app.webp')}} 800w, public{{mix('/img/social-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/social-app.webp")}}" alt="Social App" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Social App</div>
                     </a>
                 </div>
                 <div class="xl:w-1/3 md:w-1/2 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="397.33" height="222" 
-                            srcset="
-                                public{{mix('/img/mobile/real-estate.webp')}} 480w,
-                                public{{mix('/img/tablet/real-estate.webp')}} 800w,
-                                public{{mix('/img/real-estate.webp')}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix("/img/real-estate.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
-                        <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
-                            Real Estate  
-                        </div>
+                        <img width="397.33" height="222" srcset=" public{{mix('/img/mobile/real-estate.webp')}} 480w, public{{mix('/img/tablet/real-estate.webp')}} 800w, public{{mix('/img/real-estate.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/real-estate.webp")}}" alt="Real Estate" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Real Estate</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/2 sm:w-1/2 w-full p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" 
-                            srcset="
-                                public{{mix('/img/mobile/on-demand.webp')}} 480w,
-                                public{{mix('/img/tablet/on-demand.webp')}} 800w,
-                                public{{mix('/img/on-demand.webp')}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix("/img/on-demand.webp")}}" alt="thanku" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
-                        <div class="md:text-base text-sm group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center font-bold uppercase text-white duration-1000 group-hover:opacity-75 z-20">
-                            Event management 
-                        </div>
+                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/on-demand.webp')}} 480w, public{{mix('/img/tablet/on-demand.webp')}} 800w, public{{mix('/img/on-demand.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/on-demand.webp")}}" alt="Event management" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Event management</div>
                     </a>
                 </div>
             </div>
@@ -1620,7 +1515,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
 </section>
 
-<section class="relative bg-gray-900 py-8 sm:py-16 select-none">
+<section class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
     <div class="text-white/10">
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
             <defs>
@@ -1632,11 +1527,11 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         </svg>
     </div>
     <div class="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative">
-        <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white text-center">
+        <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-center">
             <span class="font-normal">What Our Clients </span> 
             <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent"> Have to Say?</span>
         </p>
-        <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 text-center">
+        <div class="md:text-base text-sm opacity-70 mt-3 mb-lg-1 text-center">
             Dive into the testimonials that paint a vivid picture of our journey with our potential client so far. Take a glimpse into our exceptional assistance and begin your success story with us today.
         </div>
     </div>
@@ -1644,80 +1539,80 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         <div class="swiper-wrapper flex items-center">
             <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/testi">
                 <figure class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/testi:delay-0 delay-700 group-[.swiper-slide-active]/testi:opacity-100 opacity-60 duration-300">
-                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight text-white sm:text-center">
+                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">
                         <p>“The client was very satisfied with the final product. IMG Global Infotech Pvt. Ltd provided a quick turnaround and high-quality services. They were able to strategize their deliverables well. The team utilized Scrum for project management and various apps for communication.”</p>
                     </blockquote>
                     
                     <figcaption class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full bg-gray-200"><img alt="Miss. Alisha Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-2.webp')}}"></div>
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Miss. Alisha Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-2.webp')}}"></div>
                         <div class="ml-4">
-                            <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight text-white">Miss. Alisha Sharma</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300">Co-Founder, YSR Infotech</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300">New Delhi, India</div>
+                            <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Miss. Alisha Sharma</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-70">Co-Founder, YSR Infotech</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-70">New Delhi, India</div>
                         </div>
                     </figcaption>
                 </figure>
             </div>
             <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/testi">
                 <figure class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/testi:delay-0 delay-700 group-[.swiper-slide-active]/testi:opacity-100 opacity-60 duration-300">
-                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight text-white sm:text-center">
+                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">
                         <p>“IMG Global Infotech Pvt. Ltd helped the client improve their digital presence through the web portal. They finished the project within six months, which exceeded the client's expectations. In addition, they were customer-focused and accommodating to the client's queries.”</p>
                     </blockquote>
                     
                     <figcaption class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full bg-gray-200"><img alt="Mr. Arun Garg" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-3.webp')}}"></div>
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Arun Garg" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-3.webp')}}"></div>
                         <div class="ml-4">
-                            <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight text-white">Mr. Arun Garg</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300">Founder, CoachingSelect.com</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300">India</div>
+                            <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Arun Garg</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-70">Founder, CoachingSelect.com</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-70">India</div>
                         </div>
                     </figcaption>
                 </figure>
             </div>
             <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/testi">
                 <figure class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/testi:delay-0 delay-700 group-[.swiper-slide-active]/testi:opacity-100 opacity-60 duration-300">
-                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight text-white sm:text-center">
+                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">
                         <p>“IMG Global Infotech Pvt. Ltd impressed the client with the final results. The client also lauded their quality work, proper communication via scrum meetings, efficient project management, and on-time delivery. Due to the success of the collaboration, the client hired them again for other projects..”</p>
                     </blockquote>
                     
                     <figcaption class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full bg-gray-200"><img alt="Mr. Sandeep Yadav" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-1.webp')}}"></div>
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Sandeep Yadav" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-1.webp')}}"></div>
                         <div class="ml-4">
-                            <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight text-white">Mr. Sandeep Yadav</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300">Owner, Coherent Lab LLP</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300">India</div>
+                            <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Sandeep Yadav</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-70">Owner, Coherent Lab LLP</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-70">India</div>
                         </div>
                     </figcaption>
                 </figure>
             </div>
             <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/testi">
                 <figure class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/testi:delay-0 delay-700 group-[.swiper-slide-active]/testi:opacity-100 opacity-60 duration-300">
-                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight text-white sm:text-center">
+                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">
                         <p>“Thanks to IMG Global Infotech's efforts, the project was completed successfully, satisfying the client's expectations. Although work was done remotely, their project management was seamless and efficient.”</p>
                     </blockquote>
                     
                     <figcaption class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full bg-gray-200"><img alt="Mr. Anikendra Das Choudhury" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-4.webp')}}"></div>
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Anikendra Das Choudhury" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-4.webp')}}"></div>
                         <div class="ml-4">
-                            <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight text-white">Mr. Anikendra Das Choudhury</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300">CEO, MyFab11</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300">Kolkata, India</div>
+                            <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Anikendra Das Choudhury</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-70">CEO, MyFab11</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-70">Kolkata, India</div>
                         </div>
                     </figcaption>
                 </figure>
             </div>
             <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/testi">
                 <figure class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/testi:delay-0 delay-700 group-[.swiper-slide-active]/testi:opacity-100 opacity-60 duration-300">
-                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight text-white sm:text-center">
+                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">
                         <p>“Impressing their partner, IMG Global Infotech Pvt. Ltd brought many customers for the client. Their professionalism and active response were all remarkable, as demonstrated in their project updates every 2-3 days.”</p>
                     </blockquote>
                     
                     <figcaption class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full bg-gray-200"><img alt="Mr. Bharat Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/t-avatar-1.webp')}}"></div>
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Bharat Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/t-avatar-1.webp')}}"></div>
                         <div class="ml-4">
-                            <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight text-white">Mr. Bharat Sharma</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300">Administrative Head, Injection Service At Home</div>
-                            <div class="mt-1 text-sm md:text-sm text-gray-300">India</div>
+                            <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Bharat Sharma</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-70">Administrative Head, Injection Service At Home</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-70">India</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -1761,7 +1656,6 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="group relative">
                                     <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <div class="line-clamp-2">
-                                        <span class="absolute inset-0"></span>
                                         How To Develop A Loan Lending Mobile App? – A Complete Guide
                                     </div>
                                     </h3>
@@ -1770,12 +1664,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="relative mt-8 flex items-center gap-x-4">
                                     <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">
-                                        <div>
-                                        <span class="absolute inset-0"></span>
-                                        Written by
-                                        </div>
-                                    </p>
+                                    <p class="font-semibold text-gray-900">Written by</p>
                                     <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
@@ -1793,7 +1682,6 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="group relative">
                                     <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <div class="line-clamp-2">
-                                        <span class="absolute inset-0"></span>
                                         Top 10 Mobile App Development Companies In 2024
                                     </div>
                                     </h3>
@@ -1802,12 +1690,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="relative mt-8 flex items-center gap-x-4">
                                     <img data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">
-                                        <div>
-                                        <span class="absolute inset-0"></span>
-                                        Written by
-                                        </div>
-                                    </p>
+                                    <p class="font-semibold text-gray-900">Written by</p>
                                     <p class="text-gray-600">Mohit Mittal</p>
                                     </div>
                                 </div>
@@ -1825,7 +1708,6 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="group relative">
                                     <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <div class="line-clamp-2">
-                                        <span class="absolute inset-0"></span>
                                         How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?
                                     </div>
                                     </h3>
@@ -1834,12 +1716,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="relative mt-8 flex items-center gap-x-4">
                                     <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">
-                                        <div>
-                                        <span class="absolute inset-0"></span>
-                                        Written by
-                                        </div>
-                                    </p>
+                                    <p class="font-semibold text-gray-900">Written by</p>
                                     <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
@@ -1857,7 +1734,6 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="group relative">
                                     <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <div class="line-clamp-2">
-                                        <span class="absolute inset-0"></span>
                                         How To Develop A Loan Lending Mobile App? – A Complete Guide
                                     </div>
                                     </h3>
@@ -1866,12 +1742,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="relative mt-8 flex items-center gap-x-4">
                                     <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">
-                                        <div>
-                                        <span class="absolute inset-0"></span>
-                                        Written by
-                                        </div>
-                                    </p>
+                                    <p class="font-semibold text-gray-900">Written by</p>
                                     <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
@@ -1889,7 +1760,6 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="group relative">
                                     <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <div class="line-clamp-2">
-                                        <span class="absolute inset-0"></span>
                                         Top 10 Mobile App Development Companies In 2024
                                     </div>
                                     </h3>
@@ -1898,12 +1768,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="relative mt-8 flex items-center gap-x-4">
                                     <img data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">
-                                        <div>
-                                        <span class="absolute inset-0"></span>
-                                        Written by
-                                        </div>
-                                    </p>
+                                    <p class="font-semibold text-gray-900">Written by</p>
                                     <p class="text-gray-600">Mohit Mittal</p>
                                     </div>
                                 </div>
@@ -1921,7 +1786,6 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="group relative">
                                     <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <div class="line-clamp-2">
-                                        <span class="absolute inset-0"></span>
                                         How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?
                                     </div>
                                     </h3>
@@ -1930,12 +1794,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="relative mt-8 flex items-center gap-x-4">
                                     <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">
-                                        <div>
-                                        <span class="absolute inset-0"></span>
-                                        Written by
-                                        </div>
-                                    </p>
+                                    <p class="font-semibold text-gray-900">Written by</p>
                                     <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
@@ -1953,7 +1812,6 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="group relative">
                                     <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <div class="line-clamp-2">
-                                        <span class="absolute inset-0"></span>
                                         How To Develop A Loan Lending Mobile App? – A Complete Guide
                                     </div>
                                     </h3>
@@ -1962,12 +1820,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="relative mt-8 flex items-center gap-x-4">
                                     <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">
-                                        <div>
-                                        <span class="absolute inset-0"></span>
-                                        Written by
-                                        </div>
-                                    </p>
+                                    <p class="font-semibold text-gray-900">Written by</p>
                                     <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
@@ -1985,7 +1838,6 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="group relative">
                                     <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <div class="line-clamp-2">
-                                        <span class="absolute inset-0"></span>
                                         Top 10 Mobile App Development Companies In 2024
                                     </div>
                                     </h3>
@@ -1994,12 +1846,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="relative mt-8 flex items-center gap-x-4">
                                     <img data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">
-                                        <div>
-                                        <span class="absolute inset-0"></span>
-                                        Written by
-                                        </div>
-                                    </p>
+                                    <p class="font-semibold text-gray-900">Written by</p>
                                     <p class="text-gray-600">Mohit Mittal</p>
                                     </div>
                                 </div>
@@ -2017,7 +1864,6 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="group relative">
                                     <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                                     <div class="line-clamp-2">
-                                        <span class="absolute inset-0"></span>
                                         How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?
                                     </div>
                                     </h3>
@@ -2026,12 +1872,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="relative mt-8 flex items-center gap-x-4">
                                     <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">
-                                        <div>
-                                        <span class="absolute inset-0"></span>
-                                        Written by
-                                        </div>
-                                    </p>
+                                    <p class="font-semibold text-gray-900">Written by</p>
                                     <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
