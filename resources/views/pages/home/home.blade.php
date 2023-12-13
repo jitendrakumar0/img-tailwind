@@ -3,9 +3,9 @@
 <!--  Title -->
 <title>IT Consulting Company | IT Consulting Services</title>
   <!-- Required meta tags -->
-<meta name="title" content="IT Consulting Company | IT Consulting Services" />
-<meta name="description" content=" IMG Global is the best IT consulting Company that provides the best IT consulting services to startups, mid-size, medium-size and large-size businesses." />
-<meta name="keywords" content="IT consulting company, IT consulting services, IT consultant, IT consulting firm, Hire IT consultant, IT company" />
+<meta name="title" content="IT Consulting Company | IT Consulting Services">
+<meta name="description" content=" IMG Global is the best IT consulting Company that provides the best IT consulting services to startups, mid-size, medium-size and large-size businesses.">
+<meta name="keywords" content="IT consulting company, IT consulting services, IT consultant, IT consulting firm, Hire IT consultant, IT company">
 
 <!-- Twitter Meta -->
 <meta name="twitter:title" content="IT Consulting Company | IT Consulting Services">
@@ -16,9 +16,9 @@
 <meta property="og:title" content="IT Consulting Company | IT Consulting Services">
 <meta property="og:description" content="IMG Global is the best IT consulting Company that provides the best IT consulting services to startups, mid-size, medium-size and large-size businesses.">
 
-<meta name="classification" content="web and mobile app development company, software development, eCommerce development services, fantasy sports app development, online exam app" />
-<link rel="canonical" href="{{asset('/')}}" />
-<meta name="robots" content="noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="classification" content="web and mobile app development company, software development, eCommerce development services, fantasy sports app development, online exam app">
+<link rel="canonical" href="{{asset('/')}}">
+<meta name="robots" content="noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 {{-- <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -42,8 +42,35 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 @endpush
 
 @section('content')
+<div class="hidden">
+    <div>
+        <h1>Web and Mobile App Development Company</h1>
+    </div>
+    <div>
+        <h2>Awards & Recognitions</h2>
+    </div>
+    <div>
+        <h2>Client Journeys to Success – Glimpse of Our Case Studies</h2>
+    </div>
+    <div>
+        <h2>Take A Sneak Peak to Our Portfolio And Elevate Your Expectations!</h2>
+        <div>
+            <h4>EcoCosmo</h4>
+            <h4>MyFab11 App </h4>
+            <h4>I-KNOW</h4>
+            <h4>Now Vue </h4>
+            <h4>iPay</h4>
+            <h4>Dentist Online</h4>
+        </div>
+    </div>
+    <div>
+        <h3>Let's turn your business idea into reality</h3>
+        <h3>Wide Range of Industries Covered By Us!</h3>
+        <h3>What Our Clients Have to Say?</h3>
+    </div>
+</div>
 
-<section class="flex w-full pt-16 md:pt-20 lg:pt-32 overflow-hidden relative bg-slate-50 select-none">
+<div class="flex w-full pt-16 md:pt-20 lg:pt-32 overflow-hidden relative bg-slate-50 select-none">
     
     <div class="swiper heroSwiperThumbs !absolute !inset-0 before:absolute before:inset-0 before:z-[3]">
         <div class="swiper-wrapper relative z-0">
@@ -64,7 +91,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
         </div>
     </div>
-    <div thumbsSlider="" class="swiper heroSwiper min-h-[500px] h-[calc(100vh-64px)] md:h-[calc(100vh-80px)] lg:h-[calc(100vh-128px)] w-full">
+    <div class="swiper heroSwiper min-h-[500px] h-[calc(100vh-64px)] md:h-[calc(100vh-80px)] lg:h-[calc(100vh-128px)] w-full">
         <div class="swiper-wrapper">
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-yellow-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp)] before:bg-gradient-to-r before:from-yellow-950 before:via-yellow-900 before:to-yellow-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
@@ -95,7 +122,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
                                 <span class="flex items-center gap-1">
                                     Coffee With Us
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g id="Coffee_Cup"><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
                                 </span>
                             </a>
                         </div>
@@ -116,7 +143,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <span class="inline md:group-[.swiper-slide-active]:block">Elevate Your Vision with Robust</span>
                             <span class="font-bold bg-gradient-to-r from-indigo-200 via-lime-600 to-indigo-200 bg-clip-text text-transparent inline group-[.swiper-slide-active]:block">And Scalable Mobile App Development!</span>
                         </div>
-                        <div class="subTitle transition-[transform,opacity] max-md:text-sm/tight text-base/tight font-light text-white/80 pt-5 duration-0 delay-500 -translate-x-full opacity-0 group-[.swiper-slide-active]:translate-x-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:text-[0px] group-[.swiper-slide-next]:delay-0 block">IMG Global Infotech’s robust and scalable app development solutions redefine possibilities, ensuring your ideas soar to new heights. Uplifting innovations, one app at a time!</div>
+                        <div class="subTitle transition-[transform,opacity] max-md:text-sm/tight text-base/tight font-light text-white/80 pt-5 duration-0 delay-500 -translate-x-full opacity-0 group-[.swiper-slide-active]:translate-x-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:text-[0px] group-[.swiper-slide-next]:delay-0 block">IMG Global Infotech's robust and scalable app development solutions redefine possibilities, ensuring your ideas soar to new heights. Uplifting innovations, one app at a time!</div>
                         <div class="mt-10 flex gap-4">
                             <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[700ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
                                 <span>
@@ -131,7 +158,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
                                 <span class="flex items-center gap-1">
                                     Coffee With Us
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g id="Coffee_Cup"><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
                                 </span>
                             </a>
                         </div>
@@ -167,7 +194,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
                                 <span class="flex items-center gap-1">
                                     Coffee With Us
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g id="Coffee_Cup"><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
                                 </span>
                             </a>
                         </div>
@@ -203,7 +230,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
                                 <span class="flex items-center gap-1">
                                     Coffee With Us
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g id="Coffee_Cup"><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
                                 </span>
                             </a>
                         </div>
@@ -239,7 +266,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
                                 <span class="flex items-center gap-1">
                                     Coffee With Us
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g id="Coffee_Cup"><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
                                 </span>
                             </a>
                         </div>
@@ -258,42 +285,42 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     
         {{-- <div class="swiper-scrollbar"></div> --}}
     </div>
-</section>
+</div>
 
-<section class="select-none">
+<div class="select-none">
     <div class="bg-slate-50 pb-6 sm:pb-12">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
             <div class="swiper logo-clouds before:bg-gradient-to-r before:from-slate-50 before:to-transparent before:w-32 before:z-10 before:inset-0 before:absolute before:pointer-events-none after:bg-gradient-to-l after:from-slate-50 after:to-transparent after:w-32 after:z-10 after:inset-0 after:absolute after:pointer-events-none after:left-auto">
                 <div class="swiper-wrapper !ease-linear mt-10 flex items-center">
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-titan.webp') }}" alt="logo clouds titan" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-titan.webp') }}" alt="logo clouds titan">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-adani.webp') }}" alt="logo clouds adani" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-adani.webp') }}" alt="logo clouds adani">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-fabindia.webp') }}" alt="logo clouds fabindia" alt="Tuple" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-fabindia.webp') }}" alt="logo clouds fabindia">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-hero.webp') }}" alt="logo clouds hero" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-hero.webp') }}" alt="logo clouds hero">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-myfab11.webp') }}" alt="logo clouds myfab11" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-myfab11.webp') }}" alt="logo clouds myfab11">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-parle.webp') }}" alt="logo clouds parle" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-parle.webp') }}" alt="logo clouds parle">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-tata.webp') }}" alt="logo clouds tata" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-tata.webp') }}" alt="logo clouds tata">
                     </a>
                     <a class="swiper-slide !h-5 md:!h-7">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-titan.webp') }}" alt="logo clouds titan" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-titan.webp') }}" alt="logo clouds titan">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-adani.webp') }}" alt="logo clouds adani" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-adani.webp') }}" alt="logo clouds adani">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108.44" height="32" data-src="public{{ mix('/img/logo-clouds-fabindia.webp') }}" alt="logo clouds fabindia" alt="Tuple" width="158" height="48">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-fabindia.webp') }}" alt="logo clouds fabindia">
                     </a>
                 </div>
             </div>
@@ -306,7 +333,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 <div class="relative z-10 hidden lg:block pointer-events-none">
                     <div class="mt-6 flex [transform:rotateY(180deg)]">
                         <div class="relative flex-shrink-0 p-4">
-                            <div class="relative z-10 overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px]" loading="lazy" width="336" height="404" data-src="public{{ mix('/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp') }}" alt="unlock access to bespoke apps and product innovation with us"></div>
+                            <div class="relative z-10 overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px] aspect-[404/336]" loading="lazy" width="336" height="404" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp') }}" alt="unlock access to bespoke apps and product innovation with us"></div>
                             <div class="z-0">
                             <div class="absolute -right-12 left-0 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
                             <div class="absolute -top-8 bottom-0 left-12 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
@@ -321,7 +348,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             </div>
                         </div>
                         <div class="relative mt-14 flex-shrink-0 p-4">
-                            <div class="overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px]" loading="lazy" width="336" height="404" data-src="public{{ mix('/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp') }}" alt="elevate your vision with robust and scalable mobile app development1"></div>
+                            <div class="overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px] aspect-[404/336]" loading="lazy" width="336" height="404" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp') }}" alt="elevate your vision with robust and scalable mobile app development1"></div>
                             <div>
                             <div class="absolute -left-4 -right-8 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
                             <div class="absolute -bottom-12 -top-20 right-0 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
@@ -336,7 +363,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </div>
                         <div class="relative flex-shrink-0 p-4">
                             <div class="overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5">
-                                <div class="object-cover h-[404px] w-[336px]"></div>
+                                <div class="object-cover h-[404px] w-[336px] aspect-[404/336]"></div>
                             </div>
                             <div>
                             <div class="absolute -left-12 -right-8 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
@@ -362,7 +389,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="mt-6 flex">
                         <div class="relative flex-shrink-0 p-4">
                             <div class="relative z-10 overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5 invisible">
-                                <div class="object-cover h-[404px] w-[336px]"></div>
+                                <div class="object-cover h-[404px] w-[336px] aspect-[404/336]"></div>
                             </div>
                             <div class="z-0">
                                 <div class="absolute -right-12 left-0 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
@@ -383,11 +410,11 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="pointer-events-none absolute inset-0 shadow-[inset_0_-1px_1px_rgba(0,0,0,0.06)]"></div>
         </div>
     </div>
-</section>
+</div>
 
 
-<section class="relative isolate overflow-hidden bg-gray-900 py-8 sm:py-32 select-none">
-    <img width="1519" height="592" data-src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=1280&h=678&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="unsplash background image" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center" loading="lazy">
+<div class="relative isolate overflow-hidden bg-gray-900 py-8 sm:py-32 select-none">
+    <img width="1519" height="592" src="public{{mix('/img/hidden.webp')}}" data-src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=1280&h=678&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="unsplash background image" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center" loading="lazy">
     <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
         <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
@@ -398,41 +425,41 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         <div class="mx-auto max-w-2xl lg:mx-0">
             <div>
                 <input type="radio" name="mainly" checked id="inc" class="hidden peer/inc">
-                <h2 class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/inc:relative absolute peer-checked/inc:z-[1] -z-20 peer-checked/inc:translate-x-0 translate-x-1/4 peer-checked/inc:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Inception</h2>
+                <div class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/inc:relative absolute peer-checked/inc:z-[1] -z-20 peer-checked/inc:translate-x-0 translate-x-1/4 peer-checked/inc:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Inception</div>
                 <p class="mt-6 text-sm md:text-base md:leading-8 peer-checked/inc:relative absolute peer-checked/inc:z-[1] -z-20 peer-checked/inc:translate-x-0 translate-x-1/4 peer-checked/inc:opacity-70 opacity-0 duration-300 delay-150 transition-[transform,opacity]">Commence on a digital journey with IMG Global Infotech, where ideas unfold into cutting-edge solutions, shaping a dynamic future.</p>
             </div>
             <div>
                 <input type="radio" name="mainly" id="inn" class="hidden peer/inn">
-                <h2 class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/inn:relative absolute peer-checked/inn:z-[1] -z-20 peer-checked/inn:translate-x-0 translate-x-1/4 peer-checked/inn:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Innovation</h2>
+                <div class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/inn:relative absolute peer-checked/inn:z-[1] -z-20 peer-checked/inn:translate-x-0 translate-x-1/4 peer-checked/inn:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Innovation</div>
                 <p class="mt-6 text-sm md:text-base md:leading-8 peer-checked/inn:relative absolute peer-checked/inn:z-[1] -z-20 peer-checked/inn:translate-x-0 translate-x-1/4 peer-checked/inn:opacity-70 opacity-0 duration-300 delay-150 transition-[transform,opacity]">IMG Global Infotech pioneers transformative solutions, pushing boundaries to redefine industries via inventive technology.</p>
             </div>
             <div>
                 <input type="radio" name="mainly" id="exp" class="hidden peer/exp">
-                <h2 class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/exp:relative absolute peer-checked/exp:z-[1] -z-20 peer-checked/exp:translate-x-0 translate-x-1/4 peer-checked/exp:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Experience</h2>
+                <div class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/exp:relative absolute peer-checked/exp:z-[1] -z-20 peer-checked/exp:translate-x-0 translate-x-1/4 peer-checked/exp:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Experience</div>
                 <p class="mt-6 text-sm md:text-base md:leading-8 peer-checked/exp:relative absolute peer-checked/exp:z-[1] -z-20 peer-checked/exp:translate-x-0 translate-x-1/4 peer-checked/exp:opacity-70 opacity-0 duration-300 delay-150 transition-[transform,opacity]">Boosting online presence with a skilled team, crafting immersive experiences that resonate with precision and expertise.</p>
             </div>
             <div>
                 <input type="radio" name="mainly" id="ets" class="hidden peer/ets">
-                <h2 class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/ets:relative absolute peer-checked/ets:z-[1] -z-20 peer-checked/ets:translate-x-0 translate-x-1/4 peer-checked/ets:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Expertise</h2>
+                <div class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/ets:relative absolute peer-checked/ets:z-[1] -z-20 peer-checked/ets:translate-x-0 translate-x-1/4 peer-checked/ets:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Expertise</div>
                 <p class="mt-6 text-sm md:text-base md:leading-8 peer-checked/ets:relative absolute peer-checked/ets:z-[1] -z-20 peer-checked/ets:translate-x-0 translate-x-1/4 peer-checked/ets:opacity-70 opacity-0 duration-300 delay-150 transition-[transform,opacity]">Navigate the complex digital landscape with IMG Global Infotech's mastery, delivering tailored solutions fueled by unparalleled industry knowledge.</p>
             </div>
             <div>
                 <input type="radio" name="mainly" id="ass" class="hidden peer/ass">
-                <h2 class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/ass:relative absolute peer-checked/ass:z-[1] -z-20 peer-checked/ass:translate-x-0 translate-x-1/4 peer-checked/ass:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Assurance</h2>
+                <div class="text-2xl md:text-3xl font-bold tracking-tight sm:text-4xl peer-checked/ass:relative absolute peer-checked/ass:z-[1] -z-20 peer-checked/ass:translate-x-0 translate-x-1/4 peer-checked/ass:opacity-100 opacity-0 duration-300 transition-[transform,opacity]">Assurance</div>
                 <p class="mt-6 text-sm md:text-base md:leading-8 peer-checked/ass:relative absolute peer-checked/ass:z-[1] -z-20 peer-checked/ass:translate-x-0 translate-x-1/4 peer-checked/ass:opacity-70 opacity-0 duration-300 delay-150 transition-[transform,opacity]">Trust our unwavering commitment to reliability, security, and excellence, ensuring your digital endeavors thrive with confidence.</p>
             </div>
         </div>
         <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
             <div class="grid grid-cols-3 gap-x-8 gap-y-6 text-base font-semibold leading-7 sm:grid-cols-3 md:flex lg:gap-x-10">
-                <a href="javascript:;"><label class="cursor-pointer" for="inc">Inception <span aria-hidden="true">&rarr;</span></label></a>
-                <a href="javascript:;"><label class="cursor-pointer" for="inn">Innovation <span aria-hidden="true">&rarr;</span></label></a>
-                <a href="javascript:;"><label class="cursor-pointer" for="exp">Experience <span aria-hidden="true">&rarr;</span></label></a>
-                <a href="javascript:;"><label class="cursor-pointer" for="ets">Expertise <span aria-hidden="true">&rarr;</span></label></a>
-                <a href="javascript:;"><label class="cursor-pointer" for="ass">Assurance <span aria-hidden="true">&rarr;</span></label></a>
+                <label class="cursor-pointer hoverLink" for="inc">Inception <span aria-hidden="true">&rarr;</span></label>
+                <label class="cursor-pointer hoverLink" for="inn">Innovation <span aria-hidden="true">&rarr;</span></label>
+                <label class="cursor-pointer hoverLink" for="exp">Experience <span aria-hidden="true">&rarr;</span></label>
+                <label class="cursor-pointer hoverLink" for="ets">Expertise <span aria-hidden="true">&rarr;</span></label>
+                <label class="cursor-pointer hoverLink" for="ass">Assurance <span aria-hidden="true">&rarr;</span></label>
             </div>
             <div class="mt-16 grid grid-cols-2 gap-x-8 gap-y-10 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
                 <div class="flex flex-col-reverse">
-                    <div class="text-base leading-7 opacity-70">Years’ Experience</div>
+                    <div class="text-base leading-7 opacity-70">Years' Experience</div>
                     <div class="text-2xl font-bold leading-9 tracking-tight">11</div>
                 </div>
                 <div class="flex flex-col-reverse">
@@ -458,10 +485,10 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
         </div>
     </div>
-</section>
+</div>
 
 
-<section class="relative isolate overflow-hidden pb-8 sm:pb-16 select-none">
+<div class="relative isolate overflow-hidden pb-8 sm:pb-16 select-none">
     <div class="overflow-hidden bg-gradient-to-b from-white to-slate-200 pt-6 md:pt-16 pb-36 sm:ps-0 ps-5 sm:pr-0 pr-5">
         <div class="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/10 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
             <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
@@ -486,32 +513,32 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     <div class="container py-5 bg-white mt-[-126px] md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div class="text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base mt-3">Avail Exclusive Development Services In Just A Click!</div>
         <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
-            Discover your way to unparalleled growth and creativity while choosing IMG Global Inftech’s growth-driven development services. Seamlessly transform your business ideas into reality with just a click, because innovation starts here. 
+            Discover your way to unparalleled growth and creativity while choosing IMG Global Inftech's growth-driven development services. Seamlessly transform your business ideas into reality with just a click, because innovation starts here. 
         </div>
         <div class="flex flex-row w-full flex-wrap pt-8">
             <div class="w-full -mb-[120px] z-[2] p-4 md:p-6">
                 <div class="swiper servicesSwiperThumb bg-white border-[10px] border-white rounded-xl">
-                    <div class="swiper-wrapper flex items-center !h-auto">
+                    <div class="swiper-wrapper flex items-center !h-auto sm:text-base text-sm font-semibold">
                         <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-sky-800 bg-sky-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-sky-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-sky-900 group-[.swiper-slide-thumb-active]/svc:to-sky-700 group-[.swiper-slide-thumb-active]/svc:text-white">Software Development</a>
+                            <a href="javascript:;" class="cursor-pointer text-sky-800 bg-sky-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-sky-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-sky-900 group-[.swiper-slide-thumb-active]/svc:to-sky-700 group-[.swiper-slide-thumb-active]/svc:text-white">Software Development</a>
                         </div>
                         <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-fuchsia-800 bg-fuchsia-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-fuchsia-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-fuchsia-900 group-[.swiper-slide-thumb-active]/svc:to-fuchsia-700 group-[.swiper-slide-thumb-active]/svc:text-white">Mobile App Development</a>
+                            <a href="javascript:;" class="cursor-pointer text-fuchsia-800 bg-fuchsia-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-fuchsia-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-fuchsia-900 group-[.swiper-slide-thumb-active]/svc:to-fuchsia-700 group-[.swiper-slide-thumb-active]/svc:text-white">Mobile App Development</a>
                         </div>
                         <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-teal-800 bg-teal-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-teal-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-teal-900 group-[.swiper-slide-thumb-active]/svc:to-teal-700 group-[.swiper-slide-thumb-active]/svc:text-white">Web Development</a>
+                            <a href="javascript:;" class="cursor-pointer text-teal-800 bg-teal-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-teal-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-teal-900 group-[.swiper-slide-thumb-active]/svc:to-teal-700 group-[.swiper-slide-thumb-active]/svc:text-white">Web Development</a>
                         </div>
                         <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-amber-800 bg-amber-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-amber-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-amber-900 group-[.swiper-slide-thumb-active]/svc:to-amber-700 group-[.swiper-slide-thumb-active]/svc:text-white">Blockchain Development</a>
+                            <a href="javascript:;" class="cursor-pointer text-amber-800 bg-amber-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-amber-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-amber-900 group-[.swiper-slide-thumb-active]/svc:to-amber-700 group-[.swiper-slide-thumb-active]/svc:text-white">Blockchain Development</a>
                         </div>
                         <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-lime-800 bg-lime-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-lime-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-lime-900 group-[.swiper-slide-thumb-active]/svc:to-lime-700 group-[.swiper-slide-thumb-active]/svc:text-white">Ecommerce Solutions</a>
+                            <a href="javascript:;" class="cursor-pointer text-lime-800 bg-lime-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-lime-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-lime-900 group-[.swiper-slide-thumb-active]/svc:to-lime-700 group-[.swiper-slide-thumb-active]/svc:text-white">Ecommerce Solutions</a>
                         </div>
                         <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-orange-800 bg-orange-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-orange-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-orange-900 group-[.swiper-slide-thumb-active]/svc:to-orange-700 group-[.swiper-slide-thumb-active]/svc:text-white">Hire Developers</a>
+                            <a href="javascript:;" class="cursor-pointer text-orange-800 bg-orange-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-orange-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-orange-900 group-[.swiper-slide-thumb-active]/svc:to-orange-700 group-[.swiper-slide-thumb-active]/svc:text-white">Hire Developers</a>
                         </div>
                         <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-cyan-800 bg-cyan-950/10 sm:text-base text-sm font-semibold px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-cyan-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-cyan-900 group-[.swiper-slide-thumb-active]/svc:to-cyan-700 group-[.swiper-slide-thumb-active]/svc:text-white">Trending Solutions</a>
+                            <a href="javascript:;" class="cursor-pointer text-cyan-800 bg-cyan-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-cyan-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-cyan-900 group-[.swiper-slide-thumb-active]/svc:to-cyan-700 group-[.swiper-slide-thumb-active]/svc:text-white">Trending Solutions</a>
                         </div>
                     </div>
                 </div>
@@ -530,11 +557,11 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
                                     <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
-                                            <pattern id="SoftwareDevelopment" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                                            <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
                                                 <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
                                             </pattern>
                                         </defs>
-                                        <rect width="100%" height="100%" fill="url(#SoftwareDevelopment)"></rect>
+                                        <rect width="100%" height="100%" fill="url(#sd7)"></rect>
                                     </svg>
                                 </div>
                                 <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
@@ -545,11 +572,11 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     Avail software development services tailored to your unique business needs. Our software developers combine cutting-edge technology with their expertise to empower your business with innovative software that drives success.
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
-                                    <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Bespoke Software Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">SaaS Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">White Label Software Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">ERP Software Development</a>
+                                    <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Bespoke Software Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">SaaS Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">White Label Software Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">ERP Software Development</a>
                                     </div>
                                 </div>
                                 <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
@@ -619,14 +646,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     Step into the future of digital interaction with our top-notch mobile app development services. Your ideas are the fuel, and we are the creators, transforming concepts into powerful mobile solutions that captivate users and elevate your digital footprint.
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
-                                    <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Android App Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Cross-Platform App Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">iOS App Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">PWA Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Flutter App Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Wearable App Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">React Native App Development</a>
+                                    <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Android App Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Cross-Platform App Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">iOS App Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">PWA Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Flutter App Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Wearable App Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">React Native App Development</a>
                                     </div>
                                 </div>
                                 <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
@@ -696,13 +723,13 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     Beyond mere websites, we weave digital tales with interactive website design and development services. Let us sculpt your online presence into a masterpiece that resonates with your brand essence and captivates your audience in just a click.
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
-                                    <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Website Design</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">CMS Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Responsive Website Design</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">API Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Website Redesign</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Web Portal Development</a>
+                                    <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Website Design</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">CMS Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Responsive Website Design</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">API Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Website Redesign</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Web Portal Development</a>
                                     </div>
                                 </div>
                                 <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
@@ -772,13 +799,13 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     Unlock the door to decentralized innovation with our cutting-edge blockchain development services. Experience security, transparency, and groundbreaking blockchain development solutions redefining trust and scalability in the digital era.
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
-                                    <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Blockchain Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Smart Contract Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">NFT Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">NFT Marketplace Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Cryptocurrency Exchange Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Metaverse Development</a>
+                                    <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Blockchain Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Smart Contract Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">NFT Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">NFT Marketplace Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Cryptocurrency Exchange Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Metaverse Development</a>
                                     </div>
                                 </div>
                                 <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
@@ -791,7 +818,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img width="40" height="40" data-src="public{{mix('/img/vyper.webp')}}" alt="vyper icon" class="w-full h-full object-contain object-center" loading="lazy">
+                                            <img width="40" height="40" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/vyper.webp')}}" alt="vyper icon" class="w-full h-full object-contain object-center" loading="lazy">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Vyper</div>
                                     </div>
@@ -803,19 +830,19 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img width="40" height="40" data-src="public{{mix('/img/simplicity.webp')}}" alt="Simplicity Icon" class="w-full h-full object-contain object-center" loading="lazy">
+                                            <img width="40" height="40" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/simplicity.webp')}}" alt="Simplicity Icon" class="w-full h-full object-contain object-center" loading="lazy">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Simplicity</div>
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img width="40" height="40" data-src="public{{mix('/img/rholang.webp')}}" alt="Rholang Icon" class="w-full h-full object-contain object-center" loading="lazy">
+                                            <img width="40" height="40" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/rholang.webp')}}" alt="Rholang Icon" class="w-full h-full object-contain object-center" loading="lazy">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Rholang</div>
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img width="40" height="40" data-src="public{{mix('/img/rust.webp')}}" alt="Rust Icon" class="w-full h-full object-contain object-center" loading="lazy">
+                                            <img width="40" height="40" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/rust.webp')}}" alt="Rust Icon" class="w-full h-full object-contain object-center" loading="lazy">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Rust</div>
                                     </div>
@@ -848,11 +875,11 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     Witness the transformation of your small store into a global powerhouse with our Ecommerce Solutions. From intuitive shopping experiences to seamless payment integration, we're here to turn your Ecommerce venture into a thriving business, reaching new heights.
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
-                                    <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Ecommerce Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Magento Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Shopify Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Wordpress Development</a>
+                                    <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Ecommerce Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Magento Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Shopify Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Wordpress Development</a>
                                     </div>
                                 </div>
                                 <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
@@ -877,13 +904,13 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img class="w-full h-full" loading="lazy" data-src="public{{mix('/img/uber-cart.webp')}}" alt="Uber cart Icon">
+                                            <img class="w-full h-full" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/uber-cart.webp')}}" alt="Uber cart Icon">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Ubercart</div>
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img class="w-full h-full" loading="lazy" data-src="public{{mix('/img/woo-commerce.webp')}}" alt="Woo commerce Icon">
+                                            <img class="w-full h-full" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/woo-commerce.webp')}}" alt="Woo commerce Icon">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Woocommerce</div>
                                     </div>
@@ -922,28 +949,28 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     Your vision, our expertise. Hire Developers who breathe life into ideas. A dedicated team ready to propel your projects forward, delivering excellence with every line of code. Connect now!
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
-                                    <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Mobile App Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire iOS App Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Flutter App Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire PHP Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Website Designers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire MEAN Stack Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Laravel Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Software Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Java Developers</a>
+                                    <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Mobile App Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire iOS App Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Flutter App Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire PHP Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Website Designers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire MEAN Stack Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Laravel Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Software Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Java Developers</a>
                                     </div>
-                                    <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm mt-3">
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Node.js Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Android App Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire React Native App Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Website Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Python Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Full Stack Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire MERN Stack Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire UI / UX Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire React JS Developers</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Angularjs Developers</a>
+                                    <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm mt-3">
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Node.js Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Android App Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire React Native App Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Website Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Python Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Full Stack Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire MERN Stack Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire UI / UX Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire React JS Developers</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Angularjs Developers</a>
                                     </div>
                                 </div>
                             </div>
@@ -974,19 +1001,19 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     Explore our trending ready-to-use applications, meticulously crafted to elevate your business instantly. From cutting-edge food delivery apps to innovative elearning platforms, our trending solutions are designed to streamline operations.
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
-                                    <div class="flex flex-wrap w-full gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Food Delivery App Development</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Grocery Delivery</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Fantasy sports App</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Video Streaming App</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Social Media App</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Event Management App</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Elearning App</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Travel App</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Pharmacy App</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Fashion App</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Doctor on Demand App</a>
-                                        <a href="javascript:;" class="inline-block w-auto backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Healthacare App</a>
+                                    <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Food Delivery App Development</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Grocery Delivery</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Fantasy sports App</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Video Streaming App</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Social Media App</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Event Management App</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Elearning App</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Travel App</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Pharmacy App</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Fashion App</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Doctor on Demand App</a>
+                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Healthacare App</a>
                                     </div>
                                 </div>
                                 <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
@@ -1035,15 +1062,15 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
         </div>
     </div>
-</section>
+</div>
 
 
-<section class="relative isolate py-8 sm:py-16 md:py-24 lg:py-32 overflow-hidden bg-gradient-to-br from-sky-950 to-amber-950 text-white select-none">
+<div class="relative isolate py-8 sm:py-16 md:py-24 lg:py-32 overflow-hidden bg-gradient-to-br from-sky-950 to-amber-950 text-white select-none">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div class="mx-auto grid items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
             <div class="max-w-xl lg:max-w-lg">
-                <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold tracking-tight sm:text-4xl">Awards & Recognitions</h2>
-                <p class="mt-4 text-sm md:text-base opacity-80">IMG Global Infotech’s journey is adorned with moments of triumph and recognition. From industry awards validating our innovation to recognitions honing our commitment to quality, here is a testament to our unwavering pursuit of greatness. Discover the tapestry of honors that embellish our legacy and inspire us to reach even greater heights.</p>
+                <div class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold tracking-tight sm:text-4xl">Awards & Recognitions</div>
+                <p class="mt-4 text-sm md:text-base opacity-80">IMG Global Infotech's journey is adorned with moments of triumph and recognition. From industry awards validating our innovation to recognitions honing our commitment to quality, here is a testament to our unwavering pursuit of greatness. Discover the tapestry of honors that embellish our legacy and inspire us to reach even greater heights.</p>
             </div>
             <div class="w-full">
                 <div class="swiper AwardsRecognitions">
@@ -1052,7 +1079,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
+                                        <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States – 2022-2023</div>
                                 </div>
@@ -1062,7 +1089,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
+                                        <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States – 2022-2023</div>
                                 </div>
@@ -1072,7 +1099,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
+                                        <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States – 2022-2023</div>
                                 </div>
@@ -1082,7 +1109,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
+                                        <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States – 2022-2023</div>
                                 </div>
@@ -1105,9 +1132,9 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6 pointer-events-none" aria-hidden="true">
         <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-pink-600 to-purple-600 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
-</section>
+</div>
 
-<section class="container mx-auto py-8 sm:py-16 relative select-none">
+<div class="container mx-auto py-8 sm:py-16 relative select-none">
     <div class="absolute inset-x-0 top-0 h-96 text-slate-600/10 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
         <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -1125,24 +1152,24 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         </p>
         <div class="mt-4 text-base md:text-lg leading-7 text-slate-600">Explore our client success stories, witnessing transformative journeys to success. Each case study below reflects our impactful solutions, showcasing innovation, dedication, and tangible results.</div>
     </div>
-    <div class="flex flex-row flex-wrap mx-auto max-w-7xl px-3 md:px-6 lg:px-8 group/caseStudies">
-        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/caseStudy">
+    <div class="flex flex-row flex-wrap mx-auto max-w-7xl px-3 md:px-6 lg:px-8 group/cS">
+        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/cStudy">
             <div class="relative [background-image:url(../img/frame12.webp)] bg-purple-600 before:bg-purple-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-purple-700/70">
                 <div class="absolute inset-x-0 z-0 top-0 h-96 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
                     <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                         <defs>
-                            <pattern id="clientJourneys345" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                            <pattern id="l24" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
                                 <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
                             </pattern>
                         </defs>
-                        <rect width="100%" height="100%" fill="url(#clientJourneys345)"></rect>
+                        <rect width="100%" height="100%" fill="url(#l24)"></rect>
                     </svg>
                 </div>
-                <div class="relative h-full z-10 flex flex-col-reverse p-8 group-hover/caseStudies:py-8 group-hover/caseStudies:px-3 duration-300 group-hover/caseStudy:!p-8">
-                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-purple-950/50 mix-blend-multiply xl:group-hover/caseStudy:bg-transparent before:bg-gradient-to-t before:from-purple-950 before:via-purple-900/80 before:to-purple-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/caseStudy:translate-y-0 before:duration-300"></div>
-                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/caseStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/caseStudies:translate-y-[calc(100%-20px)] xl:group-hover/caseStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
+                <div class="relative h-full z-10 flex flex-col-reverse p-8 group-hover/cS:py-8 group-hover/cS:px-3 duration-300 group-hover/cStudy:!p-8">
+                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-purple-950/50 mix-blend-multiply xl:group-hover/cStudy:bg-transparent before:bg-gradient-to-t before:from-purple-950 before:via-purple-900/80 before:to-purple-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/cStudy:translate-y-0 before:duration-300"></div>
+                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/cStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/cS:translate-y-[calc(100%-20px)] xl:group-hover/cStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
                         <div class="w-full">
-                            <span class="rounded-md rounded-br-none duration-300 text-base xl:text-xl xl:group-hover/caseStudies:text-base xl:group-hover/caseStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-purple-600 via-white to-purple-600 bg-clip-text text-transparent">BOBI Live</span>
+                            <span class="rounded-md rounded-br-none duration-300 text-base xl:text-xl xl:group-hover/cS:text-base xl:group-hover/cStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-purple-600 via-white to-purple-600 bg-clip-text text-transparent">BOBI Live</span>
                         </div>
                         <div class="w-full font-bold text-xl mb-4 bg-gradient-to-bl from-purple-300 via-white to-purple-300 bg-clip-text text-transparent">Socializing, interacting, exploring, all fascinating things are here for you !</div>
                         <div class="w-full">
@@ -1152,23 +1179,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
         </div>
-        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/caseStudy">
+        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/cStudy">
             <div class="relative [background-image:url(../img/hozzo.webp)] bg-green-600 before:bg-green-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-green-700/70">
                 <div class="absolute inset-x-0 z-0 top-0 h-96 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
                     <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                         <defs>
-                            <pattern id="clientJourneys345" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                            <pattern id="u74" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
                                 <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
                             </pattern>
                         </defs>
-                        <rect width="100%" height="100%" fill="url(#clientJourneys345)"></rect>
+                        <rect width="100%" height="100%" fill="url(#u74)"></rect>
                     </svg>
                 </div>
-                <div class="relative h-full z-10 flex flex-col-reverse p-8 group-hover/caseStudies:py-8 group-hover/caseStudies:px-3 duration-300 group-hover/caseStudy:!p-8">
-                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-green-950/50 mix-blend-multiply xl:group-hover/caseStudy:bg-transparent before:bg-gradient-to-t before:from-green-950 before:via-green-900/80 before:to-green-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/caseStudy:translate-y-0 before:duration-300"></div>
-                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/caseStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/caseStudies:translate-y-[calc(100%-20px)] xl:group-hover/caseStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
+                <div class="relative h-full z-10 flex flex-col-reverse p-8 group-hover/cS:py-8 group-hover/cS:px-3 duration-300 group-hover/cStudy:!p-8">
+                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-green-950/50 mix-blend-multiply xl:group-hover/cStudy:bg-transparent before:bg-gradient-to-t before:from-green-950 before:via-green-900/80 before:to-green-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/cStudy:translate-y-0 before:duration-300"></div>
+                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/cStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/cS:translate-y-[calc(100%-20px)] xl:group-hover/cStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
                         <div class="w-full">
-                            <span class="rounded-md rounded-br-none duration-300 text-base xl:text-xl xl:group-hover/caseStudies:text-base xl:group-hover/caseStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-green-600 via-white to-green-600 bg-clip-text text-transparent">Hozzo - Car wash</span>
+                            <span class="rounded-md rounded-br-none duration-300 text-base xl:text-xl xl:group-hover/cS:text-base xl:group-hover/cStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-green-600 via-white to-green-600 bg-clip-text text-transparent">Hozzo - Car wash</span>
                         </div>
                         <div class="w-full font-bold text-xl mb-4 bg-gradient-to-bl from-green-300 via-white to-green-300 bg-clip-text text-transparent">Waterless car washing services across india</div>
                         <div class="w-full">
@@ -1178,23 +1205,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
         </div>
-        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/caseStudy">
+        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/cStudy">
             <div class="relative [background-image:url(../img/fab11.webp)] bg-emerald-600 before:bg-emerald-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-emerald-700/70">
                 <div class="absolute inset-x-0 z-0 top-0 h-96 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
                     <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                         <defs>
-                            <pattern id="clientJourneys345" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                            <pattern id="l142" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
                                 <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
                             </pattern>
                         </defs>
-                        <rect width="100%" height="100%" fill="url(#clientJourneys345)"></rect>
+                        <rect width="100%" height="100%" fill="url(#l142)"></rect>
                     </svg>
                 </div>
-                <div class="relative h-full z-10 flex flex-col-reverse p-8 group-hover/caseStudies:py-8 group-hover/caseStudies:px-3 duration-300 group-hover/caseStudy:!p-8">
-                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-emerald-950/50 mix-blend-multiply xl:group-hover/caseStudy:bg-transparent before:bg-gradient-to-t before:from-emerald-950 before:via-emerald-900/80 before:to-emerald-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/caseStudy:translate-y-0 before:duration-300"></div>
-                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/caseStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/caseStudies:translate-y-[calc(100%-20px)] xl:group-hover/caseStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
+                <div class="relative h-full z-10 flex flex-col-reverse p-8 group-hover/cS:py-8 group-hover/cS:px-3 duration-300 group-hover/cStudy:!p-8">
+                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-emerald-950/50 mix-blend-multiply xl:group-hover/cStudy:bg-transparent before:bg-gradient-to-t before:from-emerald-950 before:via-emerald-900/80 before:to-emerald-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/cStudy:translate-y-0 before:duration-300"></div>
+                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/cStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/cS:translate-y-[calc(100%-20px)] xl:group-hover/cStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
                         <div class="w-full">
-                            <span class="rounded-md rounded-br-none duration-300 text-base xl:text-xl xl:group-hover/caseStudies:text-base xl:group-hover/caseStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-emerald-600 via-white to-emerald-600 bg-clip-text text-transparent">MyFab11</span>
+                            <span class="rounded-md rounded-br-none duration-300 text-base xl:text-xl xl:group-hover/cS:text-base xl:group-hover/cStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-emerald-600 via-white to-emerald-600 bg-clip-text text-transparent">MyFab11</span>
                         </div>
                         <div class="w-full font-bold text-xl mb-4 bg-gradient-to-bl from-emerald-300 via-white to-emerald-300 bg-clip-text text-transparent">Principle Partner of KKR. india's most trusted Fantasy Cricket App</div>
                         <div class="w-full">
@@ -1204,23 +1231,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
         </div>
-        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/caseStudy">
+        <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/cStudy">
             <div class="relative [background-image:url(../img/fabindia.webp)] bg-red-600 before:bg-red-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-red-700/70">
                 <div class="absolute inset-x-0 z-0 top-0 h-96 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
                     <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                         <defs>
-                            <pattern id="clientJourneys345" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                            <pattern id="l96" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
                                 <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
                             </pattern>
                         </defs>
-                        <rect width="100%" height="100%" fill="url(#clientJourneys345)"></rect>
+                        <rect width="100%" height="100%" fill="url(#l96)"></rect>
                     </svg>
                 </div>
-                <div class="relative h-full z-10 flex flex-col-reverse p-8 group-hover/caseStudies:py-8 group-hover/caseStudies:px-3 duration-300 group-hover/caseStudy:!p-8">
-                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-red-950/50 mix-blend-multiply xl:group-hover/caseStudy:bg-transparent before:bg-gradient-to-t before:from-red-950 before:via-red-900/80 before:to-red-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/caseStudy:translate-y-0 before:duration-300"></div>
-                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/caseStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/caseStudies:translate-y-[calc(100%-20px)] xl:group-hover/caseStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
+                <div class="relative h-full z-10 flex flex-col-reverse p-8 group-hover/cS:py-8 group-hover/cS:px-3 duration-300 group-hover/cStudy:!p-8">
+                    <div class="absolute duration-500 inset-0 before:absolute before:inset-0 bg-red-950/50 mix-blend-multiply xl:group-hover/cStudy:bg-transparent before:bg-gradient-to-t before:from-red-950 before:via-red-900/80 before:to-red-700/10 z-0 before:z-0 before:translate-y-1/4 max-xl:before:translate-y-0 xl:before:group-hover/cStudy:translate-y-0 before:duration-300"></div>
+                    <div class="w-full flex flex-col relative z-10 gap-4 xl:group-hover/cStudy:delay-200 delay-0 translate-y-[calc(100%-20px)] xl:group-hover/cS:translate-y-[calc(100%-20px)] xl:group-hover/cStudy:!translate-y-0 max-xl:!translate-y-0 duration-300">
                         <div class="w-full">
-                            <span class="rounded-md rounded-br-none duration-300 text-base xl:text-xl xl:group-hover/caseStudies:text-base xl:group-hover/caseStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-red-600 via-white to-red-600 bg-clip-text text-transparent">Fabindia</span>
+                            <span class="rounded-md rounded-br-none duration-300 text-base xl:text-xl xl:group-hover/cS:text-base xl:group-hover/cStudy:text-base py-1 px-3 backdrop-blur-lg shadow bg-black/10 font-semibold inline-block bg-gradient-to-bl from-red-600 via-white to-red-600 bg-clip-text text-transparent">Fabindia</span>
                         </div>
                         <div class="w-full font-bold text-xl mb-4 bg-gradient-to-bl from-red-300 via-white to-red-300 bg-clip-text text-transparent">Shop for Handwoven Garments & home fusnishings</div>
                         <div class="w-full">
@@ -1230,23 +1257,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
         </div>
-        <div class="xl:w-24 w-full p-3 relative group/caseStudy block text-center">
-            <a href="javascript:;" class="xl:absolute inset-3 max-xl:py-3 max-xl:px-5 bg-pink-950 cursor-pointer group-hover/caseStudy:scale-95 duration-200 ease-in-out rounded-xl rounded-br-none text-sm md:text-base font-bold text-white xl:[writing-mode:vertical-lr] xl:flex inline-flex items-center justify-center">View All CaseStudy</a>
+        <div class="xl:w-24 w-full p-3 relative group/cStudy block text-center">
+            <a href="javascript:;" class="xl:absolute inset-3 max-xl:py-3 max-xl:px-5 bg-pink-950 cursor-pointer group-hover/cStudy:scale-95 duration-200 ease-in-out rounded-xl rounded-br-none text-sm md:text-base font-bold text-white xl:[writing-mode:vertical-lr] xl:flex inline-flex items-center justify-center">View All CaseStudy</a>
         </div>
     </div>
-</section>
+</div>
 
 
 
-<section class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
+<div class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
     <div class="text-white/10">
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
             <defs>
-                <pattern id=":S3:" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
+                <pattern id="s11" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
                     <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
                 </pattern>
             </defs>
-            <rect width="100%" height="100%" fill="url(#:S3:)"></rect>
+            <rect width="100%" height="100%" fill="url(#s11)"></rect>
         </svg>
     </div>
     <div class="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative pb-5">
@@ -1257,140 +1284,140 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
     <div class="swiper portfolioSwiper w-full">
         <div class="swiper-wrapper flex items-center py-5">
-            <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
-                <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
                                 public{{mix('/img/mobile/myfab11.webp')}} 480w,
                                 public{{mix('/img/tablet/myfab11.webp')}} 800w,
                                 public{{mix('/img/myfab11.webp')}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix('/img/myfab11.webp')}}" alt="MyFab11 App">
+                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/myfab11.webp')}}" alt="MyFab11 App">
                     </div>
-                    <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-green-900/70 before:to-green-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-green-900/70 before:to-green-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-center">MyFab11 App</div>
-                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Fantasy Sports App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight">MyFab11 App</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Fantasy Sports App</div>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
-                <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
                                 public{{mix('/img/mobile/Health-app.webp')}} 480w,
                                 public{{mix('/img/tablet/Health-app.webp')}} 800w,
                                 public{{mix('/img/Health-app.webp')}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix('/img/Health-app.webp')}}" alt="I KNOW">
+                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/Health-app.webp')}}" alt="I KNOW">
                     </div>
-                    <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-fuchsia-900/70 before:to-fuchsia-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-fuchsia-900/70 before:to-fuchsia-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-center">I-KNOW</div>
-                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Health App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight">I-KNOW</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Health App</div>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
-                <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
                                 public{{mix('/img/mobile/now-vue.webp')}} 480w,
                                 public{{mix('/img/tablet/now-vue.webp')}} 800w,
                                 public{{mix('/img/now-vue.webp')}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix('/img/now-vue.webp')}}" alt="Now Vue">
+                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/now-vue.webp')}}" alt="Now Vue">
                     </div>
-                    <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-amber-900/70 before:to-amber-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-amber-900/70 before:to-amber-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-center">Now Vue</div>
-                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Guest Check In App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight">Now Vue</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Guest Check In App</div>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
-                <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
                                 public{{mix('/img/mobile/ipay.webp')}} 480w,
                                 public{{mix('/img/tablet/ipay.webp')}} 800w,
                                 public{{mix('/img/ipay.webp')}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix('/img/ipay.webp')}}" alt="iPay project">
+                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/ipay.webp')}}" alt="iPay project">
                     </div>
-                    <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-indigo-900/70 before:to-indigo-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-indigo-900/70 before:to-indigo-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-center">iPay</div>
-                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Recharge App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight">iPay</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Recharge App</div>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
-                <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
                                 public{{mix('/img/mobile/destist-online.webp')}} 480w,
                                 public{{mix('/img/tablet/destist-online.webp')}} 800w,
                                 public{{mix('/img/destist-online.webp')}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix('/img/destist-online.webp')}}" alt="Dentist Online">
+                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/destist-online.webp')}}" alt="Dentist Online">
                     </div>
-                    <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-cyan-900/70 before:to-cyan-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-cyan-900/70 before:to-cyan-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-center">Dentist Online</div>
-                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Health App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight">Dentist Online</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Health App</div>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-slide rounded-2xl overflow-hidden group/portfolio">
-                <figure class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/portfolio:scale-[1.1] duration-[3000ms]" loading="lazy" width="349.23" height="436.58" 
+                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
                                 public{{mix('/img/mobile/EcoCosmo-Project.webp')}} 480w,
                                 public{{mix('/img/tablet/EcoCosmo-Project.webp')}} 800w,
                                 public{{mix('/img/EcoCosmo-Project.webp')}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            data-src="public{{mix('/img/EcoCosmo-Project.webp')}}" alt="EcoCosmo Project">
+                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/EcoCosmo-Project.webp')}}" alt="EcoCosmo Project">
                     </div>
-                    <figcaption class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-emerald-900/70 before:to-emerald-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-emerald-900/70 before:to-emerald-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
-                            <div class="text-base font-medium leading-6 tracking-tight text-center">EcoCosmo</div>
-                            <div class="mt-1 text-sm md:text-sm opacity-80 text-center">Tracking App</div>
+                            <div class="text-base font-medium leading-6 tracking-tight">EcoCosmo</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Tracking App</div>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</section>
+</div>
 
 
-<section class="select-none">
+<div class="select-none">
     <div class="bg-white py-8 sm:py-16 lg:pt-24">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="relative isolate overflow-hidden text-center justify-center bg-gray-900 px-6 shadow-2xl rounded-2xl sm:rounded-3xl sm:px-16 lg:flex lg:gap-x-20 lg:px-24">
                 <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0 pointer-events-none" aria-hidden="true">
-                    <circle cx="512" cy="512" r="512" fill="url(#759c1415)" fill-opacity="0.7" />
+                    <circle cx="512" cy="512" r="512" fill="url(#l2200)" fill-opacity="0.7" />
                     <defs>
-                        <radialGradient id="759c1415">
-                            <stop stop-color="#9333ea" />
+                        <radialGradient id="l2200">
+                            <stop offset="0.5" stop-color="#9333ea" />
                             <stop offset="1" stop-color="#db2777" />
                         </radialGradient>
                     </defs>
@@ -1406,7 +1433,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </svg>
                 </div>
                 <div class="mx-auto max-w-3xl lg:mx-0 lg:flex-auto py-12 md:py-16 lg:py-32 lg:text-left relative z-[1]">
-                    <h2 class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center">Let’s turn your <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent">business idea into reality</span></h2>
+                    <div class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center">Let's turn your <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent">business idea into reality</span></div>
                     <p class="mt-6 text-base md:text-lg md:leading-8 text-gray-300 text-center">Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one of our executives will catch you up in no time by Call, Email or Skype.</p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
                         <a href="#" class="rounded-md rounded-br-none bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Book A Discovery Call</a>
@@ -1439,26 +1466,26 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="flex flex-row flex-wrap w-full gap3 pt-8 font-bold md:text-base text-sm uppercase text-white">
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/bank-and-finance.webp')}} 480w, public{{mix('/img/tablet/bank-and-finance.webp')}} 800w, public{{mix('/img/bank-and-finance.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/bank-and-finance.webp")}}" alt="Banking and Finance" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy"
+                        <img width="296" height="222" srcset="public{{mix('/img/mobile/bank-and-finance.webp')}} 480w, public{{mix('/img/tablet/bank-and-finance.webp')}} 800w, public{{mix('/img/bank-and-finance.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/bank-and-finance.webp")}}" alt="Banking and Finance Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy"
                         >
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Banking and Finance</div>
                     </a>
                 </div>
                 <div class="xl:w-1/3  md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="297.33" height="222" srcset=" public{{mix('/img/mobile/fantasy-sports.webp')}} 480w, public{{mix('/img/tablet/fantasy-sports.webp')}} 800w, public{{mix('/img/fantasy-sports.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/fantasy-sports.webp")}}" alt="Fantasy Sports" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="297" height="222" srcset="public{{mix('/img/mobile/fantasy-sports.webp')}} 480w, public{{mix('/img/tablet/fantasy-sports.webp')}} 800w, public{{mix('/img/fantasy-sports.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/fantasy-sports.webp")}}" alt="Fantasy Sports Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Fantasy Sports</div>
                     </a>
                 </div>
                 <div class="xl:w-1/6  md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="194.66" height="222" srcset=" public{{mix('/img/mobile/healthcare.webp')}} 480w, public{{mix('/img/tablet/healthcare.webp')}} 800w, public{{mix('/img/healthcare.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/healthcare.webp")}}" alt="Healthcare" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="194" height="222" srcset="public{{mix('/img/mobile/healthcare.webp')}} 480w, public{{mix('/img/tablet/healthcare.webp')}} 800w, public{{mix('/img/healthcare.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/healthcare.webp")}}" alt="Healthcare Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Healthcare</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/edTech-solution.webp')}} 480w, public{{mix('/img/tablet/edTech-solution.webp')}} 800w, public{{mix('/img/edTech-solution.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/edTech-solution.webp")}}" alt="EdTech Solution" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" srcset="public{{mix('/img/mobile/edTech-solution.webp')}} 480w, public{{mix('/img/tablet/edTech-solution.webp')}} 800w, public{{mix('/img/edTech-solution.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/edTech-solution.webp")}}" alt="EdTech Solution Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">EdTech Solution</div>
                     </a>
 
@@ -1466,7 +1493,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 sm:w-1/2 w-full p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/travel-and-tourism.webp')}} 480w, public{{mix('/img/tablet/travel-and-tourism.webp')}} 800w, public{{mix('/img/travel-and-tourism.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/travel-and-tourism.webp")}}" alt="Travel and Tourism" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" srcset="public{{mix('/img/mobile/travel-and-tourism.webp')}} 480w, public{{mix('/img/tablet/travel-and-tourism.webp')}} 800w, public{{mix('/img/travel-and-tourism.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/travel-and-tourism.webp")}}" alt="Travel and Tourism Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Travel and Tourism</div>
                     </a>
 
@@ -1474,19 +1501,19 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/2 md:w-1/3 sm:w-1/2 w-full p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="600" height="222" srcset=" public{{mix('/img/mobile/media-and-entertainment.webp')}} 480w, public{{mix('/img/tablet/media-and-entertainment.webp')}} 800w, public{{mix('/img/media-and-entertainment.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/media-and-entertainment.webp")}}" alt="Media and Entertainment" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="600" height="222" srcset="public{{mix('/img/mobile/media-and-entertainment.webp')}} 480w, public{{mix('/img/tablet/media-and-entertainment.webp')}} 800w, public{{mix('/img/media-and-entertainment.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/media-and-entertainment.webp")}}" alt="Media and Entertainment Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Media and Entertainment</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/retail-and-ecommerce-app.webp')}} 480w, public{{mix('/img/tablet/retail-and-ecommerce-app.webp')}} 800w, public{{mix('/img/retail-and-ecommerce-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/retail-and-ecommerce-app.webp")}}" alt="Retail and Ecommerce App" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" srcset="public{{mix('/img/mobile/retail-and-ecommerce-app.webp')}} 480w, public{{mix('/img/tablet/retail-and-ecommerce-app.webp')}} 800w, public{{mix('/img/retail-and-ecommerce-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/retail-and-ecommerce-app.webp")}}" alt="Retail and Ecommerce App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Retail and Ecommerce App</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/logistics-services-app.webp')}} 480w, public{{mix('/img/tablet/logistics-services-app.webp')}} 800w, public{{mix('/img/logistics-services-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/logistics-services-app.webp")}}" alt="Logistics Services App" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" srcset="public{{mix('/img/mobile/logistics-services-app.webp')}} 480w, public{{mix('/img/tablet/logistics-services-app.webp')}} 800w, public{{mix('/img/logistics-services-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/logistics-services-app.webp")}}" alt="Logistics Services App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Logistics Services App</div>
                     </a>
 
@@ -1494,36 +1521,36 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/6 md:w-1/3 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="194.66" height="222" srcset=" public{{mix('/img/mobile/social-app.webp')}} 480w, public{{mix('/img/tablet/social-app.webp')}} 800w, public{{mix('/img/social-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/social-app.webp")}}" alt="Social App" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="194" height="222" srcset="public{{mix('/img/mobile/social-app.webp')}} 480w, public{{mix('/img/tablet/social-app.webp')}} 800w, public{{mix('/img/social-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/social-app.webp")}}" alt="Social App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Social App</div>
                     </a>
                 </div>
                 <div class="xl:w-1/3 md:w-1/2 w-1/2 p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="397.33" height="222" srcset=" public{{mix('/img/mobile/real-estate.webp')}} 480w, public{{mix('/img/tablet/real-estate.webp')}} 800w, public{{mix('/img/real-estate.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/real-estate.webp")}}" alt="Real Estate" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="397" height="222" srcset="public{{mix('/img/mobile/real-estate.webp')}} 480w, public{{mix('/img/tablet/real-estate.webp')}} 800w, public{{mix('/img/real-estate.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/real-estate.webp")}}" alt="Real Estate Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Real Estate</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/2 sm:w-1/2 w-full p-1">
                     <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset=" public{{mix('/img/mobile/on-demand.webp')}} 480w, public{{mix('/img/tablet/on-demand.webp')}} 800w, public{{mix('/img/on-demand.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" data-src="public{{mix("/img/on-demand.webp")}}" alt="Event management" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" srcset="public{{mix('/img/mobile/on-demand.webp')}} 480w, public{{mix('/img/tablet/on-demand.webp')}} 800w, public{{mix('/img/on-demand.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/on-demand.webp")}}" alt="Event management Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Event management</div>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>
 
-<section class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
+<div class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
     <div class="text-white/10">
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
             <defs>
-                <pattern id=":S3:" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
+                <pattern id="s3" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
                     <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
                 </pattern>
             </defs>
-            <rect width="100%" height="100%" fill="url(#:S3:)"></rect>
+            <rect width="100%" height="100%" fill="url(#s3)"></rect>
         </svg>
     </div>
     <div class="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative">
@@ -1537,89 +1564,79 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
     <div class="swiper testimonialsSwiper w-full">
         <div class="swiper-wrapper flex items-center">
-            <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/testi">
-                <figure class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/testi:delay-0 delay-700 group-[.swiper-slide-active]/testi:opacity-100 opacity-60 duration-300">
-                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">
-                        <p>“The client was very satisfied with the final product. IMG Global Infotech Pvt. Ltd provided a quick turnaround and high-quality services. They were able to strategize their deliverables well. The team utilized Scrum for project management and various apps for communication.”</p>
-                    </blockquote>
+            <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/tst">
+                <div class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/tst:delay-0 delay-700 group-[.swiper-slide-active]/tst:opacity-100 opacity-60 duration-300">
+                    <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“The client was very satisfied with the final product. IMG Global Infotech Pvt. Ltd provided a quick turnaround and high-quality services. They were able to strategize their deliverables well. The team utilized Scrum for project management and various apps for communication.”</div>
                     
-                    <figcaption class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Miss. Alisha Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-2.webp')}}"></div>
+                    <div class="mt-10 flex items-center sm:justify-center">
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Miss. Alisha Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/testimonial-2.webp')}}"></div>
                         <div class="ml-4">
                             <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Miss. Alisha Sharma</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">Co-Founder, YSR Infotech</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">New Delhi, India</div>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/testi">
-                <figure class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/testi:delay-0 delay-700 group-[.swiper-slide-active]/testi:opacity-100 opacity-60 duration-300">
-                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">
-                        <p>“IMG Global Infotech Pvt. Ltd helped the client improve their digital presence through the web portal. They finished the project within six months, which exceeded the client's expectations. In addition, they were customer-focused and accommodating to the client's queries.”</p>
-                    </blockquote>
+            <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/tst">
+                <div class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/tst:delay-0 delay-700 group-[.swiper-slide-active]/tst:opacity-100 opacity-60 duration-300">
+                    <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“IMG Global Infotech Pvt. Ltd helped the client improve their digital presence through the web portal. They finished the project within six months, which exceeded the client's expectations. In addition, they were customer-focused and accommodating to the client's queries.”</div>
                     
-                    <figcaption class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Arun Garg" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-3.webp')}}"></div>
+                    <div class="mt-10 flex items-center sm:justify-center">
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Arun Garg" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/testimonial-3.webp')}}"></div>
                         <div class="ml-4">
                             <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Arun Garg</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">Founder, CoachingSelect.com</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">India</div>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/testi">
-                <figure class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/testi:delay-0 delay-700 group-[.swiper-slide-active]/testi:opacity-100 opacity-60 duration-300">
-                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">
-                        <p>“IMG Global Infotech Pvt. Ltd impressed the client with the final results. The client also lauded their quality work, proper communication via scrum meetings, efficient project management, and on-time delivery. Due to the success of the collaboration, the client hired them again for other projects..”</p>
-                    </blockquote>
+            <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/tst">
+                <div class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/tst:delay-0 delay-700 group-[.swiper-slide-active]/tst:opacity-100 opacity-60 duration-300">
+                    <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“IMG Global Infotech Pvt. Ltd impressed the client with the final results. The client also lauded their quality work, proper communication via scrum meetings, efficient project management, and on-time delivery. Due to the success of the collaboration, the client hired them again for other projects..”</div>
                     
-                    <figcaption class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Sandeep Yadav" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-1.webp')}}"></div>
+                    <div class="mt-10 flex items-center sm:justify-center">
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Sandeep Yadav" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/testimonial-1.webp')}}"></div>
                         <div class="ml-4">
                             <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Sandeep Yadav</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">Owner, Coherent Lab LLP</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">India</div>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/testi">
-                <figure class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/testi:delay-0 delay-700 group-[.swiper-slide-active]/testi:opacity-100 opacity-60 duration-300">
-                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">
-                        <p>“Thanks to IMG Global Infotech's efforts, the project was completed successfully, satisfying the client's expectations. Although work was done remotely, their project management was seamless and efficient.”</p>
-                    </blockquote>
+            <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/tst">
+                <div class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/tst:delay-0 delay-700 group-[.swiper-slide-active]/tst:opacity-100 opacity-60 duration-300">
+                    <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“Thanks to IMG Global Infotech's efforts, the project was completed successfully, satisfying the client's expectations. Although work was done remotely, their project management was seamless and efficient.”</div>
                     
-                    <figcaption class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Anikendra Das Choudhury" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/testimonial-4.webp')}}"></div>
+                    <div class="mt-10 flex items-center sm:justify-center">
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Anikendra Das Choudhury" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/testimonial-4.webp')}}"></div>
                         <div class="ml-4">
                             <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Anikendra Das Choudhury</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">CEO, MyFab11</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">Kolkata, India</div>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/testi">
-                <figure class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/testi:delay-0 delay-700 group-[.swiper-slide-active]/testi:opacity-100 opacity-60 duration-300">
-                    <blockquote class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">
-                        <p>“Impressing their partner, IMG Global Infotech Pvt. Ltd brought many customers for the client. Their professionalism and active response were all remarkable, as demonstrated in their project updates every 2-3 days.”</p>
-                    </blockquote>
+            <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/tst">
+                <div class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/tst:delay-0 delay-700 group-[.swiper-slide-active]/tst:opacity-100 opacity-60 duration-300">
+                    <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“Impressing their partner, IMG Global Infotech Pvt. Ltd brought many customers for the client. Their professionalism and active response were all remarkable, as demonstrated in their project updates every 2-3 days.”</div>
                     
-                    <figcaption class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Bharat Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" data-src="public{{mix('/img/t-avatar-1.webp')}}"></div>
+                    <div class="mt-10 flex items-center sm:justify-center">
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Bharat Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/t-avatar-1.webp')}}"></div>
                         <div class="ml-4">
                             <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Bharat Sharma</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">Administrative Head, Injection Service At Home</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">India</div>
                         </div>
-                    </figcaption>
-                </figure>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</section>
+</div>
 
 
 <div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none">
@@ -1647,25 +1664,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 <div class="swiper-wrapper flex items-center pb-8">
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" data-src="public{{mix('/img/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp')}}" alt="How To Develop A Loan Lending Mobile App? – A Complete Guide">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp')}}" alt="How To Develop A Loan Lending Mobile App? – A Complete Guide">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2023-11-27" class="text-gray-500">Nov 27, 2023</time>
                                     <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
                                 </div>
                                 <div class="group relative">
-                                    <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                    <div class="line-clamp-2">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
                                         How To Develop A Loan Lending Mobile App? – A Complete Guide
                                     </div>
-                                    </h3>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Developing a loan lending app involves various steps and considerations to ensure functionality, security, and user-friendliness. Here’s a detailed guide on how you can go about building one.</p>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Developing a loan lending app involves various steps and considerations to ensure functionality, security, and user-friendliness. Here's a detailed guide on how you can go about building one.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">Written by</p>
-                                    <p class="text-gray-600">Dipti Singhal</p>
+                                        <p class="font-semibold text-gray-900">Written by</p>
+                                        <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
                             </div>
@@ -1673,25 +1688,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" data-src="public{{mix('/img/blogimagetop-10-mobile-app-development-companies-in-2024.webp')}}" alt="Top 10 Mobile App Development Companies In 2024">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagetop-10-mobile-app-development-companies-in-2024.webp')}}" alt="Top 10 Mobile App Development Companies In 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 16, 2023</time>
                                     <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
                                 </div>
                                 <div class="group relative">
-                                    <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                    <div class="line-clamp-2">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
                                         Top 10 Mobile App Development Companies In 2024
                                     </div>
-                                    </h3>
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">The list of the top 10 mobile app development companies in 2024 listed in this article has demonstrated their expertise, innovation, and commitment to delivering high-quality mobile apps.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">Written by</p>
-                                    <p class="text-gray-600">Mohit Mittal</p>
+                                        <p class="font-semibold text-gray-900">Written by</p>
+                                        <p class="text-gray-600">Mohit Mittal</p>
                                     </div>
                                 </div>
                             </div>
@@ -1699,25 +1712,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" data-src="public{{mix('/img/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp')}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp')}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 06, 2023</time>
                                     <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
                                 </div>
                                 <div class="group relative">
-                                    <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                    <div class="line-clamp-2">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
                                         How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?
                                     </div>
-                                    </h3>
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Are you ready to embark on a digital journey through the captivating world of real estate? Imagine having the power to browse, compare, and purchase properties right from the comfort of your home.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">Written by</p>
-                                    <p class="text-gray-600">Dipti Singhal</p>
+                                        <p class="font-semibold text-gray-900">Written by</p>
+                                        <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
                             </div>
@@ -1725,25 +1736,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" data-src="public{{mix('/img/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp')}}" alt="How To Develop A Loan Lending Mobile App? – A Complete Guide">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp')}}" alt="How To Develop A Loan Lending Mobile App? – A Complete Guide">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2023-11-27" class="text-gray-500">Nov 27, 2023</time>
                                     <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
                                 </div>
                                 <div class="group relative">
-                                    <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                    <div class="line-clamp-2">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
                                         How To Develop A Loan Lending Mobile App? – A Complete Guide
                                     </div>
-                                    </h3>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Developing a loan lending app involves various steps and considerations to ensure functionality, security, and user-friendliness. Here’s a detailed guide on how you can go about building one.</p>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Developing a loan lending app involves various steps and considerations to ensure functionality, security, and user-friendliness. Here's a detailed guide on how you can go about building one.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">Written by</p>
-                                    <p class="text-gray-600">Dipti Singhal</p>
+                                        <p class="font-semibold text-gray-900">Written by</p>
+                                        <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
                             </div>
@@ -1751,25 +1760,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" data-src="public{{mix('/img/blogimagetop-10-mobile-app-development-companies-in-2024.webp')}}" alt="Top 10 Mobile App Development Companies In 2024">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagetop-10-mobile-app-development-companies-in-2024.webp')}}" alt="Top 10 Mobile App Development Companies In 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 16, 2023</time>
                                     <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
                                 </div>
                                 <div class="group relative">
-                                    <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                    <div class="line-clamp-2">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
                                         Top 10 Mobile App Development Companies In 2024
                                     </div>
-                                    </h3>
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">The list of the top 10 mobile app development companies in 2024 listed in this article has demonstrated their expertise, innovation, and commitment to delivering high-quality mobile apps.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">Written by</p>
-                                    <p class="text-gray-600">Mohit Mittal</p>
+                                        <p class="font-semibold text-gray-900">Written by</p>
+                                        <p class="text-gray-600">Mohit Mittal</p>
                                     </div>
                                 </div>
                             </div>
@@ -1777,25 +1784,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" data-src="public{{mix('/img/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp')}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp')}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 06, 2023</time>
                                     <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
                                 </div>
                                 <div class="group relative">
-                                    <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                    <div class="line-clamp-2">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
                                         How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?
                                     </div>
-                                    </h3>
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Are you ready to embark on a digital journey through the captivating world of real estate? Imagine having the power to browse, compare, and purchase properties right from the comfort of your home.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">Written by</p>
-                                    <p class="text-gray-600">Dipti Singhal</p>
+                                        <p class="font-semibold text-gray-900">Written by</p>
+                                        <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
                             </div>
@@ -1803,25 +1808,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" data-src="public{{mix('/img/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp')}}" alt="How To Develop A Loan Lending Mobile App? – A Complete Guide">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp')}}" alt="How To Develop A Loan Lending Mobile App? – A Complete Guide">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2023-11-27" class="text-gray-500">Nov 27, 2023</time>
                                     <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
                                 </div>
                                 <div class="group relative">
-                                    <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                    <div class="line-clamp-2">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
                                         How To Develop A Loan Lending Mobile App? – A Complete Guide
                                     </div>
-                                    </h3>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Developing a loan lending app involves various steps and considerations to ensure functionality, security, and user-friendliness. Here’s a detailed guide on how you can go about building one.</p>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Developing a loan lending app involves various steps and considerations to ensure functionality, security, and user-friendliness. Here's a detailed guide on how you can go about building one.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">Written by</p>
-                                    <p class="text-gray-600">Dipti Singhal</p>
+                                        <p class="font-semibold text-gray-900">Written by</p>
+                                        <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
                             </div>
@@ -1829,25 +1832,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" data-src="public{{mix('/img/blogimagetop-10-mobile-app-development-companies-in-2024.webp')}}" alt="Top 10 Mobile App Development Companies In 2024">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagetop-10-mobile-app-development-companies-in-2024.webp')}}" alt="Top 10 Mobile App Development Companies In 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 16, 2023</time>
                                     <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
                                 </div>
                                 <div class="group relative">
-                                    <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                    <div class="line-clamp-2">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
                                         Top 10 Mobile App Development Companies In 2024
                                     </div>
-                                    </h3>
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">The list of the top 10 mobile app development companies in 2024 listed in this article has demonstrated their expertise, innovation, and commitment to delivering high-quality mobile apps.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">Written by</p>
-                                    <p class="text-gray-600">Mohit Mittal</p>
+                                        <p class="font-semibold text-gray-900">Written by</p>
+                                        <p class="text-gray-600">Mohit Mittal</p>
                                     </div>
                                 </div>
                             </div>
@@ -1855,25 +1856,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" data-src="public{{mix('/img/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp')}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp')}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 06, 2023</time>
                                     <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
                                 </div>
                                 <div class="group relative">
-                                    <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                    <div class="line-clamp-2">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
                                         How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?
                                     </div>
-                                    </h3>
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Are you ready to embark on a digital journey through the captivating world of real estate? Imagine having the power to browse, compare, and purchase properties right from the comfort of your home.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
-                                    <p class="font-semibold text-gray-900">Written by</p>
-                                    <p class="text-gray-600">Dipti Singhal</p>
+                                        <p class="font-semibold text-gray-900">Written by</p>
+                                        <p class="text-gray-600">Dipti Singhal</p>
                                     </div>
                                 </div>
                             </div>

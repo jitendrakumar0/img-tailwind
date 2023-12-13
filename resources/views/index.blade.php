@@ -46,31 +46,31 @@
             }
         </script>
         <!-- Required meta tags -->
-        <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5 shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5 shrink-to-fit=no">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="msvalidate.01" content="65C543B0DF8A28C8FBBD327A71665359" />
-        <meta name="web-author" content="IMG Global Infotech" />
+        <meta name="msvalidate.01" content="65C543B0DF8A28C8FBBD327A71665359">
+        <meta name="web-author" content="IMG Global Infotech">
         <meta name="googlebot" content="all">
         <meta name="revisit-after" content="3 days">
         <meta name="copyright" content="IMG Global Infotech">
         <meta name="language" content="English">
         <meta name="reply-to" content="info@imgglobalinfotech.com">
-        <meta name="distribution" content="Global" />
-        <meta name="rating" content="General" />
+        <meta name="distribution" content="Global">
+        <meta name="rating" content="General">
         <!-- Twitter Meta -->
         <meta name="twitter:site" content="@imgglobal">
         <meta name="twitter:creator" content="@imgglobal">
         <meta name="twitter:card" content="summary">
         <!-- Facebook Meta -->
-        <meta property="fb:app_id" content="0" />
+        <meta property="fb:app_id" content="0">
         <meta property="og:type" content="website">
         <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
-        <meta name="google-site-verification" content="bGEWH2c3JpZuiXFhSZGexm_7YdIzsPNhH2w7k6Buk-Q" />
+        <meta name="google-site-verification" content="bGEWH2c3JpZuiXFhSZGexm_7YdIzsPNhH2w7k6Buk-Q">
         <meta name="twitter:image" content="public{{mix('/android-chrome-192x192.png')}}">
         <meta property="og:image" content="public{{mix('/android-chrome-192x192.png')}}">
         <meta property="og:image:secure_url" content="public{{mix('/android-chrome-192x192.png')}}">

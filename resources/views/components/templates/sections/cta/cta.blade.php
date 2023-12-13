@@ -11,9 +11,9 @@
         <h2 class="font-bold text-theme2/20 text-3xl py-3">CTA Button One</h2>
         <div class="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
             <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0" aria-hidden="true">
-                <circle cx="512" cy="512" r="512" fill="url(#759c1415)" fill-opacity="0.7" />
+                <circle cx="512" cy="512" r="512" fill="url(#l665)" fill-opacity="0.7" />
                 <defs>
-                    <radialGradient id="759c1415">
+                    <radialGradient id="l665">
                         <stop stop-color="#7775D6" />
                         <stop offset="1" stop-color="#E935C1" />
                     </radialGradient>
@@ -38,9 +38,9 @@
         <h2 class="font-bold text-theme2/20 text-3xl py-3">CTA Button Two</h2>
         <div class="relative isolate overflow-hidden text-center justify-center bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
             <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0" aria-hidden="true">
-                <circle cx="512" cy="512" r="512" fill="url(#759c1415)" fill-opacity="0.7" />
+                <circle cx="512" cy="512" r="512" fill="url(#l867)" fill-opacity="0.7" />
                 <defs>
-                    <radialGradient id="759c1415">
+                    <radialGradient id="l867">
                         <stop stop-color="#7775D6" />
                         <stop offset="1" stop-color="#E935C1" />
                     </radialGradient>

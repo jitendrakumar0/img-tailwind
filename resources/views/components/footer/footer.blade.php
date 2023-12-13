@@ -35,25 +35,25 @@
                 <div class="flex flex-wrap items-center justify-between py-8">
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900 lazyload" width="80" height="80" data-src="public{{mix('/img/evelyn.webp')}}" alt="Image of evelyn">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/evelyn.webp')}}" alt="Image of evelyn">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Evelyn</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900 lazyload" width="80" height="80" data-src="public{{mix('/img/kapil1.webp')}}" alt="Image of Kapil Sharma">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/kapil1.webp')}}" alt="Image of Kapil Sharma">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Kapil Sharma</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900 lazyload" width="80" height="80" data-src="public{{mix('/img/Yeshi.webp')}}" alt="Image of Yeshi S.">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/Yeshi.webp')}}" alt="Image of Yeshi S.">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Yeshi S.</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900 lazyload" width="80" height="80" data-src="public{{mix('/img/mohd-nizamuddin.webp')}}" alt="Image of Mohd. Nizam">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mohd-nizamuddin.webp')}}" alt="Image of Mohd. Nizam">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Mohd. Nizam</div>
                     </div>
@@ -61,7 +61,7 @@
                 <div class="flex flex-wrap items-center gap-y-8 py-5">
                     <div class="w-1/2 flex">
                         <div class="w-8 md:w-12">
-                            <img class="w-full h-full object-contain lazyload" width="48" height="52" data-src="public{{mix('/img/Apps-Delivered.webp')}}" alt="Apps Delivered">
+                            <img class="w-full h-full object-contain" loading="lazy" width="48" height="52" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/Apps-Delivered.webp')}}" alt="Apps Delivered">
                         </div>
                         <div class="grow pl-3">
                             <div class="w-full text-base md:text-lg font-bold">1000 +</div>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="w-1/2 flex">
                         <div class="w-8 md:w-12">
-                            <img class="w-full h-full object-contain lazyload" width="48" height="52" data-src="public{{mix('/img/Awards-In-Last-11-Years.webp')}}" alt="Awards In Last 11 Years">
+                            <img class="w-full h-full object-contain" loading="lazy" width="48" height="52" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/Awards-In-Last-11-Years.webp')}}" alt="Awards In Last 11 Years">
                         </div>
                         <div class="grow pl-3">
                             <div class="w-full text-base md:text-lg font-bold">100 +</div>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="w-1/2 flex">
                         <div class="w-8 md:w-12">
-                            <img class="w-full h-full object-contain lazyload" width="48" height="52" data-src="public{{mix('/img/Client-Satisfaction.webp')}}" alt="Awards In Last 11 Years">
+                            <img class="w-full h-full object-contain" loading="lazy" width="48" height="52" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/Client-Satisfaction.webp')}}" alt="Awards In Last 11 Years">
                         </div>
                         <div class="grow pl-3">
                             <div class="w-full text-base md:text-lg font-bold">100 %</div>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="w-1/2 flex">
                         <div class="w-8 md:w-12">
-                            <img class="w-full h-full object-contain lazyload" width="48" height="52" data-src="public{{mix('/img/Startups-We-Worked-With.webp')}}" alt="Startups We Worked With">
+                            <img class="w-full h-full object-contain" loading="lazy" width="48" height="52" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/Startups-We-Worked-With.webp')}}" alt="Startups We Worked With">
                         </div>
                         <div class="grow pl-3">
                             <div class="w-full text-base md:text-lg font-bold">150 +</div>
@@ -121,7 +121,7 @@
                                     <div class="col-span-full">
                                         <div class="mt-2">
                                             <label for="number"></label>
-                                            <input type="tel" name="number" id="number" minlength="10" autocomplete="given-number" placeholder="Mobile Number" class="block w-full rounded-md border-0 py-2.5 rounded-br-none text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-400 invalid:ring-2 invalid:ring-inset invalid:ring-pink-600 sm:text-sm sm:leading-6">
+                                            <input type="tel" name="number" id="number" minlength="10" autocomplete="tel" placeholder="Mobile Number" class="block w-full rounded-md border-0 py-2.5 rounded-br-none text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-400 invalid:ring-2 invalid:ring-inset invalid:ring-pink-600 sm:text-sm sm:leading-6">
                                         </div>
                                     </div>
                         
@@ -181,56 +181,56 @@
             <div class="w-auto">
                 <div class="w-full inline-flex items-center gap-1 justify-center">
                     <span class="w-5 h-5 inline-block text-sm">
-                        <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Star"><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
+                        <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
                     <span>4.9/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain lazyload" width="110.19" height="48" data-src="public{{mix('/img/footer-clutch.webp')}}" alt="footer clutch">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/footer-clutch.webp')}}" alt="footer clutch">
                 </div>
             </div>
             <div class="w-auto">
                 <div class="w-full inline-flex items-center gap-1 justify-center">
                     <span class="w-5 h-5 inline-block text-sm">
-                        <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Star"><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
+                        <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
                     <span>4.6/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain lazyload" width="110.19" height="48" data-src="public{{mix('/img/google.webp')}}" alt="google">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/google.webp')}}" alt="google">
                 </div>
             </div>
             <div class="w-auto">
                 <div class="w-full inline-flex items-center gap-1 justify-center">
                     <span class="w-5 h-5 inline-block text-sm">
-                        <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Star"><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
+                        <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
                     <span>4.8/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain lazyload" width="110.19" height="48" data-src="public{{mix('/img/mobileapp.webp')}}" alt="mobileapp">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mobileapp.webp')}}" alt="mobileapp">
                 </div>
             </div>
             <div class="w-auto">
                 <div class="w-full inline-flex items-center gap-1 justify-center">
                     <span class="w-5 h-5 inline-block text-sm">
-                        <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Star"><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
+                        <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
                     <span>4.4/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain lazyload" width="110.19" height="48" data-src="public{{mix('/img/trustpilot.webp')}}" alt="trustpilot">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/trustpilot.webp')}}" alt="trustpilot">
                 </div>
             </div>
             <div class="w-auto">
                 <div class="w-full inline-flex items-center gap-1 justify-center">
                     <span class="w-5 h-5 inline-block text-sm">
-                        <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="Star"><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
+                        <svg class="w-full h-full" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path d="M16.6,20.463a1.5,1.5,0,0,1-.7-.174l-3.666-1.927a.5.5,0,0,0-.464,0L8.1,20.289a1.5,1.5,0,0,1-2.177-1.581l.7-4.082a.5.5,0,0,0-.143-.442L3.516,11.293a1.5,1.5,0,0,1,.832-2.559l4.1-.6a.5.5,0,0,0,.376-.273l1.833-3.714a1.5,1.5,0,0,1,2.69,0l1.833,3.714a.5.5,0,0,0,.376.274l4.1.6a1.5,1.5,0,0,1,.832,2.559l-2.965,2.891a.5.5,0,0,0-.144.442l.7,4.082A1.5,1.5,0,0,1,16.6,20.463Zm-3.9-2.986L16.364,19.4a.5.5,0,0,0,.725-.527l-.7-4.082a1.5,1.5,0,0,1,.432-1.328l2.965-2.89a.5.5,0,0,0-.277-.853l-4.1-.6a1.5,1.5,0,0,1-1.13-.821L12.449,4.594a.516.516,0,0,0-.9,0L9.719,8.308a1.5,1.5,0,0,1-1.13.82l-4.1.6a.5.5,0,0,0-.277.853L7.18,13.468A1.5,1.5,0,0,1,7.611,14.8l-.7,4.082a.5.5,0,0,0,.726.527L11.3,17.477a1.5,1.5,0,0,1,1.4,0Z"></path></g></svg>
                     </span>
                     <span>4.6/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain lazyload" width="110.19" height="48" data-src="public{{mix('/img/bussinesapp.webp')}}" alt="bussinesapp">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/bussinesapp.webp')}}" alt="bussinesapp">
                 </div>
             </div>
         </div>
