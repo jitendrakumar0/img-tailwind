@@ -346,5 +346,30 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.classList.remove("group/preload");
     }
 
+    const accordionButtons = document.querySelectorAll('.accordion-btn');
+
+    accordionButtons.forEach(function (button) {
+        button.addEventListener('click', function (event) {
+            // Remove 'active' class from all accordion buttons
+            accordionButtons.forEach(function (otherButton) {
+                if (otherButton !== button) {
+                    otherButton.classList.remove('active');
+                    otherButton.nextElementSibling.style.display = 'none';
+                }
+            });
+    
+            // Toggle 'active' class for the clicked button
+            this.classList.toggle('active');
+    
+            const contentInner = this.nextElementSibling;
+            if (contentInner.style.display === 'block') {
+                contentInner.style.display = 'none';
+            } else {
+                contentInner.style.display = 'block';
+            }
+        });
+    });
+
+
 });
 
