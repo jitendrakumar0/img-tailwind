@@ -369,7 +369,16 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.classList.remove("group/preload");
     }
 
-    
-    
+    // Active navbar on scroll
+    window.addEventListener('scroll', function () {
+        var scroll = window.scrollY || document.documentElement.scrollTop;
+        var mainBody = document.querySelector('body');
+        if (scroll <= 80) {
+            mainBody.classList.remove('group/ns');
+        } else {
+            mainBody.classList.add('group/ns');
+        }
+    });
+
 });
 

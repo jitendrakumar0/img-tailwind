@@ -41,16 +41,18 @@ module.exports = {
         ]
       },
       animation: {
-        topToBottom: 'topToBottom 0.3s ease forwards',
-        shimmer: 'shimmer 2s infinite'
+        'fixed-nav': 'fixedNav 0.6s',
       },
       keyframes: {
-        topToBottom: {
-          '0%': { transform: 'translateY(-130%)' },
-          '100%': { transform: 'translateY(0)' },
-        },
-        shimmer: {
-          '100%': { transform: 'translateX(100%)' }
+        fixedNav: {
+          '0%': { 
+            opacity: '0',
+            transform: 'translateY(-60px)' 
+          },
+          '100%': { 
+            opacity: '1',
+            transform: 'translateY(0px)' 
+          },
         }
       }
     },

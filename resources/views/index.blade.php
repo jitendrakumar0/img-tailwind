@@ -116,7 +116,7 @@
             border-white 
             w-0 
             h-0 
-            z-[1000] 
+            z-[2000] 
             group-[]/preload:border-0
             transition
             ' 
@@ -137,7 +137,7 @@
             border-white 
             shadow-2xl 
             shadow-white/60 
-            z-[1000] 
+            z-[2000] 
             w-9 
             h-9
             transition

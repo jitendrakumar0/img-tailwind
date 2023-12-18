@@ -12,12 +12,12 @@
 <meta name="twitter:description" content="IMG Global is the best IT consulting Company that provides the best IT consulting services to startups, mid-size, medium-size and large-size businesses.">
 
 <!-- Facebook Meta -->
-<meta property="og:url" content="{{asset('/')}}">
+<meta property="og:url" content="https://www.imgglobalinfotech.com/">
 <meta property="og:title" content="IT Consulting Company | IT Consulting Services">
 <meta property="og:description" content="IMG Global is the best IT consulting Company that provides the best IT consulting services to startups, mid-size, medium-size and large-size businesses.">
 
 <meta name="classification" content="web and mobile app development company, software development, eCommerce development services, fantasy sports app development, online exam app">
-<link rel="canonical" href="{{asset('/')}}">
+<link rel="canonical" href="https://www.imgglobalinfotech.com/">
 <meta name="robots" content="noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 {{-- <!-- Meta Pixel Code -->
 <script>
@@ -50,7 +50,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         <h2>Awards & Recognitions</h2>
     </div>
     <div>
-        <h2>Client Journeys to Success – Glimpse of Our Case Studies</h2>
+        <h2>Client Journeys to Success - Glimpse of Our Case Studies</h2>
     </div>
     <div>
         <h2>Take A Sneak Peak to Our Portfolio And Elevate Your Expectations!</h2>
@@ -91,7 +91,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
         </div>
     </div>
-    <div class="swiper heroSwiper min-h-[500px] h-[calc(100vh-64px)] md:h-[calc(100vh-80px)] lg:h-[calc(100vh-128px)] w-full">
+    <div class="swiper heroSwiper md:min-h-[500px] h-[500px] md:h-[calc(100vh-80px)] lg:h-[calc(100vh-128px)] w-full">
         <div class="swiper-wrapper">
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-yellow-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp)] before:bg-gradient-to-r before:from-yellow-950 before:via-yellow-900 before:to-yellow-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
@@ -109,7 +109,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </div>
                         <div class="subTitle transition-[transform,opacity] max-md:text-sm/tight text-base/tight font-light text-white/80 pt-5 duration-0 delay-500 -translate-x-full opacity-0 group-[.swiper-slide-active]:translate-x-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:text-[0px] group-[.swiper-slide-next]:delay-0 block">Step into a digital journey with IMG Global Infotech and unlock the gateway to bespoke applications and groundbreaking product innovations. Experience the future of technology at your fingertips!</div>
                         <div class="mt-10 flex gap-4">
-                            <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[700ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
+                            <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[700ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
                                 <span>
                                     <span class="inline-flex items-center gap-1">
                                         <span>
@@ -119,7 +119,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     </span>
                                 </span>
                             </a>
-                            <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
+                            <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
                                 <span class="flex items-center gap-1">
                                     Coffee With Us
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
@@ -145,7 +145,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </div>
                         <div class="subTitle transition-[transform,opacity] max-md:text-sm/tight text-base/tight font-light text-white/80 pt-5 duration-0 delay-500 -translate-x-full opacity-0 group-[.swiper-slide-active]:translate-x-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:text-[0px] group-[.swiper-slide-next]:delay-0 block">IMG Global Infotech's robust and scalable app development solutions redefine possibilities, ensuring your ideas soar to new heights. Uplifting innovations, one app at a time!</div>
                         <div class="mt-10 flex gap-4">
-                            <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[700ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
+                            <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[700ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
                                 <span>
                                     <span class="inline-flex items-center gap-1">
                                         <span>
@@ -155,7 +155,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     </span>
                                 </span>
                             </a>
-                            <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
+                            <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
                                 <span class="flex items-center gap-1">
                                     Coffee With Us
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
@@ -181,7 +181,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </div>
                         <div class="subTitle transition-[transform,opacity] max-md:text-sm/tight text-base/tight font-light text-white/80 pt-5 duration-0 delay-500 -translate-x-full opacity-0 group-[.swiper-slide-active]:translate-x-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:text-[0px] group-[.swiper-slide-next]:delay-0 block">From the thrill of cricket and football to the strategy of kabaddi and fantasy stock, IMG fantasy sports app development assistance can turn your vision into a virtual arena where success is the only goal.</div>
                         <div class="mt-10 flex gap-4">
-                            <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[700ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
+                            <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[700ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
                                 <span>
                                     <span class="inline-flex items-center gap-1">
                                         <span>
@@ -191,7 +191,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     </span>
                                 </span>
                             </a>
-                            <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
+                            <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
                                 <span class="flex items-center gap-1">
                                     Coffee With Us
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
@@ -217,7 +217,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </div>
                         <div class="subTitle transition-[transform,opacity] max-md:text-sm/tight text-base/tight font-light text-white/80 pt-5 duration-0 delay-500 -translate-x-full opacity-0 group-[.swiper-slide-active]:translate-x-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:text-[0px] group-[.swiper-slide-next]:delay-0 block">Step into the digital spotlight and elevate your brand with our cutting-edge web development solutions. We craft more than websites; we build captivating online experiences that leave a lasting impression.</div>
                         <div class="mt-10 flex gap-4">
-                            <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[700ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
+                            <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[700ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
                                 <span>
                                     <span class="inline-flex items-center gap-1">
                                         <span>
@@ -227,7 +227,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     </span>
                                 </span>
                             </a>
-                            <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
+                            <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
                                 <span class="flex items-center gap-1">
                                     Coffee With Us
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
@@ -253,7 +253,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </div>
                         <div class="subTitle transition-[transform,opacity] max-md:text-sm/tight text-base/tight font-light text-white/80 pt-5 duration-0 delay-500 -translate-x-full opacity-0 group-[.swiper-slide-active]:translate-x-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:text-[0px] group-[.swiper-slide-next]:delay-0 block">Welcome to a realm where dedicated professionals converge with boundless expertise. Harness the power of our seasoned team and unlock the full potential of your enterprise.</div>
                         <div class="mt-10 flex gap-4">
-                            <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[700ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
+                            <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[700ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
                                 <span>
                                     <span class="inline-flex items-center gap-1">
                                         <span>
@@ -263,7 +263,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     </span>
                                 </span>
                             </a>
-                            <a href="javascript:;" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
+                            <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 translate-y-[200%] transition-[transform,opacity] delay-[800ms] opacity-0 group-[.swiper-slide-active]:translate-y-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-active]:duration-500 group-[.swiper-slide-next]:duration-100 group-[.swiper-slide-next]:!h-0 group-[.swiper-slide-next]:overflow-hidden group-[.swiper-slide-next]:delay-0 max-md:hidden inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
                                 <span class="flex items-center gap-1">
                                     Coffee With Us
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
@@ -374,11 +374,11 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 <div class="relative z-20 mx-auto max-w-[40rem] pb-10 md:pb-16 pt-10 md:pt-16 lg:mx-0 lg:w-[40rem] lg:max-w-none lg:flex-none lg:pb-24 lg:pr-4 lg:pt-20">
                     <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black"><span class="font-normal">A Quick Insight Into</span> <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">IMG Global Infotech</span></p>
                     <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">Discover innovation and excellence at IMG Global Infotech! Immerse yourself in cutting-edge services and high-quality development solutions that redefine the digital landscape. Our dynamic work environment fosters creativity and collaboration to fuel groundbreaking ideas.</p>
-                    <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">At IMG, we pride ourselves on timely delivery, transforming visions into reality. From mobile app development to custom software solutions and dedicated developer hiring, we cater to businesses of all scales. Experience top-notch development, reasonable prices, and a partnership that exceeds expectations – at IMG Global Infotech, we make digital dreams come true.</p>
+                    <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">At IMG, we pride ourselves on timely delivery, transforming visions into reality. From mobile app development to custom software solutions and dedicated developer hiring, we cater to businesses of all scales. Experience top-notch development, reasonable prices, and a partnership that exceeds expectations - at IMG Global Infotech, we make digital dreams come true.</p>
     
                     <div class="mt-8 flex gap-4">
-                        <a href="javascript:;" class="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Read More <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
-                        <a class="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="javascript:;">
+                        <a href="https://www.imgglobalinfotech.com/about-us.php" class="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Read More <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
+                        <a class="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="https://www.imgglobalinfotech.com/contact-us.php">
                             <span class="select-none">
                             Coffee With Us <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
                             </span>
@@ -576,7 +576,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Bespoke Software Development</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">SaaS Development</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">White Label Software Development</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">ERP Software Development</a>
+                                        <a href="https://www.imgglobalinfotech.com/custom-erp-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">ERP Software Development</a>
                                     </div>
                                 </div>
                                 <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
@@ -647,13 +647,13 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Android App Development</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Cross-Platform App Development</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">iOS App Development</a>
+                                        <a href="https://www.imgglobalinfotech.com/android-application-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Android App Development</a>
+                                        <a href="https://www.imgglobalinfotech.com/cross-platform-app-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Cross-Platform App Development</a>
+                                        <a href="https://www.imgglobalinfotech.com/ios-app-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">iOS App Development</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">PWA Development</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Flutter App Development</a>
+                                        <a href="https://www.imgglobalinfotech.com/flutter-app-development" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Flutter App Development</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Wearable App Development</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">React Native App Development</a>
+                                        <a href="https://www.imgglobalinfotech.com/react-native-app-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">React Native App Development</a>
                                     </div>
                                 </div>
                                 <div class="sm:text-lg text-base font-bold opacity-0 translate-x-1/4 delay-200 duration-300 cursor-pointer group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">Core Tech:</div>
@@ -724,11 +724,11 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Website Design</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">CMS Development</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Responsive Website Design</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">API Development</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Website Redesign</a>
+                                        <a href="https://www.imgglobalinfotech.com/website-design.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Website Design</a>
+                                        <a href="https://www.imgglobalinfotech.com/cms-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">CMS Development</a>
+                                        <a href="https://www.imgglobalinfotech.com/responsive-web-designing.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Responsive Website Design</a>
+                                        <a href="https://www.imgglobalinfotech.com/api-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">API Development</a>
+                                        <a href="https://www.imgglobalinfotech.com/website-redesigning.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Website Redesign</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Web Portal Development</a>
                                     </div>
                                 </div>
@@ -876,7 +876,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Ecommerce Development</a>
+                                        <a href="https://www.imgglobalinfotech.com/ecommerce-website-development" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Ecommerce Development</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Magento Development</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Shopify Development</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Wordpress Development</a>
@@ -950,27 +950,27 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Mobile App Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire iOS App Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Flutter App Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire PHP Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Website Designers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire MEAN Stack Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-mobile-app-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Mobile App Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-ios-app-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire iOS App Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-flutter-app-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Flutter App Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-php-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire PHP Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-web-desginers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Website Designers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-mean-stack-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire MEAN Stack Developers</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Laravel Developers</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Software Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Java Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-java-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Java Developers</a>
                                     </div>
                                     <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm mt-3">
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Node.js Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Android App Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire React Native App Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Website Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Python Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Full Stack Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire MERN Stack Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire UI / UX Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire React JS Developers</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Angularjs Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-nodejs-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Node.js Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-android-app-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Android App Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-react-native-app-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire React Native App Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-web-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Website Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-python-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Python Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-full-stack-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Full Stack Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-mern-stack-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire MERN Stack Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-ui-ux-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire UI / UX Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-reactjs-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire React JS Developers</a>
+                                        <a href="https://www.imgglobalinfotech.com/hire-angular-developers.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Hire Angularjs Developers</a>
                                     </div>
                                 </div>
                             </div>
@@ -1002,17 +1002,17 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                                 <div class="py-10 opacity-0 translate-x-1/4 delay-150 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
                                     <div class="flex flex-wrap gap-3 md:font-semibold text-[12px] md:text-sm">
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Food Delivery App Development</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Grocery Delivery</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Fantasy sports App</a>
+                                        <a href="https://www.imgglobalinfotech.com/food-delivery-app-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Food Delivery App Development</a>
+                                        <a href="https://www.imgglobalinfotech.com/grocery-app-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Grocery Delivery</a>
+                                        <a href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Fantasy sports App</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Video Streaming App</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Social Media App</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Event Management App</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Elearning App</a>
+                                        <a href="https://www.imgglobalinfotech.com/elearning-app-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Elearning App</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Travel App</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Pharmacy App</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Fashion App</a>
-                                        <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Doctor on Demand App</a>
+                                        <a href="https://www.imgglobalinfotech.com/pharmacy-app-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Pharmacy App</a>
+                                        <a href="https://www.imgglobalinfotech.com/fashion-app-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Fashion App</a>
+                                        <a href="https://www.imgglobalinfotech.com/doctor-on-demand-app-development.php" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Doctor on Demand App</a>
                                         <a href="javascript:;" class="inline-block backdrop-blur-lg shadow-sm p-2 md:p-3 bg-white/20">Healthacare App</a>
                                     </div>
                                 </div>
@@ -1081,7 +1081,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                                         <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
                                     </div>
-                                    <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States – 2022-2023</div>
+                                    <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
                             </div>
                         </div>
@@ -1091,7 +1091,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                                         <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
                                     </div>
-                                    <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States – 2022-2023</div>
+                                    <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
                             </div>
                         </div>
@@ -1101,7 +1101,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                                         <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
                                     </div>
-                                    <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States – 2022-2023</div>
+                                    <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
                             </div>
                         </div>
@@ -1111,7 +1111,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                                         <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
                                     </div>
-                                    <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States – 2022-2023</div>
+                                    <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
                             </div>
                         </div>
@@ -1147,7 +1147,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
     <div class="flex flex-col w-full max-w-7xl mx-auto px-6 md:px-9 lg:px-11 pb-5">
         <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
-            <span class="font-normal">Client Journeys to Success –</span> 
+            <span class="font-normal">Client Journeys to Success -</span> 
             <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> Glimpse of Our Case Studies</span>
         </p>
         <div class="mt-4 text-base md:text-lg leading-7 text-slate-600">Explore our client success stories, witnessing transformative journeys to success. Each case study below reflects our impactful solutions, showcasing innovation, dedication, and tangible results.</div>
@@ -1173,7 +1173,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </div>
                         <div class="w-full font-bold text-xl mb-4 bg-gradient-to-bl from-purple-300 via-white to-purple-300 bg-clip-text text-transparent">Socializing, interacting, exploring, all fascinating things are here for you !</div>
                         <div class="w-full">
-                            <a href="javascript:;" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
+                            <a href="https://www.imgglobalinfotech.com/case-study/bobilive.php" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
                         </div>
                     </div>
                 </div>
@@ -1199,7 +1199,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </div>
                         <div class="w-full font-bold text-xl mb-4 bg-gradient-to-bl from-green-300 via-white to-green-300 bg-clip-text text-transparent">Waterless car washing services across india</div>
                         <div class="w-full">
-                            <a href="javascript:;" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
+                            <a href="https://www.imgglobalinfotech.com/case-study/hozzo.php" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
                         </div>
                     </div>
                 </div>
@@ -1225,7 +1225,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </div>
                         <div class="w-full font-bold text-xl mb-4 bg-gradient-to-bl from-emerald-300 via-white to-emerald-300 bg-clip-text text-transparent">Principle Partner of KKR. india's most trusted Fantasy Cricket App</div>
                         <div class="w-full">
-                            <a href="javascript:;" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
+                            <a href="https://www.imgglobalinfotech.com/case-study/myfab11.php" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
                         </div>
                     </div>
                 </div>
@@ -1251,14 +1251,14 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </div>
                         <div class="w-full font-bold text-xl mb-4 bg-gradient-to-bl from-red-300 via-white to-red-300 bg-clip-text text-transparent">Shop for Handwoven Garments & home fusnishings</div>
                         <div class="w-full">
-                            <a href="javascript:;" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
+                            <a href="https://www.imgglobalinfotech.com/case-study/fabindia.php" class="inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-white bg-white/20 xl:hover:ring-gray-400 text-white duration-300 backdrop-blur-md shadow-sm shadow-white/50">View Case Study</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="xl:w-24 w-full p-3 relative group/cStudy block text-center">
-            <a href="javascript:;" class="xl:absolute inset-3 max-xl:py-3 max-xl:px-5 bg-pink-950 cursor-pointer group-hover/cStudy:scale-95 duration-200 ease-in-out rounded-xl rounded-br-none text-sm md:text-base font-bold text-white xl:[writing-mode:vertical-lr] xl:flex inline-flex items-center justify-center">View All CaseStudy</a>
+            <a href="https://www.imgglobalinfotech.com/casestudy.php" class="xl:absolute inset-3 max-xl:py-3 max-xl:px-5 bg-pink-950 cursor-pointer group-hover/cStudy:scale-95 duration-200 ease-in-out rounded-xl rounded-br-none text-sm md:text-base font-bold text-white xl:[writing-mode:vertical-lr] xl:flex inline-flex items-center justify-center">View All CaseStudy</a>
         </div>
     </div>
 </div>
@@ -1436,7 +1436,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center">Let's turn your <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent">business idea into reality</span></div>
                     <p class="mt-6 text-base md:text-lg md:leading-8 text-gray-300 text-center">Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one of our executives will catch you up in no time by Call, Email or Skype.</p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
-                        <a href="#" class="rounded-md rounded-br-none bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Book A Discovery Call</a>
+                        <a href="https://www.imgglobalinfotech.com/request-a-quote.php" class="rounded-md rounded-br-none bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Book A Discovery Call</a>
                     </div>
                 </div>
             </div>
@@ -1465,26 +1465,26 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             
             <div class="flex flex-row flex-wrap w-full gap3 pt-8 font-bold md:text-base text-sm uppercase text-white">
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
-                    <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
+                    <a href="https://www.imgglobalinfotech.com/fintech-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
                         <img width="296" height="222" srcset="public{{mix('/img/mobile/bank-and-finance.webp')}} 480w, public{{mix('/img/tablet/bank-and-finance.webp')}} 800w, public{{mix('/img/bank-and-finance.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/bank-and-finance.webp")}}" alt="Banking and Finance Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy"
                         >
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Banking and Finance</div>
                     </a>
                 </div>
                 <div class="xl:w-1/3  md:w-1/3 w-1/2 p-1">
-                    <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
+                    <a href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
                         <img width="297" height="222" srcset="public{{mix('/img/mobile/fantasy-sports.webp')}} 480w, public{{mix('/img/tablet/fantasy-sports.webp')}} 800w, public{{mix('/img/fantasy-sports.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/fantasy-sports.webp")}}" alt="Fantasy Sports Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Fantasy Sports</div>
                     </a>
                 </div>
                 <div class="xl:w-1/6  md:w-1/3 w-1/2 p-1">
-                    <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
+                    <a href="https://www.imgglobalinfotech.com/healthcare-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
                         <img width="194" height="222" srcset="public{{mix('/img/mobile/healthcare.webp')}} 480w, public{{mix('/img/tablet/healthcare.webp')}} 800w, public{{mix('/img/healthcare.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/healthcare.webp")}}" alt="Healthcare Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Healthcare</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
-                    <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
+                    <a href="https://www.imgglobalinfotech.com/edtech-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
                         <img width="296" height="222" srcset="public{{mix('/img/mobile/edTech-solution.webp')}} 480w, public{{mix('/img/tablet/edTech-solution.webp')}} 800w, public{{mix('/img/edTech-solution.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/edTech-solution.webp")}}" alt="EdTech Solution Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">EdTech Solution</div>
                     </a>
@@ -1492,7 +1492,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 sm:w-1/2 w-full p-1">
-                    <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
+                    <a href="https://www.imgglobalinfotech.com/travel-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
                         <img width="296" height="222" srcset="public{{mix('/img/mobile/travel-and-tourism.webp')}} 480w, public{{mix('/img/tablet/travel-and-tourism.webp')}} 800w, public{{mix('/img/travel-and-tourism.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/travel-and-tourism.webp")}}" alt="Travel and Tourism Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Travel and Tourism</div>
                     </a>
@@ -1500,19 +1500,19 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 
                 </div>
                 <div class="xl:w-1/2 md:w-1/3 sm:w-1/2 w-full p-1">
-                    <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
+                    <a href="https://www.imgglobalinfotech.com/media-and-entertainment-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
                         <img width="600" height="222" srcset="public{{mix('/img/mobile/media-and-entertainment.webp')}} 480w, public{{mix('/img/tablet/media-and-entertainment.webp')}} 800w, public{{mix('/img/media-and-entertainment.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/media-and-entertainment.webp")}}" alt="Media and Entertainment Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Media and Entertainment</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
-                    <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
+                    <a href="https://www.imgglobalinfotech.com/" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
                         <img width="296" height="222" srcset="public{{mix('/img/mobile/retail-and-ecommerce-app.webp')}} 480w, public{{mix('/img/tablet/retail-and-ecommerce-app.webp')}} 800w, public{{mix('/img/retail-and-ecommerce-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/retail-and-ecommerce-app.webp")}}" alt="Retail and Ecommerce App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Retail and Ecommerce App</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
-                    <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
+                    <a href="https://www.imgglobalinfotech.com/logistics-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
                         <img width="296" height="222" srcset="public{{mix('/img/mobile/logistics-services-app.webp')}} 480w, public{{mix('/img/tablet/logistics-services-app.webp')}} 800w, public{{mix('/img/logistics-services-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/logistics-services-app.webp")}}" alt="Logistics Services App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Logistics Services App</div>
                     </a>
@@ -1520,19 +1520,19 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 
                 </div>
                 <div class="xl:w-1/6 md:w-1/3 w-1/2 p-1">
-                    <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
+                    <a href="https://www.imgglobalinfotech.com/social-media-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
                         <img width="194" height="222" srcset="public{{mix('/img/mobile/social-app.webp')}} 480w, public{{mix('/img/tablet/social-app.webp')}} 800w, public{{mix('/img/social-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/social-app.webp")}}" alt="Social App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Social App</div>
                     </a>
                 </div>
                 <div class="xl:w-1/3 md:w-1/2 w-1/2 p-1">
-                    <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
+                    <a href="https://www.imgglobalinfotech.com/real-estate-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
                         <img width="397" height="222" srcset="public{{mix('/img/mobile/real-estate.webp')}} 480w, public{{mix('/img/tablet/real-estate.webp')}} 800w, public{{mix('/img/real-estate.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/real-estate.webp")}}" alt="Real Estate Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Real Estate</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/2 sm:w-1/2 w-full p-1">
-                    <a href="javascript:;" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
+                    <a href="https://www.imgglobalinfotech.com/event-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
                         <img width="296" height="222" srcset="public{{mix('/img/mobile/on-demand.webp')}} 480w, public{{mix('/img/tablet/on-demand.webp')}} 800w, public{{mix('/img/on-demand.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/on-demand.webp")}}" alt="Event management Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Event management</div>
                     </a>
@@ -1654,6 +1654,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     <div class="absolute z-0 -top-52 left-1/2 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
         <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-fuchsia-900 to-lime-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
+
     <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative">
         <p class="mt-4 max-md:text-xl/tight max-xl:text-2xl/tight text-3xl/tight tracking-[-0.04em] text-black text-center">
             <span class="font-normal block pb-3">Stay Informed Of Latest Innovations and Trends With Our Blogs!</span>
@@ -1663,8 +1664,56 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper blogsSwiper w-full !overflow-visible">
                 <div class="swiper-wrapper flex items-center pb-8">
                     <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp')}}" alt="How To Develop A Loan Lending Mobile App? – A Complete Guide">
+                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/thumb/blogimageTop-FinTech-App-Development-Companies-in-India-2024.webp')}}" alt="Top FinTech App Development Companies In India 2024">
+                            <div class="w-full p-6">
+                                <div class="flex items-center gap-x-4 text-xs">
+                                    <time datetime="2023-11-27" class="text-gray-500">Dec 15, 2023</time>
+                                    <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
+                                </div>
+                                <div class="group relative">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
+                                        Top FinTech App Development Companies In India 2024
+                                    </div>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/author/lokesh-kumar.webp')}}" alt="Lokesh Kumar" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <div class="text-sm leading-6">
+                                        <p class="font-semibold text-gray-900">Written by</p>
+                                        <p class="text-gray-600">Lokesh Kumar</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide rounded-2xl group/blog">
+                        <a href="https://www.imgglobalinfotech.com/blog/top-10-trusted-real-estate-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/thumb/blogimagetop-10-trusted-real-estate-app-development-companies-in-india.webp')}}" alt="Top 10 Trusted Real Estate App Development Companies In India">
+                            <div class="w-full p-6">
+                                <div class="flex items-center gap-x-4 text-xs">
+                                    <time datetime="2020-03-16" class="text-gray-500">Dec 11, 2023</time>
+                                    <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
+                                </div>
+                                <div class="group relative">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
+                                        Top 10 Trusted Real Estate App Development Companies In India
+                                    </div>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog will explore India's top 10 trusted real estate app development companies, with IMG Global Infotech securing the coveted No. 1 position.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/author/mohit-mittal.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <div class="text-sm leading-6">
+                                        <p class="font-semibold text-gray-900">Written by</p>
+                                        <p class="text-gray-600">Mohit Mittal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide rounded-2xl group/blog">
+                        <a href="https://www.imgglobalinfotech.com/blog/loan-lending-mobile-app-development" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/thumb/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp')}}" alt="How To Develop A Loan Lending Mobile App? - A Complete Guide">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2023-11-27" class="text-gray-500">Nov 27, 2023</time>
@@ -1672,12 +1721,12 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                 </div>
                                 <div class="group relative">
                                     <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        How To Develop A Loan Lending Mobile App? – A Complete Guide
+                                        How To Develop A Loan Lending Mobile App? - A Complete Guide
                                     </div>
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Developing a loan lending app involves various steps and considerations to ensure functionality, security, and user-friendliness. Here's a detailed guide on how you can go about building one.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/author/dipti-singhal.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
                                         <p class="font-semibold text-gray-900">Written by</p>
                                         <p class="text-gray-600">Dipti Singhal</p>
@@ -1687,8 +1736,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </a>
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagetop-10-mobile-app-development-companies-in-2024.webp')}}" alt="Top 10 Mobile App Development Companies In 2024">
+                        <a href="https://www.imgglobalinfotech.com/blog/top-10-mobile-app-development-companies" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/thumb/blogimagetop-10-mobile-app-development-companies-in-2024.webp')}}" alt="Top 10 Mobile App Development Companies In 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 16, 2023</time>
@@ -1701,7 +1750,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">The list of the top 10 mobile app development companies in 2024 listed in this article has demonstrated their expertise, innovation, and commitment to delivering high-quality mobile apps.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/author/mohit-mittal.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
                                         <p class="font-semibold text-gray-900">Written by</p>
                                         <p class="text-gray-600">Mohit Mittal</p>
@@ -1711,8 +1760,8 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                         </a>
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp')}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
+                        <a href="https://www.imgglobalinfotech.com/blog/how-much-does-it-cost-to-develop-real-estate-website-app-like-magicbricks" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/thumb/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp')}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 06, 2023</time>
@@ -1725,151 +1774,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Are you ready to embark on a digital journey through the captivating world of real estate? Imagine having the power to browse, compare, and purchase properties right from the comfort of your home.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
-                                    <div class="text-sm leading-6">
-                                        <p class="font-semibold text-gray-900">Written by</p>
-                                        <p class="text-gray-600">Dipti Singhal</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp')}}" alt="How To Develop A Loan Lending Mobile App? – A Complete Guide">
-                            <div class="w-full p-6">
-                                <div class="flex items-center gap-x-4 text-xs">
-                                    <time datetime="2023-11-27" class="text-gray-500">Nov 27, 2023</time>
-                                    <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
-                                </div>
-                                <div class="group relative">
-                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        How To Develop A Loan Lending Mobile App? – A Complete Guide
-                                    </div>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Developing a loan lending app involves various steps and considerations to ensure functionality, security, and user-friendliness. Here's a detailed guide on how you can go about building one.</p>
-                                </div>
-                                <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
-                                    <div class="text-sm leading-6">
-                                        <p class="font-semibold text-gray-900">Written by</p>
-                                        <p class="text-gray-600">Dipti Singhal</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagetop-10-mobile-app-development-companies-in-2024.webp')}}" alt="Top 10 Mobile App Development Companies In 2024">
-                            <div class="w-full p-6">
-                                <div class="flex items-center gap-x-4 text-xs">
-                                    <time datetime="2020-03-16" class="text-gray-500">Nov 16, 2023</time>
-                                    <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
-                                </div>
-                                <div class="group relative">
-                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        Top 10 Mobile App Development Companies In 2024
-                                    </div>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">The list of the top 10 mobile app development companies in 2024 listed in this article has demonstrated their expertise, innovation, and commitment to delivering high-quality mobile apps.</p>
-                                </div>
-                                <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
-                                    <div class="text-sm leading-6">
-                                        <p class="font-semibold text-gray-900">Written by</p>
-                                        <p class="text-gray-600">Mohit Mittal</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp')}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
-                            <div class="w-full p-6">
-                                <div class="flex items-center gap-x-4 text-xs">
-                                    <time datetime="2020-03-16" class="text-gray-500">Nov 06, 2023</time>
-                                    <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
-                                </div>
-                                <div class="group relative">
-                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?
-                                    </div>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Are you ready to embark on a digital journey through the captivating world of real estate? Imagine having the power to browse, compare, and purchase properties right from the comfort of your home.</p>
-                                </div>
-                                <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
-                                    <div class="text-sm leading-6">
-                                        <p class="font-semibold text-gray-900">Written by</p>
-                                        <p class="text-gray-600">Dipti Singhal</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp')}}" alt="How To Develop A Loan Lending Mobile App? – A Complete Guide">
-                            <div class="w-full p-6">
-                                <div class="flex items-center gap-x-4 text-xs">
-                                    <time datetime="2023-11-27" class="text-gray-500">Nov 27, 2023</time>
-                                    <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
-                                </div>
-                                <div class="group relative">
-                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        How To Develop A Loan Lending Mobile App? – A Complete Guide
-                                    </div>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Developing a loan lending app involves various steps and considerations to ensure functionality, security, and user-friendliness. Here's a detailed guide on how you can go about building one.</p>
-                                </div>
-                                <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
-                                    <div class="text-sm leading-6">
-                                        <p class="font-semibold text-gray-900">Written by</p>
-                                        <p class="text-gray-600">Dipti Singhal</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagetop-10-mobile-app-development-companies-in-2024.webp')}}" alt="Top 10 Mobile App Development Companies In 2024">
-                            <div class="w-full p-6">
-                                <div class="flex items-center gap-x-4 text-xs">
-                                    <time datetime="2020-03-16" class="text-gray-500">Nov 16, 2023</time>
-                                    <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
-                                </div>
-                                <div class="group relative">
-                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        Top 10 Mobile App Development Companies In 2024
-                                    </div>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">The list of the top 10 mobile app development companies in 2024 listed in this article has demonstrated their expertise, innovation, and commitment to delivering high-quality mobile apps.</p>
-                                </div>
-                                <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1689161540.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
-                                    <div class="text-sm leading-6">
-                                        <p class="font-semibold text-gray-900">Written by</p>
-                                        <p class="text-gray-600">Mohit Mittal</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="javascript:;" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp')}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
-                            <div class="w-full p-6">
-                                <div class="flex items-center gap-x-4 text-xs">
-                                    <time datetime="2020-03-16" class="text-gray-500">Nov 06, 2023</time>
-                                    <div class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Mobile App</div>
-                                </div>
-                                <div class="group relative">
-                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?
-                                    </div>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Are you ready to embark on a digital journey through the captivating world of real estate? Imagine having the power to browse, compare, and purchase properties right from the comfort of your home.</p>
-                                </div>
-                                <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blogauthor-1687770667.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/author/dipti-singhal.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
                                         <p class="font-semibold text-gray-900">Written by</p>
                                         <p class="text-gray-600">Dipti Singhal</p>
