@@ -5,6 +5,9 @@ import 'swiper/css/navigation';
 // import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
 
+import 'intl-tel-input';
+import intlTelInput from 'intl-tel-input';
+
 document.addEventListener("DOMContentLoaded", function() {
     const images = document.querySelectorAll("img[data-src]");
 
@@ -382,3 +385,34 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const input = document.querySelector("#phone");
+    const iti = intlTelInput(input, {
+        nationalMode: true,
+        initialCountry: 'in',
+        placeholderNumberType: 'FIXED_LINE',
+        onlyCountries: ["in", "us", "cn", "jp", "br", "ru", "gb", "de", "fr", "it", "es", "kr", "au", "ca", "mx", "id", "tr", "za", "ng", "eg", "ar"], 
+        localizedCountries: {
+            in: "India",
+            fr: "Frankreich",
+            de: "Deutschland",
+            es: "Spanien",
+            it: "Italien",
+            ch: "Schweiz",
+            nl: "Niederlande",
+            at: "Österreich",
+            dk: "Dänemark",
+        },
+        preferredCountries: ["in","us"],
+        nationalMode: false,
+        separateDialCode: true,
+        // utilsScript: "./node_modules/intl-tel-input/build/js/utils.js?1701962297307"
+    });
+
+    var phoneInput = document.getElementById('phone');
+    phoneInput.addEventListener('input', function() {
+        phoneInput.value = phoneInput.value.replace(/\D/g, '');
+    });
+
+});

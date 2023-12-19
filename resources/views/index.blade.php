@@ -181,5 +181,7 @@
             ' 
             id="cursor2"
         ></div>
+        
+        @include('components.templates.festival-decor.snowfall-xmas.snowfall-xmas')
     </body>
 </html>

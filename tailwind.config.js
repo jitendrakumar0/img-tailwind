@@ -42,6 +42,8 @@ module.exports = {
       },
       animation: {
         'fixed-nav': 'fixedNav 0.6s',
+        'fall': 'fall 0.6s',
+        'diagonalfall': 'diagonalfall 0.6s',
       },
       keyframes: {
         fixedNav: {
@@ -52,6 +54,32 @@ module.exports = {
           '100%': { 
             opacity: '1',
             transform: 'translateY(0px)' 
+          },
+        },
+        fall: {
+          '0%': { 
+            opacity: '0',
+            transform: 'translateY(0)' 
+          },
+          '10%': { 
+            opacity: '1'
+          },
+          '100%': { 
+            opacity: '0.5',
+            transform: 'translateY(100vh)' 
+          },
+        },
+        diagonalfall: {
+          '0%': { 
+            opacity: '0',
+            transform: 'translate(0, 0)' 
+          },
+          '10%': { 
+            opacity: '1'
+          },
+          '100%': { 
+            opacity: '0.25',
+            transform: 'translate(10vw, 100vh)' 
           },
         }
       }
