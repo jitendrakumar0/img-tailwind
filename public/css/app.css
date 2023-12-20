@@ -2884,10 +2884,6 @@ select{
 .border-none{
   border-style: none;
 }
-.border-gray-200{
-  --tw-border-opacity: 1;
-  border-color: rgb(229 231 235 / var(--tw-border-opacity));
-}
 .border-gray-900\/25{
   border-color: rgb(17 24 39 / 0.25);
 }
@@ -3584,6 +3580,10 @@ select{
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
 }
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 .py-24{
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -3607,10 +3607,6 @@ select{
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-.py-20{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 .\!pt-28{
   padding-top: 7rem !important;
@@ -3784,6 +3780,9 @@ select{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
+.text-black\/10{
+  color: rgb(0 0 0 / 0.1);
+}
 .text-black\/20{
   color: rgb(0 0 0 / 0.2);
 }
@@ -3836,10 +3835,6 @@ select{
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-.text-gray-800{
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 .text-gray-900{
   --tw-text-opacity: 1;
@@ -3911,6 +3906,10 @@ select{
 .text-theme2\/20{
   color: rgb(4 39 47 / 0.2);
 }
+.text-theme3{
+  --tw-text-opacity: 1;
+  color: rgb(9 12 55 / var(--tw-text-opacity));
+}
 .text-transparent{
   color: transparent;
 }
@@ -3929,9 +3928,6 @@ select{
 }
 .text-white\/80{
   color: rgb(255 255 255 / 0.8);
-}
-.text-black\/10{
-  color: rgb(0 0 0 / 0.1);
 }
 .antialiased{
   -webkit-font-smoothing: antialiased;
@@ -5456,6 +5452,10 @@ select{
 .group.swiper-slide-next .group-\[\.swiper-slide-next\]\:overflow-hidden{
   overflow: hidden;
 }
+.group\/ons .group-\[\]\/ons\:rounded-b-2xl{
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
 .group\/cyan.hover .group-\[\.hover\]\/cyan\:border-0{
   border-width: 0px;
 }
@@ -5969,9 +5969,6 @@ select{
   .sm\:mt-0{
     margin-top: 0px;
   }
-  .sm\:mt-16{
-    margin-top: 4rem;
-  }
   .sm\:mt-20{
     margin-top: 5rem;
   }
@@ -6105,9 +6102,6 @@ select{
   }
   .sm\:ps-0{
     padding-inline-start: 0px;
-  }
-  .sm\:pt-16{
-    padding-top: 4rem;
   }
   .sm\:pt-8{
     padding-top: 2rem;
@@ -6460,9 +6454,6 @@ select{
   }
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .lg\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .lg\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));

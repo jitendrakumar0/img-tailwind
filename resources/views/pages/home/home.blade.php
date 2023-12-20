@@ -40,7 +40,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 
 @push('styles')
 <!-- Preload LCP image -->
-<link rel="preload" as="image" href="public{{ mix('/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp')}}" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" as="image" href="{{asset('public'.mix('/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp'))}}" onload="this.onload=null;this.rel='stylesheet'">
 @endpush
 
 @section('content')
@@ -295,34 +295,34 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper logo-clouds before:bg-gradient-to-r before:from-slate-50 before:to-transparent before:w-32 before:z-10 before:inset-0 before:absolute before:pointer-events-none after:bg-gradient-to-l after:from-slate-50 after:to-transparent after:w-32 after:z-10 after:inset-0 after:absolute after:pointer-events-none after:left-auto">
                 <div class="swiper-wrapper !ease-linear mt-10 flex items-center">
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-titan.webp') }}" alt="logo clouds titan">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/logo-clouds-titan.webp'))}}" alt="logo clouds titan">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-adani.webp') }}" alt="logo clouds adani">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/logo-clouds-adani.webp'))}}" alt="logo clouds adani">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-fabindia.webp') }}" alt="logo clouds fabindia">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/logo-clouds-fabindia.webp'))}}" alt="logo clouds fabindia">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-hero.webp') }}" alt="logo clouds hero">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/logo-clouds-hero.webp'))}}" alt="logo clouds hero">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-myfab11.webp') }}" alt="logo clouds myfab11">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/logo-clouds-myfab11.webp'))}}" alt="logo clouds myfab11">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-parle.webp') }}" alt="logo clouds parle">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/logo-clouds-parle.webp'))}}" alt="logo clouds parle">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-tata.webp') }}" alt="logo clouds tata">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/logo-clouds-tata.webp'))}}" alt="logo clouds tata">
                     </a>
                     <a class="swiper-slide !h-5 md:!h-7">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-titan.webp') }}" alt="logo clouds titan">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/logo-clouds-titan.webp'))}}" alt="logo clouds titan">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-adani.webp') }}" alt="logo clouds adani">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/logo-clouds-adani.webp'))}}" alt="logo clouds adani">
                     </a>
                     <a class="swiper-slide !h-8">
-                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/logo-clouds-fabindia.webp') }}" alt="logo clouds fabindia">
+                        <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/logo-clouds-fabindia.webp'))}}" alt="logo clouds fabindia">
                     </a>
                 </div>
             </div>
@@ -335,7 +335,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 <div class="relative z-10 hidden lg:block pointer-events-none">
                     <div class="mt-6 flex [transform:rotateY(180deg)]">
                         <div class="relative flex-shrink-0 p-4">
-                            <div class="relative z-10 overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px] aspect-[336/404]" loading="lazy" width="336" height="404" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/image3.webp') }}" alt="image3"></div>
+                            <div class="relative z-10 overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px] aspect-[336/404]" loading="lazy" width="336" height="404" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/image3.webp'))}}" alt="image3"></div>
                             <div class="z-0">
                             <div class="absolute -right-12 left-0 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
                             <div class="absolute -top-8 bottom-0 left-12 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
@@ -410,7 +410,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 
 
 <div class="relative isolate overflow-hidden bg-gray-900 py-8 sm:py-32 select-none">
-    <img width="1519" height="592" src="public{{mix('/img/hidden.webp')}}" data-src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=1280&h=678&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="unsplash background image" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center" loading="lazy">
+    <img width="1519" height="592" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=1280&h=678&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="unsplash background image" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center" loading="lazy">
     <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
         <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
@@ -814,7 +814,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img width="40" height="40" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/vyper.webp')}}" alt="vyper icon" class="w-full h-full object-contain object-center" loading="lazy">
+                                            <img width="40" height="40" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/vyper.webp'))}}" alt="vyper icon" class="w-full h-full object-contain object-center" loading="lazy">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Vyper</div>
                                     </div>
@@ -826,19 +826,19 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img width="40" height="40" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/simplicity.webp')}}" alt="Simplicity Icon" class="w-full h-full object-contain object-center" loading="lazy">
+                                            <img width="40" height="40" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/simplicity.webp'))}}" alt="Simplicity Icon" class="w-full h-full object-contain object-center" loading="lazy">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Simplicity</div>
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img width="40" height="40" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/rholang.webp')}}" alt="Rholang Icon" class="w-full h-full object-contain object-center" loading="lazy">
+                                            <img width="40" height="40" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/rholang.webp'))}}" alt="Rholang Icon" class="w-full h-full object-contain object-center" loading="lazy">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Rholang</div>
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img width="40" height="40" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/rust.webp')}}" alt="Rust Icon" class="w-full h-full object-contain object-center" loading="lazy">
+                                            <img width="40" height="40" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/rust.webp'))}}" alt="Rust Icon" class="w-full h-full object-contain object-center" loading="lazy">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Rust</div>
                                     </div>
@@ -900,13 +900,13 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img class="w-full h-full" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/uber-cart.webp')}}" alt="Uber cart Icon">
+                                            <img class="w-full h-full" loading="lazy" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/uber-cart.webp'))}}" alt="Uber cart Icon">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Ubercart</div>
                                     </div>
                                     <div class="w-auto text-center gap-2">
                                         <div class="md:w-10 w-8 md:h-10 h-8 text-center mx-auto">
-                                            <img class="w-full h-full" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/woo-commerce.webp')}}" alt="Woo commerce Icon">
+                                            <img class="w-full h-full" loading="lazy" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/woo-commerce.webp'))}}" alt="Woo commerce Icon">
                                         </div>
                                         <div class="sm:text-base text-sm text-center font-semibold mt-1">Woocommerce</div>
                                     </div>
@@ -1075,7 +1075,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
+                                        <img class="w-20" loading="lazy" width="79" height="89" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/mid-market-1500.webp'))}}" alt="mid-market-1500">
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
@@ -1085,7 +1085,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
+                                        <img class="w-20" loading="lazy" width="79" height="89" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/mid-market-1500.webp'))}}" alt="mid-market-1500">
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
@@ -1095,7 +1095,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
+                                        <img class="w-20" loading="lazy" width="79" height="89" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/mid-market-1500.webp'))}}" alt="mid-market-1500">
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
@@ -1105,7 +1105,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mid-market-1500.webp')}}" alt="mid-market-1500">
+                                        <img class="w-20" loading="lazy" width="79" height="89" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/mid-market-1500.webp'))}}" alt="mid-market-1500">
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
@@ -1285,12 +1285,12 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="overflow-hidden rounded-xl">
                         <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
-                                public{{mix('/img/mobile/myfab11.webp')}} 480w,
-                                public{{mix('/img/tablet/myfab11.webp')}} 800w,
-                                public{{mix('/img/myfab11.webp')}} 1200w
+                                {{asset('public'.mix('/img/mobile/myfab11.webp'))}} 480w,
+                                {{asset('public'.mix('/img/tablet/myfab11.webp'))}} 800w,
+                                {{asset('public'.mix('/img/myfab11.webp'))}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/myfab11.webp')}}" alt="MyFab11 App">
+                            src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/myfab11.webp'))}}" alt="MyFab11 App">
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-green-900/70 before:to-green-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1305,12 +1305,12 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="overflow-hidden rounded-xl">
                         <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
-                                public{{mix('/img/mobile/Health-app.webp')}} 480w,
-                                public{{mix('/img/tablet/Health-app.webp')}} 800w,
-                                public{{mix('/img/Health-app.webp')}} 1200w
+                                {{asset('public'.mix('/img/mobile/Health-app.webp'))}} 480w,
+                                {{asset('public'.mix('/img/tablet/Health-app.webp'))}} 800w,
+                                {{asset('public'.mix('/img/Health-app.webp'))}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/Health-app.webp')}}" alt="I KNOW">
+                            src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/Health-app.webp'))}}" alt="I KNOW">
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-fuchsia-900/70 before:to-fuchsia-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1325,12 +1325,12 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="overflow-hidden rounded-xl">
                         <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
-                                public{{mix('/img/mobile/now-vue.webp')}} 480w,
-                                public{{mix('/img/tablet/now-vue.webp')}} 800w,
-                                public{{mix('/img/now-vue.webp')}} 1200w
+                                {{asset('public'.mix('/img/mobile/now-vue.webp'))}} 480w,
+                                {{asset('public'.mix('/img/tablet/now-vue.webp'))}} 800w,
+                                {{asset('public'.mix('/img/now-vue.webp'))}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/now-vue.webp')}}" alt="Now Vue">
+                            src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/now-vue.webp'))}}" alt="Now Vue">
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-amber-900/70 before:to-amber-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1345,12 +1345,12 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="overflow-hidden rounded-xl">
                         <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
-                                public{{mix('/img/mobile/ipay.webp')}} 480w,
-                                public{{mix('/img/tablet/ipay.webp')}} 800w,
-                                public{{mix('/img/ipay.webp')}} 1200w
+                                {{asset('public'.mix('/img/mobile/ipay.webp'))}} 480w,
+                                {{asset('public'.mix('/img/tablet/ipay.webp'))}} 800w,
+                                {{asset('public'.mix('/img/ipay.webp'))}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/ipay.webp')}}" alt="iPay project">
+                            src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/ipay.webp'))}}" alt="iPay project">
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-indigo-900/70 before:to-indigo-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1365,12 +1365,12 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="overflow-hidden rounded-xl">
                         <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
-                                public{{mix('/img/mobile/destist-online.webp')}} 480w,
-                                public{{mix('/img/tablet/destist-online.webp')}} 800w,
-                                public{{mix('/img/destist-online.webp')}} 1200w
+                                {{asset('public'.mix('/img/mobile/destist-online.webp'))}} 480w,
+                                {{asset('public'.mix('/img/tablet/destist-online.webp'))}} 800w,
+                                {{asset('public'.mix('/img/destist-online.webp'))}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/destist-online.webp')}}" alt="Dentist Online">
+                            src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/destist-online.webp'))}}" alt="Dentist Online">
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-cyan-900/70 before:to-cyan-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1385,12 +1385,12 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="overflow-hidden rounded-xl">
                         <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
                             srcset="
-                                public{{mix('/img/mobile/EcoCosmo-Project.webp')}} 480w,
-                                public{{mix('/img/tablet/EcoCosmo-Project.webp')}} 800w,
-                                public{{mix('/img/EcoCosmo-Project.webp')}} 1200w
+                                {{asset('public'.mix('/img/mobile/EcoCosmo-Project.webp'))}} 480w,
+                                {{asset('public'.mix('/img/tablet/EcoCosmo-Project.webp'))}} 800w,
+                                {{asset('public'.mix('/img/EcoCosmo-Project.webp'))}} 1200w
                             "
                             sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/EcoCosmo-Project.webp')}}" alt="EcoCosmo Project">
+                            src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/EcoCosmo-Project.webp'))}}" alt="EcoCosmo Project">
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-emerald-900/70 before:to-emerald-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1462,26 +1462,26 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="flex flex-row flex-wrap w-full gap3 pt-8 font-bold md:text-base text-sm uppercase text-white">
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/fintech-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="public{{mix('/img/mobile/bank-and-finance.webp')}} 480w, public{{mix('/img/tablet/bank-and-finance.webp')}} 800w, public{{mix('/img/bank-and-finance.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/bank-and-finance.webp")}}" alt="Banking and Finance Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy"
+                        <img width="296" height="222" srcset="{{asset('public'.mix('/img/mobile/bank-and-finance.webp'))}} 480w, {{asset('public'.mix('/img/tablet/bank-and-finance.webp'))}} 800w, {{asset('public'.mix('/img/bank-and-finance.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix("/img/bank-and-finance.webp"))}}" alt="Banking and Finance Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy"
                         >
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Banking and Finance</div>
                     </a>
                 </div>
                 <div class="xl:w-1/3  md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="297" height="222" srcset="public{{mix('/img/mobile/fantasy-sports.webp')}} 480w, public{{mix('/img/tablet/fantasy-sports.webp')}} 800w, public{{mix('/img/fantasy-sports.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/fantasy-sports.webp")}}" alt="Fantasy Sports Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="297" height="222" srcset="{{asset('public'.mix('/img/mobile/fantasy-sports.webp'))}} 480w, {{asset('public'.mix('/img/tablet/fantasy-sports.webp'))}} 800w, {{asset('public'.mix('/img/fantasy-sports.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix("/img/fantasy-sports.webp"))}}" alt="Fantasy Sports Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Fantasy Sports</div>
                     </a>
                 </div>
                 <div class="xl:w-1/6  md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/healthcare-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="194" height="222" srcset="public{{mix('/img/mobile/healthcare.webp')}} 480w, public{{mix('/img/tablet/healthcare.webp')}} 800w, public{{mix('/img/healthcare.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/healthcare.webp")}}" alt="Healthcare Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="194" height="222" srcset="{{asset('public'.mix('/img/mobile/healthcare.webp'))}} 480w, {{asset('public'.mix('/img/tablet/healthcare.webp'))}} 800w, {{asset('public'.mix('/img/healthcare.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix("/img/healthcare.webp"))}}" alt="Healthcare Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Healthcare</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/edtech-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="public{{mix('/img/mobile/edTech-solution.webp')}} 480w, public{{mix('/img/tablet/edTech-solution.webp')}} 800w, public{{mix('/img/edTech-solution.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/edTech-solution.webp")}}" alt="EdTech Solution Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" srcset="{{asset('public'.mix('/img/mobile/edTech-solution.webp'))}} 480w, {{asset('public'.mix('/img/tablet/edTech-solution.webp'))}} 800w, {{asset('public'.mix('/img/edTech-solution.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix("/img/edTech-solution.webp"))}}" alt="EdTech Solution Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">EdTech Solution</div>
                     </a>
 
@@ -1489,7 +1489,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 sm:w-1/2 w-full p-1">
                     <a href="https://www.imgglobalinfotech.com/travel-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="public{{mix('/img/mobile/travel-and-tourism.webp')}} 480w, public{{mix('/img/tablet/travel-and-tourism.webp')}} 800w, public{{mix('/img/travel-and-tourism.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/travel-and-tourism.webp")}}" alt="Travel and Tourism Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" srcset="{{asset('public'.mix('/img/mobile/travel-and-tourism.webp'))}} 480w, {{asset('public'.mix('/img/tablet/travel-and-tourism.webp'))}} 800w, {{asset('public'.mix('/img/travel-and-tourism.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix("/img/travel-and-tourism.webp"))}}" alt="Travel and Tourism Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Travel and Tourism</div>
                     </a>
 
@@ -1497,19 +1497,19 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/2 md:w-1/3 sm:w-1/2 w-full p-1">
                     <a href="https://www.imgglobalinfotech.com/media-and-entertainment-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="600" height="222" srcset="public{{mix('/img/mobile/media-and-entertainment.webp')}} 480w, public{{mix('/img/tablet/media-and-entertainment.webp')}} 800w, public{{mix('/img/media-and-entertainment.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/media-and-entertainment.webp")}}" alt="Media and Entertainment Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="600" height="222" srcset="{{asset('public'.mix('/img/mobile/media-and-entertainment.webp'))}} 480w, {{asset('public'.mix('/img/tablet/media-and-entertainment.webp'))}} 800w, {{asset('public'.mix('/img/media-and-entertainment.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix("/img/media-and-entertainment.webp"))}}" alt="Media and Entertainment Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Media and Entertainment</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="public{{mix('/img/mobile/retail-and-ecommerce-app.webp')}} 480w, public{{mix('/img/tablet/retail-and-ecommerce-app.webp')}} 800w, public{{mix('/img/retail-and-ecommerce-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/retail-and-ecommerce-app.webp")}}" alt="Retail and Ecommerce App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" srcset="{{asset('public'.mix('/img/mobile/retail-and-ecommerce-app.webp'))}} 480w, {{asset('public'.mix('/img/tablet/retail-and-ecommerce-app.webp'))}} 800w, {{asset('public'.mix('/img/retail-and-ecommerce-app.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix("/img/retail-and-ecommerce-app.webp"))}}" alt="Retail and Ecommerce App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Retail and Ecommerce App</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/logistics-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="public{{mix('/img/mobile/logistics-services-app.webp')}} 480w, public{{mix('/img/tablet/logistics-services-app.webp')}} 800w, public{{mix('/img/logistics-services-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/logistics-services-app.webp")}}" alt="Logistics Services App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" srcset="{{asset('public'.mix('/img/mobile/logistics-services-app.webp'))}} 480w, {{asset('public'.mix('/img/tablet/logistics-services-app.webp'))}} 800w, {{asset('public'.mix('/img/logistics-services-app.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix("/img/logistics-services-app.webp"))}}" alt="Logistics Services App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Logistics Services App</div>
                     </a>
 
@@ -1517,19 +1517,19 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/6 md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/social-media-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="194" height="222" srcset="public{{mix('/img/mobile/social-app.webp')}} 480w, public{{mix('/img/tablet/social-app.webp')}} 800w, public{{mix('/img/social-app.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/social-app.webp")}}" alt="Social App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="194" height="222" srcset="{{asset('public'.mix('/img/mobile/social-app.webp'))}} 480w, {{asset('public'.mix('/img/tablet/social-app.webp'))}} 800w, {{asset('public'.mix('/img/social-app.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix("/img/social-app.webp"))}}" alt="Social App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Social App</div>
                     </a>
                 </div>
                 <div class="xl:w-1/3 md:w-1/2 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/real-estate-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="397" height="222" srcset="public{{mix('/img/mobile/real-estate.webp')}} 480w, public{{mix('/img/tablet/real-estate.webp')}} 800w, public{{mix('/img/real-estate.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/real-estate.webp")}}" alt="Real Estate Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="397" height="222" srcset="{{asset('public'.mix('/img/mobile/real-estate.webp'))}} 480w, {{asset('public'.mix('/img/tablet/real-estate.webp'))}} 800w, {{asset('public'.mix('/img/real-estate.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix("/img/real-estate.webp"))}}" alt="Real Estate Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Real Estate</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/2 sm:w-1/2 w-full p-1">
                     <a href="https://www.imgglobalinfotech.com/event-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="public{{mix('/img/mobile/on-demand.webp')}} 480w, public{{mix('/img/tablet/on-demand.webp')}} 800w, public{{mix('/img/on-demand.webp')}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix("/img/on-demand.webp")}}" alt="Event management Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                        <img width="296" height="222" srcset="{{asset('public'.mix('/img/mobile/on-demand.webp'))}} 480w, {{asset('public'.mix('/img/tablet/on-demand.webp'))}} 800w, {{asset('public'.mix('/img/on-demand.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix("/img/on-demand.webp"))}}" alt="Event management Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Event management</div>
                     </a>
                 </div>
@@ -1538,7 +1538,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
 </div>
 
-<div class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
+<div class="relative bg-gray-900 py-8 sm:py-16 select-none text-white")>
     <div class="text-white/10">
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
             <defs>
@@ -1565,7 +1565,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“The client was very satisfied with the final product. IMG Global Infotech Pvt. Ltd provided a quick turnaround and high-quality services. They were able to strategize their deliverables well. The team utilized Scrum for project management and various apps for communication.”</div>
                     
                     <div class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Miss. Alisha Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/testimonial-2.webp')}}"></div>
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Miss. Alisha Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/testimonial-2.webp'))}}"></div>
                         <div class="ml-4">
                             <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Miss. Alisha Sharma</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">Co-Founder, YSR Infotech</div>
@@ -1579,7 +1579,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“IMG Global Infotech Pvt. Ltd helped the client improve their digital presence through the web portal. They finished the project within six months, which exceeded the client's expectations. In addition, they were customer-focused and accommodating to the client's queries.”</div>
                     
                     <div class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Arun Garg" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/testimonial-3.webp')}}"></div>
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Arun Garg" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/testimonial-3.webp'))}}"></div>
                         <div class="ml-4">
                             <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Arun Garg</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">Founder, CoachingSelect.com</div>
@@ -1593,7 +1593,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“IMG Global Infotech Pvt. Ltd impressed the client with the final results. The client also lauded their quality work, proper communication via scrum meetings, efficient project management, and on-time delivery. Due to the success of the collaboration, the client hired them again for other projects..”</div>
                     
                     <div class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Sandeep Yadav" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/testimonial-1.webp')}}"></div>
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Sandeep Yadav" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/testimonial-1.webp'))}}"></div>
                         <div class="ml-4">
                             <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Sandeep Yadav</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">Owner, Coherent Lab LLP</div>
@@ -1607,7 +1607,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“Thanks to IMG Global Infotech's efforts, the project was completed successfully, satisfying the client's expectations. Although work was done remotely, their project management was seamless and efficient.”</div>
                     
                     <div class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Anikendra Das Choudhury" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/testimonial-4.webp')}}"></div>
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Anikendra Das Choudhury" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/testimonial-4.webp'))}}"></div>
                         <div class="ml-4">
                             <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Anikendra Das Choudhury</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">CEO, MyFab11</div>
@@ -1621,7 +1621,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“Impressing their partner, IMG Global Infotech Pvt. Ltd brought many customers for the client. Their professionalism and active response were all remarkable, as demonstrated in their project updates every 2-3 days.”</div>
                     
                     <div class="mt-10 flex items-center sm:justify-center">
-                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Bharat Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/t-avatar-1.webp')}}"></div>
+                        <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Bharat Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/t-avatar-1.webp'))}}"></div>
                         <div class="ml-4">
                             <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Bharat Sharma</div>
                             <div class="mt-1 text-sm md:text-sm opacity-70">Administrative Head, Injection Service At Home</div>
@@ -1635,7 +1635,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 </div>
 
 
-<div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none">
+<div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none")>
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
@@ -1661,7 +1661,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 <div class="swiper-wrapper flex items-center pb-8">
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/thumb/blogimageTop-FinTech-App-Development-Companies-in-India-2024.webp')}}" alt="Top FinTech App Development Companies In India 2024">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/blog/thumb/blogimageTop-FinTech-App-Development-Companies-in-India-2024.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2023-11-27" class="text-gray-500">Dec 15, 2023</time>
@@ -1674,7 +1674,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/author/lokesh-kumar.webp')}}" alt="Lokesh Kumar" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/blog/author/lokesh-kumar.webp'))}}" alt="Lokesh Kumar" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
                                         <p class="font-semibold text-gray-900">Written by</p>
                                         <p class="text-gray-600">Lokesh Kumar</p>
@@ -1685,7 +1685,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/top-10-trusted-real-estate-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/thumb/blogimagetop-10-trusted-real-estate-app-development-companies-in-india.webp')}}" alt="Top 10 Trusted Real Estate App Development Companies In India">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/blog/thumb/blogimagetop-10-trusted-real-estate-app-development-companies-in-india.webp'))}}" alt="Top 10 Trusted Real Estate App Development Companies In India">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Dec 11, 2023</time>
@@ -1698,7 +1698,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog will explore India's top 10 trusted real estate app development companies, with IMG Global Infotech securing the coveted No. 1 position.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/author/mohit-mittal.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/blog/author/mohit-mittal.webp'))}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
                                         <p class="font-semibold text-gray-900">Written by</p>
                                         <p class="text-gray-600">Mohit Mittal</p>
@@ -1709,7 +1709,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/loan-lending-mobile-app-development" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/thumb/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp')}}" alt="How To Develop A Loan Lending Mobile App? - A Complete Guide">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/blog/thumb/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp'))}}" alt="How To Develop A Loan Lending Mobile App? - A Complete Guide">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2023-11-27" class="text-gray-500">Nov 27, 2023</time>
@@ -1722,7 +1722,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Developing a loan lending app involves various steps and considerations to ensure functionality, security, and user-friendliness. Here's a detailed guide on how you can go about building one.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/author/dipti-singhal.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/blog/author/dipti-singhal.webp'))}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
                                         <p class="font-semibold text-gray-900">Written by</p>
                                         <p class="text-gray-600">Dipti Singhal</p>
@@ -1733,7 +1733,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/top-10-mobile-app-development-companies" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/thumb/blogimagetop-10-mobile-app-development-companies-in-2024.webp')}}" alt="Top 10 Mobile App Development Companies In 2024">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/blog/thumb/blogimagetop-10-mobile-app-development-companies-in-2024.webp'))}}" alt="Top 10 Mobile App Development Companies In 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 16, 2023</time>
@@ -1746,7 +1746,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">The list of the top 10 mobile app development companies in 2024 listed in this article has demonstrated their expertise, innovation, and commitment to delivering high-quality mobile apps.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/author/mohit-mittal.webp')}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/blog/author/mohit-mittal.webp'))}}" alt="Mohit Mittal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
                                         <p class="font-semibold text-gray-900">Written by</p>
                                         <p class="text-gray-600">Mohit Mittal</p>
@@ -1757,7 +1757,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/how-much-does-it-cost-to-develop-real-estate-website-app-like-magicbricks" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/thumb/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp')}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
+                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/blog/thumb/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp'))}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 06, 2023</time>
@@ -1770,7 +1770,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Are you ready to embark on a digital journey through the captivating world of real estate? Imagine having the power to browse, compare, and purchase properties right from the comfort of your home.</p>
                                 </div>
                                 <div class="relative mt-8 flex items-center gap-x-4">
-                                    <img src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/blog/author/dipti-singhal.webp')}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
+                                    <img src="{{asset('public'.mix('/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/img/blog/author/dipti-singhal.webp'))}}" alt="Dipti Singhal" class="h-10 w-10 rounded-full bg-gray-50" loading="lazy">
                                     <div class="text-sm leading-6">
                                         <p class="font-semibold text-gray-900">Written by</p>
                                         <p class="text-gray-600">Dipti Singhal</p>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale())}}">
     <!--
         0 ,00000, .000000   .000000 0     .0000. 0000b,    0    0       0 db   0 d0000 .0000. 00000 d000b d000b  0    0
         0 0  0  0 0  ,,,,   0  ,,,, 0     0    0 0 ___)   0 0   0       0 0 0  0 0     0    0   0   0     0      0    0
@@ -71,19 +71,19 @@
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         <meta name="google-site-verification" content="bGEWH2c3JpZuiXFhSZGexm_7YdIzsPNhH2w7k6Buk-Q">
-        <meta name="twitter:image" content="public{{mix('/android-chrome-192x192.png')}}">
-        <meta property="og:image" content="public{{mix('/android-chrome-192x192.png')}}">
-        <meta property="og:image:secure_url" content="public{{mix('/android-chrome-192x192.png')}}">
-        <link rel="apple-touch-icon" sizes="180x180" href="public{{mix('/apple-touch-icon.png')}}">
-        <link rel="icon" type="image/png" sizes="32x32" href="public{{mix('/favicon-32x32.png')}}">
-        <link rel="icon" type="image/png" sizes="192x192" href="public{{mix('/android-chrome-192x192.png')}}">
-        <link rel="icon" type="image/png" sizes="16x16" href="public{{mix('/favicon-16x16.png')}}">
-        <link rel="manifest" href="public{{mix('/site.webmanifest')}}">
-        <link rel="mask-icon" href="public{{mix('/safari-pinned-tab.svg')}}" color="#000019">
-        <link rel="shortcut icon" href="public{{mix('/favicon.ico')}}">
+        <meta name="twitter:image" content="{{ asset('public'.mix('/android-chrome-192x192.png'))}}">
+        <meta property="og:image" content="{{ asset('public'.mix('/android-chrome-192x192.png'))}}">
+        <meta property="og:image:secure_url" content="{{ asset('public'.mix('/android-chrome-192x192.png'))}}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('public'.mix('/apple-touch-icon.png'))}}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('public'.mix('/favicon-32x32.png'))}}">
+        <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('public'.mix('/android-chrome-192x192.png'))}}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('public'.mix('/favicon-16x16.png'))}}">
+        <link rel="manifest" href="{{ asset('public'.mix('/site.webmanifest'))}}">
+        <link rel="mask-icon" href="{{ asset('public'.mix('/safari-pinned-tab.svg'))}}" color="#000019">
+        <link rel="shortcut icon" href="{{ asset('public'.mix('/favicon.ico'))}}">
         <meta name="msapplication-TileColor" content="#000019">
-        <meta name="msapplication-TileImage" content="public{{mix('/mstile-144x144.png')}}">
-        <meta name="msapplication-config" content="public{{mix('/browserconfig.xml')}}">
+        <meta name="msapplication-TileImage" content="{{ asset('public'.mix('/mstile-144x144.png'))}}">
+        <meta name="msapplication-config" content="{{ asset('public'.mix('/browserconfig.xml'))}}">
         <meta name="theme-color" content="#000019">
 
         <!-- Start of imgglobalinfotech9794 Zendesk Widget script -->
@@ -123,7 +123,7 @@
 
         @stack('meta')
         
-        <link rel="stylesheet" href="public{{ mix('/css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('public'.mix('/css/app.css'))}}">
         @stack('styles')
     </head>
     <body class="scroll">
@@ -132,9 +132,9 @@
         @yield('content')
         </main>
         @include('components.footer.footer')
-        <script src="public{{ mix('/js/app.js') }}"></script>
+        <script src="{{ asset('public'.mix('/js/app.js'))}}"></script>
 
-        <script src="public{{ mix('/js/lazy-content.js') }}" defer></script>
+        <script src="{{ asset('public'.mix('/js/lazy-content.js'))}}" defer></script>
         @stack('scripts')
         <div 
             class='

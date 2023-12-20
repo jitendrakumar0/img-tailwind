@@ -13,13 +13,13 @@
         <img class="santa-cap !hidden fixed bottom-10 left-0 z-10 pointer-events-none select-none cursor-pointer h-auto" src="public{{mix('/img/snowfall-xmas/santaopen.webp')}}" width="40" height="103" alt="santaopen">
         <div onclick="setRemoveSanta()" class="santatop fixed bottom-40 left-2 z-10 text-white text-xl cursor-pointer">✕</div>
     </div> --}}
-    <script src="public{{ mix('/js/festival-decor/snowfall-xmas/snowfall-xmas.js') }}" defer></script>
+    <script src="{{asset('public'.mix('/js/festival-decor/snowfall-xmas/snowfall-xmas.js'))}}" defer></script>
 @endif
 
 
 @if($newYear)
     <canvas id="canvas" class="fixed top-0 left-0 overflow-hidden w-screen h-screen z-[99999] pointer-events-none select-none"></canvas>
-    <script src="public{{ mix('/js/festival-decor/newYear/newYear.js') }}" defer></script>
+    <script src="{{asset('public'.mix('/js/festival-decor/newYear/newYear.js'))}}" defer></script>
 @endif
 
 

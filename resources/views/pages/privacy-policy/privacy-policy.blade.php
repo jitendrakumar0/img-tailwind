@@ -4,22 +4,22 @@
     <title>Privacy Policy - IMG Global Infotech</title>
 
     <!-- Required meta tags -->
-    <meta name="title" content="Privacy Policy - IMG Global Infotech" />
-    <meta name="description" content="Our privacy policy assures you that any details filled or data provided by you, by any means or condition, will not be misused, sold, and/or rented." />
-    <meta name="keywords" content="IMG Global Infotech, Privacy Policy" />
+    <meta name="title" content="Privacy Policy - IMG Global Infotech">
+    <meta name="description" content="Our privacy policy assures you that any details filled or data provided by you, by any means or condition, will not be misused, sold, and/or rented.">
+    <meta name="keywords" content="IMG Global Infotech, Privacy Policy">
 
     <!-- Twitter Meta -->
     <meta name="twitter:title" content="Privacy Policy - IMG Global Infotech">
     <meta name="twitter:description" content="Our privacy policy assures you that any details filled or data provided by you, by any means or condition, will not be misused, sold, and/or rented.">
     
     <!-- Facebook Meta -->
-    <meta property="og:url" content="{{asset('/')}}privacy-policy.php">
+    <meta property="og:url" content="{{asset('/privacy-policy.php')}}">
     <meta property="og:title" content="Privacy Policy - IMG Global Infotech">
     <meta property="og:description" content="Our privacy policy assures you that any details filled or data provided by you, by any means or condition, will not be misused, sold, and/or rented.">
     
-    <meta name="classification" content="IMG Global Infotech, Privacy Policy" />
-    <link rel="canonical" href="{{asset('/')}}privacy-policy.php" />
-    <meta name="robots" content="index, follow" />
+    <meta name="classification" content="IMG Global Infotech, Privacy Policy">
+    <link rel="canonical" href="{{asset('/privacy-policy.php')}}">
+    <meta name="robots" content="index, follow">
 @endpush
 
 @push('styles')
@@ -31,7 +31,7 @@
 </div>
 
 
-<div class="relative pt-16 md:pt-20 lg:pt-32">
+<div class="relative pt-16 md:pt-20 lg:pt-32 select-none">
     <div class="text-black/10">
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
             <defs>
@@ -47,7 +47,7 @@
             <span class="font-normal">Privacy</span> 
             <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> Policy</span>
         </p>
-        <div class="w-full text-xs md:text-sm font-semibold text-gray-700 flex flex-col gap-y-4">
+        <div class="w-full text-xs md:text-sm font-semibold text-gray-600 flex flex-col gap-y-4">
             <div>IMG Global Pvt. Ltd. is sensitive to privacy issues on the Internet and in general has no objection to User accessing its website without providing any personal information. However there are circumstances like those listed below when IMG Global Pvt. Ltd. may request you to provide your personal information.</div>
             <div>ICollection of personal information for propagating business In some circumstances, IMG Global Pvt. Ltd. may request for some personal information from you, like your name, e-mail address, company name, or telephone number. You are at liberty to respond or not to respond to these inquiries and any and all information provided is strictly voluntary. IMG Global Pvt. Ltd. uses this information to get valuable feedback from your experience on our Web site. In addition, IMG Global Pvt. Ltd. may also use your personal information for its other business purposes or in order to help serve you better be it by informing you of new services, products, alliances etc that could help you in your business.</div>
             <div>In general, you can visit our site without disclosing any personal information. However, there are areas of this site that require this information to complete certain functions, and may not be available to those choosing not to reveal the information requested. You recognize and understand that there is no compulsion on you to provide us with your personal information and any and all personal information provided by you to us is with your full consent, own volition and desire to provide such personal information. You also understand that we are under no obligation to verify the source from which the personal information about you is provided to us, and they are deemed to be provided by you.</div>

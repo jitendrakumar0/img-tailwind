@@ -1,10 +1,10 @@
-<header class="absolute top-0 left-0 right-0 z-[1010] bg-gradient-to-b from-black/40 via-black/20 select-none text-white group-[]/ns:fixed group-[]/ns:animate-fixed-nav group-[]/ns:from-gray-950 group-[]/ns:to-sky-950 group-[]/ons:from-gray-950 group-[]/ons:to-sky-950">
+<header class="absolute top-0 left-0 right-0 z-[1010] bg-gradient-to-b from-black/40 via-black/20 select-none text-white group-[]/ns:fixed group-[]/ns:animate-fixed-nav group-[]/ns:from-gray-950 group-[]/ns:to-sky-950 group-[]/ons:from-gray-950 group-[]/ons:to-sky-950 group-[]/ons:rounded-b-2xl">
   <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <a href="https://www.imgglobalinfotech.com/" class="-m-1.5 p-1.5">
         <span class="sr-only">IMG</span>
-        {{-- <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/xl-logo.webp')}}" alt="IMG Global Infotech Logo"> --}}
-        <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/img-logo-christmas.webp')}}" alt="IMG Global Infotech Logo">
+        {{-- <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/xl-logo.webp'))}}" alt="IMG Global Infotech Logo"> --}}
+        <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/img-logo-christmas.webp'))}}" alt="IMG Global Infotech Logo">
       </a>
     </div>
     <div class="flex lg:hidden">
@@ -1131,8 +1131,8 @@
   <div class="flex items-center justify-between">
     <a href="https://www.imgglobalinfotech.com/" class="-ml-1.5">
       <span class="sr-only">IMG</span>
-      {{-- <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/xl-logo.webp')}}" alt="IMG Global Infotech Logo"> --}}
-      <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/img-logo-christmas.webp')}}" alt="IMG Global Infotech Logo">
+      {{-- <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/xl-logo.webp'))}}" alt="IMG Global Infotech Logo"> --}}
+      <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/img-logo-christmas.webp'))}}" alt="IMG Global Infotech Logo">
     </a>
     <label for="sideToggle" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-200">
       <span class="sr-only">Close menu</span>

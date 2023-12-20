@@ -35,25 +35,25 @@
                 <div class="flex flex-wrap items-center justify-between py-8">
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/evelyn.webp')}}" alt="Image of evelyn">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/evelyn.webp'))}}" alt="Image of evelyn">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Evelyn</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/Yeshi.webp')}}" alt="Image of Yeshi S.">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/Yeshi.webp'))}}" alt="Image of Yeshi S.">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Yeshi S.</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mohd-nizamuddin.webp')}}" alt="Image of Mohd. Nizam">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/mohd-nizamuddin.webp'))}}" alt="Image of Mohd. Nizam">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Mohd. Nizam</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/jitesh.webp')}}" alt="Image of Kapil Sharma">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/jitesh.webp'))}}" alt="Image of Kapil Sharma">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Jitesh Kumar</div>
                     </div>
@@ -221,7 +221,7 @@
                     <span>4.9/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/footer-clutch.webp')}}" alt="footer clutch">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/footer-clutch.webp'))}}" alt="footer clutch">
                 </div>
             </div>
             <div class="w-auto">
@@ -232,7 +232,7 @@
                     <span>4.6/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/google.webp')}}" alt="google">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/google.webp'))}}" alt="google">
                 </div>
             </div>
             <div class="w-auto">
@@ -243,7 +243,7 @@
                     <span>4.8/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/mobileapp.webp')}}" alt="mobileapp">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/mobileapp.webp'))}}" alt="mobileapp">
                 </div>
             </div>
             <div class="w-auto">
@@ -254,7 +254,7 @@
                     <span>4.4/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/trustpilot.webp')}}" alt="trustpilot">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/trustpilot.webp'))}}" alt="trustpilot">
                 </div>
             </div>
             <div class="w-auto">
@@ -265,7 +265,7 @@
                     <span>4.6/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="public{{mix('/img/hidden.webp')}}" data-src="public{{mix('/img/bussinesapp.webp')}}" alt="bussinesapp">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{ asset('public'.mix('/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/img/bussinesapp.webp'))}}" alt="bussinesapp">
                 </div>
             </div>
         </div>
