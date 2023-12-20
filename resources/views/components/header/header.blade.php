@@ -1,4 +1,4 @@
-<header class="absolute top-0 left-0 right-0 z-[1010] bg-gradient-to-b from-black/40 via-black/20 select-none text-white group-[]/ns:fixed group-[]/ns:animate-fixed-nav group-[]/ns:from-gray-950 group-[]/ns:to-sky-950">
+<header class="absolute top-0 left-0 right-0 z-[1010] bg-gradient-to-b from-black/40 via-black/20 select-none text-white group-[]/ns:fixed group-[]/ns:animate-fixed-nav group-[]/ns:from-gray-950 group-[]/ns:to-sky-950 group-[]/ons:from-gray-950 group-[]/ons:to-sky-950">
   <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <a href="https://www.imgglobalinfotech.com/" class="-m-1.5 p-1.5">

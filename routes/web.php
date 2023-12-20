@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 Route::get('/', function () { return view('pages/home/home'); });
+Route::get('/privacy-policy.php', function () { return view('pages/privacy-policy/privacy-policy'); });
 
 
 

@@ -416,3 +416,26 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
+(() => {
+    'use strict';
+    const forms = document.querySelectorAll('.needs-validation');
+
+    Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+            if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+                
+                const invalidElements = form.querySelectorAll(':invalid');
+                if (invalidElements.length > 0) {
+                    invalidElements[0].focus();
+                }
+            } else {
+                
+            }
+
+            form.classList.add('check');
+        }, false);
+    });
+})();

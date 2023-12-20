@@ -2390,6 +2390,24 @@ document.addEventListener('DOMContentLoaded', function () {
     phoneInput.value = phoneInput.value.replace(/\D/g, '');
   });
 });
+(function () {
+  'use strict';
+
+  var forms = document.querySelectorAll('.needs-validation');
+  Array.from(forms).forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      if (!form.checkValidity()) {
+        event.preventDefault();
+        event.stopPropagation();
+        var invalidElements = form.querySelectorAll(':invalid');
+        if (invalidElements.length > 0) {
+          invalidElements[0].focus();
+        }
+      } else {}
+      form.classList.add('check');
+    }, false);
+  });
+})();
 
 /***/ }),
 

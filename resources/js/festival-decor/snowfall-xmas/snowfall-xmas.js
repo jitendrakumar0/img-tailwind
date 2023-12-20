@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const c = document.querySelector(".snow-container"), p = 0.1, f = 1.25, pause = true, max = 80, flakes = [];
+    const c = document.querySelector(".snow-container"), p = 0.1, f = 1.25, pause = true, max = 30, flakes = [];
     let i, a = true;
 
     const r = s => {

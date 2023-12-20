@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     p = 0.1,
     f = 1.25,
     pause = true,
-    max = 80,
+    max = 30,
     flakes = [];
   var i,
     a = true;

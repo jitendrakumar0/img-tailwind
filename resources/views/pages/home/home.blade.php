@@ -19,7 +19,7 @@
 <meta name="classification" content="web and mobile app development company, software development, eCommerce development services, fantasy sports app development, online exam app">
 <link rel="canonical" href="https://www.imgglobalinfotech.com/">
 <meta name="robots" content="noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-{{-- <!-- Meta Pixel Code -->
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -28,17 +28,19 @@ if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
 n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
+'https://connect.facebook.net/en_US/fbevents.js?id=bcf48c0e6a9b13a1def329fd171dd333');
 fbq('init', '640762284881184');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Meta Pixel Code --> --}}
+<!-- End Meta Pixel Code -->
 @endpush
 
 @push('styles')
+<!-- Preload LCP image -->
+<link rel="preload" as="image" href="public{{ mix('/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp')}}" onload="this.onload=null;this.rel='stylesheet'">
 @endpush
 
 @section('content')
@@ -75,26 +77,26 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     <div class="swiper heroSwiperThumbs !absolute !inset-0 before:absolute before:inset-0 before:z-[3]">
         <div class="swiper-wrapper relative z-0">
             <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
-                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-yellow-950 before:via-yellow-900 before:to-yellow-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]"></div>
+                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-yellow-950 before:via-yellow-900 before:to-yellow-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
             </div>
             <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
-                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-lime-950 before:via-lime-900 before:to-lime-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]"></div>
+                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-lime-950 before:via-lime-900 before:to-lime-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
             </div>
             <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
-                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-sky-950 before:via-sky-900 before:to-sky-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]"></div>
+                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-sky-950 before:via-sky-900 before:to-sky-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
             </div>
             <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
-                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-purple-950 before:via-purple-900 before:to-purple-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]"></div>
+                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-purple-950 before:via-purple-900 before:to-purple-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
             </div>
             <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
-                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-rose-950 before:via-rose-900 before:to-rose-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]"></div>
+                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-rose-950 before:via-rose-900 before:to-rose-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
             </div>
         </div>
     </div>
     <div class="swiper heroSwiper md:min-h-[500px] h-[500px] md:h-[calc(100vh-80px)] lg:h-[calc(100vh-128px)] w-full">
         <div class="swiper-wrapper">
             <div class="swiper-slide group py-5">
-                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-yellow-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp)] before:bg-gradient-to-r before:from-yellow-950 before:via-yellow-900 before:to-yellow-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
+                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-yellow-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp?id=31a5defd3b15daed788cf2bd1997fc55)] before:bg-gradient-to-r before:from-yellow-950 before:via-yellow-900 before:to-yellow-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
@@ -130,7 +132,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
             <div class="swiper-slide group py-5">
-                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-lime-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp)] before:bg-gradient-to-r before:from-lime-950 before:via-lime-900 before:to-lime-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
+                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-lime-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp?id=31a5defd3b15daed788cf2bd1997fc57)] before:bg-gradient-to-r before:from-lime-950 before:via-lime-900 before:to-lime-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
@@ -166,7 +168,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
             <div class="swiper-slide group py-5">
-                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-sky-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/level_up_your_business_game_with_fantasy_sports_app_development!.webp)] before:bg-gradient-to-r before:from-sky-950 before:via-sky-900 before:to-sky-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
+                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-sky-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/level_up_your_business_game_with_fantasy_sports_app_development!.webp?id=31a5defd3b15daed788cf2bd1997fc54)] before:bg-gradient-to-r before:from-sky-950 before:via-sky-900 before:to-sky-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
@@ -202,7 +204,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
             <div class="swiper-slide group py-5">
-                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-purple-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/enhance-your-brand-presence-with-innovative-web-development-solutions.webp)] before:bg-gradient-to-r before:from-purple-950 before:via-purple-900 before:to-purple-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
+                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-purple-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/enhance-your-brand-presence-with-innovative-web-development-solutions.webp?id=31a5defd3b15daed788cf2bd1997fc52)] before:bg-gradient-to-r before:from-purple-950 before:via-purple-900 before:to-purple-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
@@ -238,7 +240,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
             <div class="swiper-slide group py-5">
-                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-rose-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.webp)] before:bg-gradient-to-r before:from-rose-950 before:via-rose-900 before:to-rose-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
+                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-rose-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl bg-cover bg-right [background-image:url(../img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.webp?id=31a5defd3b15daed788cf2bd1997fc53)] before:bg-gradient-to-r before:from-rose-950 before:via-rose-900 before:to-rose-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
@@ -328,12 +330,12 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
     <div class="relative -mt-[5.75rem] overflow-hidden bg-slate-50 pt-12 md:pt-[5.75rem]">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
-            <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
+            <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
             <div class="mx-auto max-w-container gap-7 px-4 pt-4 sm:px-6 lg:flex lg:px-8">
                 <div class="relative z-10 hidden lg:block pointer-events-none">
                     <div class="mt-6 flex [transform:rotateY(180deg)]">
                         <div class="relative flex-shrink-0 p-4">
-                            <div class="relative z-10 overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px] aspect-[404/336]" loading="lazy" width="336" height="404" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp') }}" alt="unlock access to bespoke apps and product innovation with us"></div>
+                            <div class="relative z-10 overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px] aspect-[336/404]" loading="lazy" width="336" height="404" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/image3.webp') }}" alt="image3"></div>
                             <div class="z-0">
                             <div class="absolute -right-12 left-0 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
                             <div class="absolute -top-8 bottom-0 left-12 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
@@ -348,7 +350,9 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             </div>
                         </div>
                         <div class="relative mt-14 flex-shrink-0 p-4">
-                            <div class="overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5"><img class="object-cover h-[404px] w-[336px] aspect-[404/336]" loading="lazy" width="336" height="404" src="public{{mix('/img/hidden.webp')}}" data-src="public{{ mix('/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp') }}" alt="elevate your vision with robust and scalable mobile app development1"></div>
+                            <div class="overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5">
+                                <div class="object-cover h-[404px] w-[336px] aspect-[336/404]"></div>
+                            </div>
                             <div>
                             <div class="absolute -left-4 -right-8 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
                             <div class="absolute -bottom-12 -top-20 right-0 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
@@ -359,14 +363,6 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                                     <div class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
                                 </div>
                             </div>
-                            </div>
-                        </div>
-                        <div class="relative flex-shrink-0 p-4">
-                            <div class="overflow-hidden rounded shadow-xl ring-1 ring-slate-900/5">
-                                <div class="object-cover h-[404px] w-[336px] aspect-[404/336]"></div>
-                            </div>
-                            <div>
-                            <div class="absolute -left-12 -right-8 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
                             </div>
                         </div>
                     </div>
@@ -389,7 +385,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     <div class="mt-6 flex">
                         <div class="relative flex-shrink-0 p-4">
                             <div class="relative z-10 overflow-hidden rounded-xl shadow-xl shadow-theme5/20 ring-1 ring-slate-900/5 invisible">
-                                <div class="object-cover h-[404px] w-[336px] aspect-[404/336]"></div>
+                                <div class="object-cover h-[404px] w-[336px] aspect-[336/404]"></div>
                             </div>
                             <div class="z-0">
                                 <div class="absolute -right-12 left-0 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
@@ -1154,7 +1150,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
     <div class="flex flex-row flex-wrap mx-auto max-w-7xl px-3 md:px-6 lg:px-8 group/cS">
         <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/cStudy">
-            <div class="relative [background-image:url(../img/frame12.webp)] bg-purple-600 before:bg-purple-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-purple-700/70">
+            <div class="relative [background-image:url(../img/frame12.webp?id=31a5defd3b15daed788cf2bd1997fc65)] bg-purple-600 before:bg-purple-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-purple-700/70">
                 <div class="absolute inset-x-0 z-0 top-0 h-96 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
                     <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                         <defs>
@@ -1180,7 +1176,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
         </div>
         <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/cStudy">
-            <div class="relative [background-image:url(../img/hozzo.webp)] bg-green-600 before:bg-green-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-green-700/70">
+            <div class="relative [background-image:url(../img/hozzo.webp?id=31a5defd3b15daed788cf2bd1997fc57)] bg-green-600 before:bg-green-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-green-700/70">
                 <div class="absolute inset-x-0 z-0 top-0 h-96 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
                     <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                         <defs>
@@ -1206,7 +1202,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
         </div>
         <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/cStudy">
-            <div class="relative [background-image:url(../img/fab11.webp)] bg-emerald-600 before:bg-emerald-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-emerald-700/70">
+            <div class="relative [background-image:url(../img/fab11.webp?id=31a5defd3b15daed788cf2bd1997fc25)] bg-emerald-600 before:bg-emerald-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-emerald-700/70">
                 <div class="absolute inset-x-0 z-0 top-0 h-96 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
                     <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                         <defs>
@@ -1232,7 +1228,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
         </div>
         <div class="lg:w-1/2 xl:w-1/4 w-full p-3 xl:flex-1 xl:hover:flex-[3] duration-500 group/cStudy">
-            <div class="relative [background-image:url(../img/fabindia.webp)] bg-red-600 before:bg-red-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-red-700/70">
+            <div class="relative [background-image:url(../img/fabindia.webp?id=31a5defd3b15daed788cf2bd1997fc18)] bg-red-600 before:bg-red-700/50 before:mix-blend-multiply before:absolute before:inset-0 before:z-0 bg-no-repeat bg-contain bg-center h-96 rounded-xl overflow-hidden shadow-md shadow-red-700/70">
                 <div class="absolute inset-x-0 z-0 top-0 h-96 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
                     <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                         <defs>

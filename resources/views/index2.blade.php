@@ -126,7 +126,7 @@
         <link rel="stylesheet" href="public{{ mix('/css/app.css') }}">
         @stack('styles')
     </head>
-    <body class="scroll">
+    <body class="scroll group/ons">
         @include('components.header.header')
         <main>
         @yield('content')

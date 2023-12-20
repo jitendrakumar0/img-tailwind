@@ -124,40 +124,43 @@
                     <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-pink-600 to-purple-600 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
                 </div>
                 <div class="w-full text-lg md:text-xl lg:text-2xl">
-                    {{-- action="{{route('contact_action')}}" --}}
-                    <form method="post" enctype="multipart/form-data">
+                    <form method="post" id="feedInput" enctype="multipart/form-data" id="contactForm" name="connectForm" class="needs-validation group/check" novalidate>
+                        @csrf
+                        <input type="hidden" id="ajxURL" value="{{ asset('/contact_action') }}" />
                         <input type="hidden" id="reUrl" value="{{ asset('/thankyou.php') }}" />
                         <input type="hidden" id="country-code" name="phonecode">
                         <div class="space-y-12">
                             <div class="">
                                 <div class="md:mt-8 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                                     <div class="col-span-full md:col-span-3">
-                                        <div class="mt-2">
+                                        <div class="mt-2 relative">
                                             <label for="contactname"></label>
-                                            <input type="text" name="contactname" id="contactname" minlength="2" autocomplete="off" required placeholder="Full Name*" class="peer/contact block w-full rounded-md border-0 py-2.5 rounded-br-none text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-400 invalid:ring-2 invalid:ring-inset invalid:ring-pink-600 sm:text-sm sm:leading-6">
-                                            <div class="text-xs font-semibold text-red-700 peer-invalid/contact:block hidden">Please Enter Full Name.</div>
+                                            <input type="text" name="contactname" id="contactname" minlength="2" autocomplete="off" required placeholder="Full Name*" class="peer block w-full rounded-md !border-0 py-2.5 rounded-br-none text-gray-900 sm:text-sm sm:leading-6 ring-2 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-inset focus:ring-sky-400">
+                                            <span class="block w-full absolute inset-0 h-11 pointer-events-none rounded-md py-2.5 rounded-br-none text-gray-900 shadow-sm group-[.check]/check:opacity-100 opacity-0 ring-inset peer-focus:ring-2 peer-focus:ring-inset peer-invalid:!ring-2 peer-invalid:!ring-inset peer-invalid:[&:not(:placeholder-shown)]:!ring-pink-600"></span>
+                                            <div class="text-xs font-semibold text-red-700 group-[.check]/check:opacity-100 opacity-0 peer-invalid:block hidden">Please Enter Full Name.</div>
                                         </div>
                                     </div>
                                     <div class="col-span-full md:col-span-3">
-                                        <div class="mt-2">
+                                        <div class="mt-2 relative">
                                             <label for="useremail"></label>
-                                            <input id="useremail" name="contactemail" type="email" autocomplete="off" required placeholder="Work Email*" class="peer/contact block w-full rounded-md border-0 py-2.5 rounded-br-none text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-400 invalid:ring-2 invalid:ring-inset invalid:ring-pink-600 sm:text-sm sm:leading-6">
-                                            <div class="text-xs font-semibold text-red-700 peer-invalid/contact:block hidden">Please Enter a Valid Email ID.</div>
+                                            <input id="useremail" name="contactemail" type="email" autocomplete="off" required placeholder="Work Email*" class="peer block w-full rounded-md !border-0 py-2.5 rounded-br-none text-gray-900 sm:text-sm sm:leading-6 ring-2 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-inset focus:ring-sky-400">
+                                            <span class="block w-full absolute inset-0 h-11 pointer-events-none rounded-md py-2.5 rounded-br-none text-gray-900 shadow-sm group-[.check]/check:opacity-100 opacity-0 ring-inset peer-focus:ring-2 peer-focus:ring-inset peer-invalid:!ring-2 peer-invalid:!ring-inset peer-invalid:[&:not(:placeholder-shown)]:!ring-pink-600"></span>
+                                            <div class="text-xs font-semibold text-red-700 group-[.check]/check:opacity-100 opacity-0 peer-invalid:block hidden">Please Enter a Valid Email ID.</div>
                                         </div>
                                     </div>
                                     <div class="col-span-full flex">
-                                        <div class="mt-2 text-xs text-sky-950 w-full inline-grid">
+                                        <div class="mt-2 text-xs text-sky-950 w-full inline-grid relative">
                                             <label for="phone"></label>
-                                            <input type="tel" name="contactnumber" pattern="[0-9]*" id="phone" minlength="10" maxlength="16" autocomplete="off" required placeholder="Mobile Number*" class="peer/contact block w-full rounded-md border-0 py-2.5 rounded-br-none text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-400 invalid:ring-2 invalid:ring-inset invalid:ring-pink-600 sm:text-sm sm:leading-6">
-                                            <div class="text-xs font-semibold text-red-700 peer-invalid/contact:block hidden">Please Enter a Valid Phone Number.</div>
+                                            <input type="tel" name="contactnumber" pattern="[0-9]*" id="phone" minlength="10" maxlength="16" autocomplete="off" required placeholder="Mobile Number*" class="peer block w-full rounded-md border-0 py-2.5 rounded-br-none text-gray-900 shadow-sm !ring-2 !ring-inset ring-gray-300 placeholder:!text-gray-400 focus:!ring-sky-400 invalid:[&:focus]:!ring-pink-600 sm:text-sm sm:leading-6">
+                                            <div class="text-xs font-semibold text-red-700 peer-invalid:block hidden">Please Enter a Valid Phone Number.</div>
                                         </div>
                                     </div>
                         
                                     <div class="col-span-full">
-                                        <div class="mt-2 w-full block">
-                                            <label for="app" class="block text-sm font-medium text-gray-700 relative -z-20 -mt-5">Project Type*</label>
-                                            <select id="app" name="requirement" required autocomplete="off" class="peer/contact block w-full rounded-md border-0 py-2.5 rounded-br-none text-gray-400 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-sky-400 invalid:ring-2 invalid:ring-inset invalid:ring-pink-600 sm:text-sm sm:leading-6">
-                                                <option class="text-slate-700" disabled selected>Project Type*</option>
+                                        <div class="mt-2 w-full block relative">
+                                            <label for="app" class="block text-gray-700 absolute -z-20">Project Type*</label>
+                                            <select id="app" name="requirement" required autocomplete="off" class="peer block w-full rounded-md !border-0 py-2.5 rounded-br-none text-gray-900 sm:text-sm sm:leading-6 ring-2 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-inset focus:ring-sky-400">
+                                                <option class="text-slate-700" value="" selected disabled>Project Type*</option>
                                                 <option class="text-slate-700" value="Mobile App Development">Mobile App Development</option>
                                                 <option class="text-slate-700" value="Web Development">Web Development</option>
                                                 <option class="text-slate-700" value="Custom Software Development">Custom Software Development</option>
@@ -168,17 +171,20 @@
                                                 <option class="text-slate-700" value="Hire Dedicated Developers">Hire Dedicated Developers</option>
                                                 <option class="text-slate-700" value="Other Services">Other Services</option>
                                             </select>
+                                            <span class="block w-full absolute inset-0 h-11 pointer-events-none rounded-md py-2.5 rounded-br-none text-gray-900 shadow-sm group-[.check]/check:opacity-100 opacity-0 ring-inset peer-focus:ring-2 peer-focus:ring-inset peer-invalid:!ring-2 peer-invalid:!ring-inset peer-invalid:[&:not(:placeholder-shown)]:!ring-pink-600"></span>
+                                            <div class="text-xs font-semibold text-red-700 group-[.check]/check:opacity-100 opacity-0 peer-invalid:block hidden">Please Enter a Valid Email ID.</div>
                                         </div>
                                     </div>
                         
                                     <div class="col-span-full">
-                                        <div class="mt-2">
-                                            <textarea id="requirements" name="mmessage" required placeholder="Your Message / Requirements *" rows="3" minlength="10" maxlength="2000" class="peer/contact block w-full rounded-md border-0 py-2.5 rounded-br-none text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-400 invalid:ring-2 invalid:ring-inset invalid:ring-pink-600 sm:text-sm sm:leading-6"></textarea>
-                                            <div class="text-xs font-semibold text-red-700 peer-invalid/contact:block hidden">Please Enter a Valid Type Message.</div>
+                                        <div class="mt-2 relative">
+                                            <textarea id="requirements" name="mmessage" required placeholder="Your Message / Requirements *" minlength="10" maxlength="2000" class="peer block w-full rounded-md !border-0 py-2.5 rounded-br-none text-gray-900 sm:text-sm sm:leading-6 ring-2 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-inset focus:ring-sky-400 h-24"></textarea>
+                                            <span class="block w-full absolute inset-0 h-24 pointer-events-none rounded-md py-2.5 rounded-br-none text-gray-900 shadow-sm group-[.check]/check:opacity-100 opacity-0 ring-inset peer-focus:ring-2 peer-focus:ring-inset peer-invalid:!ring-2 peer-invalid:!ring-inset peer-invalid:[&:not(:placeholder-shown)]:!ring-pink-600"></span>
+                                            <div class="text-xs font-semibold text-red-700 group-[.check]/check:opacity-100 opacity-0 peer-invalid:block hidden">Please Enter a Valid Type Message.</div>
                                         </div>
                                     </div>
                         
-                                    <div class="col-span-full">
+                                    {{-- <div class="col-span-full">
                                         <div class="mt-2 flex justify-center items-center gap-3 text-center rounded-lg border border-dashed border-gray-900/25 px-3 py-5">
                                             <svg class="h-8 w-8 text-gray-300" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                                                 <path fill-rule="evenodd" d="M1.5 6a2.25 2.25 0 012.25-2.25h16.5A2.25 2.25 0 0122.5 6v12a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 18V6zM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0021 18v-1.94l-2.69-2.689a1.5 1.5 0 00-2.12 0l-.88.879.97.97a.75.75 0 11-1.06 1.06l-5.16-5.159a1.5 1.5 0 00-2.12 0L3 16.061zm10.125-7.81a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z" clip-rule="evenodd" />
@@ -188,7 +194,7 @@
                                                 <input id="docFile" name="getfile" type="file" class="sr-only">
                                             </label>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                     
