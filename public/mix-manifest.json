@@ -3,7 +3,7 @@
     "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=f41717f35304bc6bda5fed849ee62a58",
     "/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js": "/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js?id=75dfdb948b2f5031ff5968c2e92d3df1",
     "/tailwind/js/festival-decor/newYear/newYear.js": "/tailwind/js/festival-decor/newYear/newYear.js?id=0c5c0a85a9a377e302a14ee10ef4548d",
-    "/tailwind/css/app.css": "/tailwind/css/app.css?id=862ae7898353d0e4697953ecf69401ff",
+    "/tailwind/css/app.css": "/tailwind/css/app.css?id=8ed0e7f74b41d3c6bd7de9b501707da4",
     "/tailwind/android-chrome-144x144.png": "/tailwind/android-chrome-144x144.png?id=de3c1fceec9a432a8ddcf6684b1d46c2",
     "/tailwind/android-chrome-192x192.png": "/tailwind/android-chrome-192x192.png?id=d24a76fcee41c06d0bc18709fc08be46",
     "/tailwind/android-chrome-36x36.png": "/tailwind/android-chrome-36x36.png?id=363494c1dab183d3c362a428be7a0476",
@@ -153,5 +153,8 @@
     "/tailwind/mstile-70x70.png": "/tailwind/mstile-70x70.png?id=b030c4c6f977862bebfde9549f586c94",
     "/tailwind/robots.txt": "/tailwind/robots.txt?id=25866381e74ad6159dc9a03a996ca61c",
     "/tailwind/safari-pinned-tab.svg": "/tailwind/safari-pinned-tab.svg?id=53630740360ccc7baf8efc5465380ae5",
-    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=37c41ba005122d6067255f1bb75ceac7"
+    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=37c41ba005122d6067255f1bb75ceac7",
+    "/tailwind/img/burgerShImg.png": "/tailwind/img/burgerShImg.png?id=3be029be06d30d5a8d892c1073d5d97a",
+    "/tailwind/img/pizzaShimg.png": "/tailwind/img/pizzaShimg.png?id=b45191f0a987df0af3566fda4324b58d",
+    "/tailwind/img/rightBlue.svg": "/tailwind/img/rightBlue.svg?id=0a542537494161840043d9cd3e74e4bb"
 }
