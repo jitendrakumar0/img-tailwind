@@ -1,37 +1,33 @@
-@extends('index2')
+@extends('tailwind.index2')
 @push('meta')
     <!--  Title -->
     <title>Privacy Policy - IMG Global Infotech</title>
 
     <!-- Required meta tags -->
-    <meta name="title" content="Privacy Policy - IMG Global Infotech" />
-    <meta name="description" content="Our privacy policy assures you that any details filled or data provided by you, by any means or condition, will not be misused, sold, and/or rented." />
-    <meta name="keywords" content="IMG Global Infotech, Privacy Policy" />
+    <meta name="title" content="Privacy Policy - IMG Global Infotech">
+    <meta name="description" content="Our privacy policy assures you that any details filled or data provided by you, by any means or condition, will not be misused, sold, and/or rented.">
+    <meta name="keywords" content="IMG Global Infotech, Privacy Policy">
 
     <!-- Twitter Meta -->
     <meta name="twitter:title" content="Privacy Policy - IMG Global Infotech">
     <meta name="twitter:description" content="Our privacy policy assures you that any details filled or data provided by you, by any means or condition, will not be misused, sold, and/or rented.">
     
     <!-- Facebook Meta -->
-    <meta property="og:url" content="{{asset('/')}}privacy-policy.php">
+    <meta property="og:url" content="{{asset('/privacy-policy.php')}}">
     <meta property="og:title" content="Privacy Policy - IMG Global Infotech">
     <meta property="og:description" content="Our privacy policy assures you that any details filled or data provided by you, by any means or condition, will not be misused, sold, and/or rented.">
     
-    <meta name="classification" content="IMG Global Infotech, Privacy Policy" />
-    <link rel="canonical" href="{{asset('/')}}privacy-policy.php" />
-    <meta name="robots" content="index, follow" />
+    <meta name="classification" content="IMG Global Infotech, Privacy Policy">
+    <link rel="canonical" href="{{asset('/privacy-policy.php')}}">
+    <meta name="robots" content="index, follow">
 @endpush
 
 @push('styles')
 @endpush
 
+
 @section('content')
-<div class="hidden">
-    <h1>Privacy Policy</h1>
-</div>
-
-
-<div class="relative pt-16 md:pt-20 lg:pt-32">
+<div class="relative pt-16 bg-[#e8e9ec] md:pt-20 lg:pt-32">
     <div class="text-black/10">
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
             <defs>
@@ -43,20 +39,45 @@
         </svg>
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative py-20">
-        <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black pb-8">
-            <span class="font-normal">Privacy</span> 
-            <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> Policy</span>
-        </p>
-        <div class="w-full text-xs md:text-sm font-semibold text-gray-700 flex flex-col gap-y-4">
-            <div>IMG Global Pvt. Ltd. is sensitive to privacy issues on the Internet and in general has no objection to User accessing its website without providing any personal information. However there are circumstances like those listed below when IMG Global Pvt. Ltd. may request you to provide your personal information.</div>
-            <div>ICollection of personal information for propagating business In some circumstances, IMG Global Pvt. Ltd. may request for some personal information from you, like your name, e-mail address, company name, or telephone number. You are at liberty to respond or not to respond to these inquiries and any and all information provided is strictly voluntary. IMG Global Pvt. Ltd. uses this information to get valuable feedback from your experience on our Web site. In addition, IMG Global Pvt. Ltd. may also use your personal information for its other business purposes or in order to help serve you better be it by informing you of new services, products, alliances etc that could help you in your business.</div>
-            <div>In general, you can visit our site without disclosing any personal information. However, there are areas of this site that require this information to complete certain functions, and may not be available to those choosing not to reveal the information requested. You recognize and understand that there is no compulsion on you to provide us with your personal information and any and all personal information provided by you to us is with your full consent, own volition and desire to provide such personal information. You also understand that we are under no obligation to verify the source from which the personal information about you is provided to us, and they are deemed to be provided by you.</div>
-            <div class="text-sm md:text-base font-bold text-gray-900 pt-5">Collecting domain information</div>
-            <div>IMG Global Pvt. Ltd. collects domain information and not the email addresses of its visitors as part of its analysis of the use of this site. This data enables us to become more familiar with which customers visit our site, how often they visit, and what parts of the site they visit most often. IMG Global Pvt. Ltd. uses this information to improve its Web-based offerings. This information is collected automatically and requires no action on your part. By accessing our site you grant your unconditional consent to allow IMG Global Pvt. Ltd. to collect your domain names.</div>
-            <div class="text-sm md:text-base font-bold text-gray-900 pt-5">Disclosure to third parties</div>
-            <div>In cases where we believe that business interests will be served, IMG Global Pvt. Ltd. may share your information with its Business Partners, who can alert you about new products and services to improve your competitive edge. Upon receipt of any alert if you desire to be removed from such alert list, you may inform the sender or unsubscribe from the list as provided in each mail alert.</div>
-            <div>We may also be required to disclose your personal information in the event of a legal proceeding, court process, investigation or any such other process where we are required to do so by applicable law or where we have to establish our legal rights or where disclosure is required to prevent or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person etc. We may also be required to disclose your personal information in the event of a business reorganization, amalgamation or merger.</div>
+
+<div class="py-xl-5 py-lg-5 py-md-5 py-5 relative">
+    <div class="flex w-full h-auto items-center flex-wrap">
+        <div class="lg:w-[60%] pe-10 w-[100%] lg:order-1 order-2">
+            <p class="mt-4 select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal">Why Hire Python Developers from <br></span> 
+                <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> IMG Global Infotech?</span>
+            </p>
+            <div class="md:text-base text-sm opacity-70 mt-3 mb-lg-1 select-none">
+            Hiring a python developer from us would be the right choice because it will make your business thrive in on-going market trends. It may benefit for fast project development making sure all quality standards are matched. There are multiple reasons Python is preferable by developers. The python is highly readable and popular language amongst developer community due to numerous libraries easily accessible.
+            </div> 
+            <div class="flex items-center mt-6 flex-wrap gap-3 w-[90%]  lg:w-full">
+                <div class="bg-white py-3 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-300 shadow-lg rounded-md px-4">8+ Years In Busines</div>
+                <div class="bg-white py-3 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-300 shadow-lg rounded-md px-4">Experienced And Talented Coders</div>
+                <div class="bg-white py-3 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-300 shadow-lg rounded-md px-4">Cost-Effective Solutions</div>
+                <div class="bg-white py-3 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-300 shadow-lg rounded-md px-4">
+                    Clear Communication</div>
+                <div class="bg-white py-3 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-300 shadow-lg rounded-md px-4">Transparency Guaranteed</div>
+                <div class="bg-white py-3 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-300 shadow-lg rounded-md px-4">100+ In-House Developers</div>
+                <div class="bg-white py-3 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-300 shadow-lg rounded-md px-4">Flexible Engagement Models</div>
+                <div class="bg-white py-3 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-300 shadow-lg rounded-md px-4">Daily, Weekly, And Monthly Reporting</div>
+                <div class="bg-white py-3 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-300 shadow-lg rounded-md px-4">On-Time Efficiency</div>
+                <div class="bg-white py-3 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-300 shadow-lg rounded-md px-4">Data-Driven Algorithms
+                </div>
+            </div>
         </div>
+        <div class="lg:w-[40%] flex items-center justify-center w-[100%] lg:order-2 order-1">
+            <div class="aspect-[3/2.8] object-cover mx-auto">
+            <img src="{{asset('public'.mix('/tailwind/img/android-team.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
+            </div>
+        </div>
+        </div>
+</div>
+
+
+
+
+
+
     </div>
 </div>
 
