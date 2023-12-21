@@ -5,6 +5,9 @@ import 'swiper/css/navigation';
 // import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
 
+import 'intl-tel-input';
+import intlTelInput from 'intl-tel-input';
+
 document.addEventListener("DOMContentLoaded", function() {
     const images = document.querySelectorAll("img[data-src]");
 
@@ -369,7 +372,86 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.classList.remove("group/preload");
     }
 
-    
-    
+    // Active navbar on scroll
+    window.addEventListener('scroll', function () {
+        var scroll = window.scrollY || document.documentElement.scrollTop;
+        var mainBody = document.querySelector('body');
+        if (scroll <= 80) {
+            mainBody.classList.remove('group/ns');
+        } else {
+            mainBody.classList.add('group/ns');
+        }
+    });
+
 });
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const input = document.querySelector("#phone");
+    const iti = intlTelInput(input, {
+        nationalMode: true,
+        initialCountry: 'in',
+        placeholderNumberType: 'FIXED_LINE',
+        onlyCountries: ["in", "us", "cn", "jp", "br", "ru", "gb", "de", "fr", "it", "es", "kr", "au", "ca", "mx", "id", "tr", "za", "ng", "eg", "ar"], 
+        localizedCountries: {
+            in: "India",
+            fr: "Frankreich",
+            de: "Deutschland",
+            es: "Spanien",
+            it: "Italien",
+            ch: "Schweiz",
+            nl: "Niederlande",
+            at: "Österreich",
+            dk: "Dänemark",
+        },
+        preferredCountries: ["in","us"],
+        nationalMode: false,
+        separateDialCode: true,
+        // utilsScript: "./node_modules/intl-tel-input/build/js/utils.js?1701962297307"
+    });
+
+    var phoneInput = document.getElementById('phone');
+    phoneInput.addEventListener('input', function() {
+        phoneInput.value = phoneInput.value.replace(/\D/g, '');
+    });
+
+});
+
+(function() {
+    'use strict';
+
+    document.querySelectorAll('.needs-validation').forEach(form => {
+        form.addEventListener('submit', event => {
+            event.preventDefault();
+            event.stopPropagation();
+            
+            const invalidElements = form.querySelectorAll(':invalid');
+            if (!form.checkValidity()) {
+                if (invalidElements.length > 0) {
+                    invalidElements[0].focus();
+                }
+            } else {
+                const xhr = new XMLHttpRequest();
+                xhr.open('POST', document.getElementById('ajxURL').value, true);
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                xhr.onreadystatechange = () => {
+                    const submitBtn = event.submitter;
+                    submitBtn.classList.add('disabled');
+
+                    event.preventDefault();
+                    event.stopPropagation();
+                    if (xhr.readyState == 4) {
+                        if (xhr.status == 200) {
+                            const data = JSON.parse(xhr.responseText);
+                            window.location = document.getElementById('reUrl').value;
+                        } else {
+                            alert('Error posting feed.');
+                        }
+                    }
+                };
+                xhr.send(new URLSearchParams(new FormData(document.forms['feedInput'])).toString());
+            }
+            form.classList.add('check');
+        }, false);
+    });
+})();

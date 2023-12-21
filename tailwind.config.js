@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./resources/**/*.{js,jsx,ts,scss,vue,tsx,php,blade.php}"
+    "./resources/sass/**/*.{css,scss}",
+    "./resources/views/tailwind/**/*.{php,blade.php}",
+    "./resources/js/**/*.{js,jsx,ts,scss,tsx}",
   ],
   theme: {
     extend: {
@@ -41,16 +43,46 @@ module.exports = {
         ]
       },
       animation: {
-        topToBottom: 'topToBottom 0.3s ease forwards',
-        shimmer: 'shimmer 2s infinite'
+        'fixed-nav': 'fixedNav 0.6s',
+        'fall': 'fall 0.6s',
+        'diagonalfall': 'diagonalfall 0.6s',
       },
       keyframes: {
-        topToBottom: {
-          '0%': { transform: 'translateY(-130%)' },
-          '100%': { transform: 'translateY(0)' },
+        fixedNav: {
+          '0%': { 
+            opacity: '0',
+            transform: 'translateY(-60px)' 
+          },
+          '100%': { 
+            opacity: '1',
+            transform: 'translateY(0px)' 
+          },
         },
-        shimmer: {
-          '100%': { transform: 'translateX(100%)' }
+        fall: {
+          '0%': { 
+            opacity: '0',
+            transform: 'translateY(0)' 
+          },
+          '10%': { 
+            opacity: '1'
+          },
+          '100%': { 
+            opacity: '0.5',
+            transform: 'translateY(100vh)' 
+          },
+        },
+        diagonalfall: {
+          '0%': { 
+            opacity: '0',
+            transform: 'translate(0, 0)' 
+          },
+          '10%': { 
+            opacity: '1'
+          },
+          '100%': { 
+            opacity: '0.25',
+            transform: 'translate(10vw, 100vh)' 
+          },
         }
       }
     },
