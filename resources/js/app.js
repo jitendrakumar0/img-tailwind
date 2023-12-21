@@ -417,24 +417,40 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-(() => {
+(function() {
     'use strict';
-    const forms = document.querySelectorAll('.needs-validation');
 
-    Array.from(forms).forEach(form => {
+    document.querySelectorAll('.needs-validation').forEach(form => {
         form.addEventListener('submit', event => {
+            event.preventDefault();
+            event.stopPropagation();
+            
+            const invalidElements = form.querySelectorAll(':invalid');
             if (!form.checkValidity()) {
-                event.preventDefault();
-                event.stopPropagation();
-                
-                const invalidElements = form.querySelectorAll(':invalid');
                 if (invalidElements.length > 0) {
                     invalidElements[0].focus();
                 }
             } else {
-                
-            }
+                const xhr = new XMLHttpRequest();
+                xhr.open('POST', document.getElementById('ajxURL').value, true);
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                xhr.onreadystatechange = () => {
+                    const submitBtn = event.submitter;
+                    submitBtn.classList.add('disabled');
 
+                    event.preventDefault();
+                    event.stopPropagation();
+                    if (xhr.readyState == 4) {
+                        if (xhr.status == 200) {
+                            const data = JSON.parse(xhr.responseText);
+                            window.location = document.getElementById('reUrl').value;
+                        } else {
+                            alert('Error posting feed.');
+                        }
+                    }
+                };
+                xhr.send(new URLSearchParams(new FormData(document.forms['feedInput'])).toString());
+            }
             form.classList.add('check');
         }, false);
     });

@@ -1,0 +1,68 @@
+{
+  "public/tailwind/css/app.css": {
+    "file": "assets/app-b615393a.css",
+    "isEntry": true,
+    "src": "public/tailwind/css/app.css"
+  },
+  "public/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.webp": {
+    "file": "assets/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-1a0e7700.webp",
+    "src": "public/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.webp"
+  },
+  "public/tailwind/img/beams1.webp": {
+    "file": "assets/beams1-c3cd2070.webp",
+    "src": "public/tailwind/img/beams1.webp"
+  },
+  "public/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp": {
+    "file": "assets/elevate-your-vision-with-robust-and-scalable-mobile-app-development1-90df64fa.webp",
+    "src": "public/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp"
+  },
+  "public/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions.webp": {
+    "file": "assets/enhance-your-brand-presence-with-innovative-web-development-solutions-c803c61a.webp",
+    "src": "public/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions.webp"
+  },
+  "public/tailwind/img/fab11.webp": {
+    "file": "assets/fab11-0ec1e346.webp",
+    "src": "public/tailwind/img/fab11.webp"
+  },
+  "public/tailwind/img/fabindia.webp": {
+    "file": "assets/fabindia-ec3c229e.webp",
+    "src": "public/tailwind/img/fabindia.webp"
+  },
+  "public/tailwind/img/flags.png": {
+    "file": "assets/flags-54dc5bc4.png",
+    "src": "public/tailwind/img/flags.png"
+  },
+  "public/tailwind/img/flags@2x.png": {
+    "file": "assets/flags@2x-9bd00899.png",
+    "src": "public/tailwind/img/flags@2x.png"
+  },
+  "public/tailwind/img/frame12.webp": {
+    "file": "assets/frame12-4467d94b.webp",
+    "src": "public/tailwind/img/frame12.webp"
+  },
+  "public/tailwind/img/grid.svg": {
+    "file": "assets/grid-c8e2f8c4.svg",
+    "src": "public/tailwind/img/grid.svg"
+  },
+  "public/tailwind/img/hozzo.webp": {
+    "file": "assets/hozzo-04f1bda3.webp",
+    "src": "public/tailwind/img/hozzo.webp"
+  },
+  "public/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development!.webp": {
+    "file": "assets/level_up_your_business_game_with_fantasy_sports_app_development!-5a074842.webp",
+    "src": "public/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development!.webp"
+  },
+  "public/tailwind/img/newsBack.webp": {
+    "file": "assets/newsBack-cdcedf8d.webp",
+    "src": "public/tailwind/img/newsBack.webp"
+  },
+  "public/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp": {
+    "file": "assets/unlock-access-to-bespoke-apps-and-product-innovation-with-us-92aad6aa.webp",
+    "src": "public/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp"
+  },
+  "public/tailwind/js/app.js": {
+    "file": "assets/app-6e95b2f4.js",
+    "isEntry": true,
+    "src": "public/tailwind/js/app.js"
+  }
+}
