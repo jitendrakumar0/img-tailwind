@@ -31,45 +31,68 @@
 @endpush
 
 @section('content')
-<div class="hidden">
-    <h1>Disclaimer</h1> 
+<div class="food-cus-app-onepmng  <h1>Disclaimer</h1> 
 </div>
 
 
 
-<div class="relative pt-16 md:pt-20 lg:pt-32 select-none">
-    <div class="text-black/10">
-        <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
-            <defs>
-                <pattern id="t47" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
-                    <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
-                </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#t47)"></rect>
-        </svg>
+
+<div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative py-20 mt-40">
+    <div class="w-4/5 mx-auto">
+        <div class="font-bold text-[#111457] text-4xl text-center ">Key Features of On-Demand Food Delivery App</div>
+        <div class="text-black font-light text-center text-base pt-5 leading-6">Escalate your  food delivery & Ordering business to new heights with our fully-featured white-label <span class="font-semibold text-black text-base">on demand restaurant app development solutions.</span>  Our best-in-class certified food app developers develop highly interfeatures for your online food delivery application.</div>
     </div>
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative py-20">
+</div>
 
-
-        <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black pb-8">
-            <span class="font-normal">Disclaimer - </span> 
-            <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> IMG Global Infotech</span>
-        </p>
-        <div class="w-full text-sm md:text-base text-gray-600 flex flex-col gap-y-4">
-            <div>The information contained in this website is for general information purposes only. The information is provided by <b>IMG GLOBAL INFOTECH</b> and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.</div> 
-            <div>In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.
-                Through this website you are able to link to other websites which are not under the control of <b>IMG GLOBAL INFOTECH</b> We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.
-                <b>IMG Global Infotech</b> does not intend to infringe the copyright of any outlet by using images and content. For any copyright-related issues right to us and we would reply within 48 Hours.</div> 
+<div class="bg-gray-100 w-full py-3 relative">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 ">
+        <div>
+            <ul class="flex items-center justify-center gap-9">
+                <li>
+                    <a href="javascript:;" class="text-decoration-none py-1 flex items-center font-semibold text-[#111457] relative after:absolute  after:left-0 after:bottom-[-12px] after:w-full after:h-1 after:bg-[#111457] ">Customer App</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="text-decoration-none py-1 flex items-center font-semibold text-[#111457] relative duration-300 after:absolute  after:left-0 after:bottom-[-12px] after:w-0 after:h-1 after:duration-300 after:bg-[#111457] hover:after:w-full">Driver App</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="text-decoration-none py-1 flex items-center font-semibold text-[#111457] relative duration-300 after:absolute  after:left-0 after:bottom-[-12px] after:w-0 after:h-1 after:duration-300 after:bg-[#111457] hover:after:w-full">Restaurant App</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="text-decoration-none py-1 flex items-center font-semibold text-[#111457] relative duration-300 after:absolute  after:left-0 after:bottom-[-12px] after:w-0 after:h-1 after:duration-300 after:bg-[#111457] hover:after:w-full">Admin Panel</a>
+                </li>
+            </ul>
         </div>
-
-
-
-
-        
     </div>
 </div>
 
-
+<div class="mx-auto max-w-7xl px-6 lg:px-8 relative py-16 ">
+    <div class="w-4/5 mx-auto">
+        <div class="font-semibold text-[#111457] text-2xl text-center ">Customer App</div>
+        <div class="text-black font-light text-center text-base pt-5 leading-6">A Customer Application is designed with ease to help the customers place their food delivery order by browsing multiple restaurants and its menu.</div>
+    </div>
+    <div class="flex flex-wrap">
+        <div class="w-2/5">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="mobileImg">
+                            <img src="{{asset('public'.mix('/tailwind/img/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
 @endsection
 
