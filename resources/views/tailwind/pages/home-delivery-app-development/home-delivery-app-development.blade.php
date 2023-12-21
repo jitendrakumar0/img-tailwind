@@ -48,7 +48,7 @@
             <rect width="100%" height="100%" fill="url(#t47)"></rect>
         </svg>
     </div>
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative py-10 shadow-md shadow-sky-950/20 border-2 bg-white my-10 rounded-xl">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative py-20">
 
 
         <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black pb-8">

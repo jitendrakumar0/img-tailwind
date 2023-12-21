@@ -20,6 +20,9 @@ Route::get('/terms-and-conditions.php', function () {
 Route::get('/disclaimer.php', function () {
   return view('tailwind/pages/disclaimer/disclaimer');
 });
+Route::get('/home-delivery-app-development.php', function () {
+  return view('tailwind/pages/home-delivery-app-development/home-delivery-app-development');
+});
 
 
 
