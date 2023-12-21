@@ -8,9 +8,10 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-Route::get('/', function () { return view('pages/home/home'); });
-Route::get('/privacy-policy.php', function () { return view('pages/privacy-policy/privacy-policy'); });
-Route::get('/terms-and-conditions.php', function () { return view('pages/terms-and-conditions/terms-and-conditions'); });
+Route::get('/', function () { return view('tailwind/pages/home/home'); });
+Route::get('/privacy-policy.php', function () { return view('tailwind/pages/privacy-policy/privacy-policy'); });
+Route::get('/terms-and-conditions.php', function () { return view('tailwind/pages/terms-and-conditions/terms-and-conditions'); });
+Route::get('/disclaimer.php', function () { return view('tailwind/pages/disclaimer/disclaimer'); });
 
 
 
