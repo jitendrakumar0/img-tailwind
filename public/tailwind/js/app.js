@@ -2020,26 +2020,6 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
-  var images = document.querySelectorAll("img[data-src]");
-  var options = {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0.5
-  };
-  var observer = new IntersectionObserver(function (entries, observer) {
-    entries.forEach(function (entry) {
-      if (entry.isIntersecting) {
-        var img = entry.target;
-        img.src = img.getAttribute("data-src");
-        observer.unobserve(img);
-      }
-    });
-  }, options);
-  images.forEach(function (img) {
-    observer.observe(img);
-  });
-});
 document.addEventListener('DOMContentLoaded', function () {
   var progressCircles = document.querySelectorAll(".autoplay-progress svg");
   var progressContents = document.querySelectorAll(".autoplay-progress span");
@@ -2055,10 +2035,10 @@ document.addEventListener('DOMContentLoaded', function () {
   var heroSwiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"]('.heroSwiper', {
     slidesPerView: 1,
     spaceBetween: 10,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false
-    },
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false
+    // },
     speed: 1500,
     thumbs: {
       swiper: heroSwiperThumbs
