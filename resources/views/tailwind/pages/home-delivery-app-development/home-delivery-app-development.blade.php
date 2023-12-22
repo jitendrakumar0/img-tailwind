@@ -941,7 +941,7 @@
 
 {{-- blog section start  --}}
 
-<div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none" )="">
+<div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none" >
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
@@ -1093,6 +1093,166 @@
 </div>
 
 {{-- blog section end  --}}
+
+
+{{-- why choose us start --}}
+<div class="relative py-8">
+    <div class="text-blue-50">
+        <div class="absolute top-0 left-0 h-full w-full overflow-hidden"><svg class="w-auto h-[550px] fill-blue-50 opacity-70" viewBox="0 0 95 52.8"><path d="M27.3 0H0l26.4 26.4L0 52.8h27.3l26.4-26.4z"></path><path d="M68.6 0H41.3l26.4 26.4-26.4 26.4h27.3L95 26.4z"></path></svg></div>
+    </div>
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative">
+
+        <div class="py-xl-5 py-lg-5 py-md-5 py-5 select-none relative">
+            <div class="flex w-full h-auto items-center flex-wrap">
+                <div class="lg:w-[60%] lg:pe-10 pe-0 w-[100%] lg:order-1 order-2">
+                    <p class="mt-4  max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                        <span class="font-normal">Why Hire Python Developers from <br></span> 
+                        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> IMG Global Infotech?</span>
+                    </p>
+                    <div class="md:text-base text-sm opacity-70 mt-3 mb-lg-1">
+                    Hiring a python developer from us would be the right choice because it will make your business thrive in on-going market trends. It may benefit for fast project development making sure all quality standards are matched. There are multiple reasons Python is preferable by developers. The python is highly readable and popular language amongst developer community due to numerous libraries easily accessible.
+                    </div> 
+                    <div class="flex items-center mt-6 flex-wrap gap-3 w-full  lg:w-[90%]">
+                        <div class="bg-white lg:py-3 py-2 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-200 shadow-md  px-3 lg:px-4">8+ Years In Busines</div>
+                        <div class="bg-white lg:py-3 py-2 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-200 shadow-md  px-3 lg:px-4">Experienced And Talented Coders</div>
+                        <div class="bg-white lg:py-3 py-2 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-200 shadow-md  px-3 lg:px-4">Cost-Effective Solutions</div>
+                        <div class="bg-white lg:py-3 py-2 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-200 shadow-md  px-3 lg:px-4">
+                            Clear Communication</div>
+                        <div class="bg-white lg:py-3 py-2 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-200 shadow-md  px-3 lg:px-4">Transparency Guaranteed</div>
+                        <div class="bg-white lg:py-3 py-2 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-200 shadow-md  px-3 lg:px-4">100+ In-House Developers</div>
+                        <div class="bg-white lg:py-3 py-2 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-200 shadow-md  px-3 lg:px-4">Flexible Engagement Models</div>
+                        <div class="bg-white lg:py-3 py-2 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-200 shadow-md  px-3 lg:px-4">Daily, Weekly, And Monthly Reporting</div>
+                        <div class="bg-white lg:py-3 py-2 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-200 shadow-md  px-3 lg:px-4">On-Time Efficiency</div>
+                        <div class="bg-white lg:py-3 py-2 text-[#337ca6]  whitespace-nowrap font-semibold text-sm shadow-slate-200 shadow-md  px-3 lg:px-4">Data-Driven Algorithms
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-[40%] flex items-center justify-center w-[100%] lg:order-2 order-1">
+                    <div class="aspect-[3/2.8] object-cover mx-auto">
+                    <img src="{{asset('public'.mix('/tailwind/img/android-team.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+{{-- why choose end  --}}
+
+
+{{-- blog sectio new  --}}
+
+
+<div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none">
+    <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
+        <defs>
+            <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
+                <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+            </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#nhgh)"></rect>
+    </svg>
+    {{-- <div class="hidden z-0 sm:absolute sm:-top-10 sm:right-1/2 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-fuchsia-900 to-lime-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+    <div class="absolute z-0 -top-52 left-1/2 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-fuchsia-900 to-lime-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div> --}}
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative">
+        <p class="mt-4 max-md:text-xl/tight max-xl:text-2xl/tight text-3xl/tight tracking-[-0.04em] text-black text-center">
+            <span class="font-normal block pb-3">Stay Informed Of Latest Innovations and Trends With Our Blogs!</span>
+            <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-700 to-gray-500 bg-clip-text text-transparent"> Explore our insightful blogs to stay abreast of the latest innovations and trends. Stay informed, stay ahead.</span>
+        </p>
+        <div class="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">
+            <div class="swiper blogsSwiper w-full !overflow-visible">
+                <div class="swiper-wrapper flex items-center pb-8">
+                    <div class="swiper-slide rounded-2xl group/blog">
+                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
+                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.jpg'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.jpg'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <div class="w-full p-4">
+                                <div class="group relative">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
+                                        Top FinTech App Development Companies In India 2024
+                                    </div>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4">
+                                <a href="javascript:;" class="text-decoration-none flex items-center font-semibold text-base text-pink-600 duration-300"> LEARN MORE <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-8 h-8 " xmlns="http://www.w3.org/2000/svg"><path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path></svg></span> </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide rounded-2xl group/blog">
+                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
+                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.png'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.png'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <div class="w-full p-4">
+                                <div class="group relative">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
+                                        Top FinTech App Development Companies In India 2024
+                                    </div>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4">
+                                <a href="javascript:;" class="text-decoration-none flex items-center font-semibold text-base text-pink-600 duration-300"> LEARN MORE <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-8 h-8 " xmlns="http://www.w3.org/2000/svg"><path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path></svg></span> </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide rounded-2xl group/blog">
+                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
+                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.jpg'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.jpg'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <div class="w-full p-4">
+                                <div class="group relative">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
+                                        Top FinTech App Development Companies In India 2024
+                                    </div>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4">
+                                <a href="javascript:;" class="text-decoration-none flex items-center font-semibold text-base text-pink-600 duration-300"> LEARN MORE <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-8 h-8 " xmlns="http://www.w3.org/2000/svg"><path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path></svg></span> </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide rounded-2xl group/blog">
+                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
+                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.jpg'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.jpg'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <div class="w-full p-4">
+                                <div class="group relative">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
+                                        Top FinTech App Development Companies In India 2024
+                                    </div>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4">
+                                <a href="javascript:;" class="text-decoration-none flex items-center font-semibold text-base text-pink-600 duration-300"> LEARN MORE <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-8 h-8 " xmlns="http://www.w3.org/2000/svg"><path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path></svg></span> </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide rounded-2xl group/blog">
+                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
+                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.png'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.png'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <div class="w-full p-4">
+                                <div class="group relative">
+                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
+                                        Top FinTech App Development Companies In India 2024
+                                    </div>
+                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4">
+                                <a href="javascript:;" class="text-decoration-none flex items-center font-semibold text-base text-pink-600 duration-300"> LEARN MORE <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-8 h-8 " xmlns="http://www.w3.org/2000/svg"><path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path></svg></span> </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 @endsection
 
