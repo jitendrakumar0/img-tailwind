@@ -66,20 +66,25 @@
         </div>
 </div>
 
-<div class="w-full flex items-center justify-between pt-4">
+<div class="w-full flex items-center justify-between pt-4 select-none">
+    
+<div class="w-[60%]">
+    <div class="text-[#337ca6] text-sm font-semibold mx-auto">Touching Lives Through Technology</div>
+    <p class="mt-4  max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+        <span class="font-normal">Fingent’s Four Pillars Of <br></span> 
+        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">  Influence</span>
+    </p>
+    
+    <div class="md:text-base text-sm opacity-70 mt-3 mb-lg-1">
+        Hiring a python developer from us would be the right choice because it will make your business thrive in on-going market trends. It may benefit for fast project development making sure all quality standards are matched. There are multiple reasons Python is preferable by developers. The python is highly readable and popular language amongst developer community due to numerous libraries easily accessible.
+        </div> 
+</div>
 <div class="w-[40%]">
 <div class="aspect-[3/2.8] relative z-10">
     <img src="{{asset('public'.mix('/tailwind/img/fabindia.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
 </div>
 </div>
 
-<div class="w-60%">
-    <div class="text-[#337ca6] text-sm font-semibold mx-auto">Touching Lives Through Technology</div>
-    <p class="mt-4  max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
-        <span class="font-normal">Why Hire Python Developers from <br></span> 
-        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> IMG Global Infotech?</span>
-    </p>
-</div>
     </div>
 </div>
 

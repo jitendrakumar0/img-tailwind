@@ -2557,6 +2557,9 @@ select{
 .w-60{
   width: 15rem;
 }
+.w-\[60\%\]{
+  width: 60%;
+}
 .min-w-0{
   min-width: 0px;
 }
