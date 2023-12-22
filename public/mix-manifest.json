@@ -3,7 +3,7 @@
     "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=291eb0423153d0e7563f11c348ba691a",
     "/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js": "/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js?id=75dfdb948b2f5031ff5968c2e92d3df1",
     "/tailwind/js/festival-decor/newYear/newYear.js": "/tailwind/js/festival-decor/newYear/newYear.js?id=0c5c0a85a9a377e302a14ee10ef4548d",
-    "/tailwind/css/app.css": "/tailwind/css/app.css?id=49b6daea525d22e371540de874d66d8e",
+    "/tailwind/css/app.css": "/tailwind/css/app.css?id=633ebd1b6ffd289f76e93e603496d822",
     "/tailwind/android-chrome-144x144.png": "/tailwind/android-chrome-144x144.png?id=de3c1fceec9a432a8ddcf6684b1d46c2",
     "/tailwind/android-chrome-192x192.png": "/tailwind/android-chrome-192x192.png?id=d24a76fcee41c06d0bc18709fc08be46",
     "/tailwind/android-chrome-36x36.png": "/tailwind/android-chrome-36x36.png?id=363494c1dab183d3c362a428be7a0476",
@@ -59,7 +59,9 @@
     "/tailwind/img/flags.png": "/tailwind/img/flags.png?id=05004a2d55372b6a39b657def195e25a",
     "/tailwind/img/flags@2x.png": "/tailwind/img/flags@2x.png?id=55c83c669c053a4b1156a965a2beea42",
     "/tailwind/img/footer-clutch.webp": "/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4",
+    "/tailwind/img/footer.png": "/tailwind/img/footer.png?id=58ab0a861ff4b18ea9e06375b4cb37e6",
     "/tailwind/img/frame12.webp": "/tailwind/img/frame12.webp?id=ebde9ff840f3780bd1e2ecff4e5c71c9",
+    "/tailwind/img/girl.jpg": "/tailwind/img/girl.jpg?id=c3d9ec6fb5349211b6555f8774e5f0eb",
     "/tailwind/img/google.webp": "/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6",
     "/tailwind/img/grid.svg": "/tailwind/img/grid.svg?id=4bfe2976a2d4a808cd66bb0536642a19",
     "/tailwind/img/Health-app.webp": "/tailwind/img/Health-app.webp?id=c922679f73474c30f1df7ec0921ec1ab",
@@ -153,6 +155,5 @@
     "/tailwind/mstile-70x70.png": "/tailwind/mstile-70x70.png?id=b030c4c6f977862bebfde9549f586c94",
     "/tailwind/robots.txt": "/tailwind/robots.txt?id=25866381e74ad6159dc9a03a996ca61c",
     "/tailwind/safari-pinned-tab.svg": "/tailwind/safari-pinned-tab.svg?id=53630740360ccc7baf8efc5465380ae5",
-    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=37c41ba005122d6067255f1bb75ceac7",
-    "/tailwind/img/footer.png": "/tailwind/img/footer.png?id=58ab0a861ff4b18ea9e06375b4cb37e6"
+    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=37c41ba005122d6067255f1bb75ceac7"
 }
