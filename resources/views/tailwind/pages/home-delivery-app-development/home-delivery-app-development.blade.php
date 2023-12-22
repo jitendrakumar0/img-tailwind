@@ -106,8 +106,15 @@
 
         
     </div>
+    
 </div>
 
+
+<div class="mx-auto max-w-7xl py-20 px-8 text-center">
+    <div class="text-[#111457] text-4xl font-bold">
+        How Does Our Food Delivery Solution Works?
+    </div>
+</div>
 
 
 @endsection
