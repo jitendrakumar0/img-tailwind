@@ -1,9 +1,9 @@
 {
-    "/tailwind/js/app.js": "/tailwind/js/app.js?id=d95c555026e8781b7147c82fc6789489",
+    "/tailwind/js/app.js": "/tailwind/js/app.js?id=01448b96d649dafc58c6e056d996623a",
     "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=291eb0423153d0e7563f11c348ba691a",
     "/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js": "/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js?id=75dfdb948b2f5031ff5968c2e92d3df1",
     "/tailwind/js/festival-decor/newYear/newYear.js": "/tailwind/js/festival-decor/newYear/newYear.js?id=0c5c0a85a9a377e302a14ee10ef4548d",
-    "/tailwind/css/app.css": "/tailwind/css/app.css?id=49b6daea525d22e371540de874d66d8e",
+    "/tailwind/css/app.css": "/tailwind/css/app.css?id=8eb07e37d7fc4cdee2d2fb654daa6510",
     "/tailwind/android-chrome-144x144.png": "/tailwind/android-chrome-144x144.png?id=de3c1fceec9a432a8ddcf6684b1d46c2",
     "/tailwind/android-chrome-192x192.png": "/tailwind/android-chrome-192x192.png?id=d24a76fcee41c06d0bc18709fc08be46",
     "/tailwind/android-chrome-36x36.png": "/tailwind/android-chrome-36x36.png?id=363494c1dab183d3c362a428be7a0476",
@@ -65,6 +65,7 @@
     "/tailwind/img/fooddelivery/food-cus-app-three.png": "/tailwind/img/fooddelivery/food-cus-app-three.png?id=0b305b730f67327f0f0ca06bd8310e9a",
     "/tailwind/img/fooddelivery/food-cus-app-two.png": "/tailwind/img/fooddelivery/food-cus-app-two.png?id=e69c932b1e4861f9b49875e8aea49893",
     "/tailwind/img/footer-clutch.webp": "/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4",
+    "/tailwind/img/footer.png": "/tailwind/img/footer.png?id=58ab0a861ff4b18ea9e06375b4cb37e6",
     "/tailwind/img/frame12.webp": "/tailwind/img/frame12.webp?id=ebde9ff840f3780bd1e2ecff4e5c71c9",
     "/tailwind/img/google.webp": "/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6",
     "/tailwind/img/grid.svg": "/tailwind/img/grid.svg?id=4bfe2976a2d4a808cd66bb0536642a19",
@@ -161,6 +162,5 @@
     "/tailwind/mstile-70x70.png": "/tailwind/mstile-70x70.png?id=b030c4c6f977862bebfde9549f586c94",
     "/tailwind/robots.txt": "/tailwind/robots.txt?id=25866381e74ad6159dc9a03a996ca61c",
     "/tailwind/safari-pinned-tab.svg": "/tailwind/safari-pinned-tab.svg?id=53630740360ccc7baf8efc5465380ae5",
-    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=37c41ba005122d6067255f1bb75ceac7",
-    "/tailwind/img/footer.png": "/tailwind/img/footer.png?id=58ab0a861ff4b18ea9e06375b4cb37e6"
+    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=37c41ba005122d6067255f1bb75ceac7"
 }
