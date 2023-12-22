@@ -2,7 +2,7 @@ import Swiper from 'swiper/bundle';
 import 'swiper';
 // import 'swiper/css';
 import 'swiper/css/navigation';
-// import 'swiper/css/pagination';
+import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
 
 import 'intl-tel-input';
@@ -455,3 +455,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }, false);
     });
 })();
+
+
+
+var swiper = new Swiper(".keyfeatureswiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+  });
