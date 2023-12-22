@@ -7011,6 +7011,9 @@ select{
   .lg\:mt-8{
     margin-top: 2rem;
   }
+  .lg\:mt-\[2px\]{
+    margin-top: 2px;
+  }
   .lg\:line-clamp-1{
     overflow: hidden;
     display: -webkit-box;
