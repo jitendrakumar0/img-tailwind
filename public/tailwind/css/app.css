@@ -2074,6 +2074,9 @@ select{
 .-z-\[1011\]{
   z-index: -1011;
 }
+.-z-\[1\]{
+  z-index: -1;
+}
 .z-0{
   z-index: 0;
 }
@@ -2440,6 +2443,9 @@ select{
 .h-screen{
   height: 100vh;
 }
+.h-\[600px\]{
+  height: 600px;
+}
 .max-h-12{
   max-height: 3rem;
 }
@@ -2559,6 +2565,12 @@ select{
 }
 .w-screen{
   width: 100vw;
+}
+.w-\[40\%\]{
+  width: 40%;
+}
+.w-\[60\%\]{
+  width: 60%;
 }
 .min-w-0{
   min-width: 0px;
@@ -3621,6 +3633,9 @@ select{
 .fill-white{
   fill: #fff;
 }
+.fill-blue-50{
+  fill: #eff6ff;
+}
 .stroke-white\/80{
   stroke: rgb(255 255 255 / 0.8);
 }
@@ -3834,6 +3849,9 @@ select{
 }
 .pt-8{
   padding-top: 2rem;
+}
+.pe-0{
+  padding-inline-end: 0px;
 }
 .text-left{
   text-align: left;
@@ -4097,6 +4115,10 @@ select{
 .text-white\/80{
   color: rgb(255 255 255 / 0.8);
 }
+.text-blue-50{
+  --tw-text-opacity: 1;
+  color: rgb(239 246 255 / var(--tw-text-opacity));
+}
 .underline{
   text-decoration-line: underline;
 }
@@ -4244,6 +4266,10 @@ select{
 }
 .shadow-yellow-950{
   --tw-shadow-color: #422006;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-slate-200{
+  --tw-shadow-color: #e2e8f0;
   --tw-shadow: var(--tw-shadow-colored);
 }
 .outline-none{
@@ -4443,9 +4469,6 @@ select{
 .\[background-image\:url\(\.\.\/img\/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders\.webp\?id\=31a5defd3b15daed788cf2bd1997fc53\)\]{
   background-image: url(../img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.webp?id=31a5defd3b15daed788cf2bd1997fc53);
 }
-.\[background-image\:url\(\.\.\/img\/elevate-your-vision-with-robust-and-scalable-mobile-app-development1\.webp\?id\=31a5defd3b15daed788cf2bd1997fc57\)\]{
-  background-image: url(../img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp?id=31a5defd3b15daed788cf2bd1997fc57);
-}
 .\[background-image\:url\(\.\.\/img\/enhance-your-brand-presence-with-innovative-web-development-solutions\.webp\?id\=31a5defd3b15daed788cf2bd1997fc52\)\]{
   background-image: url(../img/enhance-your-brand-presence-with-innovative-web-development-solutions.webp?id=31a5defd3b15daed788cf2bd1997fc52);
 }
@@ -4463,9 +4486,6 @@ select{
 }
 .\[background-image\:url\(\.\.\/img\/level_up_your_business_game_with_fantasy_sports_app_development\!\.webp\?id\=31a5defd3b15daed788cf2bd1997fc54\)\]{
   background-image: url(../img/level_up_your_business_game_with_fantasy_sports_app_development!.webp?id=31a5defd3b15daed788cf2bd1997fc54);
-}
-.\[background-image\:url\(\.\.\/img\/unlock-access-to-bespoke-apps-and-product-innovation-with-us\.webp\?id\=31a5defd3b15daed788cf2bd1997fc55\)\]{
-  background-image: url(../img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp?id=31a5defd3b15daed788cf2bd1997fc55);
 }
 .\[box-shadow\:_0_0_12px_rgba\(255\2c 255\2c 255\2c 0\.3\)\]{
   box-shadow: 0 0 12px rgba(255,255,255,0.3);
@@ -6765,6 +6785,9 @@ select{
   .lg\:w-full{
     width: 100%;
   }
+  .lg\:w-\[90\%\]{
+    width: 90%;
+  }
   .lg\:max-w-lg{
     max-width: 32rem;
   }
@@ -6866,6 +6889,14 @@ select{
     padding-top: 8rem;
     padding-bottom: 8rem;
   }
+  .lg\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .lg\:py-3{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
   .lg\:pb-24{
     padding-bottom: 6rem;
   }
@@ -6889,6 +6920,9 @@ select{
   }
   .lg\:pt-32{
     padding-top: 8rem;
+  }
+  .lg\:pe-10{
+    padding-inline-end: 2.5rem;
   }
   .lg\:text-left{
     text-align: left;
