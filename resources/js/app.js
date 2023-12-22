@@ -8,29 +8,6 @@ import 'swiper/css/navigation';
 import 'intl-tel-input';
 import intlTelInput from 'intl-tel-input';
 
-document.addEventListener("DOMContentLoaded", function() {
-    const images = document.querySelectorAll("img[data-src]");
-
-    const options = {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0.5
-    };
-
-    const observer = new IntersectionObserver(function(entries, observer) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const img = entry.target;
-                img.src = img.getAttribute("data-src");
-                observer.unobserve(img);
-            }
-        });
-    }, options);
-
-    images.forEach(img => {
-        observer.observe(img);
-    });
-});
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -48,10 +25,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const heroSwiper = new Swiper('.heroSwiper', {
         slidesPerView: 1,
         spaceBetween: 10,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false
-        },
+        // autoplay: {
+        //     delay: 2500,
+        //     disableOnInteraction: false
+        // },
         speed: 1500,
         thumbs: {
             swiper: heroSwiperThumbs,
