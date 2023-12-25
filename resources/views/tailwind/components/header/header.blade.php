@@ -3,8 +3,8 @@
     <div class="flex lg:flex-1">
       <a href="https://www.imgglobalinfotech.com/" class="-m-1.5 p-1.5">
         <span class="sr-only">IMG</span>
-        {{-- <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/xl-logo.webp'))}}" alt="IMG Global Infotech Logo"> --}}
-        <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/img-logo-christmas.webp'))}}" alt="IMG Global Infotech Logo">
+        {{-- <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/xl-logo.webp'))}}" alt="IMG Global Infotech Logo"> --}}
+        <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/img-logo-christmas.webp'))}}" alt="IMG Global Infotech Logo">
       </a>
     </div>
     <div class="flex lg:hidden">
@@ -35,7 +35,7 @@
             <div class="relative group/dd">
               <button type="button" class="flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-[34px] group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1]" aria-expanded="false">
                 Company
-                <svg class="h-5 w-5 flex-none transition-transform group-hover/dd:[transform:rotate(180deg)] text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <svg class="h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                 </svg>
               </button>
@@ -121,7 +121,7 @@
             <div class="group/dd">
               <button type="button" class="flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-0 group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1]" aria-expanded="false">
                 Services
-                <svg class="h-5 w-5 flex-none transition-transform group-hover/dd:[transform:rotate(180deg)] text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <svg class="h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                 </svg>
               </button>
@@ -404,7 +404,7 @@
             <div class="group/dd">
               <button type="button" class="flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-0 group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1]" aria-expanded="false">
                 Trending <span class="max-xl:hidden">&nbsp;Solutions</span>
-                <svg class="h-5 w-5 flex-none transition-transform group-hover/dd:[transform:rotate(180deg)] text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <svg class="h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                 </svg>
               </button>
@@ -892,7 +892,7 @@
             <div class="group/dd">
               <button type="button" class="flex items-center gap-x-[2px] text-xs font-semibold leading-6 text-gray-50 hover:text-gray-300 duration-200 uppercase group-hover/dd:before:absolute group-hover/dd:before:-bottom-0 group-hover/dd:before:left-0 group-hover/dd:before:h-10 group-hover/dd:before:w-full group-hover/dd:before:z-[1]" aria-expanded="false">
                 Hire  <span class="max-xl:hidden">&nbsp;Developers</span>
-                <svg class="h-5 w-5 flex-none transition-transform group-hover/dd:[transform:rotate(180deg)] text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <svg class="h-5 w-5 flex-none transition-transform duration-500 group-hover/dd:[transform:rotateX(180deg)] text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                 </svg>
               </button>
@@ -1131,8 +1131,8 @@
   <div class="flex items-center justify-between">
     <a href="https://www.imgglobalinfotech.com/" class="-ml-1.5">
       <span class="sr-only">IMG</span>
-      {{-- <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/xl-logo.webp'))}}" alt="IMG Global Infotech Logo"> --}}
-      <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/img-logo-christmas.webp'))}}" alt="IMG Global Infotech Logo">
+      {{-- <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/xl-logo.webp'))}}" alt="IMG Global Infotech Logo"> --}}
+      <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/img-logo-christmas.webp'))}}" alt="IMG Global Infotech Logo">
     </a>
     <label for="sideToggle" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-200">
       <span class="sr-only">Close menu</span>

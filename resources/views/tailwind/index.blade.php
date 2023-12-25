@@ -71,21 +71,25 @@
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         <meta name="google-site-verification" content="bGEWH2c3JpZuiXFhSZGexm_7YdIzsPNhH2w7k6Buk-Q">
-        <meta name="twitter:image" content="{{asset('public'.mix('/tailwind/android-chrome-192x192.png'))}}">
-        <meta property="og:image" content="{{asset('public'.mix('/tailwind/android-chrome-192x192.png'))}}">
-        <meta property="og:image:secure_url" content="{{asset('public'.mix('/tailwind/android-chrome-192x192.png'))}}">
-        <link rel="apple-touch-icon" sizes="180x180" href="{{asset('public'.mix('/tailwind/apple-touch-icon.png'))}}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{asset('public'.mix('/tailwind/favicon-32x32.png'))}}">
-        <link rel="icon" type="image/png" sizes="192x192" href="{{asset('public'.mix('/tailwind/android-chrome-192x192.png'))}}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{asset('public'.mix('/tailwind/favicon-16x16.png'))}}">
-        <link rel="manifest" href="{{asset('public'.mix('/tailwind/site.webmanifest'))}}">
-        <link rel="mask-icon" href="{{asset('public'.mix('/tailwind/safari-pinned-tab.svg'))}}" color="#000019">
-        <link rel="shortcut icon" href="{{asset('public'.mix('/tailwind/favicon.ico'))}}">
+        <meta name="twitter:image" content="{{ asset('public'.mix('/tailwind/android-chrome-192x192.png'))}}">
+        <meta property="og:image" content="{{ asset('public'.mix('/tailwind/android-chrome-192x192.png'))}}">
+        <meta property="og:image:secure_url" content="{{ asset('public'.mix('/tailwind/android-chrome-192x192.png'))}}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('public'.mix('/tailwind/apple-touch-icon.png'))}}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('public'.mix('/tailwind/favicon-32x32.png'))}}">
+        <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('public'.mix('/tailwind/android-chrome-192x192.png'))}}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('public'.mix('/tailwind/favicon-16x16.png'))}}">
+        <link rel="manifest" href="{{ asset('public'.mix('/tailwind/site.webmanifest'))}}">
+        <link rel="mask-icon" href="{{ asset('public'.mix('/tailwind/safari-pinned-tab.svg'))}}" color="#000019">
+        <link rel="shortcut icon" href="{{ asset('public'.mix('/tailwind/favicon.ico'))}}">
         <meta name="msapplication-TileColor" content="#000019">
-        <meta name="msapplication-TileImage" content="{{asset('public'.mix('/tailwind/mstile-144x144.png'))}}">
-        <meta name="msapplication-config" content="{{asset('public'.mix('/tailwind/browserconfig.xml'))}}">
+        <meta name="msapplication-TileImage" content="{{ asset('public'.mix('/tailwind/mstile-144x144.png'))}}">
+        <meta name="msapplication-config" content="{{ asset('public'.mix('/tailwind/browserconfig.xml'))}}">
         <meta name="theme-color" content="#000019">
 
+        
+        @stack('meta')
+        <link rel="stylesheet" href="{{ asset('public'.mix('/tailwind/css/app.css'))}}">
+        
         <!-- Start of imgglobalinfotech9794 Zendesk Widget script -->
        {{--  <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=9b5a83c9-de45-457b-8b2e-e7dd2c65b48a"> </script> --}}
         <!-- End of imgglobalinfotech9794 Zendesk Widget script -->
@@ -103,27 +107,15 @@
         })();
         </script> --}}
         <!--End of Tawk.to Script-->
-     
-  <!-- Google Tag Manager -->
-       {{-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-PXQC6XV');</script>  --}}
-<!-- End Google Tag Manager -->
-    
-    {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2Q0NVDS4P"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-N2Q0NVDS4P');
-    </script> --}}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2Q0NVDS4P"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        @stack('meta')
-        
-        <link rel="stylesheet" href="{{asset('public'.mix('/tailwind/css/app.css'))}}">
+            gtag('config', 'G-N2Q0NVDS4P');
+        </script>
         @stack('styles')
     </head>
     <body class="scroll">
@@ -132,9 +124,9 @@
         @yield('content')
         </main>
         @include('tailwind.components.footer.footer')
-        <script src="{{asset('public'.mix('/tailwind/js/app.js'))}}"></script>
+        <script defer src="{{ asset('public'.mix('/tailwind/js/app.js'))}}"></script>
 
-        <script src="{{asset('public'.mix('/tailwind/js/lazy-content.js'))}}" defer></script>
+        <script defer src="{{ asset('public'.mix('/tailwind/js/lazy-content.js'))}}"></script>
         @stack('scripts')
         <div 
             class='
