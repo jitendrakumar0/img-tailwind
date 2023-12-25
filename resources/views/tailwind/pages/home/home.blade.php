@@ -1541,7 +1541,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
 </div>
 
-<div class="relative bg-gray-900 py-8 sm:py-16 select-none text-white")>
+<div class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
     <div class="text-white/10">
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
             <defs>
@@ -1638,7 +1638,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 </div>
 
 
-<div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none")>
+<div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">

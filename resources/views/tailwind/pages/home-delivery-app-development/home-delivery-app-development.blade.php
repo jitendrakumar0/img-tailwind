@@ -109,566 +109,660 @@
 </div>
 {{-- hero sectio  end  --}}
 
-{{-- key features section start  --}}
 
-<div class="keyfeature relative overflow-hidden">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 relative  md:py-16 py-10   ">
-        <div class="md:pt-3 text-center relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
+
+{{-- key feature section new  --}}
+
+
+<div class="relative isolate overflow-hidden pb-8 sm:pb-16 select-none">
+    <div class="overflow-hidden bg-gradient-to-b from-white to-slate-200 pt-6 md:pt-16 pb-36 sm:ps-0 ps-5 sm:pr-0 pr-5">
+        <div class="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/10 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
+            <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="pp0" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                        <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#pp0)"></rect>
+            </svg>
+        </div>
+        <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
             <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
                 <span class="font-normal">Key Features of On-Demand</span> 
                 <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> Food Delivery App</span>
             </p>
             <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
-                Escalate your food delivery & Ordering business to new heights with our fully-featured white-label <span class="font-bold opacity-100">on demand restaurant app development solutions.</span>  Our best-in-class certified food app developers develop highly interactive features for your online food delivery application.
+                Escalate your food delivery & Ordering business to new heights with our fully-featured white-label on demand restaurant app development solutions. Our best-in-class certified food app developers develop highly interactive features for your online food delivery application
             </div>
         </div>
     </div>
-
-    <div class="bg-gray-100 w-full  relative">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="container py-5 bg-white mt-[-126px] md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
+        {{-- <div class="text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base mt-3">Customer App</div>
+        <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
+            A Customer Application is designed with ease to help the customers place their food delivery order by browsing multiple restaurants and its menu.
+        </div> --}}
+        <div class="flex flex-row w-full flex-wrap pt-8">
+            <div class="w-full -mb-[120px] z-[2] p-4 md:p-6">
+                <div class="swiper servicesSwiperThumb bg-white border-[10px] border-white rounded-xl">
+                    <div class="swiper-wrapper flex items-center !h-auto sm:text-base text-sm font-semibold">
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-sky-800 bg-sky-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-sky-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-sky-900 group-[.swiper-slide-thumb-active]/svc:to-sky-700 group-[.swiper-slide-thumb-active]/svc:text-white">Customer App</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-fuchsia-800 bg-fuchsia-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-fuchsia-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-fuchsia-900 group-[.swiper-slide-thumb-active]/svc:to-fuchsia-700 group-[.swiper-slide-thumb-active]/svc:text-white">Driver App</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-teal-800 bg-teal-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-teal-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-teal-900 group-[.swiper-slide-thumb-active]/svc:to-teal-700 group-[.swiper-slide-thumb-active]/svc:text-white">Restaurant App</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-amber-800 bg-amber-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-amber-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-amber-900 group-[.swiper-slide-thumb-active]/svc:to-amber-700 group-[.swiper-slide-thumb-active]/svc:text-white">Admin Panel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="w-full">
-                <ul class="flex items-center sm:justify-center justify-start gap-9 flex-nowrap w-full whitespace-nowrap overflow-x-auto">
-                    <li>
-                        <a href="#customerApp" class="text-decoration-none pb-4 pt-4 sm:text-base text-sm flex items-center font-semibold text-nowrap text-[#111457] relative after:absolute  after:left-0 after:bottom-0 after:w-full after:h-1 after:bg-[#111457] ">Customer App</a>
-                    </li>
-                    <li>
-                        <a href="#driverApp" class="text-decoration-none pb-4 pt-4 sm:text-base text-sm flex items-center font-semibold text-nowrap text-[#111457] relative duration-300 after:absolute  after:left-0 after:bottom-0 after:w-0 after:h-1 after:duration-300 after:bg-[#111457] hover:after:w-full">Driver App</a>
-                    </li>
-                    <li>
-                        <a href="#restaurantApp" class="text-decoration-none pb-4 pt-4 sm:text-base text-sm flex items-center font-semibold text-nowrap text-[#111457] relative duration-300 after:absolute  after:left-0 after:bottom-0 after:w-0 after:h-1 after:duration-300 after:bg-[#111457] hover:after:w-full">Restaurant App</a>
-                    </li>
-                    <li>
-                        <a href="#adminPanel" class="text-decoration-none pb-4 pt-4 sm:text-base text-sm flex items-center font-semibold text-nowrap text-[#111457] relative duration-300 after:absolute  after:left-0 after:bottom-0 after:w-0 after:h-1 after:duration-300 after:bg-[#111457] hover:after:w-full">Admin Panel</a>
-                    </li>
-                </ul>
+                <div class="swiper servicesSwiper text-white">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide group/svc">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-sky-950 via-sky-900 to-sky-800 !pt-28">
+                                <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+                                    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+                                </div>
+                                <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
+                                    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+                                </div>
+                                <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+                                    <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                                                <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+                                    </svg>
+                                </div>
+                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
+                                    <span class="font-normal">Customer</span> 
+                                    <span class="font-bold bg-gradient-to-r from-sky-300 via-sky-200 to-sky-400 bg-clip-text text-transparent"> App</span>
+                                </p>
+                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0">
+                                    A Customer Application is designed with ease to help the customers place their food delivery order by browsing multiple restaurants and its menu.
+                                </div>
+                                <div class="flex flex-wrap mt-10">
+                                    <div class="lg:w-2/6 w-full">
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full">
+                                            <div class="swiper-wrapper ">
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {{-- <div class="swiper-pagination d-flex align-items-center justify-center "></div> --}}
+                                        </div>
+                                    </div>
+                                    <div class="lg:w-4/6 w-full">
+                                        <div class="flex flex-wrap ">
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Nearby Restaurants</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Customers can search for and view all the nearby restaurants in their locality.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Restaurant Menu</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Users can view the menus of various restaurants, compare, and choose the best.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Push Notifications</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Customers get notifications of order confirmations, cancellations, new offers, and discounts.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Coupon Management</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Customers can view and use discount coupons and codes using the app.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">inApp Payments</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Users can make online payments using the food delivery app.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Rating & Reviews</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Customers can give feedback, reviews, and ratings based on service, pricing, and quality.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Social Media Login</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Users can connect the food delivery app with their social media accounts for sharing their experiences, food images, and reviews.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Order Tracking </div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Users can track their food orders using a real-time tracking feature. Users can track the exact location of their orders and check how much time a driver will take to reach them.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide group/svc">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-fuchsia-950 via-fuchsia-900 to-fuchsia-800 !pt-28">
+                                <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+                                    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+                                </div>
+                                <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
+                                    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+                                </div>
+                                <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+                                    <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="l10" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                                                <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#l10)"></rect>
+                                    </svg>
+                                </div>
+                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
+                                    <span class="font-normal">Driver App</span> 
+                                    <span class="font-bold bg-gradient-to-r from-fuchsia-300 via-fuchsia-200 to-fuchsia-400 bg-clip-text text-transparent"> Development</span>
+                                </p>
+                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0">
+                                    A Driver Application is designed with great features and user-friendliness to accept or reject the restaurant delivery request as per the availability.
+                                </div>
+                                <div class="flex flex-wrap mt-10">
+                                    <div class="lg:w-4/6 w-full">
+                                        <div class="flex flex-wrap ">
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Profile</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Drivers, after login, can make their profile on the app.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Orders</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Drivers receive orders on this app and can manage multiple deliveries using the app.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Order History</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Drivers can save and manage all the information of food orders and deliveries on the app.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Realtime Tracking</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Drivers can track real-time customer locations, get route directions on maps.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Realtime Requests</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Drivers get notifications of the orders placed by customers on the app.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Availability Settings</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Drivers can choose to go offline or set their availability during different times in a day.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Delivery Information</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Drivers receive information on the locations of various food deliveries.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Payment History</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Drivers can track and manage the payments for the day on the app.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lg:w-2/6 w-full">
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full">
+                                            <div class="swiper-wrapper ">
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {{-- <div class="swiper-pagination d-flex align-items-center justify-center "></div> --}}
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide group/svc">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-teal-950 via-teal-900 to-teal-800 !pt-28">
+                                <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+                                    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+                                </div>
+                                <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
+                                    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+                                </div>
+                                <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+                                    <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="webDevelopment" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                                                <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#webDevelopment)"></rect>
+                                    </svg>
+                                </div>
+                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
+                                    <span class="font-normal">Restaurant </span> 
+                                    <span class="font-bold bg-gradient-to-r from-teal-300 via-teal-200 to-teal-400 bg-clip-text text-transparent">App</span>
+                                </p>
+                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0">
+                                    A restaurant partner app helps to accept or reject the food delivery orders placed by the customers. It also helps in customizing the menu items as per availability.
+                                </div>
+                                <div class="flex flex-wrap mt-10">
+                                    <div class="lg:w-2/6 w-full">
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full">
+                                            <div class="swiper-wrapper ">
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {{-- <div class="swiper-pagination d-flex align-items-center justify-center "></div> --}}
+                                        </div>
+                                    </div>
+                                    <div class="lg:w-4/6 w-full">
+                                        <div class="flex flex-wrap ">
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Profile</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Allow restaurant owners to register and create a profile including restaurant address and contact details, a complete menu with prices, and delivery.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Menu Management</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can create a new menu or customize menus based on customer food preferences and availability.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Orders</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can manage all the orders in one place, can get a complete view of the orders, including ongoing, dispatched, pickups, and scheduled ones.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Real-time Tracking of Driver</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can track the real-time location of drivers with their real-time location. They can also check the total delivery time and routes.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Offers & Discounts</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can create new discount deals and offers or customize the current ones to benefit from ordering food.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Payment History</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can manage all the orders in one place, can get a complete view of the orders, including ongoing, dispatched, pickups, and scheduled ones.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Push Notifications</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants get notifications about the new order, status of received or shipped orders, the payment received online, and other important updates.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Order Tracking </div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Users can track their food orders using a real-time tracking feature. Users can track the exact location of their orders and check how much time a driver will take to reach them.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide group/svc">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-amber-950 via-amber-900 to-amber-800 !pt-28">
+                                <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+                                    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+                                </div>
+                                <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
+                                    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+                                </div>
+                                <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+                                    <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="blockchainDevelopment" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                                                <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#blockchainDevelopment)"></rect>
+                                    </svg>
+                                </div>
+                                <p class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
+                                    <span class="font-normal">Admin Panel</span> 
+                                    <span class="font-bold bg-gradient-to-r from-amber-300 via-amber-200 to-amber-400 bg-clip-text text-transparent"> Development</span>
+                                </p>
+                                <div class="md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0">
+                                    The Admin Dashboard helps restaurant owners to manage the complete delivery process.
+                                </div>
+                                <div class="flex flex-wrap mt-10">
+                                    <div class="lg:w-4/6 w-full">
+                                        <div class="flex flex-wrap ">
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Customer Management</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">The dashboard includes the details of customers, cuisines, restaurants they prefer, and the orders they place.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Restaurants Management</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Manages details of all the restaurants by adding, updating, and removing restaurants from the list.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Driver Management</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">It includes the details of all the drivers, their profile information, license, and other details.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Payment & Commission Management</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurant owners can set payments and manage commission rates directly from the panel.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Menu & Timing</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can create different menus for different times and manage them on the admin panel.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Delivery zone Management</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">The restaurant owners can also track and manage all the food deliveries on the panel.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Analyzing & Reporting</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Get real-time insights into reports and other information to identify the growth and expansion opportunities.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2">
+                                                    <div class="p-0.5">
+                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Promo codes</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">The promo codes to add in cash deliveries, offers, and discounts can all be managed through this panel.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lg:w-2/6 w-full">
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full">
+                                            <div class="swiper-wrapper ">
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {{-- <div class="swiper-pagination d-flex align-items-center justify-center "></div> --}}
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 relative md:py-16 sm:py-14 py-8 overflow-hidden " id="customerApp">
-        <div class="lg:w-4/5 w-full mx-auto">
-            <div class="font-semibold text-[#111457] text-2xl text-center " >Customer App</div>
-            <div class="text-black font-light text-center text-base pt-5 leading-6">A Customer Application is designed with ease to help the customers place their food delivery order by browsing multiple restaurants and its menu.</div>
-        </div>
-        <div class="flex flex-wrap mt-10">
-            <div class="lg:w-2/5 w-full">
-                <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full">
-                    <div class="swiper-wrapper ">
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination d-flex align-items-center justify-center "></div>
-                </div>
-            </div>
-            <div class="lg:w-3/5 w-full">
-                <div class="flex flex-wrap ">
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Nearby Restaurants</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Customers can search for and view all the nearby restaurants in their locality.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Restaurant Menu</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Users can view the menus of various restaurants, compare, and choose the best.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Push Notifications</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Customers get notifications of order confirmations, cancellations, new offers, and discounts.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Coupon Management</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Customers can view and use discount coupons and codes using the app.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">inApp Payments</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Users can make online payments using the food delivery app.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Rating & Reviews</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Customers can give feedback, reviews, and ratings based on service, pricing, and quality.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Social Media Login</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Users can connect the food delivery app with their social media accounts for sharing their experiences, food images, and reviews.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Order Tracking </div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Users can track their food orders using a real-time tracking feature. Users can track the exact location of their orders and check how much time a driver will take to reach them.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="absolute inset-y-0 overflow-hidden hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
-
-    </div>
-
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 relative md:pb-16 sm:pb-14 pb-8 overflow-hidden" id="driverApp">
-        <div class="lg:w-4/5 w-full mx-auto">
-            <div class="font-semibold text-[#111457] text-2xl text-center " >Driver App</div>
-            <div class="text-black font-light text-center text-base pt-5 leading-6">A Driver Application is designed with great features and user-friendliness to accept or reject the restaurant delivery request as per the availability.</div>
-        </div>
-        <div class="flex flex-wrap mt-10">
-            <div class="lg:w-3/5 w-full">
-                <div class="flex flex-wrap ">
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Profile</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Drivers, after login, can make their profile on the app.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Manage Orders</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Drivers receive orders on this app and can manage multiple deliveries using the app.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Order History</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Drivers can save and manage all the information of food orders and deliveries on the app.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Realtime Tracking</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Drivers can track real-time customer locations, get route directions on maps.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Realtime Requests</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Drivers get notifications of the orders placed by customers on the app.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Availability Settings</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Drivers can choose to go offline or set their availability during different times in a day.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Delivery Information</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Drivers receive information on the locations of various food deliveries.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Payment History </div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Drivers can track and manage the payments for the day on the app.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="lg:w-2/5 w-full">
-                <div class="swiper keyfeatureswiper lg:mb-0 mb-20 h-full">
-                    <div class="swiper-wrapper ">
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination d-flex align-items-center justify-center "></div>
-                </div>
-            </div>
-        </div>
-        <div class="absolute overflow-hidden top-0 inset-x-0 bg-top  bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] h-full w-full bg-no-repeat GridLockup_beams-0___8Vns xl:top-8 bg-"></div>
-    
-    </div>
-
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 relative md:pb-16 sm:pb-14 pb-8 overflow-hidden" id="restaurantApp">
-        <div class="lg:w-4/5 w-full mx-auto">
-            <div class="font-semibold text-[#111457] text-2xl text-center " >Restaurant App</div>
-            <div class="text-black font-light text-center text-base pt-5 leading-6">A restaurant partner app helps to accept or reject the food delivery orders placed by the customers. It also helps in customizing the menu items as per availability.</div>
-        </div>
-        <div class="flex flex-wrap mt-10">
-            <div class="lg:w-2/5 w-full">
-                <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full">
-                    <div class="swiper-wrapper ">
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination d-flex align-items-center justify-center "></div>
-                </div>
-            </div>
-
-            <div class="lg:w-3/5 w-full">
-                <div class="flex flex-wrap ">
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Profile</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Allow restaurant owners to register and create a profile including restaurant address and contact details, a complete menu with prices, and delivery.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Menu Management</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Restaurants can create a new menu or customize menus based on customer food preferences and availability.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Manage Orders</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Restaurants can manage all the orders in one place, can get a complete view of the orders, including ongoing, dispatched, pickups, and scheduled ones.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Real-time Tracking of Driver</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Restaurants can track the real-time location of drivers with their real-time location. They can also check the total delivery time and routes.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Manage Offers & Discounts</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Restaurants can create new discount deals and offers or customize the current ones to benefit from ordering food.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Payment History</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Restaurants can manage all the orders in one place, can get a complete view of the orders, including ongoing, dispatched, pickups, and scheduled ones.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Push Notifications</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Restaurants get notifications about the new order, status of received or shipped orders, the payment received online, and other important updates.</p>
-                            </div>
-                        </div>
-                    </div>
-                    {{-- <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Payment History </div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Drivers can track and manage the payments for the day on the app.</p>
-                            </div>
-                        </div>
-                    </div> --}}
-                </div>
-            </div>
-        
-        </div>
-        <div class="absolute overflow-hidden top-0 inset-x-0 bg-top  bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] h-full w-full bg-no-repeat GridLockup_beams-0___8Vns xl:top-8 bg-"></div>
-
-    </div>
-
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 relative md:pb-16 sm:pb-14 pb-8 overflow-hidden" id="adminPanel">
-        <div class="lg:w-4/5 w-full mx-auto">
-            <div class="font-semibold text-[#111457] text-2xl text-center " >Admin Panel</div>
-            <div class="text-black font-light text-center text-base pt-5 leading-6">The Admin Dashboard helps restaurant owners to manage the complete delivery process.</div>
-        </div>
-        <div class="flex flex-wrap mt-10">
-            <div class="lg:w-3/5 w-full">
-                <div class="flex flex-wrap ">
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Customer Management</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">The dashboard includes the details of customers, cuisines, restaurants they prefer, and the orders they place.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Restaurants Management</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Manages details of all the restaurants by adding, updating, and removing restaurants from the list.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Driver Management</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">It includes the details of all the drivers, their profile information, license, and other details.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Payment & Commission Management</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Restaurant owners can set payments and manage commission rates directly from the panel.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Menu & Timing</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Restaurants can create different menus for different times and manage them on the admin panel.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Delivery zone Management</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">The restaurant owners can also track and manage all the food deliveries on the panel.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Analyzing & Reporting</div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">Get real-time insights into reports and other information to identify the growth and expansion opportunities.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-1/2 w-full">
-                        <div class="flex sm:p-3 p-2">
-                            <div class="p-0.5">
-                                <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
-                            </div>
-                            <div class="ml-6">
-                                <div class="sm:text-xl text-lg font-semibold leading-6 text-[#111457]">Promo codes </div>
-                                <p class="mt-2 sm:text-base text-sm leading-6 text-black line-clamp-4 text-ellipsis">The promo codes to add in cash deliveries, offers, and discounts can all be managed through this panel.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="lg:w-2/5 w-full">
-                <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full">
-                    <div class="swiper-wrapper ">
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination d-flex align-items-center justify-center "></div>
-                </div>
-            </div>
-        </div>
-        <div class="absolute overflow-hidden top-0 inset-x-0 bg-top  bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] h-full w-full bg-no-repeat GridLockup_beams-0___8Vns xl:top-8 bg-"></div>
-
-    </div>
-
 </div>
-
 {{-- key feature section end  --}}
 
 
