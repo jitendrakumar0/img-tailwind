@@ -2519,6 +2519,9 @@ select{
 .h-screen{
   height: 100vh;
 }
+.h-\[74px\]{
+  height: 74px;
+}
 .max-h-12{
   max-height: 3rem;
 }
@@ -2665,6 +2668,9 @@ select{
 }
 .w-1\/3{
   width: 33.333333%;
+}
+.w-\[120px\]{
+  width: 120px;
 }
 .min-w-0{
   min-width: 0px;
@@ -3228,6 +3234,10 @@ select{
 .bg-yellow-400{
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+}
+.bg-\[\#d90202\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 2 2 / var(--tw-bg-opacity));
 }
 .bg-opacity-75{
   --tw-bg-opacity: 0.75;
@@ -3929,6 +3939,9 @@ select{
 .pt-8{
   padding-top: 2rem;
 }
+.pr-12{
+  padding-right: 3rem;
+}
 .text-left{
   text-align: left;
 }
@@ -3988,6 +4001,10 @@ select{
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
 .font-bold{
   font-weight: 700;
 }
@@ -4002,6 +4019,9 @@ select{
 }
 .font-semibold{
   font-weight: 600;
+}
+.font-\[700\]{
+  font-weight: 700;
 }
 .uppercase{
   text-transform: uppercase;
@@ -5407,6 +5427,10 @@ select{
   content: var(--tw-content);
   top: 56%;
 }
+.after\:top-0::after{
+  content: var(--tw-content);
+  top: 0px;
+}
 .after\:-z-10::after{
   content: var(--tw-content);
   z-index: -10;
@@ -5454,6 +5478,10 @@ select{
 .after\:w-full::after{
   content: var(--tw-content);
   width: 100%;
+}
+.after\:w-\[18\%\]::after{
+  content: var(--tw-content);
+  width: 18%;
 }
 .after\:translate-y-1\/2::after{
   content: var(--tw-content);
@@ -5505,6 +5533,11 @@ select{
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(82 82 91 / var(--tw-bg-opacity));
+}
+.after\:bg-white::after{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .after\:bg-\[url\(\'\.\.\/img\/fooddelivery\/Down\.svg\'\)\]::after{
   content: var(--tw-content);
