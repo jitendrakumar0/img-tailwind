@@ -2023,27 +2023,11 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  var progressCircles = document.querySelectorAll(".autoplay-progress svg");
-  var progressContents = document.querySelectorAll(".autoplay-progress span");
-  function initSwiper(selector, options) {
+  var initSwiper = function initSwiper(selector, options) {
     return new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](selector, options);
-  }
-  function updateProgressCircles(circles, progress, autoplay) {
-    circles.forEach(function (circle) {
-      // Hide progress if autoplay is off
-      circle.style.setProperty("--progress", autoplay ? 1 - progress : 0);
-    });
-  }
-  function updateProgressContents(contents, time, autoplay) {
-    contents.forEach(function (content) {
-      // Hide contents if autoplay is off
-      content.textContent = autoplay ? "".concat(Math.ceil(time / 1000), "s") : '';
-    });
-  }
-  function getSwiperOptionsFromAttributes(element) {
-    var optionsAttribute = element.getAttribute("data-swiper-options");
-    var options = optionsAttribute ? JSON.parse(optionsAttribute) : {};
-
+  };
+  var getSwiperOptions = function getSwiperOptions(element) {
+    var options = JSON.parse(element.getAttribute("data-swiper-options")) || {};
     // Set default values for breakpoints if not provided
     // options.breakpoints = options.breakpoints || {
     //     320: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
@@ -2052,11 +2036,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //     1024: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
     //     1350: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
     // };
-
-    // Merge provided breakpoints with defaults
     options.breakpoints = _objectSpread(_objectSpread({}, options.breakpoints), options.breakpoints);
-
-    // Set default values for other properties if not provided
     options.slidesPerView = options.slidesPerView || 1;
     options.spaceBetween = options.spaceBetween || 0;
     options.autoplay = options.autoplay || false;
@@ -2071,15 +2051,11 @@ document.addEventListener("DOMContentLoaded", function () {
     options.centeredSlides = options.centeredSlides || false;
     options.thumbs = options.thumbs || {};
     return options;
-  }
-  var swipers = document.querySelectorAll(".swiper");
-  swipers.forEach(function (swiperElement, index) {
-    var options = getSwiperOptionsFromAttributes(swiperElement);
-    options.thumbs = options.thumbs || {};
-    if (options.thumbs.swiper) {
-      options.thumbs.swiper = swipers[index + 1];
-    }
-    initSwiper(swiperElement, options);
+  };
+  document.querySelectorAll(".swiper").forEach(function (el, i, swipers) {
+    var options = getSwiperOptions(el);
+    options.thumbs.swiper = swipers[i + 1];
+    initSwiper(el, options);
   });
 });
 document.addEventListener('DOMContentLoaded', function () {

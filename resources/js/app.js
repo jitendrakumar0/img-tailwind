@@ -8,34 +8,11 @@ import 'swiper/css/navigation';
 import 'intl-tel-input';
 import intlTelInput from 'intl-tel-input';
 
-
 document.addEventListener("DOMContentLoaded", () => {
-
-    const progressCircles = document.querySelectorAll(".autoplay-progress svg");
-    const progressContents = document.querySelectorAll(".autoplay-progress span");
-
-    function initSwiper(selector, options) {
-        return new Swiper(selector, options);
-    }
-
-    function updateProgressCircles(circles, progress, autoplay) {
-        circles.forEach(circle => {
-            // Hide progress if autoplay is off
-            circle.style.setProperty("--progress", autoplay ? 1 - progress : 0);
-        });
-    }
-
-    function updateProgressContents(contents, time, autoplay) {
-        contents.forEach(content => {
-            // Hide contents if autoplay is off
-            content.textContent = autoplay ? `${Math.ceil(time / 1000)}s` : '';
-        });
-    }
-
-    function getSwiperOptionsFromAttributes(element) {
-        const optionsAttribute = element.getAttribute("data-swiper-options");
-                const options = optionsAttribute ? JSON.parse(optionsAttribute) : {};
-        
+    const initSwiper = (selector, options) => new Swiper(selector, options);
+    
+    const getSwiperOptions = (element) => {
+        const options = JSON.parse(element.getAttribute("data-swiper-options")) || {};
         // Set default values for breakpoints if not provided
         // options.breakpoints = options.breakpoints || {
         //     320: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
@@ -44,43 +21,28 @@ document.addEventListener("DOMContentLoaded", () => {
         //     1024: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
         //     1350: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
         // };
-    
-        // Merge provided breakpoints with defaults
-        options.breakpoints = {
-            ...options.breakpoints,
-            ...options.breakpoints,
-        };
-    
-        // Set default values for other properties if not provided
+        options.breakpoints = { ...options.breakpoints, ...options.breakpoints };
         options.slidesPerView = options.slidesPerView || 1;
         options.spaceBetween = options.spaceBetween || 0;
         options.autoplay = options.autoplay || false;
         options.speed = options.speed || 300;
         options.loop = options.loop || false;
-        options.keyboard = options.keyboard || {"enabled": false};
+        options.keyboard = options.keyboard || { "enabled": false };
         options.navigation = options.navigation || false;
         options.scrollbar = options.scrollbar || false;
         options.allowTouchMove = options.allowTouchMove || true;
         options.centeredSlides = options.centeredSlides || false;
-    
         options.thumbs = options.thumbs || {};
-    
         return options;
-    }
+    };
 
-    const swipers = document.querySelectorAll(".swiper");
-
-    swipers.forEach((swiperElement, index) => {
-        const options = getSwiperOptionsFromAttributes(swiperElement);
-        options.thumbs = options.thumbs || {};
-        
-        if (options.thumbs.swiper) {
-            options.thumbs.swiper = swipers[index + 1];
-        }
-
-        initSwiper(swiperElement, options);
+    document.querySelectorAll(".swiper").forEach((el, i, swipers) => {
+        const options = getSwiperOptions(el);
+        options.thumbs.swiper = swipers[i + 1];
+        initSwiper(el, options);
     });
 });
+
 
 
 
