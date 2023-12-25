@@ -43,11 +43,29 @@ module.exports = {
         ]
       },
       animation: {
+        'progress': 'progress 3s forwards',
         'fixed-nav': 'fixedNav 0.6s',
         'fall': 'fall 0.6s',
         'diagonalfall': 'diagonalfall 0.6s',
       },
       keyframes: {
+        progress: {
+          '0%': {
+            '--progress': '0',
+          },
+          '25%': {
+            '--progress': '0.25',
+          },
+          '50%': {
+            '--progress': '0.5',
+          },
+          '75%': {
+            '--progress': '0.75',
+          },
+          '100%': {
+            '--progress': '1',
+          }
+        },
         fixedNav: {
           '0%': { 
             opacity: '0',

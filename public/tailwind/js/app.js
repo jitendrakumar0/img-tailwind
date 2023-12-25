@@ -2008,6 +2008,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/css/navigation */ "./node_modules/swiper/modules/navigation.css");
 /* harmony import */ var intl_tel_input__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! intl-tel-input */ "./node_modules/intl-tel-input/index.js");
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
 function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
@@ -2020,276 +2022,67 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
 
 
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", function () {
   var progressCircles = document.querySelectorAll(".autoplay-progress svg");
   var progressContents = document.querySelectorAll(".autoplay-progress span");
-  var heroSwiperThumbs = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".heroSwiperThumbs", {
-    // spaceBetween: 0,
-    slidesPerView: 1,
-    // watchSlidesProgress: true,
-    effect: "fade",
-    speed: 5500,
-    pagination: false,
-    navigation: false
-  });
-  var heroSwiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"]('.heroSwiper', {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false
-    // },
-    speed: 1500,
-    thumbs: {
-      swiper: heroSwiperThumbs
-    },
-    loop: true,
-    keyboard: {
-      enabled: true
-    },
-    breakpoints: {
-      320: {
-        centeredSlides: true,
-        slidesPerView: 1.2,
-        spaceBetween: 20
-      },
-      480: {
-        centeredSlides: true,
-        slidesPerView: 1.2,
-        spaceBetween: 20
-      },
-      640: {
-        centeredSlides: true,
-        slidesPerView: 1.2,
-        spaceBetween: 20
-      },
-      1024: {
-        centeredSlides: false,
-        slidesPerView: 2.5,
-        spaceBetween: 40
-      },
-      1350: {
-        slidesPerView: 2.5,
-        spaceBetween: 40
-      }
-    },
-    // pagination: {
-    //     el: ".swiper-pagination",
-    //     clickable: true,
-    //     dynamicBullets: true,
-    //     //   type: 'progressbar',
-    // },
+  function initSwiper(selector, options) {
+    return new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](selector, options);
+  }
+  function updateProgressCircles(circles, progress, autoplay) {
+    circles.forEach(function (circle) {
+      // Hide progress if autoplay is off
+      circle.style.setProperty("--progress", autoplay ? 1 - progress : 0);
+    });
+  }
+  function updateProgressContents(contents, time, autoplay) {
+    contents.forEach(function (content) {
+      // Hide contents if autoplay is off
+      content.textContent = autoplay ? "".concat(Math.ceil(time / 1000), "s") : '';
+    });
+  }
+  function getSwiperOptionsFromAttributes(element) {
+    var optionsAttribute = element.getAttribute("data-swiper-options");
+    var options = optionsAttribute ? JSON.parse(optionsAttribute) : {};
 
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev'
-    },
-    scrollbar: {
-      el: '.swiper-scrollbar',
-      hide: true
-    },
-    on: {
-      autoplayTimeLeft: function autoplayTimeLeft(s, time, progress) {
-        progressCircles.forEach(function (progressCircle) {
-          // Do something with each progress circle
-          progressCircle.style.setProperty("--progress", 1 - progress);
-        });
-        progressContents.forEach(function (progressContent) {
-          // Do something with each progress content
-          progressContent.textContent = "".concat(Math.ceil(time / 1000), "s");
-        });
-      }
+    // Set default values for breakpoints if not provided
+    // options.breakpoints = options.breakpoints || {
+    //     320: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
+    //     480: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
+    //     640: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
+    //     1024: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
+    //     1350: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
+    // };
+
+    // Merge provided breakpoints with defaults
+    options.breakpoints = _objectSpread(_objectSpread({}, options.breakpoints), options.breakpoints);
+
+    // Set default values for other properties if not provided
+    options.slidesPerView = options.slidesPerView || 1;
+    options.spaceBetween = options.spaceBetween || 0;
+    options.autoplay = options.autoplay || false;
+    options.speed = options.speed || 300;
+    options.loop = options.loop || false;
+    options.keyboard = options.keyboard || {
+      "enabled": false
+    };
+    options.navigation = options.navigation || false;
+    options.scrollbar = options.scrollbar || false;
+    options.allowTouchMove = options.allowTouchMove || true;
+    options.centeredSlides = options.centeredSlides || false;
+    options.thumbs = options.thumbs || {};
+    return options;
+  }
+  var swipers = document.querySelectorAll(".swiper");
+  swipers.forEach(function (swiperElement, index) {
+    var options = getSwiperOptionsFromAttributes(swiperElement);
+    options.thumbs = options.thumbs || {};
+    if (options.thumbs.swiper) {
+      options.thumbs.swiper = swipers[index + 1];
     }
+    initSwiper(swiperElement, options);
   });
-  var logoClouds = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".logo-clouds", {
-    slidesPerView: 1,
-    spaceBetween: 20,
-    loop: true,
-    centeredSlides: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 5,
-        spaceBetween: 20
-      },
-      480: {
-        slidesPerView: 5,
-        spaceBetween: 20
-      },
-      640: {
-        slidesPerView: 7,
-        spaceBetween: 30
-      },
-      1024: {
-        slidesPerView: 7,
-        spaceBetween: 30
-      },
-      1350: {
-        slidesPerView: 9,
-        spaceBetween: 30
-      }
-    },
-    speed: 5000,
-    allowTouchMove: false,
-    autoplay: {
-      enabled: true,
-      delay: 0
-    }
-  });
-  var AwardsRecognitions = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".AwardsRecognitions", {
-    slidesPerView: 2,
-    spaceBetween: 10,
-    speed: 5000,
-    // allowTouchMove: false,
-    autoplay: {
-      enabled: true,
-      delay: 0
-    },
-    loop: true,
-    effect: 'coverflow',
-    centeredSlides: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      },
-      480: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      },
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 30
-      },
-      1024: {
-        slidesPerView: 2,
-        spaceBetween: 30
-      },
-      1350: {
-        slidesPerView: 2,
-        spaceBetween: 30
-      }
-    }
-  });
-  var testimonialsSwiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".testimonialsSwiper", {
-    slidesPerView: 2,
-    spaceBetween: 10,
-    speed: 2000,
-    // allowTouchMove: false,
-    autoplay: {
-      enabled: true,
-      delay: 2500
-    },
-    loop: true,
-    effect: 'coverflow',
-    centeredSlides: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 1.3,
-        spaceBetween: 0
-      },
-      480: {
-        slidesPerView: 1.4,
-        spaceBetween: 10
-      },
-      640: {
-        slidesPerView: 1.5,
-        spaceBetween: 30
-      },
-      1024: {
-        slidesPerView: 1.8,
-        spaceBetween: 30
-      },
-      1350: {
-        slidesPerView: 2,
-        spaceBetween: 30
-      }
-    }
-  });
-  var portfolioSwiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".portfolioSwiper", {
-    slidesPerView: 2,
-    spaceBetween: 10,
-    speed: 2000,
-    // allowTouchMove: false,
-    autoplay: {
-      enabled: true,
-      delay: 2500
-    },
-    loop: true,
-    effect: 'coverflow',
-    centeredSlides: true,
-    breakpoints: {
-      320: {
-        slidesPerView: 1.5,
-        spaceBetween: 20
-      },
-      480: {
-        slidesPerView: 1.8,
-        spaceBetween: 20
-      },
-      640: {
-        slidesPerView: 2.5,
-        spaceBetween: 30
-      },
-      1024: {
-        slidesPerView: 3.5,
-        spaceBetween: 30
-      },
-      1350: {
-        slidesPerView: 4,
-        spaceBetween: 30
-      }
-    }
-  });
-  var blogsSwiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".blogsSwiper", {
-    slidesPerView: 2,
-    spaceBetween: 10,
-    speed: 1000,
-    loop: false,
-    effect: 'slide',
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 30
-      },
-      480: {
-        slidesPerView: 1.2,
-        spaceBetween: 20
-      },
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 30
-      },
-      1024: {
-        slidesPerView: 2.6,
-        spaceBetween: 30
-      },
-      1350: {
-        slidesPerView: 3,
-        spaceBetween: 30
-      }
-    }
-  });
-  var servicesSwiperThumb = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".servicesSwiperThumb", {
-    spaceBetween: 20,
-    slidesPerView: "auto",
-    freeMode: false,
-    loop: true,
-    watchSlidesProgress: false,
-    // centeredSlides: true,
-    centerInsufficientSlides: true,
-    centeredSlidesBounds: true,
-    speed: 500
-  });
-  var servicesSwiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](".servicesSwiper", {
-    spaceBetween: 10,
-    loop: true,
-    slidesPerView: 1,
-    effect: 'fade',
-    thumbs: {
-      swiper: servicesSwiperThumb
-    },
-    speed: 1500
-  });
+});
+document.addEventListener('DOMContentLoaded', function () {
   document.body.addEventListener("mousemove", function (event) {
     var cursor = document.getElementById("cursor");
     var cursor2 = document.getElementById("cursor2");

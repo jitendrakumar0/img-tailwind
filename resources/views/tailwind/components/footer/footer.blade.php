@@ -35,25 +35,25 @@
                 <div class="flex flex-wrap items-center justify-between py-8">
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/evelyn.webp'))}}" alt="Image of evelyn">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/evelyn.webp'))}}" alt="Image of evelyn">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Evelyn</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/Yeshi.webp'))}}" alt="Image of Yeshi S.">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/Yeshi.webp'))}}" alt="Image of Yeshi S.">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Yeshi S.</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/mohd-nizamuddin.webp'))}}" alt="Image of Mohd. Nizam">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/mohd-nizamuddin.webp'))}}" alt="Image of Mohd. Nizam">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Mohd. Nizam</div>
                     </div>
                     <div class="w-auto group/ba">
                         <div class="w-full">
-                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/jitesh.webp'))}}" alt="Image of Kapil Sharma">
+                            <img class="w-14 md:w-20 h-14 md:h-20 rounded-full mx-auto grayscale shadow-xl shadow-gray-900" loading="lazy" width="80" height="80" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/jitesh.webp'))}}" alt="Image of Kapil Sharma">
                         </div>
                         <div class="w-full text-center text-sm md:text-base pt-2">Jitesh Kumar</div>
                     </div>
@@ -199,17 +199,9 @@
                             </div>
                     
                         </div>
+                    
                         <div class="mt-6 flex items-center justify-center gap-x-6">
-                            <button type="submit" class="rounded-md group bg-sky-700 px-12 py-3 text-sm uppercase font-semibold shadow-sm duration-200 hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-700 rounded-br-none">
-                                <span class="btnText group-[.disabled]:hidden block">Send Now</span>
-                                <span class="btnLoader group-[.disabled]:flex hidden">
-                                    <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                                    </svg>
-                                    Processing...
-                                </span>
-                            </button>
+                            <button type="submit" class="rounded-md bg-sky-700 px-12 py-3 text-sm uppercase font-semibold shadow-sm duration-200 hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-700 rounded-br-none">Send Now</button>
                         </div>
                     </form>
 
@@ -229,7 +221,7 @@
                     <span>4.9/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/footer-clutch.webp'))}}" alt="footer clutch">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/footer-clutch.webp'))}}" alt="footer clutch">
                 </div>
             </div>
             <div class="w-auto">
@@ -240,7 +232,7 @@
                     <span>4.6/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/google.webp'))}}" alt="google">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/google.webp'))}}" alt="google">
                 </div>
             </div>
             <div class="w-auto">
@@ -251,7 +243,7 @@
                     <span>4.8/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/mobileapp.webp'))}}" alt="mobileapp">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/mobileapp.webp'))}}" alt="mobileapp">
                 </div>
             </div>
             <div class="w-auto">
@@ -262,7 +254,7 @@
                     <span>4.4/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/trustpilot.webp'))}}" alt="trustpilot">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/trustpilot.webp'))}}" alt="trustpilot">
                 </div>
             </div>
             <div class="w-auto">
@@ -273,7 +265,7 @@
                     <span>4.6/5</span>
                 </div>
                 <div class="w-full h-12 -mt-1">
-                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/bussinesapp.webp'))}}" alt="bussinesapp">
+                    <img class="w-full h-full object-contain" loading="lazy" width="110" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/bussinesapp.webp'))}}" alt="bussinesapp">
                 </div>
             </div>
         </div>
