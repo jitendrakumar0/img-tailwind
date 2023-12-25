@@ -3,7 +3,7 @@
     "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=291eb0423153d0e7563f11c348ba691a",
     "/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js": "/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js?id=75dfdb948b2f5031ff5968c2e92d3df1",
     "/tailwind/js/festival-decor/newYear/newYear.js": "/tailwind/js/festival-decor/newYear/newYear.js?id=0c5c0a85a9a377e302a14ee10ef4548d",
-    "/tailwind/css/app.css": "/tailwind/css/app.css?id=5cbea9a30ccc5b2d8153957a2d6f2273",
+    "/tailwind/css/app.css": "/tailwind/css/app.css?id=580e26c368b651b5ba1168dcea6fd107",
     "/tailwind/android-chrome-144x144.png": "/tailwind/android-chrome-144x144.png?id=de3c1fceec9a432a8ddcf6684b1d46c2",
     "/tailwind/android-chrome-192x192.png": "/tailwind/android-chrome-192x192.png?id=d24a76fcee41c06d0bc18709fc08be46",
     "/tailwind/android-chrome-36x36.png": "/tailwind/android-chrome-36x36.png?id=363494c1dab183d3c362a428be7a0476",
@@ -126,6 +126,8 @@
     "/tailwind/img/payment.svg": "/tailwind/img/payment.svg?id=155a27fa661745f37b842db2df31c23f",
     "/tailwind/img/pizzaShimg.png": "/tailwind/img/pizzaShimg.png?id=b45191f0a987df0af3566fda4324b58d",
     "/tailwind/img/place.svg": "/tailwind/img/place.svg?id=f5df1fd5e57c07381ec71c99f29d2f8a",
+    "/tailwind/img/Propira01.png": "/tailwind/img/Propira01.png?id=1a90de97cec40d728fc2ada28659a1d2",
+    "/tailwind/img/PropiraLogo.png": "/tailwind/img/PropiraLogo.png?id=2f51975138e66c65b3c16be7e723accf",
     "/tailwind/img/real-estate.webp": "/tailwind/img/real-estate.webp?id=a2118996b4f64cb2cf0f98a030bc0f4f",
     "/tailwind/img/retail-and-ecommerce-app.webp": "/tailwind/img/retail-and-ecommerce-app.webp?id=a8645b6616160955cc1f4d370aae51a9",
     "/tailwind/img/rholang.webp": "/tailwind/img/rholang.webp?id=90728c1305fab9f66233cd3e0dd827dd",
@@ -177,7 +179,5 @@
     "/tailwind/mstile-70x70.png": "/tailwind/mstile-70x70.png?id=b030c4c6f977862bebfde9549f586c94",
     "/tailwind/robots.txt": "/tailwind/robots.txt?id=25866381e74ad6159dc9a03a996ca61c",
     "/tailwind/safari-pinned-tab.svg": "/tailwind/safari-pinned-tab.svg?id=53630740360ccc7baf8efc5465380ae5",
-    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=37c41ba005122d6067255f1bb75ceac7",
-    "/tailwind/img/Propira01.png": "/tailwind/img/Propira01.png?id=1a90de97cec40d728fc2ada28659a1d2",
-    "/tailwind/img/PropiraLogo.png": "/tailwind/img/PropiraLogo.png?id=2f51975138e66c65b3c16be7e723accf"
+    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=37c41ba005122d6067255f1bb75ceac7"
 }
