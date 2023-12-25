@@ -23,6 +23,9 @@ Route::get('/disclaimer.php', function () {
 Route::get('/home-delivery-app-development.php', function () {
   return view('tailwind/pages/home-delivery-app-development/home-delivery-app-development');
 });
+Route::get('/Propira-caseStudy.blade.php', function () {
+  return view('tailwind/pages/Propira-caseStudy/Propira-caseStudy');
+});
 
 
 
