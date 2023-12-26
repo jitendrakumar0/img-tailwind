@@ -1,11 +1,10 @@
-import Swiper from 'swiper/bundle';
 import 'swiper';
-// import 'swiper/css';
 import 'swiper/css/navigation';
 // import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
-
 import '../plugins/intl-tel-input/build/js/intlTelInput.js';
+
+import Swiper from 'swiper/bundle';
 import intlTelInput from '../plugins/intl-tel-input/build/js/intlTelInput.js';
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -42,8 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
         initSwiper(el, options);
     });
 });
-
-
 
 
 document.addEventListener('DOMContentLoaded', function () {
