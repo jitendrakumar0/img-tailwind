@@ -67,7 +67,7 @@
     <div class="flex flex-wrap">
         <div class="w-full sm:w-[65%] bg-[#d90202] sm:bg-white">
             <div class="textSetion w-full sm:w-[75%] px-6 sm:px-16 xl:px-20 py-12 lg:py-16 xl:py-20">
-                <div class="text-3xl text-white sm:text-black sm:text-4xl md:text-4xl lg:text-6xl font-semibold !leading-[120%]">
+                <div class="text-2xl text-white sm:text-black sm:text-3xl md:text-4xl lg:text-6xl font-semibold !leading-[120%]">
                     Propira: Your One-stop Real Estate Solution
                 </div>
                 <div class="text-sm text-white sm:text-black sm:text-base md:text-base lg:text-2xl !leading-[120%]  pt-5 md:pt-8">
@@ -97,7 +97,7 @@
 {{-- section Third Start --}}
     <div class="py-8 md:py-14 lg:py-20 max-w-7xl px-6 lg:px-20 mx-auto">
         <div class="header">
-            <div class="text-3xl font-semibold text-center">Solution delivered</div>
+            <div class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center">Solution delivered</div>
             <div class="py-2 flex justify-center">
                 <span class="relative after:content-[''] after:absolute after:h-[3px] after:w-[50px] after:bg-black after:top-1/2 after:right-0 after:mr-3"></span>
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg"><path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path></svg>
@@ -109,7 +109,7 @@
                 <img src="{{asset('public'.mix('/tailwind/img/Propira03.png'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
             <div class="txtSide w-full lg:w-1/2 px-5 md:px-10 lg:px-0">
-                <div class="heading text-2xl lg:text-3xl font-semibold">
+                <div class="heading text-xl sm:text-2xl lg:text-3xl font-semibold">
                     Discover Your Dream Space with Propira's Comprehensive Property Listings
                 </div>
                 <div class="text-sm lg:text-base pt-5 opacity-60">
@@ -147,7 +147,7 @@
         </div>
         <div class="flex items-center flex-wrap pt-6 sm:pt-12 lg:pt-20">
             <div class="txtSide w-full lg:w-1/2 px-5 md:px-10 lg:px-0 order-2 lg:order-1">
-                <div class="heading text-2xl lg:text-3xl font-semibold">
+                <div class="heading text-xl sm:text-2xl lg:text-3xl font-semibold">
                     Embark On A Journey Of Precision With Propira's Advanced Search & Filtering
                 </div>
                 <div class="text-sm lg:text-base pt-5 opacity-60">
@@ -191,7 +191,7 @@
                 <img src="{{asset('public'.mix('/tailwind/img/Propira05.png'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
             <div class="txtSide w-full lg:w-1/2 px-5 md:px-10 lg:px-0">
-                <div class="heading text-2xl lg:text-3xl font-semibold">
+                <div class="heading text-xl sm:text-2xl lg:text-3xl font-semibold">
                     Get Unparalleled Real Estate Excellence with Propira’s Expert Guidance & Services
                 </div>
                 <div class="text-sm lg:text-base pt-5 opacity-60">
@@ -229,7 +229,7 @@
         </div>
         <div class="flex items-center flex-wrap pt-6 sm:pt-12 lg:pt-20">
             <div class="txtSide w-full lg:w-1/2 px-5 md:px-10 lg:px-0 order-2 lg:order-1">
-                <div class="heading text-2xl lg:text-3xl font-semibold">
+                <div class="heading text-xl sm:text-2xl lg:text-3xl font-semibold">
                     Embark on A Captivating Journey Via Immersive 3D Tours by Propira
                 </div>
                 <div class="text-sm lg:text-base pt-5 opacity-60">
@@ -275,7 +275,7 @@
 {{-- project Section Start --}}
     <div class="py-8 md:py-14 lg:py-20 bg-[#d90202] px-2 sm:px-6 md:px-8 lg:px-10">
         <div class="header">
-            <div class="text-3xl font-semibold text-center text-white">
+            <div class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center text-white">
                 Explore our latest projects
             </div>
             <div class="py-2 flex justify-center text-white">
@@ -336,7 +336,7 @@
 {{-- color section start --}}
     <div class="py-8 md:py-14 lg:py-20 px-2 sm:px-6 md:px-8 lg:px-10">
         <div class="header">
-            <div class="text-3xl font-semibold text-center">
+            <div class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center">
                 Colors & Typography
             </div>
             <div class="py-2 flex justify-center">
@@ -357,9 +357,9 @@
 {{-- color section ends --}}
 
 {{-- unique Section Start --}}
-    <div class="py-8 md:py-14 lg:py-20 px-2 bg-[#d90202] sm:px-6 md:px-8 lg:px-10">
-        <div class="header px-20">
-            <div class="text-3xl font-semibold text-center text-white">
+    <div class="px-2 sm:px-6 md:px-8 lg:px-10 py-8 md:py-14 lg:py-20">
+        <div class="header px-5 sm:px-14 md:px-20 bg-[#d90202] py-8 md:py-14 lg:py-20">
+            <div class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center text-white">
                 Propira: Redefining Uniqueness, Elevating Real Estate Excellence
             </div>
             <div class="pt-3 flex justify-center text-white">
@@ -371,7 +371,41 @@
                 Propira transcends the ordinary and redefines the essence of real estate. The innovative technology, personalized approach, and commitment to transparency elevate the real estate experience. Discover a new era of excellence with Propira, where uniqueness meets unparalleled service. Your dream property awaits – explore, engage, and elevate your journey with Propira.
             </div>
         </div>
-        
+        <div class="flex items-center flex-wrap md:mt-[-50px] justify-around gap-y-6">
+            <div class="w-full md:w-1/4 shadow-2xl rounded-md px-6 pb-10 pt-14 sm:pt-20 md:pt-24 bg-white z-[10] relative group before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-0 before:w-full before:bg-[#d90202] hover:before:top-0 hover:before:h-full before:transition-all before:duration-500 before:z-[-1] hover:before:origin-bottom hover:before:transition-all hover:before:duration-500 hover:before:text-white">
+                <div class="heading text-xl sm:text-2xl font-semibold !leading-[120%] text-black z-10 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
+                    Innovative Technology Integration
+                </div>
+                <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
+                    Propira stands out through its cutting-edge technology integration, streamlining the real estate experience. From advanced property search algorithms to virtual tours and online transaction management, Propira harnesses technology to enhance every step of the real estate process.
+                </div>
+                <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 group-hover:text-white group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
+                    01
+                </div>
+            </div>
+            <div class="w-full md:w-1/4 shadow-2xl rounded-md px-6 pb-10 pt-14 sm:pt-20 md:pt-24 bg-white z-[10] relative group before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-0 before:w-full before:bg-[#d90202] hover:before:top-0 hover:before:h-full before:transition-all before:duration-500 before:z-[-1] hover:before:origin-bottom hover:before:transition-all hover:before:duration-500 hover:before:text-white">
+                <div class="heading text-xl sm:text-2xl font-semibold !leading-[120%] text-black z-10 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
+                    Innovative Technology Integration
+                </div>
+                <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
+                    Propira stands out through its cutting-edge technology integration, streamlining the real estate experience. From advanced property search algorithms to virtual tours and online transaction management, Propira harnesses technology to enhance every step of the real estate process.
+                </div>
+                <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 group-hover:text-white group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
+                    02
+                </div>
+            </div>
+            <div class="w-full md:w-1/4 shadow-2xl rounded-md px-6 pb-10 pt-14 sm:pt-20 md:pt-24 bg-white z-[10] relative group before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-0 before:w-full before:bg-[#d90202] hover:before:top-0 hover:before:h-full before:transition-all before:duration-500 before:z-[-1] hover:before:origin-bottom hover:before:transition-all hover:before:duration-500 hover:before:text-white">
+                <div class="heading text-xl sm:text-2xl font-semibold !leading-[120%] text-black z-10 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
+                    Innovative Technology Integration
+                </div>
+                <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
+                    Propira stands out through its cutting-edge technology integration, streamlining the real estate experience. From advanced property search algorithms to virtual tours and online transaction management, Propira harnesses technology to enhance every step of the real estate process.
+                </div>
+                <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 group-hover:text-white group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
+                    03
+                </div>
+            </div>
+        </div>
     </div>
 {{-- unique Section ends --}}
 
