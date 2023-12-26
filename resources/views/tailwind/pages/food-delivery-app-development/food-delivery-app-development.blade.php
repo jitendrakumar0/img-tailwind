@@ -141,27 +141,18 @@
         <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
             A Customer Application is designed with ease to help the customers place their food delivery order by browsing multiple restaurants and its menu.
         </div> --}}
-        <div class="flex flex-row w-full flex-wrap pt-8">
-            <div class="w-full -mb-[120px] z-[2] p-4 md:p-6">
-                <div class="swiper servicesSwiperThumb bg-white border-[10px] border-white rounded-xl">
-                    <div class="swiper-wrapper flex items-center !h-auto sm:text-base text-sm font-semibold">
-                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-sky-800 bg-sky-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-sky-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-sky-900 group-[.swiper-slide-thumb-active]/svc:to-sky-700 group-[.swiper-slide-thumb-active]/svc:text-white">Customer App</a>
-                        </div>
-                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-fuchsia-800 bg-fuchsia-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-fuchsia-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-fuchsia-900 group-[.swiper-slide-thumb-active]/svc:to-fuchsia-700 group-[.swiper-slide-thumb-active]/svc:text-white">Driver App</a>
-                        </div>
-                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-teal-800 bg-teal-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-teal-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-teal-900 group-[.swiper-slide-thumb-active]/svc:to-teal-700 group-[.swiper-slide-thumb-active]/svc:text-white">Restaurant App</a>
-                        </div>
-                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-amber-800 bg-amber-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-amber-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-amber-900 group-[.swiper-slide-thumb-active]/svc:to-amber-700 group-[.swiper-slide-thumb-active]/svc:text-white">Admin Panel</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="flex flex-col-reverse w-full flex-wrap pt-8">
             <div class="w-full">
-                <div class="swiper servicesSwiper text-white">
+                <div class="swiper keyFeatures text-white" 
+                    data-swiper-options='{
+                        "spaceBetween": 10,
+                        "loop": true,
+                        "slidesPerView": 1,
+                        "effect": "fade",
+                        "speed": 1500,
+                        "thumbs": {"swiper": ".keyFeaturesThumb"}
+                    }'
+                >
                     <div class="swiper-wrapper">
                         <div class="swiper-slide group/svc">
                             <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-sky-950 via-sky-900 to-sky-800 !pt-28">
@@ -190,7 +181,15 @@
                                 </div>
                                 <div class="flex flex-wrap mt-10">
                                     <div class="lg:w-2/6 w-full">
-                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full">
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full" 
+                                            data-swiper-options='{
+                                                "loop": true,
+                                                "centeredSlides": true,
+                                                "speed": 1500,
+                                                "allowTouchMove": false,
+                                                "autoplay": {"enabled": true, "delay": 2000}
+                                            }'
+                                        >
                                             <div class="swiper-wrapper ">
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
@@ -430,7 +429,15 @@
                                         </div>
                                     </div>
                                     <div class="lg:w-2/6 w-full">
-                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full">
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full" 
+                                            data-swiper-options='{
+                                                "loop": true,
+                                                "centeredSlides": true,
+                                                "speed": 1500,
+                                                "allowTouchMove": false,
+                                                "autoplay": {"enabled": true, "delay": 2000}
+                                            }'
+                                        >
                                             <div class="swiper-wrapper ">
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
@@ -487,7 +494,15 @@
                                 </div>
                                 <div class="flex flex-wrap mt-10">
                                     <div class="lg:w-2/6 w-full">
-                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full">
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full" 
+                                            data-swiper-options='{
+                                                "loop": true,
+                                                "centeredSlides": true,
+                                                "speed": 1500,
+                                                "allowTouchMove": false,
+                                                "autoplay": {"enabled": true, "delay": 2000}
+                                            }'
+                                        >
                                             <div class="swiper-wrapper ">
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
@@ -727,7 +742,15 @@
                                         </div>
                                     </div>
                                     <div class="lg:w-2/6 w-full">
-                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full">
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full" 
+                                            data-swiper-options='{
+                                                "loop": true,
+                                                "centeredSlides": true,
+                                                "speed": 1500,
+                                                "allowTouchMove": false,
+                                                "autoplay": {"enabled": true, "delay": 2000}
+                                            }'
+                                        >
                                             <div class="swiper-wrapper ">
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
@@ -760,10 +783,42 @@
                     </div>
                 </div>
             </div>
+            <div class="w-full -mb-[120px] z-[2] p-4 md:p-6">
+                <div class="swiper keyFeaturesThumb bg-white border-[10px] border-white rounded-xl" 
+                    data-swiper-options='{
+                        "spaceBetween": 20,
+                        "slidesPerView": "auto",
+                        "freeMode": false,
+                        "loop": true,
+                        "watchSlidesProgress": false,
+                        "centerInsufficientSlides": true,
+                        "centeredSlidesBounds": true,
+                        "speed": 500
+                    }'
+                >
+                    <div class="swiper-wrapper flex items-center !h-auto sm:text-base text-sm font-semibold">
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-sky-800 bg-sky-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-sky-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-sky-900 group-[.swiper-slide-thumb-active]/svc:to-sky-700 group-[.swiper-slide-thumb-active]/svc:text-white">Customer App</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-fuchsia-800 bg-fuchsia-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-fuchsia-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-fuchsia-900 group-[.swiper-slide-thumb-active]/svc:to-fuchsia-700 group-[.swiper-slide-thumb-active]/svc:text-white">Driver App</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-teal-800 bg-teal-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-teal-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-teal-900 group-[.swiper-slide-thumb-active]/svc:to-teal-700 group-[.swiper-slide-thumb-active]/svc:text-white">Restaurant App</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-amber-800 bg-amber-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-amber-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-amber-900 group-[.swiper-slide-thumb-active]/svc:to-amber-700 group-[.swiper-slide-thumb-active]/svc:text-white">Admin Panel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 {{-- key feature section end  --}}
+
+
+
 
 
 {{-- Solution Section Start --}}
@@ -1009,7 +1064,24 @@
             <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-600 to-gray-100 bg-clip-text text-transparent"> And Elevate Your Expectations!</span>
         </p>
     </div>
-    <div class="swiper portfolioSwiper w-full swiper-coverflow swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress">
+    <div class="swiper portfolioSwiper w-full swiper-coverflow swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" 
+        data-swiper-options='{
+            "slidesPerView": 2,
+            "spaceBetween": 10,
+            "speed": 2000,
+            "autoplay": {"enabled": true, "delay": 2500},
+            "loop": true,
+            "effect": "coverflow",
+            "centeredSlides": true,
+            "breakpoints": {
+                "320": {"slidesPerView": 1.5, "spaceBetween": 20},
+                "480": {"slidesPerView": 1.8, "spaceBetween": 20},
+                "640": {"slidesPerView": 2.5, "spaceBetween": 30},
+                "1024": {"slidesPerView": 3.5, "spaceBetween": 30},
+                "1350": {"slidesPerView": 4, "spaceBetween": 30}
+            }
+        }'
+    >
         <div class="swiper-wrapper flex items-center py-5" id="swiper-wrapper-322bf19bcd9678f9" aria-live="off" style="transition-duration: 2000ms; transform: translate3d(-675.5px, 0px, 0px);">
             
             
@@ -1148,7 +1220,22 @@
             <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-700 to-gray-500 bg-clip-text text-transparent"> Explore our insightful blogs to stay abreast of the latest innovations and trends. Stay informed, stay ahead.</span>
         </p>
         <div class="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">
-            <div class="swiper blogsSwiper w-full !overflow-visible">
+            <div class="swiper blogsSwiper w-full !overflow-visible" 
+                data-swiper-options='{
+                    "slidesPerView": 2,
+                    "spaceBetween": 10,
+                    "speed": 1000,
+                    "loop": false,
+                    "effect": "slide",
+                    "breakpoints": {
+                        "320": {"slidesPerView": 1, "spaceBetween": 30},
+                        "480": {"slidesPerView": 1.2, "spaceBetween": 20},
+                        "640": {"slidesPerView": 2, "spaceBetween": 30},
+                        "1024": {"slidesPerView": 2.6, "spaceBetween": 30},
+                        "1350": {"slidesPerView": 3, "spaceBetween": 30}
+                    }
+                }'
+            >
                 <div class="swiper-wrapper flex items-center pb-8">
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between shadow-sm bg-white">
@@ -1404,7 +1491,22 @@
             <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-700 to-gray-500 bg-clip-text text-transparent"> Explore our insightful blogs to stay abreast of the latest innovations and trends. Stay informed, stay ahead.</span>
         </p>
         <div class="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">
-            <div class="swiper blogsSwiper w-full !overflow-visible">
+            <div class="swiper blogsSwiper w-full !overflow-visible" 
+                data-swiper-options='{
+                    "slidesPerView": 2,
+                    "spaceBetween": 10,
+                    "speed": 1000,
+                    "loop": false,
+                    "effect": "slide",
+                    "breakpoints": {
+                        "320": {"slidesPerView": 1, "spaceBetween": 30},
+                        "480": {"slidesPerView": 1.2, "spaceBetween": 20},
+                        "640": {"slidesPerView": 2, "spaceBetween": 30},
+                        "1024": {"slidesPerView": 2.6, "spaceBetween": 30},
+                        "1350": {"slidesPerView": 3, "spaceBetween": 30}
+                    }
+                }'
+            >
                 <div class="swiper-wrapper flex items-center pb-8">
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
