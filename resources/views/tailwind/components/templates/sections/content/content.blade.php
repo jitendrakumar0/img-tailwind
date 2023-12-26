@@ -66,7 +66,7 @@
         </div>
 </div>
 
-<div class="my-7 w-full flex flex-wrap">
+<div class="my-7 w-full flex flex-wrap items-center">
     <div class="lg:w-[60%] w-full  pe-10">
         <div class="text-[#337ca6] text-sm font-semibold mx-auto">Touching Lives Through Technology</div>
         <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
@@ -85,17 +85,89 @@
             </span>
         </a> 
     </div>
-    <div class="lg:w-[40%] p-6 lg:pt-0 pt-4 w-full rounded-xl h-full flex justify-center items-center overflow-hidden relative">
-        <div class=" mx-auto rounded-xl overflow-hidden">
+    <div class="lg:w-[40%] p-6 lg:pt-0 pt-4 w-full rounded-xl h-full flex justify-center items-center">
+        <div class=" mx-auto rounded-3xl overflow-hidden">
             <img src="{{asset('public'.mix('/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
         </div>
-        
-    <div class="w-full h-full absolute -z-10 top-0 left-0">
-       <svg xmlns='http://www.w3.org/2000/svg'   viewBox='0 0 900 600'><rect fill='#ffffff' width='900' height='600'/><g fill-opacity='1'><path fill='#C4FDFF'  d='M306.9 210.2c-1.2-22.8-13.5-42.7-40.8-41.1c-18.3 1.1-35.9 3.6-47.5 20.1c-5.2 7.4-10.6 15.6-11.4 24.9c-0.5 5.8 0.2 12 1.2 17.7c9 49.6 85.3 46.7 96.4 0.2C306.6 224.9 307.3 217.4 306.9 210.2z'/><path fill='#c3f8ff'  d='M137.2 481.3c-13.2-9.9-31.2-13.3-48.5-3.2c-12.6 7.3-19.1 17.4-21.1 28.2c-0.7 2.4-1.2 4.7-1.5 7c-8.2 35.4 33.7 78.9 72.6 48.6C167.6 539.3 164.4 501.6 137.2 481.3z'/><g fill='#c1f2ff' ><path d='M547.9 588.3c-7.1-34.2-61.6-52.7-87.5-16.9c-11.2 11.3-12.7 26.3-7.6 39.7c1.8 7.5 5.5 13.9 10.4 19.1c19.4 20.3 53.4 26.2 72.8 1.9C545.9 619.7 553.9 604.2 547.9 588.3z'/><path d='M547.9-11.7c-7.1-34.2-61.6-52.7-87.5-16.9c-11.2 11.3-12.7 26.3-7.6 39.7c1.8 7.5 5.5 13.9 10.4 19.1c19.4 20.3 53.4 26.2 72.8 1.9C545.9 19.7 553.9 4.2 547.9-11.7z'/></g><path fill='#c0edff'  d='M849.7 498c-22.3 1.3-43.2 7.5-52.7 29.5c-3.3 7.7-7.3 15.7-7 24.3c2 55.6 86.1 63.4 98.8 10.1C890.6 554.6 877.3 496.4 849.7 498z'/><path fill='#bee7ff'  d='M762 291.1c-8.2-6.1-19.1-1.9-27.3 2.2c-7.4 3.7-14.4 8.2-21.6 12.1c-6.6 3.6-13.7 7-19.8 11.5c-18.3 13.5-2.5 45.1 10.6 56.4c17 14.6 41.6 15.9 59.6 2.1C794.1 351.8 790.7 312.4 762 291.1z'/><path fill='#bde1ff'  d='M863.3 170.3c-4.5-15.7-17.9-28.8-33.4-34.4c-16.2-5.8-38.4-2.9-51.8 8.1c-14.9 12.2-14.5 31.7-11.4 49c9.6 53.9 84.3 47.7 97-1.3C865.6 184.4 865.3 177.1 863.3 170.3z'/><path fill='#bcdbff'  d='M598.4 86.1c-10.2 15.5-9.3 34.2-0.9 50.4c2.6 5 6.2 9.5 10.4 13.2c14.2 12.6 35.5 17.1 53.2 9.5c14.3-6.1 23.9-19.8 26.7-34.7C707.4 75.6 629.7 38.5 598.4 86.1z'/><path fill='#bad4ff'  d='M509.8 413.3c-17.3 22.6-11.8 59 17.5 75.3c22.6 12.6 52.2 1.7 63.8-20.9c21.4-42-9.2-85-56.5-71C523.8 399.9 515.6 405.8 509.8 413.3z'/><path fill='#b9cdff'  d='M607.4 232.3c-0.5-0.4-1-0.8-1.4-1.2c-16.5-12.8-30.2-22.1-50.3-8.4c-15.5 10.6-29 30.3-31.4 49.1c-4.2 33.6 30.6 46.9 58.6 40.6C619.6 304.2 640.6 259.5 607.4 232.3z'/><path fill='#b7c6ff'  d='M410.6 95c-36.5 1.3-74.1 41.8-43.1 74.3c19.8 20.9 54.4 20.7 74.6 0.5c20.5-20.4 18.4-53.1-6.9-68.6C427.7 96.6 419.2 94.7 410.6 95z'/><path fill='#b6bfff'  d='M291.3 23c-0.1-0.1-0.1-0.1-0.2-0.2c-14.2-16.9-38.3-25.6-61.4-12.3c-13.5 7.8-20.5 18.7-22.7 30.2c-5.7 18 1.5 34.2 14.2 44.8c15.4 16.8 40.3 24.1 64.2 5.5c9.6-7.4 15-16.3 17.2-25.4C308.6 48.8 302.7 33.6 291.3 23z'/><path fill='#b4b7ff'  d='M419.1 440.6c-16.9-14.5-41.8-21.5-61.7-9.5c-18.3 11.1-1 100.1 32.2 93.5c23.8-4.7 45.3-22.4 48.1-44.3C439.6 466.1 431.5 451.3 419.1 440.6z'/><path fill='#b7b3ff'  d='M127 227c-12-4.3-25.4-2.1-38.7 11.4C71 255.9 61.4 286.1 80.4 306c21.3 22.3 86.9 27.5 89.6-14.9c0.5-8.9-2.7-17.9-6.5-25.8C155.1 248.3 142.1 232.5 127 227z'/><path fill='#bcb2ff'  d='M281.5 407.6c-0.3-0.4-0.7-0.7-1-1c-19.3-17.6-59.1-0.6-78.1 10.3c-23.8 13.7-8.2 41.1 5.4 55.8c16.3 17.6 42.7 25.2 68 5.8C291.3 466.6 295.5 422.7 281.5 407.6z'/><path fill='#c1b0ff'  d='M137.9 110.2c-10.4-25.7-43.3-32.1-67-23.6C60.1 90.4 50 97.8 45.1 108.6c-21.2 47.3 44.9 81.1 78.5 51c9.5-8.5 17.3-18.9 17.4-32.4C141 120.8 139.9 115.1 137.9 110.2z'/><path fill='#c7afff'  d='M344.3 284.7c-10 14.9-9.2 34.1-0.9 49.5c3.4 6.3 8.6 13.8 16.1 15.8c7.1 1.9 15.1 0.7 22.1-0.6c15.7-3 45.6-10.5 52.3-26.8C453.5 274.4 375.6 237.9 344.3 284.7z'/><g fill='#cdadff' ><path d='M-29.2 431.8c23.4 12.4 54.1 1.7 66.1-20.6c9.6-17.8 10.4-40.4-3.3-56.5c-10.5-12.4-44.2-25.8-58.5-11.3c-3 3.1-5.1 7.1-6.9 10.9C-41.1 373.2-55 418.1-29.2 431.8z'/><path d='M870.8 431.8c23.4 12.4 54.1 1.7 66.1-20.6c9.6-17.8 10.4-40.4-3.3-56.5c-10.5-12.4-44.2-25.8-58.5-11.3c-3 3.1-5.1 7.1-6.9 10.9C858.9 373.2 845 418.1 870.8 431.8z'/></g><path fill='#D3ACFF'  d='M671.4 460.5c-10.7 1.7-20.2 8.3-26.2 22.2c-21.5 49.5 45.4 84.9 79.4 53.3c16.3-15.2 24-31 6.5-48.1c-5.9-5.8-12.3-11-19.1-15.6C699.5 463.7 684.5 458.4 671.4 460.5z'/></g></svg>
-    </div>
     </div>
 </div> 
 
+<div class="text-center py-4 items-center justify-center">
+    <div class=" flex items-center font-bold justify-center bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">Our Values</div>
+    <div class="flex text-left mt-5 gap-4 flex-wrap">
+        <div class="lg:w-[32%] md:w-[49%] w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-30 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
+            <div class="flex items-center justify-between">
+                <div class="bg-blue-100 shadow-md w-[55px] h-[55px] rounded-full flex items-center justify-center mb-4">
+                    <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] ">01</div>
+                    </div>
+                    <div class="h-[80px] w-[120px] rounded-full flex items-center justify-center">
+                        <img src="{{asset('public'.mix('/tailwind/img/innovation.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+
+                            <defs>
+                            </defs>
+                            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+                                <path d="M 26.509 72.532 c -0.127 0 -0.257 -0.024 -0.382 -0.076 c -1.489 -0.617 -2.649 -1.778 -3.267 -3.27 s -0.618 -3.133 -0.001 -4.621 c 0.764 -1.844 -0.248 -3.136 -0.718 -3.606 c -0.471 -0.471 -1.761 -1.482 -3.607 -0.719 c -1.491 0.616 -3.131 0.616 -4.622 0 c -1.49 -0.617 -2.651 -1.777 -3.268 -3.268 l -3.282 -7.923 c -0.617 -1.487 -0.616 -3.128 0.001 -4.62 c 0.618 -1.492 1.777 -2.653 3.266 -3.27 c 1.846 -0.765 2.045 -2.394 2.045 -3.059 c 0 -0.665 -0.199 -2.294 -2.042 -3.058 c -1.49 -0.617 -2.651 -1.778 -3.269 -3.269 c -0.617 -1.49 -0.617 -3.132 0 -4.622 l 3.281 -7.923 c 0.617 -1.49 1.778 -2.651 3.269 -3.268 c 1.49 -0.618 3.132 -0.617 4.622 0 c 1.844 0.764 3.137 -0.248 3.606 -0.718 c 0.471 -0.471 1.482 -1.764 0.718 -3.607 c -0.617 -1.49 -0.617 -3.131 0 -4.622 c 0.618 -1.491 1.779 -2.651 3.27 -3.269 l 7.921 -3.282 c 1.491 -0.618 3.133 -0.618 4.623 0 c 1.491 0.618 2.652 1.779 3.269 3.27 c 0.763 1.843 2.393 2.042 3.058 2.042 s 2.294 -0.199 3.057 -2.041 c 1.277 -3.076 4.813 -4.542 7.892 -3.269 l 7.924 3.282 c 1.489 0.616 2.649 1.777 3.268 3.268 c 0.616 1.49 0.617 3.13 0.001 4.621 c -0.765 1.847 0.246 3.139 0.717 3.608 c 0.471 0.471 1.76 1.481 3.606 0.718 c 3.075 -1.275 6.614 0.191 7.892 3.266 l 3.282 7.924 c 0.618 1.491 0.618 3.133 0 4.623 c -0.618 1.49 -1.779 2.651 -3.269 3.268 c -1.846 0.764 -2.043 2.392 -2.042 3.057 c 0 0.663 0.197 2.279 2.015 3.047 c 0.01 0.004 0.021 0.008 0.03 0.012 c 3.073 1.274 4.539 4.813 3.267 7.889 l -3.282 7.924 c -1.275 3.071 -4.811 4.537 -7.89 3.27 c -1.844 -0.766 -3.139 0.246 -3.609 0.717 c -0.471 0.47 -1.482 1.761 -0.718 3.606 c 1.273 3.076 -0.192 6.616 -3.267 7.892 c -0.508 0.211 -1.094 -0.029 -1.307 -0.541 c -0.212 -0.51 0.03 -1.095 0.541 -1.307 c 2.056 -0.853 3.036 -3.221 2.185 -5.278 c -1.262 -3.044 0.562 -5.199 1.152 -5.787 c 0.587 -0.588 2.743 -2.411 5.787 -1.15 c 2.056 0.847 4.425 -0.132 5.277 -2.187 l 3.282 -7.922 c 0.847 -2.048 -0.121 -4.403 -2.157 -5.265 c -0.011 -0.003 -0.021 -0.008 -0.03 -0.012 c -3.04 -1.259 -3.276 -4.073 -3.276 -4.905 c -0.001 -0.831 0.231 -3.645 3.276 -4.906 c 0.996 -0.413 1.773 -1.189 2.187 -2.187 c 0.413 -0.996 0.413 -2.094 0 -3.091 l -3.282 -7.924 c -0.854 -2.056 -3.22 -3.038 -5.278 -2.185 c -3.044 1.261 -5.199 -0.562 -5.787 -1.151 c -0.588 -0.587 -2.411 -2.743 -1.149 -5.787 c 0.412 -0.996 0.411 -2.094 -0.001 -3.091 c -0.413 -0.997 -1.189 -1.773 -2.186 -2.186 l -7.924 -3.282 c -2.057 -0.852 -4.424 0.129 -5.278 2.187 c -1.259 3.039 -4.072 3.275 -4.905 3.275 s -3.647 -0.236 -4.906 -3.277 c -0.413 -0.997 -1.189 -1.773 -2.187 -2.187 c -0.996 -0.413 -2.094 -0.413 -3.092 0 l -7.921 3.282 c -0.997 0.413 -1.774 1.189 -2.187 2.186 c -0.413 0.997 -0.413 2.095 0 3.091 c 1.261 3.04 -0.562 5.198 -1.151 5.787 c -0.588 0.589 -2.744 2.414 -5.786 1.152 c -0.997 -0.413 -2.095 -0.413 -3.092 0 c -0.997 0.413 -1.773 1.189 -2.186 2.186 L 9.21 27.917 c -0.413 0.997 -0.413 2.095 0 3.092 c 0.413 0.997 1.189 1.773 2.186 2.186 c 3.041 1.26 3.277 4.074 3.277 4.906 s -0.236 3.645 -3.279 4.906 c -0.995 0.412 -1.77 1.189 -2.183 2.187 c -0.414 0.998 -0.414 2.095 -0.002 3.089 l 3.282 7.923 c 0.413 0.997 1.189 1.772 2.186 2.186 c 0.996 0.411 2.095 0.412 3.092 0 c 3.045 -1.257 5.2 0.563 5.787 1.152 c 0.588 0.589 2.41 2.745 1.151 5.786 c -0.413 0.995 -0.412 2.092 0.001 3.091 c 0.414 0.998 1.189 1.775 2.185 2.187 c 0.51 0.212 0.752 0.797 0.541 1.307 C 27.273 72.3 26.901 72.532 26.509 72.532 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path d="M 61.386 20.659 c -4.867 -4.572 -11.236 -6.857 -17.93 -6.438 C 31.56 14.968 21.957 24.494 21.119 36.38 c -0.56 7.928 2.817 15.597 9.034 20.516 c 3.051 2.414 4.801 5.956 4.801 9.716 v 0.547 v 10.914 c 0 1.41 0.952 2.589 2.244 2.963 v 4.166 c 0 2.646 2.153 4.799 4.799 4.799 h 6.008 c 2.646 0 4.8 -2.152 4.8 -4.799 v -4.166 c 1.291 -0.374 2.243 -1.553 2.243 -2.963 V 67.158 V 66.61 c 0 -3.745 1.732 -7.327 4.633 -9.581 c 5.887 -4.575 9.263 -11.469 9.263 -18.913 C 68.942 31.531 66.188 25.169 61.386 20.659 z M 50.803 85.201 c 0 1.543 -1.256 2.799 -2.8 2.799 h -6.008 c -1.543 0 -2.799 -1.256 -2.799 -2.799 V 81.17 h 11.607 V 85.201 z M 53.047 78.072 c 0 0.605 -0.493 1.098 -1.099 1.098 h -0.145 H 38.197 h -0.146 c -0.605 0 -1.098 -0.492 -1.098 -1.098 v -9.914 h 16.094 V 78.072 z M 40.669 43.232 h -3.789 c -2.089 0 -3.788 -1.699 -3.788 -3.788 c 0 -2.089 1.7 -3.788 3.789 -3.788 c 2.089 0 3.788 1.699 3.788 3.788 V 43.232 z M 42.669 45.232 h 4.662 v 20.926 h -4.662 V 45.232 z M 58.453 55.449 c -3.269 2.54 -5.265 6.517 -5.399 10.71 h -3.723 V 45.232 h 3.788 c 3.191 0 5.788 -2.597 5.788 -5.788 c 0 -3.191 -2.597 -5.788 -5.788 -5.788 c -3.191 0 -5.788 2.597 -5.788 5.788 v 3.788 h -4.662 v -3.788 c 0 -3.191 -2.597 -5.788 -5.789 -5.788 c -3.191 0 -5.788 2.597 -5.788 5.788 c 0 3.191 2.597 5.788 5.788 5.788 h 3.789 v 20.926 h -3.724 c -0.135 -4.205 -2.142 -8.132 -5.552 -10.831 c -5.698 -4.508 -8.793 -11.539 -8.28 -18.807 c 0.768 -10.891 9.567 -19.619 20.468 -20.304 c 6.143 -0.385 11.975 1.71 16.436 5.9 c 4.466 4.194 6.925 9.875 6.925 15.998 C 66.942 44.938 63.847 51.256 58.453 55.449 z M 49.331 43.232 v -3.788 c 0 -2.089 1.699 -3.788 3.788 -3.788 c 2.089 0 3.788 1.699 3.788 3.788 c 0 2.089 -1.699 3.788 -3.788 3.788 H 49.331 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                            </g>
+                            </svg>
+                    </div>
+            </div>
+            <div class=" text-[#337ca6]  whitespace-nowrap mt-1 font-semibold text-sm">Ensure Impactful Innovations</div>
+            <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">An unwavering commitment to drive maximum customer satisfaction, infused with integrity and passion.</div>
+            <a class="mt-5 inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
+                <span class="select-none">
+                Lets Get Connect <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
+                </span>
+            </a>
+        </div>
+        <div class="lg:w-[32%] md:w-[49%] w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-30 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
+            <div class="flex items-center justify-between">
+                <div class="shadow-md w-[70px] h-[70px] rounded-full flex items-center justify-center mb-4">
+                    <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">02</div>
+                    </div>
+                    <div class="h-[100px] w-[100px] rounded-full flex items-center justify-center">
+                        <img src="{{asset('public'.mix('/tailwind/img/selfimprove.png'))}}" alt="thanku" class="img-fluid object-contain h-full w-full ">
+                    </div>
+            </div>
+            <div class=" text-[#337ca6]  whitespace-nowrap mt-1 font-semibold text-sm">Focus On Self-Development</div>
+            <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">Training and mentorship programs, interactive sessions and community meetups to drive personal growth.</div>
+            <a class="mt-5 inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
+                <span class="select-none">
+                Lets Get Connect <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
+                </span>
+            </a>
+        </div>
+        <div class="lg:w-[32%] md:w-[49%] w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-30 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
+            <div class="flex items-center justify-between">
+                <div class="bg-blue-100 shadow-md w-[55px] h-[55px] rounded-full flex items-center justify-center mb-4">
+                    <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] ">03</div>
+                    </div>
+                    <div class="h-[100px] w-[100px] rounded-full flex items-center justify-center">
+                        <img src="{{asset('public'.mix('/tailwind/img/selfdevelopment.png'))}}" alt="thanku" class="img-fluid h-full w-full object-cover">
+
+                            <defs>
+                            </defs>
+                            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+                                <path d="M 86.49 78.406 H 3.51 c -1.935 0 -3.51 -1.574 -3.51 -3.51 V 15.104 c 0 -1.935 1.575 -3.51 3.51 -3.51 h 82.98 c 1.936 0 3.51 1.575 3.51 3.51 v 59.793 C 90 76.832 88.426 78.406 86.49 78.406 z M 3.51 13.594 c -0.833 0 -1.51 0.677 -1.51 1.51 v 59.793 c 0 0.832 0.677 1.51 1.51 1.51 h 82.98 c 0.832 0 1.51 -0.678 1.51 -1.51 V 15.104 c 0 -0.833 -0.678 -1.51 -1.51 -1.51 H 3.51 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path d="M 89 26.186 H 1 c -0.552 0 -1 -0.448 -1 -1 V 15.104 c 0 -1.935 1.575 -3.51 3.51 -3.51 h 82.98 c 1.936 0 3.51 1.575 3.51 3.51 v 10.082 C 90 25.738 89.553 26.186 89 26.186 z M 2 24.186 h 86 v -9.082 c 0 -0.833 -0.678 -1.51 -1.51 -1.51 H 3.51 c -0.833 0 -1.51 0.677 -1.51 1.51 V 24.186 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path d="M 65.418 19.89 H 7.99 c -0.552 0 -1 -0.448 -1 -1 s 0.448 -1 1 -1 h 57.428 c 0.553 0 1 0.448 1 1 S 65.971 19.89 65.418 19.89 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path d="M 82.01 19.89 h -8.081 c -0.553 0 -1 -0.448 -1 -1 s 0.447 -1 1 -1 h 8.081 c 0.553 0 1 0.448 1 1 S 82.563 19.89 82.01 19.89 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path d="M 31.855 63.456 h -3.71 c -1.889 0 -3.425 -1.536 -3.425 -3.425 c 0 -0.535 -0.296 -1.02 -0.774 -1.265 c -0.381 -0.196 -0.751 -0.41 -1.112 -0.643 c -0.45 -0.29 -1.016 -0.305 -1.479 -0.036 c -0.793 0.457 -1.716 0.579 -2.599 0.343 c -0.884 -0.236 -1.623 -0.803 -2.081 -1.596 l -1.854 -3.213 c -0.457 -0.792 -0.579 -1.715 -0.342 -2.599 c 0.237 -0.885 0.804 -1.623 1.597 -2.08 c 0.462 -0.267 0.733 -0.766 0.708 -1.3 c -0.021 -0.428 -0.021 -0.857 0 -1.284 c 0.026 -0.535 -0.245 -1.034 -0.708 -1.301 c -1.636 -0.945 -2.199 -3.044 -1.255 -4.68 l 1.854 -3.212 c 0.458 -0.792 1.197 -1.359 2.08 -1.597 c 0.886 -0.236 1.808 -0.115 2.599 0.343 c 0.462 0.266 1.044 0.245 1.516 -0.058 c 0.169 -0.108 0.341 -0.213 0.517 -0.314 c 0.171 -0.099 0.347 -0.195 0.525 -0.287 c 0.498 -0.258 0.808 -0.75 0.808 -1.284 c 0 -1.889 1.536 -3.425 3.425 -3.425 h 3.71 c 1.889 0 3.425 1.537 3.425 3.425 c 0 0.535 0.297 1.02 0.775 1.266 c 0.379 0.194 0.75 0.409 1.11 0.641 c 0.451 0.29 1.018 0.305 1.479 0.037 c 0.793 -0.458 1.715 -0.579 2.6 -0.343 c 0.884 0.237 1.623 0.804 2.081 1.596 l 1.854 3.212 c 0.457 0.792 0.579 1.715 0.342 2.599 s -0.804 1.623 -1.596 2.08 c -0.462 0.267 -0.734 0.765 -0.708 1.299 c 0.021 0.428 0.021 0.856 0 1.284 c -0.026 0.535 0.246 1.034 0.709 1.303 l -0.501 0.865 l 0.501 -0.866 c 1.636 0.944 2.198 3.044 1.254 4.68 l -1.854 3.212 c -0.458 0.792 -1.196 1.359 -2.08 1.596 c -0.885 0.237 -1.808 0.115 -2.599 -0.342 c -0.462 -0.268 -1.043 -0.246 -1.516 0.059 c -0.17 0.108 -0.34 0.213 -0.515 0.313 c -0.174 0.101 -0.349 0.195 -0.525 0.287 c -0.5 0.258 -0.81 0.75 -0.81 1.285 C 35.28 61.92 33.744 63.456 31.855 63.456 z M 22.065 55.896 c 0.643 0 1.285 0.183 1.851 0.547 c 0.307 0.197 0.622 0.38 0.944 0.545 c 1.147 0.589 1.86 1.755 1.86 3.043 c 0 0.786 0.639 1.426 1.425 1.426 h 3.71 c 0.786 0 1.425 -0.64 1.425 -1.425 c 0 -1.286 0.724 -2.459 1.89 -3.062 c 0.149 -0.077 0.298 -0.158 0.447 -0.243 c 0.148 -0.086 0.293 -0.175 0.435 -0.266 c 1.102 -0.706 2.479 -0.748 3.594 -0.105 c 0.329 0.189 0.711 0.242 1.082 0.143 c 0.368 -0.099 0.675 -0.334 0.865 -0.664 l 1.854 -3.212 c 0.393 -0.681 0.159 -1.555 -0.522 -1.947 c 0 0 0 0 0 0 c -1.114 -0.645 -1.768 -1.845 -1.706 -3.132 c 0.018 -0.363 0.018 -0.726 0 -1.09 c -0.062 -1.287 0.592 -2.485 1.706 -3.128 c 0.681 -0.393 0.916 -1.267 0.522 -1.947 l -1.854 -3.212 c -0.19 -0.33 -0.498 -0.566 -0.865 -0.665 c -0.367 -0.097 -0.751 -0.048 -1.082 0.143 c -1.113 0.642 -2.478 0.611 -3.562 -0.086 c -0.306 -0.196 -0.621 -0.378 -0.943 -0.544 c -1.148 -0.591 -1.861 -1.757 -1.861 -3.043 c 0 -0.787 -0.639 -1.426 -1.425 -1.426 h -3.71 c -0.786 0 -1.425 0.639 -1.425 1.425 c 0 1.285 -0.724 2.458 -1.89 3.061 c -0.15 0.078 -0.298 0.158 -0.445 0.244 c -0.151 0.086 -0.294 0.174 -0.436 0.265 c -1.104 0.708 -2.481 0.748 -3.595 0.106 c -0.331 -0.191 -0.714 -0.242 -1.081 -0.143 c -0.368 0.099 -0.675 0.334 -0.866 0.665 l -1.854 3.212 c -0.393 0.681 -0.159 1.554 0.522 1.947 c 1.116 0.644 1.77 1.844 1.707 3.133 c -0.018 0.361 -0.018 0.725 0 1.089 c 0.062 1.287 -0.592 2.485 -1.706 3.128 c -0.33 0.19 -0.566 0.498 -0.665 0.866 c -0.099 0.367 -0.048 0.752 0.143 1.081 l 1.854 3.213 c 0.393 0.68 1.267 0.914 1.947 0.521 C 20.887 56.049 21.477 55.896 22.065 55.896 z M 30 54.015 c -3.868 0 -7.014 -3.146 -7.014 -7.015 c 0 -3.868 3.146 -7.014 7.014 -7.014 s 7.014 3.146 7.014 7.014 C 37.014 50.868 33.868 54.015 30 54.015 z M 30 41.986 c -2.765 0 -5.014 2.25 -5.014 5.014 s 2.25 5.015 5.014 5.015 s 5.014 -2.25 5.014 -5.015 S 32.765 41.986 30 41.986 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                <path d="M 86.49 78.406 h -9.234 c -0.162 0 -0.322 -0.039 -0.466 -0.115 l -14.957 -7.877 c -2.944 1.456 -6.382 1.424 -9.302 -0.114 c -3.112 -1.639 -5.141 -4.718 -5.428 -8.238 c -0.029 -0.363 0.142 -0.715 0.446 -0.916 c 0.304 -0.201 0.694 -0.22 1.017 -0.05 l 4.52 2.381 c 0.326 0.171 0.697 0.207 1.049 0.097 c 0.351 -0.108 0.639 -0.348 0.81 -0.673 l 2.393 -4.544 c 0.171 -0.325 0.205 -0.697 0.097 -1.049 c -0.108 -0.351 -0.348 -0.639 -0.673 -0.81 l -4.52 -2.38 c -0.323 -0.17 -0.527 -0.502 -0.534 -0.867 c -0.006 -0.364 0.187 -0.704 0.503 -0.886 c 3.065 -1.755 6.753 -1.822 9.862 -0.186 c 2.92 1.538 4.893 4.354 5.358 7.605 l 22.035 11.604 C 89.794 71.562 90 71.902 90 72.273 v 2.623 C 90 76.832 88.426 78.406 86.49 78.406 z M 77.503 76.406 h 8.987 c 0.832 0 1.51 -0.678 1.51 -1.51 v -2.02 L 66.033 61.31 c -0.301 -0.158 -0.5 -0.458 -0.53 -0.796 c -0.251 -2.804 -1.882 -5.258 -4.362 -6.564 c -1.91 -1.007 -4.092 -1.211 -6.112 -0.624 l 2.664 1.403 c 0.798 0.42 1.385 1.126 1.651 1.987 c 0.268 0.861 0.183 1.775 -0.237 2.572 l -2.393 4.544 c -0.42 0.798 -1.126 1.385 -1.987 1.651 c -0.862 0.268 -1.775 0.183 -2.572 -0.237 l -2.664 -1.403 c 0.66 2 2.063 3.682 3.973 4.688 c 2.479 1.305 5.426 1.262 7.88 -0.118 c 0.296 -0.165 0.657 -0.172 0.956 -0.013 L 77.503 76.406 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                            </g>
+                            </svg>
+                    </div>
+            </div>
+            <div class=" text-[#337ca6]  whitespace-nowrap mt-1 font-semibold text-sm"> Integrate work-life balance</div>
+            <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">Latest infrastructure and flexible working hours along with many other privileges that inculcate healthy lifestyle choices.</div>
+            <a class="mt-5 inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
+                <span class="select-none">
+                Lets Get Connect <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
 
 <div class="flex items-center mb-6 justify-between flex-wrap pt-4 select-none">
     
@@ -171,13 +243,22 @@
                             </div>
         </div>
     </div> 
-    <div class="w-[200px] h-[200px]  absolute bottom-[-100px] right-[-50px] -z-[1] rounded-full overflow-hidden ">
+    <div class="w-[200px] h-[200px]   absolute bottom-[-40%] right-[-3%] -z-[1] rounded-full overflow-hidden ">
         <img src="{{asset('public'.mix('/tailwind/img/girl.jpg'))}}" alt="thanku" class="img-fluid h-full w-full ">
     </div>
     <div class=" before:-z-30 before:absolute before:contents-[''] before:w-[80%] before:rounded-xl before:top-0 before:right-0 before:h-full before:bg-gradient-to-br from-gray-950 via-sky-950 to-gray-950" ></div>
     </div>
+
 </div>
 
+<div class="flex">
+    <div class="w-[60%]">
+<div class="w-[600px] h-10 flex border">
+
+</div>
+    </div>
+
+</div>
 
 </div>
 </div>
