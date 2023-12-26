@@ -2006,10 +2006,10 @@ module.exports = function (list, options) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper/bundle */ "./node_modules/swiper/swiper-bundle.mjs");
-/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.mjs");
-/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/css/navigation */ "./node_modules/swiper/modules/navigation.css");
-/* harmony import */ var _plugins_intl_tel_input_build_js_intlTelInput_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../plugins/intl-tel-input/build/js/intlTelInput.js */ "./resources/plugins/intl-tel-input/build/js/intlTelInput.js");
+/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.mjs");
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/css/navigation */ "./node_modules/swiper/modules/navigation.css");
+/* harmony import */ var _plugins_intl_tel_input_build_js_intlTelInput_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../plugins/intl-tel-input/build/js/intlTelInput.js */ "./resources/plugins/intl-tel-input/build/js/intlTelInput.js");
+/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper/bundle */ "./node_modules/swiper/swiper-bundle.mjs");
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
 function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
@@ -2018,8 +2018,6 @@ function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _ty
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 
 
-// import 'swiper/css';
-
 // import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
 
@@ -2027,7 +2025,7 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
 
 document.addEventListener("DOMContentLoaded", function () {
   var initSwiper = function initSwiper(selector, options) {
-    return new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__["default"](selector, options);
+    return new swiper_bundle__WEBPACK_IMPORTED_MODULE_3__["default"](selector, options);
   };
   var getSwiperOptions = function getSwiperOptions(element) {
     var options = JSON.parse(element.getAttribute("data-swiper-options")) || {};
@@ -2119,7 +2117,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 document.addEventListener('DOMContentLoaded', function () {
   var input = document.querySelector("#phone");
-  var iti = _plugins_intl_tel_input_build_js_intlTelInput_js__WEBPACK_IMPORTED_MODULE_3__(input, _defineProperty(_defineProperty({
+  var iti = _plugins_intl_tel_input_build_js_intlTelInput_js__WEBPACK_IMPORTED_MODULE_2__(input, _defineProperty(_defineProperty({
     nationalMode: true,
     initialCountry: 'in',
     placeholderNumberType: 'FIXED_LINE',
