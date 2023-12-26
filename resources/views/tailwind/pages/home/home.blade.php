@@ -18,7 +18,7 @@
 
 <meta name="classification" content="web and mobile app development company, software development, eCommerce development services, fantasy sports app development, online exam app">
 <link rel="canonical" href="https://www.imgglobalinfotech.com/">
-<meta name="robots" content="noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <!-- Meta Pixel Code -->
 {{-- <script>
 !function(f,b,e,v,n,t,s)
@@ -70,38 +70,36 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
 </div>
 
-<div class="flex w-full pt-16 md:pt-20 lg:pt-32 overflow-hidden relative bg-slate-50 select-none">
-    
-    <div class="swiper heroSwiperThumbs !absolute !inset-0 before:absolute before:inset-0 before:z-[3]">
-        <div class="swiper-wrapper relative z-0">
-            <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
-                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-yellow-950 before:via-yellow-900 before:to-yellow-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
-            </div>
-            <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
-                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-lime-950 before:via-lime-900 before:to-lime-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
-            </div>
-            <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
-                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-sky-950 before:via-sky-900 before:to-sky-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
-            </div>
-            <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
-                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-purple-950 before:via-purple-900 before:to-purple-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
-            </div>
-            <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
-                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-rose-950 before:via-rose-900 before:to-rose-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
-            </div>
-        </div>
-    </div>
-    <div class="swiper heroSwiper md:min-h-[500px] h-[500px] md:h-[calc(100vh-80px)] lg:h-[calc(100vh-128px)] w-full">
+<div class="flex w-full pt-16 md:pt-20 lg:pt-32 overflow-hidden relative bg-slate-50 select-none max-h-[750px]">
+    <div class="swiper heroSwiper md:min-h-[500px] h-[500px] md:h-[calc(100vh-80px)] lg:h-[calc(100vh-128px)] w-full relative !z-10" 
+        data-swiper-options='{
+            "slidesPerView": 1,
+            "spaceBetween": 10,
+            "autoplay": {"delay": 2500, "disableOnInteraction": false},
+            "speed": 1500,
+            "loop": true,
+            "keyboard": {"enabled": true},
+            "navigation": {"nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev"},
+            "scrollbar": {"el": ".swiper-scrollbar", "hide": true},
+            "thumbs": {"swiper": ".heroSwiperThumbs"},
+            "breakpoints": {
+                "320": {"centeredSlides": true, "slidesPerView": 1.2, "spaceBetween": 20},
+                "480": {"centeredSlides": true, "slidesPerView": 1.2, "spaceBetween": 20},
+                "640": {"centeredSlides": true, "slidesPerView": 1.2, "spaceBetween": 20},
+                "1024": {"centeredSlides": false, "slidesPerView": 2.5, "spaceBetween": 40},
+                "1350": {"slidesPerView": 2.5, "spaceBetween": 40}
+            }
+        }'
+    >
         <div class="swiper-wrapper">
             <div class="swiper-slide group py-5">
-                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-yellow-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-yellow-950 before:via-yellow-900 before:to-yellow-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
-                    <img class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl" loading="lazy" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp'))}}" alt="unlock-access-to-bespoke-apps-and-product-innovation-with-us">
+                <div class="flex h-full items-center justify-center rounded-2xl w-full relative aspect-[860/460] group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-yellow-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-yellow-950 before:via-yellow-900 before:to-yellow-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
+                    <img class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp'))}}" alt="unlock-access-to-bespoke-apps-and-product-innovation-with-us">
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
-                    <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
-                        <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
+                    <div class="autoplay-progress group-[.swiper-slide-active]:animate-progress absolute opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 p-1 bottom-4 z-10 w-4 h-4 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full [--progress:0;]">
+                        <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] bg-white/20 rounded-full [transform:rotate(-90deg)] fill-none stroke-[8px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] ease-linear group-[.swiper-slide-active]:duration-[1500ms] left-0 top-0 z-10 w-full h-full stroke-white/80">
                             <circle cx="24" cy="24" r="20"></circle>
                         </svg>
-                        <span class="text-xs"></span>
                     </div>
                     <div class="relative p-10 overflow-hidden duration-150 z-10 opacity-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-next]:opacity-100">
                         <div class="title duration-300 text-[0px] group-[.swiper-slide-next]:text-2xl/tight max-xl:group-[.swiper-slide-next]:text-lg/tight font-light text-white max-md:opacity-0 max-md:group-[.swiper-slide-active]:opacity-100 max-md:-translate-x-full max-md:group-[.swiper-slide-active]:translate-x-0 max-md:duration-300 max-md:delay-300 max-md:group-[.swiper-slide-active]:text-2xl/tight max-xl:group-[.swiper-slide-active]:text-3xl/tight group-[.swiper-slide-active]:text-4xl/tight group-[.swiper-slide-prev]:opacity-0 group-[.swiper-slide-prev]:text-4xl/tight">
@@ -131,14 +129,13 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
             <div class="swiper-slide group py-5">
-                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-lime-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-lime-950 before:via-lime-900 before:to-lime-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
-                    <img class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl" loading="lazy" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp'))}}" alt="elevate-your-vision-with-robust-and-scalable-mobile-app-development1">
+                <div class="flex h-full items-center justify-center rounded-2xl w-full relative aspect-[860/460] group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-lime-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-lime-950 before:via-lime-900 before:to-lime-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
+                    <img class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp'))}}" alt="elevate-your-vision-with-robust-and-scalable-mobile-app-development1">
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
-                    <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
-                        <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
+                    <div class="autoplay-progress group-[.swiper-slide-active]:animate-progress absolute opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 p-1 bottom-4 z-10 w-4 h-4 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full [--progress:0;]">
+                        <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] bg-white/20 rounded-full [transform:rotate(-90deg)] fill-none stroke-[8px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] ease-linear group-[.swiper-slide-active]:duration-[1500ms] left-0 top-0 z-10 w-full h-full stroke-white/80">
                             <circle cx="24" cy="24" r="20"></circle>
                         </svg>
-                        <span class="text-xs"></span>
                     </div>
                     <div class="relative p-10 overflow-hidden duration-150 z-10 opacity-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-next]:opacity-100">
                         <div class="title duration-300 text-[0px] group-[.swiper-slide-next]:text-2xl/tight max-xl:group-[.swiper-slide-next]:text-lg/tight font-light text-white max-md:opacity-0 max-md:group-[.swiper-slide-active]:opacity-100 max-md:-translate-x-full max-md:group-[.swiper-slide-active]:translate-x-0 max-md:duration-300 max-md:delay-300 max-md:group-[.swiper-slide-active]:text-2xl/tight max-xl:group-[.swiper-slide-active]:text-3xl/tight group-[.swiper-slide-active]:text-4xl/tight group-[.swiper-slide-prev]:opacity-0 group-[.swiper-slide-prev]:text-4xl/tight">
@@ -168,14 +165,13 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
             <div class="swiper-slide group py-5">
-                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-sky-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-sky-950 before:via-sky-900 before:to-sky-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
-                    <img class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl" loading="lazy" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development!.webp'))}}" alt="level_up_your_business_game_with_fantasy_sports_app_development!">
+                <div class="flex h-full items-center justify-center rounded-2xl w-full relative aspect-[860/460] group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-sky-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-sky-950 before:via-sky-900 before:to-sky-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
+                    <img loading="lazy" class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development!.webp'))}}" alt="level_up_your_business_game_with_fantasy_sports_app_development!">
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
-                    <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
-                        <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
+                    <div class="autoplay-progress group-[.swiper-slide-active]:animate-progress absolute opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 p-1 bottom-4 z-10 w-4 h-4 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full [--progress:0;]">
+                        <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] bg-white/20 rounded-full [transform:rotate(-90deg)] fill-none stroke-[8px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] ease-linear group-[.swiper-slide-active]:duration-[1500ms] left-0 top-0 z-10 w-full h-full stroke-white/80">
                             <circle cx="24" cy="24" r="20"></circle>
                         </svg>
-                        <span class="text-xs"></span>
                     </div>
                     <div class="relative p-10 overflow-hidden duration-150 z-10 opacity-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-next]:opacity-100">
                         <div class="title duration-300 text-[0px] group-[.swiper-slide-next]:text-2xl/tight max-xl:group-[.swiper-slide-next]:text-lg/tight font-light text-white max-md:opacity-0 max-md:group-[.swiper-slide-active]:opacity-100 max-md:-translate-x-full max-md:group-[.swiper-slide-active]:translate-x-0 max-md:duration-300 max-md:delay-300 max-md:group-[.swiper-slide-active]:text-2xl/tight max-xl:group-[.swiper-slide-active]:text-3xl/tight group-[.swiper-slide-active]:text-4xl/tight group-[.swiper-slide-prev]:opacity-0 group-[.swiper-slide-prev]:text-4xl/tight">
@@ -205,14 +201,13 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
             <div class="swiper-slide group py-5">
-                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-purple-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-purple-950 before:via-purple-900 before:to-purple-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
-                    <img class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl" loading="lazy" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions.webp'))}}" alt="enhance-your-brand-presence-with-innovative-web-development-solutions">
+                <div class="flex h-full items-center justify-center rounded-2xl w-full relative aspect-[860/460] group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-purple-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-purple-950 before:via-purple-900 before:to-purple-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
+                    <img loading="lazy" class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions.webp'))}}" alt="enhance-your-brand-presence-with-innovative-web-development-solutions">
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
-                    <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
-                        <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
+                    <div class="autoplay-progress group-[.swiper-slide-active]:animate-progress absolute opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 p-1 bottom-4 z-10 w-4 h-4 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full [--progress:0;]">
+                        <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] bg-white/20 rounded-full [transform:rotate(-90deg)] fill-none stroke-[8px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] ease-linear group-[.swiper-slide-active]:duration-[1500ms] left-0 top-0 z-10 w-full h-full stroke-white/80">
                             <circle cx="24" cy="24" r="20"></circle>
                         </svg>
-                        <span class="text-xs"></span>
                     </div>
                     <div class="relative p-10 overflow-hidden duration-150 z-10 opacity-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-next]:opacity-100">
                         <div class="title duration-300 text-[0px] group-[.swiper-slide-next]:text-2xl/tight max-xl:group-[.swiper-slide-next]:text-lg/tight font-light text-white max-md:opacity-0 max-md:group-[.swiper-slide-active]:opacity-100 max-md:-translate-x-full max-md:group-[.swiper-slide-active]:translate-x-0 max-md:duration-300 max-md:delay-300 max-md:group-[.swiper-slide-active]:text-2xl/tight max-xl:group-[.swiper-slide-active]:text-3xl/tight group-[.swiper-slide-active]:text-4xl/tight group-[.swiper-slide-prev]:opacity-0 group-[.swiper-slide-prev]:text-4xl/tight">
@@ -242,14 +237,13 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
             </div>
             <div class="swiper-slide group py-5">
-                <div class="flex h-full items-center justify-center rounded-2xl w-full relative group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-rose-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-rose-950 before:via-rose-900 before:to-rose-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
-                    <img class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl" loading="lazy" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.webp'))}}" alt="Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders">
+                <div class="flex h-full items-center justify-center rounded-2xl w-full relative aspect-[860/460] group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-rose-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-rose-950 before:via-rose-900 before:to-rose-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]">
+                    <img loading="lazy" class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.webp'))}}" alt="Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders">
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
-                    <div class="autoplay-progress absolute delay-[600ms] duration-700 opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 bottom-4 z-10 w-8 h-8 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full">
-                        <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] [transform:rotate(-90deg)] fill-none stroke-[4px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] [--progress:0] left-0 top-0 z-10 w-full h-full stroke-white/80">
+                    <div class="autoplay-progress group-[.swiper-slide-active]:animate-progress absolute opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 p-1 bottom-4 z-10 w-4 h-4 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full [--progress:0;]">
+                        <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] bg-white/20 rounded-full [transform:rotate(-90deg)] fill-none stroke-[8px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] ease-linear group-[.swiper-slide-active]:duration-[1500ms] left-0 top-0 z-10 w-full h-full stroke-white/80">
                             <circle cx="24" cy="24" r="20"></circle>
                         </svg>
-                        <span class="text-xs"></span>
                     </div>
                     <div class="relative p-10 overflow-hidden duration-150 z-10 opacity-0 group-[.swiper-slide-active]:opacity-100 group-[.swiper-slide-next]:opacity-100">
                         <div class="title duration-300 text-[0px] group-[.swiper-slide-next]:text-2xl/tight max-xl:group-[.swiper-slide-next]:text-lg/tight font-light text-white max-md:opacity-0 max-md:group-[.swiper-slide-active]:opacity-100 max-md:-translate-x-full max-md:group-[.swiper-slide-active]:translate-x-0 max-md:duration-300 max-md:delay-300 max-md:group-[.swiper-slide-active]:text-2xl/tight max-xl:group-[.swiper-slide-active]:text-3xl/tight group-[.swiper-slide-active]:text-4xl/tight group-[.swiper-slide-prev]:opacity-0 group-[.swiper-slide-prev]:text-4xl/tight">
@@ -290,12 +284,57 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     
         {{-- <div class="swiper-scrollbar"></div> --}}
     </div>
+    
+    <div class="swiper heroSwiperThumbs !absolute !inset-0 before:absolute before:inset-0 before:z-[3] !z-0" 
+        data-swiper-options='{
+            "slidesPerView": 1,
+            "effect": "fade",
+            "speed": 5500,
+            "pagination":false,
+            "navigation":false
+        }'
+    >
+        <div class="swiper-wrapper relative z-0">
+            <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
+                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-yellow-950 before:via-yellow-900 before:to-yellow-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
+            </div>
+            <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
+                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-lime-950 before:via-lime-900 before:to-lime-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
+            </div>
+            <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
+                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-sky-950 before:via-sky-900 before:to-sky-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
+            </div>
+            <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
+                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-purple-950 before:via-purple-900 before:to-purple-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
+            </div>
+            <div class="swiper-slide !duration-1000 !transition-opacity group py-5">
+                <div class="flex h-full w-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-40% before:from-rose-950 before:via-rose-900 before:to-rose-950/0 after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55)]"></div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="select-none">
     <div class="bg-slate-50 pb-6 sm:pb-12">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
-            <div class="swiper logo-clouds before:bg-gradient-to-r before:from-slate-50 before:to-transparent before:w-32 before:z-10 before:inset-0 before:absolute before:pointer-events-none after:bg-gradient-to-l after:from-slate-50 after:to-transparent after:w-32 after:z-10 after:inset-0 after:absolute after:pointer-events-none after:left-auto">
+            <div class="swiper logo-clouds before:bg-gradient-to-r before:from-slate-50 before:to-transparent before:w-32 before:z-10 before:inset-0 before:absolute before:pointer-events-none after:bg-gradient-to-l after:from-slate-50 after:to-transparent after:w-32 after:z-10 after:inset-0 after:absolute after:pointer-events-none after:left-auto" 
+            data-swiper-options='{
+                "slidesPerView": 1,
+                "spaceBetween": 20,
+                "loop": true,
+                "centeredSlides": true,
+                "speed": 5000,
+                "allowTouchMove": false,
+                "autoplay": {"enabled": true, "delay": 0},
+                "breakpoints": {
+                    "320": {"slidesPerView": 5, "spaceBetween": 20},
+                    "480": {"slidesPerView": 5, "spaceBetween": 20},
+                    "640": {"slidesPerView": 7, "spaceBetween": 30},
+                    "1024": {"slidesPerView": 7, "spaceBetween": 30},
+                    "1350": {"slidesPerView": 9, "spaceBetween": 30}
+                }
+            }'
+        >
                 <div class="swiper-wrapper !ease-linear mt-10 flex items-center">
                     <a class="swiper-slide !h-8">
                         <img class="mx-auto hover:scale-90 h-full !w-auto duration-200 cursor-pointer max-h-12 object-contain" loading="lazy" width="108" height="32" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/logo-clouds-titan.webp'))}}" alt="logo clouds titan">
@@ -514,36 +553,18 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
             Discover your way to unparalleled growth and creativity while choosing IMG Global Inftech's growth-driven development services. Seamlessly transform your business ideas into reality with just a click, because innovation starts here. 
         </div>
-        <div class="flex flex-row w-full flex-wrap pt-8">
-            <div class="w-full -mb-[120px] z-[2] p-4 md:p-6">
-                <div class="swiper servicesSwiperThumb bg-white border-[10px] border-white rounded-xl">
-                    <div class="swiper-wrapper flex items-center !h-auto sm:text-base text-sm font-semibold">
-                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-sky-800 bg-sky-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-sky-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-sky-900 group-[.swiper-slide-thumb-active]/svc:to-sky-700 group-[.swiper-slide-thumb-active]/svc:text-white">Software Development</a>
-                        </div>
-                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-fuchsia-800 bg-fuchsia-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-fuchsia-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-fuchsia-900 group-[.swiper-slide-thumb-active]/svc:to-fuchsia-700 group-[.swiper-slide-thumb-active]/svc:text-white">Mobile App Development</a>
-                        </div>
-                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-teal-800 bg-teal-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-teal-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-teal-900 group-[.swiper-slide-thumb-active]/svc:to-teal-700 group-[.swiper-slide-thumb-active]/svc:text-white">Web Development</a>
-                        </div>
-                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-amber-800 bg-amber-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-amber-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-amber-900 group-[.swiper-slide-thumb-active]/svc:to-amber-700 group-[.swiper-slide-thumb-active]/svc:text-white">Blockchain Development</a>
-                        </div>
-                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-lime-800 bg-lime-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-lime-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-lime-900 group-[.swiper-slide-thumb-active]/svc:to-lime-700 group-[.swiper-slide-thumb-active]/svc:text-white">Ecommerce Solutions</a>
-                        </div>
-                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-orange-800 bg-orange-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-orange-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-orange-900 group-[.swiper-slide-thumb-active]/svc:to-orange-700 group-[.swiper-slide-thumb-active]/svc:text-white">Hire Developers</a>
-                        </div>
-                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
-                            <a href="javascript:;" class="cursor-pointer text-cyan-800 bg-cyan-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-cyan-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-cyan-900 group-[.swiper-slide-thumb-active]/svc:to-cyan-700 group-[.swiper-slide-thumb-active]/svc:text-white">Trending Solutions</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="flex w-full flex-wrap pt-8 flex-col-reverse">
             <div class="w-full">
-                <div class="swiper servicesSwiper text-white">
+                <div class="swiper servicesSwiper text-white" 
+                    data-swiper-options='{
+                        "spaceBetween": 10,
+                        "loop": true,
+                        "slidesPerView": 1,
+                        "effect": "fade",
+                        "speed": 1500,
+                        "thumbs": {"swiper": ".servicesSwiperThumb"}
+                    }'
+                >
                     <div class="swiper-wrapper">
                         <div class="swiper-slide group/svc">
                             <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-gradient-to-b from-sky-950 via-sky-900 to-sky-800 !pt-28">
@@ -1059,6 +1080,44 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                 </div>
             </div>
+            <div class="w-full -mb-[120px] z-[2] p-4 md:p-6">
+                <div class="swiper servicesSwiperThumb bg-white border-[10px] border-white rounded-xl" 
+                data-swiper-options='{
+                    "spaceBetween": 20,
+                    "slidesPerView": "auto",
+                    "freeMode": false,
+                    "loop": true,
+                    "watchSlidesProgress": false,
+                    "centerInsufficientSlides": true,
+                    "centeredSlidesBounds": true,
+                    "speed": 500
+                }'
+            >
+                    <div class="swiper-wrapper flex items-center !h-auto sm:text-base text-sm font-semibold">
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-sky-800 bg-sky-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-sky-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-sky-900 group-[.swiper-slide-thumb-active]/svc:to-sky-700 group-[.swiper-slide-thumb-active]/svc:text-white">Software Development</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-fuchsia-800 bg-fuchsia-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-fuchsia-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-fuchsia-900 group-[.swiper-slide-thumb-active]/svc:to-fuchsia-700 group-[.swiper-slide-thumb-active]/svc:text-white">Mobile App Development</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-teal-800 bg-teal-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-teal-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-teal-900 group-[.swiper-slide-thumb-active]/svc:to-teal-700 group-[.swiper-slide-thumb-active]/svc:text-white">Web Development</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-amber-800 bg-amber-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-amber-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-amber-900 group-[.swiper-slide-thumb-active]/svc:to-amber-700 group-[.swiper-slide-thumb-active]/svc:text-white">Blockchain Development</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-lime-800 bg-lime-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-lime-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-lime-900 group-[.swiper-slide-thumb-active]/svc:to-lime-700 group-[.swiper-slide-thumb-active]/svc:text-white">Ecommerce Solutions</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-orange-800 bg-orange-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-orange-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-orange-900 group-[.swiper-slide-thumb-active]/svc:to-orange-700 group-[.swiper-slide-thumb-active]/svc:text-white">Hire Developers</a>
+                        </div>
+                        <div class="swiper-slide !w-auto group/svc py-2 md:py-3 !h-auto">
+                            <a href="javascript:;" class="cursor-pointer text-cyan-800 bg-cyan-950/10 px-4 md:px-5 py-2 md:py-3 shadow-md group-[.swiper-slide-thumb-active]/svc:shadow-cyan-300 rounded-lg rounded-br-none group-[.swiper-slide-thumb-active]/svc:bg-gradient-to-bl group-[.swiper-slide-thumb-active]/svc:from-cyan-900 group-[.swiper-slide-thumb-active]/svc:to-cyan-700 group-[.swiper-slide-thumb-active]/svc:text-white">Trending Solutions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -1072,7 +1131,24 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 <p class="mt-4 text-sm md:text-base opacity-80">IMG Global Infotech's journey is adorned with moments of triumph and recognition. From industry awards validating our innovation to recognitions honing our commitment to quality, here is a testament to our unwavering pursuit of greatness. Discover the tapestry of honors that embellish our legacy and inspire us to reach even greater heights.</p>
             </div>
             <div class="w-full">
-                <div class="swiper AwardsRecognitions">
+                <div class="swiper AwardsRecognitions" 
+                    data-swiper-options='{
+                        "slidesPerView": 2,
+                        "spaceBetween": 10,
+                        "speed": 5000,
+                        "autoplay": {"enabled": true, "delay": 0},
+                        "loop": true,
+                        "effect": "coverflow",
+                        "centeredSlides": true,
+                        "breakpoints": {
+                            "320": {"slidesPerView": 2, "spaceBetween": 20},
+                            "480": {"slidesPerView": 2, "spaceBetween": 20},
+                            "640": {"slidesPerView": 2, "spaceBetween": 30},
+                            "1024": {"slidesPerView": 2, "spaceBetween": 30},
+                            "1350": {"slidesPerView": 2, "spaceBetween": 30}
+                        }
+                    }'
+                >
                     <div class="swiper-wrapper !ease-linear flex items-center">
                         <div class="swiper-slide rounded-2xl overflow-hidden">
                             <div class="flex flex-col items-center text-center">
@@ -1281,7 +1357,24 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-600 to-gray-100 bg-clip-text text-transparent"> And Elevate Your Expectations!</span>
         </p>
     </div>
-    <div class="swiper portfolioSwiper w-full">
+    <div class="swiper portfolioSwiper w-full" 
+        data-swiper-options='{
+            "slidesPerView": 2,
+            "spaceBetween": 10,
+            "speed": 2000,
+            "autoplay": {"enabled": true, "delay": 2500},
+            "loop": true,
+            "effect": "coverflow",
+            "centeredSlides": true,
+            "breakpoints": {
+                "320": {"slidesPerView": 1.5, "spaceBetween": 20},
+                "480": {"slidesPerView": 1.8, "spaceBetween": 20},
+                "640": {"slidesPerView": 2.5, "spaceBetween": 30},
+                "1024": {"slidesPerView": 3.5, "spaceBetween": 30},
+                "1350": {"slidesPerView": 4, "spaceBetween": 30}
+            }
+        }'
+    >
         <div class="swiper-wrapper flex items-center py-5">
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
@@ -1561,7 +1654,24 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             Dive into the testimonials that paint a vivid picture of our journey with our potential client so far. Take a glimpse into our exceptional assistance and begin your success story with us today.
         </div>
     </div>
-    <div class="swiper testimonialsSwiper w-full">
+    <div class="swiper testimonialsSwiper w-full" 
+        data-swiper-options='{
+            "slidesPerView": 2,
+            "spaceBetween": 10,
+            "speed": 2000,
+            "autoplay": {"enabled": true, "delay": 2500},
+            "loop": true,
+            "effect": "coverflow",
+            "centeredSlides": true,
+            "breakpoints": {
+                "320": {"slidesPerView": 1.3, "spaceBetween": 0},
+                "480": {"slidesPerView": 1.4, "spaceBetween": 10},
+                "640": {"slidesPerView": 1.5, "spaceBetween": 30},
+                "1024": {"slidesPerView": 1.8, "spaceBetween": 30},
+                "1350": {"slidesPerView": 2, "spaceBetween": 30}
+            }
+        }'
+    >
         <div class="swiper-wrapper flex items-center">
             <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/tst">
                 <div class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/tst:delay-0 delay-700 group-[.swiper-slide-active]/tst:opacity-100 opacity-60 duration-300">
@@ -1660,7 +1770,22 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-700 to-gray-500 bg-clip-text text-transparent"> Explore our insightful blogs to stay abreast of the latest innovations and trends. Stay informed, stay ahead.</span>
         </p>
         <div class="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">
-            <div class="swiper blogsSwiper w-full !overflow-visible">
+            <div class="swiper blogsSwiper w-full !overflow-visible" 
+                data-swiper-options='{
+                    "slidesPerView": 2,
+                    "spaceBetween": 10,
+                    "speed": 1000,
+                    "loop": false,
+                    "effect": "slide",
+                    "breakpoints": {
+                        "320": {"slidesPerView": 1, "spaceBetween": 30},
+                        "480": {"slidesPerView": 1.2, "spaceBetween": 20},
+                        "640": {"slidesPerView": 2, "spaceBetween": 30},
+                        "1024": {"slidesPerView": 2.6, "spaceBetween": 30},
+                        "1350": {"slidesPerView": 3, "spaceBetween": 30}
+                    }
+                }'
+            >
                 <div class="swiper-wrapper flex items-center pb-8">
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
