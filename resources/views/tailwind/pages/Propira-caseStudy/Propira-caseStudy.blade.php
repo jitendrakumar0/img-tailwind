@@ -44,7 +44,7 @@
                 <div class="flex flex-wrap itemscenter bg-[#d90202]">
                     <div class="textDiv w-full md:w-1/2 py-12 px-6 md:px-12">
                         <div class="logo h-[74px] w-[120px]">
-                            <img src="{{asset('public'.mix('/tailwind/img/PropiraLogo.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                            <img src="{{asset('public'.mix('/tailwind/img/PropiraLogo.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                         </div>
                         <div class="relative after:content-[''] after:absolute after:w-[18%] after:h-[3px] after:bg-white after:top-0 after:left-0 mt-4"></div>
                         <div class="head text-3xl sm:text-4xl lg:text-5xl font-[700] text-white pt-10 md:pt-12 lg:pt-16">Propira</div>
@@ -53,7 +53,7 @@
                         </div>
                     </div>
                     <div class="imgDiv w-full md:w-1/2 h-[100vh] object-cover">
-                        <img src="{{asset('public'.mix('/tailwind/img/Propira01.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                        <img src="{{asset('public'.mix('/tailwind/img/Propira01.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                     </div>
         
                 </div>
@@ -77,7 +77,7 @@
         </div>
         <div class="w-full sm:w-[35%] sm:bg-[#d90202] py-5 sm:py-20">
             <div class="sm:ml-[-50%] aspect-[2/1.8] mx-20 object-cover">
-                <img src="{{asset('public'.mix('/tailwind/img/Propira02.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira02.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
             </div>
         </div>
     </div>
@@ -106,7 +106,7 @@
         </div>
         <div class="flex items-center flex-wrap">
             <div class="imgSide mx-auto w-[80%] lg:w-1/2 px-5 md:px-10 aspect-[1/1]">
-                <img src="{{asset('public'.mix('/tailwind/img/Propira03.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira03.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
             <div class="txtSide w-full lg:w-1/2 px-5 md:px-10 lg:px-0">
                 <div class="heading text-xl sm:text-2xl lg:text-3xl font-semibold">
@@ -183,12 +183,12 @@
                 </div>
             </div>
             <div class="imgSide mx-auto w-[80%] lg:w-1/2 px-5 md:px-10 aspect-[1/1] order-1 lg:order-2">
-                <img src="{{asset('public'.mix('/tailwind/img/Propira04.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira04.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
         </div>
         <div class="flex items-center flex-wrap pt-6 sm:pt-12 lg:pt-20">
             <div class="imgSide mx-auto w-[80%] lg:w-1/2 px-5 md:px-10 aspect-[1/1]">
-                <img src="{{asset('public'.mix('/tailwind/img/Propira05.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira05.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
             <div class="txtSide w-full lg:w-1/2 px-5 md:px-10 lg:px-0">
                 <div class="heading text-xl sm:text-2xl lg:text-3xl font-semibold">
@@ -265,7 +265,7 @@
                 </div>
             </div>
             <div class="imgSide mx-auto w-[80%] lg:w-1/2 px-5 md:px-10 aspect-[1/1] order-1 lg:order-2">
-                <img src="{{asset('public'.mix('/tailwind/img/Propira04.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira04.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
         </div>
     </div>
@@ -286,29 +286,29 @@
         </div>
         <div class="flex items-center justify-center flex-wrap max-w-7xl px-6 lg:px-20 mx-auto  pt-4 sm:pt-6 md:pt-8 lg:pt-10 gap-3 md:gap-5 lg:gap-8">
             <div class="w-1/4">
-                <img src="{{asset('public'.mix('/tailwind/img/Propira06.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira06.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
             <div class="w-1/3">
                 <div class="swiper mySwiper !w-[90%]">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="">
-                                <img src="{{asset('public'.mix('/tailwind/img/Propira06.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                                <img src="{{asset('public'.mix('/tailwind/img/Propira06.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{asset('public'.mix('/tailwind/img/Propira07.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                            <img src="{{asset('public'.mix('/tailwind/img/Propira07.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
                         </div>
                         <div class="swiper-slide">
                             <img src="{{asset('public'.mix('/tailwind/img/propSwiper01.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
                         </div>
                         <div class="swiper-slide">
                             <div class="">
-                                <img src="{{asset('public'.mix('/tailwind/img/Propira06.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                                <img src="{{asset('public'.mix('/tailwind/img/Propira06.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{asset('public'.mix('/tailwind/img/Propira07.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                            <img src="{{asset('public'.mix('/tailwind/img/Propira07.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
                         </div>
                         <div class="swiper-slide">
                             <img src="{{asset('public'.mix('/tailwind/img/propSwiper01.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
@@ -327,7 +327,7 @@
                 </div>
             </div>
             <div class="w-1/4">
-                <img src="{{asset('public'.mix('/tailwind/img/Propira07.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira07.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
         </div>
     </div>
@@ -335,6 +335,9 @@
 
 {{-- color section start --}}
     <div class="py-8 md:py-14 lg:py-20 px-2 sm:px-6 md:px-8 lg:px-10">
+        <div class="relative">
+            <svg aria-hidden="true" class="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"><rect width="100%" height="100%" fill="url(#:R1lda:)" stroke-width="0"></rect><svg x="50%" y="-96" stroke-width="0" class="overflow-visible"><path transform="translate(64 160)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path><path transform="translate(128 320)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path><path transform="translate(288 480)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path><path transform="translate(512 320)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path><path transform="translate(544 640)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path><path transform="translate(320 800)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path></svg><defs><pattern id=":R1lda:" width="96" height="480" x="50%" patternUnits="userSpaceOnUse" patternTransform="translate(0 -96)" fill="none"><path d="M128 0 98.572 147.138A16 16 0 0 1 82.883 160H13.117a16 16 0 0 0-15.69 12.862l-26.855 134.276A16 16 0 0 1-45.117 320H-116M64-160 34.572-12.862A16 16 0 0 1 18.883 0h-69.766a16 16 0 0 0-15.69 12.862l-26.855 134.276A16 16 0 0 1-109.117 160H-180M192 160l-29.428 147.138A15.999 15.999 0 0 1 146.883 320H77.117a16 16 0 0 0-15.69 12.862L34.573 467.138A16 16 0 0 1 18.883 480H-52M-136 480h58.883a16 16 0 0 0 15.69-12.862l26.855-134.276A16 16 0 0 1-18.883 320h69.766a16 16 0 0 0 15.69-12.862l26.855-134.276A16 16 0 0 1 109.117 160H192M-72 640h58.883a16 16 0 0 0 15.69-12.862l26.855-134.276A16 16 0 0 1 45.117 480h69.766a15.999 15.999 0 0 0 15.689-12.862l26.856-134.276A15.999 15.999 0 0 1 173.117 320H256M-200 320h58.883a15.999 15.999 0 0 0 15.689-12.862l26.856-134.276A16 16 0 0 1-82.883 160h69.766a16 16 0 0 0 15.69-12.862L29.427 12.862A16 16 0 0 1 45.117 0H128"></path></pattern></defs></svg>
+        </div>
         <div class="header">
             <div class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center">
                 Colors & Typography
@@ -347,10 +350,10 @@
         </div>
         <div class="flex items-center justify-center flex-wrap max-w-7xl px-6 lg:px-20 mx-auto  pt-4 sm:pt-6 md:pt-8 lg:pt-10 gap-y-4">
             <div class="w-full md:w-1/2 px-5">
-                <img src="{{asset('public'.mix('/tailwind/img/Propira08.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira08.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
             <div class="w-full md:w-1/2 px-5">
-                <img src="{{asset('public'.mix('/tailwind/img/Propira09.png'))}}" alt="thanku" class="img-fluid h-full w-full">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira09.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
         </div>
     </div>
