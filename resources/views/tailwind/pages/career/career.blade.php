@@ -308,7 +308,7 @@
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative">
 
-        <div class="py-xl-5 py-lg-5 py-md-5 py-5 w-3/4 mx-auto select-none relative">
+        <div class="py-xl-5 py-lg-5 py-md-5 py-5 sm:w-3/4 w-full mx-auto select-none relative">
             <div class="flex w-full h-auto items-center flex-wrap">
                 <div class="lg:w-[60%] lg:pe-10 pe-0 w-[100%] lg:order-1 order-2">
                     <p class="mt-4  max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">

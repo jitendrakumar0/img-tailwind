@@ -6139,8 +6139,8 @@ select{
 .group\/db:hover .group-hover\/db\:h-2\.5{
   height: 0.625rem;
 }
-.group:hover .group-hover\:h-24{
-  height: 6rem;
+.group:hover .group-hover\:h-28{
+  height: 7rem;
 }
 .group:hover .group-hover\:h-full{
   height: 100%;
@@ -7039,6 +7039,9 @@ select{
   }
   .sm\:w-16{
     width: 4rem;
+  }
+  .sm\:w-3\/4{
+    width: 75%;
   }
   .sm\:w-64{
     width: 16rem;
