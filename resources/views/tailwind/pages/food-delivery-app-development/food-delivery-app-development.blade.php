@@ -36,12 +36,8 @@
     <div class="text-black/10">
         <svg xmlns='http://www.w3.org/2000/svg' width='100%' class="absolute inset-0 h-full w-full"><rect fill='#ffffff' width='540' height='450'/><defs><linearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%' gradientTransform='rotate(240)'><stop offset='0'  stop-color='#ffffff'/><stop offset='1'  stop-color='#FAF7F6'/></linearGradient><pattern patternUnits='userSpaceOnUse' id='b'  width='300' height='250' x='0' y='0' viewBox='0 0 1080 900'><g fill-opacity='0.04'><polygon fill='#444' points='90 150 0 300 180 300'/><polygon points='90 150 180 0 0 0'/><polygon fill='#AAA' points='270 150 360 0 180 0'/><polygon fill='#DDD' points='450 150 360 300 540 300'/><polygon fill='#999' points='450 150 540 0 360 0'/><polygon points='630 150 540 300 720 300'/><polygon fill='#DDD' points='630 150 720 0 540 0'/><polygon fill='#444' points='810 150 720 300 900 300'/><polygon fill='#FFF' points='810 150 900 0 720 0'/><polygon fill='#DDD' points='990 150 900 300 1080 300'/><polygon fill='#444' points='990 150 1080 0 900 0'/><polygon fill='#DDD' points='90 450 0 600 180 600'/><polygon points='90 450 180 300 0 300'/><polygon fill='#666' points='270 450 180 600 360 600'/><polygon fill='#AAA' points='270 450 360 300 180 300'/><polygon fill='#DDD' points='450 450 360 600 540 600'/><polygon fill='#999' points='450 450 540 300 360 300'/><polygon fill='#999' points='630 450 540 600 720 600'/><polygon fill='#FFF' points='630 450 720 300 540 300'/><polygon points='810 450 720 600 900 600'/><polygon fill='#DDD' points='810 450 900 300 720 300'/><polygon fill='#AAA' points='990 450 900 600 1080 600'/><polygon fill='#444' points='990 450 1080 300 900 300'/><polygon fill='#222' points='90 750 0 900 180 900'/><polygon points='270 750 180 900 360 900'/><polygon fill='#DDD' points='270 750 360 600 180 600'/><polygon points='450 750 540 600 360 600'/><polygon points='630 750 540 900 720 900'/><polygon fill='#444' points='630 750 720 600 540 600'/><polygon fill='#AAA' points='810 750 720 900 900 900'/><polygon fill='#666' points='810 750 900 600 720 600'/><polygon fill='#999' points='990 750 900 900 1080 900'/><polygon fill='#999' points='180 0 90 150 270 150'/><polygon fill='#444' points='360 0 270 150 450 150'/><polygon fill='#FFF' points='540 0 450 150 630 150'/><polygon points='900 0 810 150 990 150'/><polygon fill='#222' points='0 300 -90 450 90 450'/><polygon fill='#FFF' points='0 300 90 150 -90 150'/><polygon fill='#FFF' points='180 300 90 450 270 450'/><polygon fill='#666' points='180 300 270 150 90 150'/><polygon fill='#222' points='360 300 270 450 450 450'/><polygon fill='#FFF' points='360 300 450 150 270 150'/><polygon fill='#444' points='540 300 450 450 630 450'/><polygon fill='#222' points='540 300 630 150 450 150'/><polygon fill='#AAA' points='720 300 630 450 810 450'/><polygon fill='#666' points='720 300 810 150 630 150'/><polygon fill='#FFF' points='900 300 810 450 990 450'/><polygon fill='#999' points='900 300 990 150 810 150'/><polygon points='0 600 -90 750 90 750'/><polygon fill='#666' points='0 600 90 450 -90 450'/><polygon fill='#AAA' points='180 600 90 750 270 750'/><polygon fill='#444' points='180 600 270 450 90 450'/><polygon fill='#444' points='360 600 270 750 450 750'/><polygon fill='#999' points='360 600 450 450 270 450'/><polygon fill='#666' points='540 600 630 450 450 450'/><polygon fill='#222' points='720 600 630 750 810 750'/><polygon fill='#FFF' points='900 600 810 750 990 750'/><polygon fill='#222' points='900 600 990 450 810 450'/><polygon fill='#DDD' points='0 900 90 750 -90 750'/><polygon fill='#444' points='180 900 270 750 90 750'/><polygon fill='#FFF' points='360 900 450 750 270 750'/><polygon fill='#AAA' points='540 900 630 750 450 750'/><polygon fill='#FFF' points='720 900 810 750 630 750'/><polygon fill='#222' points='900 900 990 750 810 750'/><polygon fill='#222' points='1080 300 990 450 1170 450'/><polygon fill='#FFF' points='1080 300 1170 150 990 150'/><polygon points='1080 600 990 750 1170 750'/><polygon fill='#666' points='1080 600 1170 450 990 450'/><polygon fill='#DDD' points='1080 900 1170 750 990 750'/></g></pattern></defs><rect x='0' y='0' fill='url(#a)' width='100%' height='100%'/><rect x='0' y='0' fill='url(#b)' width='100%' height='100%'/></svg>
     </div>
-    <div class="mx-auto max-w-7xl px-6 lg:pl-48 lg:pr-52 z-[1] relative py-8 sm:py-10 md:py-14 lg:py-16 text-center">
+    <div class="mx-auto max-w-7xl px-6 lg:pl-48 lg:pr-52 z-[1]  py-8 sm:py-10 md:py-14 lg:py-16 text-center relative">
 
-
-        {{-- <div class="text-xl md:text-2xl mb-3">
-            Build Online Food Delivery Apps and Unlock 67% Savings
-        </div> --}}
         <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
             <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
                 Build Online Food Delivery Apps and Unlock 67% Savings
@@ -55,9 +51,6 @@
                 iCoderz Solutions is the best Food delivery app development company with over 12 years of experience serving food business owners. Our <span class="font-bold">on demand food delivery app development</span> services help food business owners increase their brand visibility and sales rapidly.
             </div>
         </div>
-        {{-- <div class=" mt-3 mb-5 text-sm md:text-base">
-            iCoderz Solutions is the best Food delivery app development company with over 12 years of experience serving food business owners. Our <span class="font-bold">on demand food delivery app development</span> services help food business owners increase their brand visibility and sales rapidly.
-        </div> --}}
         <div class="mt-8 flex items-center flex-wrap gap-y-3 gap-3 justify-center mx-auto">
             <div class="flex items-center justify-center gap-3">
                 <div class="icon h-[14px] sm:h-[20px] md:h-[18px]  w-[14px] sm:w-[14px] md:w-[18px]">
@@ -93,10 +86,10 @@
             </div>
         </div>
         
-        <div class="absolute top-[-2%] left-[-70px] sm:h-[220px] sm:w-[249px] h-[150px] w-[180px]">
+        <div class="absolute top-[-2%] !left-[-70px] sm:h-[220px] sm:w-[249px] h-[150px] w-[180px]">
             <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/pizza.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
         </div>
-        <div class="absolute bottom-[-1%] right-[-70px] sm:h-[175px] sm:w-[240px]  h-[150px] w-[180px]">
+        <div class="absolute bottom-[-1%] !right-[-70px] sm:h-[175px] sm:w-[240px]  h-[150px] w-[180px]">
             <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/burger.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
         </div>
         <div class=" mt-10">
@@ -144,7 +137,7 @@
         <div class="flex flex-col-reverse w-full flex-wrap pt-8">
             <div class="w-full">
                 <div class="swiper keyFeatures text-white" 
-                    data-swiper-options='{
+                    data-swiper='{
                         "spaceBetween": 10,
                         "loop": true,
                         "slidesPerView": 1,
@@ -181,9 +174,10 @@
                                 </div>
                                 <div class="flex flex-wrap mt-10">
                                     <div class="lg:w-2/6 w-full">
-                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full" 
-                                            data-swiper-options='{
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-10 h-full" 
+                                            data-swiper='{
                                                 "loop": true,
+                                                "slidesPerView": 1,
                                                 "centeredSlides": true,
                                                 "speed": 1500,
                                                 "allowTouchMove": false,
@@ -461,10 +455,11 @@
                                         </div>
                                     </div>
                                     <div class="lg:w-2/6 w-full">
-                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full" 
-                                            data-swiper-options='{
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-10 h-full" 
+                                            data-swiper='{
                                                 "loop": true,
-                                                "centeredSlides": true,
+     
+                                 "slidesPerView": 1,                                           "centeredSlides": true,
                                                 "speed": 1500,
                                                 "allowTouchMove": false,
                                                 "autoplay": {"enabled": true, "delay": 2000}
@@ -525,9 +520,10 @@
                                 </div>
                                 <div class="flex flex-wrap mt-10">
                                     <div class="lg:w-2/6 w-full">
-                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full" 
-                                            data-swiper-options='{
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-10 h-full" 
+                                            data-swiper='{
                                                 "loop": true,
+                                                "slidesPerView": 1,                                           
                                                 "centeredSlides": true,
                                                 "speed": 1500,
                                                 "allowTouchMove": false,
@@ -805,10 +801,12 @@
                                         </div>
                                     </div>
                                     <div class="lg:w-2/6 w-full">
-                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-14 h-full" 
-                                            data-swiper-options='{
+                                        <div class="swiper keyfeatureswiper lg:mb-0 mb-10 h-full" 
+                                            data-swiper='{
                                                 "loop": true,
-                                                "centeredSlides": true,
+     
+                                    "slidesPerView": 1,                                           
+                                    "centeredSlides": true,
                                                 "speed": 1500,
                                                 "allowTouchMove": false,
                                                 "autoplay": {"enabled": true, "delay": 2000}
@@ -848,7 +846,7 @@
             </div>
             <div class="w-full -mb-[120px] z-[2] p-4 md:p-6">
                 <div class="swiper keyFeaturesThumb bg-white border-[10px] border-white rounded-xl" 
-                    data-swiper-options='{
+                    data-swiper='{
                         "spaceBetween": 20,
                         "slidesPerView": "auto",
                         "freeMode": false,
@@ -1128,7 +1126,7 @@
         </p>
     </div>
     <div class="swiper portfolioSwiper w-full swiper-coverflow swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress" 
-        data-swiper-options='{
+        data-swiper='{
             "slidesPerView": 2,
             "spaceBetween": 10,
             "speed": 2000,
@@ -1255,9 +1253,6 @@
 {{-- privers work section end  --}}
 
 
-
-
-
 {{-- blog sectio new  --}}
 
 
@@ -1284,7 +1279,7 @@
         </p>
         <div class="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">
             <div class="swiper blogsSwiper w-full !overflow-visible" 
-                data-swiper-options='{
+                data-swiper='{
                     "slidesPerView": 2,
                     "spaceBetween": 10,
                     "speed": 1000,
@@ -1414,7 +1409,7 @@
         <div class="lg:w-4/5 w-full mx-auto mt-16">
         
             <div class="relative  flex flex-col ">
-                <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmCompany1">
+                <input class="peer/mm hidden" type="radio" checked name="mmMenu" id="mmCompany1">
                 <label for="mmCompany1" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-b-4xl py-4 px-6 after:absolute sm:after:h-5 sm:after:w-5 after:w-4 after:h-4 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5 after:bg-[url('../img/fooddelivery/Down.svg')] after:bg-no-repeat after:bg-center after:bg-contain after:peer-checked/mm:rotate-180 peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full ">
                     What is the Difference Between Cross-Platform and Native App Development ?
                 </label>
@@ -1437,7 +1432,7 @@
             </div>
 
             <div class="relative  flex flex-col mt-5">
-                <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmCompany2">
+                <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany2">
                 <label for="mmCompany2" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-full py-4 px-6   after:absolute sm:after:h-5 sm:after:w-5 after:w-4 after:h-4 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5 after:bg-[url('../img/fooddelivery/Down.svg')] after:bg-no-repeat after:bg-center after:bg-contain after:peer-checked/mm:rotate-180 peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full">
                     What are the prerequisites for a mobile app development project ?
                 </label>
@@ -1465,7 +1460,7 @@
             </div>
 
             <div class="relative  flex flex-col mt-5">
-                <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmCompany3">
+                <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany3">
                 <label for="mmCompany3" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-full py-4 px-6   after:absolute sm:after:h-5 sm:after:w-5 after:w-4 after:h-4 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5 after:bg-[url('../img/fooddelivery/Down.svg')] after:bg-no-repeat after:bg-center after:bg-contain after:peer-checked/mm:rotate-180 peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full">
                     How much does it cost to develop a mobile app?
                 </label>
@@ -1484,7 +1479,7 @@
                 </div>
             </div>
             <div class="relative  flex flex-col mt-5">
-                <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmCompany4">
+                <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany4">
                 <label for="mmCompany4" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-full py-4 px-6   after:absolute sm:after:h-5 sm:after:w-5 after:w-4 after:h-4 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5 after:bg-[url('../img/fooddelivery/Down.svg')] after:bg-no-repeat after:bg-center after:bg-contain after:peer-checked/mm:rotate-180 peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full">
                     How long will it take to build and launch my app ?
                 </label>
@@ -1506,7 +1501,7 @@
                 </div>
             </div>
             <div class="relative  flex flex-col mt-5">
-                <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmCompany5">
+                <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany5">
                 <label for="mmCompany5" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-t-4xl peer-checked/mm:rounded-full py-4 px-6  after:absolute sm:after:h-5 sm:after:w-5 after:w-4 after:h-4 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5 after:bg-[url('../img/fooddelivery/Down.svg')] after:bg-no-repeat after:bg-center after:bg-contain after:peer-checked/mm:rotate-180 peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full ">
                     Do you provide ongoing support, maintenance, and updates ?
                 </label>
@@ -1532,6 +1527,7 @@
 {{-- faq section end  --}}
 
 {{-- blog section start  --}}
+
 <div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
@@ -1555,7 +1551,7 @@
         </p>
         <div class="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">
             <div class="swiper blogsSwiper w-full !overflow-visible" 
-                data-swiper-options='{
+                data-swiper='{
                     "slidesPerView": 2,
                     "spaceBetween": 10,
                     "speed": 1000,
