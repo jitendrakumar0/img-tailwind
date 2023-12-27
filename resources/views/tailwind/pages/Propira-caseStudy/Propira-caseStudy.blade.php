@@ -289,7 +289,17 @@
                 <img src="{{asset('public'.mix('/tailwind/img/Propira06.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
             <div class="w-1/3">
-                <div class="swiper mySwiper !w-[90%]">
+                <div class="swiper mySwiper !w-[90%]"          data-swiper-options='{
+                    "spaceBetween": 10,
+                    "loop": true,
+                    "slidesPerView": 1,
+                    "autoplay": {"delay": 2500, "disableOnInteraction": true},
+                    "effect": "fade",
+                    "speed": 1500,
+                    "navigation": {"nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev"},
+                    "thumbs": {"swiper": ".servicesSwiperThumb"}
+                }'>
+
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="">
@@ -314,12 +324,12 @@
                             <img src="{{asset('public'.mix('/tailwind/img/propSwiper01.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
                         </div>
                     </div>
-                    <div class="swiper-button-next after:content-[''] after:hidden relative">
+                    <div class="swiper-button-next swiper-button-next after:content-[''] after:hidden relative">
                         <div class="icon h-[30px] md:h-[40px] w-[30px] md:w-[40px] bg-white rounded-full p-1 border border-[#d90202] absolute right-[-10px]">
                             <svg stroke="currentColor" fill="#d90202" stroke-width="0" viewBox="0 0 256 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg>
                         </div>
                     </div>
-                    <div class="swiper-button-prev after:content-[''] after:hidden relative">
+                    <div class="swiper-button-prev swiper-button-prev after:content-[''] after:hidden relative">
                         <div class="icon h-[30px] md:h-[40px] w-[30px] md:w-[40px] bg-white rounded-full p-1 border border-[#d90202] absolute left-[-10px]">
                             <svg stroke="currentColor" fill="#d90202" stroke-width="0" viewBox="0 0 256 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"></path></svg>
                         </div>
@@ -388,10 +398,10 @@
             </div>
             <div class="w-full md:w-1/4 shadow-2xl rounded-md px-6 pb-10 pt-14 sm:pt-20 md:pt-24 bg-white z-[10] relative group before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-0 before:w-full before:bg-[#d90202] hover:before:top-0 hover:before:h-full before:transition-all before:duration-500 before:z-[-1] hover:before:origin-bottom hover:before:transition-all hover:before:duration-500 hover:before:text-white">
                 <div class="heading text-xl sm:text-2xl font-semibold !leading-[120%] text-black z-10 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
-                    Innovative Technology Integration
+                    Personalized Client Engagement
                 </div>
                 <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
-                    Propira stands out through its cutting-edge technology integration, streamlining the real estate experience. From advanced property search algorithms to virtual tours and online transaction management, Propira harnesses technology to enhance every step of the real estate process.
+                    Propira takes a client-centric approach, offering personalized services that cater to the unique needs of each individual. Whether it's tailored property recommendations, expert guidance, or proactive communication, Propira ensures a high level of customer satisfaction.
                 </div>
                 <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 group-hover:text-white group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
                     02
@@ -399,10 +409,10 @@
             </div>
             <div class="w-full md:w-1/4 shadow-2xl rounded-md px-6 pb-10 pt-14 sm:pt-20 md:pt-24 bg-white z-[10] relative group before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-0 before:w-full before:bg-[#d90202] hover:before:top-0 hover:before:h-full before:transition-all before:duration-500 before:z-[-1] hover:before:origin-bottom hover:before:transition-all hover:before:duration-500 hover:before:text-white">
                 <div class="heading text-xl sm:text-2xl font-semibold !leading-[120%] text-black z-10 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
-                    Innovative Technology Integration
+                    Transparent and Efficient Transactions
                 </div>
                 <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
-                    Propira stands out through its cutting-edge technology integration, streamlining the real estate experience. From advanced property search algorithms to virtual tours and online transaction management, Propira harnesses technology to enhance every step of the real estate process.
+                    Transparency is key in real estate, and Propira excels in providing clear information to clients. From property details and market trends to transaction processes and fees, Propira ensures that clients are well-informed, promoting trust and efficiency in real estate transactions.
                 </div>
                 <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 group-hover:text-white group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
                     03
@@ -411,6 +421,21 @@
         </div>
     </div>
 {{-- unique Section ends --}}
+
+{{-- two mobile Section Start --}}
+    <div class="flex items-center flex-wrap py-10">
+        <div class="w-1/2 bg-[radial-gradient(118.05% 308.66% at -10.73% 110.21%, #ff1512 0, #ae3737 29.17%, #fd3431 100%);]">
+            <div class="w-[40%] mx-auto">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira10.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
+            </div>
+        </div>
+        <div class="w-1/2">
+            <div class="w-[40%] mx-auto">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira11.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
+            </div>
+        </div>
+    </div>
+{{-- two mobile Section end --}}
 
 
 
