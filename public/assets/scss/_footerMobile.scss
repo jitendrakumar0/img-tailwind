@@ -1,0 +1,307 @@
+.footerFull {
+  background: linear-gradient(45deg, rgb(0, 42, 49), rgb(61, 0, 40), rgb(0, 66, 81));
+}
+#footer-part-address .respo-div {
+  background: linear-gradient(267deg, #36082d, #1d152c);
+  box-shadow: 0px -64px 49px -70px white, 0px 64px 49px -70px #33abdd;
+}
+.copyrightsss {
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+}
+#footer-part-main {
+  padding: 20px 0 15px;
+  color: $white;
+  position: relative;
+  clear: both;
+  & .heading {
+    &::after {
+      left: 0 !important;
+      display: none;
+    }
+    & span {
+      & b {
+        background: linear-gradient(135deg, $white 0, $theme3 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: -59px;
+    top: -74px;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    background-size: cover;
+    width: 150px;
+    height: 189px;
+    right: -23px;
+    top: -106px;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.5;
+  }
+}
+
+#footer-part-main .main-co {
+  padding-bottom: 10px;
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#footer-part-main .button-left,
+.button-right {
+  border: 1px solid $white;
+  padding: 5px 10px;
+}
+
+#footer-part-main span.icon-b {
+  float: left;
+  height: 30px;
+  margin-right: 5px;
+}
+
+
+
+#footer-part-main .footer_list ul li,
+#footer-part-main .footer_list ul li a,
+#footer-part-main .footer_list ul li span,
+#footer-part-main .getinTouch p {
+  color: $white;
+  font-size: 14px;
+}
+
+#footer-part-main .getinTouch .contactus .contactbtn span.txt {
+  display: block;
+  padding: 4px 15px;
+  border: 2px solid $white;
+  color: $white;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+#footer-part-main .borderRightFooter {
+  border-right: 1px solid #555;
+}
+
+#footer-part-main ul.footer-links li a {
+  font-size: 14px;
+  color: $white;
+  position: relative;
+  padding-left: 15px;
+  transition: 0.2s;
+}
+
+#footer-part-main ul.footer-links li a:hover {
+  padding-left: 18px;
+  color: $theme1;
+}
+
+#footer-part-main ul.footer-links li a:hover:before {
+  left: 3px;
+  color: $theme1;
+}
+
+.Our_clients a {
+  color: $white;
+  border: 1px solid #ccc;
+  padding: 3px 7px 1px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  transition-property: transform;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.Our_clients a:hover {
+  text-decoration: none;
+  background: $white;
+  color: #222;
+}
+
+#footer-part-main .getinTouch .contactus .contactbtn span.txt {
+  display: block;
+  padding: 4px 15px 1px;
+  border: 2px solid $white;
+  color: $white;
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+#footer-part-main .getinTouch .contactus .contactbtn.requestBtn span.txt {
+  background: $theme2;
+  border: 2px solid $theme2;
+  color: $white;
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: 400;
+  -webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  -o-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#footer-part-main .getinTouch .contactus .contactbtn.requestBtn span.txt:hover {
+  background: $white;
+  border: 2px solid $white;
+  color: #000;
+}
+.tagPanel {
+  text-align: center;
+  position: relative;
+  margin: 40px auto 0;
+  line-height: 17px;
+  & a {
+    color: #ddd;
+    background: 0 0;
+    border-right: 1px solid #aaa;
+    margin: 0;
+    display: inline-block;
+    padding: 1px 5px 0 1px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 12px;
+    line-height: 10px;
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+.ftr_bottom {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 12px;
+}
+.ftr_bottom p {
+  font-size: 13px;
+  color: #fff;
+  width: 100%;
+  float: left;
+  text-align: right;
+}
+.ftr_bottom p {
+  font-size: 13px;
+  color: #fff;
+  width: 100%;
+  float: left;
+  text-align: right;
+}
+.ftr_bottom p.footer_link {
+  text-align: left;
+}
+.footer_link a {
+  color: #fff;
+  font-size: 13px;
+}
+
+
+
+// @import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
+.social-btnss .btn,
+.social-btnss .btn:before,
+.social-btnss .btn .imgb {
+  transition: all 0.35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-btnss .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btnss .btn .imgb {
+  transform: scale(0.8);
+}
+.social-btnss .btn.facebook:before {
+  background-color: #3b5998;
+}
+.social-btnss .btn.facebook .imgb {
+  color: #3b5998;
+}
+.social-btnss .btn.twitter:before {
+  background-color: #3cf;
+}
+.social-btnss .btn.twitter .imgb {
+  color: #3cf;
+}
+.social-btnss .btn.instagram:before {
+  background-color: #ff3657;
+}
+.social-btnss .btn.instagram .imgb {
+  color: #ff3657;
+}
+.social-btnss .btn.youtube:before {
+  background-color: red;
+}
+.social-btnss .btn.youtube .imgb {
+  color: red;
+}
+.social-btnss .btn.linkedin:before {
+  background-color: #0077b5;
+}
+.social-btnss .btn.linkedin .imgb {
+  color: #0077b5;
+}
+
+
+
+.social-btnss .btn:focus:before,
+.social-btnss .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-btnss .btn:focus .imgb,
+.social-btnss .btn:hover .imgb {
+  color: #fff;
+  transform: scale(1);
+}
+.social-btnss {
+  // height: 90px;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+}
+.social-btnss .btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  // width: 60px;
+  // height: 60px;
+  line-height: normal;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 5px 15px -5px rgba($black,.1);
+  opacity: .99;
+  border: 3px solid $white;
+}
+.social-btnss .btn:before {
+  content: '';
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  transform: rotate(45deg);
+}
+.social-btnss .btn .imgb {
+  // font-size: 27px;
+  vertical-align: middle;
+}
+
+

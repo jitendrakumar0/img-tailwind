@@ -193,17 +193,17 @@ ExpiresByType font/woff "access plus 1 year"
 
 # 1 Month
 <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webp|ttf|woff2|svg|svg+xml)$">
-Header set Cache-Control "max-age=31536000, public"
+  Header set Cache-Control "public, max-age=31536000"
 </FilesMatch>
 
 # 2 DAYS
 <FilesMatch "\.(xml|txt)$">
-Header set Cache-Control "max-age=31536000, public, must-revalidate"
+  Header set Cache-Control "max-age=31536000, public, must-revalidate"
 </FilesMatch>
 
 # 2 HOURS
 <FilesMatch "\.(html|htm)$">
-Header set Cache-Control "max-age=31536000, must-revalidate"
+  Header set Cache-Control "max-age=31536000, must-revalidate"
 </FilesMatch>
 
 </IfModule>
@@ -230,4 +230,33 @@ Header set Cache-Control "max-age=31536000, must-revalidate"
   FileETag None 
 </IfModule>
 
-#Redirect URLs
+
+
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/plain text/html text/xml text/css application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript
+</IfModule>
+
+
+Redirect 301 /ionic-app-development.php /mobile-app-development.php
+Redirect 301 /php-web-development.php /hire-php-developers.php
+Redirect 301 /psd-to-html-conversion.php /website-design.php
+Redirect 301 /psd-to-wordpress-conversion.php /website-design.php
+Redirect 301 /long-tail-seo-keyword.php /digital-marketing-services.php
+Redirect 301 /long-tail-seo-keyword-research.php /digital-marketing-services.php
+Redirect 301 /regular-blog-posts.php /digital-marketing-services.php
+Redirect 301 /competitor-analysis.php /digital-marketing-services.php
+Redirect 301 /link-building-services.php /digital-marketing-services.php
+Redirect 301 /on-page-optimization.php /digital-marketing-services.php
+Redirect 301 /brand-awareness.php /digital-marketing-services.php
+Redirect 301 /product-reviews.php /digital-marketing-services.php
+Redirect 301 /local-business-listing-services.php /digital-marketing-services.php
+Redirect 301 /online-reputation-management.php /digital-marketing-services.php
+Redirect 301 /paid-advertising.php /digital-marketing-services.php
+Redirect 301 /user-engagement.php /digital-marketing-services.php
+Redirect 301 /mobile-app-marketing-services.php /digital-marketing-services.php
+Redirect 301 /website-development-company-alwar.php /web-development-company-in-alwar.php
+Redirect 301 /website-development-company-alwar.php /web-development-company-in-alwar.php
+Redirect 301 /web-development-in-jaipur.php /web-development-company-in-jaipur.php
+Redirect 301 /ecommerce-website-development-company-in-alwar.php /ecommerce-development-company-in-alwar.php
+Redirect 301 /ecommerce-website-development-in-jaipur.php /ecommerce-development-company-in-jaipur.php
+Redirect 301 /fantasy-stock-market-app-development.php /fantasy-sports-app-development.php

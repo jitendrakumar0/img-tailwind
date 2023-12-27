@@ -1,0 +1,491 @@
+@charset "UTF-8";
+
+@import "variables";
+
+
+
+li{
+    list-style: none;
+}
+
+
+
+
+  .app-development_area{
+
+    & .app_choose{
+
+        &::before{
+            position: absolute;
+            content: "";
+            border: 2px dashed #094862a6;
+            width: 61%;
+            right: -77px;
+            top: 47px;
+        }
+    }
+}
+
+.banner-cta1 {
+    background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+    border-radius: 10px;
+}
+
+.Progressive-offer-box{
+
+    & .offer_item{
+        transition: 500ms ease;
+        border-radius: 12px;
+        overflow: hidden;
+        z-index: 9;
+        background-color: #084159;
+
+        &::before{
+            content: "";
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            left: -2%;
+            background-color: #de9c17;
+            z-index: -1;
+            transition: 500ms ease;
+            top: -14px;
+        }       
+
+        &::after{
+            content: "";
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            right: -2%;
+            background-color: #de9c17;
+            z-index: -1;
+            transition: 500ms ease;
+            bottom: -14px;
+        }  
+
+
+
+        & .offer_icon{
+            width: 112px;
+            height: 98px;
+            font-size: 45px;
+            border-radius: 22px 0 22px 0;
+            background: #f7f7f7;
+            z-index: -1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 500ms ease;
+            z-index: 9;
+
+            
+            & img{
+                transition: 500ms ease;
+            }
+        }
+      
+
+            &:hover{
+                  
+                &:before{
+                  height: 100%;
+                  width: 100%;
+                  right: 0;
+                  bottom: 0;
+                }
+                &:after{
+                  width: 100%;
+                  height: 100%;
+                  left: 0;
+                  top: 0;
+                }
+                
+
+                & .offer_icon{
+                    background: #fff ;
+                    
+                    & img{
+                        transform: scale(1.1);
+                    }
+                }
+                
+
+                
+
+            }
+        }
+    }
+
+
+    .hire_section{
+        background: linear-gradient(to right, #03151d 12%, #0b5a7b);
+      
+           & .hire_box{
+             border: 1px solid #fff;
+               border-radius: 9px;
+               transition: 500ms ease;
+      
+            &.hire_box_2{
+              margin-top: -93px;
+            }
+            &:hover{
+               background: #e09c19;
+            }
+           }
+      }
+
+
+
+      .development_process{
+        background: linear-gradient(to right, #03151d 12%, #0b5a7b);
+        position: relative;
+      
+       &::after{ 
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url(../../../img/fintech-software-development/double-bubble-outline.webp);
+        background-size: 480px;
+        opacity: 0.1;
+       }
+      
+      
+          & .develomemt_box{
+               border-radius: 15px;
+               transition: 500ms ease;
+      
+            &::before{
+              content: "";
+              width: 80%;
+              left: -15px;
+              background: #e09c19;
+              height: 80%;
+              top: 10%;
+              z-index: -1;
+              border-radius: 15px;
+              position: absolute;
+              transition: 500ms ease;
+           }
+      
+           & .col-12{
+            transition: 500ms ease;
+           }
+           & .development_icon{
+      
+            & i{
+              color: #e09c19;
+            }
+           }
+      
+      
+           &:hover{
+               
+            &:before{
+              display: none;
+            }
+             background: #094b67 !important;
+      
+            & .col-12{
+              color: #fff !important;
+            }
+           }
+        } 
+      
+        
+        }
+   
+        
+        @keyframes bounce {
+            0%,20%,53%,80%,to {                
+                animation-timing-function: cubic-bezier(.215,.61,.355,1);
+                transform: translateZ(0)
+            }
+        
+            40%,43% {
+                transform: translate3d(0,-30px,0)
+            }
+        
+            40%,43%,70% {
+                animation-timing-function: cubic-bezier(.755,.05,.855,.06)
+            }
+        
+            70% {
+                transform: translate3d(0,-15px,0)
+            }
+        
+            90% {
+                transform: translate3d(0,-4px,0)
+            }
+        }
+        
+        .bounce {
+            animation-name: bounce;
+            transform-origin: center bottom
+        }
+
+
+      
+
+
+.Progressive_experties_box{
+
+  
+
+    & .experties_item{
+        transition: 500ms ease;
+        border-radius: 7px;
+        z-index: 9;
+        overflow: hidden;
+        background: #094a65;
+
+
+        &::before{
+            position: absolute;
+            content: "";
+            right: 0;
+            top: 31%;
+            background: #de9c17;
+            width: 2%;
+            height: 42%;
+            z-index: -1;
+            border-radius: 14px;
+            transition: 500ms ease;
+        }
+
+        .col-12{
+            transition: 500ms ease;
+        }
+
+        & .experties_icon{
+            border: 2px solid #094a65;
+            background: #fff;
+            width: 72px;
+            height: 72px;
+            color: #222;
+            transition: 500ms ease;
+            border-radius: 9px;
+            
+            & img{
+                transition: 500ms ease;
+          }
+        }
+    
+
+            &:hover{
+                
+                &:before{
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    border-radius: 0;
+                }
+
+               
+
+                & .experties_icon{
+                    background: #094a65 ;
+                    border-color: #fff;
+                    animation: bounce 1s;
+                    
+                    
+                }
+
+            }
+        }
+    }
+
+ 
+
+
+
+ // Faq section
+      
+ .faq_section {
+    background: #f8f9fa;
+  }
+  .faq_section::before {
+    content: "";
+    // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: top right;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+    z-index: 0;
+    -webkit-transform: rotateY(180deg) rotateX(180deg);
+    transform: rotateY(180deg) rotateX(180deg);
+    background-repeat: no-repeat;
+  }
+  .faq_section::after {
+    content: "";
+    // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: top right;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+    z-index: 0;
+    background-repeat: no-repeat;
+  }
+  .accordion-item {
+    box-shadow: 0 1px 5px 1px #0000000d;
+    border-radius: 10px;
+    border: 0;
+  }
+  button.accordion-button {
+    background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    color: rgba($white, 0.8);
+    border-radius: 4px;
+    padding: 20px 20px;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: $theme2;
+    color: $white;
+    box-shadow: unset;
+    outline: unset;
+  }
+  .list_count {
+    list-style-type: decimal-leading-zero;
+  }
+  .accordion-button::after {
+    filter: brightness(20.5);
+  }
+  
+  
+  
+
+  @mixin  Progressive_section-mixin-max-sm(){
+    .app-development_area{
+    
+        & .heading{
+        
+                &::before {
+                    right: 0 !important;
+                }
+                
+                &::after{
+                    right: 0 !important;
+                }
+      }
+    }
+
+
+    .hire_section {
+        
+        & .hire_box.hire_box_2{
+            margin-top: 0;
+        }
+      }
+    
+
+    .app-development_area{
+    
+    & .app_choose{
+    
+        &::before {
+           display: none;
+        }
+    }
+  }
+  .app-features-section {  
+
+    & .nav-tabs {
+  
+       & .nav-link {
+            width: 138px;
+        }
+
+    }
+  }
+
+  .experties_box{
+  
+     & .bg-experties {
+  
+      & .experties_item{
+  
+          & .experties_icon{
+              position: static;
+              margin: 0 auto 14px auto;
+            }
+        }
+    }
+  }
+}
+     
+@mixin  Progressive_section-mixin-max-md(){
+
+    .app-development_area{
+    
+        & .heading{
+        
+                &::before {
+                    right: 0 !important;
+                }
+                
+                &::after{
+                    right: 0 !important;
+                }
+      }
+    }  
+
+    .hire_section {
+        
+        & .hire_box.hire_box_2{
+            margin-top: 0;
+        }
+      }
+}
+@mixin  Progressive_section-mixin-max-lg(){
+ 
+}
+@mixin  Progressive_section-mixin-max-xl(){
+ 
+}
+@mixin  Progressive_section-mixin-min-xxl(){
+ 
+}
+   
+   
+   
+   // XX-Large devices (larger desktops, 1400px and up)
+   @media (min-width: 1400px) {
+     @include  Progressive_section-mixin-min-xxl();
+   
+   }
+   
+   // X-Large devices (large desktops, less than 1400px)
+   @media (max-width: 1399.98px) {
+     @include  Progressive_section-mixin-max-xl();
+   
+   }
+   
+   // Large devices (desktops, less than 1200px)
+   @media (max-width: 1199.98px) {
+     @include  Progressive_section-mixin-max-lg();
+   
+   }
+   // Medium devices (tablets, less than 992px)
+   @media (max-width: 991.98px) {
+     @include  Progressive_section-mixin-max-md();
+   
+   }
+   
+   // Small devices (landscape phones, less than 768px)
+   @media (max-width: 767.98px) {
+     @include  Progressive_section-mixin-max-sm();
+   
+   }       

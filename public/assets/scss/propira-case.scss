@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+@import "variables";
+
+li{
+    list-style: none;
+}
+
+.case_heading_icon{
+
+    & i{
+        color: #db0c0c;
+    }
+
+    &::before{
+        position: absolute;
+        content: "";
+        background: #db0c0c;
+        width: 51px;
+        height: 2px;
+        left: -56px;
+        top: 3px;
+    }
+        &::after{
+            position: absolute;
+            content: "";
+            background: #db0c0c;
+            width: 51px;
+            height: 2px;
+            right: -56px;
+            top: 3px;
+        }
+}
+
+
+
+.mobile_apps_section{
+
+   & .app_content_list{
+         
+      &  .list_icons{
+            background: #db0c0c;
+            border-radius: 50%;
+            height: 90px;
+            width: 90px;
+            padding: 47px;
+        }
+    }
+}
+
+
+.bottom_case_banner{
+    background-image: url(../../../../assets/img/casestudy/bobi-bg-img.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
+    & .bottom-bd{
+       border: 1px solid #fff;
+       width: 121px;
+  
+    }
+  }
+
+
+.case_color_section{
+    
+    & .color_case_box{
+        background: #db0c0c;
+        border-radius: 50%;
+        height: 165px;
+        width: 165px;
+
+        & .inner_plate{
+            box-shadow: 0 0 3px #000;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            padding: 42px;
+        }
+
+        &.color_case_1{
+            background: #e39b1c;       
+         }
+         &.color_case_2{
+            background: #c7ff00;       
+         }
+         &.color_case_3{
+            background: #71d2a6;       
+         }
+    }
+}
+
+.challange_box{
+    background: #db0c0c;
+
+    & .challneg_bg_img{
+        background-image: url(../../../../assets/img/realestate-case/alierta-cover-img.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+}
+
+.fab_case_testimonial{
+    background: #094964;
+
+        .fab_test_box{
+            padding: 45px 130px 45px;
+            background-color: #fafafa;
+            max-width: 850px;
+            margin: 16px auto;
+    
+            &::before{
+                content: "";
+                background-image: url(../../../../assets/img/casestudy/layer.png);
+                position: absolute;
+                left: -30px;
+                top: -30px;
+                width: 260px;
+                height: 260px;
+                z-index: -1;
+            }
+    
+            &::after{
+                content: "";
+                background-image: url(../../../../assets/img/casestudy/layer.png);
+                position: absolute;
+                right: -30px;
+                bottom: -30px;
+                width: 260px;
+                height: 260px;
+                z-index: -1;
+            }
+    
+            & .client-info{
+    
+                & .fab_test_img{
+    
+                    & img{
+                        display: inline-block!important;
+                        border-radius: 50%;
+                        border: 3px solid #0e420c
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+    @mixin realestat_case_section-mixin-max-sm(){
+      
+        
+    .fab_case_testimonial {
+    
+        .fab_test_box{
+           padding: 22px 20px 22px;
+           background-color: #f1f1f1;
+           max-width: 850px;
+           margin: 16px -11px;
+    
+           &::before{
+            background-image: none;
+          }
+          &::after{
+            background-image: none;
+          }
+        }
+      }
+    }
+    
+    @mixin realestat_case_section-mixin-max-md(){
+        .fab-list_section{
+            background-image: none;
+            height: auto;
+        }
+        .fab_case_testimonial{
+        
+        & .fab_test_box::before {
+            left: -39px;
+            top: -23px;
+          }
+        }
+    }
+    @mixin realestat_case_section-mixin-max-lg(){
+        
+    }
+    @mixin realestat_case_section-mixin-max-xl(){
+    
+    }
+    @mixin realestat_case_section-mixin-min-xxl(){
+    
+    }
+    
+    
+    
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) {
+      @include realestat_case_section-mixin-min-xxl();
+    
+    }
+    
+    // X-Large devices (large desktops, less than 1400px)
+    @media (max-width: 1399.98px) {
+      @include realestat_case_section-mixin-max-xl();
+    
+    }
+    
+    // Large devices (desktops, less than 1200px)
+    @media (max-width: 1199.98px) {
+      @include realestat_case_section-mixin-max-lg();
+    
+    }
+    // Medium devices (tablets, less than 992px)
+    @media (max-width: 991.98px) {
+      @include realestat_case_section-mixin-max-md();
+    
+    }
+    
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767.98px) {
+      @include realestat_case_section-mixin-max-sm();
+    
+    }

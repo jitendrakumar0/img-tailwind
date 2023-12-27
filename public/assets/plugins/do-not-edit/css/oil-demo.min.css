@@ -1,0 +1,279 @@
+.oil_development_services .oil_development_box {
+  transition: 500ms ease;
+}
+.oil_development_services .oil_development_box .col-12 {
+  transition: 500ms ease;
+}
+.oil_development_services .oil_development_box .develop_icon span {
+  border: 3px solid #094b67;
+  border-radius: 50%;
+}
+.oil_development_services .oil_development_box::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 5px;
+  content: "";
+  z-index: -1;
+  background-color: #094b67;
+  transition: 500ms ease;
+}
+.oil_development_services .oil_development_box::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 5px;
+  content: "";
+  z-index: -1;
+  background-color: #094b67;
+  transition: 500ms ease;
+}
+.oil_development_services .oil_development_box:hover span {
+  border-color: #fff;
+}
+.oil_development_services .oil_development_box:hover .col-12 {
+  color: #fff !important;
+}
+.oil_development_services .oil_development_box:hover:before {
+  width: 100%;
+}
+.oil_development_services .oil_development_box:hover:after {
+  width: 100%;
+}
+
+.oil_types {
+  background: linear-gradient(to right, #03151d 12%, #0b5a7b);
+}
+.oil_types .nav-tabs {
+  border: none;
+  flex-direction: column;
+  box-shadow: 0 0 6px #000;
+  border-radius: 3px;
+}
+.oil_types .nav-tabs .nav-link {
+  border: 0 !important;
+  color: #fff;
+  position: relative;
+  z-index: 99;
+  transition: 500ms ease;
+  border-right: 6px solid #e09d19 !important;
+  border-radius: 0;
+}
+.oil_types .nav-tabs .nav-link.active {
+  background: #e09d19;
+  border-right: 6px solid #ffffff !important;
+  border-radius: 0;
+  box-shadow: 0 0 8px #000000;
+  color: #fff;
+}
+.oil_types .chat_box {
+  box-shadow: 0 0 8px #000;
+  z-index: 99;
+  border-radius: 10px;
+}
+.oil_types .chat_box::before {
+  position: absolute;
+  content: "";
+  background: url(../../../img/oil-demo/p2.png);
+  left: -14px;
+  top: -10px;
+  height: 77px;
+  width: 91px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.1;
+}
+.oil_types .chat_box::after {
+  position: absolute;
+  content: "";
+  background: url(../../../img/oil-demo/p2.png);
+  right: -14px;
+  bottom: -10px;
+  height: 77px;
+  width: 91px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.1;
+}
+.oil_types .chat_box .chat_heading {
+  color: #fdb72d;
+}
+.oil_types .tab-content .shape_img_1 {
+  left: -8%;
+  top: -34%;
+  animation: upndown 10s linear 2s infinite;
+}
+.oil_types .tab-content .shape_img_2 {
+  right: -9%;
+  animation: upndown 10s linear 2s infinite;
+  opacity: 0.5;
+  bottom: -49px;
+}
+
+.oil_solution_box .solution_item {
+  transition: 500ms ease;
+}
+.oil_solution_box .solution_item .col-12 {
+  color: #094b67;
+  transition: 500ms ease;
+}
+.oil_solution_box .solution_item .solution_count {
+  top: 5px;
+  right: 17px;
+  opacity: 0.1;
+  transition: 500ms ease;
+}
+.oil_solution_box .solution_item::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #094b67;
+  content: "";
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(100%, 100%);
+  transition: 500ms ease;
+}
+.oil_solution_box .solution_item:hover .col-12 {
+  color: #fff !important;
+}
+.oil_solution_box .solution_item:hover .solution_count {
+  color: #fff;
+  opacity: 1;
+  transform: scale(1.1);
+}
+.oil_solution_box .solution_item:hover:before {
+  transform: translate(0%, 0%);
+  visibility: visible;
+  opacity: 1;
+}
+
+.banner-cta1 {
+  background-color: #183249;
+}
+.banner-cta1 .expert-btn {
+  padding: 11px 24px !important;
+  color: #222;
+  cursor: pointer;
+  transition: all ease 0.4s;
+  border-radius: 24px !important;
+}
+
+.faq_section {
+  background: #f8f9fa;
+}
+
+.faq_section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+
+.faq_section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+
+.accordion-item {
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.0509803922);
+  border-radius: 10px;
+  border: 0;
+}
+
+button.accordion-button {
+  background: linear-gradient(to right, #03151d 12%, #0b5a7b);
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff6d00;
+  color: #fff;
+  box-shadow: unset;
+  outline: unset;
+}
+
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+
+.on_demand .box {
+  border-bottom: 7px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+  transition: 0.9s ease-in;
+}
+.on_demand .box:hover {
+  border-bottom: 7px solid #e09c19 !important;
+  transition: all 0.3s ease;
+  transform: translateY(-10px);
+  transition: 0.9s ease-in;
+  cursor: pointer;
+}
+.on_demand .box:hover img {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.on_demand .box .picture {
+  overflow: hidden;
+}
+.on_demand .box .picture img {
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transform: scale(1.2);
+}
+.on_demand .expert-btn {
+  padding: 6px 24px !important;
+  cursor: pointer;
+  transition: all ease 0.4s;
+  border-radius: 24px !important;
+}
+.on_demand .items .item {
+  scroll-snap-align: center;
+  scroll-margin: 5px;
+}

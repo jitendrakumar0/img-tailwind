@@ -1,0 +1,360 @@
+@charset "UTF-8";
+
+@import "variables";
+
+// form
+.get-in-touch { 
+  background: #f8f8f8;
+  padding-top: 120px;
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: url(../../../img/contact-us/bg1.webp);
+    background-size: 100%;
+    filter: invert(1);
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+  }
+  // background-color: darken($theme1, 40);
+  & .heading {
+    &::after {
+      background-color: $white;
+    }
+  }
+  & .left_form_part {
+    border-radius: 20px;
+    & .left_bg_part {
+      border-radius: 15px;
+      & .form-floating {
+        & .form-control {
+          border-left: 4px solid $theme3;
+        }
+        &.is-valid {
+          border-left: 4px solid $success;
+        }
+      }
+    }
+    & .was-validated .form-control:invalid {
+      border-left: 4px solid $danger;
+    }
+    & .was-validated .form-control:valid {
+      border-left: 4px solid $success;
+    }
+  }
+  & .custom_radio{
+    & label{
+      position: relative;
+      display: inline-block;
+      padding-left: 30px; 
+      margin: 0;
+      cursor: pointer; 
+      transition: all 0.3s ease-in-out;
+      font-size: 14px;
+      font-weight: 600;
+      &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        border-radius: 50px;
+        background-color: $white;
+        border: 1px solid $theme3;
+      }
+      &::before{
+        content: '';
+        position: absolute;
+        top: 4px;
+        border-radius: 50px;
+        left: 4px;
+        height: 12px;
+        width: 12px;
+        background-color: $theme3;
+        z-index: 1;
+        opacity: 0;
+      }
+    }
+    & input:checked ~ label{
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+  & .bootstrap-select{
+    & button{
+      height: 60px;
+      border-radius: 0 !important;
+      display: flex;
+      align-items: center;
+      padding: 16px 24px 16px 11px;
+      border: 1px solid #ced4da;
+      border-left: 0;
+      background-color: transparent;
+      text-transform: capitalize;
+      outline: 0 !important;
+      &:focus{
+        outline: 0 !important;
+      }
+    }
+  }
+  & .iti{
+    width: 100%;
+    & .iti__flag{
+      background-image: url(../../intl-tel-input/flags.png);
+    }
+  }
+
+
+  & .enquiry-tagline{
+
+    & .enqury-icons{
+      color: #95b836;
+    }
+    
+   
+}
+
+
+& select{
+   color: #827f7f !important;
+
+  & option{
+     color: #000 !important;
+  }
+}
+
+  & .form-control{
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+
+    &::placeholder{
+      color: #dbdbdb !important;
+    }
+  }
+
+  & .atteched_file{
+    border: 1px dashed rgba(0,0,0,.2);
+    border-radius: 5px;
+    padding: 13px;
+
+    & #file-input{
+       display:none;
+    }
+    &  label[for='file-input'] *{
+      vertical-align:middle;
+      cursor:pointer;
+    }
+    &  label[for='file-input'] span{
+      margin-left: 5px;
+      color: #dbdbdb;
+      font-weight: bold;
+
+    }
+    &  i.remove{
+      vertical-align:middle;
+      margin-left: 5px;
+      cursor:pointer;
+      display:none;
+    }
+  }
+
+  & .client-image{
+    border-radius: 20px;
+  }
+  .client_request_slider{
+
+    & .client-testimonial{
+      padding: 75px 20px 40px;
+      box-shadow: 0 3px 12px rgb(0 0 0/16%);
+      margin: 90px 0 15px;
+      border: solid 1px #e1e1e1;
+      border-radius: 10px;
+      height: 285px;
+
+      & figure{
+          width: 120px;
+          height: 120px;
+          line-height: 120px;
+          left: 15px;
+          top: 33px;
+
+        & img{
+          width: 120px !important;
+          height: 120px;
+          border-radius: 15px;
+          object-fit: cover;
+        }
+    }
+  }
+ 
+  }
+  & .owl-nav{
+    text-align: center;
+  }
+  .select-css{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi40NSIgaGVpZ2h0PSI3IiB2aWV3Qm94PSIwIDAgMTIuNDUgNyI+PHBhdGggaWQ9InN2Zy1hcnJvdyIgZD0iTTEyLjIyLDY0LjIyN2EuNzQ5Ljc0OSwwLDAsMC0uNTU0LS4yM0guNzgzYS43NS43NSwwLDAsMC0uNTQ5LjIzLjc2MS43NjEsMCwwLDAsMCwxLjA5NGw1LjQ1LDUuNDQ2YS43NjEuNzYxLDAsMCwwLDEuMDksMGw1LjQ1LTUuNDVhLjc1Ni43NTYsMCwwLDAsMC0xLjA5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAtNjMuOTk3KSIgZmlsbD0iIzMzMyIvPjwvc3ZnPgo=) !important;
+    background-repeat: no-repeat;
+    background-position: right 0.7em top 50%;
+    background-size: 0.65em auto;
+ }
+.form-control:focus{
+  box-shadow: none !important;
+ }
+
+
+ }
+
+
+
+
+
+
+
+// Small devices (landscape phones, 576px and up)
+@mixin get-in-touch-mixin-min-sm() {
+}
+// Medium devices (tablets, 768px and up)
+@mixin get-in-touch-mixin-min-md() {
+}
+// Large devices (desktops, 992px and up)
+@mixin get-in-touch-mixin-min-lg() {
+}
+// X-Large devices (large desktops, 1200px and up)
+@mixin get-in-touch-mixin-min-xl() {
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin get-in-touch-mixin-min-xxl() {
+}
+// X-Small devices (portrait phones, less than 576px)
+@mixin get-in-touch-mixin-max-xs() {
+}
+// Small devices (landscape phones, less than 768px)
+@mixin get-in-touch-mixin-max-sm() {
+  .get-in-touch {
+    padding-top: 46px;
+    & .heading.left {
+      & span {
+        font-size: 20px;
+      }
+    }
+    &::after {
+      background-size: 900px;
+    }
+    & .left_form_part {
+      & .left_bg_part {
+        & .form-floating {
+          & .form-control {
+            height: 52px;
+            font-size: 14px;
+          }
+          & > label {
+            font-size: 15px;
+          }
+        }
+        & .bootstrap-select{
+          & button{
+            height: 52px;
+            font-size: 14px;
+            padding: 14px 24px 16px 11px;
+          }
+        }
+      }
+    }  
+    & .enquiry-tagline{
+      flex-direction: column !important;
+      padding: 0;
+    }
+  }
+}
+// Medium devices (tablets, less than 992px)
+@mixin get-in-touch-mixin-max-md() {
+  .get-in-touch {
+    & .heading.left {
+      font-size: 12px;
+      & span {
+        font-size: 24px;
+      }
+    }
+    &::after {
+      background-size: 1200px;
+    }
+    
+  }
+}
+// Large devices (desktops, less than 1200px)
+@mixin get-in-touch-mixin-max-lg() {
+  .get-in-touch {
+    & .heading.left {
+      & span {
+        font-size: 28px;
+      }
+    }
+    &::after {
+      background-size: 1300px;
+      background-repeat: no-repeat;
+    }
+  }
+}
+// X-Large devices (large desktops, less than 1400px)
+@mixin get-in-touch-mixin-max-xl() {
+}
+
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @include get-in-touch-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @include get-in-touch-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @include get-in-touch-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @include get-in-touch-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  @include get-in-touch-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  @include get-in-touch-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  @include get-in-touch-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  @include get-in-touch-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  @include get-in-touch-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  @include get-in-touch-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

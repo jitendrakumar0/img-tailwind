@@ -1,0 +1,401 @@
+@charset "UTF-8";
+
+@import "variables";
+
+
+
+li{
+    list-style: none;
+}
+
+.app-development_area{
+
+    & .app_choose{
+
+        &::before{
+            position: absolute;
+            content: "";
+            border: 2px dashed #094862a6;
+            width: 61%;
+            right: -77px;
+            top: 47px;
+        }
+    }
+}
+
+.app_services{
+    
+    & .app_box{
+  
+        & .app_icon{
+          border-radius: 8px;
+          transition: 500ms ease;
+          width: 70px;
+      
+            
+            & i{
+                transition: 500ms ease;
+                color: #0b5a7b;
+            }
+    }
+    & .app_content{
+        border-radius: 14px;
+        z-index: 99;
+        transition: 500ms ease;
+               
+    }
+  
+  &:hover{
+     
+    & .app_icon{
+       transform: scale(1.1);
+  
+   }
+  }
+  }
+  }
+
+
+.vr_services{
+
+    & .service_box{
+         border-radius: 10px;
+         overflow: hidden;
+         transition: 500ms ease;
+         z-index: 9;
+
+         &::before{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            background: #094964;
+            height: 0;
+            width: 100%;
+            transition: 500ms ease;
+            z-index: -1;
+
+         }
+
+         .col-12{
+            transition: 500ms ease;
+         }
+
+            & .service_icon{
+                transition: 500ms ease;
+                z-index: 9;
+
+
+                &::before{
+                   content: "";
+                    position: absolute;
+                    left: 36%;
+                    top: 2px;
+                    margin: auto;
+                    width: 100px;
+                    height: 100px;
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                    transform: rotate(45deg);
+                    box-shadow: 5px 0px 0px 0px #d8ae53;
+                    z-index: -1;
+                    transition: all 0.3s linear;
+                }
+
+                &::after{
+                    content: "";
+                    background: #0a4e6b;
+                    position: absolute;
+                    top: 1px;
+                    margin: auto;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 5px;
+                    transform: rotate(45deg);
+                    z-index: -1;
+                    transition: 500ms ease;
+                }
+            }
+
+            &:hover{
+
+                &:before{
+                    height: 100%;
+                }
+                & .service_icon{ 
+                   
+                    &:before{
+                        border-color: #dd9e1a;
+                    }
+
+                    &:after{
+                        background: #fff;
+                        transform: rotate(30deg);
+                    }
+                 }
+
+                 & .col-12{
+                    color: #fff !important;
+                 }
+
+            }
+    }
+
+}
+
+.banner-cta1 {
+    background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+    border-radius: 10px;
+}
+
+
+.app-features-section{
+
+    & .nav-tabs{
+
+        .nav-link {
+            border: none;
+            border-radius: 2px;
+            box-shadow: 0 0 4px #000;
+            border-right: 3px solid #dd9e1a;
+            width: 240px;
+            background: #094964;
+
+            &.active{
+                border-right: 3px solid #094964;
+                background: #dd9e1a;
+            }
+            
+        }
+    }
+
+    & .feature_content{
+        box-shadow: 0 0 5px #000;
+        border-radius: 10px;
+        border-right: 4px solid #dd9e1a;
+        background: #094964;
+
+        
+        & .feature_heading{
+              transition: 500ms ease;
+
+                    &::before{
+                        position: absolute;
+                        content: "";
+                        border-bottom: 3px solid #fff;
+                        width: 21px;
+                        bottom: -3px;
+                        left: 0;
+                        transition: 500ms ease;
+                    }
+        }
+
+        &:hover{
+
+            & .feature_heading:before{
+               width: 20%;
+            }
+
+        }
+    }
+}
+
+.hire_section{
+    background: linear-gradient(to right, #03151d 12%, #0b5a7b);
+  
+       & .hire_box{
+         border: 1px solid #fff;
+           border-radius: 9px;
+           transition: 500ms ease;
+  
+        &.hire_box_2{
+          margin-top: -93px;
+        }
+        &:hover{
+           background: #e09c19;
+        }
+       }
+  }
+
+
+
+
+
+
+ // Faq section
+      
+ .faq_section {
+    background: #f8f9fa;
+  }
+  .faq_section::before {
+    content: "";
+    // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: top right;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+    z-index: 0;
+    -webkit-transform: rotateY(180deg) rotateX(180deg);
+    transform: rotateY(180deg) rotateX(180deg);
+    background-repeat: no-repeat;
+  }
+  .faq_section::after {
+    content: "";
+    // background: url(../../../img/fantasy-sports-stock-trading-development/footer-bg-3.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: top right;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+    z-index: 0;
+    background-repeat: no-repeat;
+  }
+  .accordion-item {
+    box-shadow: 0 1px 5px 1px #0000000d;
+    border-radius: 10px;
+    border: 0;
+  }
+  button.accordion-button {
+    background: linear-gradient(to right, darken($theme1, 40) 12%, darken($theme1, 20));
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    color: rgba($white, 0.8);
+    border-radius: 4px;
+    padding: 20px 20px;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: $theme2;
+    color: $white;
+    box-shadow: unset;
+    outline: unset;
+  }
+  .list_count {
+    list-style-type: decimal-leading-zero;
+  }
+  .accordion-button::after {
+    filter: brightness(20.5);
+  }
+  
+  
+
+  @mixin  video_stream_section-mixin-max-sm(){
+
+    .app-development_area{
+    
+    & .heading{
+    
+            &::before {
+                right: 0 !important;
+            }
+            
+            &::after{
+                right: 0 !important;
+            }
+  }
+}
+
+    .app-development_area{
+    
+    & .app_choose{
+    
+        &::before {
+           display: none;
+        }
+    }
+  }
+  .app-features-section {  
+
+    & .nav-tabs {
+  
+       & .nav-link {
+            width: 138px;
+        }
+
+    }
+  }
+  .hire_section {
+        
+    & .hire_box.hire_box_2{
+        margin-top: 0;
+    }
+   }
+
+}
+     
+@mixin  video_stream_section-mixin-max-md(){
+    .app-development_area{
+    
+        & .heading{
+        
+                &::before {
+                    right: 0 !important;
+                }
+                
+                &::after{
+                    right: 0 !important;
+                }
+      }
+    }
+
+    .hire_section {
+        
+        & .hire_box.hire_box_2{
+            margin-top: 0;
+        }
+       }
+   
+}
+@mixin  video_stream_section-mixin-max-lg(){
+ 
+}
+@mixin  video_stream_section-mixin-max-xl(){
+ 
+}
+@mixin  video_stream_section-mixin-min-xxl(){
+ 
+}
+   
+   
+   
+   // XX-Large devices (larger desktops, 1400px and up)
+   @media (min-width: 1400px) {
+     @include  video_stream_section-mixin-min-xxl();
+   
+   }
+   
+   // X-Large devices (large desktops, less than 1400px)
+   @media (max-width: 1399.98px) {
+     @include  video_stream_section-mixin-max-xl();
+   
+   }
+   
+   // Large devices (desktops, less than 1200px)
+   @media (max-width: 1199.98px) {
+     @include  video_stream_section-mixin-max-lg();
+   
+   }
+   // Medium devices (tablets, less than 992px)
+   @media (max-width: 991.98px) {
+     @include  video_stream_section-mixin-max-md();
+   
+   }
+   
+   // Small devices (landscape phones, less than 768px)
+   @media (max-width: 767.98px) {
+     @include  video_stream_section-mixin-max-sm();
+   
+   }       
+
+  
+
+  
