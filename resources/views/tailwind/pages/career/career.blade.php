@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class="lg:w-1/2 md:w-2/5 w-full md:order-2 order-1">
-                <div class="w-1/2 h-1/2 md:ms-auto mx-auto">
+                <div class="w-1/2 h-1/2 md:ml-auto mx-auto">
                     <img src="{{asset('public'.mix('/tailwind/img/carers/together-IMG-Global-Infotech.webp'))}}" alt="thanku" class="h-full w-full ">
                 </div>
             </div>
@@ -605,6 +605,7 @@
 
 {{-- blog section  --}}
 
+
 <div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
@@ -628,7 +629,7 @@
         </p>
         <div class="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">
             <div class="swiper blogsSwiper w-full !overflow-visible" 
-                data-swiper-options='{
+                data-swiper='{
                     "slidesPerView": 2,
                     "spaceBetween": 10,
                     "speed": 1000,
