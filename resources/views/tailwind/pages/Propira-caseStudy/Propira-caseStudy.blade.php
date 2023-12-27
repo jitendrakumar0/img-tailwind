@@ -289,7 +289,17 @@
                 <img src="{{asset('public'.mix('/tailwind/img/Propira06.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
             </div>
             <div class="w-1/3">
-                <div class="swiper mySwiper !w-[90%]">
+                <div class="swiper mySwiper !w-[90%]"          data-swiper='{
+                    "spaceBetween": 10,
+                    "loop": true,
+                    "slidesPerView": 1,
+                    "autoplay": {"delay": 2500, "disableOnInteraction": true},
+                    "effect": "fade",
+                    "speed": 1500,
+                    "navigation": {"nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev"},
+                    "thumbs": {"swiper": ".servicesSwiperThumb"}
+                }'>
+
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="">
@@ -314,12 +324,12 @@
                             <img src="{{asset('public'.mix('/tailwind/img/propSwiper01.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
                         </div>
                     </div>
-                    <div class="swiper-button-next after:content-[''] after:hidden relative">
+                    <div class="swiper-button-next swiper-button-next after:content-[''] after:hidden relative">
                         <div class="icon h-[30px] md:h-[40px] w-[30px] md:w-[40px] bg-white rounded-full p-1 border border-[#d90202] absolute right-[-10px]">
                             <svg stroke="currentColor" fill="#d90202" stroke-width="0" viewBox="0 0 256 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg>
                         </div>
                     </div>
-                    <div class="swiper-button-prev after:content-[''] after:hidden relative">
+                    <div class="swiper-button-prev swiper-button-prev after:content-[''] after:hidden relative">
                         <div class="icon h-[30px] md:h-[40px] w-[30px] md:w-[40px] bg-white rounded-full p-1 border border-[#d90202] absolute left-[-10px]">
                             <svg stroke="currentColor" fill="#d90202" stroke-width="0" viewBox="0 0 256 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"></path></svg>
                         </div>
@@ -388,10 +398,10 @@
             </div>
             <div class="w-full md:w-1/4 shadow-2xl rounded-md px-6 pb-10 pt-14 sm:pt-20 md:pt-24 bg-white z-[10] relative group before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-0 before:w-full before:bg-[#d90202] hover:before:top-0 hover:before:h-full before:transition-all before:duration-500 before:z-[-1] hover:before:origin-bottom hover:before:transition-all hover:before:duration-500 hover:before:text-white">
                 <div class="heading text-xl sm:text-2xl font-semibold !leading-[120%] text-black z-10 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
-                    Innovative Technology Integration
+                    Personalized Client Engagement
                 </div>
                 <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
-                    Propira stands out through its cutting-edge technology integration, streamlining the real estate experience. From advanced property search algorithms to virtual tours and online transaction management, Propira harnesses technology to enhance every step of the real estate process.
+                    Propira takes a client-centric approach, offering personalized services that cater to the unique needs of each individual. Whether it's tailored property recommendations, expert guidance, or proactive communication, Propira ensures a high level of customer satisfaction.
                 </div>
                 <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 group-hover:text-white group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
                     02
@@ -399,10 +409,10 @@
             </div>
             <div class="w-full md:w-1/4 shadow-2xl rounded-md px-6 pb-10 pt-14 sm:pt-20 md:pt-24 bg-white z-[10] relative group before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-0 before:w-full before:bg-[#d90202] hover:before:top-0 hover:before:h-full before:transition-all before:duration-500 before:z-[-1] hover:before:origin-bottom hover:before:transition-all hover:before:duration-500 hover:before:text-white">
                 <div class="heading text-xl sm:text-2xl font-semibold !leading-[120%] text-black z-10 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
-                    Innovative Technology Integration
+                    Transparent and Efficient Transactions
                 </div>
                 <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
-                    Propira stands out through its cutting-edge technology integration, streamlining the real estate experience. From advanced property search algorithms to virtual tours and online transaction management, Propira harnesses technology to enhance every step of the real estate process.
+                    Transparency is key in real estate, and Propira excels in providing clear information to clients. From property details and market trends to transaction processes and fees, Propira ensures that clients are well-informed, promoting trust and efficiency in real estate transactions.
                 </div>
                 <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 group-hover:text-white group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
                     03
@@ -411,6 +421,153 @@
         </div>
     </div>
 {{-- unique Section ends --}}
+
+{{-- two mobile Section Start --}}
+    <div class="flex items-center flex-wrap py-5 sm:py-8 md:py-10">
+        <div class="w-1/2 py-10 sm:py-12 md:py-16 lg:py-20 bg-gradient-to-r from-[#d90202] to-slate-800">
+            <div class="w-1/2 lg:w-[40%] mx-auto">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira10.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
+            </div>
+        </div>
+        <div class="w-1/2 py-10 sm:py-12 md:py-16 lg:py-20 bg-gradient-to-r from-[#938fe2] to-slate-800">
+            <div class="w-1/2 lg:w-[40%] mx-auto">
+                <img src="{{asset('public'.mix('/tailwind/img/Propira11.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
+            </div>
+        </div>
+    </div>
+{{-- two mobile Section end --}}
+
+{{-- testimonial Section Start --}}
+<div class="py-8 md:py-14 lg:py-20">
+    <div class="relative">
+        <svg aria-hidden="true" class="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"><rect width="100%" height="100%" fill="url(#:R1lda:)" stroke-width="0"></rect><svg x="50%" y="-96" stroke-width="0" class="overflow-visible"><path transform="translate(64 160)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path><path transform="translate(128 320)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path><path transform="translate(288 480)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path><path transform="translate(512 320)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path><path transform="translate(544 640)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path><path transform="translate(320 800)" d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"></path></svg><defs><pattern id=":R1lda:" width="96" height="480" x="50%" patternUnits="userSpaceOnUse" patternTransform="translate(0 -96)" fill="none"><path d="M128 0 98.572 147.138A16 16 0 0 1 82.883 160H13.117a16 16 0 0 0-15.69 12.862l-26.855 134.276A16 16 0 0 1-45.117 320H-116M64-160 34.572-12.862A16 16 0 0 1 18.883 0h-69.766a16 16 0 0 0-15.69 12.862l-26.855 134.276A16 16 0 0 1-109.117 160H-180M192 160l-29.428 147.138A15.999 15.999 0 0 1 146.883 320H77.117a16 16 0 0 0-15.69 12.862L34.573 467.138A16 16 0 0 1 18.883 480H-52M-136 480h58.883a16 16 0 0 0 15.69-12.862l26.855-134.276A16 16 0 0 1-18.883 320h69.766a16 16 0 0 0 15.69-12.862l26.855-134.276A16 16 0 0 1 109.117 160H192M-72 640h58.883a16 16 0 0 0 15.69-12.862l26.855-134.276A16 16 0 0 1 45.117 480h69.766a15.999 15.999 0 0 0 15.689-12.862l26.856-134.276A15.999 15.999 0 0 1 173.117 320H256M-200 320h58.883a15.999 15.999 0 0 0 15.689-12.862l26.856-134.276A16 16 0 0 1-82.883 160h69.766a16 16 0 0 0 15.69-12.862L29.427 12.862A16 16 0 0 1 45.117 0H128"></path></pattern></defs></svg>
+    </div>
+    
+    <div class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
+        <div class="text-white/10">
+            <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
+                <defs>
+                    <pattern id="s3" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
+                        <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#s3)"></rect>
+            </svg>
+        </div>
+        {{-- <div class="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative">
+            <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-center">
+                <span class="font-normal">What Our Clients </span> 
+                <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent"> Have to Say?</span>
+            </p>
+            <div class="md:text-base text-sm opacity-70 mt-3 mb-lg-1 text-center">
+                Dive into the testimonials that paint a vivid picture of our journey with our potential client so far. Take a glimpse into our exceptional assistance and begin your success story with us today.
+            </div>
+        </div> --}}
+        <div class="header">
+            <div class="text-xl sm:text-2xl lg:text-3xl font-semibold text-center text-white">
+                Client Testimonials
+            </div>
+            <div class="py-2 flex justify-center">
+                <span class="relative after:content-[''] after:absolute after:h-[3px] after:w-[50px] after:bg-white after:top-1/2 after:right-0 after:mr-3"></span>
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg"><path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path></svg>
+                <span class="relative before:content-[''] before:absolute before:h-[3px] before:w-[50px] before:bg-white before:top-1/2 before:left-0 before:ml-3"></span>
+            </div>
+        </div>
+        <div class="swiper testimonialsSwiper w-full" 
+            data-swiper='{
+                "slidesPerView": 2,
+                "spaceBetween": 10,
+                "speed": 2000,
+                "autoplay": {"enabled": true, "delay": 2500},
+                "loop": true,
+                "effect": "coverflow",
+                "centeredSlides": true,
+                "breakpoints": {
+                    "320": {"slidesPerView": 1.3, "spaceBetween": 0},
+                    "480": {"slidesPerView": 1.4, "spaceBetween": 10},
+                    "640": {"slidesPerView": 1.5, "spaceBetween": 30},
+                    "1024": {"slidesPerView": 1.8, "spaceBetween": 30},
+                    "1350": {"slidesPerView": 2, "spaceBetween": 30}
+                }
+            }'
+        >
+            <div class="swiper-wrapper flex items-center">
+                <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/tst">
+                    <div class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/tst:delay-0 delay-700 group-[.swiper-slide-active]/tst:opacity-100 opacity-60 duration-300">
+                        <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“The client was very satisfied with the final product. IMG Global Infotech Pvt. Ltd provided a quick turnaround and high-quality services. They were able to strategize their deliverables well. The team utilized Scrum for project management and various apps for communication.”</div>
+                        
+                        <div class="mt-10 flex items-center sm:justify-center">
+                            <div class="overflow-hidden rounded-full opacity-80"><img alt="Miss. Alisha Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/testimonial-2.webp'))}}"></div>
+                            <div class="ml-4">
+                                <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Miss. Alisha Sharma</div>
+                                <div class="mt-1 text-sm md:text-sm opacity-70">Co-Founder, YSR Infotech</div>
+                                <div class="mt-1 text-sm md:text-sm opacity-70">New Delhi, India</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/tst">
+                    <div class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/tst:delay-0 delay-700 group-[.swiper-slide-active]/tst:opacity-100 opacity-60 duration-300">
+                        <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“IMG Global Infotech Pvt. Ltd helped the client improve their digital presence through the web portal. They finished the project within six months, which exceeded the client's expectations. In addition, they were customer-focused and accommodating to the client's queries.”</div>
+                        
+                        <div class="mt-10 flex items-center sm:justify-center">
+                            <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Arun Garg" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/testimonial-3.webp'))}}"></div>
+                            <div class="ml-4">
+                                <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Arun Garg</div>
+                                <div class="mt-1 text-sm md:text-sm opacity-70">Founder, CoachingSelect.com</div>
+                                <div class="mt-1 text-sm md:text-sm opacity-70">India</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/tst">
+                    <div class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/tst:delay-0 delay-700 group-[.swiper-slide-active]/tst:opacity-100 opacity-60 duration-300">
+                        <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“IMG Global Infotech Pvt. Ltd impressed the client with the final results. The client also lauded their quality work, proper communication via scrum meetings, efficient project management, and on-time delivery. Due to the success of the collaboration, the client hired them again for other projects..”</div>
+                        
+                        <div class="mt-10 flex items-center sm:justify-center">
+                            <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Sandeep Yadav" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/testimonial-1.webp'))}}"></div>
+                            <div class="ml-4">
+                                <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Sandeep Yadav</div>
+                                <div class="mt-1 text-sm md:text-sm opacity-70">Owner, Coherent Lab LLP</div>
+                                <div class="mt-1 text-sm md:text-sm opacity-70">India</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/tst">
+                    <div class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/tst:delay-0 delay-700 group-[.swiper-slide-active]/tst:opacity-100 opacity-60 duration-300">
+                        <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“Thanks to IMG Global Infotech's efforts, the project was completed successfully, satisfying the client's expectations. Although work was done remotely, their project management was seamless and efficient.”</div>
+                        
+                        <div class="mt-10 flex items-center sm:justify-center">
+                            <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Anikendra Das Choudhury" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/testimonial-4.webp'))}}"></div>
+                            <div class="ml-4">
+                                <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Anikendra Das Choudhury</div>
+                                <div class="mt-1 text-sm md:text-sm opacity-70">CEO, MyFab11</div>
+                                <div class="mt-1 text-sm md:text-sm opacity-70">Kolkata, India</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide rounded-2xl overflow-hidden p-3 md:p-8 group/tst">
+                    <div class="md:py-8 w-full rounded-2xl overflow-hidden group-[.swiper-slide-active]/tst:delay-0 delay-700 group-[.swiper-slide-active]/tst:opacity-100 opacity-60 duration-300">
+                        <div class="mt-10 text-sm md:text-xl lg:text-2xl font-medium tracking-tight sm:text-center">“Impressing their partner, IMG Global Infotech Pvt. Ltd brought many customers for the client. Their professionalism and active response were all remarkable, as demonstrated in their project updates every 2-3 days.”</div>
+                        
+                        <div class="mt-10 flex items-center sm:justify-center">
+                            <div class="overflow-hidden rounded-full opacity-80"><img alt="Mr. Bharat Sharma" width="48" height="48" class="h-12 w-12 object-cover text-transparent" loading="lazy" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/t-avatar-1.webp'))}}"></div>
+                            <div class="ml-4">
+                                <div class="text-sm md:text-base font-medium md:leading-6 tracking-tight">Mr. Bharat Sharma</div>
+                                <div class="mt-1 text-sm md:text-sm opacity-70">Administrative Head, Injection Service At Home</div>
+                                <div class="mt-1 text-sm md:text-sm opacity-70">India</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+{{-- testimonial Section Ends --}}
 
 
 
