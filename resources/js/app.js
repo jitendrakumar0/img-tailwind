@@ -1,12 +1,11 @@
-import Swiper from 'swiper/bundle';
 import 'swiper';
-// import 'swiper/css';
 import 'swiper/css/navigation';
+import '../plugins/intl-tel-input';
 // import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
 
-import 'intl-tel-input';
-import intlTelInput from 'intl-tel-input';
+import Swiper from 'swiper/bundle';
+import intlTelInput from '../plugins/intl-tel-input';
 
 document.addEventListener("DOMContentLoaded", () => {
     const initSwiper = (selector, options) => new Swiper(selector, options);

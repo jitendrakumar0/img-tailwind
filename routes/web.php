@@ -20,11 +20,18 @@ Route::get('/terms-and-conditions.php', function () {
 Route::get('/disclaimer.php', function () {
   return view('tailwind/pages/disclaimer/disclaimer');
 });
+Route::get('/food-delivery-app-development.php', function () {
+  return view('tailwind/pages/food-delivery-app-development/food-delivery-app-development');
+});
 Route::get('/home-delivery-app-development.php', function () {
   return view('tailwind/pages/home-delivery-app-development/home-delivery-app-development');
 });
 Route::get('/propira-casestudy.php', function () {
   return view('tailwind/pages/propira-casestudy/propira-casestudy');
+});
+
+Route::get('/career.php', function () {
+  return view('tailwind/pages/career/career');
 });
 
 
