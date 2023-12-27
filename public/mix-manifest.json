@@ -1,7 +1,7 @@
 {
     "/tailwind/js/app.js": "/tailwind/js/app.js?id=696833bb2189f677d6355576fc6e2220",
     "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=a2dabf790b15b3e56eafd3a17ec75a47",
-    "/tailwind/css/app.css": "/tailwind/css/app.css?id=246fcace6e6a80a9e491af98c309133e",
+    "/tailwind/css/app.css": "/tailwind/css/app.css?id=a749ef224936db91dd50320942998ef4",
     "/tailwind/android-chrome-144x144.png": "/tailwind/android-chrome-144x144.png?id=de3c1fceec9a432a8ddcf6684b1d46c2",
     "/tailwind/android-chrome-192x192.png": "/tailwind/android-chrome-192x192.png?id=d24a76fcee41c06d0bc18709fc08be46",
     "/tailwind/android-chrome-36x36.png": "/tailwind/android-chrome-36x36.png?id=363494c1dab183d3c362a428be7a0476",
@@ -64,14 +64,10 @@
     "/tailwind/img/burgerShImg.png": "/tailwind/img/burgerShImg.png?id=3be029be06d30d5a8d892c1073d5d97a",
     "/tailwind/img/bussinesapp.webp": "/tailwind/img/bussinesapp.webp?id=bd2c2e4a03aac75f542932a099947da3",
     "/tailwind/img/carers/beams-pricing.png": "/tailwind/img/carers/beams-pricing.png?id=bf6b93405f79d1b7c842a013c3b32d90",
-    "/tailwind/img/carers/beams-pricing.webp": "/tailwind/img/carers/beams-pricing.webp?id=51faa3c989c76b71ba6583a9a7929520",
     "/tailwind/img/carers/beifit.png": "/tailwind/img/carers/beifit.png?id=2689ccf847529c4a7b826a09b3bce357",
-    "/tailwind/img/carers/beifit.webp": "/tailwind/img/carers/beifit.webp?id=7e51ee12599f2595ea76d2ae22c48dff",
     "/tailwind/img/carers/care1.webp": "/tailwind/img/carers/care1.webp?id=bb1b4b3ba97959d077d67504b48f15f8",
-    "/tailwind/img/carers/img-team.webp": "/tailwind/img/carers/img-team.webp?id=a01699131cd65d0039a0e6b3e05a3196",
     "/tailwind/img/carers/overlay-shape2.png": "/tailwind/img/carers/overlay-shape2.png?id=9c482809ded2e868fc624755bbabb7b9",
     "/tailwind/img/carers/together-IMG-Global-Infotech.avif": "/tailwind/img/carers/together-IMG-Global-Infotech.avif?id=dbb4b8f0e1a338992b2440bdade8109f",
-    "/tailwind/img/carers/together-IMG-Global-Infotech.webp": "/tailwind/img/carers/together-IMG-Global-Infotech.webp?id=94fa430ed76574fdca018ed845ca7885",
     "/tailwind/img/Client-Satisfaction.webp": "/tailwind/img/Client-Satisfaction.webp?id=ca4d82884f2fc346e70fb350b424d455",
     "/tailwind/img/customerReview.svg": "/tailwind/img/customerReview.svg?id=75f00aed91c37435de7e65aae3709ead",
     "/tailwind/img/Delivery Man.svg": "/tailwind/img/Delivery Man.svg?id=022e33eb7803b8b6cfb57f8292508e24",
@@ -172,6 +168,8 @@
     "/tailwind/img/Propira08.webp": "/tailwind/img/Propira08.webp?id=e4f22831c6e1a581e6b0956cd4725df4",
     "/tailwind/img/Propira09.png": "/tailwind/img/Propira09.png?id=8292c5cea1a0d7a7cdbeda8ac5334f9d",
     "/tailwind/img/Propira09.webp": "/tailwind/img/Propira09.webp?id=ccada501572f959e6ff8b87055282989",
+    "/tailwind/img/Propira10.webp": "/tailwind/img/Propira10.webp?id=0b1b45d4fb0da63a6a60756ae973299a",
+    "/tailwind/img/Propira11.webp": "/tailwind/img/Propira11.webp?id=0b1b45d4fb0da63a6a60756ae973299a",
     "/tailwind/img/PropiraLogo.png": "/tailwind/img/PropiraLogo.png?id=2f51975138e66c65b3c16be7e723accf",
     "/tailwind/img/PropiraLogo.webp": "/tailwind/img/PropiraLogo.webp?id=f7290d797e5586f01169d84c0cbdaaa3",
     "/tailwind/img/propSwiper01.webp": "/tailwind/img/propSwiper01.webp?id=378a3a2b548704913eec02aca86545c7",
@@ -228,5 +226,9 @@
     "/tailwind/mstile-70x70.png": "/tailwind/mstile-70x70.png?id=b030c4c6f977862bebfde9549f586c94",
     "/tailwind/robots.txt": "/tailwind/robots.txt?id=25866381e74ad6159dc9a03a996ca61c",
     "/tailwind/safari-pinned-tab.svg": "/tailwind/safari-pinned-tab.svg?id=53630740360ccc7baf8efc5465380ae5",
-    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=37c41ba005122d6067255f1bb75ceac7"
+    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=37c41ba005122d6067255f1bb75ceac7",
+    "/tailwind/img/carers/beams-pricing.webp": "/tailwind/img/carers/beams-pricing.webp?id=51faa3c989c76b71ba6583a9a7929520",
+    "/tailwind/img/carers/beifit.webp": "/tailwind/img/carers/beifit.webp?id=7e51ee12599f2595ea76d2ae22c48dff",
+    "/tailwind/img/carers/img-team.webp": "/tailwind/img/carers/img-team.webp?id=a01699131cd65d0039a0e6b3e05a3196",
+    "/tailwind/img/carers/together-IMG-Global-Infotech.webp": "/tailwind/img/carers/together-IMG-Global-Infotech.webp?id=94fa430ed76574fdca018ed845ca7885"
 }
