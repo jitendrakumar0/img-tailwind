@@ -1,6 +1,6 @@
 {
   "public/tailwind/css/app.css": {
-    "file": "assets/app-7fd16e8d.css",
+    "file": "assets/app-9693f4df.css",
     "isEntry": true,
     "src": "public/tailwind/css/app.css"
   },
@@ -49,22 +49,12 @@
     "src": "public/tailwind/img/newsBack.webp"
   },
   "public/tailwind/js/app.js": {
-    "file": "assets/app-1412b391.js",
+    "file": "assets/app-1a214277.js",
     "isEntry": true,
     "src": "public/tailwind/js/app.js"
   },
-  "public/tailwind/js/festival-decor/newYear/newYear.js": {
-    "file": "assets/newYear-f3f8234c.js",
-    "isEntry": true,
-    "src": "public/tailwind/js/festival-decor/newYear/newYear.js"
-  },
-  "public/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js": {
-    "file": "assets/snowfall-xmas-4630beed.js",
-    "isEntry": true,
-    "src": "public/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js"
-  },
   "public/tailwind/js/lazy-content.js": {
-    "file": "assets/lazy-content-52c1e707.js",
+    "file": "assets/lazy-content-15ded6d6.js",
     "isEntry": true,
     "src": "public/tailwind/js/lazy-content.js"
   }
