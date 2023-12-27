@@ -39,30 +39,34 @@
 
 {{-- hero section start  --}}
 
-<div class="bg-slate-900 max-h-[750px] h-full">
+<div class=" bg-gradient-to-b from-black/40 via-black/20 select-none text-white  group-[]/ns:from-gray-950 group-[]/ns:to-sky-950 group-[]/ons:from-gray-950 group-[]/ons:to-sky-950 group-[]/ons:rounded-b-2xl max-h-[750px] h-full">
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative pb-16 lg:pt-48 md:pt-40 pt-36 overflow-hidden h-full">
         <div class="flex flex-row flex-wrap items-center h-full">
             <div class=" lg:w-1/2 md:w-3/5 w-full md:order-1 order-2">
                 <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10 md:text-start text-center">
                     <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white">
                         <span class="font-normal">Together at</span> 
-                        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">IMG Global Infotech</span>
+                        <span class="font-bold bg-gradient-to-r from-indigo-200 via-sky-600 to-indigo-200 bg-clip-text text-transparent">IMG Global Infotech</span>
                     </p>
                     <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1">
                         We offer a truly inspiring and flexible work environment where you will be empowered to follow your passion, see possibilities, and learn and grow continuously.
                     </div>
-                    <div class=">
-                        <a href="https://www.imgglobalinfotech.com/contact-us.php" class=" inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 bg-white text-slate-900 ring-2 ring-white/80 hover:bg-slate-300 hover:ring-slate-900/15">
-                            <span class="flex items-center gap-1">
-                            Apply Now
-                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><g><path d="M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-.38-1.38a1.081,1.081,0,0,0-1.05-.76H7.79a1.06,1.06,0,0,0-1.04.76L6.37,4.21A1.537,1.537,0,0,0,5.21,5.76,1.476,1.476,0,0,0,6.27,7.18l.1,2.77a.75.75,0,0,0-.42.22.768.768,0,0,0-.21.56l.24,5.76a.759.759,0,0,0,.65.72l.08,2.22a2.579,2.579,0,0,0,2.59,2.5h5.39a2.581,2.581,0,0,0,2.6-2.5l.08-2.22a.76.76,0,0,0,.64-.72l.24-5.76a.768.768,0,0,0-.21-.56.72.72,0,0,0-.41-.22l.1-2.77A1.534,1.534,0,0,0,18.79,5.67Zm-11-2.6,8.49.03.3,1.07H7.44Zm8.5,16.33a1.578,1.578,0,0,1-1.6,1.53H9.3A1.575,1.575,0,0,1,7.71,19.4l-.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-.1-2.67h9.45Zm.66-3.67H6.71a.522.522,0,0,1-.5-.59.5.5,0,0,1,.5-.5H17.29a.528.528,0,0,1,.5.59A.5.5,0,0,1,17.29,6.26Z"></path></g></svg>
+                    <div class="mt-6">
+                        <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 opacity-100 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
+                            <span>
+                                <span class="inline-flex items-center gap-1">
+                                    <span>
+                                        Consult Our Experts
+                                    </span>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                </span>
                             </span>
                         </a>
                     </div>
                 </div>
             </div>
             <div class="lg:w-1/2 md:w-2/5 w-full md:order-2 order-1">
-                <div class="w-1/2 h-1/2 md:ml-auto mx-auto">
+                <div class="w-1/2 h-1/2 md:ml-auto md:mr-auto md:text-right text-center">
                     <img src="{{asset('public'.mix('/tailwind/img/carers/together-IMG-Global-Infotech.webp'))}}" alt="thanku" class="h-full w-full ">
                 </div>
             </div>
@@ -84,10 +88,10 @@
         <rect width="100%" height="100%" fill="url(#nhgh)"></rect>
     </svg>
     <div class="hidden z-0 sm:absolute sm:-top-10 sm:right-1/2 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
-        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-fuchsia-900 to-lime-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-sky-400 to-sky-400 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
     <div class="absolute z-0 -top-52 left-1/2 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
-        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-fuchsia-900 to-lime-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-sky-400 to-sky-400 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-10 overflow-hidden">
@@ -104,55 +108,55 @@
     
         <div class="flex flex-wrap mt-10 ">
             <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-                <div class="relative block h-full bg-white shadow-md rounded-b-lg p-6 pt-10 group">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
                     <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Learning & Development</div>
                     <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">Describes work staff to develop academic practices. Still, many leaders struggle to keep their developers on a lifelong path of skill development</div>
-                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-md absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
                     </div>
                 </div>
             </div>
             <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-                <div class="relative block h-full bg-white shadow-md rounded-b-lg p-6 pt-10 group">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
                     <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Mindful Personal Guidance</div>
                     <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">If you want your organization to function better and create a healthy working environment for your employees.</div>
-                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-md absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
                     </div>
                 </div>
             </div>
             <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-                <div class="relative block h-full bg-white shadow-md rounded-b-lg p-6 pt-10 group">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
                     <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Constructive Feedback</div>
                     <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">Creating a good quality requires solving problems and exercising our minds to find the best methods or tools.</div>
-                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-md absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
                     </div>
                 </div>
             </div>
             <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-                <div class="relative block h-full bg-white shadow-md rounded-b-lg p-6 pt-10 group">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
                     <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Inclusive & Open-Culture</div>
                     <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">Cultural inclusion starts at the top business leaders must display inclusive behavior.</div>
-                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-md absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
                     </div>
                 </div>
             </div>
             <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-                <div class="relative block h-full bg-white shadow-md rounded-b-lg p-6 pt-10 group">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
                     <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Innovation & Quality First</div>
                     <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">We always let our staff take initiative and to innovate with new ideas and come up with better.</div>
-                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-md absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
                     </div>
                 </div>
             </div>
             <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
-                <div class="relative block h-full bg-white shadow-md rounded-b-lg p-6 pt-10 group">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
                     <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Proactive Implementation</div>
                     <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">Strong emotional reactions are common in reactive people, as they allow themselves to be defined by other people’s actions.</div>
-                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-md absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
                     </div>
                 </div>
@@ -181,32 +185,32 @@
                     <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">We believe that either your work is the passion,or you are working so that you can follow your passion. Either way, we give the flexibility and support so that you can focus on what you really love.</p>
                     <div class="flex items-center flex-row flex-wrap">
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
-                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
+                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
                                 <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
-                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
+                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
                                 <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
-                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
+                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
                                 <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
-                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
+                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
                                 <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
-                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
+                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
                                 <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
-                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
+                            <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
                                 <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
@@ -222,7 +226,7 @@
 {{-- Why We Love It Here Value start  --}}
 
 <div class=" border bg-theme1 py-10 relative overflow-hidden  ">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full after:absolute after:w-20 after:rounded-full after:h-20 after:right-[50px] after:bottom-[50px] after:bg-gradient-to-br after:from-blue-300 after:to-green-500  before:absolute before:w-20 before:rounded-full before:h-20 before:lg:left-[500px] md:left-[300px] :left-[200px] before:top-[300px] before:bg-gradient-to-br before:from-pink-400 before:to-pink-600 ">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full after:absolute after:w-20 after:rounded-full after:h-20 after:right-[50px] after:bottom-[50px] after:bg-gradient-to-r after:from-indigo-200 after:via-purple-600 after:to-indigo-200 before:absolute before:w-20 before:rounded-full before:h-20 before:lg:left-[500px] md:left-[300px] :left-[200px] before:top-[300px]  before:bg-gradient-to-r before:from-gray-500 before:via-sky-600 before:to-gray-5000 ">
         <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
             <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white">
                 <span class="font-normal">Why We Love It</span> 
@@ -234,10 +238,10 @@
         </div>
         <div class="flex flex-row g-3 flex-wrap w-full mt-3 relative z-40">
             <div class="md:w-1/2 w-full lg:p-4 md:p-3 p-2">
-                <div class="md:p-5 p-4  bg-white/5 backdrop-blur-sm rounded-[20px] border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
+                <div class="md:p-5 p-4  bg-white/5 backdrop-blur-sm rounded-lg rounded-br-none border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
                     <div class="flex items-center">
                         <div>
-                            <div class="sm:w-14 sm:h-14 p-3 w-12 h-12 bg-[white]/10 border-[1px]  border-[white]/10 rounded-[23px] flex items-center justify-center overflow-hidden">  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-white duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M1 11v10h5v-6h4v6h5V11L8 6z"></path><path d="M10 3v1.97l7 5V11h2v2h-2v2h2v2h-2v4h6V3H10zm9 6h-2V7h2v2z"></path></svg></div>
+                            <div class="sm:w-14 sm:h-14 p-3 w-12 h-12 bg-[white]/10 border-[1px]  border-[white]/10 rounded-lg rounded-br-none flex items-center justify-center overflow-hidden">  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-white duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M1 11v10h5v-6h4v6h5V11L8 6z"></path><path d="M10 3v1.97l7 5V11h2v2h-2v2h2v2h-2v4h6V3H10zm9 6h-2V7h2v2z"></path></svg></div>
                         </div>
                         <div class="ms-3">
                             <div class="text-white font-normal md:text-[20px] text-[18px]">Work With Amazing Brands</div>
@@ -247,10 +251,10 @@
                 </div>
             </div>
             <div class="md:w-1/2 w-full lg:p-4 md:p-3 p-2">
-                <div class="md:p-5 p-4  bg-white/5 backdrop-blur-sm rounded-[20px] border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
+                <div class="md:p-5 p-4  bg-white/5 backdrop-blur-sm rounded-lg rounded-br-none border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
                     <div class="flex items-center">
                         <div>
-                            <div class="sm:w-14 sm:h-14 p-3 w-12 h-12 bg-[white]/10 border-[1px]  border-[white]/10 rounded-[23px] flex items-center justify-center overflow-hidden">  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-white duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg"><path d="M407.47 20.85c10.26 16.748 17.462 36.09 19.856 56.65-32.396-44.636-58-40.276-96.36-25.697 65.992 9.776 101.33 67.377 96.36 140.75 48.848-61.72 34.92-160.814-19.857-171.703zm-276.167 2.896c-.987-.002-1.985.006-2.994.024h-.003c-34.522.598-107.756 26.213-104.54 101.037 21.08-55.636 65.886-58.685 104.54-32.123 46.407 31.894 22.075 98.348-16.936 100.45 11.637-17.33 17.04-40.65 2.974-55.29-24.895-25.91-54.777 4.487-55.533 29.594-1.403 46.62 45.44 68.116 75.336 60.738 30.192-7.45 50.092 12.416 36.795 51.976-15.056 44.795-121.114 75.948-133.155-8.173 1.7 88.73 43.248 129.87 104.54 98.114 41.467-21.487 78.87 18.96 74.17 54.896-32.792-37.747-82.098 17.986-38.544 40.883 78.98 41.522 199.4 40.194 265.73-23.945 64.735-62.6 60.833-175.215 12.263-259.89-5.614 26.608-28.43 52.367-74.17 67.163 59.262-77.482 2.572-206.85-129.652-174.036 84.2 4.683 73.567 108.248 5.257 105.123-62.264-2.848-.79-156.296-126.074-156.54zM277.508 230.22c-56.683 51.454 15.914 153.65 88.95 141.837-33.543-9.43-64.745-51.995-54.833-100.05 31.558 66.125 129.923 66.127 137.49-16.85 29.98 68.665 13.327 147.842-36.478 182.18-58.45 40.295-156.124 24.466-181.955-58.83 19.527 19.775 58.78 32.23 82.654 28.722-92.908-26.93-106.546-145.142-35.828-177.01zM24.68 355.77c-16.486 116.72 99.137 117.28 130.425 29.306-48.323 24.538-100.24 29.99-130.425-29.305z"></path></svg></div>
+                            <div class="sm:w-14 sm:h-14 p-3 w-12 h-12 bg-[white]/10 border-[1px]  border-[white]/10 rounded-lg rounded-br-none flex items-center justify-center overflow-hidden">  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-white duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg"><path d="M407.47 20.85c10.26 16.748 17.462 36.09 19.856 56.65-32.396-44.636-58-40.276-96.36-25.697 65.992 9.776 101.33 67.377 96.36 140.75 48.848-61.72 34.92-160.814-19.857-171.703zm-276.167 2.896c-.987-.002-1.985.006-2.994.024h-.003c-34.522.598-107.756 26.213-104.54 101.037 21.08-55.636 65.886-58.685 104.54-32.123 46.407 31.894 22.075 98.348-16.936 100.45 11.637-17.33 17.04-40.65 2.974-55.29-24.895-25.91-54.777 4.487-55.533 29.594-1.403 46.62 45.44 68.116 75.336 60.738 30.192-7.45 50.092 12.416 36.795 51.976-15.056 44.795-121.114 75.948-133.155-8.173 1.7 88.73 43.248 129.87 104.54 98.114 41.467-21.487 78.87 18.96 74.17 54.896-32.792-37.747-82.098 17.986-38.544 40.883 78.98 41.522 199.4 40.194 265.73-23.945 64.735-62.6 60.833-175.215 12.263-259.89-5.614 26.608-28.43 52.367-74.17 67.163 59.262-77.482 2.572-206.85-129.652-174.036 84.2 4.683 73.567 108.248 5.257 105.123-62.264-2.848-.79-156.296-126.074-156.54zM277.508 230.22c-56.683 51.454 15.914 153.65 88.95 141.837-33.543-9.43-64.745-51.995-54.833-100.05 31.558 66.125 129.923 66.127 137.49-16.85 29.98 68.665 13.327 147.842-36.478 182.18-58.45 40.295-156.124 24.466-181.955-58.83 19.527 19.775 58.78 32.23 82.654 28.722-92.908-26.93-106.546-145.142-35.828-177.01zM24.68 355.77c-16.486 116.72 99.137 117.28 130.425 29.306-48.323 24.538-100.24 29.99-130.425-29.305z"></path></svg></div>
                         </div>
                         <div class="ms-3">
                             <div class="text-white font-normal md:text-[20px] text-[18px]">Learn & Grow</div>
@@ -260,10 +264,10 @@
                 </div>
             </div>  
             <div class="md:w-1/2 w-full lg:p-4 md:p-3 p-2">
-                <div class="md:p-5 p-4  bg-white/5 backdrop-blur-sm rounded-[20px] border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
+                <div class="md:p-5 p-4  bg-white/5 backdrop-blur-sm rounded-lg rounded-br-none border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
                     <div class="flex items-center">
                         <div>
-                            <div class="sm:w-14 sm:h-14 p-3 w-12 h-12 bg-[white]/10 border-[1px]  border-[white]/10 rounded-[23px] flex items-center justify-center overflow-hidden">  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-white duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg"><path d="M137.71 18.326L17.866 138.166l29.582 29.582c23.04-53.698 66.14-96.802 119.84-119.842l-29.58-29.58zm238.286.04L346.44 47.92c53.693 23.048 96.79 66.155 119.822 119.857l29.576-29.575-119.842-119.84zm-133.27 37.04C137.405 62.64 54.448 150.126 54.448 257.31c0 111.93 90.466 202.397 202.398 202.397 32.75 0 63.66-7.757 91.007-21.52l-22.26-15.78c-21.173 8.84-44.394 13.734-68.745 13.734-98.652 0-178.827-80.172-178.827-178.824 0-90.942 68.133-166.178 156.065-177.382l8.637-24.528zm29.432.076l8.555 24.604c87.397 11.69 154.96 86.67 154.96 177.23 0 48.234-19.17 92.043-50.29 124.23l8.633 24.686c40.12-36.963 65.23-89.96 65.23-148.923 0-106.782-82.332-194.023-187.088-201.828zm-14.75 14.49l-32.3 91.706h18.925v45.068c4.35-1.182 8.917-1.824 13.63-1.824 4.36 0 8.596.547 12.65 1.564v-44.808h18.98L257.408 69.97zm71.82 44.42l-17.197 29.79c-3.446-1.657-6.983-3.158-10.596-4.5l14.144 40.683h-26.576v35.057c12.702 9.562 20.95 24.756 20.95 41.793 0 8.697-2.16 16.91-5.956 24.142l40.705 54.186 19.466-14.662 4.924 14.08 20.603 11.897c3.477-5.153 6.657-10.522 9.526-16.08l-29.35-16.945c6.967-13.842 11.447-29.152 12.86-45.348h33.862c.253-3.69.392-7.412.392-11.168 0-2.52-.066-5.026-.18-7.52h-33.82c-.98-16.423-5.11-31.993-11.796-46.112l29.45-17.002c-2.76-5.616-5.835-11.046-9.208-16.266l-29.48 17.02c-8.97-13.35-20.434-24.88-33.73-33.922l17.153-29.71c-5.178-3.438-10.566-6.585-16.144-9.41zm-145.38.313c-5.567 2.85-10.94 6.023-16.104 9.483l17.62 30.523c-12.89 9.09-23.988 20.545-32.67 33.737l-30.645-17.695c-3.362 5.228-6.422 10.667-9.167 16.29l30.73 17.74c-6.385 13.828-10.33 29.016-11.285 45.015H96.895c-.115 2.493-.182 4.998-.182 7.52 0 3.755.14 7.477.392 11.167h35.477c1.377 15.775 5.664 30.708 12.324 44.264l-30.613 17.674c2.855 5.565 6.028 10.938 9.492 16.1l30.592-17.663c8.745 12.622 19.743 23.56 32.418 32.236l-17.527 30.353c5.202 3.4 10.616 6.505 16.216 9.292l17.473-30.265c13.535 6.554 28.428 10.746 44.147 12.052v34.62c3.224.193 6.472.303 9.746.303 3 0 5.98-.09 8.94-.252v-34.497c6.595-.42 13.048-1.358 19.325-2.756l10.682-8.047-47.52-63.257c-24.326-4.454-42.908-25.862-42.908-51.428 0-16.593 7.833-31.43 19.976-41.026v-35.825h-26.63l14.196-40.31c-3.934 1.5-7.777 3.184-11.51 5.056l-17.554-30.405zm73.814 108.906c-18.67 0-33.605 14.935-33.605 33.605 0 18.67 14.936 33.603 33.605 33.603 18.67 0 33.604-14.934 33.604-33.603 0-18.67-14.934-33.604-33.604-33.604zm34.363 72.927c-5.978 5.234-13.142 9.14-21.03 11.233l50.952 67.828-14.578 10.984 79.74 56.525-32.137-91.902-13.975 10.525-48.973-65.193zm174.223 50.33c-14.203 33.102-36.037 62.167-63.27 84.998l9.7 27.733 83.15-83.15-29.58-29.58zM47.46 346.9l-29.585 29.586 119.84 119.84 29.603-29.603C113.616 443.69 70.508 400.593 47.46 346.9zm323.343 107.553c-7.848 4.552-15.992 8.65-24.395 12.254l29.58 29.58 22.33-22.33-27.515-19.504z"></path></svg></div>
+                            <div class="sm:w-14 sm:h-14 p-3 w-12 h-12 bg-[white]/10 border-[1px]  border-[white]/10 rounded-lg rounded-br-none flex items-center justify-center overflow-hidden">  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-white duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg"><path d="M137.71 18.326L17.866 138.166l29.582 29.582c23.04-53.698 66.14-96.802 119.84-119.842l-29.58-29.58zm238.286.04L346.44 47.92c53.693 23.048 96.79 66.155 119.822 119.857l29.576-29.575-119.842-119.84zm-133.27 37.04C137.405 62.64 54.448 150.126 54.448 257.31c0 111.93 90.466 202.397 202.398 202.397 32.75 0 63.66-7.757 91.007-21.52l-22.26-15.78c-21.173 8.84-44.394 13.734-68.745 13.734-98.652 0-178.827-80.172-178.827-178.824 0-90.942 68.133-166.178 156.065-177.382l8.637-24.528zm29.432.076l8.555 24.604c87.397 11.69 154.96 86.67 154.96 177.23 0 48.234-19.17 92.043-50.29 124.23l8.633 24.686c40.12-36.963 65.23-89.96 65.23-148.923 0-106.782-82.332-194.023-187.088-201.828zm-14.75 14.49l-32.3 91.706h18.925v45.068c4.35-1.182 8.917-1.824 13.63-1.824 4.36 0 8.596.547 12.65 1.564v-44.808h18.98L257.408 69.97zm71.82 44.42l-17.197 29.79c-3.446-1.657-6.983-3.158-10.596-4.5l14.144 40.683h-26.576v35.057c12.702 9.562 20.95 24.756 20.95 41.793 0 8.697-2.16 16.91-5.956 24.142l40.705 54.186 19.466-14.662 4.924 14.08 20.603 11.897c3.477-5.153 6.657-10.522 9.526-16.08l-29.35-16.945c6.967-13.842 11.447-29.152 12.86-45.348h33.862c.253-3.69.392-7.412.392-11.168 0-2.52-.066-5.026-.18-7.52h-33.82c-.98-16.423-5.11-31.993-11.796-46.112l29.45-17.002c-2.76-5.616-5.835-11.046-9.208-16.266l-29.48 17.02c-8.97-13.35-20.434-24.88-33.73-33.922l17.153-29.71c-5.178-3.438-10.566-6.585-16.144-9.41zm-145.38.313c-5.567 2.85-10.94 6.023-16.104 9.483l17.62 30.523c-12.89 9.09-23.988 20.545-32.67 33.737l-30.645-17.695c-3.362 5.228-6.422 10.667-9.167 16.29l30.73 17.74c-6.385 13.828-10.33 29.016-11.285 45.015H96.895c-.115 2.493-.182 4.998-.182 7.52 0 3.755.14 7.477.392 11.167h35.477c1.377 15.775 5.664 30.708 12.324 44.264l-30.613 17.674c2.855 5.565 6.028 10.938 9.492 16.1l30.592-17.663c8.745 12.622 19.743 23.56 32.418 32.236l-17.527 30.353c5.202 3.4 10.616 6.505 16.216 9.292l17.473-30.265c13.535 6.554 28.428 10.746 44.147 12.052v34.62c3.224.193 6.472.303 9.746.303 3 0 5.98-.09 8.94-.252v-34.497c6.595-.42 13.048-1.358 19.325-2.756l10.682-8.047-47.52-63.257c-24.326-4.454-42.908-25.862-42.908-51.428 0-16.593 7.833-31.43 19.976-41.026v-35.825h-26.63l14.196-40.31c-3.934 1.5-7.777 3.184-11.51 5.056l-17.554-30.405zm73.814 108.906c-18.67 0-33.605 14.935-33.605 33.605 0 18.67 14.936 33.603 33.605 33.603 18.67 0 33.604-14.934 33.604-33.603 0-18.67-14.934-33.604-33.604-33.604zm34.363 72.927c-5.978 5.234-13.142 9.14-21.03 11.233l50.952 67.828-14.578 10.984 79.74 56.525-32.137-91.902-13.975 10.525-48.973-65.193zm174.223 50.33c-14.203 33.102-36.037 62.167-63.27 84.998l9.7 27.733 83.15-83.15-29.58-29.58zM47.46 346.9l-29.585 29.586 119.84 119.84 29.603-29.603C113.616 443.69 70.508 400.593 47.46 346.9zm323.343 107.553c-7.848 4.552-15.992 8.65-24.395 12.254l29.58 29.58 22.33-22.33-27.515-19.504z"></path></svg></div>
                         </div>
                         <div class="ms-3">
                             <div class="text-white font-normal md:text-[20px] text-[18px]">Work/Life Balance</div>
@@ -273,10 +277,10 @@
                 </div>
             </div>
             <div class="md:w-1/2 w-full lg:p-4 md:p-3 p-2">
-                <div class="md:p-5 p-4  bg-white/5 backdrop-blur-sm rounded-[20px] border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
+                <div class="md:p-5 p-4  bg-white/5 backdrop-blur-sm rounded-lg rounded-br-none border-[1px] border-solid border-[white]/10 group duration-300 sm:hover:scale-95 sm:hover:border-pink-100">
                     <div class="flex items-center">
                         <div>
-                            <div class="sm:w-14 sm:h-14 p-3 w-12 h-12 bg-[white]/10 border-[1px]  border-[white]/10 rounded-[23px] flex items-center justify-center overflow-hidden"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="text-white duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg"><title></title><path d="m10.278 15.443 1.705 1.705-3.426 3.426-3.427-3.426 8.592-8.591-1.705-1.705 3.426-3.426 3.427 3.426-8.592 8.591zM0 12.017l3.426 3.426 8.591-8.59-3.426-3.427L0 12.017zm11.983 5.13 3.426 3.427L24 11.983l-3.426-3.426-8.591 8.59z"></path></svg></div>
+                            <div class="sm:w-14 sm:h-14 p-3 w-12 h-12 bg-[white]/10 border-[1px]  border-[white]/10 rounded-lg rounded-br-none flex items-center justify-center overflow-hidden"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="text-white duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg"><title></title><path d="m10.278 15.443 1.705 1.705-3.426 3.426-3.427-3.426 8.592-8.591-1.705-1.705 3.426-3.426 3.427 3.426-8.592 8.591zM0 12.017l3.426 3.426 8.591-8.59-3.426-3.427L0 12.017zm11.983 5.13 3.426 3.427L24 11.983l-3.426-3.426-8.591 8.59z"></path></svg></div>
                         </div>
                         <div class="ms-3">
                             <div class="text-white font-normal md:text-[20px] text-[18px]">Cutting Edge</div>
@@ -351,7 +355,7 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-10 overflow-hidden">
         <div class="flex flex-wrap flex-row">
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm rounded-xl px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">Flutter Developer</div>
@@ -377,7 +381,7 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm rounded-xl px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">React Js Developer</div>
@@ -403,7 +407,7 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm rounded-xl px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">Node.js Developer</div>
@@ -429,7 +433,7 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm rounded-xl px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">AngularJS Developer</div>
@@ -455,7 +459,7 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm rounded-xl px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">React Native DeveloperR</div>
@@ -481,7 +485,7 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm rounded-xl px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">PHP Developer</div>
@@ -507,7 +511,7 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm rounded-xl px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">iOS Develoepr</div>
@@ -533,7 +537,7 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm rounded-xl px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">IT Business Development Executive</div>
@@ -559,7 +563,7 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm rounded-xl px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">HR Intern</div>
