@@ -1,24 +1,6 @@
-
-document.addEventListener("DOMContentLoaded", function() {
-    const images = document.querySelectorAll("img[data-src]");
-
-    const options = {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0.5
-    };
-
-    const observer = new IntersectionObserver(function(entries, observer) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const img = entry.target;
-                img.src = img.getAttribute("data-src");
-                observer.unobserve(img);
-            }
-        });
-    }, options);
-
-    images.forEach(img => {
-        observer.observe(img);
-    });
+document.addEventListener('DOMContentLoaded', () => {
+    var lazyImages = document.querySelectorAll('img[loading="lazy"]');
+    if ('loading' in HTMLImageElement.prototype) {
+        lazyImages.forEach(img => { img.src = img.dataset.src; img.removeAttribute('loading'); });
+    } else document.body.appendChild(Object.assign(document.createElement('script'), { src: 'https://polyfill.io/v3/polyfill.min.js?features=loading' }));
 });
