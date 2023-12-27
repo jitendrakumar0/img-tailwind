@@ -134,10 +134,10 @@
     </div>
 </div>
 
-<div class="flex flex-wrap">
-    <div class="w-[70%] flex flex-wrap">
-        <div class="border">
-            <div class="flex items-center h-[80px] rotate-45 w-[80px] justify-center border-slate-400">
+<div class="flex flex-wrap my-5">
+    <div class="w-[60%] rounded-br-none rounded-2xl h-full p-6 border">
+        <div class="flex flex-wrap w-[20%]">
+            <div class="flex bg-blue-50 rounded-br-none rounded-lg items-center h-[80px] rotate-45 w-[80px] justify-center after:rounded-br-none after:rounded-lg  after:absolute after:content-[''] after:w-full after:h-full after:bg-gray-300 after:top-[-10%] after:right-[-10%] after:-z-10  before:rounded-br-none before:rounded-lg  before:absolute before:content-[''] before:w-full before:h-full before:bg-red-200 abefore:top-[-20%] abefore:right-[-20%] before:-z-20">
                 <div class="text-[40px] rotate-[-45deg]  font-semibold p-3">M</div>
             </div>
         </div>
@@ -159,22 +159,22 @@
    <div class="lg:w-1/2 w-full lg:pt-0 pt-4  select-none"> 
                 <div class="flex relative -z-10 p-6  rounded-xl">
                 <div class="w-full h-full flex  justify-center items-stretch flex-wrap gap-2">
-                <div class="bg-white overflow-hidden  shadow-md shadow-slate-500 relative z-10 w-[100%] md:w-[49%] rounded-xl  flex py-5 px-3 justify-between h-auto">
-                <div class="">
-                <div class="flex items-center">
+                <div class="bg-white overflow-hidden  shadow-md shadow-slate-500 relative z-10 w-[100%] md:w-[49%] rounded-lg rounded-br-none  flex py-5 px-3 justify-between h-auto">
+                    <div class="">
+                        <div class="flex items-center">
                         <div class="flex bg-gradient-to-br from-gray-950  via-sky-950 to-gray-950  h-[50px] w-[50px] items-center justify-center p-3 rounded-full">
                         <svg stroke="currentColor" fill="lightgray" stroke-width="0" version="1.1" viewBox="0 0 16 16" height="120px" width="200px" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 0h-9c-0.55 0-1 0.45-1 1v14c0 0.55 0.45 1 1 1h9c0.55 0 1-0.45 1-1v-14c0-0.55-0.45-1-1-1zM7.5 15.278c-0.43 0-0.778-0.348-0.778-0.778s0.348-0.778 0.778-0.778 0.778 0.348 0.778 0.778-0.348 0.778-0.778 0.778zM12 13h-9v-11h9v11z"></path></svg>
                                 </div>
-                    <div class="font-bold text-3xl text-blue-950 ms-2">100+</div>
-                </div>
-                <div class="ps-16 text-md  text-blue-950 font-semibold text-center whitespace-wrap">Apps Developed</div>
-            </div>
-            <div class="absolute -z-10 w-full h-full top-0 left-0">
-                <svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' ><rect fill='#ffffff' width='24' height='24'/><defs><linearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(78,0.5,0.5)'><stop offset='0'  stop-color='#F7FFFE'/><stop offset='1'  stop-color='#FFECFE'/></linearGradient></defs><pattern id='b'  width='9' height='9' patternUnits='userSpaceOnUse'><circle  fill='#ffffff' cx='4.5' cy='4.5' r='4.5'/></pattern><rect width='100%' height='100%' fill='url(#a)'/><rect width='100%' height='100%' fill='url(#b)' fill-opacity='0.45'/></svg>
+                        <div class="font-bold text-3xl text-blue-950 ms-2">100+</div>
+                        </div>
+                        <div class="ps-16 text-md  text-blue-950 font-semibold text-center whitespace-wrap">Apps Developed</div>
+                            </div>
+                        <div class="absolute -z-10 w-full h-full top-0 left-0">
+                            <svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' ><rect fill='#ffffff' width='24' height='24'/><defs><linearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(78,0.5,0.5)'><stop offset='0'  stop-color='#F7FFFE'/><stop offset='1'  stop-color='#FFECFE'/></linearGradient></defs><pattern id='b'  width='9' height='9' patternUnits='userSpaceOnUse'><circle  fill='#ffffff' cx='4.5' cy='4.5' r='4.5'/></pattern><rect width='100%' height='100%' fill='url(#a)'/><rect width='100%' height='100%' fill='url(#b)' fill-opacity='0.45'/></svg>
                             </div>
         </div>
-        <div class="bg-white overflow-hidden shadow-md shadow-slate-500 relative z-10 w-[100%] md:w-[49%] rounded-xl  flex py-5 px-3 justify-between h-auto">
+        <div class="bg-white overflow-hidden shadow-md shadow-slate-500 relative z-10 w-[100%] md:w-[49%] rounded-lg rounded-br-none  flex py-5 px-3 justify-between h-auto">
             <div class="">
                 <div class="flex items-center">
                     <div class="flex bg-gradient-to-br from-gray-950  via-sky-950 to-gray-950  h-[50px] w-[50px] items-center justify-center p-3 rounded-full">
@@ -189,7 +189,7 @@
                 <svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' ><rect fill='#ffffff' width='24' height='24'/><defs><linearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(78,0.5,0.5)'><stop offset='0'  stop-color='#F7FFFE'/><stop offset='1'  stop-color='#FFECFE'/></linearGradient></defs><pattern id='b'  width='9' height='9' patternUnits='userSpaceOnUse'><circle  fill='#ffffff' cx='4.5' cy='4.5' r='4.5'/></pattern><rect width='100%' height='100%' fill='url(#a)'/><rect width='100%' height='100%' fill='url(#b)' fill-opacity='0.45'/></svg>
                             </div>
         </div>
-        <div class="bg-white overflow-hidden shadow-md shadow-slate-500 relative z-10 w-[100%] md:w-[49%] rounded-xl  flex py-5 px-3 justify-between h-auto">
+        <div class="bg-white overflow-hidden shadow-md shadow-slate-500 relative z-10 w-[100%] md:w-[49%] rounded-lg rounded-br-none  flex py-5 px-3 justify-between h-auto">
             <div class="">
                 <div class="flex items-center">
                     <div class="flex bg-gradient-to-br from-gray-950  via-sky-950 to-gray-950  h-[50px] w-[50px] items-center justify-center p-3 rounded-full">
@@ -203,7 +203,7 @@
                 <svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' ><rect fill='#ffffff' width='24' height='24'/><defs><linearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(78,0.5,0.5)'><stop offset='0'  stop-color='#F7FFFE'/><stop offset='1'  stop-color='#FFECFE'/></linearGradient></defs><pattern id='b'  width='9' height='9' patternUnits='userSpaceOnUse'><circle  fill='#ffffff' cx='4.5' cy='4.5' r='4.5'/></pattern><rect width='100%' height='100%' fill='url(#a)'/><rect width='100%' height='100%' fill='url(#b)' fill-opacity='0.45'/></svg>
                             </div>
         </div>
-        <div class="bg-white overflow-hidden shadow-md shadow-slate-500 relative z-10 w-[100%] md:w-[49%] rounded-xl  flex py-5 px-3 justify-between h-auto">
+        <div class="bg-white overflow-hidden shadow-md shadow-slate-500 relative z-10 w-[100%] md:w-[49%] rounded-lg rounded-br-none  flex py-5 px-3 justify-between h-auto">
             <div class="">
                 <div class="flex items-center">
                     <div class="flex bg-gradient-to-br from-gray-950  via-sky-950 to-gray-950  h-[50px] w-[50px] items-center justify-center p-3 rounded-full">
