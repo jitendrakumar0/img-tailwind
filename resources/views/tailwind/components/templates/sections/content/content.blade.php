@@ -33,7 +33,7 @@
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative py-20">
 
-<div class="py-xl-5 py-lg-5 py-md-5 py-5 select-none relative">
+        <div class="py-xl-5 py-lg-5 py-md-5 py-5 select-none relative">
     <div class="flex w-full h-auto items-center flex-wrap">
         <div class="lg:w-[60%] lg:pe-10 pe-0 w-[100%] lg:order-1 order-2">
             <p class="mt-4  max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
@@ -93,11 +93,8 @@
 </div> 
 
 <div class="text-center py-4 items-center justify-center">
-    <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
-        <span class="font-normal">Our</span> 
-        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Values</span>
-    </p>
-    <div class="flex text-left mt-5 gap-4 flex-wrap">
+    <div class=" flex items-center font-bold justify-center bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent ma x-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">Our Values</div>
+    <div class="flex text-left mt-5 gap-2 flex-wrap">
         <div class="lg:w-[32%] md:w-[49%] w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-30 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
             <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                 <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">01</div>
@@ -127,12 +124,22 @@
                 <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">03</div>
             </div>
             <div class=" text-[#337ca6]  whitespace-nowrap mt-1 font-semibold text-sm"> Integrate work-life balance</div>
-            <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">Latest infrastructure and flexible working hours along with many other privileges that inculcate healthy lifestyle choices.</div>
+            <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">An unwavering commitment to drive maximum customer satisfaction, infused with integrity and passion.</div>
             <a class="mt-5 inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
                 <span class="select-none">
                 Lets Get Connect <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
                 </span>
             </a>
+        </div>
+    </div>
+</div>
+
+<div class="flex flex-wrap">
+    <div class="w-[70%] flex flex-wrap">
+        <div class="border">
+            <div class="flex items-center h-[80px] rotate-45 w-[80px] justify-center border-slate-400">
+                <div class="text-[40px] rotate-[-45deg]  font-semibold p-3">M</div>
+            </div>
         </div>
     </div>
 </div>
@@ -219,14 +226,6 @@
 
 </div>
 
-<div class="flex">
-    <div class="w-[60%]">
-<div class="w-[600px] h-10 flex border">
-
-</div>
-    </div>
-
-</div>
 
 </div>
 </div>
