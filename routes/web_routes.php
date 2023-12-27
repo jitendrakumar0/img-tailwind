@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::any('/', 'HomeController@index');
+Route::any('/sections', 'HomeController@sections');
 Route::get('/index-seo', 'HomeController@index_seo');
 Route::get('/newimg', 'HomeController@newimg');
 //Route::get('/{addr}', 'HomeController@get_routes');
@@ -141,7 +142,7 @@ Route::get('/travel-app-development.php', 'HomeController@tour_demo');
 Route::get('/social-media-app-development.php', 'HomeController@social_demo');
 Route::get('/event-app-development.php', 'HomeController@event_demo');
 
-Route::get('/propira-case.php', 'HomeController@propira_case');
+Route::get('/propira-case.php', 'HomeController@propira_casestudy');
 
 Route::get('/ott-app-development.php', 'HomeController@ott_app_development');
 Route::get('/progressive-web-app-development.php', 'HomeController@progressive_web_app_development');
@@ -289,6 +290,7 @@ Route::get('/offshore-web-development-india.php', 'HomeController@offshore_web_d
 Route::get('/nidhi-company-software-kerala.php', 'HomeController@nidhi_company_software_kerala');
 Route::get('/food-delivery-app-development.php', 'HomeController@food_delivery_app_development');
 Route::get('/food-delivery-app-development1.php', 'HomeController@food_delivery_app_development1');
+Route::get('/home-delivery-app-development.php', 'HomeController@home_delivery_app_development');
 Route::get('/ui-ux-design-services.php', 'HomeController@ui_ux_design_services');
 Route::get('/psd-to-html-conversion.php', 'HomeController@psd_to_html_conversion');
 Route::get('/psd-to-wordpress-conversion.php', 'HomeController@psd_to_wordpress_conversion');

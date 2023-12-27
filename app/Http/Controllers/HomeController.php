@@ -56,6 +56,10 @@ class HomeController extends Controller
     {
         return view('about-us0.index');
     }
+    public function sections()
+    {
+        return view('tailwind.components.templates.sections.content.content');
+    }
 
     public function newimg()
     {
@@ -123,7 +127,7 @@ class HomeController extends Controller
     }
     public function disclaimer()
     {
-        return view('disclaimer.index');
+        return view('tailwind.pages.disclaimer.disclaimer');
     }
 
     public function mission_and_vision()
@@ -193,7 +197,12 @@ class HomeController extends Controller
 
      public function career()
      {
-        return view('career.index');
+        return view('tailwind.pages.career.career');
+     }
+
+     public function home_delivery_app_development()
+     {
+        return view('tailwind.pages.home-delivery-app-development.home-delivery-app-development');
      }
 
      public function mobileAppDevelopment1()
@@ -492,9 +501,9 @@ class HomeController extends Controller
             return view('event-demo.index');
         }
 
-        public function propira_case()
+        public function propira_casestudy()
         {
-            return view('propira-case.index');
+            return view('tailwind.pages.propira-casestudy.propira-casestudy');
         }
 
         public function ott_app_development()
