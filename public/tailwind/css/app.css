@@ -2616,6 +2616,9 @@ select{
 .h-screen{
   height: 100vh;
 }
+.h-\[80px\]{
+  height: 80px;
+}
 .max-h-12{
   max-height: 3rem;
 }
@@ -2790,6 +2793,12 @@ select{
 .w-screen{
   width: 100vw;
 }
+.w-\[70\%\]{
+  width: 70%;
+}
+.w-\[80px\]{
+  width: 80px;
+}
 .min-w-0{
   min-width: 0px;
 }
@@ -2876,6 +2885,10 @@ select{
 }
 .rotate-45{
   --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.rotate-\[-45deg\]{
+  --tw-rotate: -45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .scale-95{
@@ -3240,6 +3253,10 @@ select{
 }
 .border-white\/20{
   border-color: rgb(255 255 255 / 0.2);
+}
+.border-slate-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(148 163 184 / var(--tw-border-opacity));
 }
 .bg-\[\#d90202\]{
   --tw-bg-opacity: 1;
@@ -4218,6 +4235,9 @@ select{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-\[40px\]{
+  font-size: 40px;
 }
 .font-\[700\]{
   font-weight: 700;
