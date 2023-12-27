@@ -4192,6 +4192,9 @@ select{
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-\[13px\]{
+  font-size: 13px;
+}
 .font-\[700\]{
   font-weight: 700;
 }
@@ -7357,6 +7360,12 @@ select{
       content: var(--tw-content);
       height: 165px;
     }
+  }
+  .sm\:before\:h-\[156px\]::before{
+    content: var(--tw-content);
+    height: 156px;
+  }
+  @media (min-width: 640px){
     .sm\:before\:sm\:w-\[140px\]::before{
       content: var(--tw-content);
       width: 140px;
@@ -7462,6 +7471,12 @@ select{
       content: var(--tw-content);
       height: 170px;
     }
+  }
+  .sm\:after\:h-\[158px\]::after{
+    content: var(--tw-content);
+    height: 158px;
+  }
+  @media (min-width: 640px){
     .sm\:after\:sm\:w-\[140px\]::after{
       content: var(--tw-content);
       width: 140px;
@@ -7838,6 +7853,9 @@ select{
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+  .md\:text-\[13px\]{
+    font-size: 13px;
+  }
   .md\:font-semibold{
     font-weight: 600;
   }
@@ -8173,6 +8191,9 @@ select{
   .lg\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+  .lg\:text-\[18px\]{
+    font-size: 18px;
   }
   .before\:lg\:left-\[500px\]::before{
     content: var(--tw-content);
