@@ -19,12 +19,12 @@ export default defineConfig({
     ],
     build: {
         outDir: 'public/tailwind/css/build',
-        postcssOptions: {
-            plugins: [
-                require('postcss-url')({
-                    url: 'inline', // or 'rebase' or 'copy'
-                }),
-            ],
-        },
+        // postcssOptions: {
+        //     plugins: [
+        //         require('postcss-url')({
+        //             url: 'inline', // or 'rebase' or 'copy'
+        //         }),
+        //     ],
+        // },
     },
 });

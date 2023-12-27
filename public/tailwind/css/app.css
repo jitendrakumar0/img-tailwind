@@ -2113,6 +2113,9 @@ select{
 .top-auto{
   top: auto;
 }
+.left-\[-20px\]{
+  left: -20px;
+}
 .isolate{
   isolation: isolate;
 }
