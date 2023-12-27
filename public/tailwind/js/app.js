@@ -28,6 +28,17 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
 
 
 
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     initSwipers({ spaceBetween: 5, slidesPerView: 2 });
+//     function initSwipers(defaults = {}, selector = ".swiper") {
+//         document.querySelectorAll(selector).forEach(swiper => {
+//             const options = { ...defaults, ...JSON.parse(swiper.dataset.swiper || "{}") };
+//             new Swiper(swiper, options);
+//         });
+//     }
+// });
+
 document.addEventListener("DOMContentLoaded", function () {
   initSwipers({
     spaceBetween: 5,
@@ -38,6 +49,26 @@ document.addEventListener("DOMContentLoaded", function () {
     var selector = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : ".swiper";
     document.querySelectorAll(selector).forEach(function (swiper) {
       var options = _objectSpread(_objectSpread({}, defaults), JSON.parse(swiper.dataset.swiper || "{}"));
+
+      // Add video-related options
+      options.on = _objectSpread(_objectSpread({}, options.on), {}, {
+        transitionStart: function transitionStart() {
+          var videos = document.querySelectorAll('video');
+          Array.prototype.forEach.call(videos, function (video) {
+            video.pause();
+          });
+        },
+        transitionEnd: function transitionEnd() {
+          var activeIndex = this.activeIndex;
+          var activeSlide = document.getElementsByClassName('swiper-slide')[activeIndex];
+          var activeSlideVideo = activeSlide.getElementsByTagName('video')[0];
+
+          // Check if video element is defined before playing
+          if (activeSlideVideo) {
+            activeSlideVideo.play();
+          }
+        }
+      });
       new swiper_bundle__WEBPACK_IMPORTED_MODULE_3__["default"](swiper, options);
     });
   }
