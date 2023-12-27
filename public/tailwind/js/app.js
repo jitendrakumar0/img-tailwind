@@ -1,6 +1,167 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./resources/js/app.js":
+/*!*****************************!*\
+  !*** ./resources/js/app.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.mjs");
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/css/navigation */ "./node_modules/swiper/modules/navigation.css");
+/* harmony import */ var _plugins_intl_tel_input_build_js_intlTelInput_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../plugins/intl-tel-input/build/js/intlTelInput.js */ "./resources/plugins/intl-tel-input/build/js/intlTelInput.js");
+/* harmony import */ var _plugins_intl_tel_input_build_js_intlTelInput_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_plugins_intl_tel_input_build_js_intlTelInput_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper/bundle */ "./node_modules/swiper/swiper-bundle.mjs");
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+
+
+
+// import 'swiper/css/pagination';
+// import 'swiper/css/scrollbar';
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  initSwipers({
+    spaceBetween: 5,
+    slidesPerView: 2
+  });
+  function initSwipers() {
+    var defaults = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    var selector = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : ".swiper";
+    document.querySelectorAll(selector).forEach(function (swiper) {
+      var options = _objectSpread(_objectSpread({}, defaults), JSON.parse(swiper.dataset.swiper || "{}"));
+      new swiper_bundle__WEBPACK_IMPORTED_MODULE_3__["default"](swiper, options);
+    });
+  }
+});
+document.addEventListener('DOMContentLoaded', function () {
+  document.body.addEventListener("mousemove", function (event) {
+    var cursor = document.getElementById("cursor");
+    var cursor2 = document.getElementById("cursor2");
+    cursor.style.left = event.clientX + "px";
+    cursor.style.top = event.clientY + "px";
+    cursor2.style.left = event.clientX + "px";
+    cursor2.style.top = event.clientY + "px";
+  });
+  var cursor2 = document.getElementById("cursor2");
+  function addHoverClass() {
+    document.body.classList.add("hover");
+  }
+  function removeHoverClass() {
+    document.body.classList.remove("hover");
+  }
+  removeHoverClass();
+  var hoverLinks = document.querySelectorAll(".hoverLink");
+  hoverLinks.forEach(function (link) {
+    link.addEventListener("mouseover", addHoverClass);
+    link.addEventListener("mouseout", removeHoverClass);
+  });
+  var buttons = document.querySelectorAll("button");
+  var anchors = document.querySelectorAll("a");
+  buttons.forEach(function (button) {
+    button.addEventListener("mouseover", addColorViolet);
+    button.addEventListener("mouseout", removeColorViolet);
+  });
+  anchors.forEach(function (anchor) {
+    anchor.addEventListener("mouseover", addPreload);
+    anchor.addEventListener("mouseout", removePreload);
+  });
+  function addColorViolet() {
+    document.body.classList.add("group/cyan");
+  }
+  function removeColorViolet() {
+    document.body.classList.remove("group/cyan");
+  }
+  function addPreload() {
+    document.body.classList.add("group/preload");
+  }
+  function removePreload() {
+    document.body.classList.remove("group/preload");
+  }
+
+  // Active navbar on scroll
+  window.addEventListener('scroll', function () {
+    var scroll = window.scrollY || document.documentElement.scrollTop;
+    var mainBody = document.querySelector('body');
+    if (scroll <= 80) {
+      mainBody.classList.remove('group/ns');
+    } else {
+      mainBody.classList.add('group/ns');
+    }
+  });
+});
+document.addEventListener('DOMContentLoaded', function () {
+  var input = document.querySelector("#phone");
+  var iti = _plugins_intl_tel_input_build_js_intlTelInput_js__WEBPACK_IMPORTED_MODULE_2___default()(input, _defineProperty(_defineProperty({
+    nationalMode: true,
+    initialCountry: 'in',
+    placeholderNumberType: 'FIXED_LINE',
+    onlyCountries: ["in", "us", "cn", "jp", "br", "ru", "gb", "de", "fr", "it", "es", "kr", "au", "ca", "mx", "id", "tr", "za", "ng", "eg", "ar"],
+    localizedCountries: {
+      "in": "India",
+      fr: "Frankreich",
+      de: "Deutschland",
+      es: "Spanien",
+      it: "Italien",
+      ch: "Schweiz",
+      nl: "Niederlande",
+      at: "Österreich",
+      dk: "Dänemark"
+    },
+    preferredCountries: ["in", "us"]
+  }, "nationalMode", false), "separateDialCode", true));
+  var phoneInput = document.getElementById('phone');
+  phoneInput.addEventListener('input', function () {
+    phoneInput.value = phoneInput.value.replace(/\D/g, '');
+  });
+});
+(function () {
+  'use strict';
+
+  document.querySelectorAll('.needs-validation').forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      var invalidElements = form.querySelectorAll(':invalid');
+      if (!form.checkValidity()) {
+        if (invalidElements.length > 0) {
+          invalidElements[0].focus();
+        }
+      } else {
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', document.getElementById('ajxURL').value, true);
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function () {
+          var submitBtn = event.submitter;
+          submitBtn.classList.add('disabled');
+          event.preventDefault();
+          event.stopPropagation();
+          if (xhr.readyState == 4) {
+            if (xhr.status == 200) {
+              var data = JSON.parse(xhr.responseText);
+              window.location = document.getElementById('reUrl').value;
+            } else {
+              alert('Error posting feed.');
+            }
+          }
+        };
+        xhr.send(new URLSearchParams(new FormData(document.forms['feedInput'])).toString());
+      }
+      form.classList.add('check');
+    }, false);
+  });
+})();
+
+/***/ }),
+
 /***/ "./resources/plugins/intl-tel-input/build/js/intlTelInput.js":
 /*!*******************************************************************!*\
   !*** ./resources/plugins/intl-tel-input/build/js/intlTelInput.js ***!
@@ -1995,166 +2156,6 @@ module.exports = function (list, options) {
     lastIdentifiers = newLastIdentifiers;
   };
 };
-
-/***/ }),
-
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.mjs");
-/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/css/navigation */ "./node_modules/swiper/modules/navigation.css");
-/* harmony import */ var _plugins_intl_tel_input_build_js_intlTelInput_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../plugins/intl-tel-input/build/js/intlTelInput.js */ "./resources/plugins/intl-tel-input/build/js/intlTelInput.js");
-/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper/bundle */ "./node_modules/swiper/swiper-bundle.mjs");
-function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
-function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
-function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
-function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
-function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
-
-
-
-// import 'swiper/css/pagination';
-// import 'swiper/css/scrollbar';
-
-
-
-document.addEventListener("DOMContentLoaded", function () {
-  initSwipers({
-    spaceBetween: 5,
-    slidesPerView: 2
-  });
-  function initSwipers() {
-    var defaults = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-    var selector = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : ".swiper";
-    document.querySelectorAll(selector).forEach(function (swiper) {
-      var options = _objectSpread(_objectSpread({}, defaults), JSON.parse(swiper.dataset.swiper || "{}"));
-      new swiper_bundle__WEBPACK_IMPORTED_MODULE_3__["default"](swiper, options);
-    });
-  }
-});
-document.addEventListener('DOMContentLoaded', function () {
-  document.body.addEventListener("mousemove", function (event) {
-    var cursor = document.getElementById("cursor");
-    var cursor2 = document.getElementById("cursor2");
-    cursor.style.left = event.clientX + "px";
-    cursor.style.top = event.clientY + "px";
-    cursor2.style.left = event.clientX + "px";
-    cursor2.style.top = event.clientY + "px";
-  });
-  var cursor2 = document.getElementById("cursor2");
-  function addHoverClass() {
-    document.body.classList.add("hover");
-  }
-  function removeHoverClass() {
-    document.body.classList.remove("hover");
-  }
-  removeHoverClass();
-  var hoverLinks = document.querySelectorAll(".hoverLink");
-  hoverLinks.forEach(function (link) {
-    link.addEventListener("mouseover", addHoverClass);
-    link.addEventListener("mouseout", removeHoverClass);
-  });
-  var buttons = document.querySelectorAll("button");
-  var anchors = document.querySelectorAll("a");
-  buttons.forEach(function (button) {
-    button.addEventListener("mouseover", addColorViolet);
-    button.addEventListener("mouseout", removeColorViolet);
-  });
-  anchors.forEach(function (anchor) {
-    anchor.addEventListener("mouseover", addPreload);
-    anchor.addEventListener("mouseout", removePreload);
-  });
-  function addColorViolet() {
-    document.body.classList.add("group/cyan");
-  }
-  function removeColorViolet() {
-    document.body.classList.remove("group/cyan");
-  }
-  function addPreload() {
-    document.body.classList.add("group/preload");
-  }
-  function removePreload() {
-    document.body.classList.remove("group/preload");
-  }
-
-  // Active navbar on scroll
-  window.addEventListener('scroll', function () {
-    var scroll = window.scrollY || document.documentElement.scrollTop;
-    var mainBody = document.querySelector('body');
-    if (scroll <= 80) {
-      mainBody.classList.remove('group/ns');
-    } else {
-      mainBody.classList.add('group/ns');
-    }
-  });
-});
-document.addEventListener('DOMContentLoaded', function () {
-  var input = document.querySelector("#phone");
-  var iti = _plugins_intl_tel_input_build_js_intlTelInput_js__WEBPACK_IMPORTED_MODULE_2__(input, _defineProperty(_defineProperty({
-    nationalMode: true,
-    initialCountry: 'in',
-    placeholderNumberType: 'FIXED_LINE',
-    onlyCountries: ["in", "us", "cn", "jp", "br", "ru", "gb", "de", "fr", "it", "es", "kr", "au", "ca", "mx", "id", "tr", "za", "ng", "eg", "ar"],
-    localizedCountries: {
-      "in": "India",
-      fr: "Frankreich",
-      de: "Deutschland",
-      es: "Spanien",
-      it: "Italien",
-      ch: "Schweiz",
-      nl: "Niederlande",
-      at: "Österreich",
-      dk: "Dänemark"
-    },
-    preferredCountries: ["in", "us"]
-  }, "nationalMode", false), "separateDialCode", true));
-  var phoneInput = document.getElementById('phone');
-  phoneInput.addEventListener('input', function () {
-    phoneInput.value = phoneInput.value.replace(/\D/g, '');
-  });
-});
-(function () {
-  'use strict';
-
-  document.querySelectorAll('.needs-validation').forEach(function (form) {
-    form.addEventListener('submit', function (event) {
-      event.preventDefault();
-      event.stopPropagation();
-      var invalidElements = form.querySelectorAll(':invalid');
-      if (!form.checkValidity()) {
-        if (invalidElements.length > 0) {
-          invalidElements[0].focus();
-        }
-      } else {
-        var xhr = new XMLHttpRequest();
-        xhr.open('POST', document.getElementById('ajxURL').value, true);
-        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-        xhr.onreadystatechange = function () {
-          var submitBtn = event.submitter;
-          submitBtn.classList.add('disabled');
-          event.preventDefault();
-          event.stopPropagation();
-          if (xhr.readyState == 4) {
-            if (xhr.status == 200) {
-              var data = JSON.parse(xhr.responseText);
-              window.location = document.getElementById('reUrl').value;
-            } else {
-              alert('Error posting feed.');
-            }
-          }
-        };
-        xhr.send(new URLSearchParams(new FormData(document.forms['feedInput'])).toString());
-      }
-      form.classList.add('check');
-    }, false);
-  });
-})();
 
 /***/ }),
 

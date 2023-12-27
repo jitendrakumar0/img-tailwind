@@ -3388,6 +3388,9 @@ select{
 .bg-opacity-75{
   --tw-bg-opacity: 0.75;
 }
+.bg-\[url\(\'\.\.\/img\/beams1\.webp\'\)\]{
+  background-image: url('../img/beams1.webp');
+}
 .bg-\[url\(\'\.\.\/img\/beams1\.webp\?id\=31a5defd3b15daed788cf2bd1997fc88\'\)\]{
   background-image: url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88');
 }
@@ -4794,17 +4797,17 @@ select{
 .\[background-image\:linear-gradient\(90deg\2c rgba\(56\2c 189\2c 248\2c 0\)_0\%\2c \#0EA5E9_32\.29\%\2c rgba\(236\2c 72\2c 153\2c 0\.3\)_67\.19\%\2c rgba\(236\2c 72\2c 153\2c 0\)_100\%\)\]{
   background-image: linear-gradient(90deg,rgba(56,189,248,0) 0%,#0EA5E9 32.29%,rgba(236,72,153,0.3) 67.19%,rgba(236,72,153,0) 100%);
 }
-.\[background-image\:url\(\.\.\/img\/fab11\.webp\?id\=31a5defd3b15daed788cf2bd1997fc25\)\]{
-  background-image: url(../img/fab11.webp?id=31a5defd3b15daed788cf2bd1997fc25);
+.\[background-image\:url\(\.\.\/img\/fab11\.webp\)\]{
+  background-image: url(../img/fab11.webp);
 }
-.\[background-image\:url\(\.\.\/img\/fabindia\.webp\?id\=31a5defd3b15daed788cf2bd1997fc18\)\]{
-  background-image: url(../img/fabindia.webp?id=31a5defd3b15daed788cf2bd1997fc18);
+.\[background-image\:url\(\.\.\/img\/fabindia\.webp\)\]{
+  background-image: url(../img/fabindia.webp);
 }
-.\[background-image\:url\(\.\.\/img\/frame12\.webp\?id\=31a5defd3b15daed788cf2bd1997fc65\)\]{
-  background-image: url(../img/frame12.webp?id=31a5defd3b15daed788cf2bd1997fc65);
+.\[background-image\:url\(\.\.\/img\/frame12\.webp\)\]{
+  background-image: url(../img/frame12.webp);
 }
-.\[background-image\:url\(\.\.\/img\/hozzo\.webp\?id\=31a5defd3b15daed788cf2bd1997fc57\)\]{
-  background-image: url(../img/hozzo.webp?id=31a5defd3b15daed788cf2bd1997fc57);
+.\[background-image\:url\(\.\.\/img\/hozzo\.webp\)\]{
+  background-image: url(../img/hozzo.webp);
 }
 .\[box-shadow\:_0_0_12px_rgba\(255\2c 255\2c 255\2c 0\.3\)\]{
   box-shadow: 0 0 12px rgba(255,255,255,0.3);
@@ -5930,9 +5933,9 @@ select{
   --tw-content: '';
   content: var(--tw-content);
 }
-.after\:\[background-image\:url\(\.\.\/img\/grid\.svg\?id\=31a5defd3b15daed788cf2bd1997fc55\)\]::after{
+.after\:\[background-image\:url\(\.\.\/img\/grid\.svg\)\]::after{
   content: var(--tw-content);
-  background-image: url(../img/grid.svg?id=31a5defd3b15daed788cf2bd1997fc55);
+  background-image: url(../img/grid.svg);
 }
 .focus-within\:ring-2:focus-within{
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
