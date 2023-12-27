@@ -1,3 +1,0 @@
-(()=>{var o={};o.r=e=>{typeof Symbol<"u"&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var a={};/*!**************************************!*\
-  !*** ./resources/js/lazy-content.js ***!
-  \**************************************/o.r(a),document.addEventListener("DOMContentLoaded",function(){var e=document.querySelectorAll("img[data-src]"),i={root:null,rootMargin:"0px",threshold:.5},c=new IntersectionObserver(function(r,u){r.forEach(function(n){if(n.isIntersecting){var t=n.target;t.src=t.getAttribute("data-src"),u.unobserve(t)}})},i);e.forEach(function(r){c.observe(r)})})})();
