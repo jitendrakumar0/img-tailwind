@@ -7853,9 +7853,6 @@ select{
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-  .md\:text-\[13px\]{
-    font-size: 13px;
-  }
   .md\:font-semibold{
     font-weight: 600;
   }
