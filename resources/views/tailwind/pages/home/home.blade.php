@@ -72,7 +72,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 
 <div class="flex w-full pt-16 md:pt-20 lg:pt-32 overflow-hidden relative bg-slate-50 select-none max-h-[750px]">
     <div class="swiper heroSwiper md:min-h-[500px] h-[500px] md:h-[calc(100vh-80px)] lg:h-[calc(100vh-128px)] w-full relative !z-10" 
-        data-swiper-options='{
+        data-swiper='{
             "slidesPerView": 1,
             "spaceBetween": 10,
             "autoplay": {"delay": 2500, "disableOnInteraction": false},
@@ -286,7 +286,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     </div>
     
     <div class="swiper heroSwiperThumbs !absolute !inset-0 before:absolute before:inset-0 before:z-[3] !z-0" 
-        data-swiper-options='{
+        data-swiper='{
             "slidesPerView": 1,
             "effect": "fade",
             "speed": 5500,
@@ -318,7 +318,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
     <div class="bg-slate-50 pb-6 sm:pb-12">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
             <div class="swiper logo-clouds before:bg-gradient-to-r before:from-slate-50 before:to-transparent before:w-32 before:z-10 before:inset-0 before:absolute before:pointer-events-none after:bg-gradient-to-l after:from-slate-50 after:to-transparent after:w-32 after:z-10 after:inset-0 after:absolute after:pointer-events-none after:left-auto" 
-            data-swiper-options='{
+            data-swiper='{
                 "slidesPerView": 1,
                 "spaceBetween": 20,
                 "loop": true,
@@ -556,7 +556,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         <div class="flex w-full flex-wrap pt-8 flex-col-reverse">
             <div class="w-full">
                 <div class="swiper servicesSwiper text-white" 
-                    data-swiper-options='{
+                    data-swiper='{
                         "spaceBetween": 10,
                         "loop": true,
                         "slidesPerView": 1,
@@ -1082,7 +1082,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
             <div class="w-full -mb-[120px] z-[2] p-4 md:p-6">
                 <div class="swiper servicesSwiperThumb bg-white border-[10px] border-white rounded-xl" 
-                data-swiper-options='{
+                data-swiper='{
                     "spaceBetween": 20,
                     "slidesPerView": "auto",
                     "freeMode": false,
@@ -1132,7 +1132,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
             <div class="w-full">
                 <div class="swiper AwardsRecognitions" 
-                    data-swiper-options='{
+                    data-swiper='{
                         "slidesPerView": 2,
                         "spaceBetween": 10,
                         "speed": 5000,
@@ -1358,7 +1358,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         </p>
     </div>
     <div class="swiper portfolioSwiper w-full" 
-        data-swiper-options='{
+        data-swiper='{
             "slidesPerView": 2,
             "spaceBetween": 10,
             "speed": 2000,
@@ -1655,7 +1655,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         </div>
     </div>
     <div class="swiper testimonialsSwiper w-full" 
-        data-swiper-options='{
+        data-swiper='{
             "slidesPerView": 2,
             "spaceBetween": 10,
             "speed": 2000,
@@ -1771,7 +1771,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         </p>
         <div class="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">
             <div class="swiper blogsSwiper w-full !overflow-visible" 
-                data-swiper-options='{
+                data-swiper='{
                     "slidesPerView": 2,
                     "spaceBetween": 10,
                     "speed": 1000,
