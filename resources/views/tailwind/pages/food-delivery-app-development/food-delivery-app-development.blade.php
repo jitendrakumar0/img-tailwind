@@ -93,10 +93,10 @@
             </div>
         </div>
         
-        <div class="absolute top-[-2%] left-[-20px] sm:h-[220px] sm:w-[249px] h-[150px] w-[180px]">
+        <div class="absolute top-[-2%] left-[-70px] sm:h-[220px] sm:w-[249px] h-[150px] w-[180px]">
             <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/pizza.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
         </div>
-        <div class="absolute bottom-[-1%] right-[-34px] sm:h-[175px] sm:w-[240px]  h-[150px] w-[180px]">
+        <div class="absolute bottom-[-1%] right-[-70px] sm:h-[175px] sm:w-[240px]  h-[150px] w-[180px]">
             <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/burger.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
         </div>
         <div class=" mt-10">
@@ -583,7 +583,7 @@
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Orders</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Menu Management</p>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Allow restaurant owners to register and create a profile including restaurant address and contact details, a complete menu with prices, and delivery.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -720,7 +720,7 @@
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Orders</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Menu Management</p>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Allow restaurant owners to register and create a profile including restaurant address and contact details, a complete menu with prices, and delivery.</p>
                                                     </div>
                                                 </div>
                                             </div>
