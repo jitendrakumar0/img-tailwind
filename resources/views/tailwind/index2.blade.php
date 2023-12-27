@@ -108,14 +108,14 @@
         </script> --}}
         <!--End of Tawk.to Script-->
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2Q0NVDS4P"></script>
+        {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2Q0NVDS4P"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
             gtag('config', 'G-N2Q0NVDS4P');
-        </script>
+        </script> --}}
         @stack('styles')
     </head>
     <body class="scroll group/ons">
@@ -208,7 +208,7 @@
             ' 
             id="cursor2"
         ></div>
-        @include('tailwind.components.templates.festival-decor.festival-decor')
+        {{-- @include('tailwind.components.templates.festival-decor.festival-decor') --}}
 
     </body>
 </html>

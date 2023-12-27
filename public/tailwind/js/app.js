@@ -2018,46 +2018,25 @@ function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _ty
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 
 
+
 // import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
 
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  var initSwiper = function initSwiper(selector, options) {
-    return new swiper_bundle__WEBPACK_IMPORTED_MODULE_3__["default"](selector, options);
-  };
-  var getSwiperOptions = function getSwiperOptions(element) {
-    var options = JSON.parse(element.getAttribute("data-swiper-options")) || {};
-    // Set default values for breakpoints if not provided
-    // options.breakpoints = options.breakpoints || {
-    //     320: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
-    //     480: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
-    //     640: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
-    //     1024: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
-    //     1350: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
-    // };
-    options.breakpoints = _objectSpread(_objectSpread({}, options.breakpoints), options.breakpoints);
-    options.slidesPerView = options.slidesPerView || 1;
-    options.spaceBetween = options.spaceBetween || 0;
-    options.autoplay = options.autoplay || false;
-    options.speed = options.speed || 300;
-    options.loop = options.loop || false;
-    options.keyboard = options.keyboard || {
-      "enabled": false
-    };
-    options.navigation = options.navigation || false;
-    options.scrollbar = options.scrollbar || false;
-    options.allowTouchMove = options.allowTouchMove || true;
-    options.centeredSlides = options.centeredSlides || false;
-    options.thumbs = options.thumbs || {};
-    return options;
-  };
-  document.querySelectorAll(".swiper").forEach(function (el, i, swipers) {
-    var options = getSwiperOptions(el);
-    options.thumbs.swiper = swipers[i + 1];
-    initSwiper(el, options);
+  initSwipers({
+    spaceBetween: 5,
+    slidesPerView: 2
   });
+  function initSwipers() {
+    var defaults = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    var selector = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : ".swiper";
+    document.querySelectorAll(selector).forEach(function (swiper) {
+      var options = _objectSpread(_objectSpread({}, defaults), JSON.parse(swiper.dataset.swiper || "{}"));
+      new swiper_bundle__WEBPACK_IMPORTED_MODULE_3__["default"](swiper, options);
+    });
+  }
 });
 document.addEventListener('DOMContentLoaded', function () {
   document.body.addEventListener("mousemove", function (event) {

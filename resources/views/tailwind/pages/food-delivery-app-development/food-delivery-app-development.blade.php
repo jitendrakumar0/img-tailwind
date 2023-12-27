@@ -93,11 +93,11 @@
             </div>
         </div>
         
-        <div class="absolute top-[-2%] left-[-3%] sm:h-[220px] sm:w-[249px] h-[150px] w-[180px]">
-            <img src="{{asset('public'.mix('/tailwind/img/pizzaShimg.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+        <div class="absolute top-[-2%] left-[-20px] sm:h-[220px] sm:w-[249px] h-[150px] w-[180px]">
+            <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/pizza.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
         </div>
         <div class="absolute bottom-[-1%] right-[-34px] sm:h-[175px] sm:w-[240px]  h-[150px] w-[180px]">
-            <img src="{{asset('public'.mix('/tailwind/img/burgerShImg.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+            <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/burger.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
         </div>
         <div class=" mt-10">
             <a href="https://www.imgglobalinfotech.com/about-us.php" class="inline-flex rounded-br-none justify-center z-30 relative rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Get Your Free Quote <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
@@ -218,9 +218,11 @@
                                     <div class="lg:w-4/6 w-full">
                                         <div class="flex flex-wrap ">
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Nearby Restaurants</div>
@@ -229,9 +231,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                        </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Restaurant Menu</div>
@@ -240,9 +244,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Push Notifications</div>
@@ -251,9 +257,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Coupon Management</div>
@@ -262,9 +270,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">inApp Payments</div>
@@ -273,9 +283,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Rating & Reviews</div>
@@ -284,9 +296,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Social Media Login</div>
@@ -295,12 +309,14 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Order Tracking </div>
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Order Tracking</div>
                                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Users can track their food orders using a real-time tracking feature. Users can track the exact location of their orders and check how much time a driver will take to reach them.</p>
                                                     </div>
                                                 </div>
@@ -339,9 +355,11 @@
                                     <div class="lg:w-4/6 w-full">
                                         <div class="flex flex-wrap ">
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                        </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Profile</div>
@@ -350,9 +368,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                        </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Orders</div>
@@ -361,9 +381,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Order History</div>
@@ -372,9 +394,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Realtime Tracking</div>
@@ -383,9 +407,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Realtime Requests</div>
@@ -394,9 +420,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Availability Settings</div>
@@ -405,9 +433,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Delivery Information</div>
@@ -416,9 +446,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Payment History</div>
@@ -463,7 +495,6 @@
                                             {{-- <div class="swiper-pagination d-flex align-items-center justify-center "></div> --}}
                                         </div>
                                     </div>
-                                   
                                 </div>
                             </div>
                         </div>
@@ -531,31 +562,50 @@
                                     <div class="lg:w-4/6 w-full">
                                         <div class="flex flex-wrap ">
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                        </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Profile</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Allow restaurant owners to register and create a profile including restaurant address and contact details, a complete menu with prices, and delivery.</p>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Allow restaurant owners to register and create a profile including restaurant address and contact details, a complete menu with prices, and delivery</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                        </div>
                                                     </div>
                                                     <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Menu Management</div>
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Orders</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Menu Management</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full">
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
+                                                    </div>
+                                                    <div class="ml-6">
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Order History</div>
                                                         <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can create a new menu or customize menus based on customer food preferences and availability.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Orders</div>
@@ -564,9 +614,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Real-time Tracking of Driver</div>
@@ -575,9 +627,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Offers & Discounts</div>
@@ -586,9 +640,11 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
                                                         <div class="sm:text-xl text-lg font-medium leading-6 text-white">Payment History</div>
@@ -597,24 +653,15 @@
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Push Notifications</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants get notifications about the new order, status of received or shipped orders, the payment received online, and other important updates.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
-                                                    </div>
-                                                    <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Order Tracking </div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Users can track their food orders using a real-time tracking feature. Users can track the exact location of their orders and check how much time a driver will take to reach them.</p>
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Payment History</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Drivers can track and manage the payments for the day on the app.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -652,90 +699,106 @@
                                     <div class="lg:w-4/6 w-full">
                                         <div class="flex flex-wrap ">
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">1</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                        </div>
                                                     </div>
                                                     <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Customer Management</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">The dashboard includes the details of customers, cuisines, restaurants they prefer, and the orders they place.</p>
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Profile</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Allow restaurant owners to register and create a profile including restaurant address and contact details, a complete menu with prices, and delivery</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">2</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                        </div>
                                                     </div>
                                                     <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Restaurants Management</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Manages details of all the restaurants by adding, updating, and removing restaurants from the list.</p>
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Orders</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Menu Management</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">3</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Driver Management</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">It includes the details of all the drivers, their profile information, license, and other details.</p>
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Order History</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can create a new menu or customize menus based on customer food preferences and availability.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">4</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Payment & Commission Management</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurant owners can set payments and manage commission rates directly from the panel.</p>
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Orders</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can manage all the orders in one place, can get a complete view of the orders, including ongoing, dispatched, pickups, and scheduled ones.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">5</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Menu & Timing</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can create different menus for different times and manage them on the admin panel.</p>
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Real-time Tracking of Driver</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can track the real-time location of drivers with their real-time location. They can also check the total delivery time and routes.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">6</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Delivery zone Management</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">The restaurant owners can also track and manage all the food deliveries on the panel.</p>
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Manage Offers & Discounts</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can create new discount deals and offers or customize the current ones to benefit from ordering food.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">7</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Analyzing & Reporting</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Get real-time insights into reports and other information to identify the growth and expansion opportunities.</p>
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Payment History</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Restaurants can manage all the orders in one place, can get a complete view of the orders, including ongoing, dispatched, pickups, and scheduled ones.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="md:w-1/2 w-full">
-                                                <div class="flex sm:p-3 p-2">
-                                                    <div class="p-0.5">
-                                                        <div class="flex items-center justify-center bg-yellow-400 rounded-full h-7 w-7 text-black text-sm">8</div>
+                                                <div class="flex sm:p-3 p-2 group/db ">
+                                                    <div class="p-0.5 pt-2">
+                                                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-gray-900 group-hover/db:bg-gray-950/90">
+                                                            <svg class="h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                                                          </div>
                                                     </div>
                                                     <div class="ml-6">
-                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Promo codes</div>
-                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">The promo codes to add in cash deliveries, offers, and discounts can all be managed through this panel.</p>
+                                                        <div class="sm:text-xl text-lg font-medium leading-6 text-white">Payment History</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white line-clamp-4 text-ellipsis">Drivers can track and manage the payments for the day on the app.</p>
                                                     </div>
                                                 </div>
                                             </div>

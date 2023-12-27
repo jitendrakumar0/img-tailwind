@@ -3,8 +3,8 @@
     <div class="flex lg:flex-1">
       <a href="https://www.imgglobalinfotech.com/" class="-m-1.5 p-1.5">
         <span class="sr-only">IMG</span>
-        {{-- <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/xl-logo.webp'))}}" alt="IMG Global Infotech Logo"> --}}
-        <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/img-logo-christmas.webp'))}}" alt="IMG Global Infotech Logo">
+        <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/xl-logo.webp'))}}" alt="IMG Global Infotech Logo">
+        {{-- <img class="h-8 md:h-12 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/img-logo-christmas.webp'))}}" alt="IMG Global Infotech Logo"> --}}
       </a>
     </div>
     <div class="flex lg:hidden">
@@ -1131,8 +1131,8 @@
   <div class="flex items-center justify-between">
     <a href="https://www.imgglobalinfotech.com/" class="-ml-1.5">
       <span class="sr-only">IMG</span>
-      {{-- <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/xl-logo.webp'))}}" alt="IMG Global Infotech Logo"> --}}
-      <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/img-logo-christmas.webp'))}}" alt="IMG Global Infotech Logo">
+      <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/xl-logo.webp'))}}" alt="IMG Global Infotech Logo">
+      {{-- <img class="h-7 w-auto" loading="lazy" width="174" height="48" src="{{ asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{ asset('public'.mix('/tailwind/img/img-logo-christmas.webp'))}}" alt="IMG Global Infotech Logo"> --}}
     </a>
     <label for="sideToggle" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-200">
       <span class="sr-only">Close menu</span>

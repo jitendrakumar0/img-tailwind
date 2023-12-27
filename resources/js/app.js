@@ -1,4 +1,5 @@
 import 'swiper';
+import 'swiper';
 import 'swiper/css/navigation';
 // import 'swiper/css/pagination';
 // import 'swiper/css/scrollbar';
@@ -7,40 +8,17 @@ import '../plugins/intl-tel-input/build/js/intlTelInput.js';
 import Swiper from 'swiper/bundle';
 import intlTelInput from '../plugins/intl-tel-input/build/js/intlTelInput.js';
 
-document.addEventListener("DOMContentLoaded", () => {
-    const initSwiper = (selector, options) => new Swiper(selector, options);
-    
-    const getSwiperOptions = (element) => {
-        const options = JSON.parse(element.getAttribute("data-swiper-options")) || {};
-        // Set default values for breakpoints if not provided
-        // options.breakpoints = options.breakpoints || {
-        //     320: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
-        //     480: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
-        //     640: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
-        //     1024: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
-        //     1350: {"centeredSlides": false, "slidesPerView": 1, "spaceBetween": 0},
-        // };
-        options.breakpoints = { ...options.breakpoints, ...options.breakpoints };
-        options.slidesPerView = options.slidesPerView || 1;
-        options.spaceBetween = options.spaceBetween || 0;
-        options.autoplay = options.autoplay || false;
-        options.speed = options.speed || 300;
-        options.loop = options.loop || false;
-        options.keyboard = options.keyboard || { "enabled": false };
-        options.navigation = options.navigation || false;
-        options.scrollbar = options.scrollbar || false;
-        options.allowTouchMove = options.allowTouchMove || true;
-        options.centeredSlides = options.centeredSlides || false;
-        options.thumbs = options.thumbs || {};
-        return options;
-    };
 
-    document.querySelectorAll(".swiper").forEach((el, i, swipers) => {
-        const options = getSwiperOptions(el);
-        options.thumbs.swiper = swipers[i + 1];
-        initSwiper(el, options);
-    });
+document.addEventListener("DOMContentLoaded", () => {
+    initSwipers({ spaceBetween: 5, slidesPerView: 2 });
+    function initSwipers(defaults = {}, selector = ".swiper") {
+        document.querySelectorAll(selector).forEach(swiper => {
+            const options = { ...defaults, ...JSON.parse(swiper.dataset.swiper || "{}") };
+            new Swiper(swiper, options);
+        });
+    }
 });
+
 
 
 document.addEventListener('DOMContentLoaded', function () {
