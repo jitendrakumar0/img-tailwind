@@ -86,12 +86,7 @@
             </div>
         </div>
         
-        <div class="absolute top-[-2%] !left-[-70px] sm:h-[220px] sm:w-[249px] h-[150px] w-[180px]">
-            <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/pizza.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
-        </div>
-        <div class="absolute bottom-[-1%] !right-[-70px] sm:h-[175px] sm:w-[240px]  h-[150px] w-[180px]">
-            <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/burger.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
-        </div>
+      
         <div class=" mt-10">
             <a href="https://www.imgglobalinfotech.com/about-us.php" class="inline-flex rounded-br-none justify-center z-30 relative rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Get Your Free Quote <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
         </div>
@@ -99,6 +94,14 @@
             All our projects are secured by NDA
         </div> --}}
     </div>
+
+    <div class="absolute !lg:top-[100px] !top-[70px] !sm:left-[-160px] !left-[-100px] md:h-[300px] md:w-[300px] h-[180px] w-[180px]">
+        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/pizza.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
+    </div>
+    <div class="absolute bottom-[-1%] !right-[-120px] md:h-[270px] md:w-[300px]  h-[150px] w-[180px]">
+        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/burger.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
+    </div>
+
 </div>
 {{-- hero sectio  end  --}}
 
@@ -108,7 +111,7 @@
 
 
 <div class="relative isolate overflow-hidden select-none">
-    <div class="overflow-hidden bg-gradient-to-b from-white to-slate-200 pt-6 md:pt-16 pb-36 sm:ps-0 ps-5 sm:pr-0 pr-5">
+    <div class="overflow-hidden bg-gradient-to-b from-white to-slate-200 pt-6 md:pt-16 pb-36 ps-5  pr-5">
         <div class="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/10 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
             <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -1398,12 +1401,13 @@
         
             <div class="relative  flex flex-col ">
                 <input class="peer/mm hidden" type="radio" checked name="mmMenu" id="mmCompany1">
-                <label for="mmCompany1" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-b-4xl py-4 px-6 after:absolute sm:after:h-5 sm:after:w-5 after:w-4 after:h-4 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5 after:bg-[url('../img/fooddelivery/Down.svg')] after:bg-no-repeat after:bg-center after:bg-contain after:peer-checked/mm:rotate-180 peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full ">
+
+                <label for="mmCompany1" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-b-4xl py-4 px-6 after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5  after:border-solid after:border-white after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45  after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full peer-checked/mm:after:top-6 peer-checked/mm:rounded-full  ">
                     What is the Difference Between Cross-Platform and Native App Development ?
                 </label>
                 <div class="w-fullshadow-md mt-[-43px] rounded-3xl border border-solid border-amber-200 bg-gradient-to-r from-gray-200 via-amber-100/50 to-amber-100/50 p-6 pt-12 peer-checked/mm:block hidden">
                     <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
-                        <div class="w-full text-xs xl:text-sm pt-8">
+                        <div class="w-full text-xs xl:text-sm ">
                             <div class="flex items-center gap-x-3 py-2 relative">
                                 <div class="flex-auto text-gray-900 sm:text-sm text-xs">
                                     Cross-platform app development refers to development that runs on various platforms,
@@ -1421,7 +1425,8 @@
 
             <div class="relative  flex flex-col mt-5">
                 <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany2">
-                <label for="mmCompany2" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-full py-4 px-6   after:absolute sm:after:h-5 sm:after:w-5 after:w-4 after:h-4 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5 after:bg-[url('../img/fooddelivery/Down.svg')] after:bg-no-repeat after:bg-center after:bg-contain after:peer-checked/mm:rotate-180 peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full">
+                
+                <label for="mmCompany2" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-full py-4 px-6  after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5  after:border-solid after:border-white after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45  after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full peer-checked/mm:after:top-6">
                     What are the prerequisites for a mobile app development project ?
                 </label>
                 <div class="w-fullshadow-md mt-[-43px] rounded-3xl border border-solid border-amber-200 bg-gradient-to-r from-gray-200 via-amber-100/50 to-amber-100/50 p-6 peer-checked/mm:block hidden">
@@ -1449,7 +1454,7 @@
 
             <div class="relative  flex flex-col mt-5">
                 <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany3">
-                <label for="mmCompany3" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-full py-4 px-6   after:absolute sm:after:h-5 sm:after:w-5 after:w-4 after:h-4 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5 after:bg-[url('../img/fooddelivery/Down.svg')] after:bg-no-repeat after:bg-center after:bg-contain after:peer-checked/mm:rotate-180 peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full">
+                <label for="mmCompany3" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-full py-4 px-6   after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5  after:border-solid after:border-white after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45  after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full peer-checked/mm:after:top-6">
                     How much does it cost to develop a mobile app?
                 </label>
                 <div class="w-fullshadow-md mt-[-43px] rounded-3xl border border-solid border-amber-200 bg-gradient-to-r from-gray-200 via-amber-100/50 to-amber-100/50 p-6 peer-checked/mm:block hidden">
@@ -1468,7 +1473,7 @@
             </div>
             <div class="relative  flex flex-col mt-5">
                 <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany4">
-                <label for="mmCompany4" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-full py-4 px-6   after:absolute sm:after:h-5 sm:after:w-5 after:w-4 after:h-4 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5 after:bg-[url('../img/fooddelivery/Down.svg')] after:bg-no-repeat after:bg-center after:bg-contain after:peer-checked/mm:rotate-180 peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full">
+                <label for="mmCompany4" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-full py-4 px-6   after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5  after:border-solid after:border-white after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45  after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full peer-checked/mm:after:top-6">
                     How long will it take to build and launch my app ?
                 </label>
                 <div class="w-fullshadow-md mt-[-43px] rounded-3xl border border-solid border-amber-200 bg-gradient-to-r from-gray-200 via-amber-100/50 to-amber-100/50 p-6 peer-checked/mm:block hidden">
@@ -1490,7 +1495,7 @@
             </div>
             <div class="relative  flex flex-col mt-5">
                 <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany5">
-                <label for="mmCompany5" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-t-4xl peer-checked/mm:rounded-full py-4 px-6  after:absolute sm:after:h-5 sm:after:w-5 after:w-4 after:h-4 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5 after:bg-[url('../img/fooddelivery/Down.svg')] after:bg-no-repeat after:bg-center after:bg-contain after:peer-checked/mm:rotate-180 peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full ">
+                <label for="mmCompany5" class="flex items-center gap-x-[2px] bg-gradient-to-r from-black/90 via-yellow-900 to-yellow-900 sm:text-base text-sm capitalize font-medium relative z-10 text-white bg-opacity80 rounded-t-4xl peer-checked/mm:rounded-full py-4 px-6  after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-4 after:top-5  after:border-solid after:border-white after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45  after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:bg-gradient-to-r peer-checked/mm:from-amber-950 peer-checked/mm:via-red-900 peer-checked/mm:to-amber-900 peer-checked/mm:w-full peer-checked/mm:after:top-6 ">
                     Do you provide ongoing support, maintenance, and updates ?
                 </label>
                 <div class="w-fullshadow-md mt-[-43px] rounded-3xl border border-solid border-amber-200 bg-gradient-to-r from-gray-200 via-amber-100/50 to-amber-100/50 p-6 peer-checked/mm:block hidden">
