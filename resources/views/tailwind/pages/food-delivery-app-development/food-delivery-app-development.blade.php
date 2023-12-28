@@ -99,7 +99,7 @@
         <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/pizza.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
     </div>
     <div class="absolute bottom-[-1%] !right-[-120px] md:h-[270px] md:w-[300px]  h-[150px] w-[180px]">
-        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/burger.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
+        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/burger.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
     </div>
 
 </div>
@@ -133,10 +133,6 @@
         </div>
     </div>
     <div class="container py-5 bg-white mt-[-126px] md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
-        {{-- <div class="text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base mt-3">Customer App</div>
-        <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
-            A Customer Application is designed with ease to help the customers place their food delivery order by browsing multiple restaurants and its menu.
-        </div> --}}
         <div class="flex flex-col-reverse w-full flex-wrap pt-8">
             <div class="w-full">
                 <div class="swiper keyFeatures text-white" 
@@ -190,22 +186,22 @@
                                             <div class="swiper-wrapper ">
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-two.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-three.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                             </div>
@@ -461,8 +457,8 @@
                                         <div class="swiper keyfeatureswiper lg:mb-0 mb-10 h-full" 
                                             data-swiper='{
                                                 "loop": true,
-     
-                                 "slidesPerView": 1,                                           "centeredSlides": true,
+                                                "slidesPerView": 1,     
+                                                "centeredSlides": true,
                                                 "speed": 1500,
                                                 "allowTouchMove": false,
                                                 "autoplay": {"enabled": true, "delay": 2000}
@@ -471,22 +467,22 @@
                                             <div class="swiper-wrapper ">
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-two.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-three.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                             </div>
@@ -536,22 +532,22 @@
                                             <div class="swiper-wrapper ">
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-two.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-three.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                             </div>
@@ -807,9 +803,8 @@
                                         <div class="swiper keyfeatureswiper lg:mb-0 mb-10 h-full" 
                                             data-swiper='{
                                                 "loop": true,
-     
-                                    "slidesPerView": 1,                                           
-                                    "centeredSlides": true,
+                                            "slidesPerView": 1,                                           
+                                            "centeredSlides": true,
                                                 "speed": 1500,
                                                 "allowTouchMove": false,
                                                 "autoplay": {"enabled": true, "delay": 2000}
@@ -818,22 +813,22 @@
                                             <div class="swiper-wrapper ">
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-two.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-three.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
-                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.png'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                                                        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/food-cus-app-one.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                                                     </div>
                                                 </div>
                                             </div>
@@ -882,15 +877,135 @@
 {{-- key feature section end  --}}
 
 
+<div class="mx-auto max-w-7xl px-6 lg:px-8 z-10 my-24 bg-gray-100">
+    <div class="flex flex-row flex-wrap items-center jsuttify-center py-20 h-full w-full">
+        <div class="w-2/5">
+            <div class="flex items-center">
+                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/agile-process2.png'))}}" alt="process" class="h-full w-full ">
+            </div>
+            <div class="flex items-center">
+                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/agile-process2.png'))}}" alt="process" class="h-full w-full ">
+            </div>
+        </div>
+        <div class="w-[calc(100%-40%)]">
+         <div class="flex items-center justify-center relative proceingCard  text-center flex-wrap  after:absolute after:w-[400px] after:h-[400px] after:bg-blue-200  after:rounded-full">
+            {{-- <div class="text-black text-2xl "> img Global info tech</div> --}}
+            <div class="flex items-center justify-center h-24 w-32 z-24 relatives rounded-full bg-white shadow-md text-2xl">
+                ddd
+            </div>
+            <div class="agal-list z-10 relative">
+                <div class="agile-child child-1 rotate-[146deg] absolute right-[8px] bottom-[20px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
+                            01
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
 
+                <div class="agile-child child-1 rotate-[199deg] absolute right-[-99px] bottom-[41px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-green-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-green-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
+                            02
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+                <div class="agile-child child-1 rotate-[252deg] absolute left-[-13px] bottom-[-68px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-green-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-green-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
+                            03
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+
+                <div class="agile-child child-1 rotate-[305deg] absolute left-[-30px] bottom-[-206px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-green-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-green-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
+                            04
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+                <div class="agile-child child-1 rotate-[-4deg] absolute left-[-155px] top-[13px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
+                            05
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+
+                <div class="agile-child child-1 rotate-[50deg] absolute right-[34px] top-[-33px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
+                            06
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+
+                <div class="agile-child child-1 rotate-[96deg] absolute right-[75px] bottom-[-91px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
+                            06
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+            </div>
+         </div>
+            
+        </div>
+    </div>
+</div>
 
 
 {{-- Solution Section Start --}}
 <div class="relative md:py-16 py-8  select-none overflow-hidden">
-    <div class="text-black/10 ">
+    {{-- <div class="text-black/10 ">
         <svg xmlns='http://www.w3.org/2000/svg' width='100%' class="absolute inset-0 h-full w-full -z-10"><rect fill='#ffffff' width='540' height='450'/><defs><linearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%' gradientTransform='rotate(240)'><stop offset='0'  stop-color='#ffffff'/><stop offset='1'  stop-color='#FAF7F6'/></linearGradient><pattern patternUnits='userSpaceOnUse' id='b'  width='300' height='250' x='0' y='0' viewBox='0 0 1080 900'><g fill-opacity='0.04'><polygon fill='#444' points='90 150 0 300 180 300'/><polygon points='90 150 180 0 0 0'/><polygon fill='#AAA' points='270 150 360 0 180 0'/><polygon fill='#DDD' points='450 150 360 300 540 300'/><polygon fill='#999' points='450 150 540 0 360 0'/><polygon points='630 150 540 300 720 300'/><polygon fill='#DDD' points='630 150 720 0 540 0'/><polygon fill='#444' points='810 150 720 300 900 300'/><polygon fill='#FFF' points='810 150 900 0 720 0'/><polygon fill='#DDD' points='990 150 900 300 1080 300'/><polygon fill='#444' points='990 150 1080 0 900 0'/><polygon fill='#DDD' points='90 450 0 600 180 600'/><polygon points='90 450 180 300 0 300'/><polygon fill='#666' points='270 450 180 600 360 600'/><polygon fill='#AAA' points='270 450 360 300 180 300'/><polygon fill='#DDD' points='450 450 360 600 540 600'/><polygon fill='#999' points='450 450 540 300 360 300'/><polygon fill='#999' points='630 450 540 600 720 600'/><polygon fill='#FFF' points='630 450 720 300 540 300'/><polygon points='810 450 720 600 900 600'/><polygon fill='#DDD' points='810 450 900 300 720 300'/><polygon fill='#AAA' points='990 450 900 600 1080 600'/><polygon fill='#444' points='990 450 1080 300 900 300'/><polygon fill='#222' points='90 750 0 900 180 900'/><polygon points='270 750 180 900 360 900'/><polygon fill='#DDD' points='270 750 360 600 180 600'/><polygon points='450 750 540 600 360 600'/><polygon points='630 750 540 900 720 900'/><polygon fill='#444' points='630 750 720 600 540 600'/><polygon fill='#AAA' points='810 750 720 900 900 900'/><polygon fill='#666' points='810 750 900 600 720 600'/><polygon fill='#999' points='990 750 900 900 1080 900'/><polygon fill='#999' points='180 0 90 150 270 150'/><polygon fill='#444' points='360 0 270 150 450 150'/><polygon fill='#FFF' points='540 0 450 150 630 150'/><polygon points='900 0 810 150 990 150'/><polygon fill='#222' points='0 300 -90 450 90 450'/><polygon fill='#FFF' points='0 300 90 150 -90 150'/><polygon fill='#FFF' points='180 300 90 450 270 450'/><polygon fill='#666' points='180 300 270 150 90 150'/><polygon fill='#222' points='360 300 270 450 450 450'/><polygon fill='#FFF' points='360 300 450 150 270 150'/><polygon fill='#444' points='540 300 450 450 630 450'/><polygon fill='#222' points='540 300 630 150 450 150'/><polygon fill='#AAA' points='720 300 630 450 810 450'/><polygon fill='#666' points='720 300 810 150 630 150'/><polygon fill='#FFF' points='900 300 810 450 990 450'/><polygon fill='#999' points='900 300 990 150 810 150'/><polygon points='0 600 -90 750 90 750'/><polygon fill='#666' points='0 600 90 450 -90 450'/><polygon fill='#AAA' points='180 600 90 750 270 750'/><polygon fill='#444' points='180 600 270 450 90 450'/><polygon fill='#444' points='360 600 270 750 450 750'/><polygon fill='#999' points='360 600 450 450 270 450'/><polygon fill='#666' points='540 600 630 450 450 450'/><polygon fill='#222' points='720 600 630 750 810 750'/><polygon fill='#FFF' points='900 600 810 750 990 750'/><polygon fill='#222' points='900 600 990 450 810 450'/><polygon fill='#DDD' points='0 900 90 750 -90 750'/><polygon fill='#444' points='180 900 270 750 90 750'/><polygon fill='#FFF' points='360 900 450 750 270 750'/><polygon fill='#AAA' points='540 900 630 750 450 750'/><polygon fill='#FFF' points='720 900 810 750 630 750'/><polygon fill='#222' points='900 900 990 750 810 750'/><polygon fill='#222' points='1080 300 990 450 1170 450'/><polygon fill='#FFF' points='1080 300 1170 150 990 150'/><polygon points='1080 600 990 750 1170 750'/><polygon fill='#666' points='1080 600 1170 450 990 450'/><polygon fill='#DDD' points='1080 900 1170 750 990 750'/></g></pattern></defs><rect x='0' y='0' fill='url(#a)' width='100%' height='100%'/><rect x='0' y='0' fill='url(#b)' width='100%' height='100%'/></svg>
 
+    </div> --}}
+
+
+    <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
+        <defs>
+            <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
+                <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+            </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#nhgh)"></rect>
+    </svg>
+    <div class="hidden z-0 sm:absolute sm:-top-10 sm:right-1/2 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-sky-400 to-sky-400 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
+    <div class="absolute z-0 -top-52 left-1/2 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-sky-400 to-sky-400 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+
     <div class="mx-auto max-w-7xl px-5 sm:px-24 md:px-28 xl:px-40 z-10">
         <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
             <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center">
@@ -1270,25 +1385,25 @@
         </p>
         <div class="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">
             <div class="swiper blogsSwiper w-full !overflow-visible" 
-                data-swiper='{
-                    "slidesPerView": 2,
-                    "spaceBetween": 10,
-                    "speed": 1000,
-                    "loop": false,
-                    "effect": "slide",
-                    "breakpoints": {
-                        "320": {"slidesPerView": 1, "spaceBetween": 30},
-                        "480": {"slidesPerView": 1.2, "spaceBetween": 20},
-                        "640": {"slidesPerView": 2, "spaceBetween": 30},
-                        "1024": {"slidesPerView": 2.6, "spaceBetween": 30},
-                        "1350": {"slidesPerView": 3, "spaceBetween": 30}
-                    }
-                }'
+            data-swiper='{
+                "slidesPerView": 2,
+                "spaceBetween": 10,
+                "speed": 1000,
+                "loop": false,
+                "effect": "slide",
+                "breakpoints": {
+                    "320": {"slidesPerView": 1, "spaceBetween": 30},
+                    "480": {"slidesPerView": 1.2, "spaceBetween": 20},
+                    "640": {"slidesPerView": 2, "spaceBetween": 30},
+                    "1024": {"slidesPerView": 2.6, "spaceBetween": 30},
+                    "1350": {"slidesPerView": 3, "spaceBetween": 30}
+                }
+            }'
             >
                 <div class="swiper-wrapper flex items-center pb-8">
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between shadow-sm bg-white">
-                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.jpg'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.jpg'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
                             <div class="w-full p-4 shadow-sm bg-white">
                                 <div class="group relative ">
                                     <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
@@ -1320,7 +1435,7 @@
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
-                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.jpg'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.jpg'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
                             <div class="w-full p-4 shadow-sm bg-white">
                                 <div class="group relative">
                                     <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
@@ -1336,7 +1451,7 @@
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
-                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.jpg'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.jpg'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
                             <div class="w-full p-4 shadow-sm bg-white">
                                 <div class="group relative">
                                     <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
@@ -1561,7 +1676,7 @@
             >
                 <div class="swiper-wrapper flex items-center pb-8">
                     <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
+                        <a href="{{asset('blog/top-fintech-app-development-companies-in-india')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
                             <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimageTop-FinTech-App-Development-Companies-in-India-2024.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
@@ -1585,7 +1700,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="https://www.imgglobalinfotech.com/blog/top-10-trusted-real-estate-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
+                        <a href="{{asset('blog/top-10-trusted-real-estate-app-development-companies-in-india')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
                             <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagetop-10-trusted-real-estate-app-development-companies-in-india.webp'))}}" alt="Top 10 Trusted Real Estate App Development Companies In India">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
@@ -1609,7 +1724,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="https://www.imgglobalinfotech.com/blog/loan-lending-mobile-app-development" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
+                        <a href="{{asset('blog/loan-lending-mobile-app-development')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
                             <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp'))}}" alt="How To Develop A Loan Lending Mobile App? - A Complete Guide">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
@@ -1633,7 +1748,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="https://www.imgglobalinfotech.com/blog/top-10-mobile-app-development-companies" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
+                        <a href="{{asset('blog/top-10-mobile-app-development-companies')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
                             <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagetop-10-mobile-app-development-companies-in-2024.webp'))}}" alt="Top 10 Mobile App Development Companies In 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
@@ -1657,7 +1772,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="https://www.imgglobalinfotech.com/blog/how-much-does-it-cost-to-develop-real-estate-website-app-like-magicbricks" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
+                        <a href="{{asset('blog/how-much-does-it-cost-to-develop-real-estate-website-app-like-magicbricks')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
                             <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp'))}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
@@ -1690,7 +1805,7 @@
 
 
 
-{{-- end  --}}
+
 
 
 
