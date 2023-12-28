@@ -94,7 +94,22 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         <div class="swiper-wrapper">
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative aspect-[860/460] overflow-hidden group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-yellow-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-yellow-950 before:via-yellow-900 before:to-yellow-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
-                    <img loading="eager" class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp'))}}" alt="unlock-access-to-bespoke-apps-and-product-innovation-with-us">
+                    <img 
+                    class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]"
+                    loading="lazy"
+                    width="860"
+                    height="460"
+                    sizes="(min-width: 3000px) 3000px, (min-width: 1140px) 1140px, (min-width: 520px) 520px, (min-width: 300px) 300px, 100vw"
+                    src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                    srcset="
+                        {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-265w.webp'))}} 265w,
+                        {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-860w.webp'))}} 860w,
+                        {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-1170w.webp'))}} 1170w,
+                        {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-1520w.webp'))}} 1520w,
+                        {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-1800w.webp'))}} 1800w,
+                        {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-2048w.webp'))}} 2048w"
+                    data-src="{{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-265w.webp'))}}"
+                    alt="unlock-access-to-bespoke-apps-and-product-innovation-with-us">
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress group-[.swiper-slide-active]:animate-progress absolute opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 p-1 bottom-4 z-10 w-4 h-4 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full [--progress:0;]">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] bg-white/20 rounded-full [transform:rotate(-90deg)] fill-none stroke-[8px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] ease-linear group-[.swiper-slide-active]:duration-[1500ms] left-0 top-0 z-10 w-full h-full stroke-white/80">
