@@ -317,13 +317,13 @@
                 <div class="lg:w-[60%] lg:pe-10 pe-0 w-[100%] lg:order-1 order-2">
                     <p class="mt-4  max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
                         <span class="font-normal">Join The <br></span> 
-                        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">IMG GLobal InfoTech Team!</span>
+                        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Intelligent Machanism Genius Global Infotech Team!</span>
                     </p>
                     <div class="md:text-base text-sm opacity-70 mt-3 mb-lg-1">
                         Innovate with the latest and greatest technologies & get to work on some of the coolest projects you can imagine.
                     </div> 
                     <div class="flex items-center mt-6 flex-wrap gap-3 w-full  lg:w-[90%]">
-                        <a href="https://www.imgglobalinfotech.com/contact-us.php" class=" inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
+                        <a href="https://www.imgglobalinfotech.com/contact-us.php" class=" inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-orange-900 text-white hover:bg-slate-700">
                             <span>
                                 <span class="inline-flex items-center gap-1">
                                     <span>
