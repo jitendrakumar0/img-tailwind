@@ -90,21 +90,26 @@
         @stack('meta')
         <link rel="stylesheet" href="{{ asset('public'.mix('/tailwind/css/app.css'))}}">
         
+        @stack('styles')
         <!-- Start of imgglobalinfotech9794 Zendesk Widget script -->
        {{--  <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=9b5a83c9-de45-457b-8b2e-e7dd2c65b48a"> </script> --}}
         <!-- End of imgglobalinfotech9794 Zendesk Widget script -->
 
        <!--Start of Tawk.to Script-->
-        <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/647de1d394cf5d49dc5be458/1h25rk9mu';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
+        <script>
+            function loadTawkScript() {
+                var s1 = document.createElement("script");
+                var s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/647de1d394cf5d49dc5be458/1h25rk9mu';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+                loadTawkScript();
+            });
         </script>
         <!--End of Tawk.to Script-->
 
@@ -116,7 +121,6 @@
 
             gtag('config', 'G-N2Q0NVDS4P');
         </script>
-        @stack('styles')
     </head>
     <body class="scroll">
         @include('tailwind.components.header.header')
