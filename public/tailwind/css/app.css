@@ -5856,6 +5856,10 @@ select{
   content: var(--tw-content);
   display: none;
 }
+.after\:h-2::after{
+  content: var(--tw-content);
+  height: 0.5rem;
+}
 .after\:h-20::after{
   content: var(--tw-content);
   height: 5rem;
@@ -5863,10 +5867,6 @@ select{
 .after\:h-28::after{
   content: var(--tw-content);
   height: 7rem;
-}
-.after\:h-3::after{
-  content: var(--tw-content);
-  height: 0.75rem;
 }
 .after\:h-4::after{
   content: var(--tw-content);
@@ -5895,10 +5895,6 @@ select{
 .after\:w-20::after{
   content: var(--tw-content);
   width: 5rem;
-}
-.after\:w-3::after{
-  content: var(--tw-content);
-  width: 0.75rem;
 }
 .after\:w-32::after{
   content: var(--tw-content);
