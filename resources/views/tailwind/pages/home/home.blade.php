@@ -2157,7 +2157,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 <div class="swiper-wrapper flex items-center pb-8">
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="{{asset('blog/top-fintech-app-development-companies-in-india')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimageTop-FinTech-App-Development-Companies-in-India-2024.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <img class="w-full aspect-[385/221] rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimageTop-FinTech-App-Development-Companies-in-India-2024.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2023-11-27" class="text-gray-500">Dec 15, 2023</time>
@@ -2181,7 +2181,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="{{asset('blog/top-10-trusted-real-estate-app-development-companies-in-india')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagetop-10-trusted-real-estate-app-development-companies-in-india.webp'))}}" alt="Top 10 Trusted Real Estate App Development Companies In India">
+                            <img class="w-full aspect-[385/221] rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagetop-10-trusted-real-estate-app-development-companies-in-india.webp'))}}" alt="Top 10 Trusted Real Estate App Development Companies In India">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Dec 11, 2023</time>
@@ -2205,7 +2205,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="{{asset('blog/loan-lending-mobile-app-development')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp'))}}" alt="How To Develop A Loan Lending Mobile App? - A Complete Guide">
+                            <img class="w-full aspect-[385/221] rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp'))}}" alt="How To Develop A Loan Lending Mobile App? - A Complete Guide">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2023-11-27" class="text-gray-500">Nov 27, 2023</time>
@@ -2229,7 +2229,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="{{asset('blog/top-10-mobile-app-development-companies')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagetop-10-mobile-app-development-companies-in-2024.webp'))}}" alt="Top 10 Mobile App Development Companies In 2024">
+                            <img class="w-full aspect-[385/221] rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagetop-10-mobile-app-development-companies-in-2024.webp'))}}" alt="Top 10 Mobile App Development Companies In 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 16, 2023</time>
@@ -2253,7 +2253,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="{{asset('blog/how-much-does-it-cost-to-develop-real-estate-website-app-like-magicbricks')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp'))}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
+                            <img class="w-full aspect-[385/221] rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp'))}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 06, 2023</time>
