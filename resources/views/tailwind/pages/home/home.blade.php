@@ -2,7 +2,7 @@
 @push('meta')
 <!--  Title -->
 <title>IT Consulting Company | IT Consulting Services</title>
-  <!-- Required meta tags -->
+<!-- Required meta tags -->
 <meta name="title" content="IT Consulting Company | IT Consulting Services">
 <meta name="description" content=" IMG Global is the best IT consulting Company that provides the best IT consulting services to startups, mid-size, medium-size and large-size businesses.">
 <meta name="keywords" content="IT consulting company, IT consulting services, IT consultant, IT consulting firm, Hire IT consultant, IT company">
