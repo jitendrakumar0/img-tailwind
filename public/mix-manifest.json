@@ -1,13 +1,7 @@
 {
-<<<<<<< HEAD
-    "/tailwind/js/app.js": "/tailwind/js/app.js?id=a7b005d3d3981a7b9c4b57ac4f05f733",
-    "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=26b52c681b94a7adb2bd73559e9bd7a6",
-    "/tailwind/css/app.css": "/tailwind/css/app.css?id=575a00fb1d0e0abe598fdd268ddc63b0",
-=======
-    "/tailwind/js/app.js": "/tailwind/js/app.js?id=e7daf2d0b48011d59f936107e0cd6bff",
-    "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=e7d0754788adb59db01c537841c4b38f",
-    "/tailwind/css/app.css": "/tailwind/css/app.css?id=c37920fdad84f21fa4be0d3efbcc9e24",
->>>>>>> main
+    "/tailwind/js/app.js": "/tailwind/js/app.js?id=e18249b1c2c9b3d092a3ae1f78df222e",
+    "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=3f2c5cf234a4d30b7ed907dca6b7ba9c",
+    "/tailwind/css/app.css": "/tailwind/css/app.css?id=ccc263b7e2d891491b321ea4ba67b6e1",
     "/tailwind/android-chrome-144x144.png": "/tailwind/android-chrome-144x144.png?id=de3c1fceec9a432a8ddcf6684b1d46c2",
     "/tailwind/android-chrome-192x192.png": "/tailwind/android-chrome-192x192.png?id=d24a76fcee41c06d0bc18709fc08be46",
     "/tailwind/android-chrome-36x36.png": "/tailwind/android-chrome-36x36.png?id=363494c1dab183d3c362a428be7a0476",
@@ -15,14 +9,8 @@
     "/tailwind/android-chrome-72x72.png": "/tailwind/android-chrome-72x72.png?id=df747ae2ced964dbd91336a8d072fcd6",
     "/tailwind/android-chrome-96x96.png": "/tailwind/android-chrome-96x96.png?id=c1ea6a5924fa3a7ba74086e9d255ac96",
     "/tailwind/apple-touch-icon.png": "/tailwind/apple-touch-icon.png?id=6a5f7dc1fc9850f08ea547d27cab1693",
-<<<<<<< HEAD
     "/tailwind/browserconfig.xml": "/tailwind/browserconfig.xml?id=1aa0720b66daf52a2ab4a8c11b29739d",
     "/tailwind/css/build/assets/beams1-c3cd2070.webp": "/tailwind/css/build/assets/beams1-c3cd2070.webp?id=28b3062225065ae780a54e836da972fb",
-    "/tailwind/css/build/assets/Down-e7dc67de.svg": "/tailwind/css/build/assets/Down-e7dc67de.svg?id=27134e0c8719ca8d4a853f749df476a4",
-=======
-    "/tailwind/browserconfig.xml": "/tailwind/browserconfig.xml?id=40a20d13827d09b99a066d17a85428e5",
-    "/tailwind/css/build/assets/beams1-c3cd2070.webp": "/tailwind/css/build/assets/beams1-c3cd2070.webp?id=28b3062225065ae780a54e836da972fb",
->>>>>>> main
     "/tailwind/css/build/assets/fab11-0ec1e346.webp": "/tailwind/css/build/assets/fab11-0ec1e346.webp?id=cd210908b4d368afebb5b816e80a7ebe",
     "/tailwind/css/build/assets/fabindia-ec3c229e.webp": "/tailwind/css/build/assets/fabindia-ec3c229e.webp?id=28bcde23627abcce1b016c6e1ce5a46d",
     "/tailwind/css/build/assets/flags-fd756c4d.webp": "/tailwind/css/build/assets/flags-fd756c4d.webp?id=c20ea2e1245597faffd364e53c436618",
@@ -30,13 +18,7 @@
     "/tailwind/css/build/assets/frame12-4467d94b.webp": "/tailwind/css/build/assets/frame12-4467d94b.webp?id=ebde9ff840f3780bd1e2ecff4e5c71c9",
     "/tailwind/css/build/assets/grid-c8e2f8c4.svg": "/tailwind/css/build/assets/grid-c8e2f8c4.svg?id=7558fbb69b7de24610c362b3f3bd0ab1",
     "/tailwind/css/build/assets/hozzo-04f1bda3.webp": "/tailwind/css/build/assets/hozzo-04f1bda3.webp?id=000a644cf47e312327b3229587e2ed12",
-<<<<<<< HEAD
-    "/tailwind/css/build/assets/newsBack-cdcedf8d.webp": "/tailwind/css/build/assets/newsBack-cdcedf8d.webp?id=476070df816aed6335ccfc5fc00e4aa0",
-    "/tailwind/css/build/assets/overlay-shape2-873162a8.png": "/tailwind/css/build/assets/overlay-shape2-873162a8.png?id=9c482809ded2e868fc624755bbabb7b9",
-    "/tailwind/css/build/manifest.json": "/tailwind/css/build/manifest.json?id=ca60d285193b7859ea40731d7d43d692",
-=======
-    "/tailwind/css/build/manifest.json": "/tailwind/css/build/manifest.json?id=3fc8d64bc202d64235a09c34bccdabb4",
->>>>>>> main
+    "/tailwind/css/build/manifest.json": "/tailwind/css/build/manifest.json?id=8a5994a216a8ef83af1949f33e4384f7",
     "/tailwind/favicon-16x16.png": "/tailwind/favicon-16x16.png?id=e87a6c2898eeb58f0deca4715788803d",
     "/tailwind/favicon-32x32.png": "/tailwind/favicon-32x32.png?id=dace4f725745b51dd009ddf098cb8035",
     "/tailwind/favicon.ico": "/tailwind/favicon.ico?id=f958987fb22dc71f06f45a43fecf3288",
@@ -53,11 +35,6 @@
     "/tailwind/img/blog/thumb/blogimagetop-10-mobile-app-development-companies-in-2024.webp": "/tailwind/img/blog/thumb/blogimagetop-10-mobile-app-development-companies-in-2024.webp?id=62eb443e5a93800216588819892f04f9",
     "/tailwind/img/blog/thumb/blogimagetop-10-trusted-real-estate-app-development-companies-in-india.webp": "/tailwind/img/blog/thumb/blogimagetop-10-trusted-real-estate-app-development-companies-in-india.webp?id=b5f3c1479017307a3a4667508ef03a56",
     "/tailwind/img/blog/thumb/blogimageTop-FinTech-App-Development-Companies-in-India-2024.webp": "/tailwind/img/blog/thumb/blogimageTop-FinTech-App-Development-Companies-in-India-2024.webp?id=9a7e9088dbb4b4eb359e477205ebf1a5",
-<<<<<<< HEAD
-    "/tailwind/img/browse.svg": "/tailwind/img/browse.svg?id=b27af29128326921da2998d0e5a9cad8",
-    "/tailwind/img/burgerShImg.png": "/tailwind/img/burgerShImg.png?id=3be029be06d30d5a8d892c1073d5d97a",
-=======
->>>>>>> main
     "/tailwind/img/bussinesapp.webp": "/tailwind/img/bussinesapp.webp?id=bd2c2e4a03aac75f542932a099947da3",
     "/tailwind/img/carers/beams-pricing.png": "/tailwind/img/carers/beams-pricing.png?id=bf6b93405f79d1b7c842a013c3b32d90",
     "/tailwind/img/carers/beams-pricing.webp": "/tailwind/img/carers/beams-pricing.webp?id=51faa3c989c76b71ba6583a9a7929520",
@@ -68,18 +45,6 @@
     "/tailwind/img/carers/overlay-shape2.png": "/tailwind/img/carers/overlay-shape2.png?id=9c482809ded2e868fc624755bbabb7b9",
     "/tailwind/img/carers/together-IMG-Global-Infotech.avif": "/tailwind/img/carers/together-IMG-Global-Infotech.avif?id=dbb4b8f0e1a338992b2440bdade8109f",
     "/tailwind/img/carers/together-IMG-Global-Infotech.webp": "/tailwind/img/carers/together-IMG-Global-Infotech.webp?id=94fa430ed76574fdca018ed845ca7885",
-<<<<<<< HEAD
-    "/tailwind/img/Client-Satisfaction.webp": "/tailwind/img/Client-Satisfaction.webp?id=ca4d82884f2fc346e70fb350b424d455",
-    "/tailwind/img/customerReview.svg": "/tailwind/img/customerReview.svg?id=f6b13cae8c7b53756c539817f50498b9",
-    "/tailwind/img/Delivery Man.svg": "/tailwind/img/Delivery Man.svg?id=3970a4960864712b4d3e33150af21d35",
-    "/tailwind/img/delivery.svg": "/tailwind/img/delivery.svg?id=f21c969a4ec9cf3768ff81b5666debfd",
-    "/tailwind/img/destist-online.webp": "/tailwind/img/destist-online.webp?id=51e58fa7feb899b10d30fcfed4fc0578",
-    "/tailwind/img/Dispatch .svg": "/tailwind/img/Dispatch .svg?id=05c85ea8736c98aa02ba0708d89a2faf",
-    "/tailwind/img/EcoCosmo-Project.webp": "/tailwind/img/EcoCosmo-Project.webp?id=7431cec330f7bf516a0d6c290904a6a1",
-    "/tailwind/img/edTech-solution.webp": "/tailwind/img/edTech-solution.webp?id=4143014e3efbbd260ea127244c6d4577",
-    "/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp": "/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp?id=0d21aca52f4a031113eee650d7166dd5",
-    "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions.webp": "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions.webp?id=c00966e12c31f8d0f459a1dc9d1cf8c5",
-=======
     "/tailwind/img/destist-online-1200w.webp": "/tailwind/img/destist-online-1200w.webp?id=edad7876366af50e5ed6f450d6832688",
     "/tailwind/img/destist-online-1330w.webp": "/tailwind/img/destist-online-1330w.webp?id=609bc7cafcc75ad340b51b5f22aad66c",
     "/tailwind/img/destist-online-1440w.webp": "/tailwind/img/destist-online-1440w.webp?id=8ae2c91c242be77b9e05747eb773364b",
@@ -107,7 +72,6 @@
     "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-2048w.webp": "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-2048w.webp?id=2ea2e92b6582c212f921bbc57a9dee3d",
     "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-265w.webp": "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-265w.webp?id=8e8a9421ba71b5d4e1df989d194665b0",
     "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-860w.webp": "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-860w.webp?id=6e32b9a3fcc1ac5010e2b3e39d761922",
->>>>>>> main
     "/tailwind/img/evelyn.webp": "/tailwind/img/evelyn.webp?id=44c0783dbfec4832b582a282f633da3c",
     "/tailwind/img/fab11.webp": "/tailwind/img/fab11.webp?id=cd210908b4d368afebb5b816e80a7ebe",
     "/tailwind/img/fabindia.webp": "/tailwind/img/fabindia.webp?id=28bcde23627abcce1b016c6e1ce5a46d",
@@ -119,30 +83,18 @@
     "/tailwind/img/fooddelivery/agile-process2.png": "/tailwind/img/fooddelivery/agile-process2.png?id=180782330e5b0fd29e5b4c6830ba192a",
     "/tailwind/img/fooddelivery/App-Like-BBC-News.webp": "/tailwind/img/fooddelivery/App-Like-BBC-News.webp?id=2755fc3c915c0014838357abb75bb54d",
     "/tailwind/img/fooddelivery/burger.webp": "/tailwind/img/fooddelivery/burger.webp?id=627ab3a605c61aaace87de7736bb641c",
-<<<<<<< HEAD
-    "/tailwind/img/fooddelivery/Down.svg": "/tailwind/img/fooddelivery/Down.svg?id=27134e0c8719ca8d4a853f749df476a4",
-    "/tailwind/img/fooddelivery/food-cus-app-one.png": "/tailwind/img/fooddelivery/food-cus-app-one.png?id=0c19cc13180b90a3ec97b53d842201cb",
-    "/tailwind/img/fooddelivery/food-cus-app-three.png": "/tailwind/img/fooddelivery/food-cus-app-three.png?id=0b305b730f67327f0f0ca06bd8310e9a",
-    "/tailwind/img/fooddelivery/food-cus-app-two.png": "/tailwind/img/fooddelivery/food-cus-app-two.png?id=e69c932b1e4861f9b49875e8aea49893",
-    "/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.jpg": "/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.jpg?id=527e013243380f0a90ede656ff9ce31e",
-=======
     "/tailwind/img/fooddelivery/food-cus-app-one.webp": "/tailwind/img/fooddelivery/food-cus-app-one.webp?id=fcf92c71e9f24a222e8c22e12dfda656",
     "/tailwind/img/fooddelivery/food-cus-app-three.webp": "/tailwind/img/fooddelivery/food-cus-app-three.webp?id=778563e83092abcba7bfa1a13da28bb5",
     "/tailwind/img/fooddelivery/food-cus-app-two.webp": "/tailwind/img/fooddelivery/food-cus-app-two.webp?id=57660cc1d3f17b27d59195ece5e201fd",
     "/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.webp": "/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.webp?id=0c2446ebb1117b570ac3874008503930",
->>>>>>> main
     "/tailwind/img/fooddelivery/pizza.webp": "/tailwind/img/fooddelivery/pizza.webp?id=7ed61f607b5f0a6f7465345ee7f17aa1",
     "/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.webp": "/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.webp?id=69ffcfb4fe662728b3ff08ab8942801a",
     "/tailwind/img/footer-clutch.webp": "/tailwind/img/footer-clutch.webp?id=ad8850c948c5fd1b904a4a5acae571f4",
     "/tailwind/img/frame12.webp": "/tailwind/img/frame12.webp?id=ebde9ff840f3780bd1e2ecff4e5c71c9",
     "/tailwind/img/girl.jpg": "/tailwind/img/girl.jpg?id=c3d9ec6fb5349211b6555f8774e5f0eb",
+    "/tailwind/img/girl.webp": "/tailwind/img/girl.webp?id=120945d3701f672bc2cb0e91906b7c00",
     "/tailwind/img/google.webp": "/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6",
-<<<<<<< HEAD
     "/tailwind/img/grid.svg": "/tailwind/img/grid.svg?id=7558fbb69b7de24610c362b3f3bd0ab1",
-    "/tailwind/img/Health-app.webp": "/tailwind/img/Health-app.webp?id=c922679f73474c30f1df7ec0921ec1ab",
-    "/tailwind/img/healthcare.webp": "/tailwind/img/healthcare.webp?id=2e5687a8d5dfbbc9c263e0378c8bdfb3",
-=======
-    "/tailwind/img/grid.svg": "/tailwind/img/grid.svg?id=4bfe2976a2d4a808cd66bb0536642a19",
     "/tailwind/img/health-app-1200w.webp": "/tailwind/img/health-app-1200w.webp?id=41ffacd1fc3c142d59dd5ee6be3bde34",
     "/tailwind/img/health-app-1330w.webp": "/tailwind/img/health-app-1330w.webp?id=a6831a1117935b4dbc873fa27866efe3",
     "/tailwind/img/health-app-1440w.webp": "/tailwind/img/health-app-1440w.webp?id=752678331977bd681f1bb52c850d041f",
@@ -152,7 +104,6 @@
     "/tailwind/img/healthcare-1200w.webp": "/tailwind/img/healthcare-1200w.webp?id=121bb1b7833a97478414b90574b70913",
     "/tailwind/img/healthcare-480w.webp": "/tailwind/img/healthcare-480w.webp?id=30ffa6ff15b872847e7f74a7123505fb",
     "/tailwind/img/healthcare-800w.webp": "/tailwind/img/healthcare-800w.webp?id=72d3ae44a28b22bb0102a98d37cb0a52",
->>>>>>> main
     "/tailwind/img/hidden.webp": "/tailwind/img/hidden.webp?id=4df173c235873ed3ff8684e03934b9a3",
     "/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-1170w.webp": "/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-1170w.webp?id=1483f9104d6f8b76f9a1f629e5a6a957",
     "/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-1520w.webp": "/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-1520w.webp?id=21c023f8ceab98bdd3fb47aa95ad1820",
@@ -171,11 +122,6 @@
     "/tailwind/img/ipay-720w.webp": "/tailwind/img/ipay-720w.webp?id=9de0fb2457d4657f98d336ba8cdd3127",
     "/tailwind/img/ipay-990w.webp": "/tailwind/img/ipay-990w.webp?id=18f6cc662f873e29d999090a1c2e106e",
     "/tailwind/img/jitesh.webp": "/tailwind/img/jitesh.webp?id=76b06760eefcf30f37d6307426d50048",
-<<<<<<< HEAD
-    "/tailwind/img/leftIcon.svg": "/tailwind/img/leftIcon.svg?id=78d517a8a8074e6fc61a3b5b4f96ed79",
-    "/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development!.webp": "/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development!.webp?id=0c4e9809fe1aec9d51de5fe5e1288dad",
-    "/tailwind/img/logistics-services-app.webp": "/tailwind/img/logistics-services-app.webp?id=68c21f420a353bd8d601be7535eb0928",
-=======
     "/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development-1340w.webp": "/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development-1340w.webp?id=8ae3757077c6b1fd1946eb9d3ac02ae8",
     "/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development-1690w.webp": "/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development-1690w.webp?id=a3d1c0e61ace6829203ddc442f77d2ac",
     "/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development-256w.webp": "/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development-256w.webp?id=933bfaed0c8167b1f23976422f8046f2",
@@ -183,7 +129,6 @@
     "/tailwind/img/logistics-services-app-1200w.webp": "/tailwind/img/logistics-services-app-1200w.webp?id=73705e86634a24b60541ed3969da9f92",
     "/tailwind/img/logistics-services-app-480w.webp": "/tailwind/img/logistics-services-app-480w.webp?id=fbf85aabc9fc448c3d87d814e5153226",
     "/tailwind/img/logistics-services-app-800w.webp": "/tailwind/img/logistics-services-app-800w.webp?id=793621004e945609503299842503849f",
->>>>>>> main
     "/tailwind/img/logo-clouds-adani.webp": "/tailwind/img/logo-clouds-adani.webp?id=087b10f7ca0942619a845b38b00712c6",
     "/tailwind/img/logo-clouds-fabindia.webp": "/tailwind/img/logo-clouds-fabindia.webp?id=c35d1aaf31d43dd204bb4195e474b248",
     "/tailwind/img/logo-clouds-hero.webp": "/tailwind/img/logo-clouds-hero.webp?id=de2333d0234c8ef2c2cbfa582af53799",
@@ -197,16 +142,6 @@
     "/tailwind/img/mid-market-1500-160w.webp": "/tailwind/img/mid-market-1500-160w.webp?id=1b49b6225917d98626ac1c0224ec95f0",
     "/tailwind/img/mobileapp.webp": "/tailwind/img/mobileapp.webp?id=e639b97f37086c1eaba7c56a63a65639",
     "/tailwind/img/mohd-nizamuddin.webp": "/tailwind/img/mohd-nizamuddin.webp?id=85179622174136ac3e52a9f1862f040f",
-<<<<<<< HEAD
-    "/tailwind/img/myfab11.webp": "/tailwind/img/myfab11.webp?id=75c611690cd1d8339fc07a75fde6e023",
-    "/tailwind/img/newsBack.webp": "/tailwind/img/newsBack.webp?id=476070df816aed6335ccfc5fc00e4aa0",
-    "/tailwind/img/now-vue.webp": "/tailwind/img/now-vue.webp?id=433006973c113a4ed5743c3928febaa1",
-    "/tailwind/img/on-demand.webp": "/tailwind/img/on-demand.webp?id=4d5715ffb333b8b06a62a6e5f57cecd8",
-    "/tailwind/img/payment.svg": "/tailwind/img/payment.svg?id=da021730a4f3b5e2cee9867a86cbc0cf",
-    "/tailwind/img/pizzaShimg.png": "/tailwind/img/pizzaShimg.png?id=b45191f0a987df0af3566fda4324b58d",
-    "/tailwind/img/place.svg": "/tailwind/img/place.svg?id=831f991e57fcaad6ba31b0585d6afaae",
-    "/tailwind/img/Propira01.png": "/tailwind/img/Propira01.png?id=1a90de97cec40d728fc2ada28659a1d2",
-=======
     "/tailwind/img/myfab11-1024w.webp": "/tailwind/img/myfab11-1024w.webp?id=408b7a2e0f0a0dfc08f981a2f0dae97e",
     "/tailwind/img/myfab11-1250w.webp": "/tailwind/img/myfab11-1250w.webp?id=2fdc5250cc89f3b290cacd050fa4bece",
     "/tailwind/img/myfab11-1440w.webp": "/tailwind/img/myfab11-1440w.webp?id=b45f56081b16d2bba36b5a5c86d0ff3f",
@@ -220,7 +155,6 @@
     "/tailwind/img/on-demand-1200w.webp": "/tailwind/img/on-demand-1200w.webp?id=a1792b91c8b72d9a6959b349e69d430b",
     "/tailwind/img/on-demand-480w.webp": "/tailwind/img/on-demand-480w.webp?id=9f44f9587ebca0a516c33957b6d28fac",
     "/tailwind/img/on-demand-800w.webp": "/tailwind/img/on-demand-800w.webp?id=644d742b536613a3f677be1c9b771b17",
->>>>>>> main
     "/tailwind/img/Propira01.webp": "/tailwind/img/Propira01.webp?id=3691a203af5e72e58ffe6dcea8bb9596",
     "/tailwind/img/Propira02.webp": "/tailwind/img/Propira02.webp?id=e7e536a5439afc87c430ae810f694298",
     "/tailwind/img/Propira03.webp": "/tailwind/img/Propira03.webp?id=e53fa2e501398b8d05cef9afb0257413",
@@ -241,11 +175,6 @@
     "/tailwind/img/retail-and-ecommerce-app-480w.webp": "/tailwind/img/retail-and-ecommerce-app-480w.webp?id=e4f8b700a47e8121577d557c382f78b3",
     "/tailwind/img/retail-and-ecommerce-app-800w.webp": "/tailwind/img/retail-and-ecommerce-app-800w.webp?id=1eb43282d8846a0f10a13286ea10f019",
     "/tailwind/img/rholang.webp": "/tailwind/img/rholang.webp?id=90728c1305fab9f66233cd3e0dd827dd",
-<<<<<<< HEAD
-    "/tailwind/img/rightBlue.svg": "/tailwind/img/rightBlue.svg?id=794da7214d0b1f1814879fc7fa3c4e6b",
-    "/tailwind/img/righticon.svg": "/tailwind/img/righticon.svg?id=9994bf79f48148fd2417a39b31367980",
-=======
->>>>>>> main
     "/tailwind/img/rust.webp": "/tailwind/img/rust.webp?id=7e90e03cb5837ab35d1c427422665702",
     "/tailwind/img/simplicity.webp": "/tailwind/img/simplicity.webp?id=feccff0703a33f24743884317ef480e8",
     "/tailwind/img/snowfall-xmas/santa.webp": "/tailwind/img/snowfall-xmas/santa.webp?id=31a5defd3b15daed788cf2bd4997fc55",
@@ -258,15 +187,9 @@
     "/tailwind/img/testimonial-2.webp": "/tailwind/img/testimonial-2.webp?id=0dae6ebfe4a2363dadd7accda2e97ebc",
     "/tailwind/img/testimonial-3.webp": "/tailwind/img/testimonial-3.webp?id=5c3e4ad615afd6885f93941ffb040ad7",
     "/tailwind/img/testimonial-4.webp": "/tailwind/img/testimonial-4.webp?id=29fd313353d349f3c0e3899586fef2e8",
-<<<<<<< HEAD
-    "/tailwind/img/trackDriver.svg": "/tailwind/img/trackDriver.svg?id=6abfeae52a0a00bc9317693213b3c74c",
-    "/tailwind/img/tracking.svg": "/tailwind/img/tracking.svg?id=468adc28e8ebf62bd406e2e91cf8821a",
-    "/tailwind/img/travel-and-tourism.webp": "/tailwind/img/travel-and-tourism.webp?id=1a5a26cd89b86d026d0efd4159b7018a",
-=======
     "/tailwind/img/travel-and-tourism-1200w.webp": "/tailwind/img/travel-and-tourism-1200w.webp?id=6738b2b7ffa23368095fe31c4d340b07",
     "/tailwind/img/travel-and-tourism-480w.webp": "/tailwind/img/travel-and-tourism-480w.webp?id=3cc604851953282736458dc691ab7949",
     "/tailwind/img/travel-and-tourism-800w.webp": "/tailwind/img/travel-and-tourism-800w.webp?id=f909f0f2b00da4000c964e24885bf96d",
->>>>>>> main
     "/tailwind/img/trustpilot.webp": "/tailwind/img/trustpilot.webp?id=a464c168c6ed424da5be652905d10589",
     "/tailwind/img/uber-cart.webp": "/tailwind/img/uber-cart.webp?id=ac601a31638908181f934e75464c0367",
     "/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-1170w.webp": "/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-1170w.webp?id=61a5a2f2419fe0f4935d668c0dd886ae",
@@ -279,13 +202,7 @@
     "/tailwind/img/woo-commerce.webp": "/tailwind/img/woo-commerce.webp?id=2848f311a5dd9cb323cdf0e6377cb674",
     "/tailwind/img/xl-logo.webp": "/tailwind/img/xl-logo.webp?id=ffd188d4ad42bbb0583911d0baa78585",
     "/tailwind/img/Yeshi.webp": "/tailwind/img/Yeshi.webp?id=87bb4503825aaf27dc004bf2d35edcbf",
-<<<<<<< HEAD
     "/tailwind/index.php": "/tailwind/index.php?id=b6605d09fed85d7117fdf897183f8a37",
-    "/tailwind/js/festival-decor/newYear/newYear.js": "/tailwind/js/festival-decor/newYear/newYear.js?id=94c1a71e81ea5f2fb4f19ddef792e972",
-    "/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js": "/tailwind/js/festival-decor/snowfall-xmas/snowfall-xmas.js?id=d888c8cb30ed539c3d02ac723fc93a0c",
-=======
-    "/tailwind/index.php": "/tailwind/index.php?id=3b58bff18126a61c142cc576457c82a6",
->>>>>>> main
     "/tailwind/mstile-144x144.png": "/tailwind/mstile-144x144.png?id=5321c015062c118d29458209e3404b16",
     "/tailwind/mstile-150x150.png": "/tailwind/mstile-150x150.png?id=8877f155bb0da06853e2e44a42b89250",
     "/tailwind/mstile-310x150.png": "/tailwind/mstile-310x150.png?id=3122f23a1ff59768e57b75978fc5f2f4",
@@ -293,6 +210,5 @@
     "/tailwind/mstile-70x70.png": "/tailwind/mstile-70x70.png?id=b030c4c6f977862bebfde9549f586c94",
     "/tailwind/robots.txt": "/tailwind/robots.txt?id=0cfee23eaedc5acac4f47e48c8daab4f",
     "/tailwind/safari-pinned-tab.svg": "/tailwind/safari-pinned-tab.svg?id=53630740360ccc7baf8efc5465380ae5",
-    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=007090dd4c1183a19f5536aaf2b87496",
-    "/tailwind/img/girl.webp": "/tailwind/img/girl.webp?id=120945d3701f672bc2cb0e91906b7c00"
+    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=007090dd4c1183a19f5536aaf2b87496"
 }
