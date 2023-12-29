@@ -32,6 +32,149 @@
 
 @section('content')
 
+
+
+{{-- hero section start  --}}
+
+<div class=" bg-gradient-to-b from-black/40 via-black/20 select-none text-white  group-[]/ns:from-gray-950 group-[]/ns:to-sky-950 group-[]/ons:from-gray-950 group-[]/ons:to-sky-950 group-[]/ons:rounded-b-2xl max-h-[750px] h-full">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative pb-16 lg:pt-48 md:pt-40 pt-36 overflow-hidden h-full">
+        <div class="flex flex-row flex-wrap items-center h-full">
+            <div class=" lg:w-1/2 md:w-3/5 w-full md:order-1 order-2">
+                <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10 md:text-start text-center">
+                    <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white">
+                        <span class="font-normal">Together at</span> 
+                        <span class="font-bold bg-gradient-to-r from-indigo-200 via-sky-600 to-indigo-200 bg-clip-text text-transparent">IMG Global Infotech</span>
+                    </p>
+                    <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1">
+                        We offer a truly inspiring and flexible work environment where you will be empowered to follow your passion, see possibilities, and learn and grow continuously.
+                    </div>
+                    <div class="mt-6">
+                        <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 opacity-100 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
+                            <span>
+                                <span class="inline-flex items-center gap-1">
+                                    <span>
+                                        Consult Our Experts
+                                    </span>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 md:w-2/5 w-full md:order-2 order-1">
+                <div class="w-1/2 h-1/2 md:ml-auto md:mr-auto md:text-right text-center">
+                    <img src="{{asset('public'.mix('/tailwind/img/carers/together-IMG-Global-Infotech.webp'))}}" alt="thanku" class="h-full w-full ">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- hero section end  --}}
+
+
+{{-- Benefits & Perks start  --}}
+
+<div class="relative  overflow-hidden bg-white md:py-16 py-10">
+  
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
+        <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
+            <div class="flex items-center flex-wrap row-flex relative">
+                <div class="lg:w-1/2 w-full px-14 ">
+                    <div class="img"><img src="{{asset('public'.mix('/tailwind/img/carers/beifit.webp'))}}" alt="beifit" class=" lg:h-full lg:w-full md:h-[500px]  h-full w-full"> </div>
+                </div>
+                <div class="relative z-20 lg:w-1/2 w-full">
+                    <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black"><span class="font-normal">Get More</span> <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Insight About Us</span></p>
+                    <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">IMG is one of the trusted and Promising IT service providers delivering web development, mobile app development and custom software development services to start-up, mid level organizations and various big enterprises aiming to proffer digital success with robust applications. We have a proven track record in having 1200+ satisfied business clients and individuals from different verticals. We are committed to establish a long lasting and happy relationship with our clients.</p>
+                
+                    <div class="flex items-center mt-6 flex-wrap gap-3 w-full  lg:w-[90%]">
+                        <a href="https://www.imgglobalinfotech.com/contact-us.php" class=" inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
+                            <span>
+                                <span class="inline-flex items-center gap-1">
+                                    <span>
+                                       Talk To IMG Team
+                                    </span>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            
+                
+          
+            </div>
+        <div class="pointer-events-none absolute inset-0 shadow-[inset_0_-1px_1px_rgba(0,0,0,0.06)]"></div>
+    </div>
+</div>
+
+{{-- Benefits & Perks end  --}}
+
+{{-- our values start --}}
+<div class="py-4 relative bg-theme1">
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+
+        <div class="text-center py-4 items-center justify-center">
+            <p class="mt-4  max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal">Our</span> 
+                <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> Values</span>
+            </p>
+            <div class="flex text-left mt-5 gap-2 flex-wrap">
+                <div class="lg:w-[32%] md:w-[49%] w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-50 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
+                    <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
+                        <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">01</div>
+                    </div>
+                    <div class=" text-[#337ca6]  whitespace-nowrap mt-1 font-semibold text-sm">Ensure Impactful Innovations</div>
+                    <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">An unwavering commitment to drive maximum customer satisfaction, infused with integrity and passion.</div>
+                    <a class="mt-5 inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
+                        <span class="select-none">
+                        Lets Get Connect <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="lg:w-[32%] md:w-[49%] w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-50 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
+                    <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
+                        <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">02</div>
+                    </div>
+                    <div class=" text-[#337ca6]  whitespace-nowrap mt-1 font-semibold text-sm">  Focus on self-development</div>
+                    <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">Training and mentorship programs, interactive sessions and community meetups to drive personal growth.</div>
+                    <a class="mt-5 inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
+                        <span class="select-none">
+                        Lets Get Connect <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="lg:w-[32%] md:w-[49%] w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-50 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
+                    <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
+                        <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">03</div>
+                    </div>
+                    <div class=" text-[#337ca6]  whitespace-nowrap mt-1 font-semibold text-sm"> Integrate work-life balance</div>
+                    <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">An unwavering commitment to drive maximum customer satisfaction, infused with integrity and passion.</div>
+                    <a class="mt-5 inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
+                        <span class="select-none">
+                        Lets Get Connect <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{-- our values end --}}
+
 {{-- apply now section end --}}
 
 
@@ -81,6 +224,125 @@
 
 
 {{-- end  --}}
+
+
+<div class="mx-auto max-w-7xl px-6 lg:px-8 z-10 my-24 bg-gray-100">
+    <div class="flex flex-row flex-wrap items-center jsuttify-center py-20 h-full w-full">
+        <div class="w-2/5">
+            <div class="flex items-center">
+                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/agile-process2.png'))}}" alt="process" class="h-full w-full ">
+            </div>
+            <div class="flex items-center">
+                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/agile-process2.png'))}}" alt="process" class="h-full w-full ">
+            </div>
+        </div>
+        <div class="w-[calc(100%-40%)]">
+         <div class="flex items-center justify-center relative proceingCard  text-center flex-wrap  after:absolute after:w-[400px] after:h-[400px] after:bg-blue-200  after:rounded-full">
+            {{-- <div class="text-black text-2xl "> img Global info tech</div> --}}
+            <div class="flex items-center justify-center h-24 w-32 z-24 relatives rounded-full bg-white shadow-md text-2xl">
+                ddd
+            </div>
+            <div class="agal-list z-10 relative">
+                <div class="agile-child child-1 rotate-[146deg] absolute right-[8px] bottom-[20px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
+                            01
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+
+                <div class="agile-child child-1 rotate-[193deg] absolute right-[-99px] bottom-[41px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-green-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-green-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
+                            02
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+                <div class="agile-child child-1 rotate-[240deg] absolute left-[-33px] bottom-[-23px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-green-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-green-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
+                            03
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+
+                <div class="agile-child child-1 rotate-[286deg] absolute left-[-17px] bottom-[-132px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-green-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-green-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
+                            04
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+                <div class="agile-child child-1 rotate-[-27deg] absolute left-[-85px] top-[-43px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
+                            05
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+
+                <div class="agile-child child-1 rotate-[20deg] absolute right-[-25px] top-[-31px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
+                            06
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+
+                <div class="agile-child child-1 rotate-[100deg] absolute right-[77px] bottom-[-68px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
+                            06
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+
+                <div class="agile-child child-1 rotate-[90deg] absolute right-[80px] bottom-[-98px] group duration-300">
+                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
+                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
+                            06
+                        </div>
+                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
+                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
+                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
+                        </div>	
+                    </div>
+                </div>
+            </div>
+         </div>
+            
+        </div>
+    </div>
+</div>
+
 
 
 
