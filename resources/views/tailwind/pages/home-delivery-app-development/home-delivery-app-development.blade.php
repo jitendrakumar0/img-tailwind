@@ -178,7 +178,7 @@
 {{-- apply now section end --}}
 
 
-<div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-10 overflow-hidden">
+{{-- <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-10 overflow-hidden">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
@@ -201,14 +201,14 @@
         </p>
     </div>
 
-    <div class="flex flex-row flex-wrap mt-20">
+    <div class="flex flex-row flex-wrap ">
 
         <div class="lg:w-1/4">
-            <div class="bg-white  relative z-1 shadow-2xl duration-300 !rounded-tl-4xl group hover:rounded-tr-4xl">
-                <div class="overlay  relative  duration-300 group-hover:h-28 before:absolute before:w-full before:rounded-tr-4xl before:h-full before:bg-no-repeat before:right-0 before-bottom-0 before:left-0  before:bg-[url('../img/carers/overlay-shape2.png')]  before:bg-bottom before:bg-gradient-to-r before:from-purple-600 before:to-blue-500 before:group-hover:duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="absolute bottom-0 left-0 duration-300 opacity-0 overflow-hidden group-hover:opacity-100" width="100%" viewBox="0 0 100 100" version="1.1" preserveAspectRatio="none" height="36px" width="100%" style="fill:#fff"><path stroke-width="0" d="M0 0 C50 100 50 100 100 0  L100 100 0 100"></path></svg>
+            <div class="bg-white  relative z-1 shadow-2xl duration-300 !rounded-tl-4xl group hover:rounded-tr-4xl h-[280px]">
+                <div class="overlay relative group-hover:h-32 before:duration-300 duration-300 before:absolute before:w-full before:rounded-tr-4xl before:h-full before:bg-no-repeat before:right-0 before-bottom-0 before:left-0  before:bg-[url('../img/carers/overlay-shape2.png')]  before:bg-bottom before:bg-gradient-to-r before:from-purple-600 before:to-blue-500 before:group-hover:duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="absolute  bottom-0 left-0 duration-300 opacity-0 h-0 group-hover:h-6 overflow-hidden group-hover:opacity-100" width="100%" viewBox="0 0 100 100" version="1.1" preserveAspectRatio="none" height="36px" width="100%" style="fill:#fff"><path stroke-width="0" d="M0 0 C50 100 50 100 100 0  L100 100 0 100"></path></svg>
                 </div>
-                <div class="p-6">
+                <div class="p-6 duration-300">
                     <div class="h-16 w-16 flex items-center justify-center rotate-45 rounded-xl shadow-md bg-gradient-to-l group-hover:!bg-white from-purple-600 to-blue-500 absolute duration-300 group-hover:top-[17px] top-[-35px] left-0 p-3 right-0 mx-auto"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="flex items-center jsutify-center text-white " xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-1.85.63-3.54 1.69-4.9L7.59 9h2.83L7.1 5.69A7.924 7.924 0 0112 4c4.41 0 8 3.59 8 8 0 1.85-.63 3.54-1.69 4.9l-1.9-1.9h-2.83l3.31 3.31A7.874 7.874 0 0112 20c-4.41 0-8-3.59-8-8z"></path><path d="M14.25 14l-1.5-2 1.5-2h-1.5L12 11l-.75-1h-1.5l1.5 2-1.5 2h1.5l.75-1 .75 1zM8 10l-.75 1-.75-1H5l1.5 2L5 14h1.5l.75-1L8 14h1.5L8 12l1.5-2zM16 14l.75-1 .75 1H19l-1.5-2 1.5-2h-1.5l-.75 1-.75-1h-1.5l1.5 2-1.5 2z"></path></svg></div>
                     <div class="text-state-900 text-lg duration-300 group-hover:pt-0 pt-10 font-bold relative pb-5 text-center before:absolute before:bg-gradient-to-r before:from-purple-600 before:to-blue-500 before:bottom-0 before:left-0 before:right-0 before:mx-auto before:h-1 before:w-20"> UI/UX Design</div>
                     <div class="text-black text-sm mt-3 text-center z-40 relative text-ellipsis line-clamp-4 opacity-100 duration-300 group-hover:opacity-0">Strong emotional reactions are common in reactive people, as they allow themselves to be defined by other people’s actions.</div>
@@ -219,129 +219,154 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 
 
 {{-- end  --}}
 
-
-<div class="mx-auto max-w-7xl px-6 lg:px-8 z-10 my-24 bg-gray-100">
-    <div class="flex flex-row flex-wrap items-center jsuttify-center py-20 h-full w-full">
-        <div class="w-2/5">
-            <div class="flex items-center">
-                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/agile-process2.png'))}}" alt="process" class="h-full w-full ">
+<div class="xl:pt-32 xl:pb-32 md:pb-36 relative overflow-hidden z-[1]">
+    <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
+        <defs>
+            <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
+                <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+            </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#nhgh)"></rect>
+    </svg>
+    <div class="hidden z-0 sm:absolute sm:-top-10 sm:right-1/2 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-fuchsia-900 to-lime-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+    <div class="absolute z-0 -top-52 left-1/2 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-fuchsia-900 to-lime-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-10 xl:mt-24 xl:mb-24 md:mb-32">
+        <div class="flex flex-row flex-wrap items-center jsuttify-center md:py-20 sm:py-16 py-12 h-full w-full">
+            <div class="xl:w-2/5 w-full">
+                <div class="flex items-center xl:mt-9 bg-white rounded-lg rounded-br-none p-3 h-[230px] w-[230px] justify-center  mx-auto">
+                    <img src="{{asset('public'.mix('/tailwind/img/about/top-mobile-app-development-company.webp'))}}" alt="process" class="h-full w-full">
+                </div>
+                <div class="text-black sm:text-xl text-lg font-bold text-center mt-4 ">Review IMG GLOBAL INFOTECH PRIVATE LIMITED ON DesignRush</div>
+           
             </div>
-            <div class="flex items-center">
-                <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/agile-process2.png'))}}" alt="process" class="h-full w-full ">
+            <div class="xl:w-3/5 w-full  xl:mt-0 mt-80 md:block hidden">
+             <div class="flex items-center justify-center relative proceingCard  text-center flex-wrap  after:absolute after:w-[300px] after:h-[300px] after:bg-blue-200  after:rounded-full">
+                {{-- <div class="text-black text-2xl "> img Global info tech</div> --}}
+                <div class="flex items-center z-30 font-bold text-slate-950 shadow-inner relative justify-center h-36 w-36 z-24 relatives rounded-full bg-white  text-xl">
+                    our <br> Process
+                </div>
+                <div class="agal-list z-10 relative">
+                    <div class="agile-child child-1 rotate-[162deg] absolute right-[-46px] bottom-[43px] group duration-300">
+                        <div class="inner-agilee realtive w-[350px] h-[280px] relative overflow-hidden bg-gray-100 group-hover:bg-pink-200/50 shadow-slate-100 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-120deg] before:w-[213px] before:h-[84px] before:bg-pink-800">
+                            <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
+                                01
+                            </div>
+                            <div class="agile-content-wrapper absolute h-full top-0 pt-5 left-12 right-6 w-[240px] transform rotate-180 z-9  text-center">
+                                <div class="text-slate-900 text-xl font-bold leading-tight">Research</div>
+                                <div class="text-black/70 text-sm overflow-ellipsis line-clamp-4 px-6 mt-2">We start by conducting thorough research to understand your target audience, market trends, and competition. outstanding software .</div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div class="agile-child child-1 rotate-[224deg] absolute left-[-113px] bottom-[8px] group duration-300">
+                        <div class="inner-agilee realtive w-[350px] h-[280px] relative overflow-hidden bg-gray-100 group-hover:bg-green-200/50 shadow-slate-100 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-120deg] before:w-[213px] before:h-[84px] before:bg-green-800">
+                            <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
+                                02
+                            </div>
+                            <div class="agile-content-wrapper absolute h-full top-0 pt-5 left-12 right-6 w-[240px] transform rotate-180 z-9  text-center">
+                                <div class="text-slate-900 text-xl font-bold leading-tight">Plan</div>
+                                <div class="text-black/70 text-sm overflow-ellipsis line-clamp-4 px-6 mt-2">Based on the research findings, we work closely with you to define the app's goals, features, and functionalities. outstanding software .</div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div class="agile-child child-1 rotate-[281deg] absolute left-[-48px] bottom-[-180px] group duration-300">
+                        <div class="inner-agilee realtive w-[350px] h-[280px] relative overflow-hidden bg-gray-100 group-hover:bg-sky-200/50 shadow-slate-100 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-120deg] before:w-[213px] before:h-[84px] before:bg-sky-800">
+                            <div class="counter-div text-white text-lg font-bold text-center rotate-[70deg] mt-10">
+                                03
+                            </div>
+                            <div class="agile-content-wrapper absolute h-full top-16 pt-5 left-4 right-0 w-[208px] transform rotate-[64deg] z-9  text-center">
+                                <div class="text-slate-900 text-xl font-bold leading-tight">Implement</div>
+                                <div class="text-black/70 text-sm overflow-ellipsis line-clamp-4 px-6 mt-2">Our skilled development team begins the implementation phase, where we build the app's architecture, database, and backend infrastructure.</div>
+                            </div>	
+                        </div>
+                    </div>
+    
+                    <div class="agile-child child-1 rotate-[-20deg] absolute left-[-172px] top-[46px] group duration-300">
+                        <div class="inner-agilee realtive w-[350px] h-[280px] relative overflow-hidden bg-gray-100 group-hover:bg-purple-200/90 shadow-slate-100 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-120deg] before:w-[213px] before:h-[84px] before:bg-purple-800">
+                            <div class="counter-div text-white text-lg font-bold text-center rotate-0 mt-10">
+                                04
+                            </div>
+                            <div class="agile-content-wrapper absolute h-full top-32 pt-5 left-8 right-6 w-[270px] transform rotate-0 z-9  text-center">
+                                <div class="text-slate-900 text-xl font-bold leading-tight">Testing</div>
+                                <div class="text-black/70 text-sm overflow-ellipsis line-clamp-4 px-6 mt-2">Quality assurance is a critical step in our process. We conduct various tests, including functional testing, usability testing, performance testing.</div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div class="agile-child child-1 rotate-[41deg] absolute right-[27px] top-[4px] group duration-300">
+                        <div class="inner-agilee realtive w-[350px] h-[280px] relative overflow-hidden bg-gray-100 group-hover:bg-blue-200/50 shadow-slate-100 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-120deg] before:w-[213px] before:h-[84px] before:bg-blue-800">
+                            <div class="counter-div text-white text-lg font-bold text-center rotate-0 mt-10">
+                                05
+                            </div>
+                            <div class="agile-content-wrapper absolute h-full top-32 pt-5 left-7 right-6 w-[270px] transform rotate-0 z-9  text-center">
+                                <div class="text-slate-900 text-xl font-bold leading-tight">Optimize</div>
+                                <div class="text-black/70 text-sm overflow-ellipsis line-clamp-4 px-6 mt-2">We continually optimize the app to enhance its performance, speed, and user experience. outstanding software .</div>
+                            </div>	
+                        </div>
+                    </div>
+                    <div class="agile-child child-1 rotate-[103deg] absolute right-[85px] bottom-[-105px] group duration-300">
+                        <div class="inner-agilee realtive w-[350px] h-[280px] relative overflow-hidden bg-gray-100 group-hover:bg-orange-200/50 shadow-slate-100 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-120deg] before:w-[213px] before:h-[84px] before:bg-orange-800">
+                            <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
+                                06
+                            </div>
+                            <div class="agile-content-wrapper absolute h-full top-0 pt-5 left-12 right-6 w-[240px] transform rotate-180 z-9  text-center">
+                                <div class="text-slate-900 text-xl font-bold leading-tight">Optimize</div>
+                                <div class="text-black/70 text-sm overflow-ellipsis line-clamp-4 px-6 mt-2">We continually optimize the app to enhance its performance, speed, and user experience. outstanding software .</div>
+                            </div>	
+                        </div>
+                    </div>
+                   
+                </div>
+             </div>
+                
             </div>
-        </div>
-        <div class="w-[calc(100%-40%)]">
-         <div class="flex items-center justify-center relative proceingCard  text-center flex-wrap  after:absolute after:w-[400px] after:h-[400px] after:bg-blue-200  after:rounded-full">
-            {{-- <div class="text-black text-2xl "> img Global info tech</div> --}}
-            <div class="flex items-center justify-center h-24 w-32 z-24 relatives rounded-full bg-white shadow-md text-2xl">
-                ddd
-            </div>
-            <div class="agal-list z-10 relative">
-                <div class="agile-child child-1 rotate-[146deg] absolute right-[8px] bottom-[20px] group duration-300">
-                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
-                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
-                            01
-                        </div>
-                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
-                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
-                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
-                        </div>	
-                    </div>
-                </div>
+            <div class="w-full md:hidden  block sm:mt-12 mt-8">
+                <div class="flex flex-row flex-wrap w-full">
 
-                <div class="agile-child child-1 rotate-[193deg] absolute right-[-99px] bottom-[41px] group duration-300">
-                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-green-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-green-800">
-                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
-                            02
+                    <div class="sm:w-1/2 p-3">
+                        <div class="bg-white  relative z-1 shadow-2xl duration-300 !rounded-tl-4xl group hover:rounded-tr-4xl h-[280px]">
+                            <div class="overlay relative group-hover:h-32 before:duration-300 duration-300 before:absolute before:w-full before:rounded-tr-4xl before:h-full before:bg-no-repeat before:right-0 before-bottom-0 before:left-0  before:bg-[url('../img/carers/overlay-shape2.png')]  before:bg-bottom before:bg-gradient-to-r before:from-purple-600 before:to-blue-500 before:group-hover:duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="absolute  bottom-0 left-0 duration-300 opacity-0 h-0 group-hover:h-6 overflow-hidden group-hover:opacity-100" width="100%" viewBox="0 0 100 100" version="1.1" preserveAspectRatio="none" height="36px" width="100%" style="fill:#fff"><path stroke-width="0" d="M0 0 C50 100 50 100 100 0  L100 100 0 100"></path></svg>
+                            </div>
+                            <div class="p-6 duration-300">
+                                <div class="h-16 w-16 flex items-center justify-center rotate-45 rounded-xl shadow-md bg-gradient-to-l group-hover:!bg-white from-purple-600 to-blue-500 absolute duration-300 group-hover:top-[30px] top-[-35px] left-0 p-3 right-0 mx-auto"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="flex items-center jsutify-center text-white " xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-1.85.63-3.54 1.69-4.9L7.59 9h2.83L7.1 5.69A7.924 7.924 0 0112 4c4.41 0 8 3.59 8 8 0 1.85-.63 3.54-1.69 4.9l-1.9-1.9h-2.83l3.31 3.31A7.874 7.874 0 0112 20c-4.41 0-8-3.59-8-8z"></path><path d="M14.25 14l-1.5-2 1.5-2h-1.5L12 11l-.75-1h-1.5l1.5 2-1.5 2h1.5l.75-1 .75 1zM8 10l-.75 1-.75-1H5l1.5 2L5 14h1.5l.75-1L8 14h1.5L8 12l1.5-2zM16 14l.75-1 .75 1H19l-1.5-2 1.5-2h-1.5l-.75 1-.75-1h-1.5l1.5 2-1.5 2z"></path></svg></div>
+                                <div class="text-state-900 text-lg duration-300 group-hover:pt-0 pt-10 font-bold relative pb-5 text-center before:absolute before:bg-gradient-to-r before:from-purple-600 before:to-blue-500 before:bottom-0 before:left-0 before:right-0 before:mx-auto before:h-1 before:w-20"> UI/UX Design</div>
+                                <div class="text-black text-sm mt-3 text-center z-40 relative text-ellipsis line-clamp-4 opacity-100 duration-300 group-hover:opacity-0">Strong emotional reactions are common in reactive people, as they allow themselves to be defined by other people’s actions.</div>
+                                <div class=" mt-4 overflow-hidden duration-300 absolute  left-0 right-0 bottom-[-30px] opacity-0 mx-auto group-hover:opacity-100 group-hover:bottom-[30px]">
+                                    <a href="javascript:;" class="duration-300 group text-decoration-none flex items-center justify-center text-[#006cff] font-semibold text-sm"> Learn More <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" class="text-[#006cff] flex items-center text-sm h-3 w-3 ms-1 group-hover:ms-2 duration-300 " xmlns="http://www.w3.org/2000/svg"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path></svg></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
-                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
-                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
-                        </div>	
                     </div>
-                </div>
-                <div class="agile-child child-1 rotate-[240deg] absolute left-[-33px] bottom-[-23px] group duration-300">
-                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-green-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-green-800">
-                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
-                            03
+                    <div class="sm:w-1/2 p-3">
+                        <div class="bg-white  relative z-1 shadow-2xl duration-300 !rounded-tl-4xl group hover:rounded-tr-4xl h-[280px]">
+                            <div class="overlay relative group-hover:h-32 before:duration-300 duration-300 before:absolute before:w-full before:rounded-tr-4xl before:h-full before:bg-no-repeat before:right-0 before-bottom-0 before:left-0  before:bg-[url('../img/carers/overlay-shape2.png')]  before:bg-bottom before:bg-gradient-to-r before:from-purple-600 before:to-blue-500 before:group-hover:duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="absolute  bottom-0 left-0 duration-300 opacity-0 h-0 group-hover:h-6 overflow-hidden group-hover:opacity-100" width="100%" viewBox="0 0 100 100" version="1.1" preserveAspectRatio="none" height="36px" width="100%" style="fill:#fff"><path stroke-width="0" d="M0 0 C50 100 50 100 100 0  L100 100 0 100"></path></svg>
+                            </div>
+                            <div class="p-6 duration-300">
+                                <div class="h-16 w-16 flex items-center justify-center rotate-45 rounded-xl shadow-md bg-gradient-to-l group-hover:!bg-white from-purple-600 to-blue-500 absolute duration-300 group-hover:top-[17px] top-[-35px] left-0 p-3 right-0 mx-auto"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="flex items-center jsutify-center text-white " xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-1.85.63-3.54 1.69-4.9L7.59 9h2.83L7.1 5.69A7.924 7.924 0 0112 4c4.41 0 8 3.59 8 8 0 1.85-.63 3.54-1.69 4.9l-1.9-1.9h-2.83l3.31 3.31A7.874 7.874 0 0112 20c-4.41 0-8-3.59-8-8z"></path><path d="M14.25 14l-1.5-2 1.5-2h-1.5L12 11l-.75-1h-1.5l1.5 2-1.5 2h1.5l.75-1 .75 1zM8 10l-.75 1-.75-1H5l1.5 2L5 14h1.5l.75-1L8 14h1.5L8 12l1.5-2zM16 14l.75-1 .75 1H19l-1.5-2 1.5-2h-1.5l-.75 1-.75-1h-1.5l1.5 2-1.5 2z"></path></svg></div>
+                                <div class="text-state-900 text-lg duration-300 group-hover:pt-0 pt-10 font-bold relative pb-5 text-center before:absolute before:bg-gradient-to-r before:from-purple-600 before:to-blue-500 before:bottom-0 before:left-0 before:right-0 before:mx-auto before:h-1 before:w-20"> UI/UX Design</div>
+                                <div class="text-black text-sm mt-3 text-center z-40 relative text-ellipsis line-clamp-4 opacity-100 duration-300 group-hover:opacity-0">Strong emotional reactions are common in reactive people, as they allow themselves to be defined by other people’s actions.</div>
+                                <div class=" mt-4 overflow-hidden duration-300 absolute  left-0 right-0 bottom-[-30px] opacity-0 mx-auto group-hover:opacity-100 group-hover:bottom-[30px]">
+                                    <a href="javascript:;" class="duration-300 group text-decoration-none flex items-center justify-center text-[#006cff] font-semibold text-sm"> Learn More <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" class="text-[#006cff] flex items-center text-sm h-3 w-3 ms-1 group-hover:ms-2 duration-300 " xmlns="http://www.w3.org/2000/svg"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path></svg></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
-                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
-                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
-                        </div>	
-                    </div>
-                </div>
-
-                <div class="agile-child child-1 rotate-[286deg] absolute left-[-17px] bottom-[-132px] group duration-300">
-                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-green-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-green-800">
-                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10">
-                            04
-                        </div>
-                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
-                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
-                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
-                        </div>	
-                    </div>
-                </div>
-                <div class="agile-child child-1 rotate-[-27deg] absolute left-[-85px] top-[-43px] group duration-300">
-                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
-                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
-                            05
-                        </div>
-                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
-                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
-                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
-                        </div>	
-                    </div>
-                </div>
-
-                <div class="agile-child child-1 rotate-[20deg] absolute right-[-25px] top-[-31px] group duration-300">
-                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
-                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
-                            06
-                        </div>
-                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
-                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
-                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
-                        </div>	
-                    </div>
-                </div>
-
-                <div class="agile-child child-1 rotate-[100deg] absolute right-[77px] bottom-[-68px] group duration-300">
-                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
-                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
-                            06
-                        </div>
-                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
-                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
-                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
-                        </div>	
-                    </div>
-                </div>
-
-                <div class="agile-child child-1 rotate-[90deg] absolute right-[80px] bottom-[-98px] group duration-300">
-                    <div class="inner-agilee realtive w-[220px] h-[260px] relative overflow-hidden bg-white group-hover:bg-pink-200/50 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full before:top-[-46px] before:left-[31px] before:rotate-[-80deg] before:w-[175px] before:h-[95px] before:bg-pink-800">
-                        <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-8">
-                            06
-                        </div>
-                        <div class="agile-content-wrapper absolute h-full top-0 pt-3 left-6 right-6 w-[175px] transform rotate-180 z-9  text-center">
-                            <div class="text-slate-900 text-lg font-bold leading-tight">Customer Satisfaction</div>
-                            <div class="text-black/70 text-xs overflow-ellipsis line-clamp-4 px-6 mt-2">We follow a customer-centric approach, ensuring that the final product meets our customer’s expectations.</div>
-                        </div>	
                     </div>
                 </div>
             </div>
-         </div>
-            
         </div>
     </div>
 </div>
+
 
 
 
