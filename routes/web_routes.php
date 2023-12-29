@@ -68,7 +68,7 @@ Route::get('/regular-blog-posts.php', 'HomeController@regular_blog_posts');
 Route::get('/competitor-analysis.php', 'HomeController@competitor_analysis');
 Route::get('/link-building-services.php', 'HomeController@link_building_service');
 
- //  New Pages 
+//  New Pages 
 Route::get('/website-designing-company-in-alwar.php', 'HomeController@website_designing_company_in_alwar');
 
 
@@ -80,11 +80,11 @@ Route::get('/mobile-app-development-company-in-alwar.php', 'HomeController@mobil
 Route::get('/mobile-app-development-company-in-jaipur.php', 'HomeController@mobile_app_development_company_in_jaipur');
 Route::get('/mobile-app-development-company-in-delhi.php', 'HomeController@mobile_app_development_company_in_delhi');
 
-Route::get('/ecommerce-development-company-in-alwar.php', 'HomeController@ecommerce_development_company_in_alwar'); 
-Route::get('/ecommerce-development-company-in-jaipur.php', 'HomeController@ecommerce_development_company_in_jaipur'); 
-Route::get('/ecommerce-development-company-in-delhi.php', 'HomeController@ecommerce_development_company_in_delhi'); 
+Route::get('/ecommerce-development-company-in-alwar.php', 'HomeController@ecommerce_development_company_in_alwar');
+Route::get('/ecommerce-development-company-in-jaipur.php', 'HomeController@ecommerce_development_company_in_jaipur');
+Route::get('/ecommerce-development-company-in-delhi.php', 'HomeController@ecommerce_development_company_in_delhi');
 
-Route::get('/ecommerce-website-development-company-in-alwar.php', 'HomeController@ecommerce_website_development_company_in_alwar'); 
+Route::get('/ecommerce-website-development-company-in-alwar.php', 'HomeController@ecommerce_website_development_company_in_alwar');
 
 
 
@@ -255,11 +255,11 @@ Route::get('/gym-management-software.php', 'HomeController@gym_management_softwa
 //=============19-08-2021====================
 
 Route::get('/web-development-in-jaipur.php', 'HomeController@webDevelopmentInJaipur');
-Route::get('/ecommerce-website-development.php', 'HomeController@ecommerce_website_development');
 Route::get('/ecommerce-website-development-in-jaipur.php', 'HomeController@ecommerce_website_development_in_jaipur');
 Route::get('/healthcare-app-development.php', 'HomeController@healthcare_app_development');
 Route::get('/grocery-app-development.php', 'HomeController@grocery_app_development');
 Route::get('/taxi-app-development-company.php', 'HomeController@taxi_app_development_company');
+Route::get('/ecommerce-website-development.php', 'HomeController@ecommerce_website_development');
 Route::get('/web-portal-development.php', 'HomeController@web_portal_development');
 Route::get('/cms-development.php', 'HomeController@cms_development');
 Route::get('/php-web-development.php', 'HomeController@php_web_development');

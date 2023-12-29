@@ -1059,6 +1059,7 @@
 
 {{-- privers work section start  --}}
 
+
 <div class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
     <div class="text-white/10">
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
@@ -1098,14 +1099,24 @@
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/myfab11.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/myfab11.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/myfab11.webp'))}} 1200w
+                                {{asset('public'.mix('/tailwind/img/myfab11-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-750w.webp'))}} 750w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-1024w.webp'))}} 1024w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-1250w.webp'))}} 1250w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-1440w.webp'))}} 1440w
                             "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/myfab11.webp'))}}" alt="MyFab11 App">
+                            data-src="{{asset('public'.mix('/tailwind/img/myfab11-1024w.webp'))}}"
+                            alt="MyFab11 App"
+                        >
+
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-green-900/70 before:to-green-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1118,14 +1129,25 @@
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/health-app-1200w.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/Health-app.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/Health-app.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/Health-app.webp'))}} 1200w
+                                {{asset('public'.mix('/tailwind/img/health-app-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/health-app-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/health-app-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/health-app-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/health-app-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/health-app-1440w.webp'))}} 1440w
                             "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/Health-app.webp'))}}" alt="I KNOW">
+                            data-src="{{asset('public'.mix('/tailwind/img/health-app-256w.webp'))}}"
+                            alt="I KNOW"
+                        >
+                    
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-fuchsia-900/70 before:to-fuchsia-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1138,14 +1160,24 @@
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/now-vue.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/now-vue.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/now-vue.webp'))}} 1200w
+                                {{asset('public'.mix('/tailwind/img/now-vue-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-750w.webp'))}} 750w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-1024w.webp'))}} 1024w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-1250w.webp'))}} 1250w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-1440w.webp'))}} 1440w
                             "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/now-vue.webp'))}}" alt="Now Vue">
+                            data-src="{{asset('public'.mix('/tailwind/img/now-vue-256w.webp'))}}"
+                            alt="Now Vue"
+                        >
+
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-amber-900/70 before:to-amber-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1158,14 +1190,25 @@
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/ipay.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/ipay.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/ipay.webp'))}} 1200w
+                                {{asset('public'.mix('/tailwind/img/ipay-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/ipay-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/ipay-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/ipay-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/ipay-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/ipay-1440w.webp'))}} 1440w
                             "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/ipay.webp'))}}" alt="iPay project">
+                            data-src="{{asset('public'.mix('/tailwind/img/ipay-256w.webp'))}}"
+                            alt="iPay project"
+                        >
+
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-indigo-900/70 before:to-indigo-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1178,14 +1221,24 @@
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/destist-online.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/destist-online.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/destist-online.webp'))}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/destist-online.webp'))}}" alt="Dentist Online">
+                                {{asset('public'.mix('/tailwind/img/destist-online-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-1440w.webp'))}} 1440w"
+                            data-src="{{asset('public'.mix('/tailwind/img/destist-online-256w.webp'))}}"
+                            alt="Dentist Online"
+                        >
+
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-cyan-900/70 before:to-cyan-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1198,14 +1251,25 @@
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/EcoCosmo-Project.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/EcoCosmo-Project.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project.webp'))}} 1200w
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1440w.webp'))}} 1440w
                             "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/EcoCosmo-Project.webp'))}}" alt="EcoCosmo Project">
+                            data-src="{{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1200w.webp'))}}"
+                            alt="EcoCosmo Project"
+                        >
+                        
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-emerald-900/70 before:to-emerald-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1218,6 +1282,7 @@
         </div>
     </div>
 </div>
+
 {{-- privers work section end  --}}
 
 
@@ -1275,7 +1340,7 @@
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
-                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.png'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.png'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
                             <div class="w-full p-4 shadow-sm bg-white">
                                 <div class="group relative">
                                     <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
@@ -1323,7 +1388,7 @@
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
-                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.png'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.png'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
                             <div class="w-full p-4 shadow-sm bg-white">
                                 <div class="group relative">
                                     <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
