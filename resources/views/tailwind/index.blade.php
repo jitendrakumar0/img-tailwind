@@ -90,23 +90,7 @@
         @stack('meta')
         <link rel="stylesheet" href="{{ asset('public'.mix('/tailwind/css/app.css'))}}">
         
-        <!-- Start of imgglobalinfotech9794 Zendesk Widget script -->
-       {{--  <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=9b5a83c9-de45-457b-8b2e-e7dd2c65b48a"> </script> --}}
-        <!-- End of imgglobalinfotech9794 Zendesk Widget script -->
-
-       <!--Start of Tawk.to Script-->
-        <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/647de1d394cf5d49dc5be458/1h25rk9mu';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
-        </script>
-        <!--End of Tawk.to Script-->
+        @stack('styles')
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-N2Q0NVDS4P"></script>
         <script>
@@ -116,15 +100,18 @@
 
             gtag('config', 'G-N2Q0NVDS4P');
         </script>
-        @stack('styles')
+        <!--Start of Tawk.to Script-->
+        <script src="https://embed.tawk.to/647de1d394cf5d49dc5be458/1h25rk9mu" async></script>
+        <!--End of Tawk.to Script-->
     </head>
-    <body class="scroll">
+    <body class="scroll group">
+        <div class="flex flex-col group-[]:opacity-100 opacity-0 duration-300 group-[]:pointer-events-auto pointer-events-none fixed z-[100000] inset-0 before:fixed before:top-0 before:left-0 before:right-0 before:h-1/2 before:bg-slate-900 before:z-[1000000] before:duration-300 group-[]:before:translate-y-0 before:-translate-y-full after:fixed after:bottom-0 after:left-0 after:right-0 after:h-1/2 after:bg-slate-900 after:z-[1000000] after:duration-300 group-[]:after:translate-y-0 after:translate-y-full"></div>
         @include('tailwind.components.header.header')
         <main>
         @yield('content')
         </main>
         @include('tailwind.components.footer.footer')
-        <script defer src="{{ asset('public'.mix('/tailwind/js/app.js'))}}"></script>
+        <script src="{{ asset('public'.mix('/tailwind/js/app.js'))}}"></script>
 
         <script defer src="{{ asset('public'.mix('/tailwind/js/lazy-content.js'))}}"></script>
         @stack('scripts')

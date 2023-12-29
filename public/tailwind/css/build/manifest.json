@@ -1,16 +1,12 @@
 {
   "public/tailwind/css/app.css": {
-    "file": "assets/app-9693f4df.css",
+    "file": "assets/app-6d68dd14.css",
     "isEntry": true,
     "src": "public/tailwind/css/app.css"
   },
   "public/tailwind/img/beams1.webp": {
     "file": "assets/beams1-c3cd2070.webp",
     "src": "public/tailwind/img/beams1.webp"
-  },
-  "public/tailwind/img/carers/overlay-shape2.png": {
-    "file": "assets/overlay-shape2-873162a8.png",
-    "src": "public/tailwind/img/carers/overlay-shape2.png"
   },
   "public/tailwind/img/fab11.webp": {
     "file": "assets/fab11-0ec1e346.webp",
@@ -28,10 +24,6 @@
     "file": "assets/flags@2x-ba0fa3cf.webp",
     "src": "public/tailwind/img/flags@2x.webp"
   },
-  "public/tailwind/img/fooddelivery/Down.svg": {
-    "file": "assets/Down-e7dc67de.svg",
-    "src": "public/tailwind/img/fooddelivery/Down.svg"
-  },
   "public/tailwind/img/frame12.webp": {
     "file": "assets/frame12-4467d94b.webp",
     "src": "public/tailwind/img/frame12.webp"
@@ -44,17 +36,13 @@
     "file": "assets/hozzo-04f1bda3.webp",
     "src": "public/tailwind/img/hozzo.webp"
   },
-  "public/tailwind/img/newsBack.webp": {
-    "file": "assets/newsBack-cdcedf8d.webp",
-    "src": "public/tailwind/img/newsBack.webp"
-  },
   "public/tailwind/js/app.js": {
-    "file": "assets/app-1a214277.js",
+    "file": "assets/app-97dba2c4.js",
     "isEntry": true,
     "src": "public/tailwind/js/app.js"
   },
   "public/tailwind/js/lazy-content.js": {
-    "file": "assets/lazy-content-15ded6d6.js",
+    "file": "assets/lazy-content-f57e02d2.js",
     "isEntry": true,
     "src": "public/tailwind/js/lazy-content.js"
   }
