@@ -32,8 +32,6 @@
 
 @section('content')
 
-
-
 {{-- apply now section end --}}
 
 
@@ -58,9 +56,6 @@
             <span class="font-normal">Work Life At</span> 
             <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Its Best</span>
         </p>
-        {{-- <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
-            Escalate your food delivery & Ordering business to new heights with our fully-featured white-label on demand restaurant app development solutions. Our best-in-class certified food app developers develop highly interactive features for your online food delivery application
-        </div> --}}
     </div>
 
     <div class="flex flex-row flex-wrap mt-20">

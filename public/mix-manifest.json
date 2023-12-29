@@ -1,7 +1,7 @@
 {
-    "/tailwind/js/app.js": "/tailwind/js/app.js?id=a7b005d3d3981a7b9c4b57ac4f05f733",
-    "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=26b52c681b94a7adb2bd73559e9bd7a6",
-    "/tailwind/css/app.css": "/tailwind/css/app.css?id=24b812839f5e574b2db92faf2b7b1682",
+    "/tailwind/js/app.js": "/tailwind/js/app.js",
+    "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js",
+    "/tailwind/css/app.css": "/tailwind/css/app.css",
     "/tailwind/android-chrome-144x144.png": "/tailwind/android-chrome-144x144.png?id=de3c1fceec9a432a8ddcf6684b1d46c2",
     "/tailwind/android-chrome-192x192.png": "/tailwind/android-chrome-192x192.png?id=d24a76fcee41c06d0bc18709fc08be46",
     "/tailwind/android-chrome-36x36.png": "/tailwind/android-chrome-36x36.png?id=363494c1dab183d3c362a428be7a0476",
@@ -220,5 +220,6 @@
     "/tailwind/mstile-70x70.png": "/tailwind/mstile-70x70.png?id=b030c4c6f977862bebfde9549f586c94",
     "/tailwind/robots.txt": "/tailwind/robots.txt?id=0cfee23eaedc5acac4f47e48c8daab4f",
     "/tailwind/safari-pinned-tab.svg": "/tailwind/safari-pinned-tab.svg?id=53630740360ccc7baf8efc5465380ae5",
-    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=007090dd4c1183a19f5536aaf2b87496"
+    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=007090dd4c1183a19f5536aaf2b87496",
+    "/tailwind/img/girl.webp": "/tailwind/img/girl.webp?id=120945d3701f672bc2cb0e91906b7c00"
 }
