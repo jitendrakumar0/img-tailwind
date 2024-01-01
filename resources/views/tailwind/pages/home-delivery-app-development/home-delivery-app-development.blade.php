@@ -82,13 +82,15 @@
         <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
             <div class="flex items-center flex-wrap row-flex relative">
                 <div class="lg:w-1/2 w-full px-14 ">
-                    <div class="img"><img src="{{asset('public'.mix('/tailwind/img/carers/beifit.webp'))}}" alt="beifit" class=" lg:h-full lg:w-full md:h-[500px]  mx-auto"> </div>
+                    <div class="img relative">
+                        <img class=" lg:h-full lg:w-full md:h-[500px] mx-auto [-webkit-mask-image:url('../img/mask/mask_7.webp')] [-webkit-mask-size:contain] [-webkit-mask-position:center_center] [-webkit-mask-repeat:no-repeat]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit"> 
+                    </div>
                 </div>
                 <div class="relative z-20 lg:w-1/2 w-full">
-                    <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black"><span class="font-normal">Get More</span> <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Insight About Us</span></p>
-                    <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">IMG is one of the trusted and Promising IT service providers delivering web development, mobile app development and custom software development services to start-up, mid level organizations and various big enterprises aiming to proffer digital success with robust applications. We have a proven track record in having 1200+ satisfied business clients and individuals from different verticals. We are committed to establish a long lasting and happy relationship with our clients.</p>
+                    <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black lg:text-start text-center"><span class="font-normal">Get More</span> <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Insight About Us</span></p>
+                    <p class="mt-4 text-sm md:text-base leading-7 text-slate-600 lg:text-start text-center">IMG is one of the trusted and Promising IT service providers delivering web development, mobile app development and custom software development services to start-up, mid level organizations and various big enterprises aiming to proffer digital success with robust applications. We have a proven track record in having 1200+ satisfied business clients and individuals from different verticals. We are committed to establish a long lasting and happy relationship with our clients.</p>
                 
-                    <div class="flex items-center mt-6 flex-wrap gap-3 w-full  lg:w-[90%]">
+                    <div class="flex items-center lg:justify-start justify-center mt-6 flex-wrap gap-3 w-full  lg:w-[90%]">
                         <a href="https://www.imgglobalinfotech.com/contact-us.php" class=" inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
                             <span>
                                 <span class="inline-flex items-center gap-1">
@@ -249,8 +251,23 @@
 </div>
 {{-- our vision end--}}
 
-{{-- award start --}}
-<div class="md:py-16 py-10 relative bg-slate-900">
+
+
+<div class="xl:pt-32 xl:pb-32 md:pb-36 relative overflow-hidden z-[1] bg-slate-900">
+    {{-- <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
+        <defs>
+            <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
+                <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+            </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#nhgh)"></rect>
+    </svg>
+    <div class="hidden z-0 sm:absolute sm:-top-10 sm:right-1/2 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-sky-900 to-sky-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+    <div class="absolute z-0 -top-52 left-1/2 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-blue-900 to-blue-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div> --}}
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
         <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -261,98 +278,13 @@
             <rect width="100%" height="100%" fill="url(#sd7)"></rect>
         </svg>
     </div>
-
-    <div class="mx-auto max-w-7xl px-6 lg:px-8"> 
-        <div class="flex items-center justify-center">
-            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
-                <span class="font-normal text-white">Awards and</span> 
-                <span class="font-bold  bg-gradient-to-r from-sky-300 via-sky-200 to-sky-400 bg-clip-text text-transparent"> Recognition</span>
-            </p>
-        </div>
-            <div class="flex flex-wrap items-stretch mt-5 mx-auto md:mt-10 pt-10 sm:pt-8 lg:mx-0">
-                <div class="lg:w-1/4 md:w-1/2 sm:w-1/2 w-full p-4">
-                    <div class="flex h-[100px] items-center p-2 justify-between bg-amber-50  rounded-br-none rounded-lg duration-700 shadow-sm shadow-gray-50 hover:translate-y-2">
-                        <div class="w-[100px]">
-                            <img src="{{asset('public'.mix('/tailwind/img/google.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
-                        </div>
-                        <div class="flex w-[35%]">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"  class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg>
-                        </div>
-                    </div>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 sm:w-1/2 w-full p-4">
-                    <div class="flex h-[100px] items-center p-2 justify-between bg-amber-50  rounded-br-none rounded-lg duration-700 shadow-sm shadow-gray-50 hover:translate-y-2">
-                        <div class="w-[90px]">
-                            <img src="{{asset('public'.mix('/tailwind/img/clutch.webp'))}}" alt="thanku" class="img-fluid h-full w-full object-cover">
-                        </div>
-                        <div class="flex w-[35%]">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"  class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg>
-                        </div>
-                    </div>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 sm:w-1/2 w-full p-4">
-                    <div class="flex h-[100px] items-center p-2 justify-between bg-amber-50  rounded-br-none rounded-lg duration-700 shadow-sm shadow-gray-50 hover:translate-y-2">
-                        <div class="w-[150px]">
-                            <img src="{{asset('public'.mix('/tailwind/img/extract.webp'))}}" alt="thanku" class="img-fluid h-full w-full object-cover">
-                        </div>
-                        <div class="flex w-[35%]">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"  class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg>
-                        </div>
-                    </div>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 sm:w-1/2 w-full p-4">
-                    <div class="flex h-[100px] items-center p-2 justify-between bg-amber-50  rounded-br-none rounded-lg duration-700 shadow-sm shadow-gray-50 hover:translate-y-2">
-                        <div class="w-[150px]">
-                            <img src="{{asset('public'.mix('/tailwind/img/glassdoor.webp'))}}" alt="thanku" class="img-fluid h-full w-full object-contain">
-                        </div> <div class="flex w-[35%]">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"  class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-</div>
-{{-- award end --}}
-
-
-<div class="xl:pt-32 xl:pb-32 md:pb-36 relative overflow-hidden z-[1]">
-    <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
-        <defs>
-            <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
-                <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
-            </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#nhgh)"></rect>
-    </svg>
-    <div class="hidden z-0 sm:absolute sm:-top-10 sm:right-1/2 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
-        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-fuchsia-900 to-lime-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-    </div>
-    <div class="absolute z-0 -top-52 left-1/2 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
-        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-fuchsia-900 to-lime-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-    </div>
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-10 xl:mt-24 xl:mb-24 md:mb-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-10 xl:mt-24 xl:mb-24 md:mb-32 relative z-20">
         <div class="flex flex-row flex-wrap items-center jsuttify-center md:py-20 sm:py-16 py-12 h-full w-full">
             <div class="xl:w-2/5 w-full">
-                <div class="flex items-center xl:mt-9 bg-white rounded-lg rounded-br-none p-3 h-[230px] w-[230px] justify-center  mx-auto">
+                <div class="flex items-center xl:mt-9 bg-white shadow-md rounded-lg rounded-br-none p-3 h-[230px] w-[230px] justify-center  mx-auto">
                     <img src="{{asset('public'.mix('/tailwind/img/about/top-mobile-app-development-company.webp'))}}" alt="process" class="h-full w-full">
                 </div>
-                <div class="text-black sm:text-xl text-lg font-bold text-center mt-4 ">Review IMG GLOBAL INFOTECH PRIVATE LIMITED ON DesignRush</div>
+                <div class="text-white sm:text-xl text-lg font-semibold text-center mt-4 ">Review IMG GLOBAL INFOTECH PRIVATE LIMITED ON DesignRush</div>
            
             </div>
             <div class="xl:w-3/5 w-full  xl:mt-0 md:mt-80 md:block ">
@@ -363,7 +295,7 @@
                 </div>
                 <div class="agal-list z-10 relative">
                     <div class="agile-child md:mt-0 mt-14 md:child-1 group md:rotate-[162deg] md:absolute md:right-[-46px] md:bottom-[43px] md:duration-300">
-                        <div class="inner-agilee realtive md:w-[350px] md:h-[280px]  md:overflow-hidden md:bg-gray-100 md:group-hover:bg-pink-200/50 md:shadow-slate-100 md:md:shadow-md md:transform md:transition-all md:md:duration-300 md:md:ease-in-out md:md:hover:scale-105 md:md:[clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   md:md:md:before:absolute md:md:md:before:rounded-full md:md:md:before:top-[-46px] md:before:left-[31px] md:md:before:rotate-[-120deg] before:w-[213px] before:h-[84px] md:before:bg-pink-800 bg-white  relative z-1 shadow-2xl duration-300 !rounded-tl-4xl group sm:hover:rounded-tr-4xl md:p-0 p-4">
+                        <div class="inner-agilee realtive md:w-[350px] md:h-[280px]  md:overflow-hidden md:bg-gray-100 md:group-hover:bg-pink-200/90 md:shadow-slate-100 md:md:shadow-md md:transform md:transition-all md:md:duration-300 md:md:ease-in-out md:md:hover:scale-105 md:md:[clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   md:md:md:before:absolute md:md:md:before:rounded-full md:md:md:before:top-[-46px] md:before:left-[31px] md:md:before:rotate-[-120deg] before:w-[213px] before:h-[84px] md:before:bg-pink-800 bg-white  relative z-1 shadow-2xl duration-300 !rounded-tl-4xl group sm:hover:rounded-tr-4xl md:p-0 p-4">
                             <div class="counter-div text-white text-lg font-bold text-center rotate-180 mt-10 md:block hidden">
                                 01
                             </div>
@@ -377,7 +309,7 @@
                         </div>
                     </div>
                     <div class="agile-child md:mt-0 mt-14 md:child-1 md:rotate-[224deg] md:absolute md:left-[-113px] md:bottom-[8px] group md:duration-300">
-                        <div class="inner-agilee realtive md:w-[350px] md:h-[280px] relative md:overflow-hidden md:bg-gray-100 md:group-hover:bg-green-200/50 md:shadow-slate-100 md:shadow-md md:transform md:transition-all md:duration-300 md:ease-in-out md:hover:scale-105 md:[clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   md:before:absolute md:before:rounded-full md:before:top-[-46px] md:before:left-[31px] md:before:rotate-[-120deg] md:before:w-[213px] md:before:h-[84px] md:before:bg-green-800 bg-white  z-1 shadow-2xl duration-300 !rounded-tl-4xl group sm:hover:rounded-tr-4xl md:p-0 p-4">
+                        <div class="inner-agilee realtive md:w-[350px] md:h-[280px] relative md:overflow-hidden md:bg-gray-100 md:group-hover:bg-green-200/90 md:shadow-slate-100 md:shadow-md md:transform md:transition-all md:duration-300 md:ease-in-out md:hover:scale-105 md:[clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   md:before:absolute md:before:rounded-full md:before:top-[-46px] md:before:left-[31px] md:before:rotate-[-120deg] md:before:w-[213px] md:before:h-[84px] md:before:bg-green-800 bg-white  z-1 shadow-2xl duration-300 !rounded-tl-4xl group sm:hover:rounded-tr-4xl md:p-0 p-4">
                             <div class="counter-div text-white text-lg md:block hidden font-bold text-center rotate-180 mt-10 ">
                                 02
                             </div>
@@ -390,7 +322,7 @@
                         </div>
                     </div>
                     <div class="agile-child md:mt-0 mt-14 child-1 md:rotate-[281deg] md:absolute md:left-[-48px] md:bottom-[-180px] group duration-300">
-                        <div class="inner-agilee realtive md:w-[350px] md:h-[280px] relative md:overflow-hidden md:bg-gray-100 md:group-hover:bg-sky-200/50 md:shadow-slate-100 md:shadow-md md:transform md:transition-all md:duration-300 md:ease-in-out md:hover:scale-105 md:[clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   md:before:absolute md:before:rounded-full md:before:top-[-46px] md:before:left-[31px] md:before:rotate-[-120deg] md:before:w-[213px] md:before:h-[84px] md:before:bg-sky-800 bg-white  z-1 shadow-2xl duration-300 !rounded-tl-4xl group sm:hover:rounded-tr-4xl md:p-0 p-4">
+                        <div class="inner-agilee realtive md:w-[350px] md:h-[280px] relative md:overflow-hidden md:bg-gray-100 md:group-hover:bg-sky-200/90 md:shadow-slate-100 md:shadow-md md:transform md:transition-all md:duration-300 md:ease-in-out md:hover:scale-105 md:[clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   md:before:absolute md:before:rounded-full md:before:top-[-46px] md:before:left-[31px] md:before:rotate-[-120deg] md:before:w-[213px] md:before:h-[84px] md:before:bg-sky-800 bg-white  z-1 shadow-2xl duration-300 !rounded-tl-4xl group sm:hover:rounded-tr-4xl md:p-0 p-4">
                             <div class="counter-div text-white text-lg md:block hidden font-bold text-center rotate-[70deg] mt-10">
                                 03
                             </div>
@@ -413,12 +345,12 @@
                                 <div class="md:hidden  h-16 w-16 flex items-center justify-center rotate-45 rounded-xl shadow-md bg-gradient-to-l sm:group-hover:!bg-white from-purple-600 to-blue-500 absolute duration-300 md:group-hover:top-[30px] top-[-30px] left-0 p-3 right-0 mx-auto"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="flex items-center jsutify-center text-white " xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-1.85.63-3.54 1.69-4.9L7.59 9h2.83L7.1 5.69A7.924 7.924 0 0112 4c4.41 0 8 3.59 8 8 0 1.85-.63 3.54-1.69 4.9l-1.9-1.9h-2.83l3.31 3.31A7.874 7.874 0 0112 20c-4.41 0-8-3.59-8-8z"></path><path d="M14.25 14l-1.5-2 1.5-2h-1.5L12 11l-.75-1h-1.5l1.5 2-1.5 2h1.5l.75-1 .75 1zM8 10l-.75 1-.75-1H5l1.5 2L5 14h1.5l.75-1L8 14h1.5L8 12l1.5-2zM16 14l.75-1 .75 1H19l-1.5-2 1.5-2h-1.5l-.75 1-.75-1h-1.5l1.5 2-1.5 2z"></path></svg></div>
                                 
                                 <div class="md:text-slate-900 md:text-xl md:font-bold md:leading-tight text-state-900 text-lg duration-300 md:group-hover:pt-0 pt-10 md:pt-0 font-bold relative pb-5 md:pb-0 text-center md:before:hidden before:absolute before:bg-gradient-to-r before:from-purple-600 before:to-blue-500 before:bottom-0 before:left-0 before:right-0 before:mx-auto before:h-1 before:w-20">Testing</div>
-                                <div class="text-black/70 text-sm overflow-ellipsis line-clamp-4 md:px-6 mt-2">Quality assurance is a critical step in our process. We conduct various tests, including functional testing, usability testing, performance testing.</div>
+                                <div class="text-black/70 text-sm overflow-ellipsis line-clamp-4 md:px-7 mt-2">Quality assurance is a critical step in our process. We conduct various tests, including functional testing, usability testing, performance testing.</div>
                             </div>	
                         </div>
                     </div>
                     <div class="agile-child md:mt-0 mt-14 child-1 md:rotate-[41deg] md:absolute md:right-[27px] md:top-[4px] group duration-300">
-                        <div class="inner-agilee realtive md:w-[350px] md:h-[280px] relative md:overflow-hidden md:bg-gray-100 md:group-hover:bg-blue-200/50 md:shadow-slate-100 md:shadow-md md:transform md:transition-all md:duration-300 md:ease-in-out md:hover:scale-105 md:md:[clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   md:before:absolute md:before:rounded-full md:before:top-[-46px] md:before:left-[31px] md:before:rotate-[-120deg] md:before:w-[213px] md:before:h-[84px] md:before:bg-blue-800 bg-white  z-1 shadow-2xl duration-300 !rounded-tl-4xl group sm:hover:rounded-tr-4xl md:p-0 p-4">
+                        <div class="inner-agilee realtive md:w-[350px] md:h-[280px] relative md:overflow-hidden md:bg-gray-100 md:group-hover:bg-blue-200/90 md:shadow-slate-100 md:shadow-md md:transform md:transition-all md:duration-300 md:ease-in-out md:hover:scale-105 md:md:[clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   md:before:absolute md:before:rounded-full md:before:top-[-46px] md:before:left-[31px] md:before:rotate-[-120deg] md:before:w-[213px] md:before:h-[84px] md:before:bg-blue-800 bg-white  z-1 shadow-2xl duration-300 !rounded-tl-4xl group sm:hover:rounded-tr-4xl md:p-0 p-4">
                             <div class="counter-div text-white text-lg md:block hidden font-bold text-center rotate-0 mt-10">
                                 05
                             </div>
@@ -426,12 +358,12 @@
                                 
                                 <div class="md:hidden  h-16 w-16 flex items-center justify-center rotate-45 rounded-xl shadow-md bg-gradient-to-l sm:group-hover:!bg-white from-purple-600 to-blue-500 absolute duration-300 md:group-hover:top-[30px] top-[-30px] left-0 p-3 right-0 mx-auto"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="flex items-center jsutify-center text-white " xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-1.85.63-3.54 1.69-4.9L7.59 9h2.83L7.1 5.69A7.924 7.924 0 0112 4c4.41 0 8 3.59 8 8 0 1.85-.63 3.54-1.69 4.9l-1.9-1.9h-2.83l3.31 3.31A7.874 7.874 0 0112 20c-4.41 0-8-3.59-8-8z"></path><path d="M14.25 14l-1.5-2 1.5-2h-1.5L12 11l-.75-1h-1.5l1.5 2-1.5 2h1.5l.75-1 .75 1zM8 10l-.75 1-.75-1H5l1.5 2L5 14h1.5l.75-1L8 14h1.5L8 12l1.5-2zM16 14l.75-1 .75 1H19l-1.5-2 1.5-2h-1.5l-.75 1-.75-1h-1.5l1.5 2-1.5 2z"></path></svg></div>
                                 <div class="md:text-slate-900 md:text-xl md:font-bold md:leading-tight text-state-900 text-lg duration-300 md:group-hover:pt-0 pt-10 md:pt-0 font-bold relative pb-5 md:pb-0 text-center md:before:hidden before:absolute before:bg-gradient-to-r before:from-purple-600 before:to-blue-500 before:bottom-0 before:left-0 before:right-0 before:mx-auto before:h-1 before:w-20">Optimize</div>
-                                <div class="text-black/70 text-sm overflow-ellipsis line-clamp-4 md:px-6 mt-2">We continually optimize the app to enhance its performance, speed, and user experience. outstanding software .</div>
+                                <div class="text-black/70 text-sm overflow-ellipsis line-clamp-4 md:px-7 mt-2">We continually optimize the app to enhance its performance, speed, and user experience. outstanding software .</div>
                             </div>	
                         </div>
                     </div>
                     <div class="agile-child md:mt-0 mt-14 child-1 md:block hidden md:rotate-[103deg] md:absolute md:right-[85px] md:bottom-[-105px] group duration-300">
-                        <div class="inner-agilee md:realtive md:w-[350px] md:h-[280px] relative md:overflow-hidden md:bg-gray-100 md:group-hover:bg-orange-200/50 md:shadow-slate-100 md:shadow-md md:transform md:transition-all md:duration-300 md:ease-in-out md:hover:scale-105 md:[clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   md:before:absolute md:before:rounded-full md:before:top-[-46px] md:before:left-[31px] md:before:rotate-[-120deg] md:before:w-[213px] md:before:h-[84px] md:before:bg-orange-800 bg-white  z-1 shadow-2xl duration-300 !rounded-tl-4xl group sm:hover:rounded-tr-4xl md:p-0 p-4">
+                        <div class="inner-agilee md:realtive md:w-[350px] md:h-[280px] relative md:overflow-hidden md:bg-gray-100 md:group-hover:bg-orange-200/90 md:shadow-slate-100 md:shadow-md md:transform md:transition-all md:duration-300 md:ease-in-out md:hover:scale-105 md:[clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   md:before:absolute md:before:rounded-full md:before:top-[-46px] md:before:left-[31px] md:before:rotate-[-120deg] md:before:w-[213px] md:before:h-[84px] md:before:bg-orange-800 bg-white  z-1 shadow-2xl duration-300 !rounded-tl-4xl group sm:hover:rounded-tr-4xl md:p-0 p-4">
                             <div class="counter-div text-white text-lg md:block hidden font-bold text-center rotate-180 mt-10">
                                 06
                             </div>

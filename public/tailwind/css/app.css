@@ -2089,9 +2089,6 @@ select{
 .top-\[-30px\]{
   top: -30px;
 }
-.top-\[-35px\]{
-  top: -35px;
-}
 .top-\[100px\]{
   top: 100px;
 }
@@ -2326,9 +2323,6 @@ select{
 .mt-10{
   margin-top: 2.5rem;
 }
-.mt-12{
-  margin-top: 3rem;
-}
 .mt-14{
   margin-top: 3.5rem;
 }
@@ -2355,9 +2349,6 @@ select{
 }
 .mt-8{
   margin-top: 2rem;
-}
-.mt-80{
-  margin-top: 20rem;
 }
 .mt-\[-126px\]{
   margin-top: -126px;
@@ -3512,6 +3503,11 @@ select{
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
+.from-blue-900{
+  --tw-gradient-from: #1e3a8a var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(30 58 138 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
 .from-cyan-300{
   --tw-gradient-from: #67e8f9 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(103 232 249 / 0) var(--tw-gradient-to-position);
@@ -3655,6 +3651,11 @@ select{
 .from-sky-400{
   --tw-gradient-from: #38bdf8 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(56 189 248 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-sky-900{
+  --tw-gradient-from: #0c4a6e var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(12 74 110 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .from-sky-950{
@@ -3829,6 +3830,9 @@ select{
 .to-blue-500{
   --tw-gradient-to: #3b82f6 var(--tw-gradient-to-position);
 }
+.to-blue-700{
+  --tw-gradient-to: #1d4ed8 var(--tw-gradient-to-position);
+}
 .to-cyan-400{
   --tw-gradient-to: #22d3ee var(--tw-gradient-to-position);
 }
@@ -3906,6 +3910,9 @@ select{
 }
 .to-sky-400{
   --tw-gradient-to: #38bdf8 var(--tw-gradient-to-position);
+}
+.to-sky-700{
+  --tw-gradient-to: #0369a1 var(--tw-gradient-to-position);
 }
 .to-sky-800{
   --tw-gradient-to: #075985 var(--tw-gradient-to-position);
@@ -4888,6 +4895,18 @@ select{
 }
 .\[--progress\:0\;\]{
   --progress: 0;;
+}
+.\[-webkit-mask-image\:url\(\'\.\.\/img\/mask\/mask_7\.webp\'\)\]{
+  -webkit-mask-image: url('../img/mask/mask_7.webp');
+}
+.\[-webkit-mask-position\:center_center\]{
+  -webkit-mask-position: center center;
+}
+.\[-webkit-mask-repeat\:no-repeat\]{
+  -webkit-mask-repeat: no-repeat;
+}
+.\[-webkit-mask-size\:contain\]{
+  -webkit-mask-size: contain;
 }
 .\[background-image\:linear-gradient\(90deg\2c rgba\(56\2c 189\2c 248\2c 0\)_0\%\2c \#0EA5E9_32\.29\%\2c rgba\(236\2c 72\2c 153\2c 0\.3\)_67\.19\%\2c rgba\(236\2c 72\2c 153\2c 0\)_100\%\)\]{
   background-image: linear-gradient(90deg,rgba(56,189,248,0) 0%,#0EA5E9 32.29%,rgba(236,72,153,0.3) 67.19%,rgba(236,72,153,0) 100%);
@@ -8305,11 +8324,11 @@ select{
   .md\:mt-8{
     margin-top: 2rem;
   }
-  .md\:mt-\[-50px\]{
-    margin-top: -50px;
-  }
   .md\:mt-80{
     margin-top: 20rem;
+  }
+  .md\:mt-\[-50px\]{
+    margin-top: -50px;
   }
   .md\:block{
     display: block;
@@ -8573,6 +8592,10 @@ select{
   .md\:py-8{
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+  .md\:px-7{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
   .md\:pb-0{
     padding-bottom: 0px;
@@ -8883,6 +8906,21 @@ select{
   .group:hover .md\:group-hover\:bg-sky-200\/50{
     background-color: rgb(186 230 253 / 0.5);
   }
+  .group:hover .md\:group-hover\:bg-pink-200\/90{
+    background-color: rgb(251 207 232 / 0.9);
+  }
+  .group:hover .md\:group-hover\:bg-blue-200\/90{
+    background-color: rgb(191 219 254 / 0.9);
+  }
+  .group:hover .md\:group-hover\:bg-green-200\/90{
+    background-color: rgb(187 247 208 / 0.9);
+  }
+  .group:hover .md\:group-hover\:bg-orange-200\/90{
+    background-color: rgb(254 215 170 / 0.9);
+  }
+  .group:hover .md\:group-hover\:bg-sky-200\/90{
+    background-color: rgb(186 230 253 / 0.9);
+  }
   .group:hover .md\:group-hover\:pt-0{
     padding-top: 0px;
   }
@@ -9152,6 +9190,9 @@ select{
   }
   .lg\:text-left{
     text-align: left;
+  }
+  .lg\:text-start{
+    text-align: start;
   }
   .lg\:text-2xl{
     font-size: 1.5rem;
