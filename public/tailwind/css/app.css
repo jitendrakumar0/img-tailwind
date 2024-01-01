@@ -2089,9 +2089,6 @@ select{
 .top-\[-30px\]{
   top: -30px;
 }
-.top-\[100px\]{
-  top: 100px;
-}
 .top-\[132px\]{
   top: 132px;
 }
@@ -2219,10 +2216,6 @@ select{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
-.mx-20{
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
@@ -2293,6 +2286,9 @@ select{
 .mb-9{
   margin-bottom: 2.25rem;
 }
+.me-40{
+  margin-inline-end: 10rem;
+}
 .ml-4{
   margin-left: 1rem;
 }
@@ -2335,6 +2331,9 @@ select{
 .mt-3{
   margin-top: 0.75rem;
 }
+.mt-32{
+  margin-top: 8rem;
+}
 .mt-36{
   margin-top: 9rem;
 }
@@ -2352,6 +2351,12 @@ select{
 }
 .mt-\[-126px\]{
   margin-top: -126px;
+}
+.mt-\[-130px\]{
+  margin-top: -130px;
+}
+.mt-\[-216px\]{
+  margin-top: -216px;
 }
 .mt-\[-43px\]{
   margin-top: -43px;
@@ -2379,12 +2384,6 @@ select{
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
-}
-.line-clamp-6{
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 6;
 }
 .line-clamp-\[7\]{
   overflow: hidden;
@@ -2430,9 +2429,6 @@ select{
 }
 .aspect-\[1155\/678\]{
   aspect-ratio: 1155/678;
-}
-.aspect-\[2\/1\.8\]{
-  aspect-ratio: 2/1.8;
 }
 .aspect-\[3\/2\.8\]{
   aspect-ratio: 3/2.8;
@@ -2542,8 +2538,8 @@ select{
 .h-\[1000px\]{
   height: 1000px;
 }
-.h-\[100vh\]{
-  height: 100vh;
+.h-\[100px\]{
+  height: 100px;
 }
 .h-\[14px\]{
   height: 14px;
@@ -2575,6 +2571,9 @@ select{
 .h-\[404px\]{
   height: 404px;
 }
+.h-\[40vh\]{
+  height: 40vh;
+}
 .h-\[500px\]{
   height: 500px;
 }
@@ -2592,9 +2591,6 @@ select{
 }
 .h-\[70px\]{
   height: 70px;
-}
-.h-\[74px\]{
-  height: 74px;
 }
 .h-auto{
   height: auto;
@@ -2713,9 +2709,6 @@ select{
 .w-\[100\%\]{
   width: 100%;
 }
-.w-\[120px\]{
-  width: 120px;
-}
 .w-\[14px\]{
   width: 14px;
 }
@@ -2766,6 +2759,9 @@ select{
 }
 .w-\[80\%\]{
   width: 80%;
+}
+.w-\[85px\]{
+  width: 85px;
 }
 .w-auto{
   width: auto;
@@ -3260,6 +3256,22 @@ select{
 }
 .border-white\/20{
   border-color: rgb(255 255 255 / 0.2);
+}
+.bg-\[\#212121\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 33 33 / var(--tw-bg-opacity));
+}
+.bg-\[\#2D6CA2\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(45 108 162 / var(--tw-bg-opacity));
+}
+.bg-\[\#DAE0E4\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 224 228 / var(--tw-bg-opacity));
+}
+.bg-\[\#E1E0E5\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 224 229 / var(--tw-bg-opacity));
 }
 .bg-\[\#d90202\]{
   --tw-bg-opacity: 1;
@@ -4014,6 +4026,10 @@ select{
 .px-0{
   padding-left: 0px;
   padding-right: 0px;
+}
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 .px-10{
   padding-left: 2.5rem;
@@ -5658,12 +5674,6 @@ select{
   background-color: rgb(217 2 2 / var(--tw-bg-opacity));
 }
 
-.before\:bg-black::before{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .before\:bg-blue-50::before{
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -6395,12 +6405,6 @@ select{
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.after\:bg-black::after{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .after\:bg-blue-100::after{
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -6661,11 +6665,6 @@ select{
   width: 100%;
 }
 
-.hover\:before\:origin-bottom:hover::before{
-  content: var(--tw-content);
-  transform-origin: bottom;
-}
-
 .before\:hover\:rounded-none:hover::before{
   content: var(--tw-content);
   border-radius: 0px;
@@ -6674,24 +6673,6 @@ select{
 .hover\:before\:rounded-none:hover::before{
   content: var(--tw-content);
   border-radius: 0px;
-}
-
-.hover\:before\:text-white:hover::before{
-  content: var(--tw-content);
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:before\:transition-all:hover::before{
-  content: var(--tw-content);
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.hover\:before\:duration-500:hover::before{
-  content: var(--tw-content);
-  transition-duration: 500ms;
 }
 
 .hover\:after\:h-full:hover::after{
@@ -6927,10 +6908,6 @@ select{
 }
 
 .group\/dd:hover .group-hover\/dd\:opacity-100{
-  opacity: 1;
-}
-
-.group:hover .group-hover\:opacity-100{
   opacity: 1;
 }
 
@@ -7819,6 +7796,9 @@ select{
   .sm\:top-\[-28rem\]{
     top: -28rem;
   }
+  .sm\:top-\[100px\]{
+    top: 100px;
+  }
   .sm\:-z-10{
     z-index: -10;
   }
@@ -7829,6 +7809,18 @@ select{
   .sm\:mx-0{
     margin-left: 0px;
     margin-right: 0px;
+  }
+  .sm\:mx-12{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .sm\:mx-20{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .sm\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
   }
   .sm\:my-8{
     margin-top: 2rem;
@@ -7864,6 +7856,9 @@ select{
   .sm\:mt-20{
     margin-top: 5rem;
   }
+  .sm\:mt-\[-360px\]{
+    margin-top: -360px;
+  }
   .sm\:block{
     display: block;
   }
@@ -7876,6 +7871,9 @@ select{
   .sm\:hidden{
     display: none;
   }
+  .sm\:aspect-\[2\/1\.8\]{
+    aspect-ratio: 2/1.8;
+  }
   .sm\:h-10{
     height: 2.5rem;
   }
@@ -7885,6 +7883,9 @@ select{
   .sm\:h-16{
     height: 4rem;
   }
+  .sm\:h-\[150px\]{
+    height: 150px;
+  }
   .sm\:h-\[200px\]{
     height: 200px;
   }
@@ -7893,6 +7894,12 @@ select{
   }
   .sm\:h-\[220px\]{
     height: 220px;
+  }
+  .sm\:h-\[74px\]{
+    height: 74px;
+  }
+  .sm\:h-\[80vh\]{
+    height: 80vh;
   }
   .sm\:h-auto{
     height: auto;
@@ -7917,6 +7924,9 @@ select{
   }
   .sm\:w-64{
     width: 16rem;
+  }
+  .sm\:w-\[120px\]{
+    width: 120px;
   }
   .sm\:w-\[14px\]{
     width: 14px;
@@ -7958,6 +7968,9 @@ select{
   .sm\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+  .sm\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
   .sm\:grid-cols-6{
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
@@ -7973,6 +7986,9 @@ select{
   .sm\:justify-center{
     justify-content: center;
   }
+  .sm\:gap-3{
+    gap: 0.75rem;
+  }
   .sm\:gap-y-10{
     row-gap: 2.5rem;
   }
@@ -7982,10 +7998,6 @@ select{
   .sm\:bg-\[\#d90202\]{
     --tw-bg-opacity: 1;
     background-color: rgb(217 2 2 / var(--tw-bg-opacity));
-  }
-  .sm\:bg-white{
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
   .sm\:p-0{
     padding: 0px;
@@ -7998,6 +8010,10 @@ select{
   }
   .sm\:p-8{
     padding: 2rem;
+  }
+  .sm\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .sm\:px-14{
     padding-left: 3.5rem;
@@ -8019,9 +8035,17 @@ select{
     padding-left: 0.875rem;
     padding-right: 0.875rem;
   }
+  .sm\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
   .sm\:px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+  .sm\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .sm\:py-10{
     padding-top: 2.5rem;
@@ -8063,6 +8087,9 @@ select{
   .sm\:pb-4{
     padding-bottom: 1rem;
   }
+  .sm\:pb-5{
+    padding-bottom: 1.25rem;
+  }
   .sm\:pl-6{
     padding-left: 1.5rem;
   }
@@ -8072,6 +8099,9 @@ select{
   .sm\:ps-0{
     padding-inline-start: 0px;
   }
+  .sm\:pt-10{
+    padding-top: 2.5rem;
+  }
   .sm\:pt-12{
     padding-top: 3rem;
   }
@@ -8080,6 +8110,9 @@ select{
   }
   .sm\:pt-20{
     padding-top: 5rem;
+  }
+  .sm\:pt-5{
+    padding-top: 1.25rem;
   }
   .sm\:pt-6{
     padding-top: 1.5rem;
@@ -8135,10 +8168,6 @@ select{
   .sm\:leading-6{
     line-height: 1.5rem;
   }
-  .sm\:text-black{
-    --tw-text-opacity: 1;
-    color: rgb(0 0 0 / var(--tw-text-opacity));
-  }
   .sm\:ring-1{
     --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
     --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
@@ -8186,6 +8215,13 @@ select{
   .group:hover .sm\:group-hover\:\!bg-white{
     --tw-bg-opacity: 1 !important;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+  }
+  .group:hover .sm\:group-hover\:text-white{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+  .group:hover .sm\:group-hover\:opacity-100{
+    opacity: 1;
   }
 }
 
@@ -8283,6 +8319,12 @@ select{
   }
   .md\:mt-16{
     margin-top: 4rem;
+  }
+  .md\:mt-20{
+    margin-top: 5rem;
+  }
+  .md\:mt-60{
+    margin-top: 15rem;
   }
   .md\:mt-8{
     margin-top: 2rem;
@@ -8447,6 +8489,9 @@ select{
   .md\:transform{
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
+  .md\:grid-cols-5{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
   .md\:gap-5{
     gap: 1.25rem;
   }
@@ -8536,6 +8581,10 @@ select{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
+  .md\:py-12{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
   .md\:py-14{
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
@@ -8593,6 +8642,9 @@ select{
   .md\:pt-5{
     padding-top: 1.25rem;
   }
+  .md\:pt-7{
+    padding-top: 1.75rem;
+  }
   .md\:pt-8{
     padding-top: 2rem;
   }
@@ -8608,10 +8660,6 @@ select{
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-  .md\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
   .md\:text-\[15px\]{
     font-size: 15px;
@@ -8811,6 +8859,10 @@ select{
     --tw-bg-opacity: 1;
     background-color: rgb(7 89 133 / var(--tw-bg-opacity));
   }
+  .md\:before\:content-\[\'\'\]::before{
+    --tw-content: '';
+    content: var(--tw-content);
+  }
   .md\:after\:absolute::after{
     content: var(--tw-content);
     position: absolute;
@@ -8844,8 +8896,34 @@ select{
       transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     }
   }
+  .md\:hover\:before\:top-0:hover::before{
+    content: var(--tw-content);
+    top: 0px;
+  }
+  .md\:hover\:before\:origin-bottom:hover::before{
+    content: var(--tw-content);
+    transform-origin: bottom;
+  }
+  .md\:hover\:before\:text-white:hover::before{
+    content: var(--tw-content);
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+  .md\:hover\:before\:transition-all:hover::before{
+    content: var(--tw-content);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  .md\:hover\:before\:duration-500:hover::before{
+    content: var(--tw-content);
+    transition-duration: 500ms;
+  }
   .group:hover .md\:group-hover\:top-\[30px\]{
     top: 30px;
+  }
+  .group:hover .md\:group-hover\:z-10{
+    z-index: 10;
   }
   .group:hover .md\:group-hover\:bg-blue-200\/90{
     background-color: rgb(191 219 254 / 0.9);
@@ -8868,6 +8946,18 @@ select{
   .group:hover .md\:group-hover\:pt-0{
     padding-top: 0px;
   }
+  .group:hover .md\:group-hover\:text-white{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+  .group:hover .md\:group-hover\:transition-all{
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  .group:hover .md\:group-hover\:duration-500{
+    transition-duration: 500ms;
+  }
   .group.swiper-slide-active .md\:group-\[\.swiper-slide-active\]\:block{
     display: block;
   }
@@ -8887,6 +8977,10 @@ select{
     margin-left: 0px;
     margin-right: 0px;
   }
+  .lg\:mx-20{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
   .lg\:mb-0{
     margin-bottom: 0px;
   }
@@ -8895,6 +8989,9 @@ select{
   }
   .lg\:mt-0{
     margin-top: 0px;
+  }
+  .lg\:mt-40{
+    margin-top: 10rem;
   }
   .lg\:mt-8{
     margin-top: 2rem;
@@ -9075,6 +9172,10 @@ select{
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  .lg\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
   .lg\:py-16{
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -9150,13 +9251,9 @@ select{
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
-  .lg\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-  .lg\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
   .lg\:text-base{
     font-size: 1rem;
@@ -9277,6 +9374,10 @@ select{
   .xl\:px-24{
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+  .xl\:px-32{
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
   .xl\:px-4{
     padding-left: 1rem;
