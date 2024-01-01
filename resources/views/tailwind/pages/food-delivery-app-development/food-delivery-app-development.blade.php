@@ -1059,6 +1059,7 @@
 
 {{-- privers work section start  --}}
 
+
 <div class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
     <div class="text-white/10">
         <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
@@ -1281,6 +1282,7 @@
         </div>
     </div>
 </div>
+
 {{-- privers work section end  --}}
 
 

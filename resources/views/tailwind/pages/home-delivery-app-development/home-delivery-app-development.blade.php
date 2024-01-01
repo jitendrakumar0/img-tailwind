@@ -113,7 +113,7 @@
 {{-- Benefits & Perks end  --}}
 
 {{-- our values start --}}
-<div class="py-4 relative bg-theme1">
+<div class="md:py-16 py-10  relative bg-theme1">
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
         <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -128,52 +128,207 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
 
         <div class="text-center py-4 items-center justify-center">
-            <p class="mt-4  max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
-                <span class="font-normal">Our</span> 
-                <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> Values</span>
+            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal text-white">Our</span> 
+                <span class="font-bold  bg-gradient-to-r from-sky-300 via-sky-200 to-sky-400 bg-clip-text text-transparent"> Values</span>
             </p>
-            <div class="flex text-left mt-5 gap-2 flex-wrap">
-                <div class="lg:w-[32%] md:w-[49%] w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-50 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
+            <div class="flex text-left mt-5 mx-auto md:mt-10 pt-10 sm:pt-8 lg:mx-0 justify-center flex-wrap">
+                <div class="lg:w-1/3 md:w-1/2 w-full p-4">
+                <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
                     <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                         <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">01</div>
                     </div>
-                    <div class=" text-[#337ca6]  whitespace-nowrap mt-1 font-semibold text-sm">Ensure Impactful Innovations</div>
+                    <div class=" text-[#337ca6]  whitespace-nowrap mt-1 relative z-20 font-semibold text-sm">Ensure Impactful Innovations</div>
                     <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">An unwavering commitment to drive maximum customer satisfaction, infused with integrity and passion.</div>
-                    <a class="mt-5 inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
+                    <a class="mt-5 inline-flex rounded-br-none relative z-40 bg-gradient-to-r from-gray-400 via-sky-500 to-gray-400  justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4  text-white ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
                         <span class="select-none">
-                        Lets Get Connect <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
+                        Lets Get Connect <span aria-hidden="true" class="text-white sm:inline">→</span>
                         </span>
                     </a>
                 </div>
-                <div class="lg:w-[32%] md:w-[49%] w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-50 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
-                    <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
-                        <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">02</div>
+                </div>
+                <div class="lg:w-1/3 md:w-1/2 w-full p-4">
+                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
+                        <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
+                            <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">02</div>
+                        </div>
+                        <div class=" text-[#337ca6]  whitespace-nowrap mt-1 relative z-20 font-semibold text-sm">  Focus on self-development</div>
+                        <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">Training and mentorship programs, interactive sessions and community meetups to drive personal growth.</div>
+                        <a class="mt-5 inline-flex rounded-br-none relative z-40 bg-gradient-to-r from-gray-400 via-sky-500 to-gray-400  justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4  text-white ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
+                            <span class="select-none">
+                            Talk To IMG Team <span aria-hidden="true" class="text-white sm:inline">→</span>
+                            </span>
+                        </a>
                     </div>
-                    <div class=" text-[#337ca6]  whitespace-nowrap mt-1 font-semibold text-sm">  Focus on self-development</div>
-                    <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">Training and mentorship programs, interactive sessions and community meetups to drive personal growth.</div>
-                    <a class="mt-5 inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
-                        <span class="select-none">
-                        Lets Get Connect <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
-                        </span>
-                    </a>
                 </div>
-                <div class="lg:w-[32%] md:w-[49%] w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-50 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
+                <div class="lg:w-1/3 md:w-1/2 w-full p-4">
+                   
+                <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
                     <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                         <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">03</div>
                     </div>
-                    <div class=" text-[#337ca6]  whitespace-nowrap mt-1 font-semibold text-sm"> Integrate work-life balance</div>
-                    <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">An unwavering commitment to drive maximum customer satisfaction, infused with integrity and passion.</div>
-                    <a class="mt-5 inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-white/0 text-slate-900 ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
+                    <div class=" text-[#337ca6]  whitespace-nowrap mt-1 relative z-20 font-semibold text-sm"> Integrate work-life balance</div>
+                    <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">Latest infrastructure and flexible working hours along with many other privileges that inculcate healthy lifestyle choices.</div>
+                    <a class="mt-5 inline-flex rounded-br-none relative z-40 bg-gradient-to-r from-gray-400 via-sky-500 to-gray-400  justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4  text-white ring-1 ring-slate-900/10 hover:bg-white/25 hover:ring-slate-900/15 " href="">
                         <span class="select-none">
-                        Lets Get Connect <span aria-hidden="true" class="text-black/25 sm:inline">→</span>
+                        Lets Get Connect <span aria-hidden="true" class="text-white sm:inline">→</span>
                         </span>
                     </a>
+                </div> 
                 </div>
             </div>
         </div>
     </div>
 </div>
 {{-- our values end --}}
+
+{{-- our vision start --}}
+<div class="md:py-16 py-10 relative">
+    <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
+        <defs>
+            <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
+                <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+            </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#nhgh)"></rect>
+    </svg>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="flex flex-wrap select-none row-flex my-6 w-full ">
+            <div class=" md:w-1/2 lg:w-1/3 p-3 w-full">
+                <div class="flex flex-col relative p-6  bg-white z-10 overflow-hidden shadow-md h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200  before: before:bottom-0 before:right-0 before:z[-4] hover:before:w-full  hover:before:h-full  hover:before:top-0  hover:before:left-0 hover:before:rounded-none">
+                    <div class="flex">
+                        <div class="bg-purple-50 h-[70px] translate-y[50%] w-[70px] flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
+                            <div class="z-[5] rotate-[-45deg] font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-3xl/tight tracking-[-0.04em]">M</div>
+                        </div>
+                    </div>
+                    <div class="mt-6 text-[#337ca6]  whitespace-nowrap font-semibold text-lg relative z-30">Our Mission</div>
+                    <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">
+                        Our mission at IMG Global Infotech is to work towards the success of our clients in the most passionate and innovative way. We believe in incorporating dedication
+                    </div>
+                    <div class="absolute h-full w-full -z-20 top-0 left-0 ">
+                        <svg xmlns='http://www.w3.org/2000/svg'   viewBox='0 0 200 200'><rect fill='#ffffff' width='200' height='200'/><polygon  fill='#CEA5F1' fill-opacity='0.04' points='100 0 0 100 100 100 100 200 200 100 200 0'/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class=" md:w-1/2 lg:w-1/3 p-3 w-full">
+                <div class="flex flex-col relative p-6 bg-white z-10 overflow-hidden shadow-md h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200  before: before:bottom-0 before:right-0 before:z[-4] hover:before:w-full  hover:before:h-full  hover:before:top-0  hover:before:left-0 hover:before:rounded-none">
+                    <div class="flex">
+                        <div class="bg-purple-50 h-[70px] translate-y[50%] w-[70px] flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
+                            <div class="z-[5] rotate-[-45deg] font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-3xl/tight tracking-[-0.04em]">V</div>
+                        </div>
+                    </div>
+                    <div class="mt-6 text-[#337ca6]  whitespace-nowrap font-semibold text-lg relative z-30">Our Vision</div>
+                    <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">
+                        Our Vision at IMG Global Infotech is to grow both vertically and horizontally to ascertain ourselves on top as a preferred IT solution provider in India. outstanding software.
+                    </div>
+                    <div class="absolute h-full w-full -z-20 top-0 left-0 ">
+                        <svg xmlns='http://www.w3.org/2000/svg'   viewBox='0 0 200 200'><rect fill='#ffffff' width='200' height='200'/><polygon  fill='#CEA5F1' fill-opacity='0.04' points='100 0 0 100 100 100 100 200 200 100 200 0'/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class=" md:w-1/2 lg:w-1/3 p-3 w-full">
+                <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-md h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] hover:before:w-full  hover:before:h-full  hover:before:top-0  hover:before:left-0 hover:before:rounded-none">
+                    <div class="flex">
+                        <div class="bg-purple-50 -z-60 h-[70px] translate-y[50%] w-[70px] flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
+                            <div class="z-[5] rotate-[-45deg] font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-3xl/tight tracking-[-0.04em]">V</div>
+                        </div>
+                    </div>
+                    <div class="mt-6 text-[#337ca6]  whitespace-nowrap font-semibold text-lg relative z-30">Our Value</div>
+                    <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">
+                        Customer satisfaction is our #1 Priority. IMG Global Infotech was founded on the principle of offering reliable and efficient solution to customers and satisfying their needs. The irresistible force behind everything we do in our business is our strong ethics and beliefs.
+                    </div>
+                    <div class="absolute h-full w-full -z-20 top-0 left-0 ">
+                        <svg xmlns='http://www.w3.org/2000/svg'   viewBox='0 0 200 200'><rect fill='#ffffff' width='200' height='200'/><polygon  fill='#CEA5F1' fill-opacity='0.04' points='100 0 0 100 100 100 100 200 200 100 200 0'/></svg>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+</div>
+{{-- our vision end--}}
+
+{{-- award start --}}
+<div class="md:py-16 py-10 relative bg-slate-900">
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8"> 
+        <div class="flex items-center justify-center">
+            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal text-white">Awards and</span> 
+                <span class="font-bold  bg-gradient-to-r from-sky-300 via-sky-200 to-sky-400 bg-clip-text text-transparent"> Recognition</span>
+            </p>
+        </div>
+            <div class="flex flex-wrap items-stretch mt-5 mx-auto md:mt-10 pt-10 sm:pt-8 lg:mx-0">
+                <div class="lg:w-1/4 md:w-1/2 sm:w-1/2 w-full p-4">
+                    <div class="flex h-[100px] items-center p-2 justify-between bg-amber-50  rounded-br-none rounded-lg duration-700 shadow-sm shadow-gray-50 hover:translate-y-2">
+                        <div class="w-[100px]">
+                            <img src="{{asset('public'.mix('/tailwind/img/google.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
+                        </div>
+                        <div class="flex w-[35%]">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"  class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 sm:w-1/2 w-full p-4">
+                    <div class="flex h-[100px] items-center p-2 justify-between bg-amber-50  rounded-br-none rounded-lg duration-700 shadow-sm shadow-gray-50 hover:translate-y-2">
+                        <div class="w-[90px]">
+                            <img src="{{asset('public'.mix('/tailwind/img/clutch.webp'))}}" alt="thanku" class="img-fluid h-full w-full object-cover">
+                        </div>
+                        <div class="flex w-[35%]">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"  class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 sm:w-1/2 w-full p-4">
+                    <div class="flex h-[100px] items-center p-2 justify-between bg-amber-50  rounded-br-none rounded-lg duration-700 shadow-sm shadow-gray-50 hover:translate-y-2">
+                        <div class="w-[150px]">
+                            <img src="{{asset('public'.mix('/tailwind/img/extract.webp'))}}" alt="thanku" class="img-fluid h-full w-full object-cover">
+                        </div>
+                        <div class="flex w-[35%]">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"  class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 sm:w-1/2 w-full p-4">
+                    <div class="flex h-[100px] items-center p-2 justify-between bg-amber-50  rounded-br-none rounded-lg duration-700 shadow-sm shadow-gray-50 hover:translate-y-2">
+                        <div class="w-[150px]">
+                            <img src="{{asset('public'.mix('/tailwind/img/glassdoor.webp'))}}" alt="thanku" class="img-fluid h-full w-full object-contain">
+                        </div> <div class="flex w-[35%]">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path d="M496 203.3H312.36L256 32l-56.36 171.3H16l150.21 105.4-58.5 171.3L256 373.84 404.29 480l-58.61-171.3z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"  class="h-5 w-7 text-yellow-400" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+{{-- award end --}}
 
 {{-- apply now section end --}}
 
@@ -366,6 +521,9 @@
         </div>
     </div>
 </div>
+
+
+
 
 
 
