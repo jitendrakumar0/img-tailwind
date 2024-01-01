@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="lg:w-1/2 md:w-2/5 w-full md:order-2 order-1">
-                <div class="w-1/2 h-1/2 md:ml-auto md:mr-auto md:text-right text-center">
+                <div class="w-1/2 h-1/2 md:ml-auto md:mr-auto md:text-right text-center mx-auto">
                     <img src="{{asset('public'.mix('/tailwind/img/carers/together-IMG-Global-Infotech.webp'))}}" alt="thanku" class="h-full w-full ">
                 </div>
             </div>
