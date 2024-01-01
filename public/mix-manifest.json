@@ -1,7 +1,7 @@
 {
     "/tailwind/js/app.js": "/tailwind/js/app.js?id=e18249b1c2c9b3d092a3ae1f78df222e",
     "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=3f2c5cf234a4d30b7ed907dca6b7ba9c",
-    "/tailwind/css/app.css": "/tailwind/css/app.css?id=0abbbdbd34b13f8213cab0cb7e8d56e5",
+    "/tailwind/css/app.css": "/tailwind/css/app.css?id=15df6b1b19a6f6208913f60f8b57c915",
     "/tailwind/android-chrome-144x144.png": "/tailwind/android-chrome-144x144.png?id=de3c1fceec9a432a8ddcf6684b1d46c2",
     "/tailwind/android-chrome-192x192.png": "/tailwind/android-chrome-192x192.png?id=d24a76fcee41c06d0bc18709fc08be46",
     "/tailwind/android-chrome-36x36.png": "/tailwind/android-chrome-36x36.png?id=363494c1dab183d3c362a428be7a0476",
@@ -214,5 +214,15 @@
     "/tailwind/mstile-70x70.png": "/tailwind/mstile-70x70.png?id=b030c4c6f977862bebfde9549f586c94",
     "/tailwind/robots.txt": "/tailwind/robots.txt?id=0cfee23eaedc5acac4f47e48c8daab4f",
     "/tailwind/safari-pinned-tab.svg": "/tailwind/safari-pinned-tab.svg?id=53630740360ccc7baf8efc5465380ae5",
-    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=007090dd4c1183a19f5536aaf2b87496"
+    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=007090dd4c1183a19f5536aaf2b87496",
+    "/tailwind/img/about/aboutimg.webp": "/tailwind/img/about/aboutimg.webp?id=bdf5df3a48331328872e38b7f7b90b38",
+    "/tailwind/img/about/maskimg.webp": "/tailwind/img/about/maskimg.webp?id=5f73e17b97982b188a45a3ab5369ae15",
+    "/tailwind/img/about/mask_7.webp": "/tailwind/img/about/mask_7.webp?id=a3a8b6855d5c3b7a817864f806f6a42e",
+    "/tailwind/img/mask/mask_2.webp": "/tailwind/img/mask/mask_2.webp?id=fc957820716c85e235e919dfbd981699",
+    "/tailwind/img/mask/mask_3.webp": "/tailwind/img/mask/mask_3.webp?id=2f6607e42ac3fe66457324f0c30ec665",
+    "/tailwind/img/mask/mask_4.webp": "/tailwind/img/mask/mask_4.webp?id=5f73e17b97982b188a45a3ab5369ae15",
+    "/tailwind/img/mask/mask_5.webp": "/tailwind/img/mask/mask_5.webp?id=54fb87165765dde7b99e6324154ac466",
+    "/tailwind/img/mask/mask_6.webp": "/tailwind/img/mask/mask_6.webp?id=ef5bf52f0c12621b2dc07658e184600f",
+    "/tailwind/img/mask/mask_7.webp": "/tailwind/img/mask/mask_7.webp?id=a3a8b6855d5c3b7a817864f806f6a42e",
+    "/tailwind/img/mask/mask_8.webp": "/tailwind/img/mask/mask_8.webp?id=f482e9a853bc7febb1383311a9c850b5"
 }

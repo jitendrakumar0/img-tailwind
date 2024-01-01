@@ -3665,6 +3665,16 @@ select{
   --tw-gradient-to: rgb(66 32 6 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
+.from-blue-900{
+  --tw-gradient-from: #1e3a8a var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(30 58 138 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-sky-900{
+  --tw-gradient-from: #0c4a6e var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(12 74 110 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
 .via-amber-100\/50{
   --tw-gradient-to: rgb(254 243 199 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), rgb(254 243 199 / 0.5) var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -3899,6 +3909,12 @@ select{
 }
 .to-yellow-900{
   --tw-gradient-to: #713f12 var(--tw-gradient-to-position);
+}
+.to-blue-700{
+  --tw-gradient-to: #1d4ed8 var(--tw-gradient-to-position);
+}
+.to-sky-700{
+  --tw-gradient-to: #0369a1 var(--tw-gradient-to-position);
 }
 .bg-\[length\:2000px_100\%\]{
   background-size: 2000px 100%;
@@ -4917,6 +4933,18 @@ select{
 }
 .\[transform\:rotateY\(180deg\)\]{
   transform: rotateY(180deg);
+}
+.\[-webkit-mask-image\:url\(\'\.\.\/img\/mask\/mask_7\.webp\'\)\]{
+  -webkit-mask-image: url('../img/mask/mask_7.webp');
+}
+.\[-webkit-mask-position\:center_center\]{
+  -webkit-mask-position: center center;
+}
+.\[-webkit-mask-repeat\:no-repeat\]{
+  -webkit-mask-repeat: no-repeat;
+}
+.\[-webkit-mask-size\:contain\]{
+  -webkit-mask-size: contain;
 }
 /**
  * Swiper 11.0.5
@@ -8547,6 +8575,10 @@ select{
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+  .md\:px-7{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
   .md\:pb-0{
     padding-bottom: 0px;
   }
@@ -8582,6 +8614,9 @@ select{
   }
   .md\:pt-\[5\.75rem\]{
     padding-top: 5.75rem;
+  }
+  .md\:pb-36{
+    padding-bottom: 9rem;
   }
   .md\:text-center{
     text-align: center;
@@ -8881,6 +8916,21 @@ select{
   .group:hover .md\:group-hover\:bg-sky-200\/50{
     background-color: rgb(186 230 253 / 0.5);
   }
+  .group:hover .md\:group-hover\:bg-blue-200\/90{
+    background-color: rgb(191 219 254 / 0.9);
+  }
+  .group:hover .md\:group-hover\:bg-green-200\/90{
+    background-color: rgb(187 247 208 / 0.9);
+  }
+  .group:hover .md\:group-hover\:bg-orange-200\/90{
+    background-color: rgb(254 215 170 / 0.9);
+  }
+  .group:hover .md\:group-hover\:bg-pink-200\/90{
+    background-color: rgb(251 207 232 / 0.9);
+  }
+  .group:hover .md\:group-hover\:bg-sky-200\/90{
+    background-color: rgb(186 230 253 / 0.9);
+  }
   .group:hover .md\:group-hover\:pt-0{
     padding-top: 0px;
   }
@@ -9154,6 +9204,9 @@ select{
   .lg\:text-left{
     text-align: left;
   }
+  .lg\:text-start{
+    text-align: start;
+  }
   .lg\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -9313,6 +9366,12 @@ select{
   .xl\:py-7{
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
+  }
+  .xl\:pb-32{
+    padding-bottom: 8rem;
+  }
+  .xl\:pt-32{
+    padding-top: 8rem;
   }
   .xl\:text-sm{
     font-size: 0.875rem;
