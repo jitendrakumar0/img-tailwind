@@ -9067,6 +9067,10 @@ select{
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .lg\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
   .lg\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -9086,10 +9090,6 @@ select{
   .lg\:py-32{
     padding-top: 8rem;
     padding-bottom: 8rem;
-  }
-  .lg\:px-5{
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
   .lg\:pb-24{
     padding-bottom: 6rem;
