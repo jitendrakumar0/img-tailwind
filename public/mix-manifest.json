@@ -1,7 +1,7 @@
 {
     "/tailwind/js/app.js": "/tailwind/js/app.js?id=e18249b1c2c9b3d092a3ae1f78df222e",
     "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=3f2c5cf234a4d30b7ed907dca6b7ba9c",
-    "/tailwind/css/app.css": "/tailwind/css/app.css?id=82ac3cf0ff1bd1eb605b3645c5954cd6",
+    "/tailwind/css/app.css": "/tailwind/css/app.css?id=75ee901368add573cbbb4f054016493e",
     "/tailwind/android-chrome-144x144.png": "/tailwind/android-chrome-144x144.png?id=de3c1fceec9a432a8ddcf6684b1d46c2",
     "/tailwind/android-chrome-192x192.png": "/tailwind/android-chrome-192x192.png?id=d24a76fcee41c06d0bc18709fc08be46",
     "/tailwind/android-chrome-36x36.png": "/tailwind/android-chrome-36x36.png?id=363494c1dab183d3c362a428be7a0476",
@@ -46,6 +46,7 @@
     "/tailwind/img/carers/overlay-shape2.png": "/tailwind/img/carers/overlay-shape2.png?id=9c482809ded2e868fc624755bbabb7b9",
     "/tailwind/img/carers/together-IMG-Global-Infotech.avif": "/tailwind/img/carers/together-IMG-Global-Infotech.avif?id=dbb4b8f0e1a338992b2440bdade8109f",
     "/tailwind/img/carers/together-IMG-Global-Infotech.webp": "/tailwind/img/carers/together-IMG-Global-Infotech.webp?id=94fa430ed76574fdca018ed845ca7885",
+    "/tailwind/img/clutch.webp": "/tailwind/img/clutch.webp?id=0e75f57e043952de0eed06f070484fe5",
     "/tailwind/img/destist-online-1200w.webp": "/tailwind/img/destist-online-1200w.webp?id=edad7876366af50e5ed6f450d6832688",
     "/tailwind/img/destist-online-1330w.webp": "/tailwind/img/destist-online-1330w.webp?id=609bc7cafcc75ad340b51b5f22aad66c",
     "/tailwind/img/destist-online-1440w.webp": "/tailwind/img/destist-online-1440w.webp?id=8ae2c91c242be77b9e05747eb773364b",
@@ -74,6 +75,7 @@
     "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-265w.webp": "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-265w.webp?id=8e8a9421ba71b5d4e1df989d194665b0",
     "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-860w.webp": "/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-860w.webp?id=6e32b9a3fcc1ac5010e2b3e39d761922",
     "/tailwind/img/evelyn.webp": "/tailwind/img/evelyn.webp?id=44c0783dbfec4832b582a282f633da3c",
+    "/tailwind/img/extract.webp": "/tailwind/img/extract.webp?id=ca7c661e3012f7385d8e600e5a773135",
     "/tailwind/img/fab11.webp": "/tailwind/img/fab11.webp?id=cd210908b4d368afebb5b816e80a7ebe",
     "/tailwind/img/fabindia.webp": "/tailwind/img/fabindia.webp?id=28bcde23627abcce1b016c6e1ce5a46d",
     "/tailwind/img/fantasy-sports-1200w.webp": "/tailwind/img/fantasy-sports-1200w.webp?id=108bcfc16c674a31f402cca1b8f1ce4b",
@@ -94,6 +96,7 @@
     "/tailwind/img/frame12.webp": "/tailwind/img/frame12.webp?id=ebde9ff840f3780bd1e2ecff4e5c71c9",
     "/tailwind/img/girl.jpg": "/tailwind/img/girl.jpg?id=c3d9ec6fb5349211b6555f8774e5f0eb",
     "/tailwind/img/girl.webp": "/tailwind/img/girl.webp?id=120945d3701f672bc2cb0e91906b7c00",
+    "/tailwind/img/glassdoor.webp": "/tailwind/img/glassdoor.webp?id=52e2a2ea4f511d230a55fa3094e75da1",
     "/tailwind/img/google.webp": "/tailwind/img/google.webp?id=305718ba3103d02f222f73fcac606da6",
     "/tailwind/img/grid.svg": "/tailwind/img/grid.svg?id=7558fbb69b7de24610c362b3f3bd0ab1",
     "/tailwind/img/health-app-1200w.webp": "/tailwind/img/health-app-1200w.webp?id=41ffacd1fc3c142d59dd5ee6be3bde34",
@@ -211,8 +214,5 @@
     "/tailwind/mstile-70x70.png": "/tailwind/mstile-70x70.png?id=b030c4c6f977862bebfde9549f586c94",
     "/tailwind/robots.txt": "/tailwind/robots.txt?id=0cfee23eaedc5acac4f47e48c8daab4f",
     "/tailwind/safari-pinned-tab.svg": "/tailwind/safari-pinned-tab.svg?id=53630740360ccc7baf8efc5465380ae5",
-    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=007090dd4c1183a19f5536aaf2b87496",
-    "/tailwind/img/clutch.webp": "/tailwind/img/clutch.webp?id=0e75f57e043952de0eed06f070484fe5",
-    "/tailwind/img/extract.webp": "/tailwind/img/extract.webp?id=ca7c661e3012f7385d8e600e5a773135",
-    "/tailwind/img/glassdoor.webp": "/tailwind/img/glassdoor.webp?id=52e2a2ea4f511d230a55fa3094e75da1"
+    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=007090dd4c1183a19f5536aaf2b87496"
 }
