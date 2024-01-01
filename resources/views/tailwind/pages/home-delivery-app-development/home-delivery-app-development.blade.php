@@ -48,7 +48,7 @@
                     <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1">
                         Empowering Businesses through Innovative Web & Mobile App Solutions.
                     </div>
-                    <div class="mt-6">
+                    <div class="mt-6 flex md:justify-normal justify-center">
                         <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 opacity-100 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
                             <span>
                                 <span class="inline-flex items-center gap-1">
@@ -77,7 +77,6 @@
 {{-- Benefits & Perks start  --}}
 
 <div class="relative  overflow-hidden bg-white md:py-16 py-10">
-  
     <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
         <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
             <div class="flex items-center flex-wrap row-flex relative">
@@ -85,10 +84,10 @@
                     <div class="img"><img src="{{asset('public'.mix('/tailwind/img/carers/beifit.webp'))}}" alt="beifit" class=" lg:h-full lg:w-full md:h-[500px]  mx-auto"> </div>
                 </div>
                 <div class="relative z-20 lg:w-1/2 w-full">
-                    <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black"><span class="font-normal">Get More</span> <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Insight About Us</span></p>
+                    <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center lg:text-left"><span class="font-normal">Get More</span> <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Insight About Us</span></p>
                     <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">IMG is one of the trusted and Promising IT service providers delivering web development, mobile app development and custom software development services to start-up, mid level organizations and various big enterprises aiming to proffer digital success with robust applications. We have a proven track record in having 1200+ satisfied business clients and individuals from different verticals. We are committed to establish a long lasting and happy relationship with our clients.</p>
                 
-                    <div class="flex items-center mt-6 flex-wrap gap-3 w-full  lg:w-[90%]">
+                    <div class="flex items-center lg:justify-normal justify-center mt-6 flex-wrap gap-3 w-full  lg:w-[90%]">
                         <a href="https://www.imgglobalinfotech.com/contact-us.php" class=" inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
                             <span>
                                 <span class="inline-flex items-center gap-1">
@@ -113,7 +112,7 @@
 {{-- Benefits & Perks end  --}}
 
 {{-- our values start --}}
-<div class="md:py-16 py-10  relative bg-theme1">
+<div class="md:py-16 py-5  relative bg-theme1">
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
         <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -127,28 +126,28 @@
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
 
-        <div class="text-center py-4 items-center justify-center">
-            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+        <div class="text-center items-center">
+            <p class="text-center max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
                 <span class="font-normal text-white">Our</span> 
                 <span class="font-bold  bg-gradient-to-r from-sky-300 via-sky-200 to-sky-400 bg-clip-text text-transparent"> Values</span>
             </p>
-            <div class="flex text-left mt-5 mx-auto md:mt-10 pt-10 sm:pt-8 lg:mx-0 justify-center flex-wrap">
+            <div class="flex mt-2 mx-auto md:mt-10 pt-7 sm:pt-8 lg:mx-0 justify-center flex-wrap">
                 <div class="lg:w-1/3 md:w-1/2 w-full p-4">
-                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
-                    <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
+                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
+                        <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                         <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">01</div>
-                    </div>
-                    <div class=" text-[#337ca6]  whitespace-nowrap mt-1 relative z-20 font-semibold text-sm">Ensure Impactful Innovations</div>
-                    <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">An unwavering commitment to drive maximum customer satisfaction, infused with integrity and passion.</div>
-                    <a class="mt-5 inline-flex rounded-br-none relative z-40  justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4  ring-1 ring-slate-950 hover:bg-white/25 hover:ring-slate-900/15 " href="">
+                        </div>
+                        <div class=" text-[#337ca6]  whitespace-nowrap mt-1 relative z-20 font-semibold text-sm">Ensure Impactful Innovations</div>
+                        <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">An unwavering commitment to drive maximum customer satisfaction, infused with integrity and passion.</div>
+                        <a class="mt-5 inline-flex rounded-br-none relative z-40  justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4  ring-1 ring-slate-950 hover:bg-white/25 hover:ring-slate-900/15 " href="">
                         <span class="select-none">
                         Lets Get Connect <span aria-hidden="true" class="text-black sm:inline">→</span>
                         </span>
-                    </a>
+                        </a>
                     </div>
                 </div>
                 <div class="lg:w-1/3 md:w-1/2 w-full p-4">
-                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
+                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
                         <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                             <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">02</div>
                         </div>
@@ -162,13 +161,13 @@
                     </div>
                 </div>
                 <div class="lg:w-1/3 md:w-1/2 w-full p-4">
-                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full before:hover:rounded-none before:hover:left-0 before:hover:bottom-0">
-                    <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
+                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
+                        <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                         <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">03</div>
-                    </div>
-                    <div class=" text-[#337ca6]  whitespace-nowrap mt-1 relative z-20 font-semibold text-sm"> Integrate work-life balance</div>
-                    <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">Latest infrastructure and flexible working hours along with many other privileges that inculcate healthy lifestyle choices.</div>
-                    <a class="mt-5 inline-flex rounded-br-none relative z-40  justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4  ring-1 ring-slate-950 hover:bg-white/25 hover:ring-slate-900/15 " href="">
+                        </div>
+                        <div class=" text-[#337ca6]  whitespace-nowrap mt-1 relative z-20 font-semibold text-sm"> Integrate work-life balance</div>
+                        <div class="md:text-base text-sm opacity-70 mt-1 mb-lg-1">Latest infrastructure and flexible working hours along with many other privileges that inculcate healthy lifestyle choices.</div>
+                        <a class="mt-5 inline-flex rounded-br-none relative z-40  justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4  ring-1 ring-slate-950 hover:bg-white/25 hover:ring-slate-900/15 " href="">
                         <span class="select-none">
                         Lets Get Connect <span aria-hidden="true" class="text-black sm:inline">→</span>
                         </span>
@@ -182,7 +181,7 @@
 {{-- our values end --}}
 
 {{-- our vision start --}}
-<div class="md:py-16 py-10 relative">
+<div class="md:py-16 py-5 relative">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
@@ -195,13 +194,13 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="flex flex-wrap justify-center select-none row-flex my-6 w-full ">
             <div class=" md:w-1/2 lg:w-1/3 p-3 w-full">
-                <div class="flex flex-col relative p-6  bg-white z-10 overflow-hidden shadow-2xl h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200  before: before:bottom-0 before:right-0 before:z[-4] hover:before:w-full  hover:before:h-full  hover:before:top-0  hover:before:left-0 hover:before:rounded-none">
-                    <div class="flex">
-                        <div class="bg-purple-50 h-[70px] translate-y[50%] w-[70px] flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
+                <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-2xl  h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] md:hover:before:w-full  md:hover:before:h-full  md:hover:before:top-0  md:hover:before:left-0 md:hover:before:rounded-none">
+                    <div class="flex justify-between items-center pb-6">
+                        <div class="bg-purple-50  translate-y[50%] md:h-[70px] md:w-[70px] w-[50px] h-[50px]  flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
                             <div class="z-[5] rotate-[-45deg] font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-3xl/tight tracking-[-0.04em]">M</div>
                         </div>
+                        <div class="text-[#337ca6]  whitespace-nowrap font-semibold text-lg relative z-30">Our Mission</div>
                     </div>
-                    <div class="mt-6 text-[#337ca6]  whitespace-nowrap font-semibold text-lg relative z-30">Our Mission</div>
                     <div class="md:text-base text-sm overflow-ellipsis line-clamp-5 opacity-70 mt-1 mb-lg-1">
                         Our mission at IMG Global Infotech is to work towards the success of our clients in the most passionate and innovative way. We believe in incorporating dedication
                     </div>
@@ -211,13 +210,13 @@
                 </div>
             </div>
             <div class=" md:w-1/2 lg:w-1/3 p-3 w-full">
-                <div class="flex flex-col relative p-6 bg-white z-10 overflow-hidden shadow-2xl h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200  before: before:bottom-0 before:right-0 before:z[-4] hover:before:w-full  hover:before:h-full  hover:before:top-0  hover:before:left-0 hover:before:rounded-none">
-                    <div class="flex">
-                        <div class="bg-purple-50 h-[70px] translate-y[50%] w-[70px] flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
+                <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-2xl  h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] md:hover:before:w-full  md:hover:before:h-full  md:hover:before:top-0  md:hover:before:left-0 md:hover:before:rounded-none">
+                    <div class="flex justify-between items-center pb-6">
+                        <div class="bg-purple-50  translate-y[50%] md:h-[70px] md:w-[70px] w-[50px] h-[50px]  flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
                             <div class="z-[5] rotate-[-45deg] font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-3xl/tight tracking-[-0.04em]">V</div>
                         </div>
+                        <div class="text-[#337ca6]  whitespace-nowrap font-semibold text-lg relative z-30">Our Vision</div>
                     </div>
-                    <div class="mt-6 text-[#337ca6]  whitespace-nowrap font-semibold text-lg relative z-30">Our Vision</div>
                     <div class="md:text-base text-sm overflow-ellipsis line-clamp-5 opacity-70 mt-1 mb-lg-1">
                         Our Vision at IMG Global Infotech is to grow both vertically and horizontally to ascertain ourselves on top as a preferred IT solution provider in India. outstanding software.
                     </div>
@@ -227,14 +226,14 @@
                 </div>
             </div>
             <div class=" md:w-1/2 lg:w-1/3 p-3 w-full">
-                <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-2xl  h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] hover:before:w-full  hover:before:h-full  hover:before:top-0  hover:before:left-0 hover:before:rounded-none">
-                    <div class="flex">
-                        <div class="bg-purple-50 -z-60 h-[70px] translate-y[50%] w-[70px] flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
+                <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-2xl  h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] md:hover:before:w-full  md:hover:before:h-full  md:hover:before:top-0  md:hover:before:left-0 md:hover:before:rounded-none">
+                    <div class="flex justify-between items-center pb-6">
+                        <div class="bg-purple-50  translate-y[50%] md:h-[70px] md:w-[70px] w-[50px] h-[50px]  flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
                             <div class="z-[5] rotate-[-45deg] font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-3xl/tight tracking-[-0.04em]">V</div>
                         </div>
+                        <div class="text-[#337ca6]  whitespace-nowrap font-semibold text-lg relative z-30">Our Values</div>
                     </div>
-                    <div class="mt-6 text-[#337ca6]  whitespace-nowrap font-semibold text-lg relative z-30">Our Value</div>
-                    <div class="md:text-base text-sm opacity-70 mt-1 overflow-ellipsis line-clamp-5 mb-lg-1">
+                    <div class="md:text-base text-sm overflow-ellipsis line-clamp-5 opacity-70 mt-1 mb-lg-1">
                         Customer satisfaction is our #1 Priority. IMG Global Infotech was founded on the principle of offering reliable and efficient solution to customers and satisfying their needs. The irresistible force behind everything we do in our business is our strong ethics and beliefs.
                     </div>
                     <div class="absolute h-full w-full -z-20 top-0 left-0 ">
@@ -250,7 +249,7 @@
 
 
 
-<div class="xl:pt-32 xl:pb-32 md:pb-36 relative overflow-hidden z-[1]">
+<div class="md:py-16 py-8 relative overflow-hidden z-[1]">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
@@ -266,7 +265,7 @@
         <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-fuchsia-900 to-lime-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8 z-10 xl:mt-24 xl:mb-24 md:mb-32">
-        <div class="flex flex-row flex-wrap items-center jsuttify-center md:py-20 sm:py-16 py-12 h-full w-full">
+        <div class="flex flex-row flex-wrap items-center jsuttify-center md:py-20 sm:py-14 h-full w-full">
             <div class="xl:w-2/5 w-full">
                 <div class="flex items-center xl:mt-9 bg-white rounded-lg rounded-br-none p-3 h-[230px] w-[230px] justify-center  mx-auto">
                     <img src="{{asset('public'.mix('/tailwind/img/about/top-mobile-app-development-company.webp'))}}" alt="process" class="h-full w-full">
