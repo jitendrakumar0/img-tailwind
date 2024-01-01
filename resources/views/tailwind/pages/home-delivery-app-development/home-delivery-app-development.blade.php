@@ -76,7 +76,7 @@
 
 {{-- Benefits & Perks start  --}}
 
-<div class="relative  overflow-hidden bg-white md:py-16 py-10">
+<div class="relative  overflow-hidden bg-white md:py-16 py-10 select-none">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
         <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
             <div class="flex items-center flex-wrap row-flex relative">
@@ -126,7 +126,7 @@
         </svg>
     </div>
 
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
 
         <div class="text-center items-center">
             <p class="text-center max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
@@ -251,7 +251,7 @@
 
 
 
-<div class="xl:pt-32 xl:pb-32 md:pb-36 relative overflow-hidden z-[1] bg-slate-900">
+<div class="xl:pt-32 xl:pb-32 md:pb-36 relative overflow-hidden z-[1] bg-slate-900 select-none">
     {{-- <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
