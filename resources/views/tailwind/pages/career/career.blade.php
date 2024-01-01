@@ -65,9 +65,9 @@
                     </div>
                 </div>
             </div>
-            <div class="lg:w-1/2 md:w-2/5 lg:justify-end justify-center w-full md:order-2 order-1">
-                <div class="w-1/2 h-1/2 ">
-                    <img src="{{asset('public'.mix('/tailwind/img/carers/together-IMG-Global-Infotech.webp'))}}" alt="thanku" class="h-full w-full ">
+            <div class="lg:w-1/2 md:w-2/5 flex  lg:justify-end justify-center w-full md:order-2 order-1">
+                <div class="w-1/2  h-1/2  flex">
+                    <img src="{{asset('public'.mix('/tailwind/img/carers/together-IMG-Global-Infotech.webp'))}}" alt="thanku" class="h-full w-full">
                 </div>
             </div>
         </div>
