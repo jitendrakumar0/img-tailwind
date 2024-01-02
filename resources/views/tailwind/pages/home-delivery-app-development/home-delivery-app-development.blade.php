@@ -128,11 +128,12 @@
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
 
-        <div class="text-center items-center">
-            <p class="text-center max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+        <div class="">
+            <p class="text-left  max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
                 <span class="font-normal text-white">Our</span> 
                 <span class="font-bold  bg-gradient-to-r from-sky-300 via-sky-200 to-sky-400 bg-clip-text text-transparent"> Values</span>
             </p>
+            <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We prioritize our clients, delivering tailored solutions that exceed expectations and foster long-term partnerships.</div>
             <div class="flex mt-2 mx-auto md:mt-10 pt-7 sm:pt-8 lg:mx-0 justify-center flex-wrap">
                 <div class="lg:w-1/3 md:w-1/2 w-full p-4">
                     <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
