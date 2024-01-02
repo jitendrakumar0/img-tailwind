@@ -37,7 +37,7 @@
 
 
 {{-- Home section  Start --}}
-    <div class="relative pt-16 md:pt-20 lg:pt-32 select-none overflow-hidden">
+    <div class="relative pt-16 md:pt-20 lg:pt-32 select-none overflow-hidden ">
         <svg class="absolute inset-0 h-full w-full text-white/20" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <pattern id="ryhhgfbyi" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
@@ -120,7 +120,7 @@
                     Propira offers a curated collection of homes that cater to every lifestyle. Immerse yourself in a visual journey through our diverse range of residences, commercial spaces, and investment opportunities. Whether you seek a cozy nest, a bustling commercial hub, or a savvy investment, Propira's listings transcend the ordinary, offering a tapestry of possibilities.
                 </div>
                 <div class="list pt-4 md:pt-7 lg:pt-10">
-                    <ul class="list-disc">
+                    <ul class="list-disc ps-3">
                         <li class="text-sm md:text-base font-semibold">
                             Diverse Lifestyle Options
                             <div class="text-sm font-normal py-2 opacity-60">
@@ -158,7 +158,7 @@
                     Navigate through the vast property landscape effortlessly, customizing your search to match your unique aspirations. Whether you crave a serene abode or a dynamic commercial space, our intuitive interface allows you to fine-tune every detail. Propira transforms your property quest into a tailored adventure, ensuring that every search leads you closer.
                 </div>
                 <div class="list pt-4 md:pt-7 lg:pt-10">
-                    <ul class="list-disc">
+                    <ul class="list-disc ps-3">
                         <li class="text-sm md:text-base font-semibold">
                             Tailored Exploration
                             <div class="text-sm font-normal py-2 opacity-60">
@@ -202,7 +202,7 @@
                     From personalized consultations to meticulous market analysis, Propira curates a bespoke experience tailored to your unique needs. Whether you're buying your dream home, selling a property, or navigating real estate investment complexities, Propira leads the way. Elevate your real estate journey with wisdom, insight, and a team that goes beyond transactions.
                 </div>
                 <div class="list pt-4 md:pt-7 lg:pt-10">
-                    <ul class="list-disc">
+                    <ul class="list-disc ps-3">
                         <li class="text-sm md:text-base font-semibold">
                             Elevate Your Experience
                             <div class="text-sm font-normal py-2 opacity-60">
@@ -240,7 +240,7 @@
                     Elevating the real estate experience, Propira invites you to step inside your dream spaces from the comfort of your screen. Its cutting-edge technology transforms static listings into interactive, lifelike environments, allowing you to explore every nook and cranny with unparalleled detail. Feel the ambiance, visualize the layout, and envision your life in each property.
                 </div>
                 <div class="list pt-4 md:pt-7 lg:pt-10">
-                    <ul class="list-disc">
+                    <ul class="list-disc ps-3">
                         <li class="text-sm md:text-base font-semibold">
                             Unlock Vivid Experiences
                             <div class="text-sm font-normal py-2 opacity-60">
@@ -449,10 +449,10 @@
                 <div class="heading text-xl sm:text-2xl font-semibold !leading-[120%] text-black z-10 transition-all duration-500 md:group-hover:text-white md:group-hover:transition-all md:group-hover:duration-500 md:group-hover:z-10">
                     Innovative Technology Integration
                 </div>
-                <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 sm:group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
+                <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 md:group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
                     Propira stands out through its cutting-edge technology integration, streamlining the real estate experience. From advanced property search algorithms to virtual tours and online transaction management, Propira harnesses technology to enhance every step of the real estate process.
                 </div>
-                <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-0 sm:top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 sm:group-hover:text-white sm:group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
+                <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-0 md:top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 md:group-hover:text-white md:group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
                     01
                 </div>
             </div>
@@ -468,10 +468,10 @@
                 <div class="heading text-xl sm:text-2xl font-semibold !leading-[120%] text-black z-10 transition-all duration-500 md:group-hover:text-white md:group-hover:transition-all md:group-hover:duration-500 md:group-hover:z-10">
                     Personalized Client Engagement
                 </div>
-                <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 sm:group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
+                <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 md:group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
                     Propira takes a client-centric approach, offering personalized services that cater to the unique needs of each individual. Whether it's tailored property recommendations, expert guidance, or proactive communication, Propira ensures a high level of customer satisfaction.
                 </div>
-                <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-0 sm:top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 sm:group-hover:text-white sm:group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
+                <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-0 md:top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 md:group-hover:text-white md:group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
                     02
                 </div>
             </div>
@@ -487,10 +487,10 @@
                 <div class="heading text-xl sm:text-2xl font-semibold !leading-[120%] text-black z-10 transition-all duration-500 md:group-hover:text-white md:group-hover:transition-all md:group-hover:duration-500 md:group-hover:z-10">
                     Transparent and Efficient Transactions
                 </div>
-                <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 sm:group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
+                <div class="description text-sm sm:text-base !leading-[140%] text-ellipsis line-clamp-[7] pt-3 transition-all duration-500 md:group-hover:text-white group-hover:transition-all group-hover:duration-500 group-hover:z-10">
                     Transparency is key in real estate, and Propira excels in providing clear information to clients. From property details and market trends to transaction processes and fees, Propira ensures that clients are well-informed, promoting trust and efficiency in real estate transactions.
                 </div>
-                <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-0 sm:top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 sm:group-hover:text-white sm:group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
+                <div class="number absolute text-[50px] sm:text-[60px] md:text-[80px] font-bold text-neutral-700 top-0 md:top-[100px] left-[20px] opacity-20 transition-all duration-500 group-hover:top-0 md:group-hover:text-white md:group-hover:opacity-100 group-hover:transition-all group-hover:duration-500">
                     03
                 </div>
             </div>
