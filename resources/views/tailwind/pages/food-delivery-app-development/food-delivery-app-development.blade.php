@@ -32,17 +32,11 @@
 
 @section('content')
 {{-- hero section start  --}}
-<div class="relative pt-16 md:pt-20 lg:pt-32 select-none overflow-hidden">
-    <div class="text-black/10">
-        <svg xmlns='http://www.w3.org/2000/svg' width='100%' class="absolute inset-0 h-full w-full"><rect fill='#ffffff' width='540' height='450'/><defs><linearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%' gradientTransform='rotate(240)'><stop offset='0'  stop-color='#ffffff'/><stop offset='1'  stop-color='#FAF7F6'/></linearGradient><pattern patternUnits='userSpaceOnUse' id='b'  width='300' height='250' x='0' y='0' viewBox='0 0 1080 900'><g fill-opacity='0.04'><polygon fill='#444' points='90 150 0 300 180 300'/><polygon points='90 150 180 0 0 0'/><polygon fill='#AAA' points='270 150 360 0 180 0'/><polygon fill='#DDD' points='450 150 360 300 540 300'/><polygon fill='#999' points='450 150 540 0 360 0'/><polygon points='630 150 540 300 720 300'/><polygon fill='#DDD' points='630 150 720 0 540 0'/><polygon fill='#444' points='810 150 720 300 900 300'/><polygon fill='#FFF' points='810 150 900 0 720 0'/><polygon fill='#DDD' points='990 150 900 300 1080 300'/><polygon fill='#444' points='990 150 1080 0 900 0'/><polygon fill='#DDD' points='90 450 0 600 180 600'/><polygon points='90 450 180 300 0 300'/><polygon fill='#666' points='270 450 180 600 360 600'/><polygon fill='#AAA' points='270 450 360 300 180 300'/><polygon fill='#DDD' points='450 450 360 600 540 600'/><polygon fill='#999' points='450 450 540 300 360 300'/><polygon fill='#999' points='630 450 540 600 720 600'/><polygon fill='#FFF' points='630 450 720 300 540 300'/><polygon points='810 450 720 600 900 600'/><polygon fill='#DDD' points='810 450 900 300 720 300'/><polygon fill='#AAA' points='990 450 900 600 1080 600'/><polygon fill='#444' points='990 450 1080 300 900 300'/><polygon fill='#222' points='90 750 0 900 180 900'/><polygon points='270 750 180 900 360 900'/><polygon fill='#DDD' points='270 750 360 600 180 600'/><polygon points='450 750 540 600 360 600'/><polygon points='630 750 540 900 720 900'/><polygon fill='#444' points='630 750 720 600 540 600'/><polygon fill='#AAA' points='810 750 720 900 900 900'/><polygon fill='#666' points='810 750 900 600 720 600'/><polygon fill='#999' points='990 750 900 900 1080 900'/><polygon fill='#999' points='180 0 90 150 270 150'/><polygon fill='#444' points='360 0 270 150 450 150'/><polygon fill='#FFF' points='540 0 450 150 630 150'/><polygon points='900 0 810 150 990 150'/><polygon fill='#222' points='0 300 -90 450 90 450'/><polygon fill='#FFF' points='0 300 90 150 -90 150'/><polygon fill='#FFF' points='180 300 90 450 270 450'/><polygon fill='#666' points='180 300 270 150 90 150'/><polygon fill='#222' points='360 300 270 450 450 450'/><polygon fill='#FFF' points='360 300 450 150 270 150'/><polygon fill='#444' points='540 300 450 450 630 450'/><polygon fill='#222' points='540 300 630 150 450 150'/><polygon fill='#AAA' points='720 300 630 450 810 450'/><polygon fill='#666' points='720 300 810 150 630 150'/><polygon fill='#FFF' points='900 300 810 450 990 450'/><polygon fill='#999' points='900 300 990 150 810 150'/><polygon points='0 600 -90 750 90 750'/><polygon fill='#666' points='0 600 90 450 -90 450'/><polygon fill='#AAA' points='180 600 90 750 270 750'/><polygon fill='#444' points='180 600 270 450 90 450'/><polygon fill='#444' points='360 600 270 750 450 750'/><polygon fill='#999' points='360 600 450 450 270 450'/><polygon fill='#666' points='540 600 630 450 450 450'/><polygon fill='#222' points='720 600 630 750 810 750'/><polygon fill='#FFF' points='900 600 810 750 990 750'/><polygon fill='#222' points='900 600 990 450 810 450'/><polygon fill='#DDD' points='0 900 90 750 -90 750'/><polygon fill='#444' points='180 900 270 750 90 750'/><polygon fill='#FFF' points='360 900 450 750 270 750'/><polygon fill='#AAA' points='540 900 630 750 450 750'/><polygon fill='#FFF' points='720 900 810 750 630 750'/><polygon fill='#222' points='900 900 990 750 810 750'/><polygon fill='#222' points='1080 300 990 450 1170 450'/><polygon fill='#FFF' points='1080 300 1170 150 990 150'/><polygon points='1080 600 990 750 1170 750'/><polygon fill='#666' points='1080 600 1170 450 990 450'/><polygon fill='#DDD' points='1080 900 1170 750 990 750'/></g></pattern></defs><rect x='0' y='0' fill='url(#a)' width='100%' height='100%'/><rect x='0' y='0' fill='url(#b)' width='100%' height='100%'/></svg>
-    </div>
+<div class="relative pt-16 md:pt-20 lg:pt-32 select-none overflow-hidden bg-[url('../img/fooddelivery/download.webp')] bg-no-repeat bg-cover h-full w-full">
+
     <div class="mx-auto max-w-7xl px-6 lg:pl-48 lg:pr-52 z-[1]  py-8 sm:py-10 md:py-14 lg:py-16 text-center relative">
-
         <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
-            <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
-                Build Online Food Delivery Apps and Unlock 67% Savings
-            </div>
-
+         
             <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
                 <span class="font-bold"> On-Demand Food Delivery</span> 
                 <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> App Development Company</span>
@@ -51,59 +45,15 @@
                 iCoderz Solutions is the best Food delivery app development company with over 12 years of experience serving food business owners. Our <span class="font-bold">on demand food delivery app development</span> services help food business owners increase their brand visibility and sales rapidly.
             </div>
         </div>
-        <div class="mt-8 flex items-center flex-wrap gap-y-3 gap-3 justify-center mx-auto">
-            <div class="flex items-center justify-center gap-3">
-                <div class="icon h-[14px] sm:h-[20px] md:h-[18px]  w-[14px] sm:w-[14px] md:w-[18px]">
-                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-blue-950" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg>
-                </div>
-                <div class="text-[12px] sm:text-sm md:text-base font-bold text-[#111457]">Get solution Delivered in 2 week</div>
-            </div>
-            <div class="flex items-center justify-center gap-3 ">
-                <div class="icon h-[14px] sm:h-[20px] md:h-[18px]  w-[14px] sm:w-[14px] md:w-[18px]">
-                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-blue-950" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg>
-                </div>
-                <div class="text-[12px] sm:text-sm md:text-base font-bold text-[#111457]">Dedicated team of food delivery App Developer</div>
-            </div>
-        </div>
-        <div class="mt-4 flex items-center flex-wrap gap-y-3 gap-3 justify-center z-20 relative">
-            <div class="flex items-center gap-3">
-                <div class="icon h-[14px] sm:h-[20px] md:h-[18px]  w-[14px] sm:w-[14px] md:w-[18px]">
-                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-blue-950" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg>
-                </div>
-                <div class="text-[12px] sm:text-sm md:text-base font-bold text-[#111457]">Proven Expertise & Cost Effective</div>
-            </div>
-            <div class="flex items-center gap-3 ">
-                <div class="icon h-[14px] sm:h-[20px] md:h-[18px]  w-[14px] sm:w-[14px] md:w-[18px]">
-                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-blue-950" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg>
-                </div>
-                <div class="text-[12px] sm:text-sm md:text-base font-bold text-[#111457]">100% customizable solutions</div>
-            </div>
-            <div class="flex items-center gap-3">
-                <div class="icon h-[14px] sm:h-[20px] md:h-[18px]  w-[14px] sm:w-[14px] md:w-[18px]">
-                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-blue-950" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg>
-                </div>
-                <div class="text-[12px] sm:text-sm md:text-base font-bold text-[#111457]">Fully Signed NDA & Code Security</div>
-            </div>
-        </div>
-        
-      
         <div class=" mt-10">
             <a href="https://www.imgglobalinfotech.com/about-us.php" class="inline-flex rounded-br-none justify-center z-30 relative rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Get Your Free Quote <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
         </div>
-        {{-- <div class="text-sm md:text-base mt-3">
-            All our projects are secured by NDA
-        </div> --}}
-    </div>
-
-    <div class="absolute !lg:top-[100px] !top-[70px] !sm:left-[-170px] !left-[-100px] md:h-[300px] md:w-[300px] h-[180px] w-[180px]">
-        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/pizza.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
-    </div>
-    <div class="absolute bottom-[-1%] !right-[-120px] md:h-[270px] md:w-[300px]  h-[150px] w-[180px]">
-        <img src="{{asset('public'.mix('/tailwind/img/fooddelivery/burger.webp'))}}" alt="thanku" class="img-fluid h-full w-full">
     </div>
 
 </div>
 {{-- hero sectio  end  --}}
+
+
 
 
 
@@ -893,16 +843,16 @@
     <div class="absolute z-0 -top-52 left-1/2 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
         <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-sky-400 to-sky-400 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>  
-    <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
-        <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
-            <span class="font-normal">How Does Our Food </span> 
-            <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Delivery Solution Works?</span>
-        </p>
-        <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
-            Escalate your food delivery & Ordering business to new heights with our fully-featured white-label on demand restaurant app development solutions. Our best-in-class certified food app developers develop highly interactive features for your online food delivery application
-        </div>
-    </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8 z-10 ">
+        <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
+            <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
+                <span class="font-normal">How Does Our Food </span> 
+                <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Delivery Solution Works?</span>
+            </p>
+            <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
+                Escalate your food delivery & Ordering business to new heights with our fully-featured white-label on demand restaurant app development solutions. Our best-in-class certified food app developers develop highly interactive features for your online food delivery application
+            </div>
+        </div>
         <div class="flex flex-row flex-nowrap overflow-x-auto items-center jsuttify-center lg:py-20 md:py-16 sm:py-12 py-8 gap-5 h-full w-full ">
             <div class="agile-child child-1 rotate-[180deg]   group duration-300">
                 <div class="inner-agilee realtive w-[220px] md:h-[260px] sm:h-[220px] h-[192px] relative overflow-hidden bg-white group-hover:bg-gradient-to-b group-hover:from-gray-950 group-hover:to-sky-950 shadow-md transform transition-all duration-300 ease-in-out hover:scale-105 [clip-path:polygon(50%_0%,_0%_100%,_100%_100%);]   before:absolute before:rounded-full md:before:top-[-46px] before:top-[-36px] md:before:left-[31px] before:left-[36px] md:before:rotate-[-80deg] before:rotate-[-99deg] md:before:w-[175px] before:w-[137px] md:before:h-[95px] before:h-[58px] before:bg-gradient-to-b before:from-sky-950 before:via-sky-900 before:to-sky-800 ">
@@ -1009,6 +959,85 @@
 
 {{-- Solution Section Ends --}}
 
+{{-- other app like sectio new  --}}
+
+<div class="bg-theme1 relative overflow-hidden lg:py-20 md:py-16 py-10 select-none ">
+
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8  z-40 relative">
+        <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-center text-white">
+            <span class="font-normal">Other On-Demand App Development  </span>
+            <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-600 to-gray-100 bg-clip-text text-transparent"> Services Offered by Us</span>
+        </p>
+        <div class="md:text-base text-sm opacity-70 mt-3 mb-lg-1 text-center text-white">
+            As we said, we strive to offer everything you need for your business under one roof for higher quality and faster delivery.
+            </div> 
+        <div class="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">
+            <div class="flex flex-row flex-wrap w-fullrelative z-40">
+                <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full lg:p-5 md:p-4 p-3">
+                    <a class="h-full pointer group duration-300 md:hover:scale-105 flex items-center overflow-hidden w-full bg-white p-6 rounded-lg rounded-br-none shadow-md">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-gray-950 text-xl lg:w-12 lg:h-12 md:w-10 md:h-10 w-8 h-8 text-center" xmlns="http://www.w3.org/2000/svg"><path d="M267.2 25.08l-70 70.16c-7.7 7.66-7.3 16.86-2.4 26.96l2 4.3-3.1 2.9-23.6 22.3 21.7 21.6 22.2-23.7 2.9-3 4.2 1.9c10.7 5.3 20.6 5.7 27.7-1.4L319 76.85l-10.2-10.18-45.7 45.63-9.6-9.8L299 56.97l-10.9-11.03-45.5 45.7-9.7-9.7 45.5-45.69zM28.97 27.84c-5.73 9.12-6.61 20.83-3.32 34.58 3.87 16.32 13.68 35.22 27.41 53.08 27.35 35.8 50.04 48.1 86.84 54.8l2.4.4c13.6 16.1 27.2 32.1 40.8 48.2h37.1zM137 183.2l-37.74 35.7h49.64l9.7-10.3zM26.25 232.9v63.5l16.51-49.5H279.8l16.5 49.5v-63.5zm29.49 32l-10 30h45.04l10.02-30zm63.96 0l-10 30h42.6v-30zm50.6 0v30h42.6l-10-30zm51.4 0l10 30h45.1l-10-30zm92.6 1.8v188.2h79c4.2-18.2 20.6-32 40-32s35.8 13.8 40 32h15v-64l-56.2-14H328.3v-82H390l-6.9-15zM26.25 312.9v114.2l42.17 27.8h14.85c4.14-18.2 20.53-32 40.03-32 19.4 0 35.8 13.8 40 32h133v-142h-14v80H40.25v-80zm320.05 0v46h72.4l-23-46zm-281.05 19l16 16h16l16.05-16zm-8 27v18H265.3v-18zm66.05 82c-12.9 0-23.1 10.2-23.1 23s10.2 23 23.1 23c12.8 0 23-10.2 23-23s-10.2-23-23-23zm310 0c-12.8 0-23 10.2-23 23s10.2 23 23 23 23-10.2 23-23-10.2-23-23-23z"></path></svg>
+                        <div class="text-slate-900 text-center font-semibold ms-3">Food Delivery App</div>
+                    </a>
+                </div>
+                <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full lg:p-5 md:p-4 p-3">
+                    <a class="h-full pointer group duration-300 md:hover:scale-105 flex items-center overflow-hidden w-full bg-white p-6 rounded-lg rounded-br-none shadow-md">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-gray-950 text-xl lg:w-12 lg:h-12 md:w-10 md:h-10 w-8 h-8 text-center" xmlns="http://www.w3.org/2000/svg"><path d="M499.99 176h-59.87l-16.64-41.6C406.38 91.63 365.57 64 319.5 64h-127c-46.06 0-86.88 27.63-103.99 70.4L71.87 176H12.01C4.2 176-1.53 183.34.37 190.91l6 24C7.7 220.25 12.5 224 18.01 224h20.07C24.65 235.73 16 252.78 16 272v48c0 16.12 6.16 30.67 16 41.93V416c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-32h256v32c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-54.07c9.84-11.25 16-25.8 16-41.93v-48c0-19.22-8.65-36.27-22.07-48H494c5.51 0 10.31-3.75 11.64-9.09l6-24c1.89-7.57-3.84-14.91-11.65-14.91zm-352.06-17.83c7.29-18.22 24.94-30.17 44.57-30.17h127c19.63 0 37.28 11.95 44.57 30.17L384 208H128l19.93-49.83zM96 319.8c-19.2 0-32-12.76-32-31.9S76.8 256 96 256s48 28.71 48 47.85-28.8 15.95-48 15.95zm320 0c-19.2 0-48 3.19-48-15.95S396.8 256 416 256s32 12.76 32 31.9-12.8 31.9-32 31.9z"></path></svg>
+                        <div class="text-slate-900 text-center font-semibold ms-3"> Taxi Booking App</div>
+                    </a>
+                </div>
+                <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full lg:p-5 md:p-4 p-3">
+                    <a class="h-full pointer group duration-300 md:hover:scale-105 flex items-center overflow-hidden w-full bg-white p-6 rounded-lg rounded-br-none shadow-md">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-gray-950 text-xl lg:w-12 lg:h-12 md:w-10 md:h-10 w-8 h-8 text-center" xmlns="http://www.w3.org/2000/svg"><path d="M183.8 25l-13.4 94h171.2l-13.4-94H183.8zm-79.5 112L73.82 487H438.2l-30.5-350H104.3zm30.7 62h242v48h32v114h-32v48H135V199zm18 18v174h206v-30h-16V247h16v-30H153zm30 16h146v112H183V233zm74.2 10.7c-6.5 22-24.5 43.6-13.6 66.1-17.8-9.5-20.2-25.1-23.4-40.6-2.2 15.5-9.3 30.8-6.8 45.4-6.3-4.6-11.6-10.9-18.2-18 7 28.2 7.9 35.8 31.8 37.4h51.5c32.1-3.6 26.8-21.3 41-38.2-12.7.4-18.9 4.5-25.8 12.3 10.3-18.7-1.5-18.9-2.7-34.3-5.1 9.8-16.9 20.7-23.3 18.6-8.5-2.6-9.3-30.7-10.5-48.7zM361 265v78h30v-78h-30zM183 432h18v32h-18v-32zm64 0h18v32h-18v-32zm64 0h18v32h-18v-32z"></path></svg>
+                        <div class="text-slate-900 text-center font-semibold ms-3">Laundry App</div>
+                    </a>
+                </div>
+                <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full lg:p-5 md:p-4 p-3">
+                    <a class="h-full pointer group duration-300 md:hover:scale-105 flex items-center overflow-hidden w-full bg-white p-6 rounded-lg rounded-br-none shadow-md">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-gray-950 text-xl lg:w-12 lg:h-12 md:w-10 md:h-10 w-8 h-8 text-center" xmlns="http://www.w3.org/2000/svg"><path d="M189.6 19.18C162 46.06 150.9 71.02 149 94.29c-1.7 21.21 4.3 41.51 14.6 60.81 11.2-2.8 23.2-2.7 34.7.9 4.5-19.1 10.5-38.6 24.3-56 14.4-18.06 36.9-33.1 72.5-43.47-22-16.95-48.1-28.2-75.9-33.63-10.2-1.99-20.1-3.23-29.6-3.72zm-25.1.41c-31.6 2.76-58.5 14.19-80.27 31.83-16.52 13.36-30.19 30.44-40.65 50.28l1.38-.2c6.28 45 31.59 70.4 75.44 83.6 7-9.9 16.1-17.9 26.3-23.4-10.8-20.9-17.6-44.1-15.6-68.86 1.9-23.76 12.1-48.51 33.4-73.25zm146.8 51.25c-40 9.69-61.5 23.99-74.6 40.36-12 15.2-17.2 32.8-21.6 52.2 7.3 4.2 12.9 9.2 17.1 14.8 4 5.4 6.6 11.2 8.6 17.1 33.4-15.7 76.2-33.2 118-30.1-7-39.3-24-70.81-47.5-94.36zM32.5 127c-4.83 13.6-8.37 28.1-10.52 43.3-4.54 32-.31 67.5 10.98 99.9 29.71 2.9 53.76-2.6 72.74-21.8-.6-5.5-.8-11.1-.7-16.7.2-11 2.5-21.4 6.4-30.7-38.71-12.9-66.7-37.3-78.9-74zm318 55.9h-2.6l-6.6.3c-2.2.2-4.3.4-6.4.6-33.3 3.8-68.3 19-96.1 32.3l-7.2 3.4c-1 .9-2.1 1.8-3.1 2.8 0 0-23-18.1-55.1-24.7-23.1-4.7-16.4 33.5 1.5 49 18.9 16.5 36.8 16.3 36.8 16.3-11 20.3-20.3 38.2-28.8 54.6 23 5.7 53.9 4.7 94.9-7.4l11.7-3.5-.2 12.2c-.4 27.5-25.9 53.7-61.9 68.3-24.5 9.9-54.6 14-86.5 7.5-18.2 29.9-39.9 60.1-74.15 99.4H355.9c-.1-10.3.2-20.8.6-31.6l10.9 5.3-8.5-29.1 15.6 4.2-17-55.4c-.8-13.2-2.5-26.1-5.6-38.5 43.9 10.3 98.5 24.3 126 17.4 8-2 21.1-27.6 17.7-43.9-5.3-25.9-40.3-36.3-58.4-52.4 0 0-12.5-29-22.7-43.2-11.7-16.3-32.7-34.1-41.7-41.5l-4.8-.8c-5.7-1-11.5-1.6-17.5-1.6zm3 40.8c20.3 3.4 43.2 9.7 39.4 38.7-24.7-1.9-48.8-3.6-39.4-38.7zM109.6 269c-19.61 15.2-43.6 20.6-69.25 19.6 14.27 31.5 35.56 58.1 62.05 72.8 18.3-11 30.4-32.9 26-56.4-8.9-10.5-15.1-22.9-18.8-36zm37.4 52.6c-1.9 19.2-11.7 36.6-25.9 48.5 23.9 9.2 46.9 11.3 67.5 8.6 8.8-15.7 8.2-28.3 2.7-41.4-17.5-2.3-32.2-7.8-44.3-15.7zm120.7 9.6c-21.2 5.2-40.3 7.6-57.2 7.4 3 11.2 3.2 23.2-.5 35.6 3.6-1.2 7.2-2.4 10.6-3.8 23.6-9.5 40.2-25.4 47.1-39.2z"></path></svg>
+                        <div class="text-slate-900 text-center font-semibold ms-3">Beauty Service app</div>
+                    </a>
+                </div>
+                <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full lg:p-5 md:p-4 p-3">
+                    <a class="h-full pointer group duration-300 md:hover:scale-105 flex items-center overflow-hidden w-full bg-white p-6 rounded-lg rounded-br-none shadow-md">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="text-gray-950 text-xl lg:w-12 lg:h-12 md:w-10 md:h-10 w-8 h-8 text-center" xmlns="http://www.w3.org/2000/svg"><path d="M320.05 366.48l17.72-29.64h-35.46zm99.21-166H382.4l18.46 30.82zM48 0C21.49 0 0 14.33 0 32v448c0 17.67 21.49 32 48 32s48-14.33 48-32V32C96 14.33 74.51 0 48 0zm172.74 311.5h36.85l-18.46-30.82zm161.71 0h36.86l-18.45-30.8zM128 464h384V48H128zm66.77-278.13a21.22 21.22 0 0 1 18.48-10.71h59.45l29.13-48.71a21.13 21.13 0 0 1 18.22-10.37A20.76 20.76 0 0 1 338 126.29l29.25 48.86h59.52a21.12 21.12 0 0 1 18.1 32L415.63 256 445 305a20.69 20.69 0 0 1 .24 21.12 21.25 21.25 0 0 1-18.48 10.72h-59.47l-29.13 48.7a21.13 21.13 0 0 1-18.16 10.4 20.79 20.79 0 0 1-18-10.22l-29.25-48.88h-59.5a21.11 21.11 0 0 1-18.1-32L224.36 256 195 207a20.7 20.7 0 0 1-.23-21.13zM592 0c-26.51 0-48 14.33-48 32v448c0 17.67 21.49 32 48 32s48-14.33 48-32V32c0-17.67-21.49-32-48-32zM320 145.53l-17.78 29.62h35.46zm-62.45 55h-36.81l18.44 30.8zm29.58 111h65.79L386.09 256l-33.23-55.52h-65.79L253.9 256z"></path></svg>
+                        <div class="text-slate-900 text-center font-semibold ms-3">Handyman App</div>
+                    </a>
+                </div>
+                <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full lg:p-5 md:p-4 p-3">
+                    <a class="h-full pointer group duration-300 md:hover:scale-105 flex items-center overflow-hidden w-full bg-white p-6 rounded-lg rounded-br-none shadow-md">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-gray-950 text-xl lg:w-12 lg:h-12 md:w-10 md:h-10 w-8 h-8 text-center" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 5c0-1.1-.9-2-2-2h-3v2h3v2.65L13.52 12H10V7H6c-2.21 0-4 1.79-4 4v3h2c0 1.66 1.34 3 3 3s3-1.34 3-3h4.48L19 8.35V5zM7 15c-.55 0-1-.45-1-1h2c0 .55-.45 1-1 1z"></path><path d="M5 4h5v2H5zM19 11c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zM7 20h4v-2l6 3h-4v2z"></path></svg>
+                        <div class="text-slate-900 text-center font-semibold ms-3">Grocery Delivery App</div>
+                    </a>
+                </div>
+                <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full lg:p-5 md:p-4 p-3">
+                    <a class="h-full pointer group duration-300 md:hover:scale-105 flex items-center overflow-hidden w-full bg-white p-6 rounded-lg rounded-br-none shadow-md">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="text-gray-950 text-xl lg:w-12 lg:h-12 md:w-10 md:h-10 w-8 h-8 text-center" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
+                        <div class="text-slate-900 text-center font-semibold ms-3">Doctor On-Demand App</div>
+                    </a>
+                </div>
+                <div class="lg:w-1/4 md:w-1/3 sm:w-1/2 w-full lg:p-5 md:p-4 p-3">
+                    <a class="h-full pointer group duration-300 md:hover:scale-105 flex items-center overflow-hidden w-full bg-white p-6 rounded-lg rounded-br-none shadow-md">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-gray-950 text-xl lg:w-12 lg:h-12 md:w-10 md:h-10 w-8 h-8 text-center" mlns="http://www.w3.org/2000/svg"><path d="M21 3H3c-1.1 0-2 .9-2 2v3h2V5h18v14h-7v2h7c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM1 18v3h3c0-1.66-1.34-3-3-3zm0-4v2c2.76 0 5 2.24 5 5h2c0-3.87-3.13-7-7-7zm0-4v2a9 9 0 019 9h2c0-6.08-4.93-11-11-11zm10 1.09v2L14.5 15l3.5-1.91v-2L14.5 13 11 11.09zM14.5 6L9 9l5.5 3L20 9l-5.5-3z"></path><path fill="none" d="M0 0h24v24H0V0z"></path></svg>
+                        <div class="text-slate-900 text-center font-semibold ms-3">E-learning App</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- other app like sectio new --}}
 
 
 {{-- why choose us start --}}
@@ -1284,135 +1313,6 @@
 </div>
 
 {{-- privers work section end  --}}
-
-
-{{-- blog sectio new  --}}
-
-
-<div class="bg-white relative overflow-hidden pt-8 sm:pt-16 lg:pt-24 select-none">
-    <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
-        <defs>
-            <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
-                <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
-            </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#nhgh)"></rect>
-    </svg>
-
-    <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative">
-        <p class="mt-4 max-md:text-xl/tight max-xl:text-2xl/tight text-3xl/tight tracking-[-0.04em] text-black text-center">
-            <span class="font-normal block pb-3">Stay Informed Of Latest Innovations and Trends With Our Blogs!</span>
-            <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-700 to-gray-500 bg-clip-text text-transparent"> Explore our insightful blogs to stay abreast of the latest innovations and trends. Stay informed, stay ahead.</span>
-        </p>
-        <div class="mx-auto md:mt-10 flex gap-x-8 gap-y-16 pt-10 sm:pt-8 lg:mx-0">
-            <div class="swiper blogsSwiper w-full !overflow-visible" 
-            data-swiper='{
-                "slidesPerView": 2,
-                "spaceBetween": 10,
-                "speed": 1000,
-                "loop": false,
-                "effect": "slide",
-                "breakpoints": {
-                    "320": {"slidesPerView": 1, "spaceBetween": 30},
-                    "480": {"slidesPerView": 1.2, "spaceBetween": 20},
-                    "640": {"slidesPerView": 2, "spaceBetween": 30},
-                    "1024": {"slidesPerView": 2.6, "spaceBetween": 30},
-                    "1350": {"slidesPerView": 3, "spaceBetween": 30}
-                }
-            }'
-            >
-                <div class="swiper-wrapper flex items-center pb-8">
-                    <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between shadow-sm bg-white">
-                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
-                            <div class="w-full p-4 shadow-sm bg-white">
-                                <div class="group relative ">
-                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        Top FinTech App Development Companies In India 2024
-                                    </div>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
-                                </div>
-                                <div class="relative mt-8 flex items-center gap-x-4">
-                                <a href="javascript:;" class="text-decoration-none flex items-center font-semibold text-base text-pink-600 duration-300"> LEARN MORE <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-8 h-8 " xmlns="http://www.w3.org/2000/svg"><path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path></svg></span> </a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
-                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
-                            <div class="w-full p-4 shadow-sm bg-white">
-                                <div class="group relative">
-                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        Top FinTech App Development Companies In India 2024
-                                    </div>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
-                                </div>
-                                <div class="relative mt-8 flex items-center gap-x-4">
-                                <a href="javascript:;" class="text-decoration-none flex items-center font-semibold text-base text-pink-600 duration-300"> LEARN MORE <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-8 h-8 " xmlns="http://www.w3.org/2000/svg"><path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path></svg></span> </a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
-                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Job-Portal-Apps-Like-Indeed.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
-                            <div class="w-full p-4 shadow-sm bg-white">
-                                <div class="group relative">
-                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        Top FinTech App Development Companies In India 2024
-                                    </div>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
-                                </div>
-                                <div class="relative mt-8 flex items-center gap-x-4">
-                                <a href="javascript:;" class="text-decoration-none flex items-center font-semibold text-base text-pink-600 duration-300"> LEARN MORE <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-8 h-8 " xmlns="http://www.w3.org/2000/svg"><path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path></svg></span> </a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
-                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/App-Like-BBC-News.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
-                            <div class="w-full p-4 shadow-sm bg-white">
-                                <div class="group relative">
-                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        Top FinTech App Development Companies In India 2024
-                                    </div>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
-                                </div>
-                                <div class="relative mt-8 flex items-center gap-x-4">
-                                <a href="javascript:;" class="text-decoration-none flex items-center font-semibold text-base text-pink-600 duration-300"> LEARN MORE <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-8 h-8 " xmlns="http://www.w3.org/2000/svg"><path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path></svg></span> </a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide rounded-2xl group/blog">
-                        <a href="https://www.imgglobalinfotech.com/blog/top-fintech-app-development-companies-in-india" class="flex max-w-xl flex-col items-start justify-between">
-                            <img class="w-full aspect-video rounded-4xl " loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/fooddelivery/Real-Estate-App-Like-Redfin.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
-                            <div class="w-full p-4 shadow-sm bg-white">
-                                <div class="group relative">
-                                    <div class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600 line-clamp-2">
-                                        Top FinTech App Development Companies In India 2024
-                                    </div>
-                                    <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">This blog aims to shed light on the list of the top fintech mobile app development companies in India, showcasing the top 10 players redefining the financial technology landscape in 2024.</p>
-                                </div>
-                                <div class="relative mt-8 flex items-center gap-x-4">
-                                <a href="javascript:;" class="text-decoration-none flex items-center font-semibold text-base text-pink-600 duration-300"> LEARN MORE <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-8 h-8 " xmlns="http://www.w3.org/2000/svg"><path d="M295.6 163.7c-5.1 5-5.1 13.3-.1 18.4l60.8 60.9H124.9c-7.1 0-12.9 5.8-12.9 13s5.8 13 12.9 13h231.3l-60.8 60.9c-5 5.1-4.9 13.3.1 18.4 5.1 5 13.2 5 18.3-.1l82.4-83c1.1-1.2 2-2.5 2.7-4.1.7-1.6 1-3.3 1-5 0-3.4-1.3-6.6-3.7-9.1l-82.4-83c-4.9-5.2-13.1-5.3-18.2-.3z"></path></svg></span> </a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-   
-    
-</div>
-
-{{-- Solution Section Ends --}}
-
-
 
 {{-- faq section start  --}}
 
