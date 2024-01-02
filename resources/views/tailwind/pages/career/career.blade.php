@@ -78,7 +78,7 @@
 
 
 {{-- Work Life At Its Best section start  --}}
-<div class="relative overflow-hidden">
+<div class="relative overflow-hidden select-none">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
@@ -94,7 +94,7 @@
         <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-sky-400 to-sky-400 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
 
-    <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-10 overflow-hidden">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-5 overflow-hidden">
     
         <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
             <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
@@ -171,7 +171,7 @@
 
 {{-- Benefits & Perks start  --}}
 
-<div class="relative  overflow-hidden bg-white md:py-16 py-10">
+<div class="relative select-none overflow-hidden bg-white md:py-16 py-5">
   
     <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
         <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
@@ -225,10 +225,10 @@
 
 {{-- Why We Love It Here Value start  --}}
 
-<div class=" border bg-theme1 py-10 relative overflow-hidden  ">
+<div class=" border bg-theme1 py-10 relative select-none overflow-hidden  ">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full after:absolute after:w-20 after:rounded-full after:h-20 after:right-[50px] after:bottom-[50px] after:bg-gradient-to-r after:from-indigo-200 after:via-purple-600 after:to-indigo-200 before:absolute before:w-20 before:rounded-full before:h-20 before:lg:left-[500px] md:left-[300px] :left-[200px] before:top-[300px]  before:bg-gradient-to-r before:from-gray-500 before:via-sky-600 before:to-gray-5000 ">
         <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
-            <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white">
+            <p class=" mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white">
                 <span class="font-normal">Why We Love It</span> 
                 <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> Here Value</span>
             </p>
@@ -349,7 +349,7 @@
 
 
 {{-- apply now section start --}}
-<div class="bg-gray-100 relative overflow-hidden">
+<div class="bg-gray-100 relative select-none overflow-hidden">
     <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-10 overflow-hidden">
