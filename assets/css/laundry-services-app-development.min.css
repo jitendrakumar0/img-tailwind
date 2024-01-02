@@ -1,0 +1,255 @@
+.why-should-section {
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+}
+
+.laundry_services_box .laundry_item {
+  transition: 500ms ease;
+  border-radius: 12px;
+}
+.laundry_services_box .laundry_item::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(../../../img/laundry-services-app-development/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.laundry_services_box .laundry_item .col-12 {
+  transition: 500ms ease;
+}
+.laundry_services_box .laundry_item .laundry_icon img {
+  transition: 500ms ease;
+}
+.laundry_services_box .laundry_item:hover {
+  background: #0b5a7b;
+}
+.laundry_services_box .laundry_item:hover .laundry_icon img {
+  transform: scale(1.1);
+}
+.laundry_services_box .laundry_item:hover .col-12 {
+  color: #fff !important;
+}
+
+.app-features-section .nav-tabs .nav-link {
+  border-radius: 8px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 1px #000;
+  background: #0a4e6b;
+  width: 186px;
+  color: #fff;
+}
+.app-features-section .nav-tabs .nav-link.active {
+  background: #df9f18;
+  border-color: #0a4e6b;
+}
+.app-features-section .feature-block-one {
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  padding: 20px 20px;
+  text-align: center;
+  margin: 0px 0;
+  overflow: hidden;
+  transition: 500ms ease;
+  z-index: 9;
+}
+.app-features-section .feature-block-one .col-12 {
+  transition: 500ms ease;
+}
+.app-features-section .feature-block-one::before {
+  position: absolute;
+  content: "";
+  background: #0b5a7b;
+  height: 100%;
+  width: 6px;
+  left: 0;
+  top: 0;
+  transition: 500ms ease;
+  z-index: -1;
+}
+.app-features-section .feature-block-one::after {
+  position: absolute;
+  content: "";
+  background: #0b5a7b;
+  height: 100%;
+  width: 6px;
+  right: 0;
+  top: 0;
+  transition: 500ms ease;
+  z-index: -1;
+}
+.app-features-section .feature-block-one:hover .col-12 {
+  color: #fff !important;
+}
+.app-features-section .feature-block-one:hover:before {
+  width: 100%;
+  transform: scale(1.1);
+}
+.app-features-section .feature-block-one:hover:after {
+  width: 100%;
+  transform: scale(1.1);
+}
+.app-features-section .feature-block-one img {
+  cursor: pointer;
+  transition: transform 0.3s linear;
+  aspect-ratio: 1/1;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 50px !important;
+  -o-object-position: center;
+     object-position: center;
+  transition: 500ms ease;
+}
+.app-features-section .feature-block-one:hover {
+  cursor: pointer;
+}
+.app-features-section .feature-block-one:hover img {
+  transform: rotateY(180deg);
+  transition: transform 0.7s linear;
+  filter: brightness(10);
+}
+
+.banner-cta1 {
+  background-color: #183249;
+}
+.banner-cta1 .expert-btn {
+  padding: 11px 24px !important;
+  color: #222;
+  cursor: pointer;
+  transition: all ease 0.4s;
+  border-radius: 24px !important;
+}
+
+.faq_section {
+  background: #f8f9fa;
+}
+
+.faq_section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  filter: brightness(0.5);
+  z-index: 0;
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+
+.faq_section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+
+.accordion-item {
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.0509803922);
+  border-radius: 10px;
+  border: 0;
+}
+
+button.accordion-button {
+  background: linear-gradient(to right, #03151d 12%, #0b5a7b);
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff6d00;
+  color: #fff;
+  box-shadow: unset;
+  outline: unset;
+}
+
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+
+.on_demand .box {
+  border-bottom: 7px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+  transition: 0.9s ease-in;
+}
+.on_demand .box:hover {
+  border-bottom: 7px solid #e09c19 !important;
+  transition: all 0.3s ease;
+  transform: translateY(-10px);
+  transition: 0.9s ease-in;
+  cursor: pointer;
+}
+.on_demand .box:hover img {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.on_demand .box .picture {
+  overflow: hidden;
+}
+.on_demand .box .picture img {
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transform: scale(1.2);
+}
+.on_demand .expert-btn {
+  padding: 6px 24px !important;
+  cursor: pointer;
+  transition: all ease 0.4s;
+  border-radius: 24px !important;
+}
+.on_demand .items .item {
+  scroll-snap-align: center;
+  scroll-margin: 5px;
+}
+
+@media (max-width: 991.98px) {
+  .app-development_area .heading::before {
+    right: 0 !important;
+  }
+  .app-development_area .heading::after {
+    right: 0 !important;
+  }
+  .hire_section .hire_box.hire_box_2 {
+    margin-top: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .app-development_area .heading::before {
+    right: 0 !important;
+  }
+  .app-development_area .heading::after {
+    right: 0 !important;
+  }
+  .hire_section .hire_box.hire_box_2 {
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=laundry-services-app-development.min.css.map */

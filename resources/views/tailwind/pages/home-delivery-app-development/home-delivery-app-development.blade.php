@@ -135,7 +135,7 @@
             </p>
             <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We prioritize our clients, delivering tailored solutions that exceed expectations and foster long-term partnerships.</div>
             <div class="flex mt-2 mx-auto md:mt-10 pt-7 sm:pt-8 lg:mx-0 justify-center flex-wrap">
-                <div class="lg:w-1/3 md:w-1/2 w-full p-4">
+                <div class="lg:w-1/3 p-7md:w-1/2 w-full p-4">
                     <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
                         <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                         <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">01</div>
@@ -149,7 +149,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="lg:w-1/3 md:w-1/2 w-full p-4">
+                <div class="lg:w-1/3 p-7md:w-1/2 w-full p-4">
                     <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
                         <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                             <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">02</div>
@@ -163,7 +163,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="lg:w-1/3 md:w-1/2 w-full p-4">
+                <div class="lg:w-1/3 p-7md:w-1/2 w-full p-4">
                     <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
                         <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                         <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">03</div>
@@ -196,7 +196,7 @@
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="flex flex-wrap justify-center select-none row-flex my-6 w-full ">
-            <div class=" md:w-1/2 lg:w-1/3 p-3 w-full">
+            <div class=" md:w-1/2 lg:w-1/3 p-7p-3 w-full">
                 <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-2xl  h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] md:hover:before:w-full  md:hover:before:h-full  md:hover:before:top-0  md:hover:before:left-0 md:hover:before:rounded-none">
                     <div class="flex justify-between items-center pb-6">
                         <div class="bg-purple-50  translate-y[50%] md:h-[70px] md:w-[70px] w-[50px] h-[50px]  flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
@@ -551,6 +551,151 @@
     </div>
 </div>
 {{-- blog section end  --}}
+{{-- new page --}}
+<div class="md:py-16 py-5  -z-50 relative bg-slate-900">
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
+
+        <div class="md:text-center text-left">
+            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal text-white">Why We are the Best Android <br></span> 
+                <span class="font-bold  bg-gradient-to-r from-sky-300 via-sky-200 to-sky-400 bg-clip-text text-transparent"> App Development Company?</span>
+            </p>
+            <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
+            
+        </div>
+        <div class="flex flex-wrap pt-4">
+            <div class="w-1/3 p-5">
+                <div class="flex bg-white  relative px-4 py-7 flex-nowrap border-2 border-green-500  before:absolute  before:h-full before:w-[36px] before:bg-green-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
+                    <div class="w-[20%]"> 
+                        <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] text-green-500 h-[40px]" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                <circle cx="10" cy="8" r="4"></circle>
+                                <path d="M10.67 13.02c-.22-.01-.44-.02-.67-.02-2.42 0-4.68.67-6.61 1.82-.88.52-1.39 1.5-1.39 2.53V20h9.26a6.963 6.963 0 01-.59-6.98zM20.75 16c0-.22-.03-.42-.06-.63l1.14-1.01-1-1.73-1.45.49c-.32-.27-.68-.48-1.08-.63L18 11h-2l-.3 1.49c-.4.15-.76.36-1.08.63l-1.45-.49-1 1.73 1.14 1.01c-.03.21-.06.41-.06.63s.03.42.06.63l-1.14 1.01 1 1.73 1.45-.49c.32.27.68.48 1.08.63L16 21h2l.3-1.49c.4-.15.76-.36 1.08-.63l1.45.49 1-1.73-1.14-1.01c.03-.21.06-.41.06-.63zM17 18c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"></path>
+                            </svg>                    
+                                </div>
+                    </div>
+                    <div class="w-[80%] flex items-center justify-start p-0">
+                        <div class=" text-left text-lg font-semibold leading-6 text-gray-900 whitespace-nowrap line-clamp-2 ps-2">Efficient Project Management</div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="w-1/3 p-5">
+                <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2 border-sky-500  before:absolute  before:h-full before:w-[36px] before:bg-sky-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
+                    <div class="w-[20%]"> 
+                        <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
+                            <svg stroke="currentColor" fill="none" stroke-width="1" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="w-[40px] text-sky-500 h-[40px]" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"></path>
+                                <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M14 11h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"></path>
+                                <path d="M12 17v1m0 -8v1"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="w-[80%] flex items-center justify-start p-0">
+                        <div class=" text-left text-lg font-semibold leading-6 text-gray-900 whitespace-nowrap line-clamp-2 ps-2">Cost effective Service</div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="w-1/3 p-5">
+                <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2  border-amber-500  before:absolute  before:h-full before:w-[36px] before:bg-amber-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
+                    <div class="w-[20%]"> 
+                        <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
+                            <svg stroke="currentColor" fill="currentcolor" stroke-width="0" viewBox="0 0 32 32" class="w-[40px] text-amber-500 h-[40px]" xmlns="http://www.w3.org/2000/svg"><path d="M 19.65625 4.3125 C 18.882813 4.40625 18.195313 4.953125 17.96875 5.75 L 15.3125 15.0625 L 11.96875 16.03125 C 11.730469 14.335938 10.257813 13 8.5 13 C 6.578125 13 5 14.578125 5 16.5 C 5 18.421875 6.578125 20 8.5 20 C 9.789063 20 10.925781 19.269531 11.53125 18.21875 L 14.65625 17.34375 L 13.78125 20.46875 C 12.730469 21.074219 12 22.210938 12 23.5 C 12 25.421875 13.578125 27 15.5 27 C 17.421875 27 19 25.421875 19 23.5 C 19 21.742188 17.664063 20.269531 15.96875 20.03125 L 20.4375 4.375 C 20.171875 4.300781 19.914063 4.28125 19.65625 4.3125 Z M 27.625 11.5625 L 18.90625 14.03125 L 18.25 16.3125 L 26.25 14.03125 C 27.3125 13.726563 27.929688 12.625 27.625 11.5625 Z M 8.5 15 C 9.339844 15 10 15.660156 10 16.5 C 10 17.339844 9.339844 18 8.5 18 C 7.660156 18 7 17.339844 7 16.5 C 7 15.660156 7.660156 15 8.5 15 Z M 15.5 22 C 16.339844 22 17 22.660156 17 23.5 C 17 24.339844 16.339844 25 15.5 25 C 14.660156 25 14 24.339844 14 23.5 C 14 22.660156 14.660156 22 15.5 22 Z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="w-[80%] flex items-center justify-start p-0">
+                        <div class=" text-left text-lg font-semibold leading-6 text-gray-900 whitespace-nowrap line-clamp-2 ps-2">Cutting Edge Technology</div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="w-1/3 p-5">
+                <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2  border-red-500  before:absolute  before:h-full before:w-[36px] before:bg-red-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
+                    <div class="w-[20%]"> 
+                        <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] text-red-500 h-[30px]" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M3,18 L21,18 L21,5 L21,5 C21,4.44771525 20.5522847,4 20,4 L4,4 L4,4 C3.44771525,4 3,4.44771525 3,5 L3,18 Z M2,20 L22,20 C23,20 23,19 23,19 L1,19 C1,19 1,20 2,20 Z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="w-[80%] flex items-center justify-start p-0">
+                        <div class=" text-left text-lg font-semibold leading-6 text-gray-900 whitespace-nowrap line-clamp-2 ps-2">Dedicated Developers</div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="w-1/3 p-5">
+                <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2  border-teal-700  before:absolute  before:h-full before:w-[36px] before:bg-teal-700 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
+                    <div class="w-[20%]"> 
+                        <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
+                            <svg stroke="currentColor" fill="currentcolor" stroke-width="0" viewBox="0 0 16 16" class="w-[40px] text-teal-700 h-[40px]   xmlns="http://www.w3.org/2000/svg"><path d="M13.51 4l-5-3h-1l-5 3-.49.86v6l.49.85 5 3h1l5-3 .49-.85v-6L13.51 4zm-6 9.56l-4.5-2.7V5.7l4.5 2.45v5.41zM3.27 4.7l4.74-2.84 4.74 2.84-4.74 2.59L3.27 4.7zm9.74 6.16l-4.5 2.7V8.15l4.5-2.45v5.16z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="w-[80%] flex items-center justify-start p-0">
+                        <div class=" text-left text-lg font-semibold leading-6 text-gray-900 whitespace-nowrap line-clamp-2 ps-2">Proven Method</div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="w-1/3 p-5">
+                <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2  border-purple-500  before:absolute  before:h-full before:w-[36px] before:bg-purple-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
+                    <div class="w-[20%]"> 
+                        <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] text-purple-700 h-[40px]" xmlns="http://www.w3.org/2000/svg"><g id="Delivery_Truck"><g><path d="M21.47,11.185l-1.03-1.43a2.5,2.5,0,0,0-2.03-1.05H14.03V6.565a2.5,2.5,0,0,0-2.5-2.5H4.56a2.507,2.507,0,0,0-2.5,2.5v9.94a1.5,1.5,0,0,0,1.5,1.5H4.78a2.242,2.242,0,0,0,4.44,0h5.56a2.242,2.242,0,0,0,4.44,0h1.22a1.5,1.5,0,0,0,1.5-1.5v-3.87A2.508,2.508,0,0,0,21.47,11.185ZM7,18.935a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,7,18.935Zm6.03-1.93H9.15a2.257,2.257,0,0,0-4.3,0H3.56a.5.5,0,0,1-.5-.5V6.565a1.5,1.5,0,0,1,1.5-1.5h6.97a1.5,1.5,0,0,1,1.5,1.5ZM17,18.935a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,17,18.935Zm3.94-2.43a.5.5,0,0,1-.5.5H19.15a2.257,2.257,0,0,0-4.3,0h-.82v-7.3h4.38a1.516,1.516,0,0,1,1.22.63l1.03,1.43a1.527,1.527,0,0,1,.28.87Z"></path>
+                                <path d="M18.029,12.205h-2a.5.5,0,0,1,0-1h2a.5.5,0,0,1,0,1Z"></path></g></g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="w-[80%] flex items-center justify-start p-0">
+                        <div class=" text-left text-lg font-semibold leading-6 text-gray-900 whitespace-nowrap line-clamp-2 ps-2">Dedicated Developers</div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="w-1/3 p-5">
+                <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2  border-lime-500  before:absolute  before:h-full before:w-[36px] before:bg-lime-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
+                    <div class="w-[20%]"> 
+                        <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="w-[30px] text-lime-500 h-[30px] " xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="w-[80%] flex items-center justify-start p-0">
+                        <div class=" text-left text-lg font-semibold leading-6 text-gray-900 whitespace-nowrap line-clamp-2 ps-2">Highest Coincidentally</div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="w-1/3 p-5">
+                <div class="flex bg-white relative px-4 py-7 flex-nowrap group border-2  border-blue-600  before:absolute  before:h-full before:w-[36px] before:bg-blue-600 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
+                    <div class="w-[20%]"> 
+                        <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] text-blue-600 h-[40px] " xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path>
+                                <path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                        </div>
+                    </div>
+                        <div class="w-[80%] flex items-center justify-start p-0">
+                        <div class=" text-left text-lg font-semibold leading-6 group-hover:text-red-600 duration-300 text-gray-500 whitespace-nowrap line-clamp-2 ps-2">Enhanced RIO</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+{{-- new page end --}}
 
 
 
