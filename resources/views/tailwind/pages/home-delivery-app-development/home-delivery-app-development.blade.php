@@ -759,19 +759,76 @@
 
 {{-- cta section start  --}}
 
-<div class="relative h-[40vh] bg-theme1 bg-opacity-95 pt-16 md:pt-20 lg:pt-32 select-none overflow-hidden ">
-    <div class="absolute bg-[url('../img/andoridapp/ctaimg.webp')] bg-no-repeat bg-cover inset-0 h-full w-full -z-10"></div>
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full relative z-50">
-        <div class="flex flex-row flex-wrap">
-            <div class="w-1/2">
-                <span class="text-white text-2xl">Level Up Your Business Game</span>
+<div class="select-none">
+    <div class="bg-white py-8 sm:py-16 lg:py-16">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="relative isolate overflow-hidden text-center justify-center bg-gray-900 px-6 shadow-2xl rounded-2xl sm:rounded-3xl sm:px-16 lg:flex lg:gap-x-20 lg:px-24">
+                <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0 pointer-events-none" aria-hidden="true">
+                    <circle cx="512" cy="512" r="512" fill="url(#l2200)" fill-opacity="0.7" />
+                    <defs>
+                        <radialGradient id="l2200">
+                            <stop offset="0.5" stop-color="#9333ea" />
+                            <stop offset="1" stop-color="#db2777" />
+                        </radialGradient>
+                    </defs>
+                </svg>
+                <div class="absolute inset-x-0 top-0 h-96 z-0 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
+                    <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="ryhhgfbyi" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                                <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                            </pattern>
+                        </defs>
+                        <rect width="100%" height="100%" fill="url(#ryhhgfbyi)"></rect>
+                    </svg>
+                </div>
+                <div class="mx-auto max-w-3xl lg:mx-0 lg:flex-auto py-12 md:py-16 lg:py-32 lg:text-left relative z-[1]">
+                    <div class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center">Let's turn your <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent">business idea into reality</span></div>
+                    <p class="mt-6 text-base md:text-lg md:leading-8 text-gray-300 text-center">Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one of our executives will catch you up in no time by Call, Email or Skype.</p>
+                    <div class="mt-10 flex items-center justify-center gap-x-6">
+                        <a href="https://www.imgglobalinfotech.com/request-a-quote.php" class="rounded-md rounded-br-none bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Book A Discovery Call</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
 </div>
 
 {{-- cta section end  --}}
+
+
+{{-- help of our android start  --}}
+
+
+
+<div class="relative isolate py-8 sm:py-16 md:py-24 lg:py-32 overflow-hidden bg-gradient-to-br from-sky-950 to-amber-950 text-white select-none">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
+        <div class="mx-auto grid items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+            <div class="max-w-xl lg:max-w-lg">
+                <div class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold tracking-tight sm:text-4xl">Awards & Recognitions</div>
+                <p class="mt-4 text-sm md:text-base opacity-80">IMG Global Infotech's journey is adorned with moments of triumph and recognition. From industry awards validating our innovation to recognitions honing our commitment to quality, here is a testament to our unwavering pursuit of greatness. Discover the tapestry of honors that embellish our legacy and inspire us to reach even greater heights.</p>
+            </div>
+            <div class="w-full">
+                <div class="img relative">
+                    <img class=" lg:h-full lg:w-full md:h-[600px] mx-auto [-webkit-mask-image:url('../img/mask/mask_3.webp')] [-webkit-mask-size:contain] [-webkit-mask-position:center_center] [-webkit-mask-repeat:no-repeat]" src="{{asset('public'.mix('/tailwind/img/andoridapp/androidservices.webp'))}}" alt="beifit"> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg aria-hidden="true" class="absolute inset-0 -z-10 h-full w-full pointer-events-none text-white/5">
+        <defs>
+            <pattern id="tuty" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
+                <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+            </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#tuty)"></rect>
+    </svg>
+    <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6 pointer-events-none" aria-hidden="true">
+        <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-pink-600 to-purple-600 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+</div>
+
+{{-- help of our android end  --}}
 
 
 {{-- NEW PAGE END  --}}

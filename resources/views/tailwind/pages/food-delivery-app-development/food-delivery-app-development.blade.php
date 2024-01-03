@@ -32,7 +32,7 @@
 
 @section('content')
 {{-- hero section start  --}}
-<div class="xl:h-[100vh] relative pt-16 md:pt-20 lg:pt-36 select-none overflow-hidden bg-[url('../img/fooddelivery/download.webp')] bg-no-repeat bg-cover h-full w-full">
+<div class=" relative pt-16 md:pt-20 lg:pt-31 select-none overflow-hidden bg-[url('../img/fooddelivery/download.webp')] bg-no-repeat bg-cover h-full w-full">
 
     <div class="mx-auto max-w-7xl px-6 lg:pl-48 lg:pr-52 z-[1]  py-8 sm:py-10 md:py-14 lg:py-20 text-center relative">
         <div class="hidden z-0 sm:absolute sm:-top-10 sm:right-1/2 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
@@ -41,17 +41,94 @@
         <div class="absolute z-0 -top-52 left-1/2 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
             <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-sky-400 to-sky-400 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
         </div>
-        <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
+        <div class="md:pt-3 relative z-10">
          
-            <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-pretty">
-                <span class="font-bold"> On-Demand Food Delivery</span> <br>
+            <p class="mt-4 max-md:text-2xl/tight max-xl:text-4xl/tight text-5xl/tight tracking-[-0.04em] text-black text-pretty">
+                <span class="font-bold"> On-Demand Food Delivery</span> 
                 <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> App Development Company</span>
             </p>
-            <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1 text-pretty">
-                iCoderz Solutions is the best Food delivery app development company with over 12 years of experience serving food business owners. Our <span class="font-bold">on demand food delivery app development</span> services help food business owners increase their brand visibility and sales rapidly.
+            <div class="md:text-base text-sm text-black mt-3 mb-lg-1 text-pretty">
+                IMG Solutions is the best Food delivery app development company with over 12 years of experience serving food business owners. Our <span class="font-bold">on demand food delivery app development</span> services help food business owners increase their brand visibility and sales rapidly.
+            </div>
+        </div >
+        <div class="pt-5">
+            <div class="md:flex items-center gap-[10px] lg:justify-center justify-between">
+                <div class="flex items-center justify-center">
+                    <div class="group/db relative flex bg-sky-600/30 items-center gap-x-2 rounded-full px-2 xl:px-4 py-1 xl:py-1">
+                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-sky-900 group-hover/db:bg-sky-950/90">
+                        <svg class="text-white h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                        </div>
+                        <div class="md:flex-auto">
+                        <a href="javascript:;" class="block font-semibold hover:opacity-90 md:text-base text-xs duration-200 hoverLink">
+                            Get solution Delivered in 2 week.
+                            <span class="absolute inset-0 z-[1]"></span>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center">
+                    <div class="group/db relative flex bg-sky-600/30 items-center justify-center gap-x-2 rounded-full px-2 xl:px-4 py-1 xl:py-1">
+                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-sky-900 group-hover/db:bg-sky-950/90">
+                          <svg class="text-white h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                        </div>
+                        <div class="md:flex-auto">
+                          <a href="javascript:;" class="block font-semibold hover:opacity-90 md:text-base text-xs duration-200 hoverLink">
+                            Dedicated team of food delivery App Developer
+                            <span class="absolute inset-0 z-[1]"></span>
+                          </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class=" sm:mt-10 mt-6">
+        <div class="pt-3">
+            <div class="md:flex items-center gap-[10px] justify-center">
+                <div class="flex items-center justify-center gap-2">
+                    <div class="group/db relative flex bg-sky-600/30 items-center justify-center gap-x-2 rounded-full px-2 xl:px-4 py-1 xl:py-1 sm:w-auto w-full">
+                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-sky-900 group-hover/db:bg-sky-950/90">
+                            <svg class="text-white h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                        </div>
+                        <div class="md:flex-auto">
+                            <a href="javascript:;" class="block font-semibold hover:opacity-90 md:text-base text-xs duration-200 hoverLink ">
+                            Proven Expertise & Cost Effective
+                            <span class="absolute inset-0 z-[1]"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center">
+                    <div class="group/db relative flex bg-sky-600/30 items-center justify-center gap-x-2 rounded-full px-2 xl:px-4 py-1 xl:py-1">
+                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-sky-900 group-hover/db:bg-sky-950/90">
+                            <svg class="text-white h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                        </div>
+                        <div class="md:flex-auto">
+                            <a href="javascript:;" class="block font-semibold hover:opacity-90 md:text-base text-xs duration-200 hoverLink ">
+                                100% customizable solutions
+                            <span class="absolute inset-0 z-[1]"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-3">
+            <div class="md:flex items-center gap-[10px] justify-center ">
+                <div class="flex items-center justify-center">
+                    <div class="group/db relative flex bg-sky-600/30 items-center gap-x-2 rounded-full px-2 xl:px-4 py-1 xl:py-1">
+                        <div class="flex h-5 w-5 flex-none items-center justify-center rounded-lg bg-sky-900 group-hover/db:bg-sky-950/90">
+                            <svg class="text-white h-1.5 xl:h-2 w-1.5 xl:w-2 group-hover/db:h-2.5 xl:group-hover/db:h-3 group-hover/db:w-2.5 xl:group-hover/db:w-3 opacity-90 group-hover/db:opacity-80 group-hover/db:animate-spin" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                        </div>
+                        <div class="md:flex-auto">
+                            <a href="javascript:;" class="block font-semibold hover:opacity-90 md:text-base text-xs duration-200 hoverLink ">
+                                Fully Signed NDA & Code Security
+                            <span class="absolute inset-0 z-[1]"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" sm:mt-8 mt-6">
             <a href="https://www.imgglobalinfotech.com/about-us.php" class="inline-flex rounded-br-none justify-center z-30 relative rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Get Your Free Quote <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
         </div>
     </div>
@@ -1605,9 +1682,6 @@
 </div>
 
 {{-- other app like sectio new --}}
-
-
-
 
 
 

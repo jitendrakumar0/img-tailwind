@@ -2137,9 +2137,6 @@ select{
 .z-40{
   z-index: 40;
 }
-.z-50{
-  z-index: 50;
-}
 .z-\[100000\]{
   z-index: 100000;
 }
@@ -3012,6 +3009,9 @@ select{
 .gap-8{
   gap: 2rem;
 }
+.gap-\[10px\]{
+  gap: 10px;
+}
 .gap-x-10{
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
@@ -3388,9 +3388,16 @@ select{
 .bg-red-950\/50{
   background-color: rgb(69 10 10 / 0.5);
 }
+.bg-sky-600\/30{
+  background-color: rgb(2 132 199 / 0.3);
+}
 .bg-sky-700{
   --tw-bg-opacity: 1;
   background-color: rgb(3 105 161 / var(--tw-bg-opacity));
+}
+.bg-sky-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 74 110 / var(--tw-bg-opacity));
 }
 .bg-sky-950\/10{
   background-color: rgb(8 47 73 / 0.1);
@@ -3434,12 +3441,6 @@ select{
 }
 .bg-opacity-75{
   --tw-bg-opacity: 0.75;
-}
-.bg-opacity-95{
-  --tw-bg-opacity: 0.95;
-}
-.bg-\[url\(\'\.\.\/img\/andoridapp\/ctaimg\.webp\'\)\]{
-  background-image: url('../img/andoridapp/ctaimg.webp');
 }
 .bg-\[url\(\'\.\.\/img\/beams1\.webp\'\)\]{
   background-image: url('../img/beams1.webp');
@@ -6902,6 +6903,10 @@ select{
   background-color: rgb(3 7 18 / 0.9);
 }
 
+.group\/db:hover .group-hover\/db\:bg-sky-950\/90{
+  background-color: rgb(8 47 73 / 0.9);
+}
+
 .group:hover .group-hover\:bg-slate-900\/90{
   background-color: rgb(15 23 42 / 0.9);
 }
@@ -7739,6 +7744,10 @@ select{
     font-size: 1.875rem;
     line-height: 1.25;
   }
+  .max-xl\:text-4xl\/tight{
+    font-size: 2.25rem;
+    line-height: 1.25;
+  }
   .max-xl\:before\:translate-y-0::before{
     content: var(--tw-content);
     --tw-translate-y: 0px;
@@ -7896,14 +7905,14 @@ select{
   .sm\:mt-0{
     margin-top: 0px;
   }
-  .sm\:mt-10{
-    margin-top: 2.5rem;
-  }
   .sm\:mt-12{
     margin-top: 3rem;
   }
   .sm\:mt-20{
     margin-top: 5rem;
+  }
+  .sm\:mt-8{
+    margin-top: 2rem;
   }
   .sm\:mt-\[-360px\]{
     margin-top: -360px;
@@ -8518,6 +8527,9 @@ select{
   }
   .md\:max-w-3xl{
     max-width: 48rem;
+  }
+  .md\:flex-auto{
+    flex: 1 1 auto;
   }
   .md\:translate-x-\[-7\%\]{
     --tw-translate-x: -7%;
@@ -9212,6 +9224,9 @@ select{
   .lg\:justify-end{
     justify-content: flex-end;
   }
+  .lg\:justify-center{
+    justify-content: center;
+  }
   .lg\:gap-12{
     gap: 3rem;
   }
@@ -9350,9 +9365,6 @@ select{
   .lg\:pt-32{
     padding-top: 8rem;
   }
-  .lg\:pt-36{
-    padding-top: 9rem;
-  }
   .lg\:pt-48{
     padding-top: 12rem;
   }
@@ -9441,9 +9453,6 @@ select{
   .xl\:h-3{
     height: 0.75rem;
   }
-  .xl\:h-\[100vh\]{
-    height: 100vh;
-  }
   .xl\:w-1\/2{
     width: 50%;
   }
@@ -9504,6 +9513,10 @@ select{
   .xl\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .xl\:py-1{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
   .xl\:py-16{
     padding-top: 4rem;

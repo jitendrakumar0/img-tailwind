@@ -96,14 +96,11 @@
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-5 overflow-hidden">
     
-        <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
+        <div class="md:pt-3 relative z-10">
             <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
                 <span class="font-normal">Work Life At</span> 
                 <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Its Best</span>
             </p>
-            {{-- <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
-                Escalate your food delivery & Ordering business to new heights with our fully-featured white-label on demand restaurant app development solutions. Our best-in-class certified food app developers develop highly interactive features for your online food delivery application
-            </div> --}}
         </div>
     
         <div class="flex flex-wrap mt-10 ">
@@ -589,16 +586,6 @@
                 </div>
             </div>
         </div>
-
-      
-        
-       
-       
-       
-
-     
-       
-      
     </div>
 </div>
 
