@@ -2176,6 +2176,9 @@ select{
 .z-\[2000\]{
   z-index: 2000;
 }
+.z-\[2525\]{
+  z-index: 2525;
+}
 .z-\[2\]{
   z-index: 2;
 }
@@ -2187,6 +2190,9 @@ select{
 }
 .z-\[99\]{
   z-index: 99;
+}
+.z-\[2525252525\]{
+  z-index: 2525252525;
 }
 .order-1{
   order: 1;
@@ -2594,6 +2600,9 @@ select{
 .h-\[404px\]{
   height: 404px;
 }
+.h-\[40px\]{
+  height: 40px;
+}
 .h-\[40vh\]{
   height: 40vh;
 }
@@ -2611,6 +2620,9 @@ select{
 }
 .h-\[600px\]{
   height: 600px;
+}
+.h-\[60px\]{
+  height: 60px;
 }
 .h-\[64rem\]{
   height: 64rem;
@@ -2773,6 +2785,9 @@ select{
 }
 .w-\[57rem\]{
   width: 57rem;
+}
+.w-\[60px\]{
+  width: 60px;
 }
 .w-\[64rem\]{
   width: 64rem;
@@ -3302,6 +3317,10 @@ select{
 }
 .bg-amber-950\/10{
   background-color: rgb(69 26 3 / 0.1);
+}
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 .bg-black\/10{
   background-color: rgb(0 0 0 / 0.1);
@@ -4124,6 +4143,9 @@ select{
 }
 .pb-16{
   padding-bottom: 4rem;
+}
+.pb-2{
+  padding-bottom: 0.5rem;
 }
 .pb-3{
   padding-bottom: 0.75rem;
@@ -6131,6 +6153,9 @@ select{
   --tw-scale-y: .9;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.hover\:rounded-lg:hover{
+  border-radius: 0.5rem;
+}
 .hover\:rounded-tr-4xl:hover{
   border-top-right-radius: 2rem;
 }
@@ -6179,6 +6204,10 @@ select{
 .hover\:bg-slate-700:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+}
+.hover\:bg-white:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .hover\:bg-white\/25:hover{
   background-color: rgb(255 255 255 / 0.25);
@@ -6422,6 +6451,10 @@ select{
 .group\/social:hover .group-hover\/social\:text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.group:hover .group-hover\:text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .group:hover .group-hover\:text-blue-950{
   --tw-text-opacity: 1;
@@ -7367,6 +7400,9 @@ select{
   .sm\:p-3{
     padding: 0.75rem;
   }
+  .sm\:p-5{
+    padding: 1.25rem;
+  }
   .sm\:p-6{
     padding: 1.5rem;
   }
@@ -7450,6 +7486,9 @@ select{
   }
   .sm\:pb-16{
     padding-bottom: 4rem;
+  }
+  .sm\:pb-3{
+    padding-bottom: 0.75rem;
   }
   .sm\:pb-4{
     padding-bottom: 1rem;
@@ -7917,6 +7956,9 @@ select{
   .md\:w-\[49\%\]{
     width: 49%;
   }
+  .md\:w-\[50px\]{
+    width: 50px;
+  }
   .md\:w-\[60px\]{
     width: 60px;
   }
@@ -7929,6 +7971,9 @@ select{
   }
   .md\:grid-cols-5{
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .md\:gap-4{
+    gap: 1rem;
   }
   .md\:gap-5{
     gap: 1.25rem;
@@ -8043,6 +8088,9 @@ select{
   }
   .md\:pb-16{
     padding-bottom: 4rem;
+  }
+  .md\:pb-4{
+    padding-bottom: 1rem;
   }
   .md\:pt-12{
     padding-top: 3rem;
@@ -8247,6 +8295,9 @@ select{
   .lg\:h-\[70px\]{
     height: 70px;
   }
+  .lg\:h-\[80px\]{
+    height: 80px;
+  }
   .lg\:h-\[calc\(100vh-128px\)\]{
     height: calc(100vh - 128px);
   }
@@ -8294,6 +8345,9 @@ select{
   }
   .lg\:w-\[70px\]{
     width: 70px;
+  }
+  .lg\:w-\[80px\]{
+    width: 80px;
   }
   .lg\:w-\[90\%\]{
     width: 90%;
@@ -8374,6 +8428,10 @@ select{
   }
   .lg\:rounded-2xl{
     border-radius: 1rem;
+  }
+  .lg\:bg-white{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
   .lg\:p-3{
     padding: 0.75rem;
