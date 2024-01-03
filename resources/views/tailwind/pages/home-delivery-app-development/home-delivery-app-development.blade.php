@@ -592,7 +592,7 @@
                 </div>
                 
             </div>
-            <div class="w-1/3 p-5">
+            <div class="lg:w-1/3 w-full sm:w-1/2  p-5">
                 <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2 border-sky-500  before:absolute  before:h-full before:w-[36px] before:bg-sky-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
                     <div class="w-[20%]"> 
                         <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
@@ -610,7 +610,7 @@
                 </div>
                 
             </div>
-            <div class="w-1/3 p-5">
+            <div class="lg:w-1/3 w-full sm:w-1/2  p-5">
                 <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2  border-amber-500  before:absolute  before:h-full before:w-[36px] before:bg-amber-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
                     <div class="w-[20%]"> 
                         <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
@@ -623,7 +623,7 @@
                 </div>
                 
             </div>
-            <div class="w-1/3 p-5">
+            <div class="lg:w-1/3 w-full sm:w-1/2  p-5">
                 <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2  border-red-500  before:absolute  before:h-full before:w-[36px] before:bg-red-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
                     <div class="w-[20%]"> 
                         <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
@@ -636,7 +636,7 @@
                 </div>
                 
             </div>
-            <div class="w-1/3 p-5">
+            <div class="lg:w-1/3 w-full sm:w-1/2  p-5">
                 <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2  border-teal-700  before:absolute  before:h-full before:w-[36px] before:bg-teal-700 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
                     <div class="w-[20%]"> 
                         <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
@@ -649,7 +649,7 @@
                 </div>
                 
             </div>
-            <div class="w-1/3 p-5">
+            <div class="lg:w-1/3 w-full sm:w-1/2  p-5">
                 <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2  border-purple-500  before:absolute  before:h-full before:w-[36px] before:bg-purple-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
                     <div class="w-[20%]"> 
                         <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
@@ -664,7 +664,7 @@
                 </div>
                 
             </div>
-            <div class="w-1/3 p-5">
+            <div class="lg:w-1/3 w-full sm:w-1/2  p-5">
                 <div class="flex bg-white relative px-4 py-7 flex-nowrap  border-2  border-lime-500  before:absolute  before:h-full before:w-[36px] before:bg-lime-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
                     <div class="w-[20%]"> 
                         <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
@@ -677,7 +677,7 @@
                 </div>
                 
             </div>
-            <div class="w-1/3 p-5">
+            <div class="lg:w-1/3 w-full sm:w-1/2  p-5">
                 <div class="flex bg-white relative px-4 py-7 flex-nowrap group border-2  border-blue-600  before:absolute  before:h-full before:w-[36px] before:bg-blue-600 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] bottom-[-3px] before:z-[-1]  ">
                     <div class="w-[20%]"> 
                         <div class="w-[60px] h-[60px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
