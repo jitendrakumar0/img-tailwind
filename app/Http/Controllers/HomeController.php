@@ -194,7 +194,10 @@ class HomeController extends Controller
      {
         return view('about-us.index');
      }
-
+     public function about_us1()
+     {
+        return view('tailwind.pages.about-us.about-us');
+     }
      public function career()
      {
         return view('tailwind.pages.career.career');
@@ -915,6 +918,13 @@ class HomeController extends Controller
     {
         return view('android-application-development.index');
     }
+
+    public function android_application_development1()
+    {
+        return view('tailwind.pages.android-application-development.android-application-development');
+    }
+
+
     public function ios_app_development()
     {
         return view('ios-app-development.index');

@@ -1,4 +1,4 @@
-@extends('tailwind.index2')
+@extends('tailwind.index')
 @push('meta')
 <!--  Title -->
 <title>Disclaimer - IMG Global Infotech</title>
@@ -36,7 +36,7 @@
 
 {{-- hero section start  --}}
 
-{{-- <div class=" bg-gradient-to-b from-black/40 via-black/20 select-none text-white  group-[]/ns:from-gray-950 group-[]/ns:to-sky-950 group-[]/ons:from-gray-950 group-[]/ons:to-sky-950 group-[]/ons:rounded-b-2xl max-h-[750px] h-full">
+<div class=" bg-gradient-to-b select-none text-white from-gray-950 to-sky-950 via-sky-950 rounded-b-2xl max-h-[750px] h-full">
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative pb-16 lg:pt-48 md:pt-40 pt-36 overflow-hidden h-full">
         <div class="flex flex-row flex-wrap items-center h-full">
             <div class=" lg:w-1/2 md:w-3/5 w-full md:order-1 order-2">
@@ -69,14 +69,14 @@
             </div>
         </div>
     </div>
-</div> --}}
+</div>
 
 {{-- hero section end  --}}
 
 
 {{-- Benefits & Perks start  --}}
 
-{{-- <div class="relative  overflow-hidden bg-white md:py-16 py-10 select-none">
+<div class="relative  overflow-hidden bg-white md:py-16 py-10 select-none">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
         <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
             <div class="flex items-center flex-wrap row-flex relative">
@@ -109,12 +109,12 @@
             </div>
         <div class="pointer-events-none absolute inset-0 shadow-[inset_0_-1px_1px_rgba(0,0,0,0.06)]"></div>
     </div>
-</div> --}}
+</div>
 
 {{-- Benefits & Perks end  --}}
 
 {{-- our values start --}}
-{{-- <div class="md:py-16 py-5  relative bg-theme1">
+<div class="md:py-16 py-5  relative bg-theme1">
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
         <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -180,11 +180,11 @@
             </div>
         </div>
     </div>
-</div> --}}
+</div>
 {{-- our values end --}}
 
 {{-- our vision start --}}
-{{-- <div class="md:py-16 py-5 relative">
+<div class="md:py-16 py-5 relative">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
@@ -247,11 +247,11 @@
     
         </div>
     </div>
-</div> --}}
+</div>
 {{-- our vision end--}}
 
 
-{{-- 
+
 <div class="xl:pt-32 xl:pb-32 md:pb-36 relative overflow-hidden z-[1] bg-slate-900 select-none">
 
     <div class="hidden z-0 sm:absolute sm:-top-10 sm:right-1/2 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
@@ -374,11 +374,11 @@
       
         </div>
     </div>
-</div> --}}
+</div>
 
 
 {{-- blog section start  --}}
-{{-- <div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none">
+<div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
@@ -541,7 +541,7 @@
             </div>
         </div>
     </div>
-</div> --}}
+</div>
 {{-- blog section end  --}}
 
 

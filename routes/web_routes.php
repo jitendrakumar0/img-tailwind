@@ -20,6 +20,8 @@ Route::get('/newimg', 'HomeController@newimg');
 //Route::get('/{addr}', 'HomeController@get_routes');
 
 Route::get('/about-us.php', 'HomeController@about_us');
+Route::get('/about-us1.php', 'HomeController@about_us1');
+
 Route::get('/about-us0.php', 'HomeController@about_us0');
 
 Route::get('/career0.php', 'HomeController@career0');
@@ -266,6 +268,8 @@ Route::get('/php-web-development.php', 'HomeController@php_web_development');
 Route::get('/payment-gateway-integration.php', 'HomeController@payment_gateway_integration');
 Route::get('/ecommerce-solutions.php', 'HomeController@ecommerce_solutions');
 Route::get('/android-application-development.php', 'HomeController@android_application_development');
+Route::get('/android-application-development1.php', 'HomeController@android_application_development1');
+
 Route::get('/ios-app-development.php', 'HomeController@ios_app_development');
 Route::get('/ionic-app-development.php', 'HomeController@ionic_app_development');
 Route::get('/payroll-management-software.php', 'HomeController@payroll_management_software');
