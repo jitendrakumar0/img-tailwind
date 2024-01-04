@@ -36,7 +36,7 @@
 
 {{-- hero section start  --}}
 
-<div class=" bg-gradient-to-b from-black/40 via-black/20 select-none text-white  group-[]/ns:from-gray-950 group-[]/ns:to-sky-950 group-[]/ons:from-gray-950 group-[]/ons:to-sky-950 group-[]/ons:rounded-b-2xl max-h-[750px] h-full">
+{{-- <div class=" bg-gradient-to-b from-black/40 via-black/20 select-none text-white  group-[]/ns:from-gray-950 group-[]/ns:to-sky-950 group-[]/ons:from-gray-950 group-[]/ons:to-sky-950 group-[]/ons:rounded-b-2xl max-h-[750px] h-full">
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative pb-16 lg:pt-48 md:pt-40 pt-36 overflow-hidden h-full">
         <div class="flex flex-row flex-wrap items-center h-full">
             <div class=" lg:w-1/2 md:w-3/5 w-full md:order-1 order-2">
@@ -69,14 +69,14 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 {{-- hero section end  --}}
 
 
 {{-- Benefits & Perks start  --}}
 
-<div class="relative  overflow-hidden bg-white md:py-16 py-10 select-none">
+{{-- <div class="relative  overflow-hidden bg-white md:py-16 py-10 select-none">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
         <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
             <div class="flex items-center flex-wrap row-flex relative">
@@ -109,12 +109,12 @@
             </div>
         <div class="pointer-events-none absolute inset-0 shadow-[inset_0_-1px_1px_rgba(0,0,0,0.06)]"></div>
     </div>
-</div>
+</div> --}}
 
 {{-- Benefits & Perks end  --}}
 
 {{-- our values start --}}
-<div class="md:py-16 py-5  relative bg-theme1">
+{{-- <div class="md:py-16 py-5  relative bg-theme1">
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
         <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -180,11 +180,11 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 {{-- our values end --}}
 
 {{-- our vision start --}}
-<div class="md:py-16 py-5 relative">
+{{-- <div class="md:py-16 py-5 relative">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
@@ -247,21 +247,13 @@
     
         </div>
     </div>
-</div>
+</div> --}}
 {{-- our vision end--}}
 
 
-
+{{-- 
 <div class="xl:pt-32 xl:pb-32 md:pb-36 relative overflow-hidden z-[1] bg-slate-900 select-none">
-    {{-- <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
-        <defs>
-            <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
-                <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
-            </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#nhgh)"></rect>
-    </svg>
-    --}}
+
     <div class="hidden z-0 sm:absolute sm:-top-10 sm:right-1/2 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
         <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-sky-900 to-sky-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
@@ -289,7 +281,7 @@
             </div>
             <div class="xl:w-3/5 w-full  xl:mt-0 md:mt-80 md:block ">
             <div class="flex items-center justify-center relative proceingCard  text-center flex-wrap  md:after:absolute md:after:w-[300px] md:after:h-[300px] md:after:bg-blue-200  md:after:rounded-full">
-                {{-- <div class="text-black text-2xl "> img Global info tech</div> --}}
+          
                 <div class="md:flex hidden items-center z-30 font-bold text-slate-950 shadow-inner relative justify-center h-36 w-36 z-24 relatives rounded-full bg-white  text-xl">
                     our <br> Process
                 </div>
@@ -382,11 +374,11 @@
       
         </div>
     </div>
-</div>
+</div> --}}
 
 
 {{-- blog section start  --}}
-<div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none">
+{{-- <div class="bg-white relative overflow-hidden py-8 sm:py-16 lg:pt-24 select-none">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
@@ -549,7 +541,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 {{-- blog section end  --}}
 
 
@@ -557,7 +549,7 @@
 
 {{-- specialised Android app start  --}}
 
-<div class="relative  overflow-hidden bg-white md:py-16 py-10">
+{{-- <div class="relative  overflow-hidden bg-white md:py-16 py-10">
   
     <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
         <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
@@ -593,13 +585,13 @@
             </div>
         <div class="pointer-events-none absolute inset-0 shadow-[inset_0_-1px_1px_rgba(0,0,0,0.06)]"></div>
     </div>
-</div>
+</div> --}}
 
 {{-- specialised Android app end  --}}
 
 {{-- Android aap development services start --}}
 
-<div class="relative  overflow-hidden bg-white md:py-16 py-10">
+{{-- <div class="relative  overflow-hidden bg-white md:py-16 py-10">
     <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
         <defs>
             <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
@@ -752,13 +744,13 @@
             </div>
         </div> 
     </div>
-</div>
+</div> --}}
 
 
 {{-- Android app development services end  --}}
 
 {{-- cta section start  --}}
-
+{{-- 
 <div class="select-none">
     <div class="bg-white py-8 sm:py-16 lg:py-16">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -792,7 +784,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 {{-- cta section end  --}}
 
@@ -801,7 +793,7 @@
 
 
 
-<div class="relative isolate py-8 sm:py-16 md:py-24 lg:py-32 overflow-hidden bg-gradient-to-br from-sky-950 to-amber-950 text-white select-none">
+{{-- <div class="relative isolate py-8 sm:py-16 md:py-24 lg:py-32 overflow-hidden bg-gradient-to-br from-sky-950 to-amber-950 text-white select-none">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div class="mx-auto grid items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
             <div class="max-w-xl lg:max-w-lg">
@@ -826,12 +818,32 @@
     <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6 pointer-events-none" aria-hidden="true">
         <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-pink-600 to-purple-600 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
-</div>
+</div> --}}
 
 {{-- help of our android end  --}}
 
 
 {{-- NEW PAGE END  --}}
+
+
+<div class="h-screen relative z-0 min-h-[600px]">
+
+<div class="flex flex-wrap pt-32 h-full items-center relative z-10 w-full">
+    <div class="w-1/2 bg-black">
+        <div class="heroContent  max-w-7xl mx-auto w-full">
+            <div class="text-[#E6F2FF] font-bold leading-normal text-[46px] text-center">Black Boots Safety Case Report <span class="font-normal"></span></div>
+            <div class="text-[#E6F2FF] text-[32px] font-light leading-normal text-center">Building Safety, Simplified</div>
+        </div>
+    </div>
+</div>
+
+    <div class="flex ">
+
+    </div>
+</div>
+
+
+
 
 @endsection
 
