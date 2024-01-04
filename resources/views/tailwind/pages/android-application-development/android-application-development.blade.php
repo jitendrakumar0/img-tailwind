@@ -42,18 +42,18 @@
             <div class=" lg:w-1/2 md:w-3/5 w-full md:order-1 order-2">
                 <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10 md:text-start text-center">
                     <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white">
-                        <span class="font-normal">Empowering Businesses through</span> 
-                        <span class="font-bold bg-gradient-to-r from-indigo-200 via-sky-600 to-indigo-200 bg-clip-text text-transparent">Innovative Web & Mobile App Solutions</span>
+                        <span class="font-normal">Android App Development</span> 
+                        <span class="font-bold bg-gradient-to-r from-indigo-200 via-sky-600 to-indigo-200 bg-clip-text text-transparent">Company</span>
                     </p>
                     <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1">
-                        Empowering Businesses through Innovative Web & Mobile App Solutions.
+                        We develop all supported android OS version devices and make sure that meets design, development and improves user experience of customers. Our team is highly experienced and hold expertise with it. With native, hybrid, and cross-platform development specifically for Android, IMG Global Infotech always ensures a dependable and flawless mobile experience.
                     </div>
                     <div class="mt-6 flex md:justify-normal justify-center">
                         <a href="https://www.imgglobalinfotech.com/contact-us.php" class="duration-0 opacity-100 inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-slate-900 text-white hover:bg-slate-700">
                             <span>
                                 <span class="inline-flex items-center gap-1">
                                     <span>
-                                        Consult Our Experts
+                                        Start A Project
                                     </span>
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
                                 </span>
@@ -64,7 +64,7 @@
             </div>
             <div class="lg:w-1/2 md:w-2/5 flex  lg:justify-end justify-center w-full md:order-2 order-1">
                 <div class="w-1/2  h-1/2  flex">
-                    <img src="{{asset('public'.mix('/tailwind/img/carers/together-IMG-Global-Infotech.webp'))}}" alt="thanku" class="h-full w-full">
+                    <img src="{{asset('public'.mix('/tailwind/img/android-application/android-app-development-company-banner.webp'))}}" alt="thanku" class="h-full w-full">
                 </div>
             </div>
         </div>
@@ -79,7 +79,6 @@
 {{-- specialised Android app start  --}}
 
 <div class="relative  overflow-hidden bg-white md:py-16 py-10">
-  
     <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
         <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
             <div class="flex items-center flex-wrap row-flex relative">
@@ -321,16 +320,28 @@
 {{-- help of our android start  --}}
 
 
-<div class="relative isolate py-8 sm:py-16 md:py-24 lg:py-32 overflow-hidden bg-gradient-to-br from-sky-950 to-amber-950 text-white select-none">
+<div class="relative isolate py-8 sm:py-16 md:py-24  overflow-hidden bg-gradient-to-br from-sky-950 to-amber-950 text-white select-none">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div class="mx-auto grid items-center max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
             <div class="max-w-xl lg:max-w-lg">
-                <div class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold tracking-tight sm:text-4xl">Awards & Recognitions</div>
-                <p class="mt-4 text-sm md:text-base opacity-80">IMG Global Infotech's journey is adorned with moments of triumph and recognition. From industry awards validating our innovation to recognitions honing our commitment to quality, here is a testament to our unwavering pursuit of greatness. Discover the tapestry of honors that embellish our legacy and inspire us to reach even greater heights.</p>
+                <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white lg:text-start text-center"><span class="font-normal">With The Help of Our Android App Development Services,</span> <span class="font-bold bg-gradient-to-r from-white via-sky-600 to-white bg-clip-text text-transparent">Bring Your Concept To Life.</span></p>
+                <p class="mt-4 text-sm md:text-base leading-7 text-white/80 lg:text-start text-center">We provide Android App Development Consultation to start-ups, SMBs, and businesses solutions for developing Android apps. For the entire range of Android devices, our Android app developers have years of experience creating unique, secure, functional, and cutting-edge mobile apps.</p>
+                <div class="flex items-center mt-6 flex-wrap gap-3 w-full  lg:w-[90%]">
+                    <a href="https://www.imgglobalinfotech.com/contact-us.php" class=" inline-flex justify-center rounded-lg rounded-br-none max-md:text-xs text-sm font-semibold max-md:py-2 py-3 px-4 ring-2 ring-gray-200 bg-orange-900 text-white hover:bg-slate-700">
+                        <span>
+                            <span class="inline-flex items-center gap-1">
+                                <span>
+                                    Hire Android Developer 
+                                </span>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
+                            </span>
+                        </span>
+                    </a>
+                </div>
             </div>
             <div class="w-full">
                 <div class="img relative">
-                    <img class=" lg:h-full lg:w-full md:h-[600px] mx-auto [-webkit-mask-image:url('../img/mask/mask_3.webp')] [-webkit-mask-size:contain] [-webkit-mask-position:center_center] [-webkit-mask-repeat:no-repeat]" src="{{asset('public'.mix('/tailwind/img/andoridapp/androidservices.webp'))}}" alt="beifit"> 
+                    <img class=" lg:h-full lg:w-full md:h-[600px] mx-auto [-webkit-mask-image:url('../img/mask/mask_2.webp')] [-webkit-mask-size:contain] [-webkit-mask-position:center_center] [-webkit-mask-repeat:no-repeat]" src="{{asset('public'.mix('/tailwind/img/android-application/hiredev.webp'))}}" alt="beifit"> 
                 </div>
             </div>
         </div>
