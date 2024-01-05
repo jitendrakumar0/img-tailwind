@@ -570,7 +570,7 @@
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-red-500 group  before:absolute  before:h-full before:w-[36px] before:bg-red-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap border-2 before:duration-700 border-red-500 group  before:absolute  before:h-full before:w-[36px] before:bg-red-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] text-red-500 h-[40px]" xmlns="http://www.w3.org/2000/svg">
@@ -581,98 +581,98 @@
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 group-hover:text-red-500 line-clamp-2 ps-2">Efficient Project Management</div>
+                        <div class=" text-left md:text-lg text-base font-semibold duration-700 leading-6 text-gray-700 group-hover:text-red-500 line-clamp-2 ps-2">Efficient Project Management</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-blue-500 group  before:absolute  before:h-full before:w-[36px] before:bg-blue-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap before:duration-700 border-2 border-blue-500 group  before:absolute  before:h-full before:w-[36px] before:bg-blue-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-blue-500 ]" xmlns="http://www.w3.org/2000/svg"><path d="M12.0049 22.0029C6.48204 22.0029 2.00488 17.5258 2.00488 12.0029C2.00488 6.48008 6.48204 2.00293 12.0049 2.00293C17.5277 2.00293 22.0049 6.48008 22.0049 12.0029C22.0049 17.5258 17.5277 22.0029 12.0049 22.0029ZM12.0049 20.0029C16.4232 20.0029 20.0049 16.4212 20.0049 12.0029C20.0049 7.58465 16.4232 4.00293 12.0049 4.00293C7.5866 4.00293 4.00488 7.58465 4.00488 12.0029C4.00488 16.4212 7.5866 20.0029 12.0049 20.0029ZM8.50488 14.0029H14.0049C14.281 14.0029 14.5049 13.7791 14.5049 13.5029C14.5049 13.2268 14.281 13.0029 14.0049 13.0029H10.0049C8.62417 13.0029 7.50488 11.8836 7.50488 10.5029C7.50488 9.12222 8.62417 8.00293 10.0049 8.00293H11.0049V6.00293H13.0049V8.00293H15.5049V10.0029H10.0049C9.72874 10.0029 9.50488 10.2268 9.50488 10.5029C9.50488 10.7791 9.72874 11.0029 10.0049 11.0029H14.0049C15.3856 11.0029 16.5049 12.1222 16.5049 13.5029C16.5049 14.8836 15.3856 16.0029 14.0049 16.0029H13.0049V18.0029H11.0049V16.0029H8.50488V14.0029Z"></path></svg>
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 group-hover:text-blue-500 line-clamp-2 ps-2">Cost effective Service</div>
+                        <div class=" text-left md:text-lg text-base duration-700 font-semibold leading-6 text-gray-700 group-hover:text-blue-500 line-clamp-2 ps-2">Cost effective Service</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-amber-500 group  before:absolute  before:h-full before:w-[36px] before:bg-amber-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap before:duration-700 border-2 border-amber-500 group  before:absolute  before:h-full before:w-[36px] before:bg-amber-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32"class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-amber-500 ] xmlns="http://www.w3.org/2000/svg"><path d="M 19.65625 4.3125 C 18.882813 4.40625 18.195313 4.953125 17.96875 5.75 L 15.3125 15.0625 L 11.96875 16.03125 C 11.730469 14.335938 10.257813 13 8.5 13 C 6.578125 13 5 14.578125 5 16.5 C 5 18.421875 6.578125 20 8.5 20 C 9.789063 20 10.925781 19.269531 11.53125 18.21875 L 14.65625 17.34375 L 13.78125 20.46875 C 12.730469 21.074219 12 22.210938 12 23.5 C 12 25.421875 13.578125 27 15.5 27 C 17.421875 27 19 25.421875 19 23.5 C 19 21.742188 17.664063 20.269531 15.96875 20.03125 L 20.4375 4.375 C 20.171875 4.300781 19.914063 4.28125 19.65625 4.3125 Z M 27.625 11.5625 L 18.90625 14.03125 L 18.25 16.3125 L 26.25 14.03125 C 27.3125 13.726563 27.929688 12.625 27.625 11.5625 Z M 8.5 15 C 9.339844 15 10 15.660156 10 16.5 C 10 17.339844 9.339844 18 8.5 18 C 7.660156 18 7 17.339844 7 16.5 C 7 15.660156 7.660156 15 8.5 15 Z M 15.5 22 C 16.339844 22 17 22.660156 17 23.5 C 17 24.339844 16.339844 25 15.5 25 C 14.660156 25 14 24.339844 14 23.5 C 14 22.660156 14.660156 22 15.5 22 Z"></path></svg>
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 group-hover:text-amber-500 line-clamp-2 ps-2">Cutting Edge Technology</div>
+                        <div class=" text-left md:text-lg text-base duration-700 font-semibold leading-6 text-gray-700 group-hover:text-amber-500 line-clamp-2 ps-2">Cutting Edge Technology</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-lime-500 group  before:absolute  before:h-full before:w-[36px] before:bg-lime-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap before:duration-700 border-2 border-lime-500 group  before:absolute  before:h-full before:w-[36px] before:bg-lime-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-lime-500 ]" xmlns="http://www.w3.org/2000/svg"><path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg>                    
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 group-hover:text-lime-500 line-clamp-2 ps-2"> Dedicated Developers</div>
+                        <div class=" text-left md:text-lg text-base duration-700 font-semibold leading-6 text-gray-700 group-hover:text-lime-500 line-clamp-2 ps-2"> Dedicated Developers</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-teal-500 group  before:absolute  before:h-full before:w-[36px] before:bg-teal-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-teal-500  before:duration-700 group  before:absolute  before:h-full before:w-[36px] before:bg-teal-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-teal-500 ]" xmlns="http://www.w3.org/2000/svg"><path d="M13.51 4l-5-3h-1l-5 3-.49.86v6l.49.85 5 3h1l5-3 .49-.85v-6L13.51 4zm-6 9.56l-4.5-2.7V5.7l4.5 2.45v5.41zM3.27 4.7l4.74-2.84 4.74 2.84-4.74 2.59L3.27 4.7zm9.74 6.16l-4.5 2.7V8.15l4.5-2.45v5.16z"></path></svg>                   
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 group-hover:text-teal-500 line-clamp-2 ps-2">Proven Method</div>
+                        <div class=" text-left md:text-lg text-base font-semibold leading-6 duration-700 text-gray-700 group-hover:text-teal-500 line-clamp-2 ps-2">Proven Method</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-pink-700 group  before:absolute  before:h-full before:w-[36px] before:bg-pink-700 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-pink-700 group before:duration-700 before:absolute  before:h-full before:w-[36px] before:bg-pink-700 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-pink-700 ]" xmlns="http://www.w3.org/2000/svg"><g id="Delivery_Truck"><g><path d="M21.47,11.185l-1.03-1.43a2.5,2.5,0,0,0-2.03-1.05H14.03V6.565a2.5,2.5,0,0,0-2.5-2.5H4.56a2.507,2.507,0,0,0-2.5,2.5v9.94a1.5,1.5,0,0,0,1.5,1.5H4.78a2.242,2.242,0,0,0,4.44,0h5.56a2.242,2.242,0,0,0,4.44,0h1.22a1.5,1.5,0,0,0,1.5-1.5v-3.87A2.508,2.508,0,0,0,21.47,11.185ZM7,18.935a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,7,18.935Zm6.03-1.93H9.15a2.257,2.257,0,0,0-4.3,0H3.56a.5.5,0,0,1-.5-.5V6.565a1.5,1.5,0,0,1,1.5-1.5h6.97a1.5,1.5,0,0,1,1.5,1.5ZM17,18.935a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,17,18.935Zm3.94-2.43a.5.5,0,0,1-.5.5H19.15a2.257,2.257,0,0,0-4.3,0h-.82v-7.3h4.38a1.516,1.516,0,0,1,1.22.63l1.03,1.43a1.527,1.527,0,0,1,.28.87Z"></path><path d="M18.029,12.205h-2a.5.5,0,0,1,0-1h2a.5.5,0,0,1,0,1Z"></path></g></g></svg>                   
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 group-hover:text-pink-700 line-clamp-2 ps-2">Consistent Delivery</div>
+                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 duration-700 group-hover:text-pink-700 line-clamp-2 ps-2">Consistent Delivery</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-yellow-400 group  before:absolute  before:h-full before:w-[36px] before:bg-yellow-400 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-yellow-400 group  before:absolute before:duration-700 before:h-full before:w-[36px] before:bg-yellow-400 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-yellow-400 ]" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 2.75a.75.75 0 0 0-1.5 0v18.5c0 .414.336.75.75.75H20a.75.75 0 0 0 0-1.5H2.5V2.75Z"></path><path d="M22.28 7.78a.75.75 0 0 0-1.06-1.06l-5.72 5.72-3.72-3.72a.75.75 0 0 0-1.06 0l-6 6a.75.75 0 1 0 1.06 1.06l5.47-5.47 3.72 3.72a.75.75 0 0 0 1.06 0l6.25-6.25Z"></path></svg>                   
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 group-hover:text-yellow-400 line-clamp-2 ps-2">Highest Coincidentally</div>
+                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 duration-700 group-hover:text-yellow-400 line-clamp-2 ps-2">Highest Coincidentally</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-purple-500 group  before:absolute  before:h-full before:w-[36px] before:bg-purple-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-purple-500 group  before:absolute  before:h-full before:w-[36px] before:bg-purple-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] before:duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-purple-500 ]" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>                  
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 group-hover:text-purple-500 line-clamp-2 ps-2">Enhanced RIO</div>
+                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 duration-700 group-hover:text-purple-500 line-clamp-2 ps-2">Enhanced RIO</div>
                     </div>
                 </div>
                 
@@ -708,13 +708,13 @@
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
             <div class="lg:w-1/4 w-full relative -z-10 sm:w-1/2 p-4">
-                <div class=" w-full h-full p-3 bg-gray-100 relative -z-10  before:absolute shadow-lgrounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-700 before:border-inset before:h-[0px] group before:w-[0px] before:-z-50 before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:-z-10 after:w-1/2 after:absolute after:content-[''] after:h-full after:top-[0px] after:left-[0px]">
-                    <div class="h-auto w-full flex flex-col p-3">
+                <div class=" w-full h-full before:!ease-in-out group before:duration-1000 p-3 bg-gray-100 relative before:absolute shadow-lg rounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-00 before:border-inset before:h-[0px] group before:w-[0px] before:z-[-90] before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:z-0 after:w-[10px] after:absolute after:h-full after:top-[0px] after:left-[0px] after:duration-300">
+                    <div class="h-auto duration-1000 w-full flex flex-col relative z-10 p-3">
                         <div class="flex">
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -724,13 +724,13 @@
                 </div>
             </div>
             <div class="lg:w-1/4 w-full relative -z-10 sm:w-1/2 p-4">
-                <div class=" w-full h-full p-3 bg-gray-100 relative -z-10  before:absolute shadow-lgrounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-700 before:border-inset before:h-[0px] group before:w-[0px] before:-z-50 before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:-z-10 after:w-1/2 after:absolute after:content-[''] after:h-full after:top-[0px] after:left-[0px]">
-                    <div class="h-auto w-full flex flex-col p-3">
+                <div class=" w-full h-full before:!ease-in-out group before:duration-1000 p-3 bg-gray-100 relative before:absolute shadow-lg rounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-00 before:border-inset before:h-[0px] group before:w-[0px] before:z-[-90] before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:z-0 after:w-[10px] after:absolute after:h-full after:top-[0px] after:left-[0px] after:duration-300">
+                    <div class="h-auto duration-1000 w-full flex flex-col relative z-10 p-3">
                         <div class="flex">
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -740,13 +740,13 @@
                 </div>
             </div>
             <div class="lg:w-1/4 w-full relative -z-10 sm:w-1/2 p-4">
-                <div class=" w-full h-full p-3 bg-gray-100 relative -z-10  before:absolute shadow-lgrounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-700 before:border-inset before:h-[0px] group before:w-[0px] before:-z-50 before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:-z-10 after:w-1/2 after:absolute after:content-[''] after:h-full after:top-[0px] after:left-[0px]">
-                    <div class="h-auto w-full flex flex-col p-3">
+                <div class=" w-full h-full before:!ease-in-out group before:duration-1000 p-3 bg-gray-100 relative before:absolute shadow-lg rounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-00 before:border-inset before:h-[0px] group before:w-[0px] before:z-[-90] before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:z-0 after:w-[10px] after:absolute after:h-full after:top-[0px] after:left-[0px] after:duration-300">
+                    <div class="h-auto duration-1000 w-full flex flex-col relative z-10 p-3">
                         <div class="flex">
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -756,13 +756,13 @@
                 </div>
             </div>
             <div class="lg:w-1/4 w-full relative -z-10 sm:w-1/2 p-4">
-                <div class=" w-full h-full p-3 bg-gray-100 relative -z-10  before:absolute shadow-lgrounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-700 before:border-inset before:h-[0px] group before:w-[0px] before:-z-50 before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:-z-10 after:w-1/2 after:absolute after:content-[''] after:h-full after:top-[0px] after:left-[0px]">
-                    <div class="h-auto w-full flex flex-col p-3">
+                <div class=" w-full h-full before:!ease-in-out group before:duration-1000 p-3 bg-gray-100 relative before:absolute shadow-lg rounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-00 before:border-inset before:h-[0px] group before:w-[0px] before:z-[-90] before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:z-0 after:w-[10px] after:absolute after:h-full after:top-[0px] after:left-[0px] after:duration-300">
+                    <div class="h-auto duration-1000 w-full flex flex-col relative z-10 p-3">
                         <div class="flex">
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -772,13 +772,13 @@
                 </div>
             </div>
             <div class="lg:w-1/4 w-full relative -z-10 sm:w-1/2 p-4">
-                <div class=" w-full h-full p-3 bg-gray-100 relative -z-10  before:absolute shadow-lgrounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-700 before:border-inset before:h-[0px] group before:w-[0px] before:-z-50 before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:-z-10 after:w-1/2 after:absolute after:content-[''] after:h-full after:top-[0px] after:left-[0px]">
-                    <div class="h-auto w-full flex flex-col p-3">
+                <div class=" w-full h-full before:!ease-in-out group before:duration-1000 p-3 bg-gray-100 relative before:absolute shadow-lg rounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-00 before:border-inset before:h-[0px] group before:w-[0px] before:z-[-90] before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:z-0 after:w-[10px] after:absolute after:h-full after:top-[0px] after:left-[0px] after:duration-300">
+                    <div class="h-auto duration-1000 w-full flex flex-col relative z-10 p-3">
                         <div class="flex">
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -788,13 +788,13 @@
                 </div>
             </div>
             <div class="lg:w-1/4 w-full relative -z-10 sm:w-1/2 p-4">
-                <div class=" w-full h-full p-3 bg-gray-100 relative -z-10  before:absolute shadow-lgrounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-700 before:border-inset before:h-[0px] group before:w-[0px] before:-z-50 before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:-z-10 after:w-1/2 after:absolute after:content-[''] after:h-full after:top-[0px] after:left-[0px]">
-                    <div class="h-auto w-full flex flex-col p-3">
+                <div class=" w-full h-full before:!ease-in-out group before:duration-1000 p-3 bg-gray-100 relative before:absolute shadow-lg rounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-00 before:border-inset before:h-[0px] group before:w-[0px] before:z-[-90] before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:z-0 after:w-[10px] after:absolute after:h-full after:top-[0px] after:left-[0px] after:duration-300">
+                    <div class="h-auto duration-1000 w-full flex flex-col relative z-10 p-3">
                         <div class="flex">
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -804,13 +804,13 @@
                 </div>
             </div>
             <div class="lg:w-1/4 w-full relative -z-10 sm:w-1/2 p-4">
-                <div class=" w-full h-full p-3 bg-gray-100 relative -z-10  before:absolute shadow-lgrounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-700 before:border-inset before:h-[0px] group before:w-[0px] before:-z-50 before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:-z-10 after:w-1/2 after:absolute after:content-[''] after:h-full after:top-[0px] after:left-[0px]">
-                    <div class="h-auto w-full flex flex-col p-3">
+                <div class=" w-full h-full before:!ease-in-out group before:duration-1000 p-3 bg-gray-100 relative before:absolute shadow-lg rounded-br-none rounded-xl before:rounded-br-none before:rounded-xl before:content-[''] before:border-2 before:duration-00 before:border-inset before:h-[0px] group before:w-[0px] before:z-[-90] before:border-blue-600 before:top-[12px] before:left-[12px] hover:before:h-full  hover:before:w-full after:bg-blue-300 after:rounded-xl after:rounded-br-none after:rounded-tr-none after:z-0 after:w-[10px] after:absolute after:h-full after:top-[0px] after:left-[0px] after:duration-300">
+                    <div class="h-auto duration-1000 w-full flex flex-col relative z-10 p-3">
                         <div class="flex">
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -828,9 +828,6 @@
 {{-- cards-2 end --}}
 
 {{-- card-3 start--}}
-
-{{-- card-3 send--}}
-
 <div class="md:py-16 py-5  relative bg-slate-900">
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
         <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
@@ -854,25 +851,174 @@
             
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
-            <div class="lg:w-1/4 w-full relative -z-10 sm:w-1/2 p-4">
-                <div class="bg-blue-100 group-hover:bg-white duration-700 h-auto w-full flex flex-col group p-3 items-center border-t-4 border-blue-700  rounded-xl rounded-br-none">
-                    <div class="w-[50px] h-[50px] rounded-full bg-gray-100 flex items-center justify-center">
-                        <svg stroke="currentcolor" fill="currentcolor" stroke-width="0" viewBox="0 0 24 24" class="h-[30px] w-[30px]  text-blue-400 group-hover:text-blue-700" xmlns="http://www.w3.org/2000/svg"><path d="M7 22h10a1 1 0 0 0 .99-.858L19.867 8H21V6h-1.382l-1.724-3.447A.998.998 0 0 0 17 2H7c-.379 0-.725.214-.895.553L4.382 6H3v2h1.133L6.01 21.142A1 1 0 0 0 7 22zm10.418-11H6.582l-.429-3h11.693l-.428 3zm-9.551 9-.429-3h9.123l-.429 3H7.867zM7.618 4h8.764l1 2H6.618l1-2z"></path></svg>
-                    </div >
-                    <div class="text-lg font-semibold text-black">
-                        Search Nearby Stores
+            <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                    <div class="flex justify-between items-center">
+                        <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
+                        </div>
+                        <div class="text-lg font-semibold text-gray-800">
+                            Development
+                        </div>
                     </div>
-                    <div class="text-md text-center text-black">
-                        Pay via different online modes; Use a credit or debit card.
-                    </div>
+                    <div class="text-sm text-black mt-2 ">
+                        Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
                     </div>
                 </div>
             </div>
-            
+            <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                    <div class="flex justify-between items-center">
+                        <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
+                        </div>
+                        <div class="text-lg font-semibold text-gray-800">
+                            Development
+                        </div>
+                    </div>
+                    <div class="text-sm text-black mt-2 ">
+                        Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                    <div class="flex justify-between items-center">
+                        <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
+                        </div>
+                        <div class="text-lg font-semibold text-gray-800">
+                            Development
+                        </div>
+                    </div>
+                    <div class="text-sm text-black mt-2 ">
+                        Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                    <div class="flex justify-between items-center">
+                        <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
+                        </div>
+                        <div class="text-lg font-semibold text-gray-800">
+                            Development
+                        </div>
+                    </div>
+                    <div class="text-sm text-black mt-2 ">
+                        Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                    <div class="flex justify-between items-center">
+                        <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
+                        </div>
+                        <div class="text-lg font-semibold text-gray-800">
+                            Development
+                        </div>
+                    </div>
+                    <div class="text-sm text-black mt-2 ">
+                        Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                    <div class="flex justify-between items-center">
+                        <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
+                        </div>
+                        <div class="text-lg font-semibold text-gray-800">
+                            Development
+                        </div>
+                    </div>
+                    <div class="text-sm text-black mt-2 ">
+                        Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                    <div class="flex justify-between items-center">
+                        <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
+                        </div>
+                        <div class="text-lg font-semibold text-gray-800">
+                            Development
+                        </div>
+                    </div>
+                    <div class="text-sm text-black mt-2 ">
+                        Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                    <div class="flex justify-between items-center">
+                        <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
+                        </div>
+                        <div class="text-lg font-semibold text-gray-800">
+                            Development
+                        </div>
+                    </div>
+                    <div class="text-sm text-black mt-2 ">
+                        Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
     </div>
 </div> 
+{{-- card-3 send--}}
+
+{{-- hospital card --}}
+<div class="md:py-16 py-5  relative bg-slate-900">
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
+
+        <div class="md:text-center text-left">
+            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal text-white">Why We are the Best Android <br></span> 
+                <span class="font-bold  bg-gradient-to-r from-sky-300 via-sky-200 to-sky-400 bg-clip-text text-transparent"> App Development Company?</span>
+            </p>
+            <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
+            
+        </div>
+        <div class="flex flex-wrap items-stretch pt-4 relative z-50">
+            <div class="lg:w-1/3 overflow-hidden w-full relative -z-10 group sm:w-1/2 p-3"> 
+                <div class="bg-white flex items-center justify-center flex-col w-full h-auto p-8">
+                    <div class="">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
+                    </div>
+                    <div class="text-lg text-center font-semibold text-green-500">
+                        OPD Management
+                    </div>
+                        <div class="text-md pt-3 text-center font-normal">
+                        OPD Registration and Management, when a patient comes to the reception desk, a new registration number is automatically allotted.
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+{{-- hospital end --}}
 
 {{-- new page end --}}
 
