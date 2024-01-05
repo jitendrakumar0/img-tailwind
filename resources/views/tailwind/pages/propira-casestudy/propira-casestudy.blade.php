@@ -1128,112 +1128,225 @@
 {{-- Solution Section Ends --}}
 
 {{-- best Section Start --}}
-<div class="bg-black py-5 relative">
-    <svg class="absolute inset-0 h-full w-full text-white/20" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-            <pattern id="ryhhgfbyi" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
-                <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
-            </pattern>
-        </defs>
-        <rect width="100%" height="100%" fill="url(#ryhhgfbyi)"></rect>
-    </svg>
-    <div class="bestSection mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="header">
-            <p class="mt-4 text-center max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] pb-5">
-                <span class="font-normal text-white">Why We are the Best</span> 
-                <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">iOS App Development Company?</span>
-            </p>
-        </div>
-        <div class="text-sm md:text-base text-center text-white">
-            We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.
-        </div>
-        <div class="flex flex-wrap items-stretch py-8 gap-y-5">
-            <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
-                    <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
-                        <svg stroke="currentColor" fill="#ef4c2d" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12H20V5H4V18.3851L5.76282 17H12V19H6.45455L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V12ZM14.145 19.071C14.0505 18.7301 14 18.371 14 18C14 17.629 14.0505 17.2699 14.145 16.929L13.1699 16.366L14.1699 14.634L15.1459 15.1975C15.6475 14.6867 16.2851 14.31 17 14.126V13H19V14.126C19.7149 14.31 20.3525 14.6867 20.8541 15.1975L21.8301 14.634L22.8301 16.366L21.855 16.929C21.9495 17.2699 22 17.629 22 18C22 18.371 21.9495 18.7301 21.855 19.071L22.8301 19.634L21.8301 21.366L20.8541 20.8025C20.3525 21.3133 19.7149 21.69 19 21.874V23H17V21.874C16.2851 21.69 15.6475 21.3133 15.1459 20.8025L14.1699 21.366L13.1699 19.634L14.145 19.071ZM18 20C19.1046 20 20 19.1046 20 18C20 16.8954 19.1046 16 18 16C16.8954 16 16 16.8954 16 18C16 19.1046 16.8954 20 18 20Z"></path></svg>
-                    </div>
-                    <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
-                        Efficient Project Management
+    <div class="bg-black py-5 relative">
+        <svg class="absolute inset-0 h-full w-full text-white/20" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="ryhhgfbyi" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#ryhhgfbyi)"></rect>
+        </svg>
+        <div class="bestSection mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="header">
+                <p class="mt-4 text-center max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] pb-5">
+                    <span class="font-normal text-white">Why We are the Best</span> 
+                    <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">iOS App Development Company?</span>
+                </p>
+            </div>
+            <div class="text-sm md:text-base text-center text-white">
+                We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.
+            </div>
+            <div class="flex flex-wrap items-stretch py-8 gap-y-5">
+                <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
+                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                        <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
+                            <svg stroke="currentColor" fill="#ef4c2d" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12H20V5H4V18.3851L5.76282 17H12V19H6.45455L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V12ZM14.145 19.071C14.0505 18.7301 14 18.371 14 18C14 17.629 14.0505 17.2699 14.145 16.929L13.1699 16.366L14.1699 14.634L15.1459 15.1975C15.6475 14.6867 16.2851 14.31 17 14.126V13H19V14.126C19.7149 14.31 20.3525 14.6867 20.8541 15.1975L21.8301 14.634L22.8301 16.366L21.855 16.929C21.9495 17.2699 22 17.629 22 18C22 18.371 21.9495 18.7301 21.855 19.071L22.8301 19.634L21.8301 21.366L20.8541 20.8025C20.3525 21.3133 19.7149 21.69 19 21.874V23H17V21.874C16.2851 21.69 15.6475 21.3133 15.1459 20.8025L14.1699 21.366L13.1699 19.634L14.145 19.071ZM18 20C19.1046 20 20 19.1046 20 18C20 16.8954 19.1046 16 18 16C16.8954 16 16 16.8954 16 18C16 19.1046 16.8954 20 18 20Z"></path></svg>
+                        </div>
+                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                            Efficient Project Management
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
-                    <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
-                        <svg stroke="green" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M9 8h6m-5 0a3 3 0 110 6H9l3 3m-3-6h6m6 1a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
-                        Cost effective Service
-                    </div>
-                </div>
-            </div>
-            <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
-                    <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
-                        <svg stroke="currentColor" fill="#ffb200" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.64 7.64c.23-.5.36-1.05.36-1.64 0-2.21-1.79-4-4-4S2 3.79 2 6s1.79 4 4 4c.59 0 1.14-.13 1.64-.36L10 12l-2.36 2.36C7.14 14.13 6.59 14 6 14c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4c0-.59-.13-1.14-.36-1.64L12 14l7 7h3v-1L9.64 7.64zM6 8c-1.1 0-2-.89-2-2s.9-2 2-2 2 .89 2 2-.9 2-2 2zm0 12c-1.1 0-2-.89-2-2s.9-2 2-2 2 .89 2 2-.9 2-2 2zm6-7.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5.5.22.5.5-.22.5-.5.5zM19 3l-6 6 2 2 7-7V3h-3z"></path></svg>
-                    </div>
-                    <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
-                        Cutting Edge Technology
+                <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
+                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                        <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
+                            <svg stroke="green" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M9 8h6m-5 0a3 3 0 110 6H9l3 3m-3-6h6m6 1a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                            Cost effective Service
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
-                    <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
-                        <svg stroke="currentColor" fill="#5e40d8" stroke-width="0" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M288 176A88 88 0 1 0 288 0a88 88 0 1 0 0 176zM78.7 372.9c15-12.5 50-34.4 97.3-50.1V432H400V322.7c47.3 15.8 82.3 37.7 97.3 50.1c20.4 17 50.6 14.2 67.6-6.1s14.2-50.6-6.1-67.6c-12-10-30.1-22.5-53.2-35C497.2 278.4 481.7 288 464 288c-26.5 0-48-21.5-48-48c0-4.3 .6-8.4 1.6-12.4C379.1 215.9 335.3 208 288 208c-60.2 0-114.9 12.9-160 29.9c0 .7 0 1.4 0 2.1c0 26.5-21.5 48-48 48c-11.8 0-22.7-4.3-31-11.4c-13.1 8.1-23.7 15.9-31.7 22.5c-20.4 17-23.1 47.2-6.1 67.6s47.2 23.1 67.6 6.1zM24 464c-13.3 0-24 10.7-24 24s10.7 24 24 24H552c13.3 0 24-10.7 24-24s-10.7-24-24-24H24zM224 280a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm104 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM96 240a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm368 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32z"></path></svg>
-                    </div>
-                    <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
-                        Dedicated Developers
-                    </div>
-                </div>
-            </div>
-            <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
-                    <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
-                        <svg stroke="#13b9d1" fill="#13b9d1" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02zM8 16h2.5l1.5 1.5 1.5-1.5H16v-2.5l1.5-1.5-1.5-1.5V8h-2.5L12 6.5 10.5 8H8v2.5L6.5 12 8 13.5V16zm4-7c1.66 0 3 1.34 3 3s-1.34 3-3 3V9z"></path></svg>
-                    </div>
-                    <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
-                        Proven Method
+                <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
+                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                        <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
+                            <svg stroke="currentColor" fill="#ffb200" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.64 7.64c.23-.5.36-1.05.36-1.64 0-2.21-1.79-4-4-4S2 3.79 2 6s1.79 4 4 4c.59 0 1.14-.13 1.64-.36L10 12l-2.36 2.36C7.14 14.13 6.59 14 6 14c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4c0-.59-.13-1.14-.36-1.64L12 14l7 7h3v-1L9.64 7.64zM6 8c-1.1 0-2-.89-2-2s.9-2 2-2 2 .89 2 2-.9 2-2 2zm0 12c-1.1 0-2-.89-2-2s.9-2 2-2 2 .89 2 2-.9 2-2 2zm6-7.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5.5.22.5.5-.22.5-.5.5zM19 3l-6 6 2 2 7-7V3h-3z"></path></svg>
+                        </div>
+                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                            Cutting Edge Technology
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
-                    <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
-                        <svg stroke="currentColor" fill="#034f8c" stroke-width="0" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 10.71875 6 C 9.863281 6 9.082031 6.558594 8.8125 7.375 L 7.28125 12 L 0 12 L 0 20.21875 C 0 21.132813 0.613281 21.933594 1.5 22.15625 L 4.09375 22.8125 C 4.46875 24.628906 6.078125 26 8 26 C 9.851563 26 11.398438 24.71875 11.84375 23 L 21.15625 23 C 21.601563 24.71875 23.148438 26 25 26 C 26.851563 26 28.398438 24.71875 28.84375 23 L 30 23 C 31.09375 23 32 22.09375 32 21 L 32 17.25 C 32 15.46875 30.808594 13.894531 29.09375 13.40625 L 24.5625 12.125 L 20.65625 7.4375 C 19.894531 6.527344 18.78125 6 17.59375 6 Z M 10.71875 8 L 14 8 L 14 12 L 9.375 12 Z M 16 8 L 17.59375 8 C 18.1875 8 18.746094 8.261719 19.125 8.71875 L 21.875 12 L 16 12 Z M 2 14 L 23.84375 14 L 28.5625 15.34375 C 29.425781 15.589844 30 16.351563 30 17.25 L 30 21 L 28.84375 21 C 28.398438 19.28125 26.851563 18 25 18 C 23.148438 18 21.601563 19.28125 21.15625 21 L 11.84375 21 C 11.398438 19.28125 9.851563 18 8 18 C 6.226563 18 4.738281 19.171875 4.21875 20.78125 L 2 20.21875 Z M 8 20 C 9.117188 20 10 20.882813 10 22 C 10 23.117188 9.117188 24 8 24 C 6.882813 24 6 23.117188 6 22 C 6 20.882813 6.882813 20 8 20 Z M 25 20 C 26.117188 20 27 20.882813 27 22 C 27 23.117188 26.117188 24 25 24 C 23.882813 24 23 23.117188 23 22 C 23 20.882813 23.882813 20 25 20 Z"></path></svg>
-                    </div>
-                    <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
-                        Consistent Delivery
-                    </div>
-                </div>
-            </div>
-            <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
-                    <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
-                        <svg stroke="currentColor" fill="#80a8c7" stroke-width="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M152.313 19.438C138.075 73.11 172.984 126.662 178.25 180.25c-28.744-16.01-71.286-25.18-88.656-43.656 9.36 29.558 51.055 44.096 77.094 66.312-57.236 1.556-101.637 65.75-148.125 79 54.52 31.628 111.427.296 167.437 23.875-27.654 34.76-47.284 67.888-57.97 107.283C148.787 384.2 174.07 351.39 198.72 326c-11.686 54.742 1.313 109.477 28.155 164.22 13.028-52.977 67.36-98.796 75.03-157.533 22.665 36.313 53.4 62.266 83.158 103.938-14.644-51.287-47.12-87.914-64.22-123.625 52.358 5.59 115.075 28.68 168.5 43.47-29.835-58.79-64.534-103.922-107.78-125.158 33.01.717 70.858 5.604 103.312 10.907-33.377-19.14-68.513-28.226-110-33.032 49.013-47.885 68.943-95.774 68.406-143.657-48.033 32.51-96.09 58.57-144.124 74.75 17.206-28.64 40.82-59.57 62-85.468-35.326 20.535-61.807 48.477-88.22 85.094-23.716-46.89-79.993-64.068-120.623-120.47zm35.625 72.937c8.325 26.55 49.006 61.23 63.718 91.625-7.935 2.196-15.188 5.65-21.437 10.063-9.67-33.43-46.513-71.114-42.282-101.688zm213.28 31.906c-20.144 34.656-47.403 60.806-83 86.72-2.394-7.408-7.083-13.755-13.124-18.563 31.454-17.384 66.972-44.313 96.125-68.156zm-129.812 75.814c6.66.108 12.638 1.57 17.375 3.97 7.22 3.653 11.376 8.906 12.345 15.436.97 6.53-1.55 13.663-7.53 20.188-5.983 6.524-15.326 12.01-26.283 14.218-10.956 2.208-21.094.686-28.312-2.97-7.218-3.653-11.374-8.906-12.344-15.436-.97-6.53 1.55-13.694 7.53-20.22 5.983-6.524 15.328-11.98 26.283-14.186 2.738-.552 5.424-.86 8.03-.97.977-.04 1.955-.046 2.906-.03zm-63.562 30.562c-.138 2.495-.034 5.02.344 7.563.983 6.622 3.748 12.55 7.718 17.56-36.236-7.654-91.958 24.29-125.062 10.157 34.23-.804 77.367-27.78 117-35.28zm107.5 10.25c43.444 16.685 78.393 35.883 108.406 65.72-39.556-17.844-87.918-37.4-126.563-45.47 3.768-2.62 7.204-5.558 10.188-8.812 3.177-3.465 5.884-7.328 7.97-11.438zM274.156 271.5l.22.03c-19.568 32.856-17.574 83.757-44.313 131.845 8.36-50.135 3.05-88.19 17.593-130.438 7.4 1.1 15.3.903 23.344-.718 1.07-.217 2.108-.46 3.156-.72z"></path></svg>
-                    </div>
-                    <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
-                        Highest Coincidentally
+                <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
+                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                        <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
+                            <svg stroke="currentColor" fill="#5e40d8" stroke-width="0" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M288 176A88 88 0 1 0 288 0a88 88 0 1 0 0 176zM78.7 372.9c15-12.5 50-34.4 97.3-50.1V432H400V322.7c47.3 15.8 82.3 37.7 97.3 50.1c20.4 17 50.6 14.2 67.6-6.1s14.2-50.6-6.1-67.6c-12-10-30.1-22.5-53.2-35C497.2 278.4 481.7 288 464 288c-26.5 0-48-21.5-48-48c0-4.3 .6-8.4 1.6-12.4C379.1 215.9 335.3 208 288 208c-60.2 0-114.9 12.9-160 29.9c0 .7 0 1.4 0 2.1c0 26.5-21.5 48-48 48c-11.8 0-22.7-4.3-31-11.4c-13.1 8.1-23.7 15.9-31.7 22.5c-20.4 17-23.1 47.2-6.1 67.6s47.2 23.1 67.6 6.1zM24 464c-13.3 0-24 10.7-24 24s10.7 24 24 24H552c13.3 0 24-10.7 24-24s-10.7-24-24-24H24zM224 280a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm104 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM96 240a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm368 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32z"></path></svg>
+                        </div>
+                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                            Dedicated Developers
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
-                    <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
-                        <svg stroke="#e42b31" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5A3.375 3.375 0 006.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0015 2.25h-1.5a2.251 2.251 0 00-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 00-9-9z"></path></svg>
+                <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
+                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                        <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
+                            <svg stroke="#13b9d1" fill="#13b9d1" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02zM8 16h2.5l1.5 1.5 1.5-1.5H16v-2.5l1.5-1.5-1.5-1.5V8h-2.5L12 6.5 10.5 8H8v2.5L6.5 12 8 13.5V16zm4-7c1.66 0 3 1.34 3 3s-1.34 3-3 3V9z"></path></svg>
+                        </div>
+                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                            Proven Method
+                        </div>
                     </div>
-                    <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
-                        Enhanced RIO
+                </div>
+                <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
+                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                        <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
+                            <svg stroke="currentColor" fill="#034f8c" stroke-width="0" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 10.71875 6 C 9.863281 6 9.082031 6.558594 8.8125 7.375 L 7.28125 12 L 0 12 L 0 20.21875 C 0 21.132813 0.613281 21.933594 1.5 22.15625 L 4.09375 22.8125 C 4.46875 24.628906 6.078125 26 8 26 C 9.851563 26 11.398438 24.71875 11.84375 23 L 21.15625 23 C 21.601563 24.71875 23.148438 26 25 26 C 26.851563 26 28.398438 24.71875 28.84375 23 L 30 23 C 31.09375 23 32 22.09375 32 21 L 32 17.25 C 32 15.46875 30.808594 13.894531 29.09375 13.40625 L 24.5625 12.125 L 20.65625 7.4375 C 19.894531 6.527344 18.78125 6 17.59375 6 Z M 10.71875 8 L 14 8 L 14 12 L 9.375 12 Z M 16 8 L 17.59375 8 C 18.1875 8 18.746094 8.261719 19.125 8.71875 L 21.875 12 L 16 12 Z M 2 14 L 23.84375 14 L 28.5625 15.34375 C 29.425781 15.589844 30 16.351563 30 17.25 L 30 21 L 28.84375 21 C 28.398438 19.28125 26.851563 18 25 18 C 23.148438 18 21.601563 19.28125 21.15625 21 L 11.84375 21 C 11.398438 19.28125 9.851563 18 8 18 C 6.226563 18 4.738281 19.171875 4.21875 20.78125 L 2 20.21875 Z M 8 20 C 9.117188 20 10 20.882813 10 22 C 10 23.117188 9.117188 24 8 24 C 6.882813 24 6 23.117188 6 22 C 6 20.882813 6.882813 20 8 20 Z M 25 20 C 26.117188 20 27 20.882813 27 22 C 27 23.117188 26.117188 24 25 24 C 23.882813 24 23 23.117188 23 22 C 23 20.882813 23.882813 20 25 20 Z"></path></svg>
+                        </div>
+                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                            Consistent Delivery
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
+                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                        <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
+                            <svg stroke="currentColor" fill="#80a8c7" stroke-width="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M152.313 19.438C138.075 73.11 172.984 126.662 178.25 180.25c-28.744-16.01-71.286-25.18-88.656-43.656 9.36 29.558 51.055 44.096 77.094 66.312-57.236 1.556-101.637 65.75-148.125 79 54.52 31.628 111.427.296 167.437 23.875-27.654 34.76-47.284 67.888-57.97 107.283C148.787 384.2 174.07 351.39 198.72 326c-11.686 54.742 1.313 109.477 28.155 164.22 13.028-52.977 67.36-98.796 75.03-157.533 22.665 36.313 53.4 62.266 83.158 103.938-14.644-51.287-47.12-87.914-64.22-123.625 52.358 5.59 115.075 28.68 168.5 43.47-29.835-58.79-64.534-103.922-107.78-125.158 33.01.717 70.858 5.604 103.312 10.907-33.377-19.14-68.513-28.226-110-33.032 49.013-47.885 68.943-95.774 68.406-143.657-48.033 32.51-96.09 58.57-144.124 74.75 17.206-28.64 40.82-59.57 62-85.468-35.326 20.535-61.807 48.477-88.22 85.094-23.716-46.89-79.993-64.068-120.623-120.47zm35.625 72.937c8.325 26.55 49.006 61.23 63.718 91.625-7.935 2.196-15.188 5.65-21.437 10.063-9.67-33.43-46.513-71.114-42.282-101.688zm213.28 31.906c-20.144 34.656-47.403 60.806-83 86.72-2.394-7.408-7.083-13.755-13.124-18.563 31.454-17.384 66.972-44.313 96.125-68.156zm-129.812 75.814c6.66.108 12.638 1.57 17.375 3.97 7.22 3.653 11.376 8.906 12.345 15.436.97 6.53-1.55 13.663-7.53 20.188-5.983 6.524-15.326 12.01-26.283 14.218-10.956 2.208-21.094.686-28.312-2.97-7.218-3.653-11.374-8.906-12.344-15.436-.97-6.53 1.55-13.694 7.53-20.22 5.983-6.524 15.328-11.98 26.283-14.186 2.738-.552 5.424-.86 8.03-.97.977-.04 1.955-.046 2.906-.03zm-63.562 30.562c-.138 2.495-.034 5.02.344 7.563.983 6.622 3.748 12.55 7.718 17.56-36.236-7.654-91.958 24.29-125.062 10.157 34.23-.804 77.367-27.78 117-35.28zm107.5 10.25c43.444 16.685 78.393 35.883 108.406 65.72-39.556-17.844-87.918-37.4-126.563-45.47 3.768-2.62 7.204-5.558 10.188-8.812 3.177-3.465 5.884-7.328 7.97-11.438zM274.156 271.5l.22.03c-19.568 32.856-17.574 83.757-44.313 131.845 8.36-50.135 3.05-88.19 17.593-130.438 7.4 1.1 15.3.903 23.344-.718 1.07-.217 2.108-.46 3.156-.72z"></path></svg>
+                        </div>
+                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                            Highest Coincidentally
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
+                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                        <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
+                            <svg stroke="#e42b31" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5A3.375 3.375 0 006.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0015 2.25h-1.5a2.251 2.251 0 00-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 00-9-9z"></path></svg>
+                        </div>
+                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                            Enhanced RIO
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 {{-- best Section Ends --}}
 
-
+{{-- taxi cards Section start --}}
+    <div class="cardSection py-5 lg:py-10 mx-auto max-w-7xl px-3 sm:px-6 lg:px-8">
+        <div class="flex flex-col w-full max-w-7xl mx-auto px-6 md:px-9 lg:px-11 pb-5 text-center">
+            <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
+                <span class="font-normal">Begin A New Journey To Your Online </span> 
+                <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Taxi Business Success</span>
+            </p>
+        </div>
+        <div class="flex flex-wrap items-stretch gap-y-4">
+            <div class="w-full lg:w-1/2 px-5 h-auto">
+                <div class="mainCard flex flex-wrap shadow-2xl  rounded-md h-full relative sm:before:absolute sm:before:h-[25%] sm:before:top-[12%] sm:before:left-0 sm:before:w-[5px] sm:before:duration-300 sm:before:bg-[#083e56] sm:after:absolute sm:after:top-[12%] sm:after:left-0 sm:after:w-[5px] sm:after:bg-[#083e56] sm:after:duration-500 sm:after:hover:h-[88%] sm:after:h-0">
+                    <div class="w-full sm:w-1/5 px-4 sm:p-10">
+                        <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full  after:bg-gray-200 after:rounded-l-3xl after:rounded-r-4xl after:rounded-full  after:top-0 after:left-0 after:-z-10">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,10 L12,18 M12,6 L12,8"></path></svg>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-[80%] p-4 sm:p-10">
+                        <div class="heading text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                            Obtaining Information
+                        </div>
+                        <div class="description md:text-base text-sm text-black/70 mt-5">
+                            First things first, we’ll connect with the client to understand their objective of building a taxi/cab booking App. What are their target market and audience? Do they’ve any specific requirements? We have a set of questionnaires to ask from the client before we proceed with the quote.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-5 h-auto">
+                <div class="mainCard flex flex-wrap shadow-2xl  rounded-md h-full relative sm:before:absolute sm:before:h-[25%] sm:before:top-[12%] sm:before:left-0 sm:before:w-[5px] sm:before:duration-300 sm:before:bg-[#083e56] sm:after:absolute sm:after:top-[12%] sm:after:left-0 sm:after:w-[5px] sm:after:bg-[#083e56] sm:after:duration-500 sm:after:hover:h-[88%] sm:after:h-0">
+                    <div class="w-full sm:w-1/5 px-4 sm:p-10">
+                        <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full  after:bg-gray-200 after:rounded-l-3xl after:rounded-r-4xl after:rounded-full  after:top-0 after:left-0 after:-z-10">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M4.9565 10.2246c0-1.8766 1.5257-3.4023 3.4-3.4023 1.8766 0 3.4024 1.5257 3.4024 3.4023 0 .6838-.5526 1.2364-1.2341 1.2364-.6818 0-1.2344-.5526-1.2344-1.2364 0-.513-.4185-.9296-.9338-.9296-.5129 0-.9317.4165-.9317.9296 0 .6838-.5523 1.2364-1.234 1.2364-.6818 0-1.2344-.5526-1.2344-1.2364m14.0868 5.717c0 .6842-.5524 1.2363-1.2341 1.2363H6.3575c-.6818 0-1.2344-.552-1.2344-1.2363 0-.6837.5526-1.2363 1.2344-1.2363h11.4517c.6817 0 1.234.5526 1.234 1.2363m-5.351-5.0244c-.3814-.5657-.2323-1.3328.3334-1.7143l2.8628-1.9334c.5613-.3902 1.3329-.2324 1.7144.3289.3815.5654.2323 1.3329-.3334 1.7144l-2.8628 1.9333c-.5442.3831-1.3348.2379-1.7144-.3289zm7.8393 7.6018a.8815.8815 0 0 1-.258.6227l-2.1277 2.1277a.8822.8822 0 0 1-.623.258H5.4772a.8822.8822 0 0 1-.623-.258l-2.1277-2.1277a.8815.8815 0 0 1-.258-.6227V5.4818a.8797.8797 0 0 1 .258-.6228l2.1277-2.1282a.8816.8816 0 0 1 .623-.2578h13.0456a.8816.8816 0 0 1 .623.2578l2.1277 2.1282a.8797.8797 0 0 1 .258.6228V18.519zm1.811-15.0835L20.5644.6577A2.2454 2.2454 0 0 0 18.9775 0H5.0207A2.2445 2.2445 0 0 0 3.433.658L.657 3.4359A2.2449 2.2449 0 0 0 0 5.0228v13.9547c0 .5953.2366 1.1667.6575 1.5872l2.778 2.7779c.421.421.9918.6573 1.5871.6573h13.9548a2.2448 2.2448 0 0 0 1.5872-.6573l2.7779-2.7779A2.2436 2.2436 0 0 0 24 18.9775V5.023a2.2451 2.2451 0 0 0-.6575-1.5875z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-[80%] p-4 sm:p-10">
+                        <div class="heading text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                            Wireframing
+                        </div>
+                        <div class="description md:text-base text-sm text-black/70 mt-5">
+                            Once, we have a clear idea of your requirements and expectations, next, we’ll conduct a market search that involves knowing your audience and competitors. We’ll use all such data to prepare a wireframe for all screens. We’ll take your valuable inputs, and move ahead with designing.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-5 h-auto">
+                <div class="mainCard flex flex-wrap shadow-2xl  rounded-md h-full relative sm:before:absolute sm:before:h-[25%] sm:before:top-[12%] sm:before:left-0 sm:before:w-[5px] sm:before:duration-300 sm:before:bg-[#083e56] sm:after:absolute sm:after:top-[12%] sm:after:left-0 sm:after:w-[5px] sm:after:bg-[#083e56] sm:after:duration-500 sm:after:hover:h-[88%] sm:after:h-0">
+                    <div class="w-full sm:w-1/5 px-4 sm:p-10">
+                        <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full  after:bg-gray-200 after:rounded-l-3xl after:rounded-r-4xl after:rounded-full  after:top-0 after:left-0 after:-z-10">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M6,6 L6,5 C6,2 7.5,1 10,1 L14,1 C16.5,1 18,2.5 18,5 L18,6 C21,6 23,8 23,11 C23,14 21,16 18,16 M14,6 L6,6 C3,6 1,7.5 1,11 C1,14.5 3,16 6,16 M8,19 L16,19 L16,12 L8,12 L8,19 Z M12,19 L12,23 L12,19 Z M9,23 L15,23 L9,23 Z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-[80%] p-4 sm:p-10">
+                        <div class="heading text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                            Designing
+                        </div>
+                        <div class="description md:text-base text-sm text-black/70 mt-5">
+                            We have a qualified panel of creative designers with vast practical industry experience to translate your App idea into a well-crafted design that delivers a seamless browsing experience. Our team is ready to go that extra mile in meeting your every specification and expectation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-5 h-auto">
+                <div class="mainCard flex flex-wrap shadow-2xl  rounded-md h-full relative sm:before:absolute sm:before:h-[25%] sm:before:top-[12%] sm:before:left-0 sm:before:w-[5px] sm:before:duration-300 sm:before:bg-[#083e56] sm:after:absolute sm:after:top-[12%] sm:after:left-0 sm:after:w-[5px] sm:after:bg-[#083e56] sm:after:duration-500 sm:after:hover:h-[88%] sm:after:h-0">
+                    <div class="w-full sm:w-1/5 px-4 sm:p-10">
+                        <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full  after:bg-gray-200 after:rounded-l-3xl after:rounded-r-4xl after:rounded-full  after:top-0 after:left-0 after:-z-10">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-[80%] p-4 sm:p-10">
+                        <div class="heading text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                            Development
+                        </div>
+                        <div class="description md:text-base text-sm text-black/70 mt-5">
+                            Once you’ve got your approval for the design, our in-house experienced and knowledgeable development team will commence with developing the App with all the features you wanted, while keeping the complexities of App at a minimum.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-5 h-auto">
+                <div class="mainCard flex flex-wrap shadow-2xl  rounded-md h-full relative sm:before:absolute sm:before:h-[25%] sm:before:top-[12%] sm:before:left-0 sm:before:w-[5px] sm:before:duration-300 sm:before:bg-[#083e56] sm:after:absolute sm:after:top-[12%] sm:after:left-0 sm:after:w-[5px] sm:after:bg-[#083e56] sm:after:duration-500 sm:after:hover:h-[88%] sm:after:h-0">
+                    <div class="w-full sm:w-1/5 px-4 sm:p-10">
+                        <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full  after:bg-gray-200 after:rounded-l-3xl after:rounded-r-4xl after:rounded-full  after:top-0 after:left-0 after:-z-10">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M13.74024 1.05293a.49504.49504 0 0 0-.1569.02512.49338.49338 0 0 0-.25056.1876L7.59513 9.56159a.4895.4895 0 0 0-.08373.22327.48846.48846 0 0 0 .03163.23629.4893.4893 0 0 0 .13985.19319.4927.4927 0 0 0 .2149.10481l3.70685.78609-.22947 4.58007a.48834.48834 0 0 0 .08466.30017.49205.49205 0 0 0 .24931.18854c.10157.03398.21174.03444.3135.00064a.49387.49387 0 0 0 .25056-.18761l5.73735-8.29594a.4884.4884 0 0 0 .08404-.22327c.009-.08015-.0016-.16137-.03163-.23629a.48835.48835 0 0 0-.13985-.19319.49318.49318 0 0 0-.2149-.1048l-3.70686-.7861.22947-4.58008a.48802.48802 0 0 0-.08466-.30017.4913.4913 0 0 0-.24931-.18853.49439.49439 0 0 0-.1566-.02574zM1.15697 9.78795c-.30647.0012-.60009.12378-.81679.34048a1.16107 1.16107 0 0 0-.34017.81648 1.162 1.162 0 0 0 .33366.81957l10.84241 10.8421a1.15762 1.15762 0 0 0 .37677.25211 1.1583 1.1583 0 0 0 .44467.08838c.00084 0 .0016-.00031.0025-.00031.00073 0 .0014.00031.0022.00031a1.15827 1.15827 0 0 0 .44467-.08838 1.15731 1.15731 0 0 0 .37677-.2521l10.84236-10.8421a1.16272 1.16272 0 0 0 .33397-.81958c-.0013-.30647-.12376-.59976-.34048-.81648a1.1616 1.1616 0 0 0-.81679-.34048 1.16114 1.16114 0 0 0-.81926.33366l-5.4012 5.4009c-.0078.0074-.01718.01255-.02482.02015L12 20.14011l-4.59776-4.59745c-.0074-.0074-.01659-.01238-.02419-.01954l-5.4015-5.40151a1.162 1.162 0 0 0-.81958-.33366Z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-[80%] p-4 sm:p-10">
+                        <div class="heading text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                            Testing
+                        </div>
+                        <div class="description md:text-base text-sm text-black/70 mt-5">
+                            We have a dedicated testing team to ensure that the App is working smoothly, free of glitches, and provides a great user experience. Our testers will browse the final development for any potential bugs and possible problems to be fixed right away.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-5 h-auto">
+                <div class="mainCard flex flex-wrap shadow-2xl  rounded-md h-full relative sm:before:absolute sm:before:h-[25%] sm:before:top-[12%] sm:before:left-0 sm:before:w-[5px] sm:before:duration-300 sm:before:bg-[#083e56] sm:after:absolute sm:after:top-[12%] sm:after:left-0 sm:after:w-[5px] sm:after:bg-[#083e56] sm:after:duration-500 sm:after:hover:h-[88%] sm:after:h-0">
+                    <div class="w-full sm:w-1/5 px-4 sm:p-10">
+                        <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full  after:bg-gray-200 after:rounded-l-3xl after:rounded-r-4xl after:rounded-full  after:top-0 after:left-0 after:-z-10">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M23,1 C23,1 16.471872,0.541707069 14,3 C13.9767216,3.03685748 10,7 10,7 L5,8 L2,10 L10,14 L14,22 L16,19 L17,14 C17,14 20.9631426,10.0232786 21,10 C23.4582929,7.5281282 23,1 23,1 Z M17,8 C16.4475,8 16,7.5525 16,7 C16,6.4475 16.4475,6 17,6 C17.5525,6 18,6.4475 18,7 C18,7.5525 17.5525,8 17,8 Z M7,17 C6,16 4,16 3,17 C2,18 2,22 2,22 C2,22 6,22 7,21 C8,20 8,18 7,17 Z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-[80%] p-4 sm:p-10">
+                        <div class="heading text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                            Deploying
+                        </div>
+                        <div class="description md:text-base text-sm text-black/70 mt-5">
+                            We don’t just design and develop Apps, we make sure they are published on their respective App store. We have experience both with Apple plays store and Google store. Therefore, you don't need to worry that your App will be approved or not.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{-- taxi cards Section Ends --}}
 
 
 @endsection
