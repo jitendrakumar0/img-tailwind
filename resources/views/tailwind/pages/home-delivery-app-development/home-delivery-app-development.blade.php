@@ -1001,16 +1001,172 @@
             
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
-            <div class="lg:w-1/3 overflow-hidden w-full relative -z-10 group sm:w-1/2 p-3"> 
-                <div class="bg-white flex items-center justify-center flex-col w-full h-auto p-8">
-                    <div class="">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
+            <div class="lg:w-1/3 w-full p-3 sm:w-1/2">
+                <div class="bg-white relative flex items-start justify-center group flex-col w-full h-auto p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
+                    <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-700 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-700 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
                     </div>
-                    <div class="text-lg text-center font-semibold text-green-500">
+                    <div class="text-lg font-semibold text-green-500 group-hover:text-pink-600 duration-700 my-3">
                         OPD Management
                     </div>
-                        <div class="text-md pt-3 text-center font-normal">
+                        <div class="text-md  text-center font-normal">
                         OPD Registration and Management, when a patient comes to the reception desk, a new registration number is automatically allotted.
+                        </div>
+                </div>
+            </div> 
+            <div class="lg:w-1/3 w-full p-3 sm:w-1/2">
+                <div class="bg-white relative flex items-start justify-center group flex-col w-full h-auto p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
+                    <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-700 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-700 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
+                    </div>
+                    <div class="text-lg font-semibold text-green-500 group-hover:text-pink-600 duration-700 my-3">
+                        OPD Management
+                    </div>
+                        <div class="text-md  text-center font-normal">
+                        OPD Registration and Management, when a patient comes to the reception desk, a new registration number is automatically allotted.
+                        </div>
+                </div>
+            </div> 
+            <div class="lg:w-1/3 w-full p-3 sm:w-1/2">
+                <div class="bg-white relative flex items-start justify-center group flex-col w-full h-auto p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
+                    <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-700 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-700 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
+                    </div>
+                    <div class="text-lg font-semibold text-green-500 group-hover:text-pink-600 duration-700 my-3">
+                        OPD Management
+                    </div>
+                        <div class="text-md  text-center font-normal">
+                        OPD Registration and Management, when a patient comes to the reception desk, a new registration number is automatically allotted.
+                        </div>
+                </div>
+            </div>
+           </div>
+    </div>
+</div>
+{{-- hospital end --}}
+{{-- nidhi software card --}}
+<div class="md:py-16 py-5  relative bg-slate-900">
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
+
+        <div class="md:text-center text-left">
+            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal text-white">Why We are the Best Android <br></span> 
+                <span class="font-bold  bg-gradient-to-r from-sky-300 via-sky-200 to-sky-400 bg-clip-text text-transparent"> App Development Company?</span>
+            </p>
+            <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
+            
+        </div>
+        <div class="flex flex-wrap items-stretch pt-4 relative z-50">
+            <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
+                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                    <div class="flex items-center justify-between pb-3">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                            <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
+                        <div class="text-lg text-purple-500 font-semibold">
+                          Permission
+                        </div>
+                        </div>
+                        
+                        <div class="text-base">
+                            The Administrator has the power to control the module and input new data or delete the old one. A secured access is provided to the same. Admin can View, Reprint Form & Member ID card, Close and Edit shareholder.
+                        </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
+                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                    <div class="flex items-center justify-between pb-3">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                            <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
+                        <div class="text-lg text-purple-500 font-semibold">
+                            Scheme Manage
+                        </div>
+                        </div>
+                        
+                        <div class="text-base">
+                            This function allows the Admin, to input new Schemes and policies. These can be briefly categorised into four parts, DD, FD, RD and MIS. Administrator holds the right to alter schemes and also control the interest on MIS.
+                        </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
+                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                    <div class="flex items-center justify-between pb-3">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                            <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
+                        <div class="text-lg text-purple-500 font-semibold">
+                            Shareholder
+                        </div>
+                        </div>
+                        
+                        <div class="text-base">
+                            The details regarding new Shareholders can be recorded in the Software. New Shareholder can be registered and a unique Member ID is provided to them. The Member ID helps in automatic generation of Share Certification Form & Security Transfer Form.
+                        </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
+                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                    <div class="flex items-center justify-between pb-3">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                            <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
+                        <div class="text-lg text-purple-500 font-semibold">
+                            Saving Account
+                        </div>
+                        </div>
+                        
+                        <div class="text-base">
+                            THere the Administrator can manage the functions of a savings account like adding and withdrawing money and also printing passbook.
+                        </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
+                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                    <div class="flex items-center justify-between pb-3">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                            <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
+                        <div class="text-lg text-purple-500 font-semibold">
+                            Cridet/Debit Cheque
+                        </div>
+                        </div>
+                        
+                        <div class="text-base">
+                            Manage all the cheque details here. Now Approve/Deny/Edit Credit/Debit Cheque details from Nidhi Software.
+                        </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
+                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                    <div class="flex items-center justify-between pb-3">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                            <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
+                        <div class="text-lg text-purple-500 font-semibold">
+                            Cridet/Debit Cheque
+                        </div>
+                        </div>
+                        
+                        <div class="text-base">
+                            The clients and interested parties can be informed of every details via the messaging function of Nidhi Software. All the transactions can be informed to the parties.
                         </div>
                 </div>
             </div>
@@ -1018,7 +1174,7 @@
         </div>
     </div>
 </div>
-{{-- hospital end --}}
+{{-- nidhi software card end --}}
 
 {{-- new page end --}}
 
