@@ -855,7 +855,7 @@
     <div class="cardSection mx-auto max-w-7xl px-6 lg:px-8 flex flex-wrap items-stretch gap-y-6">
         <div class="px-2 sm:w-1/2 md:w-1/3 lg:w-1/4 flex flex-col h-auto bg-[#F5F5F5]">
             <div class="mainCard flex flex-col h-full group gap-3 md:gap-4 p-4 sm:p-5 md:p-6 shadow-2xl rounded-lg  relative after:absolute after:bottom-0 after:left-0 hover:after:right-1/2 after:rounded-s-xl after:bg-red-500 after:h-[5px] after:w-0 hover:after:w-1/2 after:duration-500 before:absolute before:bottom-0 before:right-0 before:h-[5px] before:w-0 before:bg-green-500 before:rounded-e-xl hover:before:w-1/2 hover:right-0 before:duration-500">
-                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[50px] w-[40px] md:w-[50px] group-hover:rotate-[360deg] duration-500 group-hover:text-blue-950">
+                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[50px] w-[40px] md:w-[50px] duration-500 group-hover:text-blue-950">
                     <svg stroke="currentColor" fill="currentColor" class="h-full w-full" stroke-width="0" viewBox="0 0 16 16" height="full" width="full" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v6a.5.5 0 0 1-1 0V2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v6a.5.5 0 0 1-1 0V2a1 1 0 0 0-1-1Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a.5.5 0 0 0-1 0v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2a.5.5 0 0 0-1 0v2ZM1.713 7.954a.5.5 0 1 0-.419-.908c-.347.16-.654.348-.882.57C.184 7.842 0 8.139 0 8.5c0 .546.408.94.823 1.201.44.278 1.043.51 1.745.696C3.978 10.773 5.898 11 8 11c.099 0 .197 0 .294-.002l-1.148 1.148a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708l1.145 1.144L8 10c-2.04 0-3.87-.221-5.174-.569-.656-.175-1.151-.374-1.47-.575C1.012 8.639 1 8.506 1 8.5c0-.003 0-.059.112-.17.115-.112.31-.242.6-.376Zm12.993-.908a.5.5 0 0 0-.419.908c.292.134.486.264.6.377.113.11.113.166.113.169 0 .003 0 .065-.13.187-.132.122-.352.26-.677.4-.645.28-1.596.523-2.763.687a.5.5 0 0 0 .14.99c1.212-.17 2.26-.43 3.02-.758.38-.164.713-.357.96-.587.246-.229.45-.537.45-.919 0-.362-.184-.66-.412-.883-.228-.223-.535-.411-.882-.571ZM7.5 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1Z"></path></svg>
                 </div>
                 <div class="cardHeading text-sm sm:text-base lg:text-xl font-bold text-black text-center pb-2 sm:pb-3 md:pb-4 group-hover:text-blue-950 duration-500">
@@ -868,7 +868,7 @@
         </div>
         <div class="px-2 sm:w-1/2 md:w-1/3 lg:w-1/4 flex flex-col h-auto bg-[#F5F5F5]">
             <div class="mainCard flex flex-col h-full group gap-3 md:gap-4 p-4 sm:p-5 md:p-6 shadow-2xl rounded-lg bg-[#F5F5F5] relative after:absolute after:bottom-0 after:left-0 hover:after:right-1/2 after:rounded-s-xl after:bg-red-500 after:h-[5px] after:w-0 hover:after:w-1/2 after:duration-500 before:absolute before:bottom-0 before:right-0 before:h-[5px] before:w-0 before:bg-green-500 before:rounded-e-xl hover:before:w-1/2 hover:right-0 before:duration-500">
-                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] group-hover:rotate-[360deg] duration-500 group-hover:text-blue-950">
+                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] duration-500 group-hover:text-blue-950">
                     <svg stroke="currentColor" fill="none" class="" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"  xmlns="http://www.w3.org/2000/svg"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H14"></path><path d="M20 8v14H6.5a2.5 2.5 0 0 1 0-5H20"></path><circle cx="14" cy="8" r="2"></circle><path d="m20 2-4.5 4.5"></path><path d="m19 3 1 1"></path></svg>
                 </div>
                 <div class="cardHeading text-sm sm:text-base lg:text-xl font-bold text-black text-center pb-2 sm:pb-3 md:pb-4 group-hover:text-blue-950 duration-500">
@@ -881,7 +881,7 @@
         </div>
         <div class="px-2 sm:w-1/2 md:w-1/3 lg:w-1/4 flex flex-col h-auto bg-[#F5F5F5]">
             <div class="mainCard flex flex-col h-full group gap-3 md:gap-4 p-4 sm:p-5 md:p-6 shadow-2xl rounded-lg bg-[#F5F5F5] relative after:absolute after:bottom-0 after:left-0 hover:after:right-1/2 after:rounded-s-xl after:bg-red-500 after:h-[5px] after:w-0 hover:after:w-1/2 after:duration-500 before:absolute before:bottom-0 before:right-0 before:h-[5px] before:w-0 before:bg-green-500 before:rounded-e-xl hover:before:w-1/2 hover:right-0 before:duration-500">
-                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] group-hover:rotate-[360deg] duration-500 group-hover:text-blue-950">
+                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] duration-500 group-hover:text-blue-950">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M17.4511 6.6808c.5091-.5064.5091-1.3316 0-1.838l-1.8729-1.873.0027.0027c-.4957-.4957-1.3478-1.3478-2.5535-2.5508-.568-.5547-1.487-.5493-2.0498.0134L.426 10.9787a1.4426 1.4426 0 0 0 0 2.047l10.549 10.541a1.4506 1.4506 0 0 0 2.0497 0l4.4238-4.4211c.509-.5064.509-1.3317 0-1.8381a1.3049 1.3049 0 0 0-1.8408 0l-3.3493 3.3546c-.1393.1394-.3564.1394-.4957 0l-8.4268-8.4188c-.1394-.1393-.1394-.3563 0-.4956L11.76 3.3289c.0107-.0108.0241-.0188.0349-.0295.1393-.1099.3322-.0992.4608.0295l3.3547 3.352c.509.509 1.3343.509 1.8407 0zm-8.2446 5.375a2.8482 2.8456 0 1 0 5.6965 0 2.8482 2.8456 0 1 0-5.6965 0zm14.3672-1.0343l-3.293-3.277c-.5092-.5063-1.3344-.5063-1.8408.0028a1.2968 1.2968 0 0 0 0 1.838l2.2239 2.2213c.1393.1393.1393.3564 0 .4957l-2.1918 2.189a1.2968 1.2968 0 0 0 0 1.8382 1.3049 1.3049 0 0 0 1.8408 0l3.2635-3.2609a1.445 1.445 0 0 0-.0026-2.047Z"></path></svg>
                 </div>
                 <div class="cardHeading text-sm sm:text-base lg:text-xl font-bold text-black text-center pb-2 sm:pb-3 md:pb-4 group-hover:text-blue-950 duration-500">
@@ -894,7 +894,7 @@
         </div>
         <div class="px-2 sm:w-1/2 md:w-1/3 lg:w-1/4 flex flex-col h-auto bg-[#F5F5F5]">
             <div class="mainCard flex flex-col h-full group gap-3 md:gap-4 p-4 sm:p-5 md:p-6 shadow-2xl rounded-lg bg-[#F5F5F5] relative after:absolute after:bottom-0 after:left-0 hover:after:right-1/2 after:rounded-s-xl after:bg-red-500 after:h-[5px] after:w-0 hover:after:w-1/2 after:duration-500 before:absolute before:bottom-0 before:right-0 before:h-[5px] before:w-0 before:bg-green-500 before:rounded-e-xl hover:before:w-1/2 hover:right-0 before:duration-500">
-                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] group-hover:rotate-[360deg] duration-500 group-hover:text-blue-950">
+                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] duration-500 group-hover:text-blue-950">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M14.0754 12.0285a2.5059 2.5059 0 0 0-2.506-2.506 2.5059 2.5059 0 0 0-2.5058 2.506 2.5059 2.5059 0 0 0 2.5059 2.5059 2.5059 2.5059 0 0 0 2.5059-2.506zm3.5317.0003a1.1559 1.1556 0 0 0-1.1558-1.1556 1.1559 1.1556 0 0 0-1.1559 1.1556 1.1559 1.1556 0 0 0 1.1559 1.1555 1.1559 1.1556 0 0 0 1.1558-1.1555zm4.7917 5.5103a1.1576 1.1564 0 0 0-1.1577-1.1564 1.1576 1.1564 0 0 0-1.1576 1.1564 1.1576 1.1564 0 0 0 1.1576 1.1564 1.1576 1.1564 0 0 0 1.1577-1.1564zM20.748 13.888a1.1534 1.157 0 0 0-1.1533-1.157 1.1534 1.157 0 0 0-1.1534 1.157 1.1534 1.157 0 0 0 1.1534 1.1571 1.1534 1.157 0 0 0 1.1533-1.157zm3.2512.0619a1.1542 1.1538 0 0 0-1.1542-1.1538 1.1542 1.1538 0 0 0-1.1542 1.1538 1.1542 1.1538 0 0 0 1.1542 1.1538 1.1542 1.1538 0 0 0 1.1542-1.1538zm-3.279-3.883a1.1561 1.1535 0 0 0-1.156-1.1535 1.1561 1.1535 0 0 0-1.1562 1.1535 1.1561 1.1535 0 0 0 1.1561 1.1535 1.1561 1.1535 0 0 0 1.1562-1.1535zm3.2798.045a1.1614 1.157 0 0 0-1.1614-1.157 1.1614 1.157 0 0 0-1.1613 1.157 1.1614 1.157 0 0 0 1.1613 1.1572A1.1614 1.157 0 0 0 24 10.1119zm-1.626-3.631a1.1575 1.1601 0 0 0-1.1575-1.16 1.1575 1.1601 0 0 0-1.1575 1.16 1.1575 1.1601 0 0 0 1.1575 1.1602A1.1575 1.1601 0 0 0 22.374 6.481zM11.6171.3832c-3.1098 0-6.029 1.2063-8.2197 3.3974C1.206 5.9822 0 8.9007 0 11.9998c0 3.109 1.2067 6.0279 3.3974 8.2193 2.2028 2.1922 5.1213 3.3978 8.2197 3.3978 2.578 0 5.0176-.8252 7.055-2.386l-1.4196-1.8524c-1.6263 1.246-3.5748 1.9048-5.6354 1.9048-2.4776 0-4.8112-.9641-6.5717-2.7154-1.748-1.7488-2.7118-4.0828-2.7118-6.568 0-2.4784.9645-4.812 2.7158-6.5703 1.7484-1.7488 4.0817-2.713 6.5677-2.713 2.058 0 4.0069.659 5.6365 1.9057l1.4179-1.854C16.6314 1.2083 14.1922.3831 11.617.3831Z"></path></svg>
                 </div>
                 <div class="cardHeading text-sm sm:text-base lg:text-xl font-bold text-black text-center pb-2 sm:pb-3 md:pb-4 group-hover:text-blue-950 duration-500">
@@ -907,7 +907,7 @@
         </div>
         <div class="px-2 sm:w-1/2 md:w-1/3 lg:w-1/4 flex flex-col h-auto bg-[#F5F5F5]">
             <div class="mainCard flex flex-col h-full group gap-3 md:gap-4 p-4 sm:p-5 md:p-6 shadow-2xl rounded-lg bg-[#F5F5F5] relative after:absolute after:bottom-0 after:left-0 hover:after:right-1/2 after:rounded-s-xl after:bg-red-500 after:h-[5px] after:w-0 hover:after:w-1/2 after:duration-500 before:absolute before:bottom-0 before:right-0 before:h-[5px] before:w-0 before:bg-green-500 before:rounded-e-xl hover:before:w-1/2 hover:right-0 before:duration-500">
-                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] group-hover:rotate-[360deg] duration-500 group-hover:text-blue-950">
+                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] duration-500 group-hover:text-blue-950">
                     <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
                 </div>
                 <div class="cardHeading text-sm sm:text-base lg:text-xl font-bold text-black text-center pb-2 sm:pb-3 md:pb-4 group-hover:text-blue-950 duration-500">
@@ -920,7 +920,7 @@
         </div>
         <div class="px-2 sm:w-1/2 md:w-1/3 lg:w-1/4 flex flex-col h-auto bg-[#F5F5F5]">
             <div class="mainCard flex flex-col h-full group gap-3 md:gap-4 p-4 sm:p-5 md:p-6 shadow-2xl rounded-lg bg-[#F5F5F5] relative after:absolute after:bottom-0 after:left-0 hover:after:right-1/2 after:rounded-s-xl after:bg-red-500 after:h-[5px] after:w-0 hover:after:w-1/2 after:duration-500 before:absolute before:bottom-0 before:right-0 before:h-[5px] before:w-0 before:bg-green-500 before:rounded-e-xl hover:before:w-1/2 hover:right-0 before:duration-500">
-                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] group-hover:rotate-[360deg] duration-500 group-hover:text-blue-950">
+                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] duration-500 group-hover:text-blue-950">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 9.15625 4.1875 L 8.875 4.6875 L 2.625 15.59375 L 2.34375 16.09375 L 2.625 16.59375 L 8.875 27.5 L 9.15625 28 L 22.84375 28 L 23.125 27.5 L 29.375 16.59375 L 29.65625 16.09375 L 29.375 15.59375 L 23.125 4.6875 L 22.84375 4.1875 Z M 11.59375 6.1875 L 17.71875 6.1875 L 13.15625 7.8125 Z M 20.71875 6.1875 L 16.125 10.875 L 13.9375 8.59375 Z M 10.28125 6.28125 L 12.15625 8.1875 L 10.25 8.875 L 10.25 6.34375 Z M 21.8125 6.46875 L 24.4375 11 L 20.40625 15.28125 L 16.84375 11.59375 Z M 9.25 8.09375 L 9.25 9.21875 L 8.4375 9.5 Z M 12.90625 8.96875 L 15.4375 11.59375 L 11.71875 15.375 L 10.25 13.8125 L 10.25 9.9375 Z M 9.25 10.28125 L 9.25 12.75 L 7.59375 10.96875 L 7.65625 10.84375 Z M 7.0625 11.875 L 9.25 14.21875 L 9.25 17.9375 L 7.03125 20.21875 L 4.65625 16.09375 Z M 24.875 12 L 23.5 18.46875 L 21.09375 16 Z M 16.125 12.3125 L 19.71875 16 L 16 19.9375 L 12.40625 16.125 Z M 25.65625 13.15625 L 27.34375 16.09375 L 25.0625 20.0625 L 24.375 19.34375 Z M 10.25 15.28125 L 11.03125 16.09375 L 10.25 16.90625 Z M 20.40625 16.71875 L 23.28125 19.65625 L 22.9375 21.25 L 17.21875 21.25 L 16.6875 20.6875 Z M 11.71875 16.84375 L 15.3125 20.6875 L 14.75 21.25 L 10.25 21.25 L 10.25 18.3125 Z M 9.25 19.34375 L 9.25 21.25 L 7.625 21.25 L 7.53125 21.125 Z M 24.125 20.53125 L 24.53125 20.96875 L 24.375 21.25 L 23.96875 21.25 Z M 8.1875 22.25 L 9.25 22.25 L 9.25 24.09375 Z M 10.25 22.25 L 13.8125 22.25 L 10.3125 25.96875 L 10.25 25.84375 Z M 15.1875 22.25 L 16.78125 22.25 L 20.28125 26 L 11.65625 26 Z M 18.15625 22.25 L 22.71875 22.25 L 22.09375 25.25 L 21.65625 26 Z M 23.75 22.25 L 23.8125 22.25 L 23.71875 22.40625 Z"></path></svg>
                 </div>
                 <div class="cardHeading text-sm sm:text-base lg:text-xl font-bold text-black text-center pb-2 sm:pb-3 md:pb-4 group-hover:text-blue-950 duration-500">
@@ -933,7 +933,7 @@
         </div>
         <div class="px-2 sm:w-1/2 md:w-1/3 lg:w-1/4 flex flex-col h-auto bg-[#F5F5F5]">
             <div class="mainCard flex flex-col h-full group gap-3 md:gap-4 p-4 sm:p-5 md:p-6 shadow-2xl rounded-lg bg-[#F5F5F5] relative after:absolute after:bottom-0 after:left-0 hover:after:right-1/2 after:rounded-s-xl after:bg-red-500 after:h-[5px] after:w-0 hover:after:w-1/2 after:duration-500 before:absolute before:bottom-0 before:right-0 before:h-[5px] before:w-0 before:bg-green-500 before:rounded-e-xl hover:before:w-1/2 hover:right-0 before:duration-500">
-                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] group-hover:rotate-[360deg] duration-500 group-hover:text-blue-950">
+                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] duration-500 group-hover:text-blue-950">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="M193.78,97.13c.13-1.69.22-3.4.22-5.13A66,66,0,0,0,62,92c0,1.73.09,3.44.22,5.13A66,66,0,1,0,128,211.27,66,66,0,1,0,193.78,97.13ZM74,92a54,54,0,0,1,108,0c0,.17,0,.34,0,.51a65.75,65.75,0,0,0-54,8.22,65.75,65.75,0,0,0-54-8.22C74,92.34,74,92.17,74,92Zm72,64a53.88,53.88,0,0,1-18,40.21A53.88,53.88,0,0,1,110,156c0-.17,0-.34,0-.51a65.73,65.73,0,0,0,36,0C146,155.66,146,155.83,146,156Zm-18-10a53.61,53.61,0,0,1-16.5-2.59A54.09,54.09,0,0,1,128,115.79a54.09,54.09,0,0,1,16.5,27.62A53.61,53.61,0,0,1,128,146Zm-27.6-7.61a54.14,54.14,0,0,1-24.9-33.8A53.85,53.85,0,0,1,118,108.71,66.09,66.09,0,0,0,100.4,138.39ZM138,108.71a53.85,53.85,0,0,1,42.53-4.12,54.14,54.14,0,0,1-24.9,33.8A66.09,66.09,0,0,0,138,108.71ZM92,210A54,54,0,0,1,64.4,109.61a66.29,66.29,0,0,0,33.82,41.26c-.13,1.69-.22,3.4-.22,5.13a65.8,65.8,0,0,0,20,47.29A53.64,53.64,0,0,1,92,210Zm72,0a53.64,53.64,0,0,1-26-6.71A65.8,65.8,0,0,0,158,156c0-1.73-.09-3.44-.22-5.13a66.29,66.29,0,0,0,33.82-41.26A54,54,0,0,1,164,210Z"></path></svg>
                 </div>
                 <div class="cardHeading text-sm sm:text-base lg:text-xl font-bold text-black text-center pb-2 sm:pb-3 md:pb-4 group-hover:text-blue-950 duration-500">
@@ -946,9 +946,8 @@
         </div>
         <div class="px-2 sm:w-1/2 md:w-1/3 lg:w-1/4 flex flex-col h-auto bg-[#F5F5F5]">
             <div class="mainCard flex flex-col h-full group gap-3 md:gap-4 p-4 sm:p-5 md:p-6 shadow-2xl rounded-lg bg-[#F5F5F5] relative after:absolute after:bottom-0 after:left-0 hover:after:right-1/2 after:rounded-s-xl after:bg-red-500 after:h-[5px] after:w-0 hover:after:w-1/2 after:duration-500 before:absolute before:bottom-0 before:right-0 before:h-[5px] before:w-0 before:bg-green-500 before:rounded-e-xl hover:before:w-1/2 hover:right-0 before:duration-500">
-                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] group-hover:rotate-[360deg] duration-500 group-hover:text-blue-950">
+                <div class="cardIcon mt-[-30px] h-[40px] ms-auto md:h-[40px] md:-[50px] w-[50px] duration-500 group-hover:text-blue-950">
                     <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M12 11.997c-.728 0-1.316-.59-1.316-1.317S11.272 9.363 12 9.363s1.316.589 1.316 1.316-.588 1.318-1.316 1.318zm2.916-.021c0-2.828-1.109-5.397-2.916-7.298-1.807 1.9-2.916 4.47-2.916 7.298 0 1.297.234 2.535.66 3.683-.618.9-1.074 2.16-1.275 3.616.639-.767 1.422-1.306 2.292-1.591.363.555.78 1.096 1.239 1.574.461-.494.876-1.02 1.239-1.59.87.271 1.653.826 2.29 1.576-.199-1.456-.655-2.716-1.275-3.615.427-1.155.66-2.385.66-3.69l.002.037zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-22C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0z"></path></svg>
-                    {{-- <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 9.15625 4.1875 L 8.875 4.6875 L 2.625 15.59375 L 2.34375 16.09375 L 2.625 16.59375 L 8.875 27.5 L 9.15625 28 L 22.84375 28 L 23.125 27.5 L 29.375 16.59375 L 29.65625 16.09375 L 29.375 15.59375 L 23.125 4.6875 L 22.84375 4.1875 Z M 11.59375 6.1875 L 17.71875 6.1875 L 13.15625 7.8125 Z M 20.71875 6.1875 L 16.125 10.875 L 13.9375 8.59375 Z M 10.28125 6.28125 L 12.15625 8.1875 L 10.25 8.875 L 10.25 6.34375 Z M 21.8125 6.46875 L 24.4375 11 L 20.40625 15.28125 L 16.84375 11.59375 Z M 9.25 8.09375 L 9.25 9.21875 L 8.4375 9.5 Z M 12.90625 8.96875 L 15.4375 11.59375 L 11.71875 15.375 L 10.25 13.8125 L 10.25 9.9375 Z M 9.25 10.28125 L 9.25 12.75 L 7.59375 10.96875 L 7.65625 10.84375 Z M 7.0625 11.875 L 9.25 14.21875 L 9.25 17.9375 L 7.03125 20.21875 L 4.65625 16.09375 Z M 24.875 12 L 23.5 18.46875 L 21.09375 16 Z M 16.125 12.3125 L 19.71875 16 L 16 19.9375 L 12.40625 16.125 Z M 25.65625 13.15625 L 27.34375 16.09375 L 25.0625 20.0625 L 24.375 19.34375 Z M 10.25 15.28125 L 11.03125 16.09375 L 10.25 16.90625 Z M 20.40625 16.71875 L 23.28125 19.65625 L 22.9375 21.25 L 17.21875 21.25 L 16.6875 20.6875 Z M 11.71875 16.84375 L 15.3125 20.6875 L 14.75 21.25 L 10.25 21.25 L 10.25 18.3125 Z M 9.25 19.34375 L 9.25 21.25 L 7.625 21.25 L 7.53125 21.125 Z M 24.125 20.53125 L 24.53125 20.96875 L 24.375 21.25 L 23.96875 21.25 Z M 8.1875 22.25 L 9.25 22.25 L 9.25 24.09375 Z M 10.25 22.25 L 13.8125 22.25 L 10.3125 25.96875 L 10.25 25.84375 Z M 15.1875 22.25 L 16.78125 22.25 L 20.28125 26 L 11.65625 26 Z M 18.15625 22.25 L 22.71875 22.25 L 22.09375 25.25 L 21.65625 26 Z M 23.75 22.25 L 23.8125 22.25 L 23.71875 22.40625 Z"></path></svg> --}}
                 </div>
                 <div class="cardHeading text-sm sm:text-base lg:text-xl font-bold text-black text-center pb-2 sm:pb-3 md:pb-4 group-hover:text-blue-950 duration-500">
                     iPhone App Prototyping
@@ -1128,102 +1127,94 @@
 {{-- Solution Section Ends --}}
 
 {{-- best Section Start --}}
-    <div class="bg-black py-5 relative">
-        <svg class="absolute inset-0 h-full w-full text-white/20" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <pattern id="ryhhgfbyi" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
-                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
-                </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#ryhhgfbyi)"></rect>
-        </svg>
+    <div class="py-5 relative">
         <div class="bestSection mx-auto max-w-7xl px-6 lg:px-8">
             <div class="header">
                 <p class="mt-4 text-center max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] pb-5">
-                    <span class="font-normal text-white">Why We are the Best</span> 
+                    <span class="font-normal">Why We are the Best</span> 
                     <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">iOS App Development Company?</span>
                 </p>
             </div>
-            <div class="text-sm md:text-base text-center text-white">
+            <div class="text-sm md:text-base text-center">
                 We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.
             </div>
             <div class="flex flex-wrap items-stretch py-8 gap-y-5">
                 <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                    <div class="mainCard p-4 h-full group hover:bg-[#072b44] hover:rounded-lg duration-300">
                         <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
                             <svg stroke="currentColor" fill="#ef4c2d" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22 12H20V5H4V18.3851L5.76282 17H12V19H6.45455L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V12ZM14.145 19.071C14.0505 18.7301 14 18.371 14 18C14 17.629 14.0505 17.2699 14.145 16.929L13.1699 16.366L14.1699 14.634L15.1459 15.1975C15.6475 14.6867 16.2851 14.31 17 14.126V13H19V14.126C19.7149 14.31 20.3525 14.6867 20.8541 15.1975L21.8301 14.634L22.8301 16.366L21.855 16.929C21.9495 17.2699 22 17.629 22 18C22 18.371 21.9495 18.7301 21.855 19.071L22.8301 19.634L21.8301 21.366L20.8541 20.8025C20.3525 21.3133 19.7149 21.69 19 21.874V23H17V21.874C16.2851 21.69 15.6475 21.3133 15.1459 20.8025L14.1699 21.366L13.1699 19.634L14.145 19.071ZM18 20C19.1046 20 20 19.1046 20 18C20 16.8954 19.1046 16 18 16C16.8954 16 16 16.8954 16 18C16 19.1046 16.8954 20 18 20Z"></path></svg>
                         </div>
-                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                        <div class="text text-sm md:text-base font-semibold text-center group-hover:text-white pt-3">
                             Efficient Project Management
                         </div>
                     </div>
                 </div>
                 <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                    <div class="mainCard p-4 h-full group hover:bg-[#072b44] hover:rounded-lg duration-300">
                         <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
                             <svg stroke="green" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M9 8h6m-5 0a3 3 0 110 6H9l3 3m-3-6h6m6 1a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
-                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                        <div class="text text-sm md:text-base font-semibold text-center group-hover:text-white pt-3">
                             Cost effective Service
                         </div>
                     </div>
                 </div>
                 <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                    <div class="mainCard p-4 h-full group hover:bg-[#072b44] hover:rounded-lg duration-300">
                         <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
                             <svg stroke="currentColor" fill="#ffb200" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.64 7.64c.23-.5.36-1.05.36-1.64 0-2.21-1.79-4-4-4S2 3.79 2 6s1.79 4 4 4c.59 0 1.14-.13 1.64-.36L10 12l-2.36 2.36C7.14 14.13 6.59 14 6 14c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4c0-.59-.13-1.14-.36-1.64L12 14l7 7h3v-1L9.64 7.64zM6 8c-1.1 0-2-.89-2-2s.9-2 2-2 2 .89 2 2-.9 2-2 2zm0 12c-1.1 0-2-.89-2-2s.9-2 2-2 2 .89 2 2-.9 2-2 2zm6-7.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5.5.22.5.5-.22.5-.5.5zM19 3l-6 6 2 2 7-7V3h-3z"></path></svg>
                         </div>
-                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                        <div class="text text-sm md:text-base font-semibold text-center group-hover:text-white pt-3">
                             Cutting Edge Technology
                         </div>
                     </div>
                 </div>
                 <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                    <div class="mainCard p-4 h-full group hover:bg-[#072b44] hover:rounded-lg duration-300">
                         <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
                             <svg stroke="currentColor" fill="#5e40d8" stroke-width="0" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M288 176A88 88 0 1 0 288 0a88 88 0 1 0 0 176zM78.7 372.9c15-12.5 50-34.4 97.3-50.1V432H400V322.7c47.3 15.8 82.3 37.7 97.3 50.1c20.4 17 50.6 14.2 67.6-6.1s14.2-50.6-6.1-67.6c-12-10-30.1-22.5-53.2-35C497.2 278.4 481.7 288 464 288c-26.5 0-48-21.5-48-48c0-4.3 .6-8.4 1.6-12.4C379.1 215.9 335.3 208 288 208c-60.2 0-114.9 12.9-160 29.9c0 .7 0 1.4 0 2.1c0 26.5-21.5 48-48 48c-11.8 0-22.7-4.3-31-11.4c-13.1 8.1-23.7 15.9-31.7 22.5c-20.4 17-23.1 47.2-6.1 67.6s47.2 23.1 67.6 6.1zM24 464c-13.3 0-24 10.7-24 24s10.7 24 24 24H552c13.3 0 24-10.7 24-24s-10.7-24-24-24H24zM224 280a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm104 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM96 240a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm368 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32z"></path></svg>
                         </div>
-                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                        <div class="text text-sm md:text-base font-semibold text-center group-hover:text-white pt-3">
                             Dedicated Developers
                         </div>
                     </div>
                 </div>
                 <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                    <div class="mainCard p-4 h-full group hover:bg-[#072b44] hover:rounded-lg duration-300">
                         <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
                             <svg stroke="#13b9d1" fill="#13b9d1" stroke-width="0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02zM8 16h2.5l1.5 1.5 1.5-1.5H16v-2.5l1.5-1.5-1.5-1.5V8h-2.5L12 6.5 10.5 8H8v2.5L6.5 12 8 13.5V16zm4-7c1.66 0 3 1.34 3 3s-1.34 3-3 3V9z"></path></svg>
                         </div>
-                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                        <div class="text text-sm md:text-base font-semibold text-center group-hover:text-white pt-3">
                             Proven Method
                         </div>
                     </div>
                 </div>
                 <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                    <div class="mainCard p-4 h-full group hover:bg-[#072b44] hover:rounded-lg duration-300">
                         <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
                             <svg stroke="currentColor" fill="#034f8c" stroke-width="0" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 10.71875 6 C 9.863281 6 9.082031 6.558594 8.8125 7.375 L 7.28125 12 L 0 12 L 0 20.21875 C 0 21.132813 0.613281 21.933594 1.5 22.15625 L 4.09375 22.8125 C 4.46875 24.628906 6.078125 26 8 26 C 9.851563 26 11.398438 24.71875 11.84375 23 L 21.15625 23 C 21.601563 24.71875 23.148438 26 25 26 C 26.851563 26 28.398438 24.71875 28.84375 23 L 30 23 C 31.09375 23 32 22.09375 32 21 L 32 17.25 C 32 15.46875 30.808594 13.894531 29.09375 13.40625 L 24.5625 12.125 L 20.65625 7.4375 C 19.894531 6.527344 18.78125 6 17.59375 6 Z M 10.71875 8 L 14 8 L 14 12 L 9.375 12 Z M 16 8 L 17.59375 8 C 18.1875 8 18.746094 8.261719 19.125 8.71875 L 21.875 12 L 16 12 Z M 2 14 L 23.84375 14 L 28.5625 15.34375 C 29.425781 15.589844 30 16.351563 30 17.25 L 30 21 L 28.84375 21 C 28.398438 19.28125 26.851563 18 25 18 C 23.148438 18 21.601563 19.28125 21.15625 21 L 11.84375 21 C 11.398438 19.28125 9.851563 18 8 18 C 6.226563 18 4.738281 19.171875 4.21875 20.78125 L 2 20.21875 Z M 8 20 C 9.117188 20 10 20.882813 10 22 C 10 23.117188 9.117188 24 8 24 C 6.882813 24 6 23.117188 6 22 C 6 20.882813 6.882813 20 8 20 Z M 25 20 C 26.117188 20 27 20.882813 27 22 C 27 23.117188 26.117188 24 25 24 C 23.882813 24 23 23.117188 23 22 C 23 20.882813 23.882813 20 25 20 Z"></path></svg>
                         </div>
-                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                        <div class="text text-sm md:text-base font-semibold text-center group-hover:text-white pt-3">
                             Consistent Delivery
                         </div>
                     </div>
                 </div>
                 <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                    <div class="mainCard p-4 h-full group hover:bg-[#072b44] hover:rounded-lg duration-300">
                         <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
                             <svg stroke="currentColor" fill="#80a8c7" stroke-width="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M152.313 19.438C138.075 73.11 172.984 126.662 178.25 180.25c-28.744-16.01-71.286-25.18-88.656-43.656 9.36 29.558 51.055 44.096 77.094 66.312-57.236 1.556-101.637 65.75-148.125 79 54.52 31.628 111.427.296 167.437 23.875-27.654 34.76-47.284 67.888-57.97 107.283C148.787 384.2 174.07 351.39 198.72 326c-11.686 54.742 1.313 109.477 28.155 164.22 13.028-52.977 67.36-98.796 75.03-157.533 22.665 36.313 53.4 62.266 83.158 103.938-14.644-51.287-47.12-87.914-64.22-123.625 52.358 5.59 115.075 28.68 168.5 43.47-29.835-58.79-64.534-103.922-107.78-125.158 33.01.717 70.858 5.604 103.312 10.907-33.377-19.14-68.513-28.226-110-33.032 49.013-47.885 68.943-95.774 68.406-143.657-48.033 32.51-96.09 58.57-144.124 74.75 17.206-28.64 40.82-59.57 62-85.468-35.326 20.535-61.807 48.477-88.22 85.094-23.716-46.89-79.993-64.068-120.623-120.47zm35.625 72.937c8.325 26.55 49.006 61.23 63.718 91.625-7.935 2.196-15.188 5.65-21.437 10.063-9.67-33.43-46.513-71.114-42.282-101.688zm213.28 31.906c-20.144 34.656-47.403 60.806-83 86.72-2.394-7.408-7.083-13.755-13.124-18.563 31.454-17.384 66.972-44.313 96.125-68.156zm-129.812 75.814c6.66.108 12.638 1.57 17.375 3.97 7.22 3.653 11.376 8.906 12.345 15.436.97 6.53-1.55 13.663-7.53 20.188-5.983 6.524-15.326 12.01-26.283 14.218-10.956 2.208-21.094.686-28.312-2.97-7.218-3.653-11.374-8.906-12.344-15.436-.97-6.53 1.55-13.694 7.53-20.22 5.983-6.524 15.328-11.98 26.283-14.186 2.738-.552 5.424-.86 8.03-.97.977-.04 1.955-.046 2.906-.03zm-63.562 30.562c-.138 2.495-.034 5.02.344 7.563.983 6.622 3.748 12.55 7.718 17.56-36.236-7.654-91.958 24.29-125.062 10.157 34.23-.804 77.367-27.78 117-35.28zm107.5 10.25c43.444 16.685 78.393 35.883 108.406 65.72-39.556-17.844-87.918-37.4-126.563-45.47 3.768-2.62 7.204-5.558 10.188-8.812 3.177-3.465 5.884-7.328 7.97-11.438zM274.156 271.5l.22.03c-19.568 32.856-17.574 83.757-44.313 131.845 8.36-50.135 3.05-88.19 17.593-130.438 7.4 1.1 15.3.903 23.344-.718 1.07-.217 2.108-.46 3.156-.72z"></path></svg>
                         </div>
-                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                        <div class="text text-sm md:text-base font-semibold text-center group-hover:text-white pt-3">
                             Highest Coincidentally
                         </div>
                     </div>
                 </div>
                 <div class="px-2 w-1/2 sm:w-1/3 md:w-1/4 h-auto z-[10]">
-                    <div class="mainCard p-4 h-full group hover:bg-white hover:rounded-lg duration-300">
+                    <div class="mainCard p-4 h-full group hover:bg-[#072b44] hover:rounded-lg duration-300">
                         <div class="cardIcon h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] mx-auto">
                             <svg stroke="#e42b31" fill="none" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5A3.375 3.375 0 006.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0015 2.25h-1.5a2.251 2.251 0 00-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 00-9-9z"></path></svg>
                         </div>
-                        <div class="text text-sm md:text-base font-semibold text-white text-center group-hover:text-black pt-3">
+                        <div class="text text-sm md:text-base font-semibold text-center group-hover:text-white pt-3">
                             Enhanced RIO
                         </div>
                     </div>
@@ -1347,6 +1338,61 @@
         </div>
     </div>
 {{-- taxi cards Section Ends --}}
+
+{{-- pharmacy cards section start --}}
+    <div class="cardSection py-5 lg:py-10 mx-auto max-w-7xl px-3 sm:px-6 lg:px-8">
+    <div class="flex flex-wrap items-stretch gap-y-5">
+        <div class="w-full sm:w-1/2 lg:w-1/3 px-3 lg:px-5 h-auto">
+            <div class="mainCard p-8 hover:shadow-2xl border border-red-900 overflow-hidden group transition-all duration-300 rounded-xl h-full relative hover:bg-white">
+                <div class="flex flex-wrap items-center justify-between">
+                    <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full after:bg-gray-200 after:rounded-lg after:top-0 after:left-0 after:-z-10 before:absolute before:bg-black before:-z-30 before:top-[4px] before:left-[4px] before:rounded-lg before:opacity-30 before:h-full before:w-full">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,10 L12,18 M12,6 L12,8"></path></svg>
+                    </div>
+                    <div class="text-[70px] lg:text-[100px] absolute top-0 right-[0%] font-bold opacity-5 transition-all group-hover:opacity-30 group-hover:text-[#072b44] duration-300">01</div>
+                </div>
+                <div class="heading text-blue-950 mt-8 font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                    Convenient Access to Medicines
+                </div>
+                <div class="description md:text-base text-sm text-black/70 mt-3">
+                    With a Pharmacy Delivery app, users can order medicines from the comfort of their own homes, without having to physically visit a pharmacy. This is especially beneficial for elderly or disabled individuals who may have difficulty traveling to a pharmacy.
+                </div>
+            </div>
+        </div>
+        <div class="w-full sm:w-1/2 lg:w-1/3 px-3 lg:px-5 h-auto">
+            <div class="mainCard p-8 hover:shadow-2xl border border-red-900 overflow-hidden group transition-all duration-300 rounded-xl h-full relative hover:bg-white">
+                <div class="flex flex-wrap items-center justify-between">
+                    <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full after:bg-gray-200 after:rounded-lg after:top-0 after:left-0 after:-z-10 before:absolute before:bg-black before:-z-30 before:top-[4px] before:left-[4px] before:rounded-lg before:opacity-30 before:h-full before:w-full">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><path d="M115.063 21.97v9.343c0 101.953 38.158 189.648 96.343 222.093v6.094c-58.186 32.445-96.344 120.14-96.344 222.094v9.344H401.81v-9.344c0-102.552-38.804-190.274-97.53-222.188V253.5c58.722-31.917 97.53-119.64 97.53-222.188V21.97H115.06zM134 40.655h248.875c-2.477 96.445-42.742 175.523-91.938 198.906l-5.343 2.532V270.844l5.344 2.53c49.193 23.383 89.456 102.438 91.937 198.876H134c2.456-95.898 42.125-175.078 90.875-198.938l5.25-2.562v-28.594l-5.25-2.562c-48.748-23.86-88.42-103.04-90.875-198.938zm213.656 86.125c-57.607 27.81-124.526 27.84-177.562 4.095C184.748 181.78 213.91 218.012 248.22 224c-1.54 2.047-2.47 4.585-2.47 7.344 0 6.76 5.488 12.25 12.25 12.25s12.25-5.49 12.25-12.25c0-2.72-.907-5.218-2.406-7.25 35.426-5.88 65.488-44.07 79.812-97.313zM258 258.626c-6.762 0-12.25 5.488-12.25 12.25s5.488 12.25 12.25 12.25 12.25-5.488 12.25-12.25-5.488-12.25-12.25-12.25zm0 39.28c-6.762 0-12.25 5.49-12.25 12.25 0 6.763 5.488 12.25 12.25 12.25s12.25-5.487 12.25-12.25c0-6.76-5.488-12.25-12.25-12.25zm0 39.533c-6.762 0-12.25 5.488-12.25 12.25 0 6.76 5.488 12.25 12.25 12.25s12.25-5.49 12.25-12.25c0-6.762-5.488-12.25-12.25-12.25zm.125 39.906c-23.21.28-46.19 25.77-75.813 75.656h153c-30.523-51.003-53.977-75.936-77.187-75.656z"></path></svg>
+                    </div>
+                    <div class="text-[70px] lg:text-[100px] absolute top-0 right-[0%] font-bold opacity-5 transition-all group-hover:opacity-30 group-hover:text-[#072b44] duration-300">02</div>
+                </div>
+                <div class="heading text-blue-950 mt-8 font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                    Time-Saving
+                </div>
+                <div class="description md:text-base text-sm text-black/70 mt-3">
+                    A Pharmacy Delivery app saves time as users can easily place their order through the app, without having to stand in long queues or wait for the prescription to be filled.
+                </div>
+            </div>
+        </div>
+        <div class="w-full sm:w-1/2 lg:w-1/3 px-3 lg:px-5 h-auto">
+            <div class="mainCard p-8 hover:shadow-2xl border border-red-900 overflow-hidden group transition-all duration-300 rounded-xl h-full relative hover:bg-white">
+                <div class="flex flex-wrap items-center justify-between">
+                    <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full after:bg-gray-200 after:rounded-lg after:top-0 after:left-0 after:-z-10 before:absolute before:bg-black before:-z-30 before:top-[4px] before:left-[4px] before:rounded-lg before:opacity-30 before:h-full before:w-full">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M18 21v-14"></path><path d="M9 15l3 -3l3 3"></path><path d="M15 10l3 -3l3 3"></path><path d="M3 21l18 0"></path><path d="M12 21l0 -9"></path><path d="M3 6l3 -3l3 3"></path><path d="M6 21v-18"></path></svg>
+                    </div>
+                    <div class="text-[70px] lg:text-[100px] absolute top-0 right-[0%] font-bold opacity-5 transition-all group-hover:opacity-30 group-hover:text-[#072b44] duration-300">03</div>
+                </div>
+                <div class="heading text-blue-950 mt-8 font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                    Increased Efficiency
+                </div>
+                <div class="description md:text-base text-sm text-black/70 mt-3">
+                    With a Pharmacy Delivery app, pharmacies can manage their inventory more efficiently, track their orders, and reduce the chances of errors in filling prescriptions.
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+{{-- pharmacy cards section end --}}
 
 
 @endsection
