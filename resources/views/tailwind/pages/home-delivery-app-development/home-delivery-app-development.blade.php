@@ -1174,8 +1174,138 @@
         </div>
     </div>
 </div>
-{{-- nidhi software card end --}}
+{{-- new merror cards --}}
+<div class="md:py-16 py-5  relative bg-white">
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
+    </div>
 
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
+
+        <div class="md:text-center text-left">
+            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal text-black">Why We are the Best Android <br></span> 
+                <span class="font-bold  bg-gradient-to-r from-sky-300 via-slate-700 to-sky-400 bg-clip-text text-transparent"> App Development Company?</span>
+            </p>
+            <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
+            
+        </div>
+        <div class="flex flex-wrap items-stretch pt-4 relative z-50">
+            
+            <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
+                <div class="h-full shadow-4xl relative bg-gray-300 group backdrop-blur-[12px] p-7 before:absolute before:top-[-20%] before:right-[-20%] before-z-0  before:h-[200px] before:w-[200px] before:rounded-full before:bg-gray-200 overflow-hidden">
+                    <span class="absolute border-l-2 border-blue-500  left-0 top-0 h-0 w-0  group-hover:h-full duration-300 delay-300"></span>
+                    <span class="absolute border-t-2 border-blue-500 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
+                    <span class="absolute border-r-2 border-blue-500 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
+                    <span class="absolute border-b-2 border-blue-500 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
+                    <div class="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
+                        <div class="text-3xl duration-700 relative z-50  font-bold text-slate-500">
+                            01
+                        </div>
+                    </div> 
+                    <div class="text-lg my-3  relative z-50  text-slate-500 font-semibold">
+                        Cost-Effective
+                    </div>
+                    <div class="text-base relative z-50  text-black ">
+                        By understanding the importance of cost factor for a company, we develop software that easily cut down maintenances cost.
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
+                <div class="h-full shadow-4xl relative bg-gray-300 group backdrop-blur-[12px] p-7 before:absolute before:top-[-20%] before:right-[-20%] before-z-0  before:h-[200px] before:w-[200px] before:rounded-full before:bg-gray-200 overflow-hidden">
+                    <span class="absolute border-l-2 border-blue-500  left-0 top-0 h-0 w-0  group-hover:h-full duration-300 delay-300"></span>
+                    <span class="absolute border-t-2 border-blue-500 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
+                    <span class="absolute border-r-2 border-blue-500 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
+                    <span class="absolute border-b-2 border-blue-500 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
+                    <div class="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
+                        <div class="text-3xl duration-700 relative z-50  font-bold text-slate-500">
+                            02
+                        </div>
+                    </div> 
+                    <div class="text-lg my-3  relative z-50  text-slate-500 font-semibold">
+                        24X7 Support
+                    </div>
+                    <div class="text-base relative z-50  text-black ">
+                        We are totally committed in serving our best to customers and with this aim, we provide 24X7 hours service to our clients.
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
+                <div class="h-full shadow-4xl relative bg-gray-300 group backdrop-blur-[12px] p-7 before:absolute before:top-[-20%] before:right-[-20%] before-z-0  before:h-[200px] before:w-[200px] before:rounded-full before:bg-gray-200 overflow-hidden">
+                    <span class="absolute border-l-2 border-blue-500  left-0 top-0 h-0 w-0  group-hover:h-full duration-300 delay-300"></span>
+                    <span class="absolute border-t-2 border-blue-500 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
+                    <span class="absolute border-r-2 border-blue-500 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
+                    <span class="absolute border-b-2 border-blue-500 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
+                    <div class="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
+                        <div class="text-3xl duration-700 relative z-50  font-bold text-slate-500">
+                            03
+                        </div>
+                    </div> 
+                    <div class="text-lg my-3  relative z-50  text-slate-500 font-semibold">
+                        Easy To Use
+                    </div>
+                    <div class="text-base relative z-50  text-black ">
+                        We develop software that is easy to access and efficiently manage various services without any kind of assistance.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+{{-- new merror cards --}}
+{{-- fashion card start --}}
+<div class="md:py-16 py-5  relative bg-white">
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
+
+        <div class="md:text-center text-left">
+            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal text-black">Why We are the Best Android <br></span> 
+                <span class="font-bold  bg-gradient-to-r from-sky-300 via-slate-700 to-sky-400 bg-clip-text text-transparent"> App Development Company?</span>
+            </p>
+            <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
+            
+        </div>
+        <div class="flex flex-wrap items-stretch pt-4 relative z-50">
+            
+            <div class="lg:w-1/4 w-full h-auto p-3 sm:w-1/2">
+                <div class="w-full h-full bg-zinc-200 flex flex-col items-center justify-center px-6 relative  py-10 border-x-4 border-purple-500 rounded-xl rounded-br-none after:absolute after:w-[90px] after:h-[90px] after:bg-purple-300 after:z-10 after:bottom-[-30px] after:left-[-30px] after:duration-700  after:rounded-full hover:after:bg-purple-700  before:duration-700 hover:before:bg-purple-700 before:absolute before:h-[90px] before:w-[90px] before:rounded-full before:bg-purple-300 before:top-[-30px] before:right-[-30px] overflow-hidden before:z-50">
+                       <div class="w-[50px] h-[50px] relative z-50 justify-center flex items-center bg-purple-300 rounded-br-none rounded-lg ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[25px] text-purple-800 h-[25px]" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
+                       </div>
+                       <div class="text-xl py-3 relative z-50 font-semibold text-purple-700">
+                        User-Friendly
+                       </div>
+                         <div class="text-base relative z-50 text-center">
+                          A user-friendly interface allows you to navigate through the app.
+                          </div>
+                          
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+{{-- fashion card end --}}
 {{-- new page end --}}
 
 
