@@ -136,7 +136,7 @@
             <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We prioritize our clients, delivering tailored solutions that exceed expectations and foster long-term partnerships.</div>
             <div class="flex mt-2 mx-auto md:mt-10 pt-7 sm:pt-8 lg:mx-0 justify-center flex-wrap">
                 <div class="lg:w-1/3 p-7md:w-1/2 w-full p-4">
-                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
+                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-white/5700 before:absolute befowhite/10t[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
                         <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                         <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">01</div>
                         </div>
@@ -150,7 +150,7 @@
                     </div>
                 </div>
                 <div class="lg:w-1/3 p-7md:w-1/2 w-full p-4">
-                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
+                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-white/5700 before:absolute befowhite/10t[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
                         <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                             <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">02</div>
                         </div>
@@ -164,7 +164,7 @@
                     </div>
                 </div>
                 <div class="lg:w-1/3 p-7md:w-1/2 w-full p-4">
-                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-sky-50 before:duration-700 before:absolute before:content[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
+                    <div class="w-full p-8 border rounded-br-none rounded-3xl shadow-md relative overflow-hidden bg-white before:bg-white/5700 before:absolute befowhite/10t[''] before:w-full before:h-full before:bottom-[-70%] before:left-[-70%] before:-z-70 before:rounded-full md:before:hover:rounded-none md:before:hover:left-0 md:before:hover:bottom-0">
                         <div class="shadow-md translate-x-14 bg-gray-150  rounded-full flex items-center justify-center relative mb-6 before:content-[''] before:absolute before:-z-10 before:w-[80%] before:h-[100%] before:rounded-full before:bg-blue-50 before:top-0 before:right-0  after:content-[''] after:absolute after:-z-50 after:w-[90%] after:h-[100%] after:rounded-full after:bg-blue-100 after:top-0 after:right-0">
                         <div class=" font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-5xl/tight tracking-[-0.04em] ">03</div>
                         </div>
@@ -1069,7 +1069,7 @@
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1086,7 +1086,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1103,7 +1103,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1120,7 +1120,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1137,7 +1137,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1154,7 +1154,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-sky-50 h-full relative overflow-hidden rounded-xl rounded-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1286,18 +1286,17 @@
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
             
-            <div class="lg:w-1/4 w-full h-auto p-3 sm:w-1/2">
-                <div class="w-full h-full bg-zinc-200 flex flex-col items-center justify-center px-6 relative  py-10 border-x-4 border-purple-500 rounded-xl rounded-br-none after:absolute after:w-[90px] after:h-[90px] after:bg-purple-300 after:z-10 after:bottom-[-30px] after:left-[-30px] after:duration-700  after:rounded-full hover:after:bg-purple-700  before:duration-700 hover:before:bg-purple-700 before:absolute before:h-[90px] before:w-[90px] before:rounded-full before:bg-purple-300 before:top-[-30px] before:right-[-30px] overflow-hidden before:z-50">
-                       <div class="w-[50px] h-[50px] relative z-50 justify-center flex items-center bg-purple-300 rounded-br-none rounded-lg ">
+            <div class="lg:w-1/4 w-full h-auto p-3 sm:w-1/2 ">
+                <div class="w-full h-full relative before:bg-red-900 before:top-0 before:left-0 bg-clip-text bg-red-400 clip-polygon-[74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%] before:absolute">
+                        <div class="w-[50px] h-[50px] relative z-50 justify-center flex items-center bg-purple-300 rounded-br-none rounded-lg ">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[25px] text-purple-800 h-[25px]" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
-                       </div>
-                       <div class="text-xl py-3 relative z-50 font-semibold text-purple-700">
+                        </div>
+                        <div class="text-xl py-3 relative z-50 font-semibold text-purple-700">
                         User-Friendly
-                       </div>
-                         <div class="text-base relative z-50 text-center">
-                          A user-friendly interface allows you to navigate through the app.
-                          </div>
-                          
+                        </div>
+                            <div class="text-base relative z-50 text-center">
+                                A user-friendly interface allows you to navigate through the app.
+                            </div>
                     </div>
                 </div>
             </div>
@@ -1306,6 +1305,96 @@
     </div>
 </div>
 {{-- fashion card end --}}
+{{-- tabel start --}}
+
+{{-- tabel end --}}
+<div class="md:py-16 py-5 relative bg-slate-800">
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
+
+        <div class="md:text-center text-left">
+            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal text-white">Why Choose Custom Taxi Booking App<br></span> 
+                <span class="font-bold  bg-gradient-to-r from-sky-300 via-slate-300 to-sky-400 bg-clip-text text-transparent"> Development Over Ready-Made Solution?</span>
+            </p>
+            <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">Are you caught between choices? Explore the distinct advantages of a custom taxi booking app
+                solution over a ready-made solution. Here's what you need to know.</div>
+            
+        </div>
+        <div class="grid z-50 grid-cols-1 gap-8 pt-4">
+            <div class="flex flex-col overflow-x-auto">
+                <table class="table-auto hover:table-fixed border-separate border-spacing-y-4 md:text-base text-sm">
+                    <thead>
+                        <tr>
+                            <th class='text-white md:px-5 px-3 md:font-semibold font-normal text-left first:rounded-l-xl last:rounded-r-xl text-nowrap'>Aspect</th>
+                            <th class='text-white md:px-5 px-3 md:font-semibold font-normal text-left first:rounded-l-xl last:rounded-r-xl text-nowrap'>Custom Taxi Booking App</th>
+                            <th class='text-white md:px-5 px-3 md:font-semibold font-normal text-left first:rounded-l-xl last:rounded-r-xl text-nowrap'>Ready-Made Solution</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='group/history invest'>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer md:font-semibold font-normal duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Target Audience</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Targets specific sections of customers</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Largely scattered, targeting a lot of customers.</td>
+                        </tr>
+                        <tr class='group/history invest'>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer md:font-semibold font-normal duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Total Control and
+                                Ownership</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>High level of control ensuring full ownership of the
+                                product.</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Lack of control and dependency on the solution
+                                provider.</td>
+                        </tr>
+                        <tr class='group/history invest'>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer md:font-semibold font-normal duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Type of Investment</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Pay once for the initial development of an
+                                application</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Pay a subscription fee every month.
+                                Limited room for customization</td>
+                        </tr>
+                        <tr class='group/history invest'>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer md:font-semibold font-normal duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Level of Customizations</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Customize the app as per your needs.</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Limited room for customization.</td>
+                        </tr>
+                        <tr class='group/history invest'>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer md:font-semibold font-normal duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>ROI
+                                </td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>High customization causes an increase in user
+                                engagement, which leads to high ROI.</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Lower customization leads to limited scaling options
+                                which results in low ROI.</td>
+                        </tr>
+                       
+                        <tr class='group/history invest'>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer md:font-semibold font-normal duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Security and
+                                Compliance</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Enhanced security measures that keep your app
+                                data 100% secure.</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Generic security measures risk compliance needs and
+                                high chances of data breaches.</td>
+                        </tr>
+                        <tr class='group/history invest'>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer md:font-semibold font-normal duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Scalability</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Highly scalable according to your requirements.</td>
+                            <td class='bg-white/5 group-hover/history:bg-white/10 cursor-pointer duration-100 border-y-2 first:border-l-2 last:border-r-2 border-black/10 text-white md:p-5 p-3 text-left first:rounded-l-xl last:rounded-r-xl'>Limited scalability.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
 {{-- new page end --}}
 
 
