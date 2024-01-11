@@ -1069,7 +1069,7 @@
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white overflow-hidden rounded-xl h-full rounded-br-none relative  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1086,7 +1086,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white overflow-hidden  rounded-xl h-full rounded-br-none relative  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1103,7 +1103,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white overflow-hidden  rounded-xl h-full rounded-br-none relative  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1120,7 +1120,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white overflow-hidden  rounded-xl h-full rounded-br-none relative hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1137,7 +1137,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white overflow-hidden rounded-xl h-full rounded-br-none relative hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1154,7 +1154,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white/5overflow-hidden rounded-white/10d-br-none  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                <div class="bg-white overflow-hidden rounded-xl h-full rounded-br-none relative hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
                     <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
@@ -1200,7 +1200,7 @@
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
             
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="h-full shadow-4xl relative bg-gray-300 group backdrop-blur-[12px] p-7 before:absolute before:top-[-20%] before:right-[-20%] before-z-0  before:h-[200px] before:w-[200px] before:rounded-full before:bg-gray-200 overflow-hidden">
+                <div class="h-full shadow-4xl relative bg-gray-300 group backdrop-blur-[12px] p-7 before:transition-all  after:transition-all before:absolute before:top-[-20%] before:right-[-20%] before-z-0  before:h-[200px] before:w-[200px] before:rounded-full before:bg-gray-200 overflow-hidden">
                     <span class="absolute border-l-2 border-blue-500  left-0 top-0 h-0 w-0  group-hover:h-full duration-300 delay-300"></span>
                     <span class="absolute border-t-2 border-blue-500 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                     <span class="absolute border-r-2 border-blue-500 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
@@ -1219,7 +1219,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="h-full shadow-4xl relative bg-gray-300 group backdrop-blur-[12px] p-7 before:absolute before:top-[-20%] before:right-[-20%] before-z-0  before:h-[200px] before:w-[200px] before:rounded-full before:bg-gray-200 overflow-hidden">
+                <div class="h-full shadow-4xl relative bg-gray-300 group backdrop-blur-[12px] p-7 before:transition-all  after:transition-all before:absolute before:top-[-20%] before:right-[-20%] before-z-0  before:h-[200px] before:w-[200px] before:rounded-full before:bg-gray-200 overflow-hidden">
                     <span class="absolute border-l-2 border-blue-500  left-0 top-0 h-0 w-0  group-hover:h-full duration-300 delay-300"></span>
                     <span class="absolute border-t-2 border-blue-500 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                     <span class="absolute border-r-2 border-blue-500 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
@@ -1238,7 +1238,7 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="h-full shadow-4xl relative bg-gray-300 group backdrop-blur-[12px] p-7 before:absolute before:top-[-20%] before:right-[-20%] before-z-0  before:h-[200px] before:w-[200px] before:rounded-full before:bg-gray-200 overflow-hidden">
+                <div class="h-full shadow-4xl relative bg-gray-300 group backdrop-blur-[12px] p-7 before:transition-all  after:transition-all before:absolute before:top-[-20%] before:right-[-20%] before-z-0  before:h-[200px] before:w-[200px] before:rounded-full before:bg-gray-200 overflow-hidden">
                     <span class="absolute border-l-2 border-blue-500  left-0 top-0 h-0 w-0  group-hover:h-full duration-300 delay-300"></span>
                     <span class="absolute border-t-2 border-blue-500 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                     <span class="absolute border-r-2 border-blue-500 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
@@ -1287,7 +1287,7 @@
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
             
             <div class="lg:w-1/4 w-full h-auto p-3 sm:w-1/2 ">
-                <div class="w-full h-full relative before:bg-red-900 before:top-0 before:left-0 bg-clip-text bg-red-400 clip-polygon-[74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%] before:absolute">
+                <div class="w-full h-full relative before:bg-red-900 before:top-0 before:left-0 bg-clip-text bg-red-400 [clip-path:polygon(74.1%_44.1%_100%_61.6%_97.5%_26.9%_85.5%_0.1%_80.7%_2%_72.5%_32.5%_60.2%_62.4%_52.4%_68.1%_47.5%_58.3%_45.2%_34.5%_27.5%_76.7%_0.1%_64.9%_17.9%_100%_27.6%_76.8%_76.1%_97.7%_74.1%_44.1%)] before:absolute">
                         <div class="w-[50px] h-[50px] relative z-50 justify-center flex items-center bg-purple-300 rounded-br-none rounded-lg ">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[25px] text-purple-800 h-[25px]" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
                         </div>
