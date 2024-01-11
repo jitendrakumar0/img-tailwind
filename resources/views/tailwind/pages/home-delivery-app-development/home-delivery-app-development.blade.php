@@ -1286,18 +1286,13 @@
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
             
-            <div class="lg:w-1/4 w-full h-auto p-3 sm:w-1/2 ">
-                <div class="w-full h-full relative before:bg-red-900 before:top-0 before:left-0 bg-clip-text bg-red-400 [clip-path:polygon(74.1%_44.1%_100%_61.6%_97.5%_26.9%_85.5%_0.1%_80.7%_2%_72.5%_32.5%_60.2%_62.4%_52.4%_68.1%_47.5%_58.3%_45.2%_34.5%_27.5%_76.7%_0.1%_64.9%_17.9%_100%_27.6%_76.8%_76.1%_97.7%_74.1%_44.1%)] before:absolute">
-                        <div class="w-[50px] h-[50px] relative z-50 justify-center flex items-center bg-purple-300 rounded-br-none rounded-lg ">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[25px] text-purple-800 h-[25px]" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
-                        </div>
-                        <div class="text-xl py-3 relative z-50 font-semibold text-purple-700">
-                        User-Friendly
-                        </div>
-                            <div class="text-base relative z-50 text-center">
-                                A user-friendly interface allows you to navigate through the app.
-                            </div>
+            <div class="lg:w-1/2 w-full h-auto p-3 sm:w-1/2 ">
+                <div class="size-full mix-blend-color-burn p-40  relative after:absolute after:size-full after:bg-[#7e59abaf] after:inset-0 before:size-full before:inset-0 before:absolute before:bg-[#351d3f] before:z-0 before:[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] before:overflow-hidden">
+                    <div>
+                        <img src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="thanku" class="img-fluid size-full absolute inset-0 -z-10 ">
                     </div>
+                    <div class="absolute inset-0px bg-[#351d3f] size-full" ></div>
+                </div>
                 </div>
             </div>
             
@@ -1306,8 +1301,6 @@
 </div>
 {{-- fashion card end --}}
 {{-- tabel start --}}
-
-{{-- tabel end --}}
 <div class="md:py-16 py-5 relative bg-slate-800">
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
         <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
@@ -1395,6 +1388,8 @@
         </div>
     </div>
 </div>
+{{-- tabel end --}}
+
 {{-- new page end --}}
 
 
