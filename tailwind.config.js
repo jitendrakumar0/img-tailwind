@@ -2,7 +2,10 @@
 module.exports = {
   content: [
     "./resources/sass/**/*.{css,scss}",
-    "./resources/views/tailwind/**/*.{php,blade.php}",
+    "./resources/views/tailwind/index.blade.php",
+    "./resources/views/tailwind/pages/home/**/*.{php,blade.php}",
+    "./resources/views/tailwind/components/header/**/*.{php,blade.php}",
+    "./resources/views/tailwind/components/footer/**/*.{php,blade.php}",
     "./resources/js/**/*.{js,jsx,ts,scss,tsx}",
   ],
   theme: {

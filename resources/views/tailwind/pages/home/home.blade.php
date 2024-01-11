@@ -2,7 +2,7 @@
 @push('meta')
 <!--  Title -->
 <title>IT Consulting Company | IT Consulting Services</title>
-  <!-- Required meta tags -->
+<!-- Required meta tags -->
 <meta name="title" content="IT Consulting Company | IT Consulting Services">
 <meta name="description" content=" IMG Global is the best IT consulting Company that provides the best IT consulting services to startups, mid-size, medium-size and large-size businesses.">
 <meta name="keywords" content="IT consulting company, IT consulting services, IT consultant, IT consulting firm, Hire IT consultant, IT company">
@@ -94,7 +94,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         <div class="swiper-wrapper">
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative aspect-[860/460] overflow-hidden group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-yellow-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-yellow-950 before:via-yellow-900 before:to-yellow-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
-                    <img loading="eager" class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us.webp'))}}" alt="unlock-access-to-bespoke-apps-and-product-innovation-with-us">
+                    <img 
+                        class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]"
+                        loading="lazy"
+                        width="860"
+                        height="460"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 3000px) 3000px, (min-width: 1140px) 1140px, (min-width: 520px) 520px, (min-width: 300px) 300px, 100vw"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-265w.webp'))}} 265w,
+                            {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-860w.webp'))}} 860w,
+                            {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-1170w.webp'))}} 1170w,
+                            {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-1520w.webp'))}} 1520w,
+                            {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-1800w.webp'))}} 1800w,
+                            {{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-2048w.webp'))}} 2048w"
+                        data-src="{{asset('public'.mix('/tailwind/img/unlock-access-to-bespoke-apps-and-product-innovation-with-us-265w.webp'))}}"
+                        alt="unlock-access-to-bespoke-apps-and-product-innovation-with-us"
+                    >
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress group-[.swiper-slide-active]:animate-progress absolute opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 p-1 bottom-4 z-10 w-4 h-4 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full [--progress:0;]">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] bg-white/20 rounded-full [transform:rotate(-90deg)] fill-none stroke-[8px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] ease-linear group-[.swiper-slide-active]:duration-[1500ms] left-0 top-0 z-10 w-full h-full stroke-white/80">
@@ -130,7 +146,24 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative aspect-[860/460] overflow-hidden group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-lime-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-lime-950 before:via-lime-900 before:to-lime-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
-                    <img loading="eager" class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1.webp'))}}" alt="elevate-your-vision-with-robust-and-scalable-mobile-app-development1">
+                    <img
+                        class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]"
+                        loading="lazy"
+                        width="860"
+                        height="460"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 3000px) 3000px, (min-width: 3000px) 3000px, (min-width: 300px) 520px, (min-width: 300px) 300px, 100vw"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1-265w.webp'))}} 265w,
+                            {{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1-860w.webp'))}} 860w,
+                            {{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1-1360w.webp'))}} 1360w,
+                            {{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1-1720w.webp'))}} 1720w,
+                            {{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1-1890w.webp'))}} 1890w,
+                            {{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1-2048w.webp'))}} 2048w"
+                        data-src="{{asset('public'.mix('/tailwind/img/elevate-your-vision-with-robust-and-scalable-mobile-app-development1-265w.webp'))}}"
+                        alt="elevate-your-vision-with-robust-and-scalable-mobile-app-development"
+                    >
+
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress group-[.swiper-slide-active]:animate-progress absolute opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 p-1 bottom-4 z-10 w-4 h-4 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full [--progress:0;]">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] bg-white/20 rounded-full [transform:rotate(-90deg)] fill-none stroke-[8px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] ease-linear group-[.swiper-slide-active]:duration-[1500ms] left-0 top-0 z-10 w-full h-full stroke-white/80">
@@ -166,7 +199,22 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative aspect-[860/460] overflow-hidden group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-sky-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-sky-950 before:via-sky-900 before:to-sky-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
-                    <img loading="lazy" class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development!.webp'))}}" alt="level_up_your_business_game_with_fantasy_sports_app_development!">
+                    <img
+                        class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]"
+                        loading="lazy"
+                        width="860"
+                        height="460"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 2160px) 2160px, (min-width: 1980px) 1980px, (min-width: 520px) 520px, (min-width: 320px) 320px, 100vw"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development-256w.webp'))}} 256w,
+                            {{asset('public'.mix('/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development-860w.webp'))}} 860w,
+                            {{asset('public'.mix('/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development-1340w.webp'))}} 1340w,
+                            {{asset('public'.mix('/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development-1690w.webp'))}} 1690w"
+                        data-src="{{asset('public'.mix('/tailwind/img/level_up_your_business_game_with_fantasy_sports_app_development-256w.webp'))}}"
+                        alt="level_up_your_business_game_with_fantasy_sports_app_development"
+                    >
+
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress group-[.swiper-slide-active]:animate-progress absolute opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 p-1 bottom-4 z-10 w-4 h-4 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full [--progress:0;]">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] bg-white/20 rounded-full [transform:rotate(-90deg)] fill-none stroke-[8px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] ease-linear group-[.swiper-slide-active]:duration-[1500ms] left-0 top-0 z-10 w-full h-full stroke-white/80">
@@ -202,7 +250,24 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative aspect-[860/460] overflow-hidden group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-purple-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-purple-950 before:via-purple-900 before:to-purple-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
-                    <img loading="lazy" class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions.webp'))}}" alt="enhance-your-brand-presence-with-innovative-web-development-solutions">
+                    <img
+                        class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]"
+                        loading="lazy"
+                        width="860"
+                        height="460"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 3000px) 3000px, (min-width: 1140px) 1140px, (min-width: 520px) 520px, (min-width: 300px) 300px, 100vw"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-265w.webp'))}} 265w,
+                            {{asset('public'.mix('/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-860w.webp'))}} 860w,
+                            {{asset('public'.mix('/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-1170w.webp'))}} 1170w,
+                            {{asset('public'.mix('/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-1520w.webp'))}} 1520w,
+                            {{asset('public'.mix('/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-1800w.webp'))}} 1800w,
+                            {{asset('public'.mix('/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-2048w.webp'))}} 2048w"
+                        data-src="{{asset('public'.mix('/tailwind/img/enhance-your-brand-presence-with-innovative-web-development-solutions-265w.webp'))}}"
+                        alt="enhance-your-brand-presence-with-innovative-web-development-solutions"
+                    >
+
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress group-[.swiper-slide-active]:animate-progress absolute opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 p-1 bottom-4 z-10 w-4 h-4 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full [--progress:0;]">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] bg-white/20 rounded-full [transform:rotate(-90deg)] fill-none stroke-[8px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] ease-linear group-[.swiper-slide-active]:duration-[1500ms] left-0 top-0 z-10 w-full h-full stroke-white/80">
@@ -238,7 +303,24 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             </div>
             <div class="swiper-slide group py-5">
                 <div class="flex h-full items-center justify-center rounded-2xl w-full relative aspect-[860/460] overflow-hidden group-[.swiper-slide-active]:z-10 lg:group-[.swiper-slide-active]:w-[147.5%] lg:group-[.swiper-slide-next]:w-[55%] lg:group-[.swiper-slide-active]:translate-x-[6%] lg:group-[.swiper-slide-next]:translate-x-[101%] lg:translate-x-[10%] duration-500 shadow-lg shadow-rose-950 before:absolute before:inset-0 before:bg-cover before:bg-right before:rounded-2xl before:bg-gradient-to-r before:from-rose-950 before:via-rose-900 before:to-rose-800/90 before:mix-blend-multiply after:absolute after:inset-0 after:bg-repeat after:[background-image:url(../img/grid.svg)]">
-                    <img loading="lazy" class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]" width="860" height="460" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders.webp'))}}" alt="Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders">
+                    <img
+                        class="w-full h-full object-cover object-right absolute inset-0 -z-[1] rounded-2xl aspect-[860/460]"
+                        loading="lazy"
+                        width="860"
+                        height="460"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 3000px) 3000px, (min-width: 1140px) 1140px, (min-width: 520px) 520px, (min-width: 300px) 300px, 100vw"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-265w.webp'))}} 265w,
+                            {{asset('public'.mix('/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-860w.webp'))}} 860w,
+                            {{asset('public'.mix('/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-1170w.webp'))}} 1170w,
+                            {{asset('public'.mix('/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-1520w.webp'))}} 1520w,
+                            {{asset('public'.mix('/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-1800w.webp'))}} 1800w,
+                            {{asset('public'.mix('/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-2048w.webp'))}} 2048w"
+                        data-src="{{asset('public'.mix('/tailwind/img/Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders-265w.webp'))}}"
+                        alt="Hire_dedicated_professionals_and_unleash_business_potential_beyond_borders"
+                    >
+
                     <a class="swiper-button-next opacity-0 absolute !inset-0 !mt-0 group-[.swiper-slide-next]:!block !hidden !z-[11] !w-full !h-full"></a>
                     <div class="autoplay-progress group-[.swiper-slide-active]:animate-progress absolute opacity-0 group-[.swiper-slide-active]:opacity-100 flex left-4 p-1 bottom-4 z-10 w-4 h-4 items-center justify-center font-bold text-white/80 bg-black/20 rounded-full [--progress:0;]">
                         <svg viewBox="0 0 48 48" class="absolute [stroke-dasharray:125.6] bg-white/20 rounded-full [transform:rotate(-90deg)] fill-none stroke-[8px] [stroke-dashoffset:calc(125.6*(1-var(--progress)))] ease-linear group-[.swiper-slide-active]:duration-[1500ms] left-0 top-0 z-10 w-full h-full stroke-white/80">
@@ -276,10 +358,10 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
         {{-- <div class="swiper-pagination"></div> --}}
     
         <a class="swiper-button-prev max-lg:!hidden !top-[calc(100%-50%-20px)] !right-5 !left-auto !w-10 !h-10 rounded-full flex items-center justify-center p-0 after:hidden duration-200 opacity-80 hover:opacity-100">
-            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M12 2l.324 .001l.318 .004l.616 .017l.299 .013l.579 .034l.553 .046c4.785 .464 6.732 2.411 7.196 7.196l.046 .553l.034 .579c.005 .098 .01 .198 .013 .299l.017 .616l.005 .642l-.005 .642l-.017 .616l-.013 .299l-.034 .579l-.046 .553c-.464 4.785 -2.411 6.732 -7.196 7.196l-.553 .046l-.579 .034c-.098 .005 -.198 .01 -.299 .013l-.616 .017l-.642 .005l-.642 -.005l-.616 -.017l-.299 -.013l-.579 -.034l-.553 -.046c-4.785 -.464 -6.732 -2.411 -7.196 -7.196l-.046 -.553l-.034 -.579a28.058 28.058 0 0 1 -.013 -.299l-.017 -.616c-.003 -.21 -.005 -.424 -.005 -.642l.001 -.324l.004 -.318l.017 -.616l.013 -.299l.034 -.579l.046 -.553c.464 -4.785 2.411 -6.732 7.196 -7.196l.553 -.046l.579 -.034c.098 -.005 .198 -.01 .299 -.013l.616 -.017c.21 -.003 .424 -.005 .642 -.005zm1.707 6.293a1 1 0 0 0 -1.414 0l-3 3l-.083 .094a1 1 0 0 0 .083 1.32l3 3l.094 .083a1 1 0 0 0 1.32 -.083l.083 -.094a1 1 0 0 0 -.083 -1.32l-2.292 -2.293l2.292 -2.293l.083 -.094a1 1 0 0 0 -.083 -1.32z" fill="currentColor" class="fill-white" stroke-width="0"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-full h-full" viewBox="0 0 24 24"><path stroke="none" d="M0 0h24v24H0z"/><path fill="currentColor" stroke="none" d="m12 2 .324.001.318.004.616.017.299.013.579.034.553.046c4.785.464 6.732 2.411 7.196 7.196l.046.553.034.579c.005.098.01.198.013.299l.017.616L22 12l-.005.642-.017.616-.013.299-.034.579-.046.553c-.464 4.785-2.411 6.732-7.196 7.196l-.553.046-.579.034c-.098.005-.198.01-.299.013l-.616.017L12 22l-.642-.005-.616-.017-.299-.013-.579-.034-.553-.046c-4.785-.464-6.732-2.411-7.196-7.196l-.046-.553-.034-.579a28.058 28.058 0 0 1-.013-.299l-.017-.616C2.002 12.432 2 12.218 2 12l.001-.324.004-.318.017-.616.013-.299.034-.579.046-.553c.464-4.785 2.411-6.732 7.196-7.196l.553-.046.579-.034c.098-.005.198-.01.299-.013l.616-.017c.21-.003.424-.005.642-.005zm1.707 6.293a1 1 0 0 0-1.414 0l-3 3-.083.094a1 1 0 0 0 .083 1.32l3 3 .094.083a1 1 0 0 0 1.32-.083l.083-.094a1 1 0 0 0-.083-1.32L11.415 12l2.292-2.293.083-.094a1 1 0 0 0-.083-1.32z" class="fill-white"/></svg>
         </a>
         <a class="swiper-button-next max-lg:!hidden !top-[calc(100%-50%--20px)] !right-5 !left-auto !w-10 !h-10 rounded-full flex items-center justify-center p-0 after:hidden duration-200 opacity-80 hover:opacity-100">
-            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M12 2c-.218 0 -.432 .002 -.642 .005l-.616 .017l-.299 .013l-.579 .034l-.553 .046c-4.785 .464 -6.732 2.411 -7.196 7.196l-.046 .553l-.034 .579c-.005 .098 -.01 .198 -.013 .299l-.017 .616l-.004 .318l-.001 .324c0 .218 .002 .432 .005 .642l.017 .616l.013 .299l.034 .579l.046 .553c.464 4.785 2.411 6.732 7.196 7.196l.553 .046l.579 .034c.098 .005 .198 .01 .299 .013l.616 .017l.642 .005l.642 -.005l.616 -.017l.299 -.013l.579 -.034l.553 -.046c4.785 -.464 6.732 -2.411 7.196 -7.196l.046 -.553l.034 -.579c.005 -.098 .01 -.198 .013 -.299l.017 -.616l.005 -.642l-.005 -.642l-.017 -.616l-.013 -.299l-.034 -.579l-.046 -.553c-.464 -4.785 -2.411 -6.732 -7.196 -7.196l-.553 -.046l-.579 -.034a28.058 28.058 0 0 0 -.299 -.013l-.616 -.017l-.318 -.004l-.324 -.001zm-1.707 6.293a1 1 0 0 1 1.32 -.083l.094 .083l3 3a1 1 0 0 1 .083 1.32l-.083 .094l-3 3a1 1 0 0 1 -1.497 -1.32l.083 -.094l2.292 -2.293l-2.292 -2.293a1 1 0 0 1 -.083 -1.32l.083 -.094z" fill="currentColor" class="fill-white" stroke-width="0"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-full h-full" viewBox="0 0 24 24"><path stroke="none" d="M0 0h24v24H0z"/><path fill="currentColor" stroke="none" d="M12 2c-.218 0-.432.002-.642.005l-.616.017-.299.013-.579.034-.553.046c-4.785.464-6.732 2.411-7.196 7.196l-.046.553-.034.579c-.005.098-.01.198-.013.299l-.017.616-.004.318L2 12c0 .218.002.432.005.642l.017.616.013.299.034.579.046.553c.464 4.785 2.411 6.732 7.196 7.196l.553.046.579.034c.098.005.198.01.299.013l.616.017L12 22l.642-.005.616-.017.299-.013.579-.034.553-.046c4.785-.464 6.732-2.411 7.196-7.196l.046-.553.034-.579c.005-.098.01-.198.013-.299l.017-.616L22 12l-.005-.642-.017-.616-.013-.299-.034-.579-.046-.553c-.464-4.785-2.411-6.732-7.196-7.196l-.553-.046-.579-.034a28.058 28.058 0 0 0-.299-.013l-.616-.017-.318-.004L12 2zm-1.707 6.293a1 1 0 0 1 1.32-.083l.094.083 3 3a1 1 0 0 1 .083 1.32l-.083.094-3 3a1 1 0 0 1-1.497-1.32l.083-.094L12.585 12l-2.292-2.293a1 1 0 0 1-.083-1.32l.083-.094z" class="fill-white"/></svg>
         </a>
     
         {{-- <div class="swiper-scrollbar"></div> --}}
@@ -452,7 +534,23 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 
 
 <div class="relative isolate overflow-hidden bg-gray-900 py-8 sm:py-32 select-none">
-    <img width="1519" height="592" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=1280&h=678&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="unsplash background image" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center" loading="lazy">
+    <img
+        loading="lazy"
+        width="1519"
+        height="592"
+        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+        sizes="100vw"
+        srcset="
+            https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=300&h=159&q=60&blend=111827&sat=-100&exp=15&blend-mode=multiply 300w,
+            https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=930&h=493&q=60&blend=111827&sat=-100&exp=15&blend-mode=multiply 930w,
+            https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=1280&h=678&q=60&blend=111827&sat=-100&exp=15&blend-mode=multiply 1280w,
+            https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=1710&h=906&q=60&blend=111827&sat=-100&exp=15&blend-mode=multiply 1710w,
+            https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2048&h=1085&q=60&blend=111827&sat=-100&exp=15&blend-mode=multiply 2048w"
+        data-src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=300&h=159&q=60&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+        alt="unsplash background image"
+        class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+    >
+
     <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
         <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-yellow-700 to-pink-700 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
@@ -1156,7 +1254,18 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/mid-market-1500.webp'))}}" alt="mid-market-1500">
+                                        <img
+                                            loading="lazy"
+                                            class="w-20"
+                                            width="79"
+                                            height="89" 
+                                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                                            srcset="{{asset('public'.mix('/tailwind/img/mid-market-1500-160w.webp'))}} 160w"
+                                            sizes="80px"
+                                            data-src="{{asset('public'.mix('/tailwind/img/mid-market-1500-160w.webp'))}}"
+                                            alt="mid-market-1500"
+                                        >
+
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
@@ -1166,7 +1275,17 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/mid-market-1500.webp'))}}" alt="mid-market-1500">
+                                        <img
+                                            loading="lazy"
+                                            class="w-20"
+                                            width="79"
+                                            height="89" 
+                                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                                            srcset="{{asset('public'.mix('/tailwind/img/mid-market-1500-160w.webp'))}} 160w"
+                                            sizes="80px"
+                                            data-src="{{asset('public'.mix('/tailwind/img/mid-market-1500-160w.webp'))}}"
+                                            alt="mid-market-1500"
+                                        >
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
@@ -1176,7 +1295,17 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/mid-market-1500.webp'))}}" alt="mid-market-1500">
+                                        <img
+                                            loading="lazy"
+                                            class="w-20"
+                                            width="79"
+                                            height="89" 
+                                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                                            srcset="{{asset('public'.mix('/tailwind/img/mid-market-1500-160w.webp'))}} 160w"
+                                            sizes="80px"
+                                            data-src="{{asset('public'.mix('/tailwind/img/mid-market-1500-160w.webp'))}}"
+                                            alt="mid-market-1500"
+                                        >
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
@@ -1186,7 +1315,17 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                             <div class="flex flex-col items-center text-center">
                                 <div class="flex flex-col items-center text-center py-4 rounded-2xl bg-white/5 p-2 ring-1 ring-white/10">
                                     <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
-                                        <img class="w-20" loading="lazy" width="79" height="89" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/mid-market-1500.webp'))}}" alt="mid-market-1500">
+                                        <img
+                                            loading="lazy"
+                                            class="w-20"
+                                            width="79"
+                                            height="89" 
+                                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                                            srcset="{{asset('public'.mix('/tailwind/img/mid-market-1500-160w.webp'))}} 160w"
+                                            sizes="80px"
+                                            data-src="{{asset('public'.mix('/tailwind/img/mid-market-1500-160w.webp'))}}"
+                                            alt="mid-market-1500"
+                                        >
                                     </div>
                                     <div class="mt-4 font-semibold text-sm md:text-base">Mid-Market High Performer United States - 2022-2023</div>
                                 </div>
@@ -1381,14 +1520,24 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/myfab11.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/myfab11.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/myfab11.webp'))}} 1200w
+                                {{asset('public'.mix('/tailwind/img/myfab11-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-750w.webp'))}} 750w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-1024w.webp'))}} 1024w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-1250w.webp'))}} 1250w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-1440w.webp'))}} 1440w
                             "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/myfab11.webp'))}}" alt="MyFab11 App">
+                            data-src="{{asset('public'.mix('/tailwind/img/myfab11-1024w.webp'))}}"
+                            alt="MyFab11 App"
+                        >
+
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-green-900/70 before:to-green-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1401,14 +1550,25 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/health-app-1200w.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/Health-app.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/Health-app.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/Health-app.webp'))}} 1200w
+                                {{asset('public'.mix('/tailwind/img/health-app-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/health-app-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/health-app-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/health-app-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/health-app-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/health-app-1440w.webp'))}} 1440w
                             "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/Health-app.webp'))}}" alt="I KNOW">
+                            data-src="{{asset('public'.mix('/tailwind/img/health-app-256w.webp'))}}"
+                            alt="I KNOW"
+                        >
+                    
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-fuchsia-900/70 before:to-fuchsia-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1421,14 +1581,24 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/now-vue.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/now-vue.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/now-vue.webp'))}} 1200w
+                                {{asset('public'.mix('/tailwind/img/now-vue-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-750w.webp'))}} 750w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-1024w.webp'))}} 1024w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-1250w.webp'))}} 1250w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-1440w.webp'))}} 1440w
                             "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/now-vue.webp'))}}" alt="Now Vue">
+                            data-src="{{asset('public'.mix('/tailwind/img/now-vue-256w.webp'))}}"
+                            alt="Now Vue"
+                        >
+
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-amber-900/70 before:to-amber-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1441,14 +1611,25 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/ipay.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/ipay.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/ipay.webp'))}} 1200w
+                                {{asset('public'.mix('/tailwind/img/ipay-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/ipay-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/ipay-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/ipay-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/ipay-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/ipay-1440w.webp'))}} 1440w
                             "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/ipay.webp'))}}" alt="iPay project">
+                            data-src="{{asset('public'.mix('/tailwind/img/ipay-256w.webp'))}}"
+                            alt="iPay project"
+                        >
+
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-indigo-900/70 before:to-indigo-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1461,14 +1642,24 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/destist-online.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/destist-online.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/destist-online.webp'))}} 1200w
-                            "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/destist-online.webp'))}}" alt="Dentist Online">
+                                {{asset('public'.mix('/tailwind/img/destist-online-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-1440w.webp'))}} 1440w"
+                            data-src="{{asset('public'.mix('/tailwind/img/destist-online-256w.webp'))}}"
+                            alt="Dentist Online"
+                        >
+
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-cyan-900/70 before:to-cyan-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1481,14 +1672,25 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
                 <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
                     <div class="overflow-hidden rounded-xl">
-                        <img class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]" loading="lazy" width="349" height="436" 
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
                             srcset="
-                                {{asset('public'.mix('/tailwind/img/mobile/EcoCosmo-Project.webp'))}} 480w,
-                                {{asset('public'.mix('/tailwind/img/tablet/EcoCosmo-Project.webp'))}} 800w,
-                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project.webp'))}} 1200w
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1440w.webp'))}} 1440w
                             "
-                            sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/EcoCosmo-Project.webp'))}}" alt="EcoCosmo Project">
+                            data-src="{{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1200w.webp'))}}"
+                            alt="EcoCosmo Project"
+                        >
+                        
                     </div>
                     <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-emerald-900/70 before:to-emerald-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
                         <div class="w-full relative z-[3] text-center">
@@ -1560,26 +1762,85 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
             <div class="flex flex-row flex-wrap w-full gap3 pt-8 font-bold md:text-base text-sm uppercase text-white">
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/fintech-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="{{asset('public'.mix('/tailwind/img/mobile/bank-and-finance.webp'))}} 480w, {{asset('public'.mix('/tailwind/img/tablet/bank-and-finance.webp'))}} 800w, {{asset('public'.mix('/tailwind/img/bank-and-finance.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/bank-and-finance.webp'))}}" alt="Banking and Finance Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy"
-                        >
+                    <img
+                        loading="lazy"
+                        class="w-full h-full object-cover duration-1000 group-hover:scale-150"
+                        width="296"
+                        height="222"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 1280px) 296px, (min-width: 780px) calc(32.29vw - 16px), calc(50vw - 32px)"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/bank-and-finance-480w.webp'))}} 480w,
+                            {{asset('public'.mix('/tailwind/img/bank-and-finance-800w.webp'))}} 800w,
+                            {{asset('public'.mix('/tailwind/img/bank-and-finance-1200w.webp'))}} 1200w
+                        "
+                        data-src="{{asset('public'.mix('/tailwind/img/bank-and-finance-480w.webp'))}}"
+                        alt="Banking and Finance Icon"
+                    >
+
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Banking and Finance</div>
                     </a>
                 </div>
                 <div class="xl:w-1/3  md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/fantasy-sports-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="297" height="222" srcset="{{asset('public'.mix('/tailwind/img/mobile/fantasy-sports.webp'))}} 480w, {{asset('public'.mix('/tailwind/img/tablet/fantasy-sports.webp'))}} 800w, {{asset('public'.mix('/tailwind/img/fantasy-sports.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/fantasy-sports.webp'))}}" alt="Fantasy Sports Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                    <img
+                        loading="lazy"
+                        class="w-full h-full object-cover duration-1000 group-hover:scale-150"
+                        width="297"
+                        height="222"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 1360px) 397px, (min-width: 780px) calc(28.75vw + 12px), calc(50vw - 32px)"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/fantasy-sports-480w.webp'))}} 480w,
+                            {{asset('public'.mix('/tailwind/img/fantasy-sports-800w.webp'))}} 800w,
+                            {{asset('public'.mix('/tailwind/img/fantasy-sports-1200w.webp'))}} 1200w
+                        "
+                        data-src="{{asset('public'.mix('/tailwind/img/fantasy-sports-480w.webp'))}}"
+                        alt="Fantasy Sports Icon"
+                    >
+
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Fantasy Sports</div>
                     </a>
                 </div>
                 <div class="xl:w-1/6  md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/healthcare-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="194" height="222" srcset="{{asset('public'.mix('/tailwind/img/mobile/healthcare.webp'))}} 480w, {{asset('public'.mix('/tailwind/img/tablet/healthcare.webp'))}} 800w, {{asset('public'.mix('/tailwind/img/healthcare.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/healthcare.webp'))}}" alt="Healthcare Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                    <img
+                        loading="lazy"
+                        class="w-full h-full object-cover duration-1000 group-hover:scale-150"
+                        width="194"
+                        height="222"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 1280px) 195px, (min-width: 780px) calc(32.29vw - 16px), calc(50vw - 32px)"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/healthcare-480w.webp'))}} 480w,
+                            {{asset('public'.mix('/tailwind/img/healthcare-800w.webp'))}} 800w,
+                            {{asset('public'.mix('/tailwind/img/healthcare-1200w.webp'))}} 1200w
+                        "
+                        data-src="{{asset('public'.mix('/tailwind/img/healthcare-480w.webp'))}}"
+                        alt="Healthcare Icon"
+                    >
+
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Healthcare</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/edtech-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="{{asset('public'.mix('/tailwind/img/mobile/edTech-solution.webp'))}} 480w, {{asset('public'.mix('/tailwind/img/tablet/edTech-solution.webp'))}} 800w, {{asset('public'.mix('/tailwind/img/edTech-solution.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/edTech-solution.webp'))}}" alt="EdTech Solution Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                    <img
+                        loading="lazy"
+                        class="w-full h-full object-cover duration-1000 group-hover:scale-150"
+                        width="296"
+                        height="222"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 1280px) 296px, (min-width: 780px) calc(32.29vw - 16px), calc(50vw - 32px)"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/edTech-solution-480w.webp'))}} 480w,
+                            {{asset('public'.mix('/tailwind/img/edTech-solution-800w.webp'))}} 800w,
+                            {{asset('public'.mix('/tailwind/img/edTech-solution-1200w.webp'))}} 1200w
+                        "
+                        data-src="{{asset('public'.mix('/tailwind/img/edTech-solution-480w.webp'))}}"
+                        alt="EdTech Solution Icon"
+                    >
+
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">EdTech Solution</div>
                     </a>
 
@@ -1587,7 +1848,22 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 sm:w-1/2 w-full p-1">
                     <a href="https://www.imgglobalinfotech.com/travel-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="{{asset('public'.mix('/tailwind/img/mobile/travel-and-tourism.webp'))}} 480w, {{asset('public'.mix('/tailwind/img/tablet/travel-and-tourism.webp'))}} 800w, {{asset('public'.mix('/tailwind/img/travel-and-tourism.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/travel-and-tourism.webp'))}}" alt="Travel and Tourism Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                    <img
+                        loading="lazy"
+                        class="w-full h-full object-cover duration-1000 group-hover:scale-150"
+                        width="296"
+                        height="222"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 1280px) 296px, (min-width: 780px) calc(32.29vw - 16px), (min-width: 640px) calc(50vw - 32px), calc(100vw - 56px)"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/travel-and-tourism-480w.webp'))}} 480w,
+                            {{asset('public'.mix('/tailwind/img/travel-and-tourism-800w.webp'))}} 800w,
+                            {{asset('public'.mix('/tailwind/img/travel-and-tourism-1200w.webp'))}} 1200w
+                        "
+                        data-src="{{asset('public'.mix('/tailwind/img/travel-and-tourism-480w.webp'))}}"
+                        alt="Travel and Tourism Icon"
+                    >
+
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Travel and Tourism</div>
                     </a>
 
@@ -1595,19 +1871,64 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/2 md:w-1/3 sm:w-1/2 w-full p-1">
                     <a href="https://www.imgglobalinfotech.com/media-and-entertainment-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="600" height="222" srcset="{{asset('public'.mix('/tailwind/img/mobile/media-and-entertainment.webp'))}} 480w, {{asset('public'.mix('/tailwind/img/tablet/media-and-entertainment.webp'))}} 800w, {{asset('public'.mix('/tailwind/img/media-and-entertainment.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/media-and-entertainment.webp'))}}" alt="Media and Entertainment Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                    <img
+                        loading="lazy"
+                        class="w-full h-full object-cover duration-1000 group-hover:scale-150"
+                        width="600"
+                        height="222"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 1280px) 600px, (min-width: 780px) calc(32.29vw - 16px), (min-width: 640px) calc(50vw - 32px), calc(100vw - 56px)"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/media-and-entertainment-480w.webp'))}} 480w,
+                            {{asset('public'.mix('/tailwind/img/media-and-entertainment-800w.webp'))}} 800w,
+                            {{asset('public'.mix('/tailwind/img/media-and-entertainment-1200w.webp'))}} 1200w
+                        "
+                        data-src="{{asset('public'.mix('/tailwind/img/media-and-entertainment-480w.webp'))}}"
+                        alt="Media and Entertainment Icon"
+                    >
+
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Media and Entertainment</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="{{asset('public'.mix('/tailwind/img/mobile/retail-and-ecommerce-app.webp'))}} 480w, {{asset('public'.mix('/tailwind/img/tablet/retail-and-ecommerce-app.webp'))}} 800w, {{asset('public'.mix('/tailwind/img/retail-and-ecommerce-app.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/retail-and-ecommerce-app.webp'))}}" alt="Retail and Ecommerce App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                    <img
+                        loading="lazy"
+                        class="w-full h-full object-cover duration-1000 group-hover:scale-150"
+                        width="296"
+                        height="222"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 1280px) 296px, (min-width: 780px) calc(32.29vw - 16px), calc(50vw - 32px)"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/retail-and-ecommerce-app-480w.webp'))}} 480w,
+                            {{asset('public'.mix('/tailwind/img/retail-and-ecommerce-app-800w.webp'))}} 800w,
+                            {{asset('public'.mix('/tailwind/img/retail-and-ecommerce-app-1200w.webp'))}} 1200w
+                        "
+                        data-src="{{asset('public'.mix('/tailwind/img/retail-and-ecommerce-app-480w.webp'))}}"
+                        alt="Retail and Ecommerce App Icon"
+                    >
+
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Retail and Ecommerce App</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/logistics-software-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="{{asset('public'.mix('/tailwind/img/mobile/logistics-services-app.webp'))}} 480w, {{asset('public'.mix('/tailwind/img/tablet/logistics-services-app.webp'))}} 800w, {{asset('public'.mix('/tailwind/img/logistics-services-app.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/logistics-services-app.webp'))}}" alt="Logistics Services App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                    <img
+                        loading="lazy"
+                        class="w-full h-full object-cover duration-1000 group-hover:scale-150"
+                        width="296"
+                        height="222"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 1280px) 296px, (min-width: 780px) calc(32.29vw - 16px), calc(50vw - 32px)"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/logistics-services-app-480w.webp'))}} 480w,
+                            {{asset('public'.mix('/tailwind/img/logistics-services-app-800w.webp'))}} 800w,
+                            {{asset('public'.mix('/tailwind/img/logistics-services-app-1200w.webp'))}} 1200w
+                        "
+                        data-src="{{asset('public'.mix('/tailwind/img/logistics-services-app-480w.webp'))}}"
+                        alt="Logistics Services App Icon"
+                    >
+
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Logistics Services App</div>
                     </a>
 
@@ -1615,19 +1936,64 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 </div>
                 <div class="xl:w-1/6 md:w-1/3 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/social-media-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="194" height="222" srcset="{{asset('public'.mix('/tailwind/img/mobile/social-app.webp'))}} 480w, {{asset('public'.mix('/tailwind/img/tablet/social-app.webp'))}} 800w, {{asset('public'.mix('/tailwind/img/social-app.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/social-app.webp'))}}" alt="Social App Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                    <img
+                        loading="lazy"
+                        class="w-full h-full object-cover duration-1000 group-hover:scale-150"
+                        width="194"
+                        height="222"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 1280px) 195px, (min-width: 780px) calc(32.29vw - 16px), calc(50vw - 32px)"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/social-app-480w.webp'))}} 480w,
+                            {{asset('public'.mix('/tailwind/img/social-app-800w.webp'))}} 800w,
+                            {{asset('public'.mix('/tailwind/img/social-app-1200w.webp'))}} 1200w
+                        "
+                        data-src="{{asset('public'.mix('/tailwind/img/social-app-480w.webp'))}}"
+                        alt="Social App Icon"
+                    >
+
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Social App</div>
                     </a>
                 </div>
                 <div class="xl:w-1/3 md:w-1/2 w-1/2 p-1">
                     <a href="https://www.imgglobalinfotech.com/real-estate-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="397" height="222" srcset="{{asset('public'.mix('/tailwind/img/mobile/real-estate.webp'))}} 480w, {{asset('public'.mix('/tailwind/img/tablet/real-estate.webp'))}} 800w, {{asset('public'.mix('/tailwind/img/real-estate.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/real-estate.webp'))}}" alt="Real Estate Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                    <img
+                        loading="lazy"
+                        class="w-full h-full object-cover duration-1000 group-hover:scale-150"
+                        width="397"
+                        height="222"
+                        sizes="(min-width: 1280px) 397px, calc(49.17vw - 30px)"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/real-estate-480w.webp'))}} 480w,
+                            {{asset('public'.mix('/tailwind/img/real-estate-800w.webp'))}} 800w,
+                            {{asset('public'.mix('/tailwind/img/real-estate-1200w.webp'))}} 1200w
+                        "
+                        data-src="{{asset('public'.mix('/tailwind/img/real-estate-480w.webp'))}}"
+                        alt="Real Estate Icon"
+                    >
+
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Real Estate</div>
                     </a>
                 </div>
                 <div class="xl:w-1/4 md:w-1/2 sm:w-1/2 w-full p-1">
                     <a href="https://www.imgglobalinfotech.com/event-app-development.php" class="relative text-decoration-none group flex items-center rounded-2xl overflow-hidden md:h-[222px] sm:h-[200px] h-[190px] after:absolute after:left-0 after:bottom-0 after:w-full after:h-28 hover:after:h-full after:bg-gradient-to-t after:from-black/70 after:via-black/60 after:to-transparent after:duration-700 duration-300">
-                        <img width="296" height="222" srcset="{{asset('public'.mix('/tailwind/img/mobile/on-demand.webp'))}} 480w, {{asset('public'.mix('/tailwind/img/tablet/on-demand.webp'))}} 800w, {{asset('public'.mix('/tailwind/img/on-demand.webp'))}} 1200w " sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/on-demand.webp'))}}" alt="Event management Icon" class="w-full h-full object-cover duration-1000 group-hover:scale-150" loading="lazy">
+                    <img
+                        loading="lazy"
+                        class="w-full h-full object-cover duration-1000 group-hover:scale-150"
+                        width="296"
+                        height="222"
+                        src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                        sizes="(min-width: 1280px) 296px, (min-width: 640px) calc(48.71vw - 24px), calc(100vw - 56px)"
+                        srcset="
+                            {{asset('public'.mix('/tailwind/img/on-demand-480w.webp'))}} 480w,
+                            {{asset('public'.mix('/tailwind/img/on-demand-800w.webp'))}} 800w,
+                            {{asset('public'.mix('/tailwind/img/on-demand-1200w.webp'))}} 1200w
+                        "
+                        data-src="{{asset('public'.mix('/tailwind/img/on-demand-480w.webp'))}}"
+                        alt="Event management Icon"
+                    >
+
                         <div class="group absolute left-0 bottom-0 w-full h-16 group-hover:h-full flex items-center justify-center text-center duration-1000 group-hover:opacity-75 z-20">Event management</div>
                     </a>
                 </div>
@@ -1791,7 +2157,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                 <div class="swiper-wrapper flex items-center pb-8">
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="{{asset('blog/top-fintech-app-development-companies-in-india')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimageTop-FinTech-App-Development-Companies-in-India-2024.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
+                            <img class="w-full aspect-[385/221] rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimageTop-FinTech-App-Development-Companies-in-India-2024.webp'))}}" alt="Top FinTech App Development Companies In India 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2023-11-27" class="text-gray-500">Dec 15, 2023</time>
@@ -1815,7 +2181,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="{{asset('blog/top-10-trusted-real-estate-app-development-companies-in-india')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagetop-10-trusted-real-estate-app-development-companies-in-india.webp'))}}" alt="Top 10 Trusted Real Estate App Development Companies In India">
+                            <img class="w-full aspect-[385/221] rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagetop-10-trusted-real-estate-app-development-companies-in-india.webp'))}}" alt="Top 10 Trusted Real Estate App Development Companies In India">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Dec 11, 2023</time>
@@ -1839,7 +2205,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="{{asset('blog/loan-lending-mobile-app-development')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp'))}}" alt="How To Develop A Loan Lending Mobile App? - A Complete Guide">
+                            <img class="w-full aspect-[385/221] rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagehow-to-develop-a-loan-lending-mobile-app-a-complete-guide.webp'))}}" alt="How To Develop A Loan Lending Mobile App? - A Complete Guide">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2023-11-27" class="text-gray-500">Nov 27, 2023</time>
@@ -1863,7 +2229,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="{{asset('blog/top-10-mobile-app-development-companies')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagetop-10-mobile-app-development-companies-in-2024.webp'))}}" alt="Top 10 Mobile App Development Companies In 2024">
+                            <img class="w-full aspect-[385/221] rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagetop-10-mobile-app-development-companies-in-2024.webp'))}}" alt="Top 10 Mobile App Development Companies In 2024">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 16, 2023</time>
@@ -1887,7 +2253,7 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
                     </div>
                     <div class="swiper-slide rounded-2xl group/blog">
                         <a href="{{asset('blog/how-much-does-it-cost-to-develop-real-estate-website-app-like-magicbricks')}}" class="flex max-w-xl flex-col items-start justify-between bg-white rounded-2xl rounded-br-none shadow-xl shadow-gray-300">
-                            <img class="w-full aspect-video rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp'))}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
+                            <img class="w-full aspect-[385/221] rounded-2xl rounded-br-none" loading="lazy" width="385" height="217" src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}" data-src="{{asset('public'.mix('/tailwind/img/blog/thumb/blogimagehow-much-does-it-cost-to-develop-a-real-estate-website-app-like-magicbricks.webp'))}}" alt="How Much Does It Cost To Develop A Real Estate Website & App Like Magicbricks?">
                             <div class="w-full p-6">
                                 <div class="flex items-center gap-x-4 text-xs">
                                     <time datetime="2020-03-16" class="text-gray-500">Nov 06, 2023</time>
