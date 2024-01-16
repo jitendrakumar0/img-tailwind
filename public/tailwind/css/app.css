@@ -2057,6 +2057,9 @@ select{
 .left-\[20px\]{
   left: 20px;
 }
+.left-\[50\%\]{
+  left: 50%;
+}
 .left-\[max\(-7rem\2c calc\(50\%-52rem\)\)\]{
   left: max(-7rem,calc(50% - 52rem));
 }
@@ -2116,6 +2119,9 @@ select{
 }
 .top-auto{
   top: auto;
+}
+.bottom-\[50\%\]{
+  bottom: 50%;
 }
 .isolate{
   isolation: isolate;
@@ -2492,6 +2498,10 @@ select{
 .size-full{
   width: 100%;
   height: 100%;
+}
+.size-\[120\%\]{
+  width: 120%;
+  height: 120%;
 }
 .\!h-10{
   height: 2.5rem !important;
@@ -3402,6 +3412,9 @@ select{
   --tw-border-opacity: 1;
   border-color: rgb(250 204 21 / var(--tw-border-opacity));
 }
+.bg-\[\#0000ff5a\]{
+  background-color: #0000ff5a;
+}
 .bg-\[\#212121\]{
   --tw-bg-opacity: 1;
   background-color: rgb(33 33 33 / var(--tw-bg-opacity));
@@ -3409,10 +3422,6 @@ select{
 .bg-\[\#2D6CA2\]{
   --tw-bg-opacity: 1;
   background-color: rgb(45 108 162 / var(--tw-bg-opacity));
-}
-.bg-\[\#351d3f\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(53 29 63 / var(--tw-bg-opacity));
 }
 .bg-\[\#DAE0E4\]{
   --tw-bg-opacity: 1;
@@ -3425,6 +3434,10 @@ select{
 .bg-\[\#d90202\]{
   --tw-bg-opacity: 1;
   background-color: rgb(217 2 2 / var(--tw-bg-opacity));
+}
+.bg-\[purple\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(128 0 128 / var(--tw-bg-opacity));
 }
 .bg-\[white\]\/10{
   background-color: rgb(255 255 255 / 0.1);
@@ -3614,6 +3627,19 @@ select{
 }
 .bg-white\/5{
   background-color: rgb(255 255 255 / 0.05);
+}
+.bg-\[\#2c0e2c\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(44 14 44 / var(--tw-bg-opacity));
+}
+.bg-\[\#0707195a\]{
+  background-color: #0707195a;
+}
+.bg-\[\#07071999\]{
+  background-color: #07071999;
+}
+.bg-\[\#1313a499\]{
+  background-color: #1313a499;
 }
 .bg-opacity-75{
   --tw-bg-opacity: 0.75;
@@ -5046,6 +5072,11 @@ select{
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
+.backdrop-blur-\[5px\]{
+  --tw-backdrop-blur: blur(5px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
 .backdrop-blur-lg{
   --tw-backdrop-blur: blur(16px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -5063,6 +5094,11 @@ select{
 }
 .backdrop-blur-xl{
   --tw-backdrop-blur: blur(24px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.backdrop-blur-\[\`14px\]{
+  --tw-backdrop-blur: blur(`14px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
@@ -5209,6 +5245,10 @@ select{
 .\[clip-path\:polygon\(50\%_0\%\2c _0\%_100\%\2c _100\%_100\%\)\;\]{
   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);;
           clip-path: polygon(50% 0%, 0% 100%, 100% 100%);;
+}
+.\[clip-path\:polygon\(74\.1\%_44\.1\%\2c _100\%_61\.6\%\2c _97\.5\%_26\.9\%\2c _85\.5\%_0\.1\%\2c _80\.7\%_2\%\2c _72\.5\%_32\.5\%\2c _60\.2\%_62\.4\%\2c _52\.4\%_68\.1\%\2c _47\.5\%_58\.3\%\2c _45\.2\%_34\.5\%\2c _27\.5\%_76\.7\%\2c _0\.1\%_64\.9\%\2c _17\.9\%_100\%\2c _27\.6\%_76\.8\%\2c _76\.1\%_97\.7\%\2c _74\.1\%_44\.1\%\)\]{
+  -webkit-clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%);
+          clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%);
 }
 .\[mask-image\:linear-gradient\(to_bottom\2c transparent\2c white\)\]{
   -webkit-mask-image: linear-gradient(to bottom,transparent,white);
@@ -5868,12 +5908,6 @@ select{
   margin-left: 0.75rem;
 }
 
-.before\:size-full::before{
-  content: var(--tw-content);
-  width: 100%;
-  height: 100%;
-}
-
 .before\:h-0::before{
   content: var(--tw-content);
   height: 0px;
@@ -6058,11 +6092,6 @@ select{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.before\:overflow-hidden::before{
-  content: var(--tw-content);
-  overflow: hidden;
-}
-
 .before\:rounded-2xl::before{
   content: var(--tw-content);
   border-radius: 1rem;
@@ -6118,12 +6147,6 @@ select{
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(168 85 247 / var(--tw-border-opacity));
-}
-
-.before\:bg-\[\#351d3f\]::before{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(53 29 63 / var(--tw-bg-opacity));
 }
 
 .before\:bg-\[\#d90202\]::before{
@@ -6687,12 +6710,6 @@ select{
   content: var(--tw-content);
 }
 
-.before\:\[clip-path\:polygon\(74\.1\%_44\.1\%\2c _100\%_61\.6\%\2c _97\.5\%_26\.9\%\2c _85\.5\%_0\.1\%\2c _80\.7\%_2\%\2c _72\.5\%_32\.5\%\2c _60\.2\%_62\.4\%\2c _52\.4\%_68\.1\%\2c _47\.5\%_58\.3\%\2c _45\.2\%_34\.5\%\2c _27\.5\%_76\.7\%\2c _0\.1\%_64\.9\%\2c _17\.9\%_100\%\2c _27\.6\%_76\.8\%\2c _76\.1\%_97\.7\%\2c _74\.1\%_44\.1\%\)\]::before{
-  content: var(--tw-content);
-  -webkit-clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%);
-          clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%);
-}
-
 .before\:\[transform\:rotate\(45deg\)\]::before{
   content: var(--tw-content);
   transform: rotate(45deg);
@@ -6831,12 +6848,6 @@ select{
 .after\:hidden::after{
   content: var(--tw-content);
   display: none;
-}
-
-.after\:size-full::after{
-  content: var(--tw-content);
-  width: 100%;
-  height: 100%;
 }
 
 .after\:h-1\/2::after{
@@ -7069,11 +7080,6 @@ select{
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.after\:bg-\[\#7e59abaf\]::after{
-  content: var(--tw-content);
-  background-color: #7e59abaf;
 }
 
 .after\:bg-blue-100::after{

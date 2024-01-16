@@ -1284,14 +1284,15 @@
             <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
             
         </div>
-        <div class="flex flex-wrap items-stretch pt-4 relative z-50">
+        <div class="flex flex-wrap items-stretch pt-4 relative z-50 overflow-hidden">
             
-            <div class="lg:w-1/2 w-full h-auto p-3 sm:w-1/2 ">
-                <div class="size-full mix-blend-color-burn p-40  relative after:absolute after:size-full after:bg-[#7e59abaf] after:inset-0 before:size-full before:inset-0 before:absolute before:bg-[#351d3f] before:z-0 before:[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] before:overflow-hidden">
+            <div class="lg:w-1/2 w-full h-auto p-3 sm:w-1/2">
+                <div class="size-full mix-blend-color-burn p-40  relative ">
                     <div>
                         <img src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="thanku" class="img-fluid size-full absolute inset-0 -z-10 ">
                     </div>
-                    <div class="absolute inset-0px bg-[#351d3f] size-full" ></div>
+                    <div class="absolute inset-0 mix-blend-multiply bg-[#2c0e2c] z-50 size-full"  ></div>
+                    <div class="absolute size-[120%] backdrop-blur-[`14px] inset-0 bg-[#1313a499] z-0 [clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)]"></div>
                 </div>
                 </div>
             </div>
