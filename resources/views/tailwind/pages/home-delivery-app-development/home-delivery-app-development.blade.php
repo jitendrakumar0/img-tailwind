@@ -1285,36 +1285,19 @@
             
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50 ">
-            
-            <div class="lg:w-1/2 w-full size-full  h-auto p-3  sm:w-1/2 overflow-hidden">
-                <div class="size-full p-[25px] relative overflow-hidden rounded-3xl">
-                    <div class="">
-                        <img src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="thanku" class="img-fluid size-full rounded-2xl absolute inset-0 -z-10 ">
+            <div class="w-1/2">
+                <div class="mainCard h-[300px]">
+                    <div class="bg-[rgb(17_24_39)] opacity-100 rounded-xl relative overflow-hidden w-full h-full">
+                        <img class=" overflow-hidden absolute inset-0w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
+                        <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-[rgb(17_24_39)]"></div>
+                        <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                            <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-[#FF4694] to-[#776FFF] w-[68.5625rem]  [aspect-ratio:1097/845]"></div>
+                        </div>
                     </div>
-                    <div class="absolute inset-0 mix-blend-multiply bg-gradient-to-l from-[#2d2041d0] via-[#012589] to-[#660460]  z-50 size-full"></div>
-                    <div class="absolute opacity-[0.3] w-full h-full aspect-[1097/845] inset-0 -z-10  bg-[#660460] blur-0  shadow-lg shadow-red-500 [clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)]"></div>
-                            <div class="relative h-[240px] font-bold text-white"> </div>
-                            <div class="flex items-center relative z-50 ">
-                                <div>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="h-[40px] w-[40px] text-white" xmlns="http://www.w3.org/2000/svg"><path d="M272,288H208a16,16,0,0,1-16-16V208a16,16,0,0,1,16-16h64a16,16,0,0,1,16,16v37.12C299.11,232.24,315,224,332.8,224H469.74l6.65-7.53A16.51,16.51,0,0,0,480,207a16.31,16.31,0,0,0-4.75-10.61L416,144V48a16,16,0,0,0-16-16H368a16,16,0,0,0-16,16V87.3L263.5,8.92C258,4,247.45,0,240.05,0s-17.93,4-23.47,8.92L4.78,196.42A16.15,16.15,0,0,0,0,207a16.4,16.4,0,0,0,3.55,9.39L22.34,237.7A16.22,16.22,0,0,0,33,242.48,16.51,16.51,0,0,0,42.34,239L64,219.88V384a32,32,0,0,0,32,32H272ZM629.33,448H592V288c0-17.67-12.89-32-28.8-32H332.8c-15.91,0-28.8,14.33-28.8,32V448H266.67A10.67,10.67,0,0,0,256,458.67v10.66A42.82,42.82,0,0,0,298.6,512H597.4A42.82,42.82,0,0,0,640,469.33V458.67A10.67,10.67,0,0,0,629.33,448ZM544,448H352V304H544Z"></path></svg>
-                                </div>
-                                <div class="text-2xl text-white ms-5">
-                                workcation
-                                </div>
-                                <div class="absolute bottom-[-100%] left-[15%] -z-10 opacity-[.4]">
-                                    <svg stroke="currentColor" fill="none" stroke-width=".5" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="w-[80px] text-white h-[80px]" xmlns="http://www.w3.org/2000/svg"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
-                                </div>
-                            </div>
-                            <div class="text-white relative z-50 text-2xl font-bold mt-7"> 
-                                “Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus tortor.”
-                            </div>
-                            <div class="text-white text-lg font-semibold z-50 relative mt-[20px]">
-                                Judith Rogers, <span class="text-base font-normal">CEO at Workcation</span>
-                            </div>
+                    <div class="h-[250px]"></div>
                 </div>
-                </div>
+               
             </div>
-            
         </div>
     </div>
 </div>
