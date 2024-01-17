@@ -39,7 +39,7 @@
 
 {{-- hero section start  --}}
 
-<div class=" bg-gradient-to-b from-black/40 via-black/20 select-none text-white  group-[]/ns:from-gray-950 group-[]/ns:to-sky-950 group-[]/ons:from-gray-950 group-[]/ons:to-sky-950 group-[]/ons:rounded-b-2xl max-h-[750px] h-full">
+<div class="bg-gradient-to-b select-none text-white from-gray-950 to-sky-950 via-sky-950 rounded-b-2xl max-h-[750px] h-full">
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative pb-16 lg:pt-48 md:pt-40 pt-36 overflow-hidden h-full">
         <div class="flex flex-row flex-wrap items-center h-full">
             <div class=" lg:w-1/2 md:w-3/5 w-full md:order-1 order-2">
@@ -58,7 +58,7 @@
                                     <span>
                                         Consult Our Experts
                                     </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
                                 </span>
                             </span>
                         </a>
@@ -96,14 +96,11 @@
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-5 overflow-hidden">
     
-        <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
+        <div class="md:pt-3 relative z-10">
             <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black">
                 <span class="font-normal">Work Life At</span> 
                 <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Its Best</span>
             </p>
-            {{-- <div class="md:text-base text-sm text-black/70 mt-3 mb-lg-1">
-                Escalate your food delivery & Ordering business to new heights with our fully-featured white-label on demand restaurant app development solutions. Our best-in-class certified food app developers develop highly interactive features for your online food delivery application
-            </div> --}}
         </div>
     
         <div class="flex flex-wrap mt-10 ">
@@ -176,42 +173,44 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
         <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
             <div class="flex flex-wrap row-flex relative">
-                <div class="lg:w-1/2 w-full px-14 ">
-                    <div class="img"><img src="{{asset('public'.mix('/tailwind/img/carers/beifit.webp'))}}" alt="beifit" class=" lg:h-full lg:w-full md:h-[500px]  h-full w-full"> </div>
+                <div class="lg:w-1/2 w-full">
+                    <div class="img relative">
+                        <img class=" lg:h-full lg:w-full md:h-[600px] mx-auto [-webkit-mask-image:url('../img/mask/mask_2.webp')] [-webkit-mask-size:contain] [-webkit-mask-position:center_center] [-webkit-mask-repeat:no-repeat]" src="{{asset('public'.mix('/tailwind/img/carers/benefits.webp'))}}" alt="beifit"> 
+                    </div>
                 </div>
                 
                 <div class="relative z-20 lg:w-1/2 w-full">
                     <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black"><span class="font-normal">Benefits</span> <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">& Perks</span></p>
-                    <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">We believe that either your work is the passion,or you are working so that you can follow your passion. Either way, we give the flexibility and support so that you can focus on what you really love.</p>
+                    <p class="mt-4 text-sm md:text-base sm:leading-7 leading-5 text-slate-600">We believe that either your work is the passion,or you are working so that you can follow your passion. Either way, we give the flexibility and support so that you can focus on what you really love.</p>
                     <div class="flex items-center flex-row flex-wrap">
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
                             <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
-                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
+                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base sm:leading-7 leading-5 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
                             <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
-                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
+                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base sm:leading-7 leading-5 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
                             <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
-                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
+                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base sm:leading-7 leading-5 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
                             <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
-                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
+                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base sm:leading-7 leading-5 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
                             <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
-                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
+                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base sm:leading-7 leading-5 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
                         <div class="sm:w-1/2 mt-4 sm:px-2 px-0 w-full">
                             <div class="shadow-md bg-white relative ps-5 pt-2 pr-2 group duration-300 pb-3 rounded-lg rounded-br-none overflow-hidden after:absolute after:h-full after:w-2 after:bg-slate-900 after:left-0 after:top-0 after:duration-300 after:hover:bg-orange-500 hover:scale-105">
-                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base leading-7 text-slate-600">When good work is done, we are the first to appreciate it.</p>
+                                <p class="text-ellipsis line-clamp-2 text-sm md:text-base sm:leading-7 leading-5 text-slate-600">When good work is done, we are the first to appreciate it.</p>
                             </div>
                         </div>
                     </div>
@@ -226,11 +225,11 @@
 {{-- Why We Love It Here Value start  --}}
 
 <div class=" border bg-theme1 py-10 relative select-none overflow-hidden  ">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full after:absolute after:w-20 after:rounded-full after:h-20 after:right-[50px] after:bottom-[50px] after:bg-gradient-to-r after:from-indigo-200 after:via-purple-600 after:to-indigo-200 before:absolute before:w-20 before:rounded-full before:h-20 before:lg:left-[500px] md:left-[300px] :left-[200px] before:top-[300px]  before:bg-gradient-to-r before:from-gray-500 before:via-sky-600 before:to-gray-5000 ">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full after:absolute after:w-20 after:rounded-full after:h-20 after:right-[148px] after:bottom-[50px] after:bg-gradient-to-r after:from-indigo-200 after:via-purple-600 after:to-indigo-200 before:absolute before:w-20 before:rounded-full before:h-20 before:lg:left-[500px] md:left-[300px] :left-[200px] before:top-[300px]  before:bg-gradient-to-r before:from-gray-500 before:via-sky-600 before:to-gray-5000 ">
         <div class="md:pt-3 relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10">
             <p class=" mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-white">
                 <span class="font-normal">Why We Love It</span> 
-                <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent"> Here Value</span>
+                <span class="font-bold bg-gradient-to-r from-white via-sky-600 to-white bg-clip-text text-transparent"> Here Value</span>
             </p>
             <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1">
                 We believe that our employees are our biggest strength, we can not achieve our goals if your team is not on board. That is why we put our team first in everything.
@@ -312,12 +311,12 @@
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative">
 
-        <div class="py-xl-5 py-lg-5 py-md-5 py-5 sm:w-3/4 w-full mx-auto select-none relative">
-            <div class="flex w-full h-auto items-center flex-wrap">
-                <div class="lg:w-[60%] lg:pe-10 pe-0 w-[100%] lg:order-1 order-2">
+        <div class="py-xl-5 py-lg-5 py-md-5 py-5 w-full mx-auto select-none relative">
+            <div class="flex w-full lg:flex-row flex-col-reverse h-auto items-center flex-wrap">
+                <div class="lg:w-1/2 lg:pe-10 pe-0 w-full">
                     <p class="mt-4  max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
                         <span class="font-normal">Join The <br></span> 
-                        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Intelligent Machanism Genius Global Infotech Team!</span>
+                        <span class="font-bold text-pretty  bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent">Intelligent Machanism Genius Global Infotech Team!</span>
                     </p>
                     <div class="md:text-base text-sm opacity-70 mt-3 mb-lg-1">
                         Innovate with the latest and greatest technologies & get to work on some of the coolest projects you can imagine.
@@ -329,15 +328,15 @@
                                     <span>
                                        Apply Now
                                     </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
                                 </span>
                             </span>
                         </a>
                     </div>
                 </div>
-                <div class="lg:w-[40%] flex items-center justify-center w-[100%] lg:order-2 order-1">
-                    <div class="aspect-[3/2.8] object-cover mx-auto">
-                    <img src="{{asset('public'.mix('/tailwind/img/carers/img-team.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
+                <div class="lg:w-1/2 flex items-center justify-center w-full">
+                    <div class="mx-auto">
+                        <img class=" lg:h-full lg:w-full md:h-[600px] mx-auto [-webkit-mask-image:url('../img/mask/mask_4.webp')] [-webkit-mask-size:contain] [-webkit-mask-position:center_center] [-webkit-mask-repeat:no-repeat]" src="{{asset('public'.mix('/tailwind/img/carers/joinus.webp'))}}" alt="joinus">
                     </div>
                 </div>
             </div>
@@ -349,20 +348,20 @@
 
 
 {{-- apply now section start --}}
-<div class="bg-gray-100 relative select-noneoverflow-hidden">
+<div class="bg-gray-100 relative select-none overflow-hidden">
     <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp?id=31a5defd3b15daed788cf2bd1997fc88')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-10 overflow-hidden">
         <div class="flex flex-wrap flex-row">
-            <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+            <div class="md:w-1/2 md:p-4 p-3 w-full rounded-xl">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 rounded-lg rounded-br-none border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">Flutter Developer</div>
                         <div class="flex items-center mt-1 gap-3">
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M124.813 31.5L21.593 134.688 150.44 263.53l4.687-27.28 18.438 3.156-19.875 115.78c.314-.073.62-.14.937-.217l36.03 26.53 10-129.406 18.626 1.437-10.874 141.032 38.188 28.125v-164.28l-31-84.563 40.344 15.406 40.343-15.438-31 84.563v164.313l38.22-28.157-10.906-141 18.625-1.436L321.25 381.5l36.094-26.594c.355.09.71.166 1.062.25l-20.094-115.72 18.407-3.186 4.75 27.25 128.81-128.813L387.095 31.5 255.938 74.78 124.813 31.5zm14.843 45.813l36.438 112.624L73.47 147.03l66.186-69.718zm229.72 0l66.187 69.718-102.625 42.907 36.437-112.625zm-.063 231.406l8.343 48.124c18.14-1.61 34.37-13.527 52.125-41.625-20.87 3.008-40.78.415-60.467-6.5zm-226.625.06c-19.613 6.86-39.458 9.437-60.25 6.44 17.718 28.036 33.906 39.973 52 41.624l8.25-48.063zm221.375 64.376l-37.032 27.28c14.147 15.196 34.73 19.897 70.845 11.752-14.33-10.72-25.298-23.82-33.813-39.032zm-215.813.344c-8.737 16.542-20.235 30.682-35.53 42.125 38.18 8.612 59.01 2.917 73.218-14.406L148.25 373.5zm54 39.75c.29 24.56-2.662 48.25-9.78 71.406 25.805-11.198 41.003-24.887 49.155-42.437l-39.375-28.97zm106.156.875l-39.562 29.156c8.114 17.697 23.35 31.485 49.312 42.75-7.17-23.32-10.098-47.167-9.75-71.905z"></path></svg></span>  2+ Years </div>
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg></span> On Site</div>
-                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  jaipur </div>
+                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  Jaipur </div>
                         </div>
         
                     </div>
@@ -373,7 +372,7 @@
                                     <span>
                                        Apply Now
                                     </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
                                 </span>
                             </span>
                         </a>
@@ -381,14 +380,14 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 rounded-lg rounded-br-none border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">React Js Developer</div>
                         <div class="flex items-center mt-1 gap-3">
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M124.813 31.5L21.593 134.688 150.44 263.53l4.687-27.28 18.438 3.156-19.875 115.78c.314-.073.62-.14.937-.217l36.03 26.53 10-129.406 18.626 1.437-10.874 141.032 38.188 28.125v-164.28l-31-84.563 40.344 15.406 40.343-15.438-31 84.563v164.313l38.22-28.157-10.906-141 18.625-1.436L321.25 381.5l36.094-26.594c.355.09.71.166 1.062.25l-20.094-115.72 18.407-3.186 4.75 27.25 128.81-128.813L387.095 31.5 255.938 74.78 124.813 31.5zm14.843 45.813l36.438 112.624L73.47 147.03l66.186-69.718zm229.72 0l66.187 69.718-102.625 42.907 36.437-112.625zm-.063 231.406l8.343 48.124c18.14-1.61 34.37-13.527 52.125-41.625-20.87 3.008-40.78.415-60.467-6.5zm-226.625.06c-19.613 6.86-39.458 9.437-60.25 6.44 17.718 28.036 33.906 39.973 52 41.624l8.25-48.063zm221.375 64.376l-37.032 27.28c14.147 15.196 34.73 19.897 70.845 11.752-14.33-10.72-25.298-23.82-33.813-39.032zm-215.813.344c-8.737 16.542-20.235 30.682-35.53 42.125 38.18 8.612 59.01 2.917 73.218-14.406L148.25 373.5zm54 39.75c.29 24.56-2.662 48.25-9.78 71.406 25.805-11.198 41.003-24.887 49.155-42.437l-39.375-28.97zm106.156.875l-39.562 29.156c8.114 17.697 23.35 31.485 49.312 42.75-7.17-23.32-10.098-47.167-9.75-71.905z"></path></svg></span>  2+ Years </div>
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg></span> On Site</div>
-                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  jaipur </div>
+                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  Jaipur </div>
                         </div>
         
                     </div>
@@ -399,7 +398,7 @@
                                     <span>
                                         Apply Now
                                     </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
                                 </span>
                             </span>
                         </a>
@@ -407,14 +406,14 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 rounded-lg rounded-br-none border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">Node.js Developer</div>
                         <div class="flex items-center mt-1 gap-3">
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M124.813 31.5L21.593 134.688 150.44 263.53l4.687-27.28 18.438 3.156-19.875 115.78c.314-.073.62-.14.937-.217l36.03 26.53 10-129.406 18.626 1.437-10.874 141.032 38.188 28.125v-164.28l-31-84.563 40.344 15.406 40.343-15.438-31 84.563v164.313l38.22-28.157-10.906-141 18.625-1.436L321.25 381.5l36.094-26.594c.355.09.71.166 1.062.25l-20.094-115.72 18.407-3.186 4.75 27.25 128.81-128.813L387.095 31.5 255.938 74.78 124.813 31.5zm14.843 45.813l36.438 112.624L73.47 147.03l66.186-69.718zm229.72 0l66.187 69.718-102.625 42.907 36.437-112.625zm-.063 231.406l8.343 48.124c18.14-1.61 34.37-13.527 52.125-41.625-20.87 3.008-40.78.415-60.467-6.5zm-226.625.06c-19.613 6.86-39.458 9.437-60.25 6.44 17.718 28.036 33.906 39.973 52 41.624l8.25-48.063zm221.375 64.376l-37.032 27.28c14.147 15.196 34.73 19.897 70.845 11.752-14.33-10.72-25.298-23.82-33.813-39.032zm-215.813.344c-8.737 16.542-20.235 30.682-35.53 42.125 38.18 8.612 59.01 2.917 73.218-14.406L148.25 373.5zm54 39.75c.29 24.56-2.662 48.25-9.78 71.406 25.805-11.198 41.003-24.887 49.155-42.437l-39.375-28.97zm106.156.875l-39.562 29.156c8.114 17.697 23.35 31.485 49.312 42.75-7.17-23.32-10.098-47.167-9.75-71.905z"></path></svg></span>  2+ Years </div>
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg></span> On Site</div>
-                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  jaipur </div>
+                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  Jaipur </div>
                         </div>
         
                     </div>
@@ -425,7 +424,7 @@
                                     <span>
                                      Apply Now
                                     </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
                                 </span>
                             </span>
                         </a>
@@ -433,14 +432,14 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 rounded-lg rounded-br-none border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">AngularJS Developer</div>
                         <div class="flex items-center mt-1 gap-3">
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M124.813 31.5L21.593 134.688 150.44 263.53l4.687-27.28 18.438 3.156-19.875 115.78c.314-.073.62-.14.937-.217l36.03 26.53 10-129.406 18.626 1.437-10.874 141.032 38.188 28.125v-164.28l-31-84.563 40.344 15.406 40.343-15.438-31 84.563v164.313l38.22-28.157-10.906-141 18.625-1.436L321.25 381.5l36.094-26.594c.355.09.71.166 1.062.25l-20.094-115.72 18.407-3.186 4.75 27.25 128.81-128.813L387.095 31.5 255.938 74.78 124.813 31.5zm14.843 45.813l36.438 112.624L73.47 147.03l66.186-69.718zm229.72 0l66.187 69.718-102.625 42.907 36.437-112.625zm-.063 231.406l8.343 48.124c18.14-1.61 34.37-13.527 52.125-41.625-20.87 3.008-40.78.415-60.467-6.5zm-226.625.06c-19.613 6.86-39.458 9.437-60.25 6.44 17.718 28.036 33.906 39.973 52 41.624l8.25-48.063zm221.375 64.376l-37.032 27.28c14.147 15.196 34.73 19.897 70.845 11.752-14.33-10.72-25.298-23.82-33.813-39.032zm-215.813.344c-8.737 16.542-20.235 30.682-35.53 42.125 38.18 8.612 59.01 2.917 73.218-14.406L148.25 373.5zm54 39.75c.29 24.56-2.662 48.25-9.78 71.406 25.805-11.198 41.003-24.887 49.155-42.437l-39.375-28.97zm106.156.875l-39.562 29.156c8.114 17.697 23.35 31.485 49.312 42.75-7.17-23.32-10.098-47.167-9.75-71.905z"></path></svg></span>  2+ Years </div>
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg></span> On Site</div>
-                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  jaipur </div>
+                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  Jaipur </div>
                         </div>
         
                     </div>
@@ -451,7 +450,7 @@
                                     <span>
                                        Apply Now
                                     </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
                                 </span>
                             </span>
                         </a>
@@ -459,14 +458,14 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 rounded-lg rounded-br-none border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">React Native DeveloperR</div>
                         <div class="flex items-center mt-1 gap-3">
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M124.813 31.5L21.593 134.688 150.44 263.53l4.687-27.28 18.438 3.156-19.875 115.78c.314-.073.62-.14.937-.217l36.03 26.53 10-129.406 18.626 1.437-10.874 141.032 38.188 28.125v-164.28l-31-84.563 40.344 15.406 40.343-15.438-31 84.563v164.313l38.22-28.157-10.906-141 18.625-1.436L321.25 381.5l36.094-26.594c.355.09.71.166 1.062.25l-20.094-115.72 18.407-3.186 4.75 27.25 128.81-128.813L387.095 31.5 255.938 74.78 124.813 31.5zm14.843 45.813l36.438 112.624L73.47 147.03l66.186-69.718zm229.72 0l66.187 69.718-102.625 42.907 36.437-112.625zm-.063 231.406l8.343 48.124c18.14-1.61 34.37-13.527 52.125-41.625-20.87 3.008-40.78.415-60.467-6.5zm-226.625.06c-19.613 6.86-39.458 9.437-60.25 6.44 17.718 28.036 33.906 39.973 52 41.624l8.25-48.063zm221.375 64.376l-37.032 27.28c14.147 15.196 34.73 19.897 70.845 11.752-14.33-10.72-25.298-23.82-33.813-39.032zm-215.813.344c-8.737 16.542-20.235 30.682-35.53 42.125 38.18 8.612 59.01 2.917 73.218-14.406L148.25 373.5zm54 39.75c.29 24.56-2.662 48.25-9.78 71.406 25.805-11.198 41.003-24.887 49.155-42.437l-39.375-28.97zm106.156.875l-39.562 29.156c8.114 17.697 23.35 31.485 49.312 42.75-7.17-23.32-10.098-47.167-9.75-71.905z"></path></svg></span>  2+ Years </div>
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg></span> On Site</div>
-                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  jaipur </div>
+                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  Jaipur </div>
                         </div>
         
                     </div>
@@ -477,7 +476,7 @@
                                     <span>
                                        Apply Now
                                     </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
                                 </span>
                             </span>
                         </a>
@@ -485,14 +484,14 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 rounded-lg rounded-br-none border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">PHP Developer</div>
                         <div class="flex items-center mt-1 gap-3">
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M124.813 31.5L21.593 134.688 150.44 263.53l4.687-27.28 18.438 3.156-19.875 115.78c.314-.073.62-.14.937-.217l36.03 26.53 10-129.406 18.626 1.437-10.874 141.032 38.188 28.125v-164.28l-31-84.563 40.344 15.406 40.343-15.438-31 84.563v164.313l38.22-28.157-10.906-141 18.625-1.436L321.25 381.5l36.094-26.594c.355.09.71.166 1.062.25l-20.094-115.72 18.407-3.186 4.75 27.25 128.81-128.813L387.095 31.5 255.938 74.78 124.813 31.5zm14.843 45.813l36.438 112.624L73.47 147.03l66.186-69.718zm229.72 0l66.187 69.718-102.625 42.907 36.437-112.625zm-.063 231.406l8.343 48.124c18.14-1.61 34.37-13.527 52.125-41.625-20.87 3.008-40.78.415-60.467-6.5zm-226.625.06c-19.613 6.86-39.458 9.437-60.25 6.44 17.718 28.036 33.906 39.973 52 41.624l8.25-48.063zm221.375 64.376l-37.032 27.28c14.147 15.196 34.73 19.897 70.845 11.752-14.33-10.72-25.298-23.82-33.813-39.032zm-215.813.344c-8.737 16.542-20.235 30.682-35.53 42.125 38.18 8.612 59.01 2.917 73.218-14.406L148.25 373.5zm54 39.75c.29 24.56-2.662 48.25-9.78 71.406 25.805-11.198 41.003-24.887 49.155-42.437l-39.375-28.97zm106.156.875l-39.562 29.156c8.114 17.697 23.35 31.485 49.312 42.75-7.17-23.32-10.098-47.167-9.75-71.905z"></path></svg></span>  2+ Years </div>
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg></span> On Site</div>
-                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  jaipur </div>
+                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  Jaipur </div>
                         </div>
         
                     </div>
@@ -503,7 +502,7 @@
                                     <span>
                                        Apply Now
                                     </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
                                 </span>
                             </span>
                         </a>
@@ -511,14 +510,14 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 rounded-lg rounded-br-none border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">iOS Develoepr</div>
                         <div class="flex items-center mt-1 gap-3">
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M124.813 31.5L21.593 134.688 150.44 263.53l4.687-27.28 18.438 3.156-19.875 115.78c.314-.073.62-.14.937-.217l36.03 26.53 10-129.406 18.626 1.437-10.874 141.032 38.188 28.125v-164.28l-31-84.563 40.344 15.406 40.343-15.438-31 84.563v164.313l38.22-28.157-10.906-141 18.625-1.436L321.25 381.5l36.094-26.594c.355.09.71.166 1.062.25l-20.094-115.72 18.407-3.186 4.75 27.25 128.81-128.813L387.095 31.5 255.938 74.78 124.813 31.5zm14.843 45.813l36.438 112.624L73.47 147.03l66.186-69.718zm229.72 0l66.187 69.718-102.625 42.907 36.437-112.625zm-.063 231.406l8.343 48.124c18.14-1.61 34.37-13.527 52.125-41.625-20.87 3.008-40.78.415-60.467-6.5zm-226.625.06c-19.613 6.86-39.458 9.437-60.25 6.44 17.718 28.036 33.906 39.973 52 41.624l8.25-48.063zm221.375 64.376l-37.032 27.28c14.147 15.196 34.73 19.897 70.845 11.752-14.33-10.72-25.298-23.82-33.813-39.032zm-215.813.344c-8.737 16.542-20.235 30.682-35.53 42.125 38.18 8.612 59.01 2.917 73.218-14.406L148.25 373.5zm54 39.75c.29 24.56-2.662 48.25-9.78 71.406 25.805-11.198 41.003-24.887 49.155-42.437l-39.375-28.97zm106.156.875l-39.562 29.156c8.114 17.697 23.35 31.485 49.312 42.75-7.17-23.32-10.098-47.167-9.75-71.905z"></path></svg></span>  2+ Years </div>
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg></span> On Site</div>
-                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  jaipur </div>
+                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  Jaipur </div>
                         </div>
 
                     </div>
@@ -529,7 +528,7 @@
                                     <span>
                                     Apply Now
                                     </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
                                 </span>
                             </span>
                         </a>
@@ -537,14 +536,14 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 rounded-lg rounded-br-none border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">IT Business Development Executive</div>
                         <div class="flex items-center mt-1 gap-3">
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M124.813 31.5L21.593 134.688 150.44 263.53l4.687-27.28 18.438 3.156-19.875 115.78c.314-.073.62-.14.937-.217l36.03 26.53 10-129.406 18.626 1.437-10.874 141.032 38.188 28.125v-164.28l-31-84.563 40.344 15.406 40.343-15.438-31 84.563v164.313l38.22-28.157-10.906-141 18.625-1.436L321.25 381.5l36.094-26.594c.355.09.71.166 1.062.25l-20.094-115.72 18.407-3.186 4.75 27.25 128.81-128.813L387.095 31.5 255.938 74.78 124.813 31.5zm14.843 45.813l36.438 112.624L73.47 147.03l66.186-69.718zm229.72 0l66.187 69.718-102.625 42.907 36.437-112.625zm-.063 231.406l8.343 48.124c18.14-1.61 34.37-13.527 52.125-41.625-20.87 3.008-40.78.415-60.467-6.5zm-226.625.06c-19.613 6.86-39.458 9.437-60.25 6.44 17.718 28.036 33.906 39.973 52 41.624l8.25-48.063zm221.375 64.376l-37.032 27.28c14.147 15.196 34.73 19.897 70.845 11.752-14.33-10.72-25.298-23.82-33.813-39.032zm-215.813.344c-8.737 16.542-20.235 30.682-35.53 42.125 38.18 8.612 59.01 2.917 73.218-14.406L148.25 373.5zm54 39.75c.29 24.56-2.662 48.25-9.78 71.406 25.805-11.198 41.003-24.887 49.155-42.437l-39.375-28.97zm106.156.875l-39.562 29.156c8.114 17.697 23.35 31.485 49.312 42.75-7.17-23.32-10.098-47.167-9.75-71.905z"></path></svg></span>  2+ Years </div>
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg></span> On Site</div>
-                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  jaipur </div>
+                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  Jaipur </div>
                         </div>
         
                     </div>
@@ -555,7 +554,7 @@
                                     <span>
                                        Apply Now
                                     </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
                                 </span>
                             </span>
                         </a>
@@ -563,14 +562,14 @@
                 </div>
             </div>
             <div class="md:w-1/2 md:p-4 p-3 w-full">
-                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 border-transparent border hover:border hover:border-orange-500">
+                <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 rounded-lg rounded-br-none border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
                         <div class="text-slate-950 sm:text-lg text-base font-bold ">HR Intern</div>
                         <div class="flex items-center mt-1 gap-3">
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M124.813 31.5L21.593 134.688 150.44 263.53l4.687-27.28 18.438 3.156-19.875 115.78c.314-.073.62-.14.937-.217l36.03 26.53 10-129.406 18.626 1.437-10.874 141.032 38.188 28.125v-164.28l-31-84.563 40.344 15.406 40.343-15.438-31 84.563v164.313l38.22-28.157-10.906-141 18.625-1.436L321.25 381.5l36.094-26.594c.355.09.71.166 1.062.25l-20.094-115.72 18.407-3.186 4.75 27.25 128.81-128.813L387.095 31.5 255.938 74.78 124.813 31.5zm14.843 45.813l36.438 112.624L73.47 147.03l66.186-69.718zm229.72 0l66.187 69.718-102.625 42.907 36.437-112.625zm-.063 231.406l8.343 48.124c18.14-1.61 34.37-13.527 52.125-41.625-20.87 3.008-40.78.415-60.467-6.5zm-226.625.06c-19.613 6.86-39.458 9.437-60.25 6.44 17.718 28.036 33.906 39.973 52 41.624l8.25-48.063zm221.375 64.376l-37.032 27.28c14.147 15.196 34.73 19.897 70.845 11.752-14.33-10.72-25.298-23.82-33.813-39.032zm-215.813.344c-8.737 16.542-20.235 30.682-35.53 42.125 38.18 8.612 59.01 2.917 73.218-14.406L148.25 373.5zm54 39.75c.29 24.56-2.662 48.25-9.78 71.406 25.805-11.198 41.003-24.887 49.155-42.437l-39.375-28.97zm106.156.875l-39.562 29.156c8.114 17.697 23.35 31.485 49.312 42.75-7.17-23.32-10.098-47.167-9.75-71.905z"></path></svg></span>  2+ Years </div>
                             <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"></path></svg></span> On Site</div>
-                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  jaipur </div>
+                            <div class="flex items-center text-black text-sm"> <span class="flex items-center jsutify-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="h-5 w-5 text-orange-500 mr-2" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg></span>  Jaipur </div>
                         </div>
         
                     </div>
@@ -581,7 +580,7 @@
                                     <span>
                                        Apply Now
                                     </span>
-                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-5 w-5" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M21 12.22C21 6.73 16.74 3 12 3c-4.69 0-9 3.65-9 9.28-.6.34-1 .98-1 1.72v2c0 1.1.9 2 2 2h1v-6.1c0-3.87 3.13-7 7-7s7 3.13 7 7V19h-8v2h8c1.1 0 2-.9 2-2v-1.22c.59-.31 1-.92 1-1.64v-2.3c0-.7-.41-1.31-1-1.62z"></path><circle cx="9" cy="13" r="1"></circle><circle cx="15" cy="13" r="1"></circle><path d="M18 11.03A6.04 6.04 0 0012.05 6c-3.03 0-6.29 2.51-6.03 6.45a8.075 8.075 0 004.86-5.89c1.31 2.63 4 4.44 7.12 4.47z"></path></svg>
+                                   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
                                 </span>
                             </span>
                         </a>
@@ -589,16 +588,6 @@
                 </div>
             </div>
         </div>
-
-      
-        
-       
-       
-       
-
-     
-       
-      
     </div>
 </div>
 
@@ -783,4 +772,4 @@
 @endsection
 
 @push('scripts')
-@endpush
+@endpushshadow-[#cb48fb]
