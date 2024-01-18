@@ -1286,15 +1286,14 @@
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50 ">
             <div class="w-1/2">
-                <div class="mainCard h-[300px]">
+                <div class="mainCard h-96">
                     <div class="bg-[rgb(17_24_39)] opacity-100 rounded-xl relative overflow-hidden w-full h-full">
-                        <img class=" overflow-hidden absolute inset-0w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
+                        <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
                         <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-[rgb(17_24_39)]"></div>
                         <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
                             <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-[#FF4694] to-[#776FFF] w-[68.5625rem]  [aspect-ratio:1097/845]"></div>
                         </div>
                     </div>
-                    <div class="h-[250px]"></div>
                 </div>
                
             </div>
