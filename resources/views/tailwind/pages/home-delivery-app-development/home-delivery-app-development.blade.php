@@ -1284,23 +1284,103 @@
             <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
             
         </div>
-        <div class="flex flex-wrap items-stretch pt-4 relative z-50 ">
-            <div class="w-1/2">
-                <div class="mainCard h-96">
-                    <div class="bg-[rgb(17_24_39)] opacity-100 rounded-xl relative overflow-hidden w-full h-full">
-                        <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
-                        <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-[rgb(17_24_39)]"></div>
-                        <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
-                            <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-[#FF4694] to-[#776FFF] w-[68.5625rem]  [aspect-ratio:1097/845]"></div>
+            <div class="flex flex-wrap items-stretch pt-2 relative z-50 ">
+                <div class="md:w-1/2 p-3 w-full h-auto lg:w-1/2">
+                <div class="w-full h-full">
+                        <div class="bg-[rgb(17_24_39)] opacity-100 rounded-3xl rounded-br-none relative overflow-hidden w-full h-full">
+                            <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
+                                <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-[rgb(17_24_39)]"></div>
+                                <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                                <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-[#FF4694] to-[#776FFF] w-[68.5625rem]  [aspect-ratio:1097/845]"></div>
+                                </div>
+                                <div class="flex flex-col px-[20px] h-full relative z-50">
+                                <div class=" h-[100px]"></div>
+                                <div class="flex items-center py-2">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512"class=" w-[40px] h-[40px] text-white" xmlns="http://www.w3.org/2000/svg"><path d="M434.7 64h-85.9c-8 0-15.7 3-21.6 8.4l-98.3 90c-.1.1-.2.3-.3.4-16.6 15.6-16.3 40.5-2.1 56 12.7 13.9 39.4 17.6 56.1 2.7.1-.1.3-.1.4-.2l79.9-73.2c6.5-5.9 16.7-5.5 22.6 1 6 6.5 5.5 16.6-1 22.6l-26.1 23.9L504 313.8c2.9 2.4 5.5 5 7.9 7.7V128l-54.6-54.6c-5.9-6-14.1-9.4-22.6-9.4zM544 128.2v223.9c0 17.7 14.3 32 32 32h64V128.2h-96zm48 223.9c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zM0 384h64c17.7 0 32-14.3 32-32V128.2H0V384zm48-63.9c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16c0-8.9 7.2-16 16-16zm435.9 18.6L334.6 217.5l-30 27.5c-29.7 27.1-75.2 24.5-101.7-4.4-26.9-29.4-24.8-74.9 4.4-101.7L289.1 64h-83.8c-8.5 0-16.6 3.4-22.6 9.4L128 128v223.9h18.3l90.5 81.9c27.4 22.3 67.7 18.1 90-9.3l.2-.2 17.9 15.5c15.9 13 39.4 10.5 52.3-5.4l31.4-38.6 5.4 4.4c13.7 11.1 33.9 9.1 45-4.7l9.5-11.7c11.2-13.8 9.1-33.9-4.6-45.1z"></path></svg>
+                                    <div class=" text-xl font-semibold text-white  ps-3">
+                                        TRACKING PRODUCTION</div>
+                                </div>
+                                <div class="text-md text-normal text-white pb-3">
+                                    Our ERP can provide an industrial business with the comprehensive tracking system. You would be able to track your resources from their very purchase to the time they are converted to finished Goods.
+                                </div>
+                                
                         </div>
                     </div>
                 </div>
-               
+                
             </div>
-        </div>
-    </div>
+            <div class="md:w-1/2 p-3 w-full h-auto lg:w-1/2">
+            <div class="w-full h-full">
+                    <div class="bg-[rgb(17_24_39)] opacity-100 rounded-3xl rounded-br-none relative overflow-hidden w-full h-full">
+                        <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
+                            <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-[rgb(17_24_39)]"></div>
+                            <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                            <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-[#FF4694] to-[#776FFF] w-[68.5625rem]  [aspect-ratio:1097/845]"></div>
+                            </div>
+                            <div class="flex flex-col px-[20px] h-full relative z-50">
+                            <div class=" h-[100px]"></div>
+                            <div class="flex items-center py-2">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" w-[40px] h-[40px] text-white"xmlns="http://www.w3.org/2000/svg"><path d="M223.75 130.75L154.62 15.54A31.997 31.997 0 0 0 127.18 0H16.03C3.08 0-4.5 14.57 2.92 25.18l111.27 158.96c29.72-27.77 67.52-46.83 109.56-53.39zM495.97 0H384.82c-11.24 0-21.66 5.9-27.44 15.54l-69.13 115.21c42.04 6.56 79.84 25.62 109.56 53.38L509.08 25.18C516.5 14.57 508.92 0 495.97 0zM256 160c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm92.52 157.26l-37.93 36.96 8.97 52.22c1.6 9.36-8.26 16.51-16.65 12.09L256 393.88l-46.9 24.65c-8.4 4.45-18.25-2.74-16.65-12.09l8.97-52.22-37.93-36.96c-6.82-6.64-3.05-18.23 6.35-19.59l52.43-7.64 23.43-47.52c2.11-4.28 6.19-6.39 10.28-6.39 4.11 0 8.22 2.14 10.33 6.39l23.43 47.52 52.43 7.64c9.4 1.36 13.17 12.95 6.35 19.59z"></path></svg>
+                                <div class=" text-xl font-semibold text-white  ps-3">QUALITY MANAGEMENT</div>
+                            </div>
+                            <div class="text-md text-normal text-white pb-3">
+                                With our ERP developed platforms, every user of the system can generate custom reports with ease. So, you can access and examine data faster than ever to make vital business decisions more quickly.
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="md:w-1/2 p-3 w-full h-auto lg:w-1/2">
+              <div class="w-full h-full">
+                <div class="bg-[rgb(17_24_39)] opacity-100 rounded-3xl rounded-br-none relative overflow-hidden w-full h-full">
+                    <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
+                        <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-[rgb(17_24_39)]"></div>
+                        <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                        <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-[#FF4694] to-[#776FFF] w-[68.5625rem]  [aspect-ratio:1097/845]"></div>
+                        </div>
+                        <div class="flex flex-col px-[20px] h-full relative z-50">
+                        <div class=" h-[100px]"></div>
+                        <div class="flex items-center py-2">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class=" w-[40px] h-[40px] text-white" xmlns="http://www.w3.org/2000/svg"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg>
+                            <div class=" text-xl font-semibold text-white  ps-3">
+                                INCREASED EFFICIENCY</div>
+                        </div>
+                        <div class="text-md text-normal text-white pb-3">
+                            The reduced paperwork for tracking all the system processes and production is the biggest benefit. Now you can save time as well as cost on the paperwork and employ this crucial time and planning and decision making.
+                        </div>
+                        
+                </div>
+             </div>
+            </div>
+            </div>
+                <div class="md:w-1/2 p-3 w-full h-auto lg:w-1/2">
+            <div class="w-full h-full">
+            <div class="bg-[rgb(17_24_39)] opacity-100 rounded-3xl rounded-br-none relative overflow-hidden w-full h-full">
+                <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
+                    <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-[rgb(17_24_39)]"></div>
+                    <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                    <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-[#FF4694] to-[#776FFF] w-[68.5625rem]  [aspect-ratio:1097/845]"></div>
+                    </div>
+                    <div class="flex flex-col px-[20px] h-full relative z-50">
+                    <div class=" h-[100px]"></div>
+                    <div class="flex items-center py-2">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class=" w-[40px] h-[40px] text-white" xmlns="http://www.w3.org/2000/svg"><path d="M151.17 167.35L177.1 176h4.67l5.22-26.12c.72-3.58 1.8-7.58 3.21-11.79l-20.29-40.58 23.8-71.39c2.79-8.38-1.73-17.44-10.12-20.24L168.42.82c-8.38-2.8-17.45 1.73-20.24 10.12l-25.89 77.68a32.04 32.04 0 0 0 1.73 24.43l27.15 54.3zm422.14 182.03l-52.75-79.12a32.002 32.002 0 0 0-26.62-14.25H416l68.99-24.36a32.03 32.03 0 0 0 16.51-12.61l53.6-80.41c4.9-7.35 2.91-17.29-4.44-22.19l-13.31-8.88c-7.35-4.9-17.29-2.91-22.19 4.44l-50.56 75.83L404.1 208H368l-10.37-51.85C355.44 145.18 340.26 96 288 96c-52.26 0-67.44 49.18-69.63 60.15L208 208h-36.1l-60.49-20.17L60.84 112c-4.9-7.35-14.83-9.34-22.19-4.44l-13.31 8.88c-7.35 4.9-9.34 14.83-4.44 22.19l53.6 80.41a32.03 32.03 0 0 0 16.51 12.61L160 256H82.06a32.02 32.02 0 0 0-26.63 14.25L2.69 349.38c-4.9 7.35-2.92 17.29 4.44 22.19l13.31 8.88c7.35 4.9 17.29 2.91 22.19-4.44l48-72h47.06l-60.83 97.33A31.988 31.988 0 0 0 72 418.3V496c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16v-73.11l74.08-118.53c-1.01 14.05-2.08 28.11-2.08 42.21C192 399.64 232.76 448 288 448s96-48.36 96-101.43c0-14.1-1.08-28.16-2.08-42.21L456 422.89V496c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16v-77.71c0-6-1.69-11.88-4.86-16.96L438.31 304h47.06l48 72c4.9 7.35 14.84 9.34 22.19 4.44l13.31-8.88c7.36-4.9 9.34-14.83 4.44-22.18zM406.09 97.51l-20.29 40.58c1.41 4.21 2.49 8.21 3.21 11.79l5.22 26.12h4.67l25.93-8.65 27.15-54.3a31.995 31.995 0 0 0 1.73-24.43l-25.89-77.68C425.03 2.56 415.96-1.98 407.58.82l-15.17 5.06c-8.38 2.8-12.91 11.86-10.12 20.24l23.8 71.39z"></path></svg>
+                        <div class=" text-xl font-semibold text-white  ps-3">AVOID MISTAKES</div>
+                    </div>
+                    <div class="text-md text-normal text-white pb-3">
+                        With IMG Global Infotech’s, Custom Made ERP for your business in place you can track all your production cycle right from the beginning and avoid any kind of mistakes, thus saving you the trouble of huge losses of material and money.
+                    </div>
+            </div>
+            </div>
+            </div>
+</div>
 </div>
 {{-- fashion card end --}}
+{{-- card-1 --}}
+<div CLASS="my-4">
+    Hire now
+</div>
+{{-- card-2 --}}
 {{-- tabel start --}}
 <div class="md:py-16 py-5 relative bg-slate-800">
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
@@ -1390,7 +1470,9 @@
     </div>
 </div>
 
+
 {{-- tabel end --}}
+
 
 {{-- new page end --}}
 
