@@ -1033,6 +1033,111 @@
 
 
 
+
+{{-- hospital management  --}}
+
+<div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative lg:py-20 md:py-16 py-10">
+    <div class="flex flex-wrap">
+        <div class="lg:w-1/3 md:w-1/2 w-full md:px-4 px-0 py-4">
+            <div class="bg-white flex items-center h-full shadow border border-gray-100 rounded-br-none rounded-lg group">
+                <div class="flex items-center md:w-80 w-60 h-full">
+                    <div class="relative duration-300 group-hover:bg-blue-300 bg-theme1 w-full h-full z-10 -mt-12 flex flex-col gap-5 items-center justify-center after:absolute after:right-[-9px] after:top-[5px] after:bg-theme1 after:h-7 after:w-7 after:rotate-[61deg] after:duration-300 after:group-hover:bg-blue-300">
+                        <div class="text-white italic text-2xl text-center opacity-40">01</div>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="md:size-10 size-8 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
+                    </div>
+                </div>
+                <div class="p-4 bg-white z-20">
+                    <div class="md:text-xl text-base font-bold text-slate-950">OPD Management</div>
+                    <div class="text-gray-700 sm:text-base text-sm mt-2 overflow-ellipsis line-clamp-4">OPD Registration and Management, when a patient comes to the reception desk, a new registration number is automatically allotted.</div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 w-full md:px-4 px-0 py-4">
+            <div class="bg-white flex items-center h-full shadow border border-gray-100 rounded-br-none rounded-lg group">
+                <div class="flex items-center md:w-80 w-60 h-full">
+                    <div class="relative duration-300 group-hover:bg-blue-300 bg-theme1 w-full h-full z-10 -mt-12 flex flex-col gap-5 items-center justify-center after:absolute after:right-[-9px] after:top-[5px] after:bg-theme1 after:h-7 after:w-7 after:rotate-[61deg] after:duration-300 after:group-hover:bg-blue-300">
+                        <div class="text-white italic text-2xl text-center opacity-40">02</div>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="md:size-10 size-8 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
+                    </div>
+                </div>
+                <div class="p-4 bg-white z-20">
+                    <div class="md:text-xl text-base font-bold text-slate-950">IPD Management</div>
+                    <div class="text-gray-700 sm:text-base text-sm mt-2 overflow-ellipsis line-clamp-4">OPD Registration and Management, when a patient comes to the reception desk, a new registration number is automatically allotted.</div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 w-full md:px-4 px-0 py-4">
+            <div class="bg-white flex items-center h-full shadow border border-gray-100 rounded-br-none rounded-lg group">
+                <div class="flex items-center md:w-80 w-60 h-full">
+                    <div class="relative duration-300 group-hover:bg-blue-300 bg-theme1 w-full h-full z-10 -mt-12 flex flex-col gap-5 items-center justify-center after:absolute after:right-[-9px] after:top-[5px] after:bg-theme1 after:h-7 after:w-7 after:rotate-[61deg] after:duration-300 after:group-hover:bg-blue-300">
+                        <div class="text-white italic text-2xl text-center opacity-40">03</div>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="md:size-10 size-8 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
+                    </div>
+                </div>
+                <div class="p-4 bg-white z-20">
+                    <div class="md:text-xl text-base font-bold text-slate-950">Medical Store</div>
+                    <div class="text-gray-700 sm:text-base text-sm mt-2 overflow-ellipsis line-clamp-4">OPD Registration and Management, when a patient comes to the reception desk, a new registration number is automatically allotted.</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative lg:py-20 md:py-16 py-10">
+    <div class="flex flex-wrap">
+        <div class="w-1/2 p-4">
+            <div class="mainCard h-96">
+                <div class="p-4 bg-[rgb(17_24_39)] opacity-100 rounded-xl relative overflow-hidden w-full h-full">
+                    <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit"> 
+                    <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-[rgb(17_24_39)]"></div>
+                    <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                        <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-[#ff4694] to-[#776fff] w-[68.5625rem]  [aspect-ratio:1097/845]"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/2 p-4">
+            <div class="maincard w-full bg-white shadow p-4 rounded-lg rounded-br-none relative before:absolute before:content-['1'] before:text-white before:text-2xl before:font-bold before:flex before:items-center before:justify-center before:text-center before:top-[-10px] before:left-[15px] before:bottom-[-10px] before:w-[50px] before:bg-[orange] before:rounded-b-lg after:absolute after:left-[65px] after:top-[-10px] after:[border-bottom:_10px_solid_orange] after:[border-right:10px_solid_transparent] group duration-300 hover:-translate-y-3">
+                <div class="text-slate-900 text-xl font-bold ms-20">PATIENT REGISTRATION</div>
+            </div>
+            <div class="maincard mt-9 w-full bg-white shadow p-4 rounded-lg rounded-br-none relative before:absolute before:content-['2'] before:text-white before:text-2xl before:font-bold before:flex before:items-center before:justify-center before:text-center before:top-[-10px] before:left-[15px] before:bottom-[-10px] before:w-[50px] before:bg-[orange] before:rounded-b-lg after:absolute after:left-[65px] after:top-[-10px] after:[border-bottom:_10px_solid_orange] after:[border-right:10px_solid_transparent] group duration-300 hover:-translate-y-3">
+                <div class="text-slate-900 text-xl font-bold ms-20">INDOOR/OUTDOOR FACILITY</div>
+            </div>
+            <div class="maincard mt-9 w-full bg-white shadow p-4 rounded-lg rounded-br-none relative before:absolute before:content-['3'] before:text-white before:text-2xl before:font-bold before:flex before:items-center before:justify-center before:text-center before:top-[-10px] before:left-[15px] before:bottom-[-10px] before:w-[50px] before:bg-[orange] before:rounded-b-lg after:absolute after:left-[65px] after:top-[-10px] after:[border-bottom:_10px_solid_orange] after:[border-right:10px_solid_transparent] group duration-300 hover:-translate-y-3">
+                <div class="text-slate-900 text-xl font-bold ms-20">HRM/CRM MODULE</div>
+            </div>
+            <div class="maincard mt-9 w-full bg-white shadow p-4 rounded-lg rounded-br-none relative before:absolute before:content-['4'] before:text-white before:text-2xl before:font-bold before:flex before:items-center before:justify-center before:text-center before:top-[-10px] before:left-[15px] before:bottom-[-10px] before:w-[50px] before:bg-[orange] before:rounded-b-lg after:absolute after:left-[65px] after:top-[-10px] after:[border-bottom:_10px_solid_orange] after:[border-right:10px_solid_transparent] group duration-300 hover:-translate-y-3">
+                <div class="text-slate-900 text-xl font-bold ms-20">DAILY PATIENT RECORD</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative lg:py-20 md:py-16 py-10 ">
+<div class="flex flex-wrap w-full">
+    <div class="w-1/4">
+        <div class="maincard group hover:border-transparent rounded-2xl mb-8 relative z-10 duration-300 [background:linear-gradient(90deg,_#20d9a1_0%,_#5f39ff_100%)] [border:1px_solid_#f8f7ff]">
+            <div class="bg-[#f8f7ff] rounded-xl pb-0 h-full">
+                <div class="iconsection relative size-[100px] mx-auto  z-10 text-white flex items-center justify-center rotate-0 text-center">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="z-20 -mt-[50px] absolute left-[50%] top-[50%] size-[45px] text-[45px] duration-500 [transform:translate(-50%,_-50%)_rotate(0)] group-hover:[transform:translate(-50%,_-50%)_rotate(360deg)]"  height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M144 268.4V358c0 6.9 4.5 14 11.4 14H184v52c0 13.3 10.7 24 24 24s24-10.7 24-24v-52h49v52c0 7.5 3.4 14.2 8.8 18.6 3.9 3.4 9.1 5.4 14.7 5.4h.5c13.3 0 24-10.7 24-24v-52h27.6c7 0 11.4-7.1 11.4-13.9V192H144v76.4zM408 176c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24s24-10.7 24-24v-96c0-13.3-10.7-24-24-24zM104 176c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24s24-10.7 24-24v-96c0-13.3-10.7-24-24-24z"></path><g><path d="M311.2 89.1l18.5-21.9c.4-.5-.2-1.6-1.3-2.5-1.1-.8-2.4-1-2.7-.4l-19.2 22.8c-13.6-5.4-30.2-8.8-50.6-8.8-20.5-.1-37.2 3.2-50.8 8.5l-19-22.4c-.4-.5-1.6-.4-2.7.4s-1.7 1.8-1.3 2.5l18.3 21.6c-48.2 20.9-55.4 72.2-56.4 87.2h223.6c-.9-15.1-8-65.7-56.4-87zm-104.4 49.8c-7.4 0-13.5-6-13.5-13.3 0-7.3 6-13.3 13.5-13.3 7.4 0 13.5 6 13.5 13.3 0 7.3-6 13.3-13.5 13.3zm98.4 0c-7.4 0-13.5-6-13.5-13.3 0-7.3 6-13.3 13.5-13.3 7.4 0 13.5 6 13.5 13.3 0 7.3-6.1 13.3-13.5 13.3z"></path></g></svg>
+                    <img class="absolute left-0 top-0 -mt-[50px] size-full bg-no-repeat bg-center bg-cover duration-500 group-hover:opacity-0 group-hover:[visibility:hidden] " src="{{asset('public'.mix('/tailwind/img/about/service-image.webp'))}}" alt="logo1">
+                    <img class="absolute left-0 top-0 -mt-[50px] opacity-0 visible-0 [visibility:hidden] translate-y-10 size-full bg-no-repeat bg-center bg-cover duration-500  group-hover:opacity-100 group-hover:[visibility:visible] group-hover:translate-y-0" src="{{asset('public'.mix('/tailwind/img/about/service-image1.webp'))}}" alt="logo1">
+                </div>
+                <div class="[padding:25px_15px_25px] -mt-6">
+                    <div class="title text-2xl font-bold text-slate-950 text-center"> Logo Design</div>
+                    <div class="text-base text-gray-600 font-normal text-center mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem repudiandae totam temporibus harum culpa voluptatum eligendi reiciendis! Labore, facilis eum!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
 @endsection
 
 @push('scripts')
