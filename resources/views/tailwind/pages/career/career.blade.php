@@ -353,7 +353,7 @@
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-10 overflow-hidden">
         <div class="flex flex-wrap flex-row">
-            <div class="md:w-1/2 md:p-4 p-3 w-full rounded-xl">
+            <div class="md:w-1/2 md:p-4 p-3 w-full rounded-xl ">
                 <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 rounded-lg rounded-br-none border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>

@@ -2258,6 +2258,10 @@ select{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .my-6{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2269,10 +2273,6 @@ select{
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 .\!mt-0{
   margin-top: 0px !important;
@@ -2832,6 +2832,10 @@ select{
 .w-full{
   width: 100%;
 }
+.w-max{
+  width: -moz-max-content;
+  width: max-content;
+}
 .w-px{
   width: 1px;
 }
@@ -3289,6 +3293,9 @@ select{
 .rounded-br-none{
   border-bottom-right-radius: 0px;
 }
+.rounded-br-xl{
+  border-bottom-right-radius: 0.75rem;
+}
 .\!border-0{
   border-width: 0px !important;
 }
@@ -3447,6 +3454,10 @@ select{
 .bg-blue-100{
   --tw-bg-opacity: 1;
   background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+}
+.bg-blue-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
 }
 .bg-blue-600{
   --tw-bg-opacity: 1;
@@ -4010,6 +4021,14 @@ select{
   --tw-gradient-to: rgb(113 63 18 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #713f12 var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
+.via-gray-100{
+  --tw-gradient-to: rgb(243 244 246 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #f3f4f6 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+.via-white\/20{
+  --tw-gradient-to: rgb(255 255 255 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(255 255 255 / 0.2) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
 .to-\[\#776FFF\]{
   --tw-gradient-to: #776FFF var(--tw-gradient-to-position);
 }
@@ -4030,6 +4049,9 @@ select{
 }
 .to-amber-950{
   --tw-gradient-to: #451a03 var(--tw-gradient-to-position);
+}
+.to-blue-300{
+  --tw-gradient-to: #93c5fd var(--tw-gradient-to-position);
 }
 .to-blue-500{
   --tw-gradient-to: #3b82f6 var(--tw-gradient-to-position);
@@ -4281,6 +4303,10 @@ select{
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.px-40{
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -4340,6 +4366,10 @@ select{
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.py-40{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 .py-5{
   padding-top: 1.25rem;
@@ -4974,6 +5004,14 @@ select{
 }
 .shadow-yellow-950{
   --tw-shadow-color: #422006;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-gray-400{
+  --tw-shadow-color: #9ca3af;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-blue-400{
+  --tw-shadow-color: #60a5fa;
   --tw-shadow: var(--tw-shadow-colored);
 }
 .outline-none{
@@ -5905,6 +5943,12 @@ select{
   margin-left: 0.75rem;
 }
 
+.before\:size-\[100px\]::before{
+  content: var(--tw-content);
+  width: 100px;
+  height: 100px;
+}
+
 .before\:h-0::before{
   content: var(--tw-content);
   height: 0px;
@@ -6102,6 +6146,11 @@ select{
 .before\:rounded-lg::before{
   content: var(--tw-content);
   border-radius: 0.5rem;
+}
+
+.before\:rounded-none::before{
+  content: var(--tw-content);
+  border-radius: 0px;
 }
 
 .before\:rounded-xl::before{
@@ -7438,6 +7487,11 @@ select{
 .hover\:before\:rounded-br-none:hover::before{
   content: var(--tw-content);
   border-bottom-right-radius: 0px;
+}
+
+.before\:hover\:bg-gradient-to-br:hover::before{
+  content: var(--tw-content);
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
 
 .after\:hover\:h-full:hover::after{

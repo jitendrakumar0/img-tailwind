@@ -1377,9 +1377,7 @@
 </div>
 {{-- fashion card end --}}
 {{-- card-1 --}}
-<div CLASS="my-4">
-    Hire now
-</div>
+
 {{-- card-2 --}}
 {{-- tabel start --}}
 <div class="md:py-16 py-5 relative bg-slate-800">
