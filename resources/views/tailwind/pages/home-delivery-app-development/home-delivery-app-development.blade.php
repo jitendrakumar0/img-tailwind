@@ -1377,6 +1377,82 @@
 </div>
 {{-- fashion card end --}}
 {{-- card-1 --}}
+<div class="md:py-16 py-5  relative bg-white">
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
+
+        <div class="md:text-center text-left">
+            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal text-black">Why We are the Best Android <br></span> 
+                <span class="font-bold  bg-gradient-to-r from-sky-300 via-slate-700 to-sky-400 bg-clip-text text-transparent"> App Development Company?</span>
+            </p>
+            <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
+            
+        </div>
+        <div class="flex flex-wrap items-stretch pt-4 relative z-50">
+            
+            <div class="w-1/3 h-auto p-4">
+                <div class="w-full group h-full relative bg-slate-50 rounded-xl p-4 shadow-lg border-2 border-gray-50 hover:border-rose-600 duration-1000">
+                    <div class="flex items-center justify-between">
+                        <div class="">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 text-slate-950 duration-300 group-hover:text-rose-600" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
+                        </div>
+                        <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 rotate-45 duration-700 group-hover:text-rose-600 group-hover:rotate-[405deg]" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
+                    </div>
+                    <div class="text-xl font-bold text-rose-600 group-hover:text-slate-900 duration-700 my-5">Incremental Backups</div>
+                    <div class="text-lg font-thin">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
+                </div>
+            </div>
+               <div class="w-1/3 h-auto p-4">
+                <div class="w-full group h-full relative bg-slate-50 rounded-xl p-4 shadow-lg border-2 border-gray-50 hover:border-rose-600 duration-1000">
+                    <div class="flex items-center justify-between">
+                        <div class="">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 text-slate-950 duration-300 group-hover:text-rose-600" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
+                        </div>
+                        <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 rotate-45 duration-700 group-hover:text-rose-600 group-hover:rotate-[405deg]" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
+                    </div>
+                    <div class="text-xl font-bold text-rose-600 group-hover:text-slate-900 duration-700 my-5">Incremental Backups</div>
+                    <div class="text-lg font-thin">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
+                </div>
+            </div>
+            <div class="w-1/3 h-auto p-4">
+                <div class="w-full group h-full relative bg-slate-50 rounded-xl p-4 shadow-lg border-2 border-gray-50 hover:border-rose-600 duration-1000">
+                    <div class="flex items-center justify-between">
+                        <div class="">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 text-slate-950 duration-300 group-hover:text-rose-600" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
+                        </div>
+                        <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 rotate-45 duration-700 group-hover:text-rose-600 group-hover:rotate-[405deg]" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
+                    </div>
+                    <div class="text-xl font-bold text-rose-600 group-hover:text-slate-900 duration-700 my-5">Incremental Backups</div>
+                    <div class="text-lg font-thin">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
+                </div>
+            </div>
+            <div class="w-1/3 h-auto p-4">
+                <div class="w-full group h-full relative bg-slate-50 rounded-xl p-4 shadow-lg border-2 border-gray-50 hover:border-rose-600 duration-1000">
+                    <div class="flex items-center justify-between">
+                        <div class="">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 text-slate-950 duration-300 group-hover:text-rose-600" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
+                        </div>
+                        <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 rotate-45 duration-700 group-hover:text-rose-600 group-hover:rotate-[405deg]" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
+                    </div>
+                    <div class="text-xl font-bold text-rose-600 group-hover:text-slate-900 duration-700 my-5">Incremental Backups</div>
+                    <div class="text-lg font-thin">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
 
 {{-- card-2 --}}
 {{-- tabel start --}}
