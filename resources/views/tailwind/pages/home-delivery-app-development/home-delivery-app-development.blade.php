@@ -1447,6 +1447,7 @@
                     </div>
                     <div class="text-xl font-bold text-rose-600 group-hover:text-slate-900 duration-700 my-5">Incremental Backups</div>
                     <div class="text-lg font-thin">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
+                    
                 </div>
             </div>
             
@@ -1455,6 +1456,9 @@
 </div>
 
 {{-- card-2 --}}
+
+{{-- wavy-cards --}}
+
 {{-- tabel start --}}
 <div class="md:py-16 py-5 relative bg-slate-800">
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
