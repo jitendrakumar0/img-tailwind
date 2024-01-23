@@ -1174,6 +1174,240 @@
         </div>
     </div>
 </div>
+{{-- cards-7 --}}
+<section class="py-10 bg-gray-50 overflow-hidden">
+    <div class="container mx-auto px-4">
+    <div class="py-16 px-8 md:px-16 bg-white rounded-3xl rounded-br-none">
+        <div class="flex flex-wrap -m-8 items-center">
+            <div class="w-full md:w-1/2 p-8">
+            <img class="mx-auto md:ml-0 rounded-3xl" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="">
+            </div>
+            <div class="w-full md:w-1/2 p-8">
+            <div class="md:max-w-md">
+                <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance">
+                <span class="font-normal">Some Of The Great <br></span>
+                <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme4">Features</span>
+                </h2>
+                
+                <div class="flex flex-wrap -m-2 pt-5">
+                <div class="w-auto p-2">
+                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
+                    <div class="w-auto mr-2 pt-1">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-sm text-gray-900 font-bold">Advance/Instant Book a Vehicle</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="w-auto p-2">
+                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
+                    <div class="w-auto mr-2 pt-1">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-sm text-gray-900 font-bold">Automated SMS Service For Clint/Driver After Booking</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="w-auto p-2">
+                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
+                    <div class="w-auto mr-2 pt-1">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-sm text-gray-900 font-bold">Track Vehicle Status</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="w-auto p-2">
+                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
+                    <div class="w-auto mr-2 pt-1">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-sm text-gray-900 font-bold">Daily Incone/Expense Record</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="w-auto p-2">
+                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
+                    <div class="w-auto mr-2 pt-1">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-sm text-gray-900 font-bold">Customized Dynamic Reports</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+{{-- cards-7 --}}
+{{-- section --}}
+<section class="py-10 bg-gray-50 overflow-hidden">
+    <div class="container mx-auto px-4">
+    <div class="py-16 px-8 md:px-16 bg-white rounded-3xl">
+        <div class="flex items-center flex-wrap -m-8">
+        <div class="w-full md:w-1/2">
+            <div class="md:max-w-md">
+                <h2 class="pb-10 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance">
+                    <span class="font-normal">Some Of The Great <br></span>
+                    <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme4">Features</span>
+                    </h2>
+            <div class="flex flex-wrap -m-2.5">
+            <div class="w-full p-2.5">
+                    <div class="flex flex-wrap -m-3">
+                    <div class="w-auto py-3">
+                    <div class="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-xl">
+                       <div class="text-3xl text-gray-900 font-bold">1</div>
+                    </div>
+                    </div>
+                    <div class="flex-1 p-3">
+                        <h3 class="mb-2 text-lg text-gray-900 font-semibold">Smooth Management of Booking and Quotation</h3>
+                        <p class="text-sm text-gray-700">TIt facilitates business owner to easily manage their bookings and quotes, instantly after the enquiry of customers.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="w-full p-2.5">
+                <div class="flex flex-wrap -m-3">
+                <div class="w-auto py-3">
+                <div class="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-xl">
+                    <div class="text-3xl text-gray-900 font-bold">2</div>
+                </div>
+                </div>
+                <div class="flex-1 p-3">
+                    <h3 class="mb-2 text-lg text-gray-900 font-semibold">
+                        EASY TRACKING AND RATE MANAGEMENT</h3>
+                    <p class="text-sm text-gray-700">It simply made the life of business owners easy because through this software tracking of vehicle location, route management and rate management becomes easier.</p>
+                    </div>
+            </div>
+        </div>
+        <div class="w-full p-2.5">
+            <div class="flex flex-wrap -m-3">
+            <div class="w-auto py-3">
+            <div class="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-xl">
+               <div class="text-3xl text-gray-900 font-bold">3</div>
+            </div>
+            </div>
+            <div class="flex-1 p-3">
+                <h3 class="mb-2 text-lg text-gray-900 font-semibold">
+                    ENHANCED CUSTOMER SERVICES</h3>
+                <p class="text-sm text-gray-700">Implementing vehicle booking software enhances customer experience offered by vehicle booking company.</p>
+                </div>
+        </div>
+    </div>         
+            </div>
+            </div>
+        </div>
+        <div class="w-full md:w-1/2 p-8 flex items-center   ">
+            <img class="mx-auto md:mr-0 rounded-3xl"src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="">
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+{{-- section and --}}
+{{-- section-3 --}}
+<section class="py-10 bg-gray-50 overflow-hidden">
+    <div class="container mx-auto px-4">
+    <div class="py-16 px-8 md:px-16 bg-white rounded-3xl rounded-br-none">
+        <div class="flex flex-wrap -m-8 items-center">
+            <div class="w-full md:w-1/2 p-8">
+            <img class="mx-auto md:ml-0 rounded-3xl" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="">
+            </div>
+            <div class="w-full md:w-1/2 ">
+            <div class="md:max-w-md">
+                <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance">
+                <span class="font-normal">Benefits Of Opting  Biometric <br></span>
+                <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme4">Attendance System</span>
+                </h2>
+                
+                <div class="flex flex-wrap -m-2 pt-5">
+                <div class="w-max p-2">
+                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
+                    <div class="w-auto mr-2 pt-1">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                        </svg>
+                    </div>
+                    <div class="">
+                        <p class="text-sm text-gray-900 font-bold">
+                            Flawless payroll calculation</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="w-max p-2">
+                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
+                    <div class="w-auto mr-2 pt-1">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-sm text-gray-900 font-bold">Avoidance of proxy attendance</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="w-max p-2">
+                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
+                    <div class="w-auto mr-2 pt-1">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-sm text-gray-900 font-bold">Saves cost and manpower</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="w-max p-2">
+                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
+                    <div class="w-auto mr-2 pt-1">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-sm text-gray-900 font-bold">
+                            Get real time attendance calculator</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="w-max p-2">
+                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
+                    <div class="w-auto mr-2 pt-1">
+                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-sm text-gray-900 font-bold">Customized Dynamic Reports</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+{{-- section-3-end --}}
 {{-- new merror cards --}}
 <div class="md:py-16 py-5  relative bg-white">
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
@@ -1456,6 +1690,8 @@
 </div>
 
 {{-- card-2 --}}
+
+{{-- wavy-cards --}}
 
 {{-- wavy-cards --}}
 
