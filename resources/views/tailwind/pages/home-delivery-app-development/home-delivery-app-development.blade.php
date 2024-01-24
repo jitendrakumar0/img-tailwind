@@ -1322,90 +1322,102 @@
     </div>
 </section>
 {{-- section and --}}
+
 {{-- section-3 --}}
-<section class="py-10 bg-gray-50 overflow-hidden">
-    <div class="container mx-auto px-4">
-    <div class="py-16 px-8 md:px-16 bg-white rounded-3xl rounded-br-none">
-        <div class="flex flex-wrap -m-8 items-center">
-            <div class="w-full md:w-1/2 p-8">
-            <img class="mx-auto md:ml-0 rounded-3xl" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="">
+<section id="about" class="md:py-16 py-5">
+    <div class="container mx-auto max-w-7xl px-6 lg:px-8 select-none">
+        <div class="grid md:grid-cols-2 gap-6 items-center">
+            <div class="w-full  p-8 flex items-center   ">
+                <img class="mx-auto md:mr-0 rounded-3xl"src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="">
             </div>
-            <div class="w-full md:w-1/2 ">
-            <div class="md:max-w-md">
+
+            <div class="p-8">
                 <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance">
-                <span class="font-normal">Benefits Of Opting  Biometric <br></span>
-                <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme4">Attendance System</span>
-                </h2>
-                
-                <div class="flex flex-wrap -m-2 pt-5">
-                <div class="w-max p-2">
-                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
-                    <div class="w-auto mr-2 pt-1">
-                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
-                        </svg>
+                    <span class="font-normal">Some Of The Great <br></span>
+                    <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme4">Features</span>
+                    </h2>
+                <div class="grid grid-cols-1 my-5">
+                    <div class="flex items-center gap-2 group hover:gap-5 duration-500">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-10 text-theme4" viewBox="0 0 24 24" fill="currentcolor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="dot" class="lucide lucide-dot h-9 w-9 text-primary"><circle cx="12.1" cy="12.1" r="1"></circle></svg>
+                        </div>
+                        <h3 class="text-lg text-gray-500 font-medium group-hover:text-theme4 duration-500"> Flawless payroll calculation</h3>
                     </div>
-                    <div class="">
-                        <p class="text-sm text-gray-900 font-bold">
-                            Flawless payroll calculation</p>
+
+                    <div class="flex items-center gap-2 group hover:gap-5 duration-500">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-10 text-theme4" viewBox="0 0 24 24" fill="currentcolor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="dot" class="lucide lucide-dot h-9 w-9 text-primary"><circle cx="12.1" cy="12.1" r="1"></circle></svg>
+                        </div>
+                        <h3 class="text-lg text-gray-500 font-medium group-hover:text-theme4 duration-500"> Avoidance of proxy attendance</h3>
                     </div>
+
+                    <div class="flex items-center gap-2 group hover:gap-5 duration-500">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-10 text-theme4" viewBox="0 0 24 24" fill="currentcolor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="dot" class="lucide lucide-dot h-9 w-9 text-primary"><circle cx="12.1" cy="12.1" r="1"></circle></svg>
+                        </div>
+                        <h3 class="text-lg text-gray-500 font-medium group-hover:text-theme4 duration-500"> Saves cost and manpower</h3>
                     </div>
+                    <div class="flex items-center gap-2 group hover:gap-5 duration-500">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-10 text-theme4" viewBox="0 0 24 24" fill="currentcolor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="dot" class="lucide lucide-dot h-9 w-9 text-primary"><circle cx="12.1" cy="12.1" r="1"></circle></svg>
+                        </div>
+                        <h3 class="text-lg text-gray-500 font-medium group-hover:text-theme4 duration-500"> Saves cost and manpower</h3>
+                    </div>
+                    <div class="flex items-center gap-2 group hover:gap-5 duration-500">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-10 text-theme4" viewBox="0 0 24 24" fill="currentcolor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="dot" class="lucide lucide-dot h-9 w-9 text-primary"><circle cx="12.1" cy="12.1" r="1"></circle></svg>
+                        </div>
+                        <h3 class="text-lg text-gray-500 font-medium group-hover:text-theme4 duration-500">   Get real time attendance calculator</h3>
+                    </div>
+                    <div class="flex items-center gap-2 group hover:gap-5 duration-500">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-10 text-theme4" viewBox="0 0 24 24" fill="currentcolor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="dot" class="lucide lucide-dot h-9 w-9 text-primary"><circle cx="12.1" cy="12.1" r="1"></circle></svg>
+                        </div>
+                        <h3 class="text-lg text-gray-500 font-medium group-hover:text-theme4 duration-500"> Prevent any kind of unauthorised access</h3>
+                    </div>
+                    <div class="flex items-center gap-2 group hover:gap-5 duration-500">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-10 text-theme4" viewBox="0 0 24 24" fill="currentcolor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="dot" class="lucide lucide-dot h-9 w-9 text-primary"><circle cx="12.1" cy="12.1" r="1"></circle></svg>
+                        </div>
+                        <h3 class="text-lg text-gray-500 font-medium group-hover:text-theme4 duration-500">Manage leaves and holidays efficiently</h3>
+                    </div>
+                    <div class="flex items-center gap-2 group hover:gap-5 duration-500">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-10 text-theme4" viewBox="0 0 24 24" fill="currentcolor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="dot" class="lucide lucide-dot h-9 w-9 text-primary"><circle cx="12.1" cy="12.1" r="1"></circle></svg>
+                        </div>
+                        <h3 class="text-lg text-gray-500 font-medium group-hover:text-theme4 duration-500">Complete record of employees presence</h3>
+                    </div>
+                </div> 
+            </div><!-- col End -->
+        </div><!-- grid End -->
+    </div><!-- container End -->
+</section>
+{{-- section-3-end --}}
+{{-- section-3 --}}
+<section id="about" class="md:py-16 py-5">
+    <div class="container flex flex-wrap mx-auto max-w-7xl px-6 lg:px-8 select-none">
+        <div class="w-1/2 p-2">
+            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-700 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
+                Advance requirement planning for production
                 </div>
-                <div class="w-max p-2">
-                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
-                    <div class="w-auto mr-2 pt-1">
-                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
-                        </svg>
-                    </div>
-                    <div class="flex-1">
-                        <p class="text-sm text-gray-900 font-bold">Avoidance of proxy attendance</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="w-max p-2">
-                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
-                    <div class="w-auto mr-2 pt-1">
-                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
-                        </svg>
-                    </div>
-                    <div class="flex-1">
-                        <p class="text-sm text-gray-900 font-bold">Saves cost and manpower</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="w-max p-2">
-                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
-                    <div class="w-auto mr-2 pt-1">
-                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
-                        </svg>
-                    </div>
-                    <div class="flex-1">
-                        <p class="text-sm text-gray-900 font-bold">
-                            Get real time attendance calculator</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="w-max p-2">
-                    <div class="flex flex-wrap px-3 py-2 bg-gray-100 rounded-lg rounded-br-none">
-                    <div class="w-auto mr-2 pt-1">
-                        <svg width="12" height="12" viewbox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8.095 1H3.905C2.085 1 1 2.085 1 3.905V8.09C1 9.915 2.085 11 3.905 11H8.09C9.91 11 10.995 9.915 10.995 8.095V3.905C11 2.085 9.915 1 8.095 1ZM8.39 4.85L5.555 7.685C5.485 7.755 5.39 7.795 5.29 7.795C5.19 7.795 5.095 7.755 5.025 7.685L3.61 6.27C3.465 6.125 3.465 5.885 3.61 5.74C3.755 5.595 3.995 5.595 4.14 5.74L5.29 6.89L7.86 4.32C8.005 4.175 8.245 4.175 8.39 4.32C8.535 4.465 8.535 4.7 8.39 4.85Z" fill="#3B82F6"></path>
-                        </svg>
-                    </div>
-                    <div class="flex-1">
-                        <p class="text-sm text-gray-900 font-bold">Customized Dynamic Reports</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
         </div>
-    </div>
-    </div>
+        <div class="w-1/2 p-2 ">
+            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-700 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
+                Advance requirement planning for production
+                </div>
+        </div>
+        <div class="w-1/2 p-2">
+            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-700 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
+                Advance requirement planning for production
+                </div>
+        </div>
+        <div class="w-1/2 p-2">
+            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-700 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
+                Advance requirement planning for production
+                </div>
+        </div>
+        </div><!-- grid End -->
+    </div><!-- container End -->
 </section>
 {{-- section-3-end --}}
 {{-- new merror cards --}}
@@ -1692,6 +1704,19 @@
 {{-- card-2 --}}
 
 {{-- wavy-cards --}}
+<div class=" w-1/2   my-9  md:flex-row block items-center justify-center md:justify-between">
+    <div class="md:w-[70%] order-2 md:order-1 w-full bg-gray-300 p-3 border botder-gray-300">
+        <h5 class="text-lg font-semibold">LOG IN</h5>
+        <div>
+            hello absolute relative flex flex-col reverse hello absolute relative flex flex-col reverse
+        </div>
+    </div>
+    <div class="md:w-[30%] w-full block justify-center order-1 md:order-2">
+        <div class="size-[50px] bg-red-400 flex justify-center items-center rounded-full">
+            1
+        </div>
+    </div>
+</div>
 
 {{-- wavy-cards --}}
 
