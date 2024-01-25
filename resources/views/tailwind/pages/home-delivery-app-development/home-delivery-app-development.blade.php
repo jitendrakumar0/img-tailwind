@@ -991,7 +991,6 @@
     </div>
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
-
         <div class="md:text-center text-left">
             <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
                 <span class="font-normal text-white">Why We are the Best Android <br></span> 
@@ -1001,8 +1000,8 @@
             
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
-            <div class="lg:w-1/3 w-full p-3 sm:w-1/2">
-                <div class="bg-white relative flex items-start justify-center group flex-col w-full h-auto p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
+            <div class="lg:w-1/3 w-full p-3 h-auto sm:w-1/2">
+                <div class="bg-white relative  flex items-start justify-center group flex-col h-full w-full p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
                     <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-700 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-700 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
                     </div>
@@ -1014,8 +1013,8 @@
                         </div>
                 </div>
             </div> 
-            <div class="lg:w-1/3 w-full p-3 sm:w-1/2">
-                <div class="bg-white relative flex items-start justify-center group flex-col w-full h-auto p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
+            <div class="lg:w-1/3 w-full p-3 h-auto sm:w-1/2">
+                <div class="bg-white relative  flex items-start justify-center group flex-col h-full w-full p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
                     <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-700 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-700 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
                     </div>
@@ -1027,8 +1026,8 @@
                         </div>
                 </div>
             </div> 
-            <div class="lg:w-1/3 w-full p-3 sm:w-1/2">
-                <div class="bg-white relative flex items-start justify-center group flex-col w-full h-auto p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
+            <div class="lg:w-1/3 w-full p-3 h-auto sm:w-1/2">
+                <div class="bg-white relative  flex items-start justify-center group flex-col h-full w-full p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
                     <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-700 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-700 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
                     </div>
@@ -1036,10 +1035,10 @@
                         OPD Management
                     </div>
                         <div class="text-md  text-center font-normal">
-                        OPD Registration and Management, when a patient comes to the reception desk, a new registration number is automatically allotted.
+                        OPD Registration and Management,  when a patient comes to the reception desk, a new registration   OPD Registration and Management,  when a patient comes to the reception desk, a new registrati number is automatically allotted.
                         </div>
                 </div>
-            </div>
+            </div> 
            </div>
     </div>
 </div>
@@ -1507,6 +1506,67 @@
     </div>
 </div>
 {{-- new merror cards --}}
+{{-- hover-card --}}
+<div class="md:py-16 py-5   bg-white">
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
+
+        <div class="md:text-center text-left">
+            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal text-black">Why We are the Best Android <br></span> 
+                <span class="font-bold  bg-gradient-to-r from-sky-300 via-slate-700 to-sky-400 bg-clip-text text-transparent"> App Development Company?</span>
+            </p>
+            <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
+            
+        </div>
+        <div class="flex flex-wrap items-stretch pt-4 relative z-50">
+            <div class="lg:w-1/3 md:w-1/2 w-full p-3 my-7">
+                <div class=" w-full my-9 bg-gray-100 rounded-3xl p-6 relative after:absolute after:-z-10 after:hover:rotate-0 after:size-4/5 after:-bottom-6 after:rotate-6 after:left-6 after:bg-purple-500 after:rounded-3xl before:hover:rotate-6 after:hover:bottom-0 hover:shadow-lg duration-500 transition-all after:transition-all after:duration-500">
+                    <div class="size-16 rounded-full bg-purple-500 flex items-center justify-center ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="size-7 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
+                    </div>
+                    <div class="text-lg font-semibold text-gray-900 py-3" >Software Consulting Services</div>
+                    <div class="text-base text-gray-600">As a well-known custom software development company, we understand project requirements properly, conceptualize the software, and help businesses get the best value from their project. Our dedicated software also helps businesses choose the best-ever development solutions before beginning the development process.</div>
+            
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full p-3 my-7">
+                <div class=" w-full my-9 bg-gray-100 rounded-3xl p-6 relative after:absolute after:-z-10 after:hover:rotate-0 after:size-4/5 after:-bottom-6 after:rotate-6 after:left-6 after:bg-purple-500 after:rounded-3xl before:hover:rotate-6 after:hover:bottom-0 hover:shadow-lg duration-500 transition-all after:transition-all after:duration-500">
+                    <div class="size-16 rounded-full bg-purple-500 flex items-center justify-center ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="size-7 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
+                    </div>
+                    <div class="text-lg font-semibold text-gray-900 py-3" >Software Consulting Services</div>
+                    <div class="text-base text-gray-600">As a well-known custom software development company, we understand project requirements properly, conceptualize the software, and help businesses get the best value from their project. Our dedicated software also helps businesses choose the best-ever development solutions before beginning the development process.</div>
+            
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full p-3 my-7">
+                <div class=" w-full my-9 bg-gray-100 rounded-3xl p-6 relative after:absolute after:-z-10 after:hover:rotate-0 after:size-4/5 after:-bottom-6 after:rotate-6 after:left-6 after:bg-purple-500 after:rounded-3xl before:hover:rotate-6 after:hover:bottom-0 hover:shadow-lg duration-500 transition-all after:transition-all after:duration-500">
+                    <div class="size-16 rounded-full bg-purple-500 flex items-center justify-center ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="size-7 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
+                    </div>
+                    <div class="text-lg font-semibold text-gray-900 py-3" >Software Consulting Services</div>
+                    <div class="text-base text-gray-600">As a well-known custom software development company, we understand project requirements properly, conceptualize the software, and help businesses get the best value from their project. Our dedicated software also helps businesses choose the best-ever development solutions before beginning the development process.</div>
+            
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+{{-- hover-card --}}
+
 {{-- fashion card start --}}
 <div class="md:py-16 py-5  relative bg-white">
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
@@ -1702,26 +1762,50 @@
 </div>
 
 {{-- card-2 --}}
+{{-- slider card --}}
 
-{{-- wavy-cards --}}
-<div class=" w-1/2   my-9  md:flex-row block items-center justify-center md:justify-between">
-    <div class="md:w-[70%] order-2 md:order-1 w-full bg-gray-300 p-3 border botder-gray-300">
-        <h5 class="text-lg font-semibold">LOG IN</h5>
-        <div>
-            hello absolute relative flex flex-col reverse hello absolute relative flex flex-col reverse
+{{-- slider card --}}
+<div class="flex ">
+    <div class="w-full md:w-1/4 p-4 h-full">
+        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
+        <img alt="..." src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" class="w-full align-middle rounded-t-lg">
+        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[44px] h-max">
+            <polygon points="-30,95 583,95 583,65" class="text-gray-200 fill-current"></polygon></svg>
+            <h4 class="text-lg  font-semibold text-slate-900 text-ellipsis line-clamp-2">Top Notch Services </h4>
+            <p class="text-base font-light mt-1 text-slate-900 font-md text-ellipsis line-clamp-3"> The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens. </p>
+            <a href="" class="text-md font-semibold mt-4 text-blue-900">Read More</a>
+        </blockquote>
         </div>
     </div>
-    <div class="md:w-[30%] w-full block justify-center order-1 md:order-2">
-        <div class="size-[50px] bg-red-400 flex justify-center items-center rounded-full">
-            1
+    <div class="w-full md:w-1/4 p-4 h-full">
+        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
+        <img alt="..." src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" class="w-full align-middle rounded-t-lg">
+        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[44px] h-max">
+            <polygon points="-30,95 583,95 583,65" class="text-gray-200 fill-current"></polygon></svg>
+            <h4 class="text-lg  font-semibold text-slate-900 text-ellipsis line-clamp-2">Top Notch Services </h4>
+            <p class="text-base font-light mt-1 text-slate-900 font-md text-ellipsis line-clamp-3"> The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens. </p>
+            <a href="" class="text-md font-semibold mt-4 text-blue-900">Read More</a>
+        </blockquote>
+        </div>
+    </div>
+    <div class="w-full md:w-1/4 p-4 h-full">
+        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
+        <img alt="..." src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" class="w-full align-middle rounded-t-lg">
+        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[44px] h-max">
+            <polygon points="-30,95 583,95 583,65" class="text-gray-200 fill-current"></polygon></svg>
+            <h4 class="text-lg  font-semibold text-slate-900 text-ellipsis line-clamp-2">Top Notch Services </h4>
+            <p class="text-base font-light mt-1 text-slate-900 font-md text-ellipsis line-clamp-3"> The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens. </p>
+            <a href="" class="text-md font-semibold mt-4 text-blue-900">Read More</a>
+        </blockquote>
         </div>
     </div>
 </div>
-
 {{-- wavy-cards --}}
 
+{{-- wavy-cards end --}}
+
 {{-- tabel start --}}
-<div class="md:py-16 py-5 relative bg-slate-800">
+<div class="md:py-16  py-5 relative bg-slate-800">
     <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
         <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
