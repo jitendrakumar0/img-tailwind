@@ -1897,7 +1897,15 @@
 {{-- tabel end --}}
 
 
-{{-- new page end --}}
+{{-- new page end --}} 
+{{-- img card --}}
+<div class="w-1/3 p-3">
+    <div class="size-full ">
+
+    </div>
+</div>
+
+{{-- img-card --}}
 
 
 {{-- NEW PAGE START --}}
