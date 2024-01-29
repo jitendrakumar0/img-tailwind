@@ -197,7 +197,7 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="flex flex-wrap justify-center select-none row-flex my-6 w-full ">
             <div class=" md:w-1/2 lg:w-1/3 p-7p-3 w-full">
-                <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-2xl  h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] md:hover:before:w-full  md:hover:before:h-full  md:hover:before:top-0  md:hover:before:left-0 md:hover:before:rounded-none">
+                <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-2xl  h-full rounded-br-none rounded-xl before:absolute  before:duration-300 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] md:hover:before:w-full  md:hover:before:h-full  md:hover:before:top-0  md:hover:before:left-0 md:hover:before:rounded-none">
                     <div class="flex justify-between items-center pb-6">
                         <div class="bg-purple-50  translate-y[50%] md:h-[70px] md:w-[70px] w-[50px] h-[50px]  flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
                             <div class="z-[5] rotate-[-45deg] font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-3xl/tight tracking-[-0.04em]">M</div>
@@ -213,7 +213,7 @@
                 </div>
             </div>
             <div class=" md:w-1/2 lg:w-1/3 p-3 w-full">
-                <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-2xl  h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] md:hover:before:w-full  md:hover:before:h-full  md:hover:before:top-0  md:hover:before:left-0 md:hover:before:rounded-none">
+                <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-2xl  h-full rounded-br-none rounded-xl before:absolute  before:duration-300 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] md:hover:before:w-full  md:hover:before:h-full  md:hover:before:top-0  md:hover:before:left-0 md:hover:before:rounded-none">
                     <div class="flex justify-between items-center pb-6">
                         <div class="bg-purple-50  translate-y[50%] md:h-[70px] md:w-[70px] w-[50px] h-[50px]  flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
                             <div class="z-[5] rotate-[-45deg] font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-3xl/tight tracking-[-0.04em]">V</div>
@@ -229,7 +229,7 @@
                 </div>
             </div>
             <div class=" md:w-1/2 lg:w-1/3 p-3 w-full">
-                <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-2xl  h-full rounded-br-none rounded-xl before:absolute  before:duration-700 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] md:hover:before:w-full  md:hover:before:h-full  md:hover:before:top-0  md:hover:before:left-0 md:hover:before:rounded-none">
+                <div class="flex flex-col relative bg-white p-6 z-10 overflow-hidden shadow-2xl  h-full rounded-br-none rounded-xl before:absolute  before:duration-300 before:content:-[''] before:w-0 before:h-0 before:bg-purple-200 before: before:bottom-0 before:right-0 before:z[-4] md:hover:before:w-full  md:hover:before:h-full  md:hover:before:top-0  md:hover:before:left-0 md:hover:before:rounded-none">
                     <div class="flex justify-between items-center pb-6">
                         <div class="bg-purple-50  translate-y[50%] md:h-[70px] md:w-[70px] w-[50px] h-[50px]  flex items-center justify-center rounded-br-none rounded-lg  relative after:absolute after:content-[''] after:w-[90%] after:h-[90%] after:top-center  after:bg-purple-100 after:rounded-br-none after:rounded-lg before:absolute before:content-[''] before:w-[80%] before:h-[80%] before:top-center rotate-45 before:z-[3]  before:bg-purple-200 before:rounded-br-none before:rounded-lg">
                             <div class="z-[5] rotate-[-45deg] font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-transparent max-md:text-2xl/tight max-xl:text-3xl/tight text-3xl/tight tracking-[-0.04em]">V</div>
@@ -569,8 +569,8 @@
             
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
-            <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 before:duration-700 border-red-500 group  before:absolute  before:h-full before:w-[36px] before:bg-red-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+            <div class="lg:w-1/3 w-full sm:w-1/2 h-auto p-3 md:p-5">
+                <div class="flex bg-white h-full relative p-4 flex-nowrap border-2 before:duration-300 border-red-500 group  before:absolute  before:h-full before:w-[36px] before:bg-red-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-300 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] text-red-500 h-[40px]" xmlns="http://www.w3.org/2000/svg">
@@ -580,99 +580,100 @@
                             </svg>                    
                                 </div>
                     </div>
-                    <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold duration-700 leading-6 text-gray-700 group-hover:text-red-500 line-clamp-2 ps-2">Efficient Project Management</div>
+                    <div class="grow flex flex-col items-center justify-start ps-5">
+                        <div class="text-left md:text-lg text-base font-semibold duration-300 leading-6 text-gray-700 group-hover:text-red-500 line-clamp-2">Efficient Project Management</div>
+                        <div class="">Gamification is one of the best features of custom eLearning software that makes eLearning easy via interactive games and makes it fun.</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap before:duration-700 border-2 border-blue-500 group  before:absolute  before:h-full before:w-[36px] before:bg-blue-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap before:duration-300 border-2 border-blue-500 group  before:absolute  before:h-full before:w-[36px] before:bg-blue-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-300 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-blue-500 ]" xmlns="http://www.w3.org/2000/svg"><path d="M12.0049 22.0029C6.48204 22.0029 2.00488 17.5258 2.00488 12.0029C2.00488 6.48008 6.48204 2.00293 12.0049 2.00293C17.5277 2.00293 22.0049 6.48008 22.0049 12.0029C22.0049 17.5258 17.5277 22.0029 12.0049 22.0029ZM12.0049 20.0029C16.4232 20.0029 20.0049 16.4212 20.0049 12.0029C20.0049 7.58465 16.4232 4.00293 12.0049 4.00293C7.5866 4.00293 4.00488 7.58465 4.00488 12.0029C4.00488 16.4212 7.5866 20.0029 12.0049 20.0029ZM8.50488 14.0029H14.0049C14.281 14.0029 14.5049 13.7791 14.5049 13.5029C14.5049 13.2268 14.281 13.0029 14.0049 13.0029H10.0049C8.62417 13.0029 7.50488 11.8836 7.50488 10.5029C7.50488 9.12222 8.62417 8.00293 10.0049 8.00293H11.0049V6.00293H13.0049V8.00293H15.5049V10.0029H10.0049C9.72874 10.0029 9.50488 10.2268 9.50488 10.5029C9.50488 10.7791 9.72874 11.0029 10.0049 11.0029H14.0049C15.3856 11.0029 16.5049 12.1222 16.5049 13.5029C16.5049 14.8836 15.3856 16.0029 14.0049 16.0029H13.0049V18.0029H11.0049V16.0029H8.50488V14.0029Z"></path></svg>
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base duration-700 font-semibold leading-6 text-gray-700 group-hover:text-blue-500 line-clamp-2 ps-2">Cost effective Service</div>
+                        <div class=" text-left md:text-lg text-base duration-300 font-semibold leading-6 text-gray-700 group-hover:text-blue-500 line-clamp-2 ps-2">Cost effective Service</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap before:duration-700 border-2 border-amber-500 group  before:absolute  before:h-full before:w-[36px] before:bg-amber-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap before:duration-300 border-2 border-amber-500 group  before:absolute  before:h-full before:w-[36px] before:bg-amber-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-300 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32"class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-amber-500 ] xmlns="http://www.w3.org/2000/svg"><path d="M 19.65625 4.3125 C 18.882813 4.40625 18.195313 4.953125 17.96875 5.75 L 15.3125 15.0625 L 11.96875 16.03125 C 11.730469 14.335938 10.257813 13 8.5 13 C 6.578125 13 5 14.578125 5 16.5 C 5 18.421875 6.578125 20 8.5 20 C 9.789063 20 10.925781 19.269531 11.53125 18.21875 L 14.65625 17.34375 L 13.78125 20.46875 C 12.730469 21.074219 12 22.210938 12 23.5 C 12 25.421875 13.578125 27 15.5 27 C 17.421875 27 19 25.421875 19 23.5 C 19 21.742188 17.664063 20.269531 15.96875 20.03125 L 20.4375 4.375 C 20.171875 4.300781 19.914063 4.28125 19.65625 4.3125 Z M 27.625 11.5625 L 18.90625 14.03125 L 18.25 16.3125 L 26.25 14.03125 C 27.3125 13.726563 27.929688 12.625 27.625 11.5625 Z M 8.5 15 C 9.339844 15 10 15.660156 10 16.5 C 10 17.339844 9.339844 18 8.5 18 C 7.660156 18 7 17.339844 7 16.5 C 7 15.660156 7.660156 15 8.5 15 Z M 15.5 22 C 16.339844 22 17 22.660156 17 23.5 C 17 24.339844 16.339844 25 15.5 25 C 14.660156 25 14 24.339844 14 23.5 C 14 22.660156 14.660156 22 15.5 22 Z"></path></svg>
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base duration-700 font-semibold leading-6 text-gray-700 group-hover:text-amber-500 line-clamp-2 ps-2">Cutting Edge Technology</div>
+                        <div class=" text-left md:text-lg text-base duration-300 font-semibold leading-6 text-gray-700 group-hover:text-amber-500 line-clamp-2 ps-2">Cutting Edge Technology</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap before:duration-700 border-2 border-lime-500 group  before:absolute  before:h-full before:w-[36px] before:bg-lime-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap before:duration-300 border-2 border-lime-500 group  before:absolute  before:h-full before:w-[36px] before:bg-lime-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-300 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-lime-500 ]" xmlns="http://www.w3.org/2000/svg"><path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg>                    
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base duration-700 font-semibold leading-6 text-gray-700 group-hover:text-lime-500 line-clamp-2 ps-2"> Dedicated Developers</div>
+                        <div class=" text-left md:text-lg text-base duration-300 font-semibold leading-6 text-gray-700 group-hover:text-lime-500 line-clamp-2 ps-2"> Dedicated Developers</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-teal-500  before:duration-700 group  before:absolute  before:h-full before:w-[36px] before:bg-teal-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-teal-500  before:duration-300 group  before:absolute  before:h-full before:w-[36px] before:bg-teal-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-300 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-teal-500 ]" xmlns="http://www.w3.org/2000/svg"><path d="M13.51 4l-5-3h-1l-5 3-.49.86v6l.49.85 5 3h1l5-3 .49-.85v-6L13.51 4zm-6 9.56l-4.5-2.7V5.7l4.5 2.45v5.41zM3.27 4.7l4.74-2.84 4.74 2.84-4.74 2.59L3.27 4.7zm9.74 6.16l-4.5 2.7V8.15l4.5-2.45v5.16z"></path></svg>                   
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 duration-700 text-gray-700 group-hover:text-teal-500 line-clamp-2 ps-2">Proven Method</div>
+                        <div class=" text-left md:text-lg text-base font-semibold leading-6 duration-300 text-gray-700 group-hover:text-teal-500 line-clamp-2 ps-2">Proven Method</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-pink-700 group before:duration-700 before:absolute  before:h-full before:w-[36px] before:bg-pink-700 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-pink-700 group before:duration-300 before:absolute  before:h-full before:w-[36px] before:bg-pink-700 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-300 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-pink-700 ]" xmlns="http://www.w3.org/2000/svg"><g id="Delivery_Truck"><g><path d="M21.47,11.185l-1.03-1.43a2.5,2.5,0,0,0-2.03-1.05H14.03V6.565a2.5,2.5,0,0,0-2.5-2.5H4.56a2.507,2.507,0,0,0-2.5,2.5v9.94a1.5,1.5,0,0,0,1.5,1.5H4.78a2.242,2.242,0,0,0,4.44,0h5.56a2.242,2.242,0,0,0,4.44,0h1.22a1.5,1.5,0,0,0,1.5-1.5v-3.87A2.508,2.508,0,0,0,21.47,11.185ZM7,18.935a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,7,18.935Zm6.03-1.93H9.15a2.257,2.257,0,0,0-4.3,0H3.56a.5.5,0,0,1-.5-.5V6.565a1.5,1.5,0,0,1,1.5-1.5h6.97a1.5,1.5,0,0,1,1.5,1.5ZM17,18.935a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,17,18.935Zm3.94-2.43a.5.5,0,0,1-.5.5H19.15a2.257,2.257,0,0,0-4.3,0h-.82v-7.3h4.38a1.516,1.516,0,0,1,1.22.63l1.03,1.43a1.527,1.527,0,0,1,.28.87Z"></path><path d="M18.029,12.205h-2a.5.5,0,0,1,0-1h2a.5.5,0,0,1,0,1Z"></path></g></g></svg>                   
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 duration-700 group-hover:text-pink-700 line-clamp-2 ps-2">Consistent Delivery</div>
+                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 duration-300 group-hover:text-pink-700 line-clamp-2 ps-2">Consistent Delivery</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-yellow-400 group  before:absolute before:duration-700 before:h-full before:w-[36px] before:bg-yellow-400 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-yellow-400 group  before:absolute before:duration-300 before:h-full before:w-[36px] before:bg-yellow-400 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] duration-300 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-yellow-400 ]" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 2.75a.75.75 0 0 0-1.5 0v18.5c0 .414.336.75.75.75H20a.75.75 0 0 0 0-1.5H2.5V2.75Z"></path><path d="M22.28 7.78a.75.75 0 0 0-1.06-1.06l-5.72 5.72-3.72-3.72a.75.75 0 0 0-1.06 0l-6 6a.75.75 0 1 0 1.06 1.06l5.47-5.47 3.72 3.72a.75.75 0 0 0 1.06 0l6.25-6.25Z"></path></svg>                   
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 duration-700 group-hover:text-yellow-400 line-clamp-2 ps-2">Highest Coincidentally</div>
+                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 duration-300 group-hover:text-yellow-400 line-clamp-2 ps-2">Highest Coincidentally</div>
                     </div>
                 </div>
                 
             </div>
             <div class="lg:w-1/3 w-full sm:w-1/2  p-3 md:p-5">
-                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-purple-500 group  before:absolute  before:h-full before:w-[36px] before:bg-purple-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] before:duration-700 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
+                <div class="flex bg-white  relative p-4 flex-nowrap border-2 border-purple-500 group  before:absolute  before:h-full before:w-[36px] before:bg-purple-500 before:content-[''] before:rotate-[10deg] before:top-[1px] before:right-[-10px] before:duration-300 hover:before:right-[0px] hover:before:rotate-[0deg] before:bottom-[-3px] before:z-[-1] ">
                     <div class="flex grow-0"> 
                         <div class="md:w-[60px] md:h-[60px] h-[50px] w-[50px] bg-gray-200 rounded-l-3xl rounded-r-4xl rounded-full flex items-center justify-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="md:h-[40px] md:w-[40px] h-[30px] w-[30px] text-purple-500 ]" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>                  
                                 </div>
                     </div>
                     <div class="grow flex items-center justify-start">
-                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 duration-700 group-hover:text-purple-500 line-clamp-2 ps-2">Enhanced RIO</div>
+                        <div class=" text-left md:text-lg text-base font-semibold leading-6 text-gray-700 duration-300 group-hover:text-purple-500 line-clamp-2 ps-2">Enhanced RIO</div>
                     </div>
                 </div>
                 
@@ -714,7 +715,7 @@
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-300 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -730,7 +731,7 @@
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-300 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -746,7 +747,7 @@
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-300 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -762,7 +763,7 @@
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-300 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -778,7 +779,7 @@
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-300 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -794,7 +795,7 @@
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-300 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -810,7 +811,7 @@
                             <div class="tex-md text-red  mb-3 font-semibold">
                             Enterprise Android App Development
                             </div>
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-700 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[40px] h-[40px] text-gray-500 duration-300 ease-in-out group-hover:text-blue-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"></path><path d="M6.25 7.72h5v1.5h-5zM13 15.75h5v1.5h-5zM13 13.25h5v1.5h-5zM8 18h1.5v-2h2v-1.5h-2v-2H8v2H6V16h2zM14.09 10.95l1.41-1.41 1.41 1.41 1.06-1.06-1.41-1.42 1.41-1.41L16.91 6 15.5 7.41 14.09 6l-1.06 1.06 1.41 1.41-1.41 1.42z"></path></svg>
                         </div>
                         <div class="text-sm">
                             Android provides organizations with a secure and flexible mobility platform—combining devices, apps, and management.
@@ -852,7 +853,7 @@
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
             <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
-                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-300 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-300 after:hover:w-full after:hover:h-full ">
                     <div class="flex justify-between items-center">
                         <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
@@ -867,7 +868,7 @@
                 </div>
             </div>
             <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
-                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-300 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-300 after:hover:w-full after:hover:h-full ">
                     <div class="flex justify-between items-center">
                         <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
@@ -882,7 +883,7 @@
                 </div>
             </div>
             <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
-                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-300 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-300 after:hover:w-full after:hover:h-full ">
                     <div class="flex justify-between items-center">
                         <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
@@ -897,7 +898,7 @@
                 </div>
             </div>
             <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
-                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-300 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-300 after:hover:w-full after:hover:h-full ">
                     <div class="flex justify-between items-center">
                         <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
@@ -912,7 +913,7 @@
                 </div>
             </div>
             <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
-                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-300 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-300 after:hover:w-full after:hover:h-full ">
                     <div class="flex justify-between items-center">
                         <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
@@ -927,7 +928,7 @@
                 </div>
             </div>
             <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
-                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-300 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-300 after:hover:w-full after:hover:h-full ">
                     <div class="flex justify-between items-center">
                         <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
@@ -942,7 +943,7 @@
                 </div>
             </div>
             <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
-                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-300 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-300 after:hover:w-full after:hover:h-full ">
                     <div class="flex justify-between items-center">
                         <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
@@ -957,7 +958,7 @@
                 </div>
             </div>
             <div class="lg:w-1/4 overflow-hidden w-full relative -z-10 sm:w-1/2 p-3"> 
-                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-700 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-700 after:hover:w-full after:hover:h-full ">
+                <div class="bg-white w-full p-4 h-auto rounded-br-none relative before:absolute before:-z-40 before:h-[80px] before:w-[80px] before:duration-300 before:bg-purple-500 before:top-[-3px] before:left-[-3px] before:hover:w-[100%] before:hover:h-[100%] after:w-[80px] after:h-[80px] after:absolute after:bottom-[-3px] after:right-[-3px] before:rounded-2xl after:rounded-2xl after:rounded-br-none rounded-2xl after:bg-green-500 after:-z-20 after:duration-300 after:hover:w-full after:hover:h-full ">
                     <div class="flex justify-between items-center">
                         <div class="h-[50px] w-[50px] rounded-full roundedrt-3xl bg-blue-100 flex justify-center items-center">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="w-[30px] h-[50px] text-gray-800" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
@@ -1001,11 +1002,11 @@
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
             <div class="lg:w-1/3 w-full p-3 h-auto sm:w-1/2">
-                <div class="bg-white relative  flex items-start justify-center group flex-col h-full w-full p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
-                    <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-700 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-700 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
+                <div class="bg-white relative  flex items-start justify-center group flex-col h-full w-full p-8 before:hover:w-full before:hover:h-full before:duration-300 after:hover:w-full after:hover:h-full after:duration-300  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
+                    <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-300 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-300 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
                     </div>
-                    <div class="text-lg font-semibold text-green-500 group-hover:text-pink-600 duration-700 my-3">
+                    <div class="text-lg font-semibold text-green-500 group-hover:text-pink-600 duration-300 my-3">
                         OPD Management
                     </div>
                         <div class="text-md  text-center font-normal">
@@ -1014,11 +1015,11 @@
                 </div>
             </div> 
             <div class="lg:w-1/3 w-full p-3 h-auto sm:w-1/2">
-                <div class="bg-white relative  flex items-start justify-center group flex-col h-full w-full p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
-                    <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-700 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-700 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
+                <div class="bg-white relative  flex items-start justify-center group flex-col h-full w-full p-8 before:hover:w-full before:hover:h-full before:duration-300 after:hover:w-full after:hover:h-full after:duration-300  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
+                    <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-300 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-300 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
                     </div>
-                    <div class="text-lg font-semibold text-green-500 group-hover:text-pink-600 duration-700 my-3">
+                    <div class="text-lg font-semibold text-green-500 group-hover:text-pink-600 duration-300 my-3">
                         OPD Management
                     </div>
                         <div class="text-md  text-center font-normal">
@@ -1027,11 +1028,11 @@
                 </div>
             </div> 
             <div class="lg:w-1/3 w-full p-3 h-auto sm:w-1/2">
-                <div class="bg-white relative  flex items-start justify-center group flex-col h-full w-full p-8 before:hover:w-full before:hover:h-full before:duration-700 after:hover:w-full after:hover:h-full after:duration-700  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
-                    <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-700 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-700 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
+                <div class="bg-white relative  flex items-start justify-center group flex-col h-full w-full p-8 before:hover:w-full before:hover:h-full before:duration-300 after:hover:w-full after:hover:h-full after:duration-300  before:absolute before:w-[70px] before:h-[70px] before:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 before:rotate-90deg before:top-[-3px] before:left-[-3px] before:-z-10 after:absolute after:w-[70px] after:h-[70px] after:bg-gradient-to-r from-pink-700 via-pink-200 to-pink-800 after:rotate-90deg after:bottom-[-3px] after:right-[-3px] after:-z-10 rounded-xl rounded-br-none before:rounded-xl  after:rounded-xl after:rounded-br-none">
+                    <div class="bg-green-100 w-[80px] h-[80px] flex relative justify-center items-center group-hover:bg-pink-200 duration-300 rounded-br-none rounded-full after:absolute after:h-full after:w-full after:border-2 after:border-green-50 after:rounded-full after:rounded-br-none">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="w-[40px] h-[40px] group-hover:text-pink-600 duration-300 text-green-500" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
                     </div>
-                    <div class="text-lg font-semibold text-green-500 group-hover:text-pink-600 duration-700 my-3">
+                    <div class="text-lg font-semibold text-green-500 group-hover:text-pink-600 duration-300 my-3">
                         OPD Management
                     </div>
                         <div class="text-md  text-center font-normal">
@@ -1068,11 +1069,11 @@
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white overflow-hidden rounded-xl h-full rounded-br-none relative  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                <div class="bg-white overflow-hidden rounded-xl h-full rounded-br-none relative  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-300 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-300 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-300 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-300 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-300" xmlns="http://www.w3.org/2000/svg"><title></title>
                             <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                         <div class="text-lg text-purple-500 font-semibold">
                           Permission
@@ -1085,11 +1086,11 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white overflow-hidden  rounded-xl h-full rounded-br-none relative  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                <div class="bg-white overflow-hidden  rounded-xl h-full rounded-br-none relative  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-300 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-300 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-300 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-300 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-300" xmlns="http://www.w3.org/2000/svg"><title></title>
                             <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                         <div class="text-lg text-purple-500 font-semibold">
                             Scheme Manage
@@ -1102,11 +1103,11 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white overflow-hidden  rounded-xl h-full rounded-br-none relative  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                <div class="bg-white overflow-hidden  rounded-xl h-full rounded-br-none relative  hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-300 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-300 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-300 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-300 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-300" xmlns="http://www.w3.org/2000/svg"><title></title>
                             <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                         <div class="text-lg text-purple-500 font-semibold">
                             Shareholder
@@ -1119,11 +1120,11 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white overflow-hidden  rounded-xl h-full rounded-br-none relative hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                <div class="bg-white overflow-hidden  rounded-xl h-full rounded-br-none relative hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-300 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-300 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-300 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-300 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-300" xmlns="http://www.w3.org/2000/svg"><title></title>
                             <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                         <div class="text-lg text-purple-500 font-semibold">
                             Saving Account
@@ -1136,11 +1137,11 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white overflow-hidden rounded-xl h-full rounded-br-none relative hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                <div class="bg-white overflow-hidden rounded-xl h-full rounded-br-none relative hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-300 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-300 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-300 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-300 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-300" xmlns="http://www.w3.org/2000/svg"><title></title>
                             <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                         <div class="text-lg text-purple-500 font-semibold">
                             Cridet/Debit Cheque
@@ -1153,11 +1154,11 @@
                 </div>
             </div>
             <div class="lg:w-1/3 w-full h-auto p-3 sm:w-1/2">
-                <div class="bg-white overflow-hidden rounded-xl h-full rounded-br-none relative hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-700 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-700 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-700 left-[-17%]  rotate-45"></span>
-                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-700 -z-0 right-[-17%]  rotate-45"></span>
+                <div class="bg-white overflow-hidden rounded-xl h-full rounded-br-none relative hover:before:rounded-xl hover:after:rounded-xl after:rounded-tl-xl  hover:before:rounded-br-none hover:after:rounded-br-none p-5 pb-7 flex-col group after:absolute after:duration-300 after:hover:w-full after:hover:h-full after:border-l-4 after:border-t-4 after:border-purple-500 after:h-[50px] after:w-[50px] after:p-4 after:top-0 after:left-0 before:z-[33]  before:absolute before:duration-300 before:hover:w-full before:hover:h-full before:border-r-4 before:border-b-4 before:border-purple-500 before:h-[50px] before:w-[50px] before:p-4 before:bottom-0 before:right-0">
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 top-[-25%] opacity-0 group-hover:opacity-100 duration-300 left-[-17%]  rotate-45"></span>
+                    <span class="absolute w-[100px] h-[100px] bg-purple-300 bottom-[-25%] opacity-0 group-hover:opacity-100 duration-300 -z-0 right-[-17%]  rotate-45"></span>
                     <div class="flex items-center justify-between pb-3">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-700" xmlns="http://www.w3.org/2000/svg"><title></title>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-[50px] w-[50px] text-gray-300 group-hover:text-purple-500 duration-300" xmlns="http://www.w3.org/2000/svg"><title></title>
                             <path d="M12.004 0c-2.35 2.395-2.365 6.185.133 8.585l3.412 3.413-3.197 3.198a6.501 6.501 0 0 1 1.412 7.04l9.566-9.566a.95.95 0 0 0 0-1.344L12.004 0zm-1.748 1.74L.67 11.327a.95.95 0 0 0 0 1.344C4.45 16.44 8.22 20.244 12 24c2.295-2.298 2.395-6.096-.08-8.533l-3.47-3.469 3.2-3.2c-1.918-1.955-2.363-4.725-1.394-7.057z"></path></svg>
                         <div class="text-lg text-purple-500 font-semibold">
                             Cridet/Debit Cheque
@@ -1258,11 +1259,11 @@
 </section>
 {{-- cards-7 --}}
 {{-- section --}}
-<section class="py-10 bg-gray-50 overflow-hidden">
+<section class="py-10  overflow-hidden">
     <div class="container mx-auto px-4">
     <div class="py-16 px-8 md:px-16 bg-white rounded-3xl">
         <div class="flex items-center flex-wrap -m-8">
-        <div class="w-full md:w-1/2">
+        <div class="w-full md:w-1/2 p-8">
             <div class="md:max-w-md">
                 <h2 class="pb-10 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-balance">
                     <span class="font-normal">Some Of The Great <br></span>
@@ -1396,22 +1397,22 @@
 <section id="about" class="md:py-16 py-5">
     <div class="container flex flex-wrap mx-auto max-w-7xl px-6 lg:px-8 select-none">
         <div class="w-1/2 p-2">
-            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-700 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
+            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-300 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
                 Advance requirement planning for production
                 </div>
         </div>
         <div class="w-1/2 p-2 ">
-            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-700 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
+            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-300 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
                 Advance requirement planning for production
                 </div>
         </div>
         <div class="w-1/2 p-2">
-            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-700 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
+            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-300 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
                 Advance requirement planning for production
                 </div>
         </div>
         <div class="w-1/2 p-2">
-            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-700 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
+            <div class=" w-full items-center py-3 px-5 overflow-hidden  text-gray-800 rounded-br-none text-lg text-semibold border border-gray-200 rounded-xl bg-slate-200  font-semibold relative before:bg-black/20 before:duration-300 before:absolute before:backdrop-sepia-0 before:opacity-0 before:hover:opacity-50 before:inset-0 before:size-full after:absolute after:size-full after:border-b-none after:border-red-400 after:border after:inset-0">                                                                          
                 Advance requirement planning for production
                 </div>
         </div>
@@ -1450,8 +1451,8 @@
                     <span class="absolute border-t-2 border-blue-500 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                     <span class="absolute border-r-2 border-blue-500 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
                     <span class="absolute border-b-2 border-blue-500 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
-                    <div class="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
-                        <div class="text-3xl duration-700 relative z-50  font-bold text-slate-500">
+                    <div class="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-300 flex justify-center items-center shadow-xl">
+                        <div class="text-3xl duration-300 relative z-50  font-bold text-slate-500">
                             01
                         </div>
                     </div> 
@@ -1469,8 +1470,8 @@
                     <span class="absolute border-t-2 border-blue-500 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                     <span class="absolute border-r-2 border-blue-500 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
                     <span class="absolute border-b-2 border-blue-500 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
-                    <div class="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
-                        <div class="text-3xl duration-700 relative z-50  font-bold text-slate-500">
+                    <div class="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-300 flex justify-center items-center shadow-xl">
+                        <div class="text-3xl duration-300 relative z-50  font-bold text-slate-500">
                             02
                         </div>
                     </div> 
@@ -1488,8 +1489,8 @@
                     <span class="absolute border-t-2 border-blue-500 top-0 right-0 h-0 w-[30px]  group-hover:w-full duration-300 "></span>
                     <span class="absolute border-r-2 border-blue-500 right-0  bottom-0 h-0 w-0 group-hover:h-full duration-300 delay-300"></span>
                     <span class="absolute border-b-2 border-blue-500 bottom-0 left-0  h-full w-[30px] group-hover:w-full duration-300 "></span>
-                    <div class="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-700 flex justify-center items-center shadow-xl">
-                        <div class="text-3xl duration-700 relative z-50  font-bold text-slate-500">
+                    <div class="bg-gray-200 relative z-50 w-[60px] h-[60px] rounded-4xl overflow-hidden group-hover:rounded-br-none  group-hover:rotate-0 group-hover:rounded-xl duration-300 flex justify-center items-center shadow-xl">
+                        <div class="text-3xl duration-300 relative z-50  font-bold text-slate-500">
                             03
                         </div>
                     </div> 
@@ -1530,33 +1531,33 @@
             
         </div>
         <div class="flex flex-wrap items-stretch pt-4 relative z-50">
-            <div class="lg:w-1/3 md:w-1/2 w-full p-3 my-7">
-                <div class=" w-full my-9 bg-gray-100 rounded-3xl p-6 relative after:absolute after:-z-10 after:hover:rotate-0 after:size-4/5 after:-bottom-6 after:rotate-6 after:left-6 after:bg-purple-500 after:rounded-3xl before:hover:rotate-6 after:hover:bottom-0 hover:shadow-lg duration-500 transition-all after:transition-all after:duration-500">
+            <div class="lg:w-1/3 md:w-1/2 size-auto p-3 my-7">
+                <div class=" size-full my-9 bg-gray-100 rounded-3xl p-6 relative after:absolute after:-z-10 after:hover:rotate-0 after:size-4/5 after:-bottom-6 after:rotate-6 after:left-6 after:bg-purple-500 after:rounded-3xl before:hover:rotate-6 after:hover:bottom-0 hover:shadow-lg duration-500 transition-all after:transition-all after:duration-500">
                     <div class="size-16 rounded-full bg-purple-500 flex items-center justify-center ">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="size-7 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
                     </div>
                     <div class="text-lg font-semibold text-gray-900 py-3" >Software Consulting Services</div>
-                    <div class="text-base text-gray-600">As a well-known custom software development company, we understand project requirements properly, conceptualize the software, and help businesses get the best value from their project. Our dedicated software also helps businesses choose the best-ever development solutions before beginning the development process.</div>
+                    <div class="text-base text-gray-600">As a well-known custom As a well-known custom As a well-known custom  software development company, we understand project requirements properly, conceptualize the software, and help businesses get the best value from their project. Our dedicated software also helps businesses choose the best-ever development solutions before beginning the development process.</div>
             
                 </div>
             </div>
-            <div class="lg:w-1/3 md:w-1/2 w-full p-3 my-7">
-                <div class=" w-full my-9 bg-gray-100 rounded-3xl p-6 relative after:absolute after:-z-10 after:hover:rotate-0 after:size-4/5 after:-bottom-6 after:rotate-6 after:left-6 after:bg-purple-500 after:rounded-3xl before:hover:rotate-6 after:hover:bottom-0 hover:shadow-lg duration-500 transition-all after:transition-all after:duration-500">
+            <div class="lg:w-1/3 md:w-1/2 size-auto p-3 my-7">
+                <div class=" size-full my-9 bg-gray-100 rounded-3xl p-6 relative after:absolute after:-z-10 after:hover:rotate-0 after:size-4/5 after:-bottom-6 after:rotate-6 after:left-6 after:bg-purple-500 after:rounded-3xl before:hover:rotate-6 after:hover:bottom-0 hover:shadow-lg duration-500 transition-all after:transition-all after:duration-500">
                     <div class="size-16 rounded-full bg-purple-500 flex items-center justify-center ">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="size-7 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
                     </div>
                     <div class="text-lg font-semibold text-gray-900 py-3" >Software Consulting Services</div>
-                    <div class="text-base text-gray-600">As a well-known custom software development company, we understand project requirements properly, conceptualize the software, and help businesses get the best value from their project. Our dedicated software also helps businesses choose the best-ever development solutions before beginning the development process.</div>
+                    <div class="text-base text-gray-600">As a well-known custom As a well-known custom As a well-known custom  software development company, we understand project requirements properly, conceptualize the software, and help businesses get the best value from their project. Our dedicated software also helps businesses choose the best-ever development solutions before beginning the development process.</div>
             
                 </div>
             </div>
-            <div class="lg:w-1/3 md:w-1/2 w-full p-3 my-7">
-                <div class=" w-full my-9 bg-gray-100 rounded-3xl p-6 relative after:absolute after:-z-10 after:hover:rotate-0 after:size-4/5 after:-bottom-6 after:rotate-6 after:left-6 after:bg-purple-500 after:rounded-3xl before:hover:rotate-6 after:hover:bottom-0 hover:shadow-lg duration-500 transition-all after:transition-all after:duration-500">
+            <div class="lg:w-1/3 md:w-1/2 size-auto p-3 my-7">
+                <div class=" size-full my-9 bg-gray-100 rounded-3xl p-6 relative after:absolute after:-z-10 after:hover:rotate-0 after:size-4/5 after:-bottom-6 after:rotate-6 after:left-6 after:bg-purple-500 after:rounded-3xl before:hover:rotate-6 after:hover:bottom-0 hover:shadow-lg duration-500 transition-all after:transition-all after:duration-500">
                     <div class="size-16 rounded-full bg-purple-500 flex items-center justify-center ">
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="size-7 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
                     </div>
                     <div class="text-lg font-semibold text-gray-900 py-3" >Software Consulting Services</div>
-                    <div class="text-base text-gray-600">As a well-known custom software development company, we understand project requirements properly, conceptualize the software, and help businesses get the best value from their project. Our dedicated software also helps businesses choose the best-ever development solutions before beginning the development process.</div>
+                    <div class="text-base text-gray-600">As a well-known custom As a well-known custom As a well-known custom  software development company, we understand project requirements properly, conceptualize the software, and help businesses get the best value from their project. Our dedicated software also helps businesses choose the best-ever development solutions before beginning the development process.</div>
             
                 </div>
             </div>
@@ -1705,59 +1706,21 @@
             <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
             
         </div>
-        <div class="flex flex-wrap items-stretch pt-4 relative z-50">
-            
-            <div class="w-1/3 h-auto p-4">
-                <div class="w-full group h-full relative bg-slate-50 rounded-xl p-4 shadow-lg border-2 border-gray-50 hover:border-rose-600 duration-1000">
-                    <div class="flex items-center justify-between">
-                        <div class="">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 text-slate-950 duration-300 group-hover:text-rose-600" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
+        <ul class="flex flex-wrap items-stretch pt-4 relative z-50 *:lg:w-1/3 *:h-auto *:p-4 *:w-full *:md:w-1/2 *:*:w-full *:*:h-full *:*:relative *:*:bg-slate-50 *:*:rounded-xl *:*:p-4 *:*:shadow-lg *:*:border-2 *:*:border-gray-50 hover:*:*:border-rose-600 *:*:duration-500 *:*:*:flex *:*:*:justify-between *:*:*:items-center [&_.icon]:w-10 [&_.icon]:text-slate-950">   
+            <li>
+                <div class="group">
+                    <div class="">
+                        <div class="icon">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" size-full" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
                         </div>
-                        <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 rotate-45 duration-700 group-hover:text-rose-600 group-hover:rotate-[405deg]" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
-                    </div>
-                    <div class="text-xl font-bold text-rose-600 group-hover:text-slate-900 duration-700 my-5">Incremental Backups</div>
+                        <div class="w-10 rotate-45 duration-300 text-gray-300 group-hover:text-rose-600">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-full" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
+                        </div>
+                    <div class="text-xl font-bold text-rose-600 group-hover:text-slate-900 duration-300 my-5">Incremental Backups</div>
                     <div class="text-lg font-thin">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
                 </div>
-            </div>
-               <div class="w-1/3 h-auto p-4">
-                <div class="w-full group h-full relative bg-slate-50 rounded-xl p-4 shadow-lg border-2 border-gray-50 hover:border-rose-600 duration-1000">
-                    <div class="flex items-center justify-between">
-                        <div class="">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 text-slate-950 duration-300 group-hover:text-rose-600" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
-                        </div>
-                        <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 rotate-45 duration-700 group-hover:text-rose-600 group-hover:rotate-[405deg]" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
-                    </div>
-                    <div class="text-xl font-bold text-rose-600 group-hover:text-slate-900 duration-700 my-5">Incremental Backups</div>
-                    <div class="text-lg font-thin">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
-                </div>
-            </div>
-            <div class="w-1/3 h-auto p-4">
-                <div class="w-full group h-full relative bg-slate-50 rounded-xl p-4 shadow-lg border-2 border-gray-50 hover:border-rose-600 duration-1000">
-                    <div class="flex items-center justify-between">
-                        <div class="">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 text-slate-950 duration-300 group-hover:text-rose-600" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
-                        </div>
-                        <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 rotate-45 duration-700 group-hover:text-rose-600 group-hover:rotate-[405deg]" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
-                    </div>
-                    <div class="text-xl font-bold text-rose-600 group-hover:text-slate-900 duration-700 my-5">Incremental Backups</div>
-                    <div class="text-lg font-thin">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
-                </div>
-            </div>
-            <div class="w-1/3 h-auto p-4">
-                <div class="w-full group h-full relative bg-slate-50 rounded-xl p-4 shadow-lg border-2 border-gray-50 hover:border-rose-600 duration-1000">
-                    <div class="flex items-center justify-between">
-                        <div class="">
-                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 text-slate-950 duration-300 group-hover:text-rose-600" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
-                        </div>
-                        <div><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-10 rotate-45 duration-700 group-hover:text-rose-600 group-hover:rotate-[405deg]" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
-                    </div>
-                    <div class="text-xl font-bold text-rose-600 group-hover:text-slate-900 duration-700 my-5">Incremental Backups</div>
-                    <div class="text-lg font-thin">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
-                    
-                </div>
-            </div>
-            
-        </div>
+            </li>
+        </ul>
     </div>
 </div>
 
@@ -1769,7 +1732,7 @@
     <div class="w-full md:w-1/4 p-4 h-full">
         <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
         <img alt="..." src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" class="w-full align-middle rounded-t-lg">
-        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[44px] h-max">
+        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[42px] h-max">
             <polygon points="-30,95 583,95 583,65" class="text-gray-200 fill-current"></polygon></svg>
             <h4 class="text-lg  font-semibold text-slate-900 text-ellipsis line-clamp-2">Top Notch Services </h4>
             <p class="text-base font-light mt-1 text-slate-900 font-md text-ellipsis line-clamp-3"> The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens. </p>
@@ -1780,7 +1743,7 @@
     <div class="w-full md:w-1/4 p-4 h-full">
         <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
         <img alt="..." src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" class="w-full align-middle rounded-t-lg">
-        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[44px] h-max">
+        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[42px] h-max">
             <polygon points="-30,95 583,95 583,65" class="text-gray-200 fill-current"></polygon></svg>
             <h4 class="text-lg  font-semibold text-slate-900 text-ellipsis line-clamp-2">Top Notch Services </h4>
             <p class="text-base font-light mt-1 text-slate-900 font-md text-ellipsis line-clamp-3"> The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens. </p>
@@ -1791,7 +1754,7 @@
     <div class="w-full md:w-1/4 p-4 h-full">
         <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
         <img alt="..." src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" class="w-full align-middle rounded-t-lg">
-        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[44px] h-max">
+        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[42px] h-max">
             <polygon points="-30,95 583,95 583,65" class="text-gray-200 fill-current"></polygon></svg>
             <h4 class="text-lg  font-semibold text-slate-900 text-ellipsis line-clamp-2">Top Notch Services </h4>
             <p class="text-base font-light mt-1 text-slate-900 font-md text-ellipsis line-clamp-3"> The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens. </p>
@@ -1799,6 +1762,18 @@
         </blockquote>
         </div>
     </div>
+    <div class="w-full md:w-1/4 p-4 h-full">
+        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
+        <img alt="..." src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" class="w-full align-middle rounded-t-lg">
+        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[42px] h-max">
+            <polygon points="-30,95 583,95 583,65" class="text-gray-200 fill-current"></polygon></svg>
+            <h4 class="text-lg  font-semibold text-slate-900 text-ellipsis line-clamp-2">Top Notch Services </h4>
+            <p class="text-base font-light mt-1 text-slate-900 font-md text-ellipsis line-clamp-3"> The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens. </p>
+            <a href="" class="text-md font-semibold mt-4 text-blue-900">Read More</a>
+        </blockquote>
+        </div>
+    </div>
+   
 </div>
 {{-- wavy-cards --}}
 
@@ -1899,13 +1874,72 @@
 
 {{-- new page end --}} 
 {{-- img card --}}
-<div class="w-1/3 p-3">
-    <div class="size-full ">
-
+<div class="md:py-16 py-5   bg-white">
+    <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-black pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+        </svg>
     </div>
-</div>
+
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 select-none">
+
+        <div class="md:text-center text-left">
+            <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em]">
+                <span class="font-normal text-black">Why We are the Best Android <br></span> 
+                <span class="font-bold  bg-gradient-to-r from-sky-300 via-slate-700 to-sky-400 bg-clip-text text-transparent"> App Development Company?</span>
+            </p>
+            <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
+            
+        </div>
+        <div class="flex flex-wrap items-stretch pt-4 relative z-50">
+                    <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                        <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
+                            <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
+                                Scalability & Flexibility
+                            </div>
+                            <div class="text-sm text-slate-500 pt-2">
+                                Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                        <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
+                            <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
+                                Scalability & Flexibility
+                            </div>
+                            <div class="text-sm text-slate-500 pt-2">
+                                Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                        <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
+                            <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
+                                Scalability & Flexibility
+                            </div>
+                            <div class="text-sm text-slate-500 pt-2">
+                                Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 {{-- img-card --}}
+
+{{-- card-19 --}}
+<div class="w-1/3 p-3">
+    <div>
+        
+    </div>
+</div>
+{{-- card-19 end--}}
+
 
 
 {{-- NEW PAGE START --}}
