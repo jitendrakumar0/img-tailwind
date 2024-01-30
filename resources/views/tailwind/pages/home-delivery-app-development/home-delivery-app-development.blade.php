@@ -1593,7 +1593,7 @@
         </div>
             <div class="flex flex-wrap items-stretch pt-2 relative z-50 ">
                 <div class="md:w-1/2 p-3 w-full h-auto lg:w-1/2">
-                <div class="w-full h-full">
+                    <div class="w-full h-full">
                         <div class="bg-[rgb(17_24_39)] opacity-100 rounded-3xl rounded-br-none relative overflow-hidden w-full h-full">
                             <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
                                 <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-[rgb(17_24_39)]"></div>
@@ -1614,9 +1614,8 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
-            <div class="md:w-1/2 p-3 w-full h-auto lg:w-1/2">
+        <div class="md:w-1/2 p-3 w-full h-auto lg:w-1/2">
             <div class="w-full h-full">
                     <div class="bg-[rgb(17_24_39)] opacity-100 rounded-3xl rounded-br-none relative overflow-hidden w-full h-full">
                         <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
@@ -2163,70 +2162,147 @@
 {{-- section-7 --}}
 <section class="">
     <div class="relative isolate select-none py-6 md:py-8 lg:py-16">
-<div class="overflow-hidden">
-<div class="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/5 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
-<svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <pattern id="ED433" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
-            <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
-        </pattern>
-    </defs>
-    <rect width="100%" height="100%" fill="url(#ED433)"></rect>
-</svg>
-</div>
-<div class="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
-<p class="
-    max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center
+            <div class="overflow-hidden">
+            <div class="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/5 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
+            <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="ED433" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                        <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#ED433)"></rect>
+            </svg>
+            </div>
+            <div class="relative container mx-auto text-pretty max-w-7xl px-6 lg:px-8 z-10 text-center">
+            <p class="
+                max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center
 
-    first:*:font-normal
+                first:*:font-normal
 
-    last:*:font-bold last:*:text-theme4
-">    <span>Our B2B eCommerce</span> 
-<span>  Development Services</span>
-</p>
-<div class="md:text-base text-sm text-black/70 mt-3">You can count on our B2B eCommerce software development team to get the best services for your next online selling
-    project.
-</div>
-</div>
-</div>
-<div class="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
-    <div class="flex flex-wrap mt-10 ">
-        <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
-            <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
-                <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
-                    Scalability & Flexibility
-                </div>
-                <div class="text-sm text-slate-500 pt-2">
-                    Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
+                last:*:font-bold last:*:text-theme4
+            ">    <span>Delivering value across all B2B e-commerce</span> 
+            <span>platforms for your business model</span>
+            </p>
+            <div class="md:text-base text-sm text-black/70 mt-3">You can count on our B2B eCommerce software development team to get the best services for your next online selling
+                project.
+            </div>
+            </div>
+            </div>
+            <div class="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
+                <div class="flex flex-wrap mt-10 ">
+                    <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                        <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
+                            <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
+                                Scalability & Flexibility
+                            </div>
+                            <div class="text-sm text-slate-500 pt-2">
+                                Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                        <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
+                            <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
+                                Scalability & Flexibility
+                            </div>
+                            <div class="text-sm text-slate-500 pt-2">
+                                Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
+                        <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
+                            <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
+                                Scalability & Flexibility
+                            </div>
+                            <div class="text-sm text-slate-500 pt-2">
+                                Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
-            <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
-                <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
-                    Scalability & Flexibility
-                </div>
-                <div class="text-sm text-slate-500 pt-2">
-                    Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
-                </div>
-            </div>
-        </div>
-        <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
-            <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
-                <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
-                    Scalability & Flexibility
-                </div>
-                <div class="text-sm text-slate-500 pt-2">
-                    Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
-                </div>
-            </div>
-        </div>
     </div>
-</div>
-</div>
 </section>
 {{-- section-7 end --}}
+{{-- related-services --}}
+<section class="">
+    <div class="relative isolate select-none py-6 md:py-8 lg:py-16">
+            <div class="overflow-hidden">
+            <div class="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/5 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
+            <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="ED433" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                        <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#ED433)"></rect>
+            </svg>
+            </div>
+            <div class="relative container mx-auto text-pretty max-w-7xl px-6 lg:px-8 z-10 text-center">
+            <p class="
+                max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center
 
+                first:*:font-normal
+
+                last:*:font-bold last:*:text-theme4
+            ">    <span>Delivering value across all B2B e-commerce</span> 
+            <span>platforms for your business model</span>
+            </p>
+            <div class="md:text-base text-sm text-black/70 mt-3">You can count on our B2B eCommerce software development team to get the best services for your next online selling
+                project.
+            </div>
+            </div>
+            </div>
+            <div class="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
+                <div class="flex flex-wrap mt-10 ">
+                    <div class="md:w-1/2 p-3 w-full h-auto lg:w-1/2">
+                        <div class="w-full h-full">
+                                <div class="bg-[rgb(17_24_39)] opacity-100 rounded-3xl rounded-br-none relative overflow-hidden w-full h-full">
+                                    <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
+                                        <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-[rgb(17_24_39)]"></div>
+                                        <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                                        <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-[#FF4694] to-[#776FFF] w-[68.5625rem]  [aspect-ratio:1097/845]"></div>
+                                        </div>
+                                        <div class="flex flex-col px-[20px] h-full relative z-50">
+                                        <div class=" h-[100px]"></div>
+                                        <div class="flex items-center py-2">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" w-[40px] h-[40px] text-white"xmlns="http://www.w3.org/2000/svg"><path d="M223.75 130.75L154.62 15.54A31.997 31.997 0 0 0 127.18 0H16.03C3.08 0-4.5 14.57 2.92 25.18l111.27 158.96c29.72-27.77 67.52-46.83 109.56-53.39zM495.97 0H384.82c-11.24 0-21.66 5.9-27.44 15.54l-69.13 115.21c42.04 6.56 79.84 25.62 109.56 53.38L509.08 25.18C516.5 14.57 508.92 0 495.97 0zM256 160c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm92.52 157.26l-37.93 36.96 8.97 52.22c1.6 9.36-8.26 16.51-16.65 12.09L256 393.88l-46.9 24.65c-8.4 4.45-18.25-2.74-16.65-12.09l8.97-52.22-37.93-36.96c-6.82-6.64-3.05-18.23 6.35-19.59l52.43-7.64 23.43-47.52c2.11-4.28 6.19-6.39 10.28-6.39 4.11 0 8.22 2.14 10.33 6.39l23.43 47.52 52.43 7.64c9.4 1.36 13.17 12.95 6.35 19.59z"></path></svg>
+                                            <div class=" text-xl font-semibold text-white  ps-3">QUALITY MANAGEMENT</div>
+                                        </div>
+                                        <div class="text-md text-normal text-white pb-3">
+                                            With our ERP developed platforms, every user of the system can generate custom reports with ease. So, you can access and examine data faster than ever to make vital business decisions more quickly.
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="md:w-1/2 p-3 w-full h-auto lg:w-1/2">
+                        <div class="w-full h-full">
+                                <div class="bg-[rgb(17_24_39)] opacity-100 rounded-3xl rounded-br-none relative overflow-hidden w-full h-full">
+                                    <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit">
+                                        <div class="absolute inset-0 [mix-blend-mode:multiply] opacity-100 bg-[rgb(17_24_39)]"></div>
+                                        <div class="blur-[60px] absolute top-[50%] left-[50%] [transform:translate(-50%,_-50%);] -ml-[4rem]">
+                                        <div class="[clip-path:polygon(74.1%_44.1%,_100%_61.6%,_97.5%_26.9%,_85.5%_0.1%,_80.7%_2%,_72.5%_32.5%,_60.2%_62.4%,_52.4%_68.1%,_47.5%_58.3%,_45.2%_34.5%,_27.5%_76.7%,_0.1%_64.9%,_17.9%_100%,_27.6%_76.8%,_76.1%_97.7%,_74.1%_44.1%)] opacity-[0.4] bg-gradient-to-tr from-[#FF4694] to-[#776FFF] w-[68.5625rem]  [aspect-ratio:1097/845]"></div>
+                                        </div>
+                                        <div class="flex flex-col px-[20px] h-full relative z-50">
+                                        <div class=" h-[100px]"></div>
+                                        <div class="flex items-center py-2">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" w-[40px] h-[40px] text-white"xmlns="http://www.w3.org/2000/svg"><path d="M223.75 130.75L154.62 15.54A31.997 31.997 0 0 0 127.18 0H16.03C3.08 0-4.5 14.57 2.92 25.18l111.27 158.96c29.72-27.77 67.52-46.83 109.56-53.39zM495.97 0H384.82c-11.24 0-21.66 5.9-27.44 15.54l-69.13 115.21c42.04 6.56 79.84 25.62 109.56 53.38L509.08 25.18C516.5 14.57 508.92 0 495.97 0zM256 160c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm92.52 157.26l-37.93 36.96 8.97 52.22c1.6 9.36-8.26 16.51-16.65 12.09L256 393.88l-46.9 24.65c-8.4 4.45-18.25-2.74-16.65-12.09l8.97-52.22-37.93-36.96c-6.82-6.64-3.05-18.23 6.35-19.59l52.43-7.64 23.43-47.52c2.11-4.28 6.19-6.39 10.28-6.39 4.11 0 8.22 2.14 10.33 6.39l23.43 47.52 52.43 7.64c9.4 1.36 13.17 12.95 6.35 19.59z"></path></svg>
+                                            <div class=" text-xl font-semibold text-white  ps-3">QUALITY MANAGEMENT</div>
+                                        </div>
+                                        <div class="text-md text-normal text-white pb-3">
+                                            With our ERP developed platforms, every user of the system can generate custom reports with ease. So, you can access and examine data faster than ever to make vital business decisions more quickly.
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+    </div>
+</section>
+{{-- related-services --}}
 {{-- section-b2bend --}}
 
 
