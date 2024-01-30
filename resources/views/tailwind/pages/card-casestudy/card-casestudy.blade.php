@@ -716,6 +716,457 @@
     </div>
 {{-- custom Section Ends --}}
 
+{{-- step card Start --}}
+    <div class="py-5 lg:py-10 mx-auto max-w-7xl px-3 sm:px-6 lg:px-20 bg-amber-50">
+        <div class="container pt-1 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 
+        *:flex  *:w-full *:flex-wrap *:pt-5 *:gap-y-8 *:items-stretch *:h-full
+        *:*:w-full *:*:sm:w-1/2 *:*:md:w-1/3 *:*:lg:w-1/4  *:*:p-3
+        *:*:*:bg-white *:*:*:p-8 *:*:*:rounded-lg *:*:*:relative *:*:*:md:max-w-xs *:*:*:mx-auto *:*:*:h-full
+        [&_.cardIcon]:-mt-[45px] [&_.cardIcon]:inline-block [&_.cardIcon]:absolute [&_.cardIcon]:rounded-full [&_.cardIcon]:border-[2px] [&_.cardIcon]:bg-blue-400 [&_.cardIcon]:p-3
+        [&_svg]:ms-auto [&_svg]:text-white
+        [&_.heading]:text-xl [&_.heading]:font-semibold [&_.heading]:pt-8 [&_.heading]:pb-2 [&_.heading]:border-b [&_.heading]:border-blue-400
+        [&_.description]:text-base [&_.description]:pt-5"        
+        >
+            <ul>
+                <li>
+                    <div>
+                        <div class="cardIcon">
+                            <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25 9.0712C26.527 7.34116 28.7611 6.25 31.25 6.25C35.8524 6.25 39.5833 9.98096 39.5833 14.5833C39.5833 19.1857 35.8524 22.9167 31.25 22.9167C28.7611 22.9167 26.527 21.8255 25 20.0955M31.25 43.75H6.25V41.6667C6.25 34.7631 11.8464 29.1667 18.75 29.1667C25.6536 29.1667 31.25 34.7631 31.25 41.6667V43.75ZM31.25 43.75H43.75V41.6667C43.75 34.7631 38.1536 29.1667 31.25 29.1667C28.9732 29.1667 26.8386 29.7754 25 30.8389M27.0833 14.5833C27.0833 19.1857 23.3524 22.9167 18.75 22.9167C14.1476 22.9167 10.4167 19.1857 10.4167 14.5833C10.4167 9.98096 14.1476 6.25 18.75 6.25C23.3524 6.25 27.0833 9.98096 27.0833 14.5833Z" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <div class="heading">
+                            Start your online store
+                        </div>
+                        <div class="description">
+                            We provide solutions, which let you start your online store in less than a week.
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="cardIcon">
+                            <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25 9.0712C26.527 7.34116 28.7611 6.25 31.25 6.25C35.8524 6.25 39.5833 9.98096 39.5833 14.5833C39.5833 19.1857 35.8524 22.9167 31.25 22.9167C28.7611 22.9167 26.527 21.8255 25 20.0955M31.25 43.75H6.25V41.6667C6.25 34.7631 11.8464 29.1667 18.75 29.1667C25.6536 29.1667 31.25 34.7631 31.25 41.6667V43.75ZM31.25 43.75H43.75V41.6667C43.75 34.7631 38.1536 29.1667 31.25 29.1667C28.9732 29.1667 26.8386 29.7754 25 30.8389M27.0833 14.5833C27.0833 19.1857 23.3524 22.9167 18.75 22.9167C14.1476 22.9167 10.4167 19.1857 10.4167 14.5833C10.4167 9.98096 14.1476 6.25 18.75 6.25C23.3524 6.25 27.0833 9.98096 27.0833 14.5833Z" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <div class="heading">
+                            Start your online store
+                        </div>
+                        <div class="description">
+                            We provide solutions, which let you start your online store in less than a week.
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="cardIcon">
+                            <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25 9.0712C26.527 7.34116 28.7611 6.25 31.25 6.25C35.8524 6.25 39.5833 9.98096 39.5833 14.5833C39.5833 19.1857 35.8524 22.9167 31.25 22.9167C28.7611 22.9167 26.527 21.8255 25 20.0955M31.25 43.75H6.25V41.6667C6.25 34.7631 11.8464 29.1667 18.75 29.1667C25.6536 29.1667 31.25 34.7631 31.25 41.6667V43.75ZM31.25 43.75H43.75V41.6667C43.75 34.7631 38.1536 29.1667 31.25 29.1667C28.9732 29.1667 26.8386 29.7754 25 30.8389M27.0833 14.5833C27.0833 19.1857 23.3524 22.9167 18.75 22.9167C14.1476 22.9167 10.4167 19.1857 10.4167 14.5833C10.4167 9.98096 14.1476 6.25 18.75 6.25C23.3524 6.25 27.0833 9.98096 27.0833 14.5833Z" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <div class="heading">
+                            Start your online store
+                        </div>
+                        <div class="description">
+                            We provide solutions, which let you start your online store in less than a week.
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="cardIcon">
+                            <svg width="30" height="30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25 9.0712C26.527 7.34116 28.7611 6.25 31.25 6.25C35.8524 6.25 39.5833 9.98096 39.5833 14.5833C39.5833 19.1857 35.8524 22.9167 31.25 22.9167C28.7611 22.9167 26.527 21.8255 25 20.0955M31.25 43.75H6.25V41.6667C6.25 34.7631 11.8464 29.1667 18.75 29.1667C25.6536 29.1667 31.25 34.7631 31.25 41.6667V43.75ZM31.25 43.75H43.75V41.6667C43.75 34.7631 38.1536 29.1667 31.25 29.1667C28.9732 29.1667 26.8386 29.7754 25 30.8389M27.0833 14.5833C27.0833 19.1857 23.3524 22.9167 18.75 22.9167C14.1476 22.9167 10.4167 19.1857 10.4167 14.5833C10.4167 9.98096 14.1476 6.25 18.75 6.25C23.3524 6.25 27.0833 9.98096 27.0833 14.5833Z" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <div class="heading">
+                            Start your online store
+                        </div>
+                        <div class="description">
+                            We provide solutions, which let you start your online store in less than a week.
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+{{-- step card Ends --}}
+
+{{-- cta Section start --}}
+    <div class="py-5 lg:py-10 mx-auto max-w-7xl px-3 sm:px-6 lg:px-20">
+        <div class="bg-[url('../img/about/eadi_ecommerce_cta_three_bg.webp')] overflow-hidden rounded-xl bg-no-repeat h-full w-full bg-cover p-10 py-10 sm:py-12 md:py-14 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl !leading-[140%] font-bold">
+            Set-Up & Expand Your Ecommerce <br/>
+            Marketplace With Powerful Features To <br/>
+            Find More Customers, Sales, & Profits<br/>
+            <div class="pt-4">
+                <a href="https://www.imgglobalinfotech.com/about-us.php" class="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Let's Build Together <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
+            </div>
+        </div>
+    </div>
+{{-- cta Section Ends --}}
+
+{{-- section 2 start--}}
+    <div class="relative bg-slate-50 py-6 md:py-8 lg:py-16 select-none">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
+            <div class="absolute inset-0 size-full pointer-events-none overflow-hidden">
+                <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
+            </div>
+            <div class="
+                    mx-auto max-w-container gap-7 flex max-lg:flex-col max-lg:gap-4 
+
+                    [&>*:first-child]:[&:has(.content1-img)]:lg:block 
+                    [&:first-child]:hidden [&>*:last-child]:[&:has(.content1-img)]:max-w-3xl 
+                    [&>*:last-child]:[&:has(.content1-img)]:lg:w-3xl
+                ">
+                <div class="relative z-10 hidden pointer-events-none h-auto md:sticky md:top-24 self-start">
+                    <div class="flex [transform:rotateY(180deg)]">
+                        <div class="relative flex-shrink-0 p-4 w-full">
+                            <div class="relative z-10 overflow-hidden *:rounded-xl [transform:rotateY(180deg)] [&~*]:[&:has(.mask)]:lg:hidden">
+                                            <img class="object-cover w-full h-auto content1-img" width="336" height="404" src="https://images.unsplash.com/photo-1570126618953-d437176e8c79?w=350&h=450&crop=entropy&cs=tinysrgb&fit=crop&q=80" data-src="https://images.unsplash.com/photo-1570126618953-d437176e8c79?w=350&h=450&crop=entropy&cs=tinysrgb&fit=crop&q=80" alt="image3">
+                                        
+                                
+                            </div>
+                            <div class="z-0">
+                                <div class="absolute -right-12 left-0 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                                <div class="absolute -top-8 bottom-0 left-12 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                                <div class="absolute -right-12 bottom-14 left-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                                <div class="absolute -bottom-8 -top-2 right-0 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                                <div class="absolute bottom-full right-10 -mb-px flex h-8 items-end overflow-hidden">
+                                    <div class="flex -mb-px h-[2px] w-80 -scale-x-100">
+                                        <div class="w-full flex-none blur-sm [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
+                                        <div class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative mt-14 flex-shrink-0 p-4">
+                            <div class="overflow-hidden">
+                                <div class="object-cover h-[404px] w-[336px] aspect-[336/404]"></div>
+                            </div>
+                            <div>
+                            <div class="absolute -left-4 -right-8 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                            <div class="absolute -bottom-12 -top-20 right-0 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                            <div class="absolute -left-4 -right-8 bottom-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                            <div class="absolute right-10 top-[calc(100%-1px)] -mb-px flex h-8 items-start overflow-hidden">
+                                <div class="flex -mt-px h-[2px] w-80 -scale-x-100">
+                                    <div class="w-full flex-none blur-sm [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
+                                    <div class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative z-20 mx-auto lg:mx-0 lg:pr-4 md:py-6 md:md:py-8 h-auto md:sticky md:top-24 self-start shrink-1 grow-0 basis-auto w-full">
+                    <p class="
+                        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black
+
+                        first:*:font-normal
+
+                        last:*:font-bold last:*:text-theme4
+                    ">
+                                    <span class="font-normal">A Quick Insight Into </span> <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme4">IMG Global Infotech</span>
+                                
+                    </p>
+                                <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">Discover innovation and excellence at IMG Global Infotech! Immerse yourself in cutting-edge services and high-quality development solutions that redefine the digital landscape. Our dynamic work environment fosters creativity and collaboration to fuel groundbreaking ideas.</p>
+                <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">At IMG, we pride ourselves on timely delivery, transforming visions into reality. From mobile app development to custom software solutions and dedicated developer hiring, we cater to businesses of all scales. Experience top-notch development, reasonable prices, and a partnership that exceeds expectations - at IMG Global Infotech, we make digital dreams come true.</p>
+                </div>
+            </div>
+            <div class="pointer-events-none absolute inset-0 shadow-[inset_0_-1px_1px_rgba(0,0,0,0.06)]"></div>
+        </div>
+    </div>
+{{-- section 2 end --}}
+
+{{--  --}}
+    <div class="bg-gradient-to-b from-gray-900 via-gray-700 to-transparent select-none">
+        <div class="relative isolate overflow-hidden text-center justify-center lg:flex lg:gap-x-20">
+                <div class="w-full">
+                <svg viewBox="0 0 1024 1024" class="absolute left-1/2 bottom-1/2 -z-10 h-[64rem] w-[64rem] translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0 pointer-events-none" aria-hidden="true">
+                    <circle cx="512" cy="512" r="512" fill="url(#l2200)" fill-opacity="0.7"></circle>
+                    <defs>
+                        <radialGradient id="l2200">
+                            <stop offset="0.5" stop-color="#9333ea"></stop>
+                            <stop offset="1" stop-color="#db2777"></stop>
+                        </radialGradient>
+                    </defs>
+                </svg>
+                <div class="absolute inset-x-0 top-0 h-96 z-0 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
+                    <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="R06" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                                <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                            </pattern>
+                        </defs>
+                        <rect width="100%" height="100%" fill="url(#R06)"></rect>
+                    </svg>
+                </div>
+                <div class="w-full py-6 md:py-8 lg:py-16 lg:text-left relative z-[1] overflow-hidden md:gap-10 gap-8 flex flex-col">
+                    <div>
+                        <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-center text-white"><span class="font-normal"> Glimpse of How Your </span> 
+                    <span class="font-bold text-theme4"> Pharmacy Delivery App Will Look Like</span>
+                    </p>
+                        <div class="md:text-base text-sm text-gray-100/70 mt-3 text-center">Experience the future of convenience with a feature-rich Pharmacy Delivery App! Take a sneak peek into the seamless interface and user-friendly design that will revolutionize your medication delivery experience.
+                    </div>
+                    </div>
+                    <div class="w-max flex group/marquee gap-5 *:flex *:items-center *:gap-5 *:duration-300 *:animate-marquee-h lg:*:*:w-60 md:*:*:w-48 *:*:w-40 *:*:aspect-[440/900] *:*:rounded-2xl *:*:drop-shadow-xl *:*:shadow-slate-600">
+                        <div class="group-hover/marquee:[animation-play-state:paused]">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next1.webp?id=2be73cbff63295a7f31016e290ecab70" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next1.webp?id=2be73cbff63295a7f31016e290ecab70" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next2.webp?id=d7d44e7e3b422dab58822de547e5acd6" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next2.webp?id=d7d44e7e3b422dab58822de547e5acd6" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next3.webp?id=701cc4cdf013fa2e5fb0a6c5c7c375c9" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next3.webp?id=701cc4cdf013fa2e5fb0a6c5c7c375c9" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next4.webp?id=45f5a7a66be3b7fbdd75eaad343e5cf0" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next4.webp?id=45f5a7a66be3b7fbdd75eaad343e5cf0" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next5.webp?id=a73783aeead73b4d478b81ac4722c543" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next5.webp?id=a73783aeead73b4d478b81ac4722c543" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next6.webp?id=82cc23f891ef71f61e0c0bc6a2db08e6" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next6.webp?id=82cc23f891ef71f61e0c0bc6a2db08e6" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next7.webp?id=7e44bd5460ec94c74cfd8f9b7302ac80" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next7.webp?id=7e44bd5460ec94c74cfd8f9b7302ac80" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next8.webp?id=64107fe952d894e536f1c7fb68a98b31" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next8.webp?id=64107fe952d894e536f1c7fb68a98b31" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next9.webp?id=8cda4a8ddc7190c86c9e95a601960995" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next9.webp?id=8cda4a8ddc7190c86c9e95a601960995" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next10.webp?id=690085c311f1ee528431e80e6899cf59" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next10.webp?id=690085c311f1ee528431e80e6899cf59" alt="medicine-delivery-next">
+                        </div>
+                        <div class="group-hover/marquee:[animation-play-state:paused]">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next1.webp?id=2be73cbff63295a7f31016e290ecab70" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next1.webp?id=2be73cbff63295a7f31016e290ecab70" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next2.webp?id=d7d44e7e3b422dab58822de547e5acd6" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next2.webp?id=d7d44e7e3b422dab58822de547e5acd6" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next3.webp?id=701cc4cdf013fa2e5fb0a6c5c7c375c9" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next3.webp?id=701cc4cdf013fa2e5fb0a6c5c7c375c9" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next4.webp?id=45f5a7a66be3b7fbdd75eaad343e5cf0" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next4.webp?id=45f5a7a66be3b7fbdd75eaad343e5cf0" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next5.webp?id=a73783aeead73b4d478b81ac4722c543" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next5.webp?id=a73783aeead73b4d478b81ac4722c543" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next6.webp?id=82cc23f891ef71f61e0c0bc6a2db08e6" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next6.webp?id=82cc23f891ef71f61e0c0bc6a2db08e6" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next7.webp?id=7e44bd5460ec94c74cfd8f9b7302ac80" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next7.webp?id=7e44bd5460ec94c74cfd8f9b7302ac80" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next8.webp?id=64107fe952d894e536f1c7fb68a98b31" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next8.webp?id=64107fe952d894e536f1c7fb68a98b31" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next9.webp?id=8cda4a8ddc7190c86c9e95a601960995" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next9.webp?id=8cda4a8ddc7190c86c9e95a601960995" alt="medicine-delivery-next">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next10.webp?id=690085c311f1ee528431e80e6899cf59" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next10.webp?id=690085c311f1ee528431e80e6899cf59" alt="medicine-delivery-next">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{--  --}}
+
+{{-- cta img start --}}
+    <section class="bg-white">
+        <div class="py-6 md:py-8 lg:py-16 select-none">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="relative isolate overflow-hidden text-center justify-center bg-gray-900 px-6 shadow-2xl rounded-2xl sm:rounded-3xl sm:px-16 lg:flex lg:gap-x-20 lg:px-24">
+        <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0 pointer-events-none" aria-hidden="true">
+            <circle cx="512" cy="512" r="512" fill="url(#l2200)" fill-opacity="0.7"></circle>
+            <defs>
+                <radialGradient id="l2200">
+                    <stop offset="0.5" stop-color="#9333ea"></stop>
+                    <stop offset="1" stop-color="#db2777"></stop>
+                </radialGradient>
+            </defs>
+        </svg>
+        <div class="absolute inset-x-0 top-0 h-96 z-0 text-white/20 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
+            <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="ryhhgfbyi" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                        <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#ryhhgfbyi)"></rect>
+            </svg>
+        </div>
+        <div class="mx-auto max-w-3xl lg:mx-0 lg:flex-auto py-6 md:py-8 lg:py-16 lg:text-left relative z-[1]">
+            <div class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center empty:hidden">    Take One Step Ahead <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent">From Your Competitors!</span>
+        </div>
+            <p class="mt-6 text-base md:text-lg md:leading-8 text-gray-300 text-center empty:hidden">    Whether you want to develop a grocery delivery app like Blinkit, Swiggy Instamart, or Postmates, we can create it all. Feel free to share your grocery app requirements with us!
+        </p>
+            <div class="md:mt-10 mt-5 flex items-center justify-center gap-x-6 empty:hidden">
+                    <a href="https://www.imgglobalinfotech.com/request-a-quote.php" class="rounded-md rounded-br-none bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Request A Quote</a>
+                </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+{{-- cta img End --}}
+
+{{-- Section 5B start --}}
+    <div class="relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10 py-6 md:py-8 lg:py-16">
+        <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center">
+            <span class="font-normal">Support your sales efforts and </span> 
+            <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme4">propel growth with B2B ecommerce development</span>
+        </p>
+        <div class="md:text-base text-sm text-black/70 mt-3 text-center px-4">
+            According to Forrester's latest study, 74% of B2B buyers now conduct at least half of their research online before sealing the deal offline. Maximize that share of wallet by making your B2B business digital-first.
+        </div>
+        <div class="py-5">
+            <div class="flex flex-wrap items-stretch gap-y-4">
+                <div class="w-full lg:w-1/2 px-5 h-auto">
+                    <div class="mainCard flex flex-wrap shadow-2xl  rounded-md h-full relative sm:before:absolute sm:before:h-[25%] sm:before:top-[12%] sm:before:left-0 sm:before:w-[5px] sm:before:duration-300 sm:before:bg-[#083e56] sm:after:absolute sm:after:top-[12%] sm:after:left-0 sm:after:w-[5px] sm:after:bg-[#083e56] sm:after:duration-500 sm:after:hover:h-[88%] sm:after:h-0">
+                        <div class="w-full sm:w-1/5 px-4 sm:p-10">
+                            <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full  after:bg-gray-200 after:rounded-l-3xl after:rounded-r-4xl after:rounded-full  after:top-0 after:left-0 after:-z-10">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,10 L12,18 M12,6 L12,8"></path></svg>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-[80%] p-4 sm:p-10">
+                            <div class="heading text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                                Obtaining Information
+                            </div>
+                            <div class="description md:text-base text-sm text-black/70 mt-5">
+                                First things first, we’ll connect with the client to understand their objective of building a taxi/cab booking App. What are their target market and audience? Do they’ve any specific requirements.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 px-5 h-auto">
+                    <div class="mainCard flex flex-wrap shadow-2xl  rounded-md h-full relative sm:before:absolute sm:before:h-[25%] sm:before:top-[12%] sm:before:left-0 sm:before:w-[5px] sm:before:duration-300 sm:before:bg-[#083e56] sm:after:absolute sm:after:top-[12%] sm:after:left-0 sm:after:w-[5px] sm:after:bg-[#083e56] sm:after:duration-500 sm:after:hover:h-[88%] sm:after:h-0">
+                        <div class="w-full sm:w-1/5 px-4 sm:p-10">
+                            <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full  after:bg-gray-200 after:rounded-l-3xl after:rounded-r-4xl after:rounded-full  after:top-0 after:left-0 after:-z-10">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M4.9565 10.2246c0-1.8766 1.5257-3.4023 3.4-3.4023 1.8766 0 3.4024 1.5257 3.4024 3.4023 0 .6838-.5526 1.2364-1.2341 1.2364-.6818 0-1.2344-.5526-1.2344-1.2364 0-.513-.4185-.9296-.9338-.9296-.5129 0-.9317.4165-.9317.9296 0 .6838-.5523 1.2364-1.234 1.2364-.6818 0-1.2344-.5526-1.2344-1.2364m14.0868 5.717c0 .6842-.5524 1.2363-1.2341 1.2363H6.3575c-.6818 0-1.2344-.552-1.2344-1.2363 0-.6837.5526-1.2363 1.2344-1.2363h11.4517c.6817 0 1.234.5526 1.234 1.2363m-5.351-5.0244c-.3814-.5657-.2323-1.3328.3334-1.7143l2.8628-1.9334c.5613-.3902 1.3329-.2324 1.7144.3289.3815.5654.2323 1.3329-.3334 1.7144l-2.8628 1.9333c-.5442.3831-1.3348.2379-1.7144-.3289zm7.8393 7.6018a.8815.8815 0 0 1-.258.6227l-2.1277 2.1277a.8822.8822 0 0 1-.623.258H5.4772a.8822.8822 0 0 1-.623-.258l-2.1277-2.1277a.8815.8815 0 0 1-.258-.6227V5.4818a.8797.8797 0 0 1 .258-.6228l2.1277-2.1282a.8816.8816 0 0 1 .623-.2578h13.0456a.8816.8816 0 0 1 .623.2578l2.1277 2.1282a.8797.8797 0 0 1 .258.6228V18.519zm1.811-15.0835L20.5644.6577A2.2454 2.2454 0 0 0 18.9775 0H5.0207A2.2445 2.2445 0 0 0 3.433.658L.657 3.4359A2.2449 2.2449 0 0 0 0 5.0228v13.9547c0 .5953.2366 1.1667.6575 1.5872l2.778 2.7779c.421.421.9918.6573 1.5871.6573h13.9548a2.2448 2.2448 0 0 0 1.5872-.6573l2.7779-2.7779A2.2436 2.2436 0 0 0 24 18.9775V5.023a2.2451 2.2451 0 0 0-.6575-1.5875z"></path></svg>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-[80%] p-4 sm:p-10">
+                            <div class="heading text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                                Wireframing
+                            </div>
+                            <div class="description md:text-base text-sm text-black/70 mt-5">
+                                Once, we have a clear idea of your requirements and expectations, next, we’ll conduct a market search that involves knowing your audience and competitors. We’ll take your valuable inputs, and move ahead with designing.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 px-5 h-auto">
+                    <div class="mainCard flex flex-wrap shadow-2xl  rounded-md h-full relative sm:before:absolute sm:before:h-[25%] sm:before:top-[12%] sm:before:left-0 sm:before:w-[5px] sm:before:duration-300 sm:before:bg-[#083e56] sm:after:absolute sm:after:top-[12%] sm:after:left-0 sm:after:w-[5px] sm:after:bg-[#083e56] sm:after:duration-500 sm:after:hover:h-[88%] sm:after:h-0">
+                        <div class="w-full sm:w-1/5 px-4 sm:p-10">
+                            <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full  after:bg-gray-200 after:rounded-l-3xl after:rounded-r-4xl after:rounded-full  after:top-0 after:left-0 after:-z-10">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M6,6 L6,5 C6,2 7.5,1 10,1 L14,1 C16.5,1 18,2.5 18,5 L18,6 C21,6 23,8 23,11 C23,14 21,16 18,16 M14,6 L6,6 C3,6 1,7.5 1,11 C1,14.5 3,16 6,16 M8,19 L16,19 L16,12 L8,12 L8,19 Z M12,19 L12,23 L12,19 Z M9,23 L15,23 L9,23 Z"></path></svg>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-[80%] p-4 sm:p-10">
+                            <div class="heading text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                                Designing
+                            </div>
+                            <div class="description md:text-base text-sm text-black/70 mt-5">
+                                We have a qualified panel of creative designers with vast practical industry experience to translate your App idea into a well-crafted design that delivers a seamless browsing experience.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 px-5 h-auto">
+                    <div class="mainCard flex flex-wrap shadow-2xl  rounded-md h-full relative sm:before:absolute sm:before:h-[25%] sm:before:top-[12%] sm:before:left-0 sm:before:w-[5px] sm:before:duration-300 sm:before:bg-[#083e56] sm:after:absolute sm:after:top-[12%] sm:after:left-0 sm:after:w-[5px] sm:after:bg-[#083e56] sm:after:duration-500 sm:after:hover:h-[88%] sm:after:h-0">
+                        <div class="w-full sm:w-1/5 px-4 sm:p-10">
+                            <div class="icon h-[50px] sm:h-[70px] w-[50px] sm:w-[70px] text-[#083e56] p-3 relative after:absolute after:h-full after:w-full  after:bg-gray-200 after:rounded-l-3xl after:rounded-r-4xl after:rounded-full  after:top-0 after:left-0 after:-z-10">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="h-full w-full" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"></path></svg>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-[80%] p-4 sm:p-10">
+                            <div class="heading text-black font-bold lg:text-2xl md:text-xl sm:text-lg text-base ">
+                                Development
+                            </div>
+                            <div class="description md:text-base text-sm text-black/70 mt-5">
+                                Once you’ve got your approval for the design, our in-house experienced and knowledgeable development team will commence with developing the App with all the features.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+{{-- Section 5B Ends --}}
+
+{{-- section 10 start --}}
+    <div class="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
+        <div class="flex flex-col-reverse w-full flex-wrap">
+            <div class="w-full">
+                <div class="swiper keyFeatures text-white swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden" data-swiper="{
+                        &quot;spaceBetween&quot;: 10,
+                        &quot;loop&quot;: true,
+                        &quot;slidesPerView&quot;: 1,
+                        &quot;effect&quot;: &quot;fade&quot;,
+                        &quot;speed&quot;: 1500,
+                        &quot;thumbs&quot;: {&quot;swiper&quot;: &quot;.keyFeaturesThumb&quot;}
+                    }">
+                    <div class="swiper-wrapper" id="swiper-wrapper-8fb471297fa23ddd" aria-live="polite" style="transition-duration: 1500ms;">
+                        <div class="swiper-slide group/svc swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 3" data-swiper-slide-index="0" style="width: 1216px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 1500ms;">
+                            <div class="sm:p-6 p-4 rounded-2xl md:rounded-3xl relative z-0 opacity-0 group-[.swiper-slide-active]/svc:h-auto h-0 overflow-hidden group-[.swiper-slide-active]/svc:opacity-100 bg-theme1 !pt-4">               
+                                <div class="absolute inset-x-0 bottom-0 h-96 z-0 text-white/20 pointer-events-none [mask-image:linear-gradient(to_bottom,transparent,white)]">
+                                    <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="sd7" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                                                <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" fill="url(#sd7)"></rect>
+                                    </svg>
+                                </div>                              
+                                <p class="text-center select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] opacity-0 translate-x-1/4 duration-300 group-[.swiper-slide-active]/svc:opacity-100 group-[.swiper-slide-active]/svc:translate-x-0">
+                                    <span class="font-normal">User</span> 
+                                    <span class="font-bold text-white">Panel</span>
+                                </p>
+                                <div class="text-center md:text-base text-sm mt-3 mb-lg-1 md:font-semibold opacity-0 translate-x-1/4 md:px-48 delay-100 duration-300 group-[.swiper-slide-active]/svc:opacity-70 group-[.swiper-slide-active]/svc:translate-x-0 text-balance">
+                                    The user panel in an e-commerce app is designed for customers. It allows users to browse products, place orders, track shipments, and manage their accounts, providing a seamless shopping experience.
+                                </div>
+                                <div class="flex flex-wrap mt-10 items-center">
+                                    <div class="lg:w-2/6 w-full">
+                                        <div class="mobileImg sm:w-64 w-52 sm:h-auto h-96 mx-auto">
+                                            <img src="https://www.imgglobalinfotech.com/public/tailwind/img/jewellery-user-penal.webp?id=f1ed4fc564b7ad55f87d850b370c2e65" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/jewellery-user-penal.webp?id=f1ed4fc564b7ad55f87d850b370c2e65" alt="jewellery-user-penal" class="img-fluid h-full w-full ">
+                                        </div>
+                                    </div>
+                                    <div class="lg:w-4/6 w-full">
+                                        <div class="flex flex-wrap items-stretch">
+                                            <div class="md:w-1/2 w-full md:p-4 p-3">
+                                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                                    <div class="">
+                                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">User Authentication </div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users can create accounts, log in securely, and manage their profiles. It includes updating personal information, viewing order history, and managing saved addresses.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full md:p-4 p-3">
+                                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                                    <div class="">
+                                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Product Browsing and Search</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">An intuitive interface for users to browse products easily. Include search filters, sorting options, and a user-friendly navigation system.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full md:p-4 p-3">
+                                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                                    <div class="">
+                                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Shopping Cart and Checkout</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users should be able to add products to their shopping cart, view the cart, and proceed to a secure checkout process. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full md:p-4 p-3">
+                                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                                    <div class="">
+                                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Order Tracking and Notifications</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users should receive real-time updates on their order status. This includes confirmation emails, shipping notifications, and tracking information. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full md:p-4 p-3">
+                                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                                    <div class="">
+                                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Wishlist and Favorites</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">A wishlist feature allows users to save items for future purchases. Favorites section help users easily access products they frequently buy.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="md:w-1/2 w-full md:p-4 p-3">
+                                                <div class="sm:p-4 group/db p-3 backdrop-blur-xl rounded-br-none relative duration-500 bg-white/5 shadow-md shadow-white/5 border-4 border-white/5 rounded-xl hover:scale-95 h-full">
+                                                    <div class="">
+                                                        <div class="md:text-xl sm:text-lg text-base font-medium leading-6 text-white">Reviews and Ratings</div>
+                                                        <p class="mt-2 sm:text-base text-sm leading-6 font-normal text-white/70 line-clamp-4 text-ellipsis">Users should be able to leave reviews and ratings for products they've purchased. This helps users make informed decisions.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+            </div>
+        </div>
+    </div>
+{{-- section 10 Ends --}}
+
+
 
 @endsection
 

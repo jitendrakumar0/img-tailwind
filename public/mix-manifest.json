@@ -1,7 +1,7 @@
 {
-    "/tailwind/js/app.js": "/tailwind/js/app.js?id=8fe1be078e8ae6a866c82e1d8be56ef9",
-    "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=8ce987e3b075f59e6ccc0b27c0b56d45",
-    "/tailwind/css/app.css": "/tailwind/css/app.css?id=df29d5dd8642bd756cfdefe834e3c7b7",
+    "/tailwind/js/app.js": "/tailwind/js/app.js",
+    "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js",
+    "/tailwind/css/app.css": "/tailwind/css/app.css",
     "/tailwind/4882464.webp": "/tailwind/4882464.webp?id=061619ee44e4629ca2ca2c355bb94188",
     "/tailwind/android-chrome-144x144.png": "/tailwind/android-chrome-144x144.png?id=de3c1fceec9a432a8ddcf6684b1d46c2",
     "/tailwind/android-chrome-192x192.png": "/tailwind/android-chrome-192x192.png?id=d24a76fcee41c06d0bc18709fc08be46",
@@ -26,6 +26,7 @@
     "/tailwind/favicon.ico": "/tailwind/favicon.ico?id=f958987fb22dc71f06f45a43fecf3288",
     "/tailwind/img/about/aboutimg.webp": "/tailwind/img/about/aboutimg.webp?id=bdf5df3a48331328872e38b7f7b90b38",
     "/tailwind/img/about/customSof.webp": "/tailwind/img/about/customSof.webp?id=061619ee44e4629ca2ca2c355bb94188",
+    "/tailwind/img/about/eadi_ecommerce_cta_three_bg.webp": "/tailwind/img/about/eadi_ecommerce_cta_three_bg.webp?id=7406fd94f9eb844b7436b09b0e5d53f8",
     "/tailwind/img/about/maskimg.webp": "/tailwind/img/about/maskimg.webp?id=5f73e17b97982b188a45a3ab5369ae15",
     "/tailwind/img/about/mask_7.webp": "/tailwind/img/about/mask_7.webp?id=a3a8b6855d5c3b7a817864f806f6a42e",
     "/tailwind/img/about/top-mobile-app-development-company.webp": "/tailwind/img/about/top-mobile-app-development-company.webp?id=2344a5d2ece19873b21c7724ee142fb8",
