@@ -1706,18 +1706,58 @@
             <div class="md:text-base text-sm text-white/70 mt-3 mb-lg-1 mb-0">We have experienced and skilled developers who have delivered successful mobile apps for various industry verticals. Our professionals gather the client's needs and then plan for the right solutions, execute them, and make the client taste the success in their respective industries.</div>
             
         </div>
-        <ul class="flex flex-wrap items-stretch pt-4 relative z-50 *:lg:w-1/3 *:h-auto *:p-4 *:w-full *:md:w-1/2 *:*:w-full *:*:h-full *:*:relative *:*:bg-slate-50 *:*:rounded-xl *:*:p-4 *:*:shadow-lg *:*:border-2 *:*:border-gray-50 hover:*:*:border-rose-600 *:*:duration-500 *:*:*:flex *:*:*:justify-between *:*:*:items-center [&_.icon]:w-10 [&_.icon]:text-slate-950">   
+        <ul class="flex flex-wrap items-stretch pt-4 relative *:lg:w-1/3 *:h-auto *:p-4 *:w-full *:md:w-1/2 *:*:w-full *:*:h-full *:*:relative *:*:bg-slate-50 *:*:rounded-xl *:*:p-4 *:*:shadow-lg *:*:border-2 *:*:border-gray-50 hover:*:*:border-rose-600 *:*:duration-500 *:*:*:flex *:*:*:justify-between *:*:*:items-center [&_.icon]:w-10 [&_.icon]:text-slate-950 [&_.icon2]:w-10 [&_.icon2]:rotate-45 [&_.icon2]:duration-300 [&_.icon2]:text-gray-300 [&_.heading]:text-xl [&_.heading]:font-bold [&_.heading]:text-rose-600 [&_.heading]:py-3 [&_.title]:text-base [&_.title]:font-thin">   
             <li>
                 <div class="group">
                     <div class="">
                         <div class="icon">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" size-full" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
                         </div>
-                        <div class="w-10 rotate-45 duration-300 text-gray-300 group-hover:text-rose-600">
+                        <div class="icon2 group-hover:text-rose-600">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-full" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
                         </div>
-                    <div class="text-xl font-bold text-rose-600 group-hover:text-slate-900 duration-300 my-5">Incremental Backups</div>
-                    <div class="text-lg font-thin">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
+                    <div class="heading">Incremental Backups</div>
+                    <div class="title">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
+                </div>
+            </li>
+            <li>
+                <div class="group">
+                    <div class="">
+                        <div class="icon">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" size-full" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
+                        </div>
+                        <div class="icon2 group-hover:text-rose-600">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-full" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
+                        </div>
+                    <div class="heading">Incremental Backups</div>
+                    <div class="title">Our solution findsOur solution findsOur solution findsOur solution findsOur solution finds
+                         and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
+                </div>
+            </li>
+            <li>
+                <div class="group">
+                    <div class="">
+                        <div class="icon">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" size-full" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
+                        </div>
+                        <div class="icon2 group-hover:text-rose-600">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-full" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
+                        </div>
+                    <div class="heading">Incremental Backups</div>
+                    <div class="title">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
+                </div>
+            </li>
+            <li>
+                <div class="group">
+                    <div class="">
+                        <div class="icon">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" size-full" xmlns="http://www.w3.org/2000/svg"><path d="M247 40l-74.6 161.6 74.6 24.9V40zm18 0v186.5l74.6-24.9L265 40zm-86.7 105.8l-136.02 17 112.02 35 24-52zm155.4 0l24 52 112.1-35-136.1-17zM25.48 176.4L130 307.1l104.6-65.4-209.12-65.3zm461.02 0l-209.1 65.3L382 307.1l104.5-130.7zM256 249.6L159.4 310h193.2L256 249.6zM128 358c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 383 120.1 376 128 376c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 367 400 358 384 358c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 358 256 358s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 358 128 358zm0 64c-16 0-32.14 9-45.68 17.3-13.53 8.4-23.93 16.7-23.93 16.7l11.22 14s9.65-7.7 22.14-15.3C104.2 447 120.1 440 128 440c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 16.4 6 26.4 14s21.6 18 37.6 18 27.6-10 37.6-18 18.5-14 26.4-14c7.9 0 23.8 7 36.2 14.7 12.5 7.6 22.2 15.3 22.2 15.3l11.2-14s-10.4-8.3-23.9-16.7C416.1 431 400 422 384 422c-16 0-27.6 10-37.6 18s-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S272 422 256 422s-27.6 10-37.6 18-18.5 14-26.4 14c-7.9 0-16.4-6-26.4-14S144 422 128 422z"></path></svg>
+                        </div>
+                        <div class="icon2 group-hover:text-rose-600">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-full" xmlns="http://www.w3.org/2000/svg"><path d="M348.3 216.4c-5 5.1-13.3 5.1-18.4.1L269 155.8v231.3c0 7.1-5.8 12.9-13 12.9s-13-5.8-13-12.9V155.8l-60.9 60.8c-5.1 5-13.3 4.9-18.4-.1-5-5.1-5-13.2.1-18.3l83-82.4c1.2-1.1 2.5-2 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l83 82.4c5.2 4.9 5.3 13.1.3 18.2z"></path></svg></div>
+                        </div>
+                    <div class="heading">Incremental Backups</div>
+                    <div class="title">Our solution finds and backs up only changed files which means your backup time is fast, and your storage is minimized.</div>
                 </div>
             </li>
         </ul>
@@ -1726,10 +1766,20 @@
 
 {{-- card-2 --}}
 {{-- slider card --}}
+<ul class="flex flex-wrap items-stretch pt-4 *:lg:w-1/3 *:h-auto *:p-4 *:w-full *:md:w-1/2 *:*:size-full *:*:p-3 *:*:border *:*:border-theme4">
+    <li>
+        <div>
+            <div class="size-16 text-black/30 flex justify-center items-center rounded-full bg-gray-300">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 32 32" class="size-10" xmlns="http://www.w3.org/2000/svg"><path d="M 16 3 C 14.230469 3 13.058594 3.984375 12.59375 5 C 12.242188 5.769531 12.285156 6.304688 12.28125 6.75 C 11.535156 7.257813 10.75 7.90625 10.125 8.53125 C 8.726563 9.929688 7.960938 11.921875 8 14.03125 C 8.019531 15.003906 8.21875 15.980469 8.59375 16.96875 C 8.78125 17.464844 9.125 18.324219 9.4375 19.28125 C 9.75 20.238281 10 21.292969 10 22 L 9 22 C 8.96875 22 8.9375 22 8.90625 22 C 8.367188 22.035156 7.953125 22.492188 7.972656 23.03125 C 7.988281 23.570313 8.429688 23.996094 8.96875 24 L 7.1875 26.40625 L 7 26.65625 L 7 29 L 25 29 L 25 26.65625 L 24.8125 26.40625 L 23 24 C 23.359375 24.003906 23.695313 23.816406 23.878906 23.503906 C 24.058594 23.191406 24.058594 22.808594 23.878906 22.496094 C 23.695313 22.183594 23.359375 21.996094 23 22 L 22 22 C 22 19.738281 20.59375 17.664063 19.28125 16.0625 C 18.53125 15.144531 18.285156 14.984375 17.78125 14.5 C 17.960938 14.394531 18.183594 14.269531 18.3125 14.1875 C 18.472656 14.085938 18.558594 14.023438 18.59375 14 C 18.875 14 18.894531 14.046875 19.1875 14.28125 C 19.480469 14.515625 20.078125 15 20.90625 15 C 21.632813 15 22.164063 14.53125 22.4375 14.1875 C 22.6875 13.871094 22.824219 13.632813 22.84375 13.59375 C 22.933594 13.550781 23.128906 13.488281 23.375 13.3125 C 23.621094 13.136719 23.941406 12.746094 24 12.3125 C 24.058594 11.878906 23.921875 11.5 23.75 11.125 C 23.496094 10.570313 23.023438 9.933594 22.28125 9.15625 C 21.539063 8.378906 20.566406 7.554688 19.375 7.0625 C 19.285156 7.023438 19.359375 7.082031 19.3125 7.03125 C 19.265625 6.980469 19.125 6.769531 18.84375 6.5625 C 18.476563 6.292969 17.679688 6.261719 17 6.1875 L 17 3 Z M 15 5.21875 L 15 8 L 16 8 C 17.363281 8 17.664063 8.164063 17.65625 8.15625 C 17.652344 8.152344 17.660156 8.171875 17.8125 8.34375 C 17.964844 8.515625 18.261719 8.785156 18.625 8.9375 C 19.425781 9.269531 20.226563 9.917969 20.84375 10.5625 C 21.421875 11.164063 21.808594 11.761719 21.875 11.875 C 21.714844 11.953125 21.546875 12.007813 21.34375 12.25 C 21.070313 12.582031 20.972656 12.8125 20.875 12.9375 C 20.84375 12.976563 20.847656 12.988281 20.84375 13 C 20.757813 12.988281 20.699219 12.933594 20.4375 12.71875 C 20.109375 12.453125 19.457031 12 18.59375 12 C 17.9375 12 17.566406 12.300781 17.25 12.5 C 16.933594 12.699219 16.679688 12.84375 16.59375 12.875 L 16.5625 12.90625 L 16.53125 12.90625 C 16.347656 12.984375 16.03125 13 16.03125 13 L 15 12.96875 L 15 14.5625 L 15.34375 14.84375 C 15.34375 14.84375 16.53125 15.890625 17.71875 17.34375 C 18.90625 18.796875 20 20.667969 20 22 L 12 22 C 12 20.878906 11.6875 19.703125 11.34375 18.65625 C 11 17.609375 10.59375 16.695313 10.4375 16.28125 C 10.144531 15.507813 10.015625 14.707031 10 13.96875 C 9.96875 12.363281 10.542969 10.925781 11.53125 9.9375 C 12.183594 9.285156 13.15625 8.46875 13.6875 8.15625 L 14.1875 7.875 L 14.1875 7.3125 C 14.1875 6.941406 14.1875 6.320313 14.40625 5.84375 C 14.53125 5.574219 14.703125 5.367188 15 5.21875 Z M 11.5 24 L 20.5 24 L 22.75 27 L 9.25 27 Z"></path></svg>
+            </div>
+        </div>
+    </li>
+
+</ul>
 
 {{-- slider card --}}
 <div class="flex ">
-    <div class="w-full md:w-1/4 p-4 h-full">
+    <div class="w-full ">
         <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
         <img alt="..." src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" class="w-full align-middle rounded-t-lg">
         <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[42px] h-max">
@@ -1740,39 +1790,7 @@
         </blockquote>
         </div>
     </div>
-    <div class="w-full md:w-1/4 p-4 h-full">
-        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
-        <img alt="..." src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" class="w-full align-middle rounded-t-lg">
-        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[42px] h-max">
-            <polygon points="-30,95 583,95 583,65" class="text-gray-200 fill-current"></polygon></svg>
-            <h4 class="text-lg  font-semibold text-slate-900 text-ellipsis line-clamp-2">Top Notch Services </h4>
-            <p class="text-base font-light mt-1 text-slate-900 font-md text-ellipsis line-clamp-3"> The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens. </p>
-            <a href="" class="text-md font-semibold mt-4 text-blue-900">Read More</a>
-        </blockquote>
-        </div>
-    </div>
-    <div class="w-full md:w-1/4 p-4 h-full">
-        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
-        <img alt="..." src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" class="w-full align-middle rounded-t-lg">
-        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[42px] h-max">
-            <polygon points="-30,95 583,95 583,65" class="text-gray-200 fill-current"></polygon></svg>
-            <h4 class="text-lg  font-semibold text-slate-900 text-ellipsis line-clamp-2">Top Notch Services </h4>
-            <p class="text-base font-light mt-1 text-slate-900 font-md text-ellipsis line-clamp-3"> The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens. </p>
-            <a href="" class="text-md font-semibold mt-4 text-blue-900">Read More</a>
-        </blockquote>
-        </div>
-    </div>
-    <div class="w-full md:w-1/4 p-4 h-full">
-        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
-        <img alt="..." src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" class="w-full align-middle rounded-t-lg">
-        <blockquote class="relative p-3"><svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block -top-[42px] h-max">
-            <polygon points="-30,95 583,95 583,65" class="text-gray-200 fill-current"></polygon></svg>
-            <h4 class="text-lg  font-semibold text-slate-900 text-ellipsis line-clamp-2">Top Notch Services </h4>
-            <p class="text-base font-light mt-1 text-slate-900 font-md text-ellipsis line-clamp-3"> The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens. </p>
-            <a href="" class="text-md font-semibold mt-4 text-blue-900">Read More</a>
-        </blockquote>
-        </div>
-    </div>
+   
    
 </div>
 {{-- wavy-cards --}}
@@ -1933,13 +1951,283 @@
 {{-- img-card --}}
 
 {{-- card-19 --}}
-<div class="w-1/3 p-3">
-    <div>
-        
+
+{{-- card-19 end--}}
+{{-- section-b2b --}}
+{{-- section 2 start--}}
+<div class="relative bg-slate-50 py-6 md:py-8 lg:py-16 select-none">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 w-full">
+        <div class="absolute inset-0 size-full pointer-events-none overflow-hidden">
+            <div class="absolute inset-y-0 hidden w-full min-w-[1360px] bg-[url('../img/beams1.webp')] bg-[length:2000px_100%] bg-[position:calc(50%_+_220px)_-50px] bg-no-repeat lg:block pointer-events-none"></div>
+        </div>
+        <div class="
+                mx-auto max-w-container gap-7 flex max-lg:flex-col max-lg:gap-4
+                [&>*:first-child]:[&:has(.content1-img)]:lg:block
+                [&:first-child]:hidden [&>*:last-child]:[&:has(.content1-img)]:max-w-3xl
+                [&>*:last-child]:[&:has(.content1-img)]:lg:w-3xl
+            ">
+            <div class="relative z-10 hidden pointer-events-none h-auto md:sticky md:top-24 self-start">
+                <div class="flex [transform:rotateY(180deg)]">
+                    <div class="relative flex-shrink-0 p-4 w-full">
+                        <div class="relative z-10 overflow-hidden *:rounded-xl [transform:rotateY(180deg)] [&~*]:[&:has(.mask)]:lg:hidden">
+                                        <img class="object-cover w-full h-auto content1-img" width="336" height="404" src="https://images.unsplash.com/photo-1570126618953-d437176e8c79?w=350&h=450&crop=entropy&cs=tinysrgb&fit=crop&q=80" data-src="https://images.unsplash.com/photo-1570126618953-d437176e8c79?w=350&h=450&crop=entropy&cs=tinysrgb&fit=crop&q=80" alt="image3">
+                        </div>
+                        <div class="z-0">
+                            <div class="absolute -right-12 left-0 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                            <div class="absolute -top-8 bottom-0 left-12 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                            <div class="absolute -right-12 bottom-14 left-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                            <div class="absolute -bottom-8 -top-2 right-0 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                            <div class="absolute bottom-full right-10 -mb-px flex h-8 items-end overflow-hidden">
+                                <div class="flex -mb-px h-[2px] w-80 -scale-x-100">
+                                    <div class="w-full flex-none blur-sm [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
+                                    <div class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative mt-14 flex-shrink-0 p-4">
+                        <div class="overflow-hidden">
+                            <div class="object-cover h-[404px] w-[336px] aspect-[336/404]"></div>
+                        </div>
+                        <div>
+                        <div class="absolute -left-4 -right-8 top-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                        <div class="absolute -bottom-12 -top-20 right-0 w-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_top,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                        <div class="absolute -left-4 -right-8 bottom-0 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]"></div>
+                        <div class="absolute right-10 top-[calc(100%-1px)] -mb-px flex h-8 items-start overflow-hidden">
+                            <div class="flex -mt-px h-[2px] w-80 -scale-x-100">
+                                <div class="w-full flex-none blur-sm [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
+                                <div class="-ml-[100%] w-full flex-none blur-[1px] [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative z-20 mx-auto lg:mx-0 lg:pr-4 md:py-6 md:md:py-8 h-auto md:sticky md:top-24 self-start shrink-1 grow-0 basis-auto w-full">
+                <p class="
+                    max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black
+                    first:*:font-normal
+                    last:*:font-bold last:*:text-theme4
+                ">
+                                <span class="font-normal">A Quick Insight Into </span> <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme4">IMG Global Infotech</span>
+                </p>
+                            <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">Discover innovation and excellence at IMG Global Infotech! Immerse yourself in cutting-edge services and high-quality development solutions that redefine the digital landscape. Our dynamic work environment fosters creativity and collaboration to fuel groundbreaking ideas.</p>
+            <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">At IMG, we pride ourselves on timely delivery, transforming visions into reality. From mobile app development to custom software solutions and dedicated developer hiring, we cater to businesses of all scales. Experience top-notch development, reasonable prices, and a partnership that exceeds expectations - at IMG Global Infotech, we make digital dreams come true.</p>
+            </div>
+        </div>
+        <div class="pointer-events-none absolute inset-0 shadow-[inset_0_-1px_1px_rgba(0,0,0,0.06)]"></div>
     </div>
 </div>
-{{-- card-19 end--}}
+{{-- section 2 end --}}
+{{-- slider-section --}}
+<div class="w-full py-6 md:py-8 lg:py-16 lg:text-left relative z-[1] overflow-hidden md:gap-10 gap-8 flex flex-col">
+   <div class="flex items-center flex-wrap">
+    <div class="md:w-[40%] lg:w-[30%] w-full p-3">
+        <p class="
+        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black
+        first:*:font-normal
+        last:*:font-bold last:*:text-theme4
+    ">
+                    <span class="font-normal">We Offer B2B Marketplace </span> 
+                        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme4">
+                        Solution for Major Industries</span>
+    </p>
+    <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">We have a team of experienced e-commerce developers who are proficient to deliver solutions that can help improve your online presence and boost sales.</p>
+    <div class="pt-5">
+        <a href="https://www.imgglobalinfotech.com/about-us.php" class="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Read More <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
+    </div>
+</div>
+    <div class="md:w-[60%] lg:w-[70%] w-full">
+        <div class="w-max flex group/marquee gap-5 *:flex *:items-center *:gap-5 *:duration-300 *:animate-marquee-h lg:*:*:w-60 md:*:*:w-48 *:*:w-40 *:*:aspect-[460/800] *:*:rounded-2xl *:*:drop-shadow-xl *:*:shadow-slate-600">
+            <div class="group-hover/marquee:[animation-play-state:paused]">
+                            <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next1.webp?id=2be73cbff63295a7f31016e290ecab70" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next1.webp?id=2be73cbff63295a7f31016e290ecab70" alt="medicine-delivery-next">
+                    <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next2.webp?id=d7d44e7e3b422dab58822de547e5acd6" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next2.webp?id=d7d44e7e3b422dab58822de547e5acd6" alt="medicine-delivery-next">
+                    <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next3.webp?id=701cc4cdf013fa2e5fb0a6c5c7c375c9" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next3.webp?id=701cc4cdf013fa2e5fb0a6c5c7c375c9" alt="medicine-delivery-next">
+                    <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next4.webp?id=45f5a7a66be3b7fbdd75eaad343e5cf0" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next4.webp?id=45f5a7a66be3b7fbdd75eaad343e5cf0" alt="medicine-delivery-next">
+                    <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next5.webp?id=a73783aeead73b4d478b81ac4722c543" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next5.webp?id=a73783aeead73b4d478b81ac4722c543" alt="medicine-delivery-next">
+                    <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next6.webp?id=82cc23f891ef71f61e0c0bc6a2db08e6" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next6.webp?id=82cc23f891ef71f61e0c0bc6a2db08e6" alt="medicine-delivery-next">
+                    <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next7.webp?id=7e44bd5460ec94c74cfd8f9b7302ac80" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next7.webp?id=7e44bd5460ec94c74cfd8f9b7302ac80" alt="medicine-delivery-next">
+                    <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next8.webp?id=64107fe952d894e536f1c7fb68a98b31" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next8.webp?id=64107fe952d894e536f1c7fb68a98b31" alt="medicine-delivery-next">
+                    <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next9.webp?id=8cda4a8ddc7190c86c9e95a601960995" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next9.webp?id=8cda4a8ddc7190c86c9e95a601960995" alt="medicine-delivery-next">
+                    <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next10.webp?id=690085c311f1ee528431e80e6899cf59" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next10.webp?id=690085c311f1ee528431e80e6899cf59" alt="medicine-delivery-next">
+            </div> 
+            <div class="group-hover/marquee:[animation-play-state:paused]">
+                <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next1.webp?id=2be73cbff63295a7f31016e290ecab70" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next1.webp?id=2be73cbff63295a7f31016e290ecab70" alt="medicine-delivery-next">
+                <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next2.webp?id=d7d44e7e3b422dab58822de547e5acd6" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next2.webp?id=d7d44e7e3b422dab58822de547e5acd6" alt="medicine-delivery-next">
+                <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next3.webp?id=701cc4cdf013fa2e5fb0a6c5c7c375c9" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next3.webp?id=701cc4cdf013fa2e5fb0a6c5c7c375c9" alt="medicine-delivery-next">
+                <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next4.webp?id=45f5a7a66be3b7fbdd75eaad343e5cf0" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next4.webp?id=45f5a7a66be3b7fbdd75eaad343e5cf0" alt="medicine-delivery-next">
+                <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next5.webp?id=a73783aeead73b4d478b81ac4722c543" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next5.webp?id=a73783aeead73b4d478b81ac4722c543" alt="medicine-delivery-next">
+                <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next6.webp?id=82cc23f891ef71f61e0c0bc6a2db08e6" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next6.webp?id=82cc23f891ef71f61e0c0bc6a2db08e6" alt="medicine-delivery-next">
+                <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next7.webp?id=7e44bd5460ec94c74cfd8f9b7302ac80" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next7.webp?id=7e44bd5460ec94c74cfd8f9b7302ac80" alt="medicine-delivery-next">
+                <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next8.webp?id=64107fe952d894e536f1c7fb68a98b31" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next8.webp?id=64107fe952d894e536f1c7fb68a98b31" alt="medicine-delivery-next">
+                <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next9.webp?id=8cda4a8ddc7190c86c9e95a601960995" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next9.webp?id=8cda4a8ddc7190c86c9e95a601960995" alt="medicine-delivery-next">
+                <img width="440" height="900" src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next10.webp?id=690085c311f1ee528431e80e6899cf59" data-src="https://www.imgglobalinfotech.com/public/tailwind/img/medicine-delivery-next10.webp?id=690085c311f1ee528431e80e6899cf59" alt="medicine-delivery-next">
+            </div>
+            </div>
+        </div>
+    </div>
 
+</div>
+
+{{-- slider-secftion-end --}}
+{{-- section-6 --}}
+<section class="bg-gray-100">
+        <div class="relative isolate select-none py-6 md:py-8 lg:py-16">
+    <div class="overflow-hidden">
+    <div class="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/5 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
+    <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <pattern id="ED433" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+            </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#ED433)"></rect>
+    </svg>
+    </div>
+    <div class="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
+    <p class="
+        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center
+
+        first:*:font-normal
+
+        last:*:font-bold last:*:text-theme4
+    ">    <span>Our B2B eCommerce</span> 
+    <span>  Development Services</span>
+    </p>
+    <div class="md:text-base text-sm text-black/70 mt-3">You can count on our B2B eCommerce software development team to get the best services for your next online selling
+        project.
+    </div>
+    </div>
+    </div>
+    <div class="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
+        <div class="flex flex-wrap mt-10 ">
+            <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+                    <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Custom eCommerce</div>
+                    <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">Get your eCommerce platform customized as per your business needs and market demands. We hold years of expertise to customize your storefor higher engagement and conversion rate.</div>
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+                    <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Mindful Personal Guidance</div>
+                    <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">If you want your organization to function better and create a healthy working environment for your employees.</div>
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+                    <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Constructive Feedback</div>
+                    <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">Creating a good quality requires solving problems and exercising our minds to find the best methods or tools.</div>
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+                    <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Inclusive & Open-Culture</div>
+                    <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">Cultural inclusion starts at the top business leaders must display inclusive behavior.</div>
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+                    <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Innovation & Quality First</div>
+                    <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">We always let our staff take initiative and to innovate with new ideas and come up with better.</div>
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-4/12 sm:w-1/2 w-full sm:p-6 sm:px-6 py-6">
+                <div class="relative block h-full bg-white shadow-md rounded-lg rounded-br-none p-6 pt-10 group">
+                    <div class="font-bold text-slate-900 md:text-xl text-lg relative before:absolute before:left-0 before:top-[-16px] before:h-[4px] before:w-[40px] before:bg-gradient-to-r before:from-blue-600 before:to-blue-300 ">Proactive Implementation</div>
+                    <div class="text-black text-sm mt-2 text-ellipsis line-clamp-4 ">Strong emotional reactions are common in reactive people, as they allow themselves to be defined by other people’s actions.</div>
+                    <div class="sm:h-16 sm:w-16 h-14 w-14 bg-white rounded-lg rounded-br-none absolute right-[30px] top-[-30px] p-3 shadow-md duration-300 group-hover:bg-slate-900/90 ">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-orange-500 duration-700 group-hover:scale-90" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0zm0 0h24v24H0V0z"></path><path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6v-4zm6-6h4v3h-4V7zM6 7h5v5H6V7zm6 4h4v6h-4v-6z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+{{-- section-6 end --}}
+{{-- section-7 --}}
+<section class="">
+    <div class="relative isolate select-none py-6 md:py-8 lg:py-16">
+<div class="overflow-hidden">
+<div class="absolute inset-x-0 top-0 h-96 z-0 text-slate-600/5 [mask-image:linear-gradient(to_top,transparent,white)] pointer-events-none">
+<svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="ED433" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+            <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+        </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#ED433)"></rect>
+</svg>
+</div>
+<div class="relative container mx-auto max-w-7xl px-6 lg:px-8 z-10 text-center">
+<p class="
+    max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center
+
+    first:*:font-normal
+
+    last:*:font-bold last:*:text-theme4
+">    <span>Our B2B eCommerce</span> 
+<span>  Development Services</span>
+</p>
+<div class="md:text-base text-sm text-black/70 mt-3">You can count on our B2B eCommerce software development team to get the best services for your next online selling
+    project.
+</div>
+</div>
+</div>
+<div class="container pt-5 md:p-5 sm:p-8 p-5 mx-auto max-w-7xl px-6 lg:px-8 relative z-10 flex">
+    <div class="flex flex-wrap mt-10 ">
+        <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
+            <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
+                <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
+                    Scalability & Flexibility
+                </div>
+                <div class="text-sm text-slate-500 pt-2">
+                    Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
+            <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
+                <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
+                    Scalability & Flexibility
+                </div>
+                <div class="text-sm text-slate-500 pt-2">
+                    Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 p-3 size-auto">
+            <div class="size-full border border-purple-500 rounded-3xl bg-white group p-4 relative before:absolute before:top-1/2 before:-translate-y-1/2  before:-z-10 before:-left-3 before:duration-500 md:before:hover:rotate-180 md:hover:border-rose-500 duration-500 md:before:hover:bg-rose-500 before:rounded-3xl before:size-3/4 before:bg-purple-500 ">
+                <div CLASS="text-lg text-purple-500 md:group-hover:text-rose-500 duration-500 font-semibold">
+                    Scalability & Flexibility
+                </div>
+                <div class="text-sm text-slate-500 pt-2">
+                    Custom software can be developed with 100% scalability, enabling increased data loads, user traffic, and additional features. With custom software, you can flexibly make changes and enhancements as per business needs
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+{{-- section-7 end --}}
+
+{{-- section-b2bend --}}
 
 
 {{-- NEW PAGE START --}}
