@@ -145,6 +145,7 @@ Route::get('/social-media-app-development.php', 'HomeController@social_demo');
 Route::get('/event-app-development.php', 'HomeController@event_demo');
 
 Route::get('/propira-case.php', 'HomeController@propira_casestudy');
+Route::get('/card-casestudy.php', 'HomeController@card_casestudy');
 
 Route::get('/ott-app-development.php', 'HomeController@ott_app_development');
 Route::get('/progressive-web-app-development.php', 'HomeController@progressive_web_app_development');
@@ -267,6 +268,8 @@ Route::get('/cms-development.php', 'HomeController@cms_development');
 Route::get('/php-web-development.php', 'HomeController@php_web_development');
 Route::get('/payment-gateway-integration.php', 'HomeController@payment_gateway_integration');
 Route::get('/ecommerce-solutions.php', 'HomeController@ecommerce_solutions');
+Route::get('/ecommerce-solutions1.php', 'HomeController@ecommerce_solutions1'); 
+
 Route::get('/android-application-development.php', 'HomeController@android_application_development');
 Route::get('/android-application-development1.php', 'HomeController@android_application_development1');
 

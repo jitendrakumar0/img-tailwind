@@ -38,18 +38,30 @@
 
 {{-- Home section  Start --}}
     <div class="relative pt-16 md:pt-20 lg:pt-32 select-none overflow-hidden ">
-        <svg class="absolute inset-0 h-full w-full text-white/20" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <pattern id="ryhhgfbyi" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
-                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
-                </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#ryhhgfbyi)"></rect>
-        </svg>
         <div class="text-black/10">
             <div class="hhyy">
                 <div class="flex flex-wrap items-center bg-[#d90202]">
-                    <div class="textDiv w-full md:w-1/2 pt-6 pb-4 sm:py-8 md:py-12 px-4 md:px-12">
+                    <div class="textDiv w-full md:w-1/2 pt-6 pb-4 sm:py-8 md:py-12 px-4 md:px-12 relative overflow-hidden">
+                        {{-- <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-[-240px] z-10 h-[42rem] w-[42rem] -translate-y1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:right-0 lg:ml-0 lg:-translate-x-1/2 pointer-events-none" aria-hidden="true">
+                            <circle cx="512" cy="512" r="512" fill="url(#l2200)" fill-opacity="0.4"></circle>
+                            <defs>
+                                <radialGradient id="l2200">
+                                    <stop offset="0.5" stop-color="#eee"></stop>
+                                    <stop offset="1" stop-color=""></stop>
+                                </radialGradient>
+                            </defs>
+                        </svg> --}}
+                        <div class="absolute left-1/2 top-0 -z10 -translate-x-[76%] blur-3xl xl:-top-6 pointer-events-none" aria-hidden="true">
+                            <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-pink-600 to-purple-600 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+                        </div>
+                        <svg class="absolute inset-0 h-full w-full text-white/20" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <pattern id="ryhhgfbyi" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+                                    <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
+                                </pattern>
+                            </defs>
+                            <rect width="100%" height="100%" fill="url(#ryhhgfbyi)"></rect>
+                        </svg>
                         <div class="logo h-[50px] sm:h-[74px] w-[85px] sm:w-[120px]">
                             <img src="{{asset('public'.mix('/tailwind/img/PropiraLogo.webp'))}}" alt="thanku" class="img-fluid h-full w-full ">
                         </div>
@@ -657,7 +669,8 @@
             </svg>
         </div>
         <div class="mx-auto max-w-3xl lg:mx-0 lg:flex-auto py-12 md:py-16 lg:py-32 lg:text-left relative z-[1]">
-            <div class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center">Let's turn your <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent">business idea into reality</span></div>
+            <div class="select-none max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-white font-normal text-center">
+                Want to Develop A Real Estate<span class="font-bold bg-gradient-to-r from-gray-100 via-sky-400 to-gray-100 bg-clip-text text-transparent"> App or Website Like Propira?</span></div>
             <p class="mt-6 text-base md:text-lg md:leading-8 text-gray-300 text-center">Do you want to experience the best-in-class quality mobile apps? Send us your inquiry and one of our executives will catch you up in no time by Call, Email or Skype.</p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
                 <a href="https://www.imgglobalinfotech.com/request-a-quote.php" class="rounded-md rounded-br-none bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Book A Discovery Call</a>
@@ -837,10 +850,6 @@
         </div>
     </div>
 {{-- other Section end --}}
-
-
-
-
 @endsection
 
 @push('scripts')

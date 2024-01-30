@@ -509,6 +509,11 @@ class HomeController extends Controller
             return view('tailwind.pages.propira-casestudy.propira-casestudy');
         }
 
+        public function card_casestudy()
+        {
+            return view('tailwind.pages.card-casestudy.card-casestudy');
+        }
+
         public function ott_app_development()
         {
             return view('ott-app-development.index');
@@ -913,6 +918,10 @@ class HomeController extends Controller
     public function ecommerce_solutions()
     {
         return view('ecommerce-solutions.index');
+    }
+    public function ecommerce_solutions1()
+    { 
+        return view('tailwind.pages.ecommerce-solutions.ecommerce-solutions');
     }
     public function android_application_development()
     {
