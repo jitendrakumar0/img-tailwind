@@ -2021,7 +2021,7 @@
 {{-- section 2 end --}}
 {{-- slider-section --}}
 <div class="w-full py-6 md:py-8 lg:py-16 lg:text-left relative z-[1] overflow-hidden md:gap-10 gap-8 flex flex-col">
-   <div class="flex items-center flex-wrap">
+    <div class="flex items-center flex-wrap">
     <div class="md:w-[40%] lg:w-[30%] w-full p-3">
         <p class="
         max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black
