@@ -1041,7 +1041,7 @@
         <div class="lg:w-1/3 md:w-1/2 w-full md:px-4 px-0 py-4">
             <div class="bg-white flex items-center h-full shadow border border-gray-100 rounded-br-none rounded-lg group">
                 <div class="flex items-center md:w-80 w-60 h-full">
-                    <div class="relative duration-300 group-hover:bg-blue-300 bg-theme1 w-full h-full z-10 -mt-12 flex flex-col gap-5 items-center justify-center after:absolute after:right-[-9px] after:top-[5px] after:bg-theme1 after:h-7 after:w-7 after:rotate-[61deg] after:duration-300 after:group-hover:bg-blue-300">
+                    <div class="relative duration-300 md:group-hover:bg-blue-300 bg-theme1 w-full h-full z-10 -mt-12 flex flex-col gap-5 items-center justify-center after:absolute after:right-[-9px] after:top-[5px] after:bg-theme1 after:h-7 after:w-7 after:rotate-[61deg] after:duration-300 after:md:group-hover:bg-blue-300">
                         <div class="text-white italic text-2xl text-center opacity-40">01</div>
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="md:size-10 size-8 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
                     </div>
@@ -1056,7 +1056,7 @@
         <div class="lg:w-1/3 md:w-1/2 w-full md:px-4 px-0 py-4">
             <div class="bg-white flex items-center h-full shadow border border-gray-100 rounded-br-none rounded-lg group">
                 <div class="flex items-center md:w-80 w-60 h-full">
-                    <div class="relative duration-300 group-hover:bg-blue-300 bg-theme1 w-full h-full z-10 -mt-12 flex flex-col gap-5 items-center justify-center after:absolute after:right-[-9px] after:top-[5px] after:bg-theme1 after:h-7 after:w-7 after:rotate-[61deg] after:duration-300 after:group-hover:bg-blue-300">
+                    <div class="relative duration-300 md:group-hover:bg-blue-300 bg-theme1 w-full h-full z-10 -mt-12 flex flex-col gap-5 items-center justify-center after:absolute after:right-[-9px] after:top-[5px] after:bg-theme1 after:h-7 after:w-7 after:rotate-[61deg] after:duration-300 after:md:group-hover:bg-blue-300">
                         <div class="text-white italic text-2xl text-center opacity-40">02</div>
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="md:size-10 size-8 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
                     </div>
@@ -1071,7 +1071,7 @@
         <div class="lg:w-1/3 md:w-1/2 w-full md:px-4 px-0 py-4">
             <div class="bg-white flex items-center h-full shadow border border-gray-100 rounded-br-none rounded-lg group">
                 <div class="flex items-center md:w-80 w-60 h-full">
-                    <div class="relative duration-300 group-hover:bg-blue-300 bg-theme1 w-full h-full z-10 -mt-12 flex flex-col gap-5 items-center justify-center after:absolute after:right-[-9px] after:top-[5px] after:bg-theme1 after:h-7 after:w-7 after:rotate-[61deg] after:duration-300 after:group-hover:bg-blue-300">
+                    <div class="relative duration-300 md:group-hover:bg-blue-300 bg-theme1 w-full h-full z-10 -mt-12 flex flex-col gap-5 items-center justify-center after:absolute after:right-[-9px] after:top-[5px] after:bg-theme1 after:h-7 after:w-7 after:rotate-[61deg] after:duration-300 after:md:group-hover:bg-blue-300">
                         <div class="text-white italic text-2xl text-center opacity-40">03</div>
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="md:size-10 size-8 text-white" xmlns="http://www.w3.org/2000/svg"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path></svg>
                     </div>
@@ -1088,7 +1088,7 @@
 
 <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative lg:py-20 md:py-16 py-10">
     <div class="flex flex-wrap">
-        <div class="w-1/2 p-4">
+        <div class="lg:w-1/2 w-full p-4">
             <div class="mainCard h-96">
                 <div class="p-4 bg-[rgb(17_24_39)] opacity-100 rounded-xl relative overflow-hidden w-full h-full">
                     <img class=" overflow-hidden absolute inset-0 w-full h-full object-cover [filter:saturate(0)]" src="{{asset('public'.mix('/tailwind/img/about/aboutimg.webp'))}}" alt="beifit"> 
@@ -1099,36 +1099,110 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/2 p-4">
+        <div class="lg:w-1/2 w-full p-4">
             <div class="maincard w-full bg-white shadow p-4 rounded-lg rounded-br-none relative before:absolute before:content-['1'] before:text-white before:text-2xl before:font-bold before:flex before:items-center before:justify-center before:text-center before:top-[-10px] before:left-[15px] before:bottom-[-10px] before:w-[50px] before:bg-[orange] before:rounded-b-lg after:absolute after:left-[65px] after:top-[-10px] after:[border-bottom:_10px_solid_orange] after:[border-right:10px_solid_transparent] group duration-300 hover:-translate-y-3">
-                <div class="text-slate-900 text-xl font-bold ms-20">PATIENT REGISTRATION</div>
+                <div class="text-slate-900 lg:text-xl sm:text-lg text-base font-bold ms-20">PATIENT REGISTRATION</div>
             </div>
             <div class="maincard mt-9 w-full bg-white shadow p-4 rounded-lg rounded-br-none relative before:absolute before:content-['2'] before:text-white before:text-2xl before:font-bold before:flex before:items-center before:justify-center before:text-center before:top-[-10px] before:left-[15px] before:bottom-[-10px] before:w-[50px] before:bg-[orange] before:rounded-b-lg after:absolute after:left-[65px] after:top-[-10px] after:[border-bottom:_10px_solid_orange] after:[border-right:10px_solid_transparent] group duration-300 hover:-translate-y-3">
-                <div class="text-slate-900 text-xl font-bold ms-20">INDOOR/OUTDOOR FACILITY</div>
+                <div class="text-slate-900 lg:text-xl sm:text-lg text-base font-bold ms-20">INDOOR/OUTDOOR FACILITY</div>
             </div>
             <div class="maincard mt-9 w-full bg-white shadow p-4 rounded-lg rounded-br-none relative before:absolute before:content-['3'] before:text-white before:text-2xl before:font-bold before:flex before:items-center before:justify-center before:text-center before:top-[-10px] before:left-[15px] before:bottom-[-10px] before:w-[50px] before:bg-[orange] before:rounded-b-lg after:absolute after:left-[65px] after:top-[-10px] after:[border-bottom:_10px_solid_orange] after:[border-right:10px_solid_transparent] group duration-300 hover:-translate-y-3">
-                <div class="text-slate-900 text-xl font-bold ms-20">HRM/CRM MODULE</div>
+                <div class="text-slate-900 lg:text-xl sm:text-lg text-base font-bold ms-20">HRM/CRM MODULE</div>
             </div>
             <div class="maincard mt-9 w-full bg-white shadow p-4 rounded-lg rounded-br-none relative before:absolute before:content-['4'] before:text-white before:text-2xl before:font-bold before:flex before:items-center before:justify-center before:text-center before:top-[-10px] before:left-[15px] before:bottom-[-10px] before:w-[50px] before:bg-[orange] before:rounded-b-lg after:absolute after:left-[65px] after:top-[-10px] after:[border-bottom:_10px_solid_orange] after:[border-right:10px_solid_transparent] group duration-300 hover:-translate-y-3">
-                <div class="text-slate-900 text-xl font-bold ms-20">DAILY PATIENT RECORD</div>
+                <div class="text-slate-900 lg:text-xl sm:text-lg text-base font-bold ms-20">DAILY PATIENT RECORD</div>
             </div>
         </div>
     </div>
 </div>
 
 <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative lg:py-20 md:py-16 py-10 ">
-<div class="flex flex-wrap w-full">
-    <div class="w-1/4">
-        <div class="maincard group hover:border-transparent rounded-2xl mb-8 relative z-10 duration-300 [background:linear-gradient(90deg,_#20d9a1_0%,_#5f39ff_100%)] [border:1px_solid_#f8f7ff]">
-            <div class="bg-[#f8f7ff] rounded-xl pb-0 h-full">
-                <div class="iconsection relative size-[100px] mx-auto  z-10 text-white flex items-center justify-center rotate-0 text-center">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="z-20 -mt-[50px] absolute left-[50%] top-[50%] size-[45px] text-[45px] duration-500 [transform:translate(-50%,_-50%)_rotate(0)] group-hover:[transform:translate(-50%,_-50%)_rotate(360deg)]"  height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M144 268.4V358c0 6.9 4.5 14 11.4 14H184v52c0 13.3 10.7 24 24 24s24-10.7 24-24v-52h49v52c0 7.5 3.4 14.2 8.8 18.6 3.9 3.4 9.1 5.4 14.7 5.4h.5c13.3 0 24-10.7 24-24v-52h27.6c7 0 11.4-7.1 11.4-13.9V192H144v76.4zM408 176c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24s24-10.7 24-24v-96c0-13.3-10.7-24-24-24zM104 176c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24s24-10.7 24-24v-96c0-13.3-10.7-24-24-24z"></path><g><path d="M311.2 89.1l18.5-21.9c.4-.5-.2-1.6-1.3-2.5-1.1-.8-2.4-1-2.7-.4l-19.2 22.8c-13.6-5.4-30.2-8.8-50.6-8.8-20.5-.1-37.2 3.2-50.8 8.5l-19-22.4c-.4-.5-1.6-.4-2.7.4s-1.7 1.8-1.3 2.5l18.3 21.6c-48.2 20.9-55.4 72.2-56.4 87.2h223.6c-.9-15.1-8-65.7-56.4-87zm-104.4 49.8c-7.4 0-13.5-6-13.5-13.3 0-7.3 6-13.3 13.5-13.3 7.4 0 13.5 6 13.5 13.3 0 7.3-6 13.3-13.5 13.3zm98.4 0c-7.4 0-13.5-6-13.5-13.3 0-7.3 6-13.3 13.5-13.3 7.4 0 13.5 6 13.5 13.3 0 7.3-6.1 13.3-13.5 13.3z"></path></g></svg>
-                    <img class="absolute left-0 top-0 -mt-[50px] size-full bg-no-repeat bg-center bg-cover duration-500 group-hover:opacity-0 group-hover:[visibility:hidden] " src="{{asset('public'.mix('/tailwind/img/about/service-image.webp'))}}" alt="logo1">
-                    <img class="absolute left-0 top-0 -mt-[50px] opacity-0 visible-0 [visibility:hidden] translate-y-10 size-full bg-no-repeat bg-center bg-cover duration-500  group-hover:opacity-100 group-hover:[visibility:visible] group-hover:translate-y-0" src="{{asset('public'.mix('/tailwind/img/about/service-image1.webp'))}}" alt="logo1">
+    <div class="flex flex-wrap w-full">
+        <div class="lg:w-1/4 md:w-1/2 w-full">
+            <div class="maincard group w-full md:hover:border-transparent rounded-2xl mb-8 relative z-10 duration-300 [background:linear-gradient(90deg,_#20d9a1_0%,_#5f39ff_100%)] [border:1px_solid_#f8f7ff]">
+                <div class="bg-[#f8f7ff] rounded-xl pb-0 h-full">
+                    <div class="iconsection relative size-[100px] mx-auto  z-10 text-white flex items-center justify-center rotate-0 text-center">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="z-20 -mt-[50px] absolute left-[50%] top-[50%] size-[45px] text-[45px] duration-500 [transform:translate(-50%,_-50%)_rotate(0)] md:group-hover:[transform:translate(-50%,_-50%)_rotate(360deg)]"  height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M144 268.4V358c0 6.9 4.5 14 11.4 14H184v52c0 13.3 10.7 24 24 24s24-10.7 24-24v-52h49v52c0 7.5 3.4 14.2 8.8 18.6 3.9 3.4 9.1 5.4 14.7 5.4h.5c13.3 0 24-10.7 24-24v-52h27.6c7 0 11.4-7.1 11.4-13.9V192H144v76.4zM408 176c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24s24-10.7 24-24v-96c0-13.3-10.7-24-24-24zM104 176c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24s24-10.7 24-24v-96c0-13.3-10.7-24-24-24z"></path><g><path d="M311.2 89.1l18.5-21.9c.4-.5-.2-1.6-1.3-2.5-1.1-.8-2.4-1-2.7-.4l-19.2 22.8c-13.6-5.4-30.2-8.8-50.6-8.8-20.5-.1-37.2 3.2-50.8 8.5l-19-22.4c-.4-.5-1.6-.4-2.7.4s-1.7 1.8-1.3 2.5l18.3 21.6c-48.2 20.9-55.4 72.2-56.4 87.2h223.6c-.9-15.1-8-65.7-56.4-87zm-104.4 49.8c-7.4 0-13.5-6-13.5-13.3 0-7.3 6-13.3 13.5-13.3 7.4 0 13.5 6 13.5 13.3 0 7.3-6 13.3-13.5 13.3zm98.4 0c-7.4 0-13.5-6-13.5-13.3 0-7.3 6-13.3 13.5-13.3 7.4 0 13.5 6 13.5 13.3 0 7.3-6.1 13.3-13.5 13.3z"></path></g></svg>
+                        <img class="absolute left-0 top-0 -mt-[50px] size-full bg-no-repeat bg-center bg-cover duration-500 md:group-hover:opacity-0 md:group-hover:[visibility:hidden] " src="{{asset('public'.mix('/tailwind/img/about/service-image.webp'))}}" alt="logo1">
+                        <img class="absolute left-0 top-0 -mt-[50px] opacity-0 visible-0 [visibility:hidden] translate-y-10 size-full bg-no-repeat bg-center bg-cover duration-500  md:group-hover:opacity-100 md:group-hover:[visibility:visible] md:group-hover:translate-y-0" src="{{asset('public'.mix('/tailwind/img/about/service-image1.webp'))}}" alt="logo1">
+                    </div>
+                    <div class="md:[padding:25px_15px_25px] -mt-6">
+                        <div class="title lg:text-2xl md:text-xl text-lg font-bold text-slate-950 text-center"> Logo Design</div>
+                        <div class="sm:text-base text-sm text-gray-600 font-normal text-center mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem repudiandae totam temporibus harum culpa voluptatum eligendi reiciendis! Labore, facilis eum!</div>
+                    </div>
                 </div>
-                <div class="[padding:25px_15px_25px] -mt-6">
-                    <div class="title text-2xl font-bold text-slate-950 text-center"> Logo Design</div>
-                    <div class="text-base text-gray-600 font-normal text-center mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem repudiandae totam temporibus harum culpa voluptatum eligendi reiciendis! Labore, facilis eum!</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="relative overflow-hidden lg:py-20 md:py-16 py-10">
+    <svg aria-hidden="true" class="absolute inset-0 z-0 h-full w-full pointer-events-none text-gray-200">
+        <defs>
+            <pattern id="nhgh" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
+                <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+            </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#nhgh)"></rect>
+    </svg>
+    <div class="hidden z-0 sm:absolute sm:-top-10 sm:right-1/2 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl pointer-events-none" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-sky-400 to-sky-400 opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+    <div class="absolute z-0 -top-52 left-1/2 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu pointer-events-none" aria-hidden="true">
+        <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-sky-400 to-sky-400 opacity-30" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative ">
+        <div class="flex flex-wrap items-center w-full">
+            {{-- <div class="lg:w-1/3 w-full p-4">
+                <div class="border-b border-r rounded-lg rounded-br-none overflow-hidden shadow group border-gray-400 h-full p-8 relative duration-300 after:absolute after:h-[10%] after:w-[10%] after:top-20 after:left-16 after:rounded-full after:duration-500 after:bg-gradient-to-r after:from-purple-600 after:to-purple-400 after:-z-20 hover:after:size-full hover:after:top-[0%] hover:after:left-[0%] hover:after:rounded-[0px]">
+                    <div class="size-20 mb-6 bg-gray-300 duration-300 group-hover:bg-gradient-to-r group-hover:from-purple-600 group-hover:to-purple-900 rounded-full relative p-2 after:absolute after:size-full after:bg-gradient-to-r after:from-purple-600 after:to-purple-900 after:top-1 after:left-1 after:rounded-full after:-z-10 group-hover:after:from-gray-100/50 group-hover:after:to-gray-100/50">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-purple-700 duration-300 group-hover:text-white" xmlns="http://www.w3.org/2000/svg"><path d="M256 23C127.425 23 23 127.425 23 256s104.425 233 233 233 233-104.425 233-233S384.575 23 256 23zm0 18c26.584 0 52.025 4.824 75.516 13.623l-19.405 51.746a160 160 0 0 1 56.955 36.565l39.002-39.002a215.033 215.033 0 0 1 45.006 65.957l-43.601 40.707 58.69 10.45c.783 4.806 1.41 9.663 1.87 14.57l-51.709 4.923-8.851-29.943-9.073-30.688-45.064 42.072C341.166 180.736 301.982 151 256 151c-14.248 0-27.841 2.86-40.242 8.027l1.732-61.66-29.011 13.5-29.012 13.502 48.3 38.393C174.078 180.266 151 215.494 151 256c0 44.296 27.593 82.287 66.488 97.682l-44.047 43.064 30.243 10.461 30.242 10.461-8.024-61.074A104.612 104.612 0 0 0 256 361c57.883 0 105-47.117 105-105 0-8.8-1.096-17.349-3.146-25.523l57.892 10.308-.613.059A160 160 0 0 1 416 256a160 160 0 0 1-96.7 146.744l21.887 50.738C315.072 464.747 286.276 471 256 471a216.252 216.252 0 0 1-44.543-4.623l-7.773-59.17-42.688 41.736a215.464 215.464 0 0 1-63.52-47.63l40.7-37.31A160 160 0 0 1 96 256a160 160 0 0 1 46.934-113.066l-39.002-39.002a215.648 215.648 0 0 1 37.867-30.166l46.68 37.101 1.673-59.603C210.902 44.607 233.024 41 256 41zm0 128c30.33 0 56.962 15.413 72.525 38.854l-41.802 39.027 56.265 10.02C342.507 304.637 303.855 343 256 343c-1.013 0-2.02-.025-3.023-.059l-7.45-56.7-40.93 40.015C182.998 310.447 169 284.903 169 256c0-25.708 11.075-48.755 28.723-64.662l44.76 35.58 1.605-57.107c3.894-.53 7.869-.811 11.912-.811zm0 55a32 32 0 0 0-32 32 32 32 0 0 0 32 32 32 32 0 0 0 32-32 32 32 0 0 0-32-32z"></path></svg>
+                    </div>
+                    <div class="text-2xl font-bold text-slate-900 mb-3 duration-300 group-hover:text-white">Digital strategy</div>
+                    <div class="text-base text-gray-400 duration-300 group-hover:text-white font-normal">Bibendum libero enim donec elementum inc eptos feugiat praesent parturient pote susp endisse. Dapibus eros sapien blandit nibher scelerisque ullamcorper</div>
+                </div>
+            </div> --}}
+    
+            <div class="lg:w-1/3 md:w-1/2 w-full sm:px-4 sm:py-4 py-3">
+                <div class="md:hover:bg-white md:bg-transparent bg-white relative group md:hover:scale-105 duration-300 w-full md:hover:shadow md:shadow-none shadow text-center overflow-hidden lg:p-10 md:p-8 p-6 rounded-lg rounded-br-none before:absolute before:bg-[url('../img/android-application/bg1-box.webp')] before:bg-no-repeat before:bg-contain md:before:opacity-0 before:opacity-100 md:hover:before:opacity-100 before:top-0 before:left-0 before:w-full before:h-1/2 md:before:-z-10 before:z-20 before:duration-300 after:absolute after:bg-[url('../img/android-application/bg2-box.webp')] after:bg-no-repeat after:bg-cover after:bottom-0 after:right-0 after:w-full after:h-1/2 md:after:-z-10 after:z-10 after:duration-300 md:after:opacity-0 after:opacity-100 md:hover:after:opacity-100 ">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="text-blue-800 relative z-30 size-10 mb-3 mx-auto" xmlns="http://www.w3.org/2000/svg"><path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg>
+                    <div class="text-black md:text-xl text-lg font-bold mb-1 relative z-30">  Web Development</div>
+                    <div class="text-sm font-normal text-gray-600 relative z-30">Lorem ipsum dolor sit, amet consectetur adip voluptas vel ex harum dicta odit consequuntur laboriosam a cum eligendi?</div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full sm:px-4 sm:py-4 py-3">
+                <div class="md:hover:bg-white md:bg-transparent bg-white relative group md:hover:scale-105 duration-300 w-full md:hover:shadow md:shadow-none shadow text-center overflow-hidden lg:p-10 md:p-8 p-6 rounded-lg rounded-br-none before:absolute before:bg-[url('../img/android-application/bg1-box.webp')] before:bg-no-repeat before:bg-contain md:before:opacity-0 before:opacity-100 md:hover:before:opacity-100 before:top-0 before:left-0 before:w-full before:h-1/2 md:before:-z-10 before:z-20 before:duration-300 after:absolute after:bg-[url('../img/android-application/bg2-box.webp')] after:bg-no-repeat after:bg-cover after:bottom-0 after:right-0 after:w-full after:h-1/2 md:after:-z-10 after:z-10 after:duration-300 md:after:opacity-0 after:opacity-100 md:hover:after:opacity-100 ">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="text-blue-800 relative z-30 size-10 mb-3 mx-auto" xmlns="http://www.w3.org/2000/svg"><path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg>
+                    <div class="text-black md:text-xl text-lg font-bold mb-1 relative z-30">  Web Development</div>
+                    <div class="text-sm font-normal text-gray-600 relative z-30">Lorem ipsum dolor sit, amet consectetur adip voluptas vel ex harum dicta odit consequuntur laboriosam a cum eligendi?</div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full sm:px-4 sm:py-4 py-3">
+                <div class="md:hover:bg-white md:bg-transparent bg-white relative group md:hover:scale-105 duration-300 w-full md:hover:shadow md:shadow-none shadow text-center overflow-hidden lg:p-10 md:p-8 p-6 rounded-lg rounded-br-none before:absolute before:bg-[url('../img/android-application/bg1-box.webp')] before:bg-no-repeat before:bg-contain md:before:opacity-0 before:opacity-100 md:hover:before:opacity-100 before:top-0 before:left-0 before:w-full before:h-1/2 md:before:-z-10 before:z-20 before:duration-300 after:absolute after:bg-[url('../img/android-application/bg2-box.webp')] after:bg-no-repeat after:bg-cover after:bottom-0 after:right-0 after:w-full after:h-1/2 md:after:-z-10 after:z-10 after:duration-300 md:after:opacity-0 after:opacity-100 md:hover:after:opacity-100 ">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="text-blue-800 relative z-30 size-10 mb-3 mx-auto" xmlns="http://www.w3.org/2000/svg"><path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg>
+                    <div class="text-black md:text-xl text-lg font-bold mb-1 relative z-30">  Web Development</div>
+                    <div class="text-sm font-normal text-gray-600 relative z-30">Lorem ipsum dolor sit, amet consectetur adip voluptas vel ex harum dicta odit consequuntur laboriosam a cum eligendi?</div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full sm:px-4 sm:py-4 py-3">
+                <div class="md:hover:bg-white md:bg-transparent bg-white relative group md:hover:scale-105 duration-300 w-full md:hover:shadow md:shadow-none shadow text-center overflow-hidden lg:p-10 md:p-8 p-6 rounded-lg rounded-br-none before:absolute before:bg-[url('../img/android-application/bg1-box.webp')] before:bg-no-repeat before:bg-contain md:before:opacity-0 before:opacity-100 md:hover:before:opacity-100 before:top-0 before:left-0 before:w-full before:h-1/2 md:before:-z-10 before:z-20 before:duration-300 after:absolute after:bg-[url('../img/android-application/bg2-box.webp')] after:bg-no-repeat after:bg-cover after:bottom-0 after:right-0 after:w-full after:h-1/2 md:after:-z-10 after:z-10 after:duration-300 md:after:opacity-0 after:opacity-100 md:hover:after:opacity-100 ">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="text-blue-800 relative z-30 size-10 mb-3 mx-auto" xmlns="http://www.w3.org/2000/svg"><path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg>
+                    <div class="text-black md:text-xl text-lg font-bold mb-1 relative z-30">  Web Development</div>
+                    <div class="text-sm font-normal text-gray-600 relative z-30">Lorem ipsum dolor sit, amet consectetur adip voluptas vel ex harum dicta odit consequuntur laboriosam a cum eligendi?</div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full sm:px-4 sm:py-4 py-3">
+                <div class="md:hover:bg-white md:bg-transparent bg-white relative group md:hover:scale-105 duration-300 w-full md:hover:shadow md:shadow-none shadow text-center overflow-hidden lg:p-10 md:p-8 p-6 rounded-lg rounded-br-none before:absolute before:bg-[url('../img/android-application/bg1-box.webp')] before:bg-no-repeat before:bg-contain md:before:opacity-0 before:opacity-100 md:hover:before:opacity-100 before:top-0 before:left-0 before:w-full before:h-1/2 md:before:-z-10 before:z-20 before:duration-300 after:absolute after:bg-[url('../img/android-application/bg2-box.webp')] after:bg-no-repeat after:bg-cover after:bottom-0 after:right-0 after:w-full after:h-1/2 md:after:-z-10 after:z-10 after:duration-300 md:after:opacity-0 after:opacity-100 md:hover:after:opacity-100 ">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="text-blue-800 relative z-30 size-10 mb-3 mx-auto" xmlns="http://www.w3.org/2000/svg"><path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg>
+                    <div class="text-black md:text-xl text-lg font-bold mb-1 relative z-30">  Web Development</div>
+                    <div class="text-sm font-normal text-gray-600 relative z-30">Lorem ipsum dolor sit, amet consectetur adip voluptas vel ex harum dicta odit consequuntur laboriosam a cum eligendi?</div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full sm:px-4 sm:py-4 py-3">
+                <div class="md:hover:bg-white md:bg-transparent bg-white relative group md:hover:scale-105 duration-300 w-full md:hover:shadow md:shadow-none shadow text-center overflow-hidden lg:p-10 md:p-8 p-6 rounded-lg rounded-br-none before:absolute before:bg-[url('../img/android-application/bg1-box.webp')] before:bg-no-repeat before:bg-contain md:before:opacity-0 before:opacity-100 md:hover:before:opacity-100 before:top-0 before:left-0 before:w-full before:h-1/2 md:before:-z-10 before:z-20 before:duration-300 after:absolute after:bg-[url('../img/android-application/bg2-box.webp')] after:bg-no-repeat after:bg-cover after:bottom-0 after:right-0 after:w-full after:h-1/2 md:after:-z-10 after:z-10 after:duration-300 md:after:opacity-0 after:opacity-100 md:hover:after:opacity-100 ">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="text-blue-800 relative z-30 size-10 mb-3 mx-auto" xmlns="http://www.w3.org/2000/svg"><path d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg>
+                    <div class="text-black md:text-xl text-lg font-bold mb-1 relative z-30">  Web Development</div>
+                    <div class="text-sm font-normal text-gray-600 relative z-30">Lorem ipsum dolor sit, amet consectetur adip voluptas vel ex harum dicta odit consequuntur laboriosam a cum eligendi?</div>
                 </div>
             </div>
         </div>
@@ -1136,6 +1210,312 @@
 </div>
 
 
+<div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] relative  lg:py-20 md:py-16 py-10">
+    <div class="flex flex-wrap w-full">
+        <div class="lg:w-1/4 sm:w-1/2 w-full px-4 py-4">
+            <div class="bg-white shadow-xl shadow-gray-300 rounded-lg rounded-br-none p-4 h-full duration-300 hover:-translate-y-2">
+                <div class="topContent flex items-center">
+                    <div class="flex-1">
+                        <div class="text-gray-200 font-bold lg:text-5xl sm:text-4xl text-3xl">01</div>
+                    </div>
+                    <div class="flex-none">
+                       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" text-blue-700  lg:size-12 sm:size-10 size-8 " xmlns="http://www.w3.org/2000/svg"><path d="M228.844 32.22v114.218h17.687V32.218h-17.686zm-108.25.624c-15.507 0-28.094 12.586-28.094 28.093C92.5 76.444 105.087 89 120.594 89c12.655 0 23.34-8.372 26.844-19.875h44.937v77.313h17.688v-95H147.03c-3.888-10.837-14.262-18.593-26.436-18.593zm193.25 0c-15.507 0-28.063 12.586-28.063 28.093 0 12.124 7.677 22.45 18.44 26.376v59.124h17.655V87.844c11.596-3.452 20.063-14.193 20.063-26.906 0-15.508-12.587-28.094-28.094-28.094zM266.124 92.5v53.938h17.657V92.5h-17.655zm188.532 4.03c-15.507 0-28.094 12.588-28.094 28.095 0 13.083 8.948 24.074 21.063 27.188v27.468h-92.938v17.657h110.624v-46.342c10.223-4.192 17.407-14.233 17.407-25.97 0-15.507-12.557-28.094-28.064-28.094zM30.187 123.657v17.688H96.75v55.594h62.814V179.28h-45.126v-55.624h-84.25zm147.032 40.47v159.718h159.81v-159.72H177.22zm17.56 15.655h17.657v78.595l32.407 32.406h75.28v17.658H237.5l-2.594-2.594-10.75-10.75c-1.033 7.385-7.36 13.062-15.03 13.062-8.392 0-15.19-6.796-15.19-15.187 0-7.682 5.696-13.98 13.095-15l-9.655-9.658-2.594-2.593V179.78zm54.94.157h17.686v55.313h52.53l.002 17.688H249.72v-73zM53.124 217.375V307.344c-11.49 3.512-19.844 14.198-19.844 26.844 0 15.505 12.557 28.093 28.064 28.093s28.093-12.587 28.093-28.092c0-12.195-7.79-22.564-18.656-26.438v-72.72h88.782v-17.655H53.124zm301.563 0v17.656h53.968v-17.655h-53.97zm99.968 21.97c-10.898 0-20.342 6.21-25 15.28h-74.97l.002 17.688H427c2.325 13.168 13.824 23.187 27.656 23.187 15.507 0 28.063-12.588 28.063-28.094 0-15.507-12.557-28.062-28.064-28.062zm-349.062 15.28v17.688h53.97v-17.688h-53.97zm17.156 36.47v84.217c-11.498 3.513-19.875 14.2-19.875 26.844 0 15.506 12.587 28.094 28.094 28.094 15.506 0 28.06-12.588 28.06-28.094 0-12.194-7.766-22.564-18.624-26.437v-66.94h19.156v-17.686H122.75zm231.938 0v17.686h45.156v95.283c-11.323 3.624-19.53 14.26-19.53 26.78-.002 15.506 12.585 28.063 28.092 28.063 15.507 0 28.063-12.557 28.063-28.062 0-12.32-7.935-22.778-18.97-26.563V291.095h-62.814zM192.375 341.53v54.033h17.688V341.53h-17.688zm36.47 0v86.564c-11.013 3.794-18.94 14.233-18.94 26.53 0 15.506 12.588 28.095 28.095 28.095s28.063-12.59 28.063-28.095c0-12.53-8.203-23.14-19.532-26.75V341.53h-17.686zm37.28 0v54.033h17.688l-.032-54.032h-17.655zm38.094 0v140.064h17.655V341.53H304.22z"></path></svg>
+                    </div>
+                </div>
+                <div class="text-black md:text-xl text-lg font-bold mb-1 relative z-30 mt-3">  Web Development</div>
+                <div class="text-sm font-normal text-gray-600 relative z-30">Lorem ipsum dolor sit, amet consectetur adip voluptas vel ex harum dicta odit consequuntur laboriosam a cum eligendi?</div>
+            </div>
+        </div>
+        <div class="lg:w-1/4 sm:w-1/2 w-full px-4 py-4">
+            <div class="bg-white shadow-xl shadow-gray-300 rounded-lg rounded-br-none p-4 h-full duration-300 hover:-translate-y-2">
+                <div class="text-black md:text-xl text-lg font-bold mb-1 relative z-30 my-3">  Web Development</div>
+                <div class="text-sm font-normal text-gray-600 relative z-30">Lorem ipsum dolor sit, amet consectetur adip voluptas vel ex harum dicta odit consequuntur laboriosam a cum eligendi?</div>
+                <div class="topContent flex items-center mt-3">
+                    <div class="flex-1">
+                        <div class="text-gray-200 font-bold lg:text-5xl sm:text-4xl text-3xl">02 </div>
+                    </div>
+                    <div class="flex-none">
+                       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" text-blue-700  lg:size-12 sm:size-10 size-8 " xmlns="http://www.w3.org/2000/svg"><path d="M228.844 32.22v114.218h17.687V32.218h-17.686zm-108.25.624c-15.507 0-28.094 12.586-28.094 28.093C92.5 76.444 105.087 89 120.594 89c12.655 0 23.34-8.372 26.844-19.875h44.937v77.313h17.688v-95H147.03c-3.888-10.837-14.262-18.593-26.436-18.593zm193.25 0c-15.507 0-28.063 12.586-28.063 28.093 0 12.124 7.677 22.45 18.44 26.376v59.124h17.655V87.844c11.596-3.452 20.063-14.193 20.063-26.906 0-15.508-12.587-28.094-28.094-28.094zM266.124 92.5v53.938h17.657V92.5h-17.655zm188.532 4.03c-15.507 0-28.094 12.588-28.094 28.095 0 13.083 8.948 24.074 21.063 27.188v27.468h-92.938v17.657h110.624v-46.342c10.223-4.192 17.407-14.233 17.407-25.97 0-15.507-12.557-28.094-28.064-28.094zM30.187 123.657v17.688H96.75v55.594h62.814V179.28h-45.126v-55.624h-84.25zm147.032 40.47v159.718h159.81v-159.72H177.22zm17.56 15.655h17.657v78.595l32.407 32.406h75.28v17.658H237.5l-2.594-2.594-10.75-10.75c-1.033 7.385-7.36 13.062-15.03 13.062-8.392 0-15.19-6.796-15.19-15.187 0-7.682 5.696-13.98 13.095-15l-9.655-9.658-2.594-2.593V179.78zm54.94.157h17.686v55.313h52.53l.002 17.688H249.72v-73zM53.124 217.375V307.344c-11.49 3.512-19.844 14.198-19.844 26.844 0 15.505 12.557 28.093 28.064 28.093s28.093-12.587 28.093-28.092c0-12.195-7.79-22.564-18.656-26.438v-72.72h88.782v-17.655H53.124zm301.563 0v17.656h53.968v-17.655h-53.97zm99.968 21.97c-10.898 0-20.342 6.21-25 15.28h-74.97l.002 17.688H427c2.325 13.168 13.824 23.187 27.656 23.187 15.507 0 28.063-12.588 28.063-28.094 0-15.507-12.557-28.062-28.064-28.062zm-349.062 15.28v17.688h53.97v-17.688h-53.97zm17.156 36.47v84.217c-11.498 3.513-19.875 14.2-19.875 26.844 0 15.506 12.587 28.094 28.094 28.094 15.506 0 28.06-12.588 28.06-28.094 0-12.194-7.766-22.564-18.624-26.437v-66.94h19.156v-17.686H122.75zm231.938 0v17.686h45.156v95.283c-11.323 3.624-19.53 14.26-19.53 26.78-.002 15.506 12.585 28.063 28.092 28.063 15.507 0 28.063-12.557 28.063-28.062 0-12.32-7.935-22.778-18.97-26.563V291.095h-62.814zM192.375 341.53v54.033h17.688V341.53h-17.688zm36.47 0v86.564c-11.013 3.794-18.94 14.233-18.94 26.53 0 15.506 12.588 28.095 28.095 28.095s28.063-12.59 28.063-28.095c0-12.53-8.203-23.14-19.532-26.75V341.53h-17.686zm37.28 0v54.033h17.688l-.032-54.032h-17.655zm38.094 0v140.064h17.655V341.53H304.22z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-1/4 sm:w-1/2 w-full px-4 py-4">
+            <div class="bg-white shadow-xl shadow-gray-300 rounded-lg rounded-br-none p-4 h-full duration-300 hover:-translate-y-2">
+                <div class="topContent flex items-center">
+                    <div class="flex-1">
+                        <div class="text-gray-200 font-bold lg:text-5xl sm:text-4xl text-3xl">03</div>
+                    </div>
+                    <div class="flex-none">
+                       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" text-blue-700  lg:size-12 sm:size-10 size-8 " xmlns="http://www.w3.org/2000/svg"><path d="M228.844 32.22v114.218h17.687V32.218h-17.686zm-108.25.624c-15.507 0-28.094 12.586-28.094 28.093C92.5 76.444 105.087 89 120.594 89c12.655 0 23.34-8.372 26.844-19.875h44.937v77.313h17.688v-95H147.03c-3.888-10.837-14.262-18.593-26.436-18.593zm193.25 0c-15.507 0-28.063 12.586-28.063 28.093 0 12.124 7.677 22.45 18.44 26.376v59.124h17.655V87.844c11.596-3.452 20.063-14.193 20.063-26.906 0-15.508-12.587-28.094-28.094-28.094zM266.124 92.5v53.938h17.657V92.5h-17.655zm188.532 4.03c-15.507 0-28.094 12.588-28.094 28.095 0 13.083 8.948 24.074 21.063 27.188v27.468h-92.938v17.657h110.624v-46.342c10.223-4.192 17.407-14.233 17.407-25.97 0-15.507-12.557-28.094-28.064-28.094zM30.187 123.657v17.688H96.75v55.594h62.814V179.28h-45.126v-55.624h-84.25zm147.032 40.47v159.718h159.81v-159.72H177.22zm17.56 15.655h17.657v78.595l32.407 32.406h75.28v17.658H237.5l-2.594-2.594-10.75-10.75c-1.033 7.385-7.36 13.062-15.03 13.062-8.392 0-15.19-6.796-15.19-15.187 0-7.682 5.696-13.98 13.095-15l-9.655-9.658-2.594-2.593V179.78zm54.94.157h17.686v55.313h52.53l.002 17.688H249.72v-73zM53.124 217.375V307.344c-11.49 3.512-19.844 14.198-19.844 26.844 0 15.505 12.557 28.093 28.064 28.093s28.093-12.587 28.093-28.092c0-12.195-7.79-22.564-18.656-26.438v-72.72h88.782v-17.655H53.124zm301.563 0v17.656h53.968v-17.655h-53.97zm99.968 21.97c-10.898 0-20.342 6.21-25 15.28h-74.97l.002 17.688H427c2.325 13.168 13.824 23.187 27.656 23.187 15.507 0 28.063-12.588 28.063-28.094 0-15.507-12.557-28.062-28.064-28.062zm-349.062 15.28v17.688h53.97v-17.688h-53.97zm17.156 36.47v84.217c-11.498 3.513-19.875 14.2-19.875 26.844 0 15.506 12.587 28.094 28.094 28.094 15.506 0 28.06-12.588 28.06-28.094 0-12.194-7.766-22.564-18.624-26.437v-66.94h19.156v-17.686H122.75zm231.938 0v17.686h45.156v95.283c-11.323 3.624-19.53 14.26-19.53 26.78-.002 15.506 12.585 28.063 28.092 28.063 15.507 0 28.063-12.557 28.063-28.062 0-12.32-7.935-22.778-18.97-26.563V291.095h-62.814zM192.375 341.53v54.033h17.688V341.53h-17.688zm36.47 0v86.564c-11.013 3.794-18.94 14.233-18.94 26.53 0 15.506 12.588 28.095 28.095 28.095s28.063-12.59 28.063-28.095c0-12.53-8.203-23.14-19.532-26.75V341.53h-17.686zm37.28 0v54.033h17.688l-.032-54.032h-17.655zm38.094 0v140.064h17.655V341.53H304.22z"></path></svg>
+                    </div>
+                </div>
+                <div class="text-black md:text-xl text-lg font-bold mb-1 relative z-30 mt-3">  Web Development</div>
+                <div class="text-sm font-normal text-gray-600 relative z-30">Lorem ipsum dolor sit, amet consectetur adip voluptas vel ex harum dicta odit consequuntur laboriosam a cum eligendi?</div>
+            </div>
+        </div>
+        <div class="lg:w-1/4 sm:w-1/2 w-full px-4 py-4">
+            <div class="bg-white shadow-xl shadow-gray-300 rounded-lg rounded-br-none p-4 h-full duration-300 hover:-translate-y-2">
+                <div class="text-black md:text-xl text-lg font-bold mb-1 relative z-30 my-3">  Web Development</div>
+                <div class="text-sm font-normal text-gray-600 relative z-30">Lorem ipsum dolor sit, amet consectetur adip voluptas vel ex harum dicta odit consequuntur laboriosam a cum eligendi?</div>
+                <div class="topContent flex items-center mt-3">
+                    <div class="flex-1">
+                        <div class="text-gray-200 font-bold lg:text-5xl sm:text-4xl text-3xl">04</div>
+                    </div>
+                    <div class="flex-none">
+                       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" text-blue-700  lg:size-12 sm:size-10 size-8 " xmlns="http://www.w3.org/2000/svg"><path d="M228.844 32.22v114.218h17.687V32.218h-17.686zm-108.25.624c-15.507 0-28.094 12.586-28.094 28.093C92.5 76.444 105.087 89 120.594 89c12.655 0 23.34-8.372 26.844-19.875h44.937v77.313h17.688v-95H147.03c-3.888-10.837-14.262-18.593-26.436-18.593zm193.25 0c-15.507 0-28.063 12.586-28.063 28.093 0 12.124 7.677 22.45 18.44 26.376v59.124h17.655V87.844c11.596-3.452 20.063-14.193 20.063-26.906 0-15.508-12.587-28.094-28.094-28.094zM266.124 92.5v53.938h17.657V92.5h-17.655zm188.532 4.03c-15.507 0-28.094 12.588-28.094 28.095 0 13.083 8.948 24.074 21.063 27.188v27.468h-92.938v17.657h110.624v-46.342c10.223-4.192 17.407-14.233 17.407-25.97 0-15.507-12.557-28.094-28.064-28.094zM30.187 123.657v17.688H96.75v55.594h62.814V179.28h-45.126v-55.624h-84.25zm147.032 40.47v159.718h159.81v-159.72H177.22zm17.56 15.655h17.657v78.595l32.407 32.406h75.28v17.658H237.5l-2.594-2.594-10.75-10.75c-1.033 7.385-7.36 13.062-15.03 13.062-8.392 0-15.19-6.796-15.19-15.187 0-7.682 5.696-13.98 13.095-15l-9.655-9.658-2.594-2.593V179.78zm54.94.157h17.686v55.313h52.53l.002 17.688H249.72v-73zM53.124 217.375V307.344c-11.49 3.512-19.844 14.198-19.844 26.844 0 15.505 12.557 28.093 28.064 28.093s28.093-12.587 28.093-28.092c0-12.195-7.79-22.564-18.656-26.438v-72.72h88.782v-17.655H53.124zm301.563 0v17.656h53.968v-17.655h-53.97zm99.968 21.97c-10.898 0-20.342 6.21-25 15.28h-74.97l.002 17.688H427c2.325 13.168 13.824 23.187 27.656 23.187 15.507 0 28.063-12.588 28.063-28.094 0-15.507-12.557-28.062-28.064-28.062zm-349.062 15.28v17.688h53.97v-17.688h-53.97zm17.156 36.47v84.217c-11.498 3.513-19.875 14.2-19.875 26.844 0 15.506 12.587 28.094 28.094 28.094 15.506 0 28.06-12.588 28.06-28.094 0-12.194-7.766-22.564-18.624-26.437v-66.94h19.156v-17.686H122.75zm231.938 0v17.686h45.156v95.283c-11.323 3.624-19.53 14.26-19.53 26.78-.002 15.506 12.585 28.063 28.092 28.063 15.507 0 28.063-12.557 28.063-28.062 0-12.32-7.935-22.778-18.97-26.563V291.095h-62.814zM192.375 341.53v54.033h17.688V341.53h-17.688zm36.47 0v86.564c-11.013 3.794-18.94 14.233-18.94 26.53 0 15.506 12.588 28.095 28.095 28.095s28.063-12.59 28.063-28.095c0-12.53-8.203-23.14-19.532-26.75V341.53h-17.686zm37.28 0v54.033h17.688l-.032-54.032h-17.655zm38.094 0v140.064h17.655V341.53H304.22z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<div class="bg-gray-100 relative lg:py-20 md:py-16 py-10">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1] ">
+        <div class="flex flex-wrap w-full">
+            <div class="lg:w-1/2 w-full sm:px-4 py-4">
+                <div class=" bg-white rounded-lg rounded-br-none overflow-hidden flex items-center p-4 gap-5 relative duration-300 group before:absolute before:left-0 before:top-[20%] hover:before:top-0 before:h-[30%] before:duration-300 hover:before:h-full before:w-1 before:bg-gradient-to-r before:from-orange-500 before:to-black before:shadow">
+                    <div class="flex-none">
+                        <div class="lg:size-20 sm:size-16 size-14 relative md:p-4 p-2 flex items-center justify-center after:absolute after:shadow-md after:[background-image:linear-gradient(90deg,_#FB8007_0%,_#000000_100%)] after:size-full after:[border-radius:30%_70%_70%_30%/30%_58%_42%_70%]">
+                           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" text-white lg:size-12 sm:size-10 size-8 z-10" xmlns="http://www.w3.org/2000/svg"><path d="M228.844 32.22v114.218h17.687V32.218h-17.686zm-108.25.624c-15.507 0-28.094 12.586-28.094 28.093C92.5 76.444 105.087 89 120.594 89c12.655 0 23.34-8.372 26.844-19.875h44.937v77.313h17.688v-95H147.03c-3.888-10.837-14.262-18.593-26.436-18.593zm193.25 0c-15.507 0-28.063 12.586-28.063 28.093 0 12.124 7.677 22.45 18.44 26.376v59.124h17.655V87.844c11.596-3.452 20.063-14.193 20.063-26.906 0-15.508-12.587-28.094-28.094-28.094zM266.124 92.5v53.938h17.657V92.5h-17.655zm188.532 4.03c-15.507 0-28.094 12.588-28.094 28.095 0 13.083 8.948 24.074 21.063 27.188v27.468h-92.938v17.657h110.624v-46.342c10.223-4.192 17.407-14.233 17.407-25.97 0-15.507-12.557-28.094-28.064-28.094zM30.187 123.657v17.688H96.75v55.594h62.814V179.28h-45.126v-55.624h-84.25zm147.032 40.47v159.718h159.81v-159.72H177.22zm17.56 15.655h17.657v78.595l32.407 32.406h75.28v17.658H237.5l-2.594-2.594-10.75-10.75c-1.033 7.385-7.36 13.062-15.03 13.062-8.392 0-15.19-6.796-15.19-15.187 0-7.682 5.696-13.98 13.095-15l-9.655-9.658-2.594-2.593V179.78zm54.94.157h17.686v55.313h52.53l.002 17.688H249.72v-73zM53.124 217.375V307.344c-11.49 3.512-19.844 14.198-19.844 26.844 0 15.505 12.557 28.093 28.064 28.093s28.093-12.587 28.093-28.092c0-12.195-7.79-22.564-18.656-26.438v-72.72h88.782v-17.655H53.124zm301.563 0v17.656h53.968v-17.655h-53.97zm99.968 21.97c-10.898 0-20.342 6.21-25 15.28h-74.97l.002 17.688H427c2.325 13.168 13.824 23.187 27.656 23.187 15.507 0 28.063-12.588 28.063-28.094 0-15.507-12.557-28.062-28.064-28.062zm-349.062 15.28v17.688h53.97v-17.688h-53.97zm17.156 36.47v84.217c-11.498 3.513-19.875 14.2-19.875 26.844 0 15.506 12.587 28.094 28.094 28.094 15.506 0 28.06-12.588 28.06-28.094 0-12.194-7.766-22.564-18.624-26.437v-66.94h19.156v-17.686H122.75zm231.938 0v17.686h45.156v95.283c-11.323 3.624-19.53 14.26-19.53 26.78-.002 15.506 12.585 28.063 28.092 28.063 15.507 0 28.063-12.557 28.063-28.062 0-12.32-7.935-22.778-18.97-26.563V291.095h-62.814zM192.375 341.53v54.033h17.688V341.53h-17.688zm36.47 0v86.564c-11.013 3.794-18.94 14.233-18.94 26.53 0 15.506 12.588 28.095 28.095 28.095s28.063-12.59 28.063-28.095c0-12.53-8.203-23.14-19.532-26.75V341.53h-17.686zm37.28 0v54.033h17.688l-.032-54.032h-17.655zm38.094 0v140.064h17.655V341.53H304.22z"></path></svg>
+    
+                        </div> 
+                    </div>
+                    <div class="flex-1">
+                        <div class="text-gray-200 lg:text-6xl md:text-4xl text-2xl absolute top-3 right-3 font-bold duration-300 group-hover:bg-gradient-to-r group-hover:from-orange-500 group-hover:to-black group-hover:text-transparent group-hover:bg-clip-text">01</div>
+                        <div class="text-slate-950 font-bold sm:text-xl text-lg relative z-30">Beginer</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30 mt-3">Refer 1-10 Users</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30">To claim Rs100 you need to play for Rs 50 in this week</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 w-full sm:px-4 py-4">
+                <div class=" bg-white rounded-lg rounded-br-none overflow-hidden flex items-center p-4 gap-5 relative duration-300 group before:absolute before:left-0 before:top-[20%] hover:before:top-0 before:h-[30%] before:duration-300 hover:before:h-full before:w-1 before:bg-gradient-to-r before:from-orange-500 before:to-black before:shadow">
+                    <div class="flex-none">
+                        <div class="lg:size-20 sm:size-16 size-14 relative md:p-4 p-2 flex items-center justify-center after:absolute after:shadow-md after:[background-image:linear-gradient(90deg,_#FB8007_0%,_#000000_100%)] after:size-full after:[border-radius:30%_70%_70%_30%/30%_58%_42%_70%]">
+                           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" text-white lg:size-12 sm:size-10 size-8 z-10" xmlns="http://www.w3.org/2000/svg"><path d="M228.844 32.22v114.218h17.687V32.218h-17.686zm-108.25.624c-15.507 0-28.094 12.586-28.094 28.093C92.5 76.444 105.087 89 120.594 89c12.655 0 23.34-8.372 26.844-19.875h44.937v77.313h17.688v-95H147.03c-3.888-10.837-14.262-18.593-26.436-18.593zm193.25 0c-15.507 0-28.063 12.586-28.063 28.093 0 12.124 7.677 22.45 18.44 26.376v59.124h17.655V87.844c11.596-3.452 20.063-14.193 20.063-26.906 0-15.508-12.587-28.094-28.094-28.094zM266.124 92.5v53.938h17.657V92.5h-17.655zm188.532 4.03c-15.507 0-28.094 12.588-28.094 28.095 0 13.083 8.948 24.074 21.063 27.188v27.468h-92.938v17.657h110.624v-46.342c10.223-4.192 17.407-14.233 17.407-25.97 0-15.507-12.557-28.094-28.064-28.094zM30.187 123.657v17.688H96.75v55.594h62.814V179.28h-45.126v-55.624h-84.25zm147.032 40.47v159.718h159.81v-159.72H177.22zm17.56 15.655h17.657v78.595l32.407 32.406h75.28v17.658H237.5l-2.594-2.594-10.75-10.75c-1.033 7.385-7.36 13.062-15.03 13.062-8.392 0-15.19-6.796-15.19-15.187 0-7.682 5.696-13.98 13.095-15l-9.655-9.658-2.594-2.593V179.78zm54.94.157h17.686v55.313h52.53l.002 17.688H249.72v-73zM53.124 217.375V307.344c-11.49 3.512-19.844 14.198-19.844 26.844 0 15.505 12.557 28.093 28.064 28.093s28.093-12.587 28.093-28.092c0-12.195-7.79-22.564-18.656-26.438v-72.72h88.782v-17.655H53.124zm301.563 0v17.656h53.968v-17.655h-53.97zm99.968 21.97c-10.898 0-20.342 6.21-25 15.28h-74.97l.002 17.688H427c2.325 13.168 13.824 23.187 27.656 23.187 15.507 0 28.063-12.588 28.063-28.094 0-15.507-12.557-28.062-28.064-28.062zm-349.062 15.28v17.688h53.97v-17.688h-53.97zm17.156 36.47v84.217c-11.498 3.513-19.875 14.2-19.875 26.844 0 15.506 12.587 28.094 28.094 28.094 15.506 0 28.06-12.588 28.06-28.094 0-12.194-7.766-22.564-18.624-26.437v-66.94h19.156v-17.686H122.75zm231.938 0v17.686h45.156v95.283c-11.323 3.624-19.53 14.26-19.53 26.78-.002 15.506 12.585 28.063 28.092 28.063 15.507 0 28.063-12.557 28.063-28.062 0-12.32-7.935-22.778-18.97-26.563V291.095h-62.814zM192.375 341.53v54.033h17.688V341.53h-17.688zm36.47 0v86.564c-11.013 3.794-18.94 14.233-18.94 26.53 0 15.506 12.588 28.095 28.095 28.095s28.063-12.59 28.063-28.095c0-12.53-8.203-23.14-19.532-26.75V341.53h-17.686zm37.28 0v54.033h17.688l-.032-54.032h-17.655zm38.094 0v140.064h17.655V341.53H304.22z"></path></svg>
+    
+                        </div> 
+                    </div>
+                    <div class="flex-1">
+                        <div class="text-gray-200 lg:text-6xl md:text-4xl text-2xl absolute top-3 right-3 font-bold duration-300 group-hover:bg-gradient-to-r group-hover:from-orange-500 group-hover:to-black group-hover:text-transparent group-hover:bg-clip-text">02</div>
+                        <div class="text-slate-950 font-bold sm:text-xl text-lg relative z-30">Beginer</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30 mt-3">Refer 1-10 Users</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30">To claim Rs100 you need to play for Rs 50 in this week</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 w-full sm:px-4 py-4">
+                <div class=" bg-white rounded-lg rounded-br-none overflow-hidden flex items-center p-4 gap-5 relative duration-300 group before:absolute before:left-0 before:top-[20%] hover:before:top-0 before:h-[30%] before:duration-300 hover:before:h-full before:w-1 before:bg-gradient-to-r before:from-orange-500 before:to-black before:shadow">
+                    <div class="flex-none">
+                        <div class="lg:size-20 sm:size-16 size-14 relative md:p-4 p-2 flex items-center justify-center after:absolute after:shadow-md after:[background-image:linear-gradient(90deg,_#FB8007_0%,_#000000_100%)] after:size-full after:[border-radius:30%_70%_70%_30%/30%_58%_42%_70%]">
+                           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" text-white lg:size-12 sm:size-10 size-8 z-10" xmlns="http://www.w3.org/2000/svg"><path d="M228.844 32.22v114.218h17.687V32.218h-17.686zm-108.25.624c-15.507 0-28.094 12.586-28.094 28.093C92.5 76.444 105.087 89 120.594 89c12.655 0 23.34-8.372 26.844-19.875h44.937v77.313h17.688v-95H147.03c-3.888-10.837-14.262-18.593-26.436-18.593zm193.25 0c-15.507 0-28.063 12.586-28.063 28.093 0 12.124 7.677 22.45 18.44 26.376v59.124h17.655V87.844c11.596-3.452 20.063-14.193 20.063-26.906 0-15.508-12.587-28.094-28.094-28.094zM266.124 92.5v53.938h17.657V92.5h-17.655zm188.532 4.03c-15.507 0-28.094 12.588-28.094 28.095 0 13.083 8.948 24.074 21.063 27.188v27.468h-92.938v17.657h110.624v-46.342c10.223-4.192 17.407-14.233 17.407-25.97 0-15.507-12.557-28.094-28.064-28.094zM30.187 123.657v17.688H96.75v55.594h62.814V179.28h-45.126v-55.624h-84.25zm147.032 40.47v159.718h159.81v-159.72H177.22zm17.56 15.655h17.657v78.595l32.407 32.406h75.28v17.658H237.5l-2.594-2.594-10.75-10.75c-1.033 7.385-7.36 13.062-15.03 13.062-8.392 0-15.19-6.796-15.19-15.187 0-7.682 5.696-13.98 13.095-15l-9.655-9.658-2.594-2.593V179.78zm54.94.157h17.686v55.313h52.53l.002 17.688H249.72v-73zM53.124 217.375V307.344c-11.49 3.512-19.844 14.198-19.844 26.844 0 15.505 12.557 28.093 28.064 28.093s28.093-12.587 28.093-28.092c0-12.195-7.79-22.564-18.656-26.438v-72.72h88.782v-17.655H53.124zm301.563 0v17.656h53.968v-17.655h-53.97zm99.968 21.97c-10.898 0-20.342 6.21-25 15.28h-74.97l.002 17.688H427c2.325 13.168 13.824 23.187 27.656 23.187 15.507 0 28.063-12.588 28.063-28.094 0-15.507-12.557-28.062-28.064-28.062zm-349.062 15.28v17.688h53.97v-17.688h-53.97zm17.156 36.47v84.217c-11.498 3.513-19.875 14.2-19.875 26.844 0 15.506 12.587 28.094 28.094 28.094 15.506 0 28.06-12.588 28.06-28.094 0-12.194-7.766-22.564-18.624-26.437v-66.94h19.156v-17.686H122.75zm231.938 0v17.686h45.156v95.283c-11.323 3.624-19.53 14.26-19.53 26.78-.002 15.506 12.585 28.063 28.092 28.063 15.507 0 28.063-12.557 28.063-28.062 0-12.32-7.935-22.778-18.97-26.563V291.095h-62.814zM192.375 341.53v54.033h17.688V341.53h-17.688zm36.47 0v86.564c-11.013 3.794-18.94 14.233-18.94 26.53 0 15.506 12.588 28.095 28.095 28.095s28.063-12.59 28.063-28.095c0-12.53-8.203-23.14-19.532-26.75V341.53h-17.686zm37.28 0v54.033h17.688l-.032-54.032h-17.655zm38.094 0v140.064h17.655V341.53H304.22z"></path></svg>
+                        </div> 
+                    </div>
+                    <div class="flex-1">
+                        <div class="text-gray-200 lg:text-6xl md:text-4xl text-2xl absolute top-3 right-3 font-bold duration-300 group-hover:bg-gradient-to-r group-hover:from-orange-500 group-hover:to-black group-hover:text-transparent group-hover:bg-clip-text">03</div>
+                        <div class="text-slate-950 font-bold sm:text-xl text-lg relative z-30">Beginer</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30 mt-3">Refer 1-10 Users</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30">To claim Rs100 you need to play for Rs 50 in this week</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 w-full sm:px-4 py-4">
+                <div class=" bg-white rounded-lg rounded-br-none overflow-hidden flex items-center p-4 gap-5 relative duration-300 group before:absolute before:left-0 before:top-[20%] hover:before:top-0 before:h-[30%] before:duration-300 hover:before:h-full before:w-1 before:bg-gradient-to-r before:from-orange-500 before:to-black before:shadow">
+                    <div class="flex-none">
+                        <div class="lg:size-20 sm:size-16 size-14 relative md:p-4 p-2 flex items-center justify-center after:absolute after:shadow-md after:[background-image:linear-gradient(90deg,_#FB8007_0%,_#000000_100%)] after:size-full after:[border-radius:30%_70%_70%_30%/30%_58%_42%_70%]">
+                           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" text-white lg:size-12 sm:size-10 size-8 z-10" xmlns="http://www.w3.org/2000/svg"><path d="M228.844 32.22v114.218h17.687V32.218h-17.686zm-108.25.624c-15.507 0-28.094 12.586-28.094 28.093C92.5 76.444 105.087 89 120.594 89c12.655 0 23.34-8.372 26.844-19.875h44.937v77.313h17.688v-95H147.03c-3.888-10.837-14.262-18.593-26.436-18.593zm193.25 0c-15.507 0-28.063 12.586-28.063 28.093 0 12.124 7.677 22.45 18.44 26.376v59.124h17.655V87.844c11.596-3.452 20.063-14.193 20.063-26.906 0-15.508-12.587-28.094-28.094-28.094zM266.124 92.5v53.938h17.657V92.5h-17.655zm188.532 4.03c-15.507 0-28.094 12.588-28.094 28.095 0 13.083 8.948 24.074 21.063 27.188v27.468h-92.938v17.657h110.624v-46.342c10.223-4.192 17.407-14.233 17.407-25.97 0-15.507-12.557-28.094-28.064-28.094zM30.187 123.657v17.688H96.75v55.594h62.814V179.28h-45.126v-55.624h-84.25zm147.032 40.47v159.718h159.81v-159.72H177.22zm17.56 15.655h17.657v78.595l32.407 32.406h75.28v17.658H237.5l-2.594-2.594-10.75-10.75c-1.033 7.385-7.36 13.062-15.03 13.062-8.392 0-15.19-6.796-15.19-15.187 0-7.682 5.696-13.98 13.095-15l-9.655-9.658-2.594-2.593V179.78zm54.94.157h17.686v55.313h52.53l.002 17.688H249.72v-73zM53.124 217.375V307.344c-11.49 3.512-19.844 14.198-19.844 26.844 0 15.505 12.557 28.093 28.064 28.093s28.093-12.587 28.093-28.092c0-12.195-7.79-22.564-18.656-26.438v-72.72h88.782v-17.655H53.124zm301.563 0v17.656h53.968v-17.655h-53.97zm99.968 21.97c-10.898 0-20.342 6.21-25 15.28h-74.97l.002 17.688H427c2.325 13.168 13.824 23.187 27.656 23.187 15.507 0 28.063-12.588 28.063-28.094 0-15.507-12.557-28.062-28.064-28.062zm-349.062 15.28v17.688h53.97v-17.688h-53.97zm17.156 36.47v84.217c-11.498 3.513-19.875 14.2-19.875 26.844 0 15.506 12.587 28.094 28.094 28.094 15.506 0 28.06-12.588 28.06-28.094 0-12.194-7.766-22.564-18.624-26.437v-66.94h19.156v-17.686H122.75zm231.938 0v17.686h45.156v95.283c-11.323 3.624-19.53 14.26-19.53 26.78-.002 15.506 12.585 28.063 28.092 28.063 15.507 0 28.063-12.557 28.063-28.062 0-12.32-7.935-22.778-18.97-26.563V291.095h-62.814zM192.375 341.53v54.033h17.688V341.53h-17.688zm36.47 0v86.564c-11.013 3.794-18.94 14.233-18.94 26.53 0 15.506 12.588 28.095 28.095 28.095s28.063-12.59 28.063-28.095c0-12.53-8.203-23.14-19.532-26.75V341.53h-17.686zm37.28 0v54.033h17.688l-.032-54.032h-17.655zm38.094 0v140.064h17.655V341.53H304.22z"></path></svg>
+                        </div> 
+                    </div>
+                    <div class="flex-1">
+                        <div class="text-gray-200 lg:text-6xl md:text-4xl text-2xl absolute top-3 right-3 font-bold duration-300 group-hover:bg-gradient-to-r group-hover:from-orange-500 group-hover:to-black group-hover:text-transparent group-hover:bg-clip-text">04</div>
+                        <div class="text-slate-950 font-bold sm:text-xl text-lg relative z-30">Beginer</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30 mt-3">Refer 1-10 Users</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30">To claim Rs100 you need to play for Rs 50 in this week</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 w-full sm:px-4 py-4">
+                <div class=" bg-white rounded-lg rounded-br-none overflow-hidden flex items-center p-4 gap-5 relative duration-300 group before:absolute before:left-0 before:top-[20%] hover:before:top-0 before:h-[30%] before:duration-300 hover:before:h-full before:w-1 before:bg-gradient-to-r before:from-orange-500 before:to-black before:shadow">
+                    <div class="flex-none">
+                        <div class="lg:size-20 sm:size-16 size-14 relative md:p-4 p-2 flex items-center justify-center after:absolute after:shadow-md after:[background-image:linear-gradient(90deg,_#FB8007_0%,_#000000_100%)] after:size-full after:[border-radius:30%_70%_70%_30%/30%_58%_42%_70%]">
+                           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" text-white lg:size-12 sm:size-10 size-8 z-10" xmlns="http://www.w3.org/2000/svg"><path d="M228.844 32.22v114.218h17.687V32.218h-17.686zm-108.25.624c-15.507 0-28.094 12.586-28.094 28.093C92.5 76.444 105.087 89 120.594 89c12.655 0 23.34-8.372 26.844-19.875h44.937v77.313h17.688v-95H147.03c-3.888-10.837-14.262-18.593-26.436-18.593zm193.25 0c-15.507 0-28.063 12.586-28.063 28.093 0 12.124 7.677 22.45 18.44 26.376v59.124h17.655V87.844c11.596-3.452 20.063-14.193 20.063-26.906 0-15.508-12.587-28.094-28.094-28.094zM266.124 92.5v53.938h17.657V92.5h-17.655zm188.532 4.03c-15.507 0-28.094 12.588-28.094 28.095 0 13.083 8.948 24.074 21.063 27.188v27.468h-92.938v17.657h110.624v-46.342c10.223-4.192 17.407-14.233 17.407-25.97 0-15.507-12.557-28.094-28.064-28.094zM30.187 123.657v17.688H96.75v55.594h62.814V179.28h-45.126v-55.624h-84.25zm147.032 40.47v159.718h159.81v-159.72H177.22zm17.56 15.655h17.657v78.595l32.407 32.406h75.28v17.658H237.5l-2.594-2.594-10.75-10.75c-1.033 7.385-7.36 13.062-15.03 13.062-8.392 0-15.19-6.796-15.19-15.187 0-7.682 5.696-13.98 13.095-15l-9.655-9.658-2.594-2.593V179.78zm54.94.157h17.686v55.313h52.53l.002 17.688H249.72v-73zM53.124 217.375V307.344c-11.49 3.512-19.844 14.198-19.844 26.844 0 15.505 12.557 28.093 28.064 28.093s28.093-12.587 28.093-28.092c0-12.195-7.79-22.564-18.656-26.438v-72.72h88.782v-17.655H53.124zm301.563 0v17.656h53.968v-17.655h-53.97zm99.968 21.97c-10.898 0-20.342 6.21-25 15.28h-74.97l.002 17.688H427c2.325 13.168 13.824 23.187 27.656 23.187 15.507 0 28.063-12.588 28.063-28.094 0-15.507-12.557-28.062-28.064-28.062zm-349.062 15.28v17.688h53.97v-17.688h-53.97zm17.156 36.47v84.217c-11.498 3.513-19.875 14.2-19.875 26.844 0 15.506 12.587 28.094 28.094 28.094 15.506 0 28.06-12.588 28.06-28.094 0-12.194-7.766-22.564-18.624-26.437v-66.94h19.156v-17.686H122.75zm231.938 0v17.686h45.156v95.283c-11.323 3.624-19.53 14.26-19.53 26.78-.002 15.506 12.585 28.063 28.092 28.063 15.507 0 28.063-12.557 28.063-28.062 0-12.32-7.935-22.778-18.97-26.563V291.095h-62.814zM192.375 341.53v54.033h17.688V341.53h-17.688zm36.47 0v86.564c-11.013 3.794-18.94 14.233-18.94 26.53 0 15.506 12.588 28.095 28.095 28.095s28.063-12.59 28.063-28.095c0-12.53-8.203-23.14-19.532-26.75V341.53h-17.686zm37.28 0v54.033h17.688l-.032-54.032h-17.655zm38.094 0v140.064h17.655V341.53H304.22z"></path></svg>
+                        </div> 
+                    </div>
+                    <div class="flex-1">
+                        <div class="text-gray-200 lg:text-6xl md:text-4xl text-2xl absolute top-3 right-3 font-bold duration-300 group-hover:bg-gradient-to-r group-hover:from-orange-500 group-hover:to-black group-hover:text-transparent group-hover:bg-clip-text">05</div>
+                        <div class="text-slate-950 font-bold sm:text-xl text-lg relative z-30">Beginer</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30 mt-3">Refer 1-10 Users</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30">To claim Rs100 you need to play for Rs 50 in this week</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 w-full sm:px-4 py-4">
+                <div class=" bg-white rounded-lg rounded-br-none overflow-hidden flex items-center p-4 gap-5 relative duration-300 group before:absolute before:left-0 before:top-[20%] hover:before:top-0 before:h-[30%] before:duration-300 hover:before:h-full before:w-1 before:bg-gradient-to-r before:from-orange-500 before:to-black before:shadow">
+                    <div class="flex-none">
+                        <div class="lg:size-20 sm:size-16 size-14 relative md:p-4 p-2 flex items-center justify-center after:absolute after:shadow-md after:[background-image:linear-gradient(90deg,_#FB8007_0%,_#000000_100%)] after:size-full after:[border-radius:30%_70%_70%_30%/30%_58%_42%_70%]">
+                           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" text-white lg:size-12 sm:size-10 size-8 z-10" xmlns="http://www.w3.org/2000/svg"><path d="M228.844 32.22v114.218h17.687V32.218h-17.686zm-108.25.624c-15.507 0-28.094 12.586-28.094 28.093C92.5 76.444 105.087 89 120.594 89c12.655 0 23.34-8.372 26.844-19.875h44.937v77.313h17.688v-95H147.03c-3.888-10.837-14.262-18.593-26.436-18.593zm193.25 0c-15.507 0-28.063 12.586-28.063 28.093 0 12.124 7.677 22.45 18.44 26.376v59.124h17.655V87.844c11.596-3.452 20.063-14.193 20.063-26.906 0-15.508-12.587-28.094-28.094-28.094zM266.124 92.5v53.938h17.657V92.5h-17.655zm188.532 4.03c-15.507 0-28.094 12.588-28.094 28.095 0 13.083 8.948 24.074 21.063 27.188v27.468h-92.938v17.657h110.624v-46.342c10.223-4.192 17.407-14.233 17.407-25.97 0-15.507-12.557-28.094-28.064-28.094zM30.187 123.657v17.688H96.75v55.594h62.814V179.28h-45.126v-55.624h-84.25zm147.032 40.47v159.718h159.81v-159.72H177.22zm17.56 15.655h17.657v78.595l32.407 32.406h75.28v17.658H237.5l-2.594-2.594-10.75-10.75c-1.033 7.385-7.36 13.062-15.03 13.062-8.392 0-15.19-6.796-15.19-15.187 0-7.682 5.696-13.98 13.095-15l-9.655-9.658-2.594-2.593V179.78zm54.94.157h17.686v55.313h52.53l.002 17.688H249.72v-73zM53.124 217.375V307.344c-11.49 3.512-19.844 14.198-19.844 26.844 0 15.505 12.557 28.093 28.064 28.093s28.093-12.587 28.093-28.092c0-12.195-7.79-22.564-18.656-26.438v-72.72h88.782v-17.655H53.124zm301.563 0v17.656h53.968v-17.655h-53.97zm99.968 21.97c-10.898 0-20.342 6.21-25 15.28h-74.97l.002 17.688H427c2.325 13.168 13.824 23.187 27.656 23.187 15.507 0 28.063-12.588 28.063-28.094 0-15.507-12.557-28.062-28.064-28.062zm-349.062 15.28v17.688h53.97v-17.688h-53.97zm17.156 36.47v84.217c-11.498 3.513-19.875 14.2-19.875 26.844 0 15.506 12.587 28.094 28.094 28.094 15.506 0 28.06-12.588 28.06-28.094 0-12.194-7.766-22.564-18.624-26.437v-66.94h19.156v-17.686H122.75zm231.938 0v17.686h45.156v95.283c-11.323 3.624-19.53 14.26-19.53 26.78-.002 15.506 12.585 28.063 28.092 28.063 15.507 0 28.063-12.557 28.063-28.062 0-12.32-7.935-22.778-18.97-26.563V291.095h-62.814zM192.375 341.53v54.033h17.688V341.53h-17.688zm36.47 0v86.564c-11.013 3.794-18.94 14.233-18.94 26.53 0 15.506 12.588 28.095 28.095 28.095s28.063-12.59 28.063-28.095c0-12.53-8.203-23.14-19.532-26.75V341.53h-17.686zm37.28 0v54.033h17.688l-.032-54.032h-17.655zm38.094 0v140.064h17.655V341.53H304.22z"></path></svg>
+                        </div> 
+                    </div>
+                    <div class="flex-1">
+                        <div class="text-gray-200 lg:text-6xl md:text-4xl text-2xl absolute top-3 right-3 font-bold duration-300 group-hover:bg-gradient-to-r group-hover:from-orange-500 group-hover:to-black group-hover:text-transparent group-hover:bg-clip-text">06</div>
+                        <div class="text-slate-950 font-bold sm:text-xl text-lg relative z-30">Beginer</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30 mt-3">Refer 1-10 Users</div>
+                        <div class="text-sm font-normal text-gray-800 relative z-30">To claim Rs100 you need to play for Rs 50 in this week</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-[#f5f9ff] relative lg:py-20 md:py-16 py-10">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1]">
+        <div class="flex flex-wrap w-full justify-center mx-2">
+            <ul class="list-none realtive">
+                <li class="flex items-center relative md:pb-5 pb-10 before:absolute before:h-1/2 before:top-0 before:w before:[transform:translateX(-50%)] before:left-1/2 before:bg-gray-400 after:absolute after:h-1/2 after:w-[2px] after:[transform:translateX(-50%)] after:left-1/2 after:bottom-0 after:bg-gray-400">
+                    <div class="leftdiv relative flex-1 items-center md:[max-width:50%] w-full md:[padding:0_80px_0_0]">
+                        <div class="absolute md:top-1/2 top-[-20px] z-30  md:right-[-33px] max-md:left-1/2 max-md:mx-auto  md:size-16 size-10 md:transform md:-translate-y-1/2 max-md:transform max-md:-translate-x-1/2 rounded-full bg-red-600 z-10 flex items-center justify-center md:border-4 border-2 border-white shadow-md text-white md:text-lg text-base font-bold">
+                            1
+                        </div>
+                        <div class="w-full p-8 bg-white mx-auto shadow-md rounded-lg relative z-10">
+                            <div class="text-slate-900 font-bold text-xl">Login</div>
+                            <div class="text-black text-sm font-medium mt-2">Users need to log in/sign up on the Real Estate app platform using Email ID and complete the verification process.</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="flex flex-row-reverse items-center relative md:pb-5 pb-10 before:absolute before:h-1/2 before:top-0 before:w-[2px] before:[transform:translateX(-50%)] before:left-1/2 before:bg-gray-400 after:absolute after:h-1/2 after:w-[2px] after:[transform:translateX(-50%)] after:left-1/2 after:bottom-0 after:bg-gray-400 ">
+                    <div class="leftdiv relative flex-1 items-center md:[max-width:50%] w-full md:[padding:0_0_0_80px]">
+                        <div class="absolute md:top-1/2 top-[-20px] z-30 md:left-[-33px] max-md:left-1/2 max-md:mx-auto  md:size-16 size-10 md:transform md:-translate-y-1/2 max-md:transform max-md:-translate-x-1/2 rounded-full bg-red-600 z-10 flex items-center justify-center md:border-4 border-2 border-white shadow-md text-white md:text-lg text-base font-bold">
+                            2
+                        </div>
+                        <div class="w-full p-8 bg-white mx-auto shadow-md rounded-lg relative z-10">
+                            <div class="text-slate-900 font-bold text-xl">Login</div>
+                            <div class="text-black text-sm font-medium mt-2">Users need to log in/sign up on the Real Estate app platform using Email ID and complete the verification process.</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="flex items-center relative md:pb-5 pb-10 before:absolute before:h-1/2 before:top-0 before:w-[2px] before:[transform:translateX(-50%)] before:left-1/2 before:bg-gray-400 after:absolute after:h-1/2 after:w-[2px] after:[transform:translateX(-50%)] after:left-1/2 after:bottom-0 after:bg-gray-400">
+                    <div class="leftdiv relative flex-1 items-center md:[max-width:50%] w-full md:[padding:0_80px_0_0]">
+                        <div class="absolute md:top-1/2 top-[-20px] z-30  md:right-[-33px] max-md:left-1/2 max-md:mx-auto  md:size-16 size-10 md:transform md:-translate-y-1/2 max-md:transform max-md:-translate-x-1/2 rounded-full bg-red-600 z-10 flex items-center justify-center md:border-4 border-2 border-white shadow-md text-white md:text-lg text-base font-bold">
+                            3
+                        </div>
+                        <div class="w-full p-8 bg-white mx-auto shadow-md rounded-lg relative z-10">
+                            <div class="text-slate-900 font-bold text-xl">Login</div>
+                            <div class="text-black text-sm font-medium mt-2">Users need to log in/sign up on the Real Estate app platform using Email ID and complete the verification process.</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="flex flex-row-reverse items-center relative md:pb-5 pb-10 before:absolute before:h-1/2 before:top-0 before:w-[2px] before:[transform:translateX(-50%)] before:left-1/2 before:bg-gray-400 after:absolute after:h-1/2 after:w-[2px] after:[transform:translateX(-50%)] after:left-1/2 after:bottom-0 after:bg-gray-400 ">
+                    <div class="leftdiv relative flex-1 items-center md:[max-width:50%] w-full md:[padding:0_0_0_80px]">
+                        <div class="absolute md:top-1/2 top-[-20px] z-30 md:left-[-33px] max-md:left-1/2 max-md:mx-auto  md:size-16 size-10 md:transform md:-translate-y-1/2 max-md:transform max-md:-translate-x-1/2 rounded-full bg-red-600 z-10 flex items-center justify-center md:border-4 border-2 border-white shadow-md text-white md:text-lg text-base font-bold">
+                            4
+                        </div>
+                        <div class="w-full p-8 bg-white mx-auto shadow-md rounded-lg relative z-10">
+                            <div class="text-slate-900 font-bold text-xl">Login</div>
+                            <div class="text-black text-sm font-medium mt-2">Users need to log in/sign up on the Real Estate app platform using Email ID and complete the verification process.</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="flex items-center relative md:pb-5 pb-10 before:absolute before:h-1/2 before:top-0 before:w-[2px] before:[transform:translateX(-50%)] before:left-1/2 before:bg-gray-400 after:absolute after:h-1/2 after:w-[2px] after:[transform:translateX(-50%)] after:left-1/2 after:bottom-0 after:bg-gray-400">
+                    <div class="leftdiv relative flex-1 items-center md:[max-width:50%] w-full md:[padding:0_80px_0_0]">
+                        <div class="absolute md:top-1/2 top-[-20px] z-30  md:right-[-33px] max-md:left-1/2 max-md:mx-auto  md:size-16 size-10 md:transform md:-translate-y-1/2 max-md:transform max-md:-translate-x-1/2 rounded-full bg-red-600 z-10 flex items-center justify-center md:border-4 border-2 border-white shadow-md text-white md:text-lg text-base font-bold">
+                            5
+                        </div>
+                        <div class="w-full p-8 bg-white mx-auto shadow-md rounded-lg relative z-10">
+                            <div class="text-slate-900 font-bold text-xl">Login</div>
+                            <div class="text-black text-sm font-medium mt-2">Users need to log in/sign up on the Real Estate app platform using Email ID and complete the verification process.</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="flex flex-row-reverse items-center relative md:pb-5 pb-10 before:absolute before:h-1/2 before:top-0 before:w-[2px] before:[transform:translateX(-50%)] before:left-1/2 before:bg-gray-400 after:absolute after:h-1/2 after:w-[0px] after:[transform:translateX(-50%)] after:left-1/2 after:bottom-0 after:bg-gray-400 ">
+                    <div class="leftdiv relative flex-1 items-center md:[max-width:50%] w-full md:[padding:0_0_0_80px]">
+                        <div class="absolute md:top-1/2 top-[-20px] z-30 md:left-[-33px] max-md:left-1/2 max-md:mx-auto  md:size-16 size-10 md:transform md:-translate-y-1/2 max-md:transform max-md:-translate-x-1/2 rounded-full bg-red-600 z-10 flex items-center justify-center md:border-4 border-2 border-white shadow-md text-white md:text-lg text-base font-bold">
+                            6
+                        </div>
+                        <div class="w-full p-8 bg-white mx-auto shadow-md rounded-lg relative z-10">
+                            <div class="text-slate-900 font-bold text-xl">Login</div>
+                            <div class="text-black text-sm font-medium mt-2">Users need to log in/sign up on the Real Estate app platform using Email ID and complete the verification process.</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="bg-gray-100/50 bg-[url('../img/android-application/bg-shapes.webp')] bg-no-repeat bg-center bg-cover relative  lg:py-20 md:py-16 py-10">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1]">
+        <div class="flex flex-wrap w-full">
+            <div class="lg:w-1/2 w-full lg:px-4 py-4">
+                <div class="cardmain md:flex p-6 rounded-lg rounded-br-none bg-white shadow-gray-200 shadow-lg mb-10 duration-300 group md:hover:-translate-y-2">
+                    <div class="flex-none md:mb-0 mb-3">
+                        <div class="bg-theme1 md:me-5 text-white lg:size-16 sm:size-14 size-12 sm:p-3 p-2 flex items-center justify-center rounded-lg rounded-br-none">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M640 264v-16c0-8.84-7.16-16-16-16H344v-40h72c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H224c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h72v40H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h104v40H64c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h304v40h-56c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h104c8.84 0 16-7.16 16-16zM256 128V64h128v64H256zm-64 320H96v-64h96v64zm352 0h-96v-64h96v64z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="font-semibold sm:text-xl text-lg text-theme-1">IT workflows</div>
+                        <div class="text-gray-700 md:text-base text-sm md:mt-3 mt-2">We offer workflows that can transform it into a fully-fledged growth engine. Take advantage of the benefits of operational flexibility by increasing workforce adaptability.</div>
+                    </div>
+                </div>
+                <div class="cardmain md:flex p-6 rounded-lg rounded-br-none bg-white shadow-gray-200 shadow-lg mb-10 duration-300 group md:hover:-translate-y-2">
+                    <div class="flex-none md:mb-0 mb-3">
+                        <div class="bg-theme1 md:me-5 text-white lg:size-16 sm:size-14 size-12 sm:p-3 p-2 flex items-center justify-center rounded-lg rounded-br-none">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M640 264v-16c0-8.84-7.16-16-16-16H344v-40h72c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H224c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h72v40H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h104v40H64c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h304v40h-56c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h104c8.84 0 16-7.16 16-16zM256 128V64h128v64H256zm-64 320H96v-64h96v64zm352 0h-96v-64h96v64z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="font-semibold sm:text-xl text-lg text-theme-1">IT workflows</div>
+                        <div class="text-gray-700 md:text-base text-sm md:mt-3 mt-2">We offer workflows that can transform it into a fully-fledged growth engine. Take advantage of the benefits of operational flexibility by increasing workforce adaptability.</div>
+                    </div>
+                </div>
+                <div class="imgsection">
+                <img class="" src="{{asset('public'.mix('/tailwind/img/android-application/service.webp'))}}" alt="service"> 
+                </div>
+            </div>
+            <div class="lg:w-1/2 w-full lg:px-4 py-4">
+                <div class="imgsection mb-10 flex itmes-center justifiy-center">
+                    <img class="" src="{{asset('public'.mix('/tailwind/img/android-application/service1.webp'))}}" alt="service"> 
+                </div>
+                <div class="cardmain md:flex p-6 rounded-lg rounded-br-none bg-white shadow-gray-200 shadow-lg mb-10 duration-300 group md:hover:-translate-y-2">
+                    <div class="flex-none md:mb-0 mb-3">
+                        <div class="bg-theme1 md:me-5 text-white lg:size-16 sm:size-14 size-12 sm:p-3 p-2 flex items-center justify-center rounded-lg rounded-br-none">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M640 264v-16c0-8.84-7.16-16-16-16H344v-40h72c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H224c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h72v40H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h104v40H64c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h304v40h-56c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h104c8.84 0 16-7.16 16-16zM256 128V64h128v64H256zm-64 320H96v-64h96v64zm352 0h-96v-64h96v64z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="font-semibold sm:text-xl text-lg text-theme-1">IT workflows</div>
+                        <div class="text-gray-700 md:text-base text-sm md:mt-3 mt-2">We offer workflows that can transform it into a fully-fledged growth engine. Take advantage of the benefits of operational flexibility by increasing workforce adaptability.</div>
+                    </div>
+                </div>
+                <div class="cardmain md:flex p-6 rounded-lg rounded-br-none bg-white shadow-gray-200 shadow-lg duration-300 group md:hover:-translate-y-2">
+                   <div class="flex-none md:mb-0 mb-3">
+                        <div class="bg-theme1 md:me-5 text-white lg:size-16 sm:size-14 size-12 sm:p-3 p-2 flex items-center justify-center rounded-lg rounded-br-none">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="size-full" xmlns="http://www.w3.org/2000/svg"><path d="M640 264v-16c0-8.84-7.16-16-16-16H344v-40h72c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H224c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h72v40H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h104v40H64c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h304v40h-56c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h104c8.84 0 16-7.16 16-16zM256 128V64h128v64H256zm-64 320H96v-64h96v64zm352 0h-96v-64h96v64z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="font-semibold sm:text-xl text-lg text-theme-1">IT workflows</div>
+                        <div class="text-gray-700 md:text-base text-sm md:mt-3 mt-2">We offer workflows that can transform it into a fully-fledged growth engine. Take advantage of the benefits of operational flexibility by increasing workforce adaptability.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="relative lg:py-20 md:py-16 py-10">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 z-[1]">
+        <div class="flex flex-wrap w-full">
+            <div class="w-2/5">
+                <div class="text-[200px] text-gray-100 absolute top-24 left-24">OUR STORY</div>
+            </div>
+        </div>
+    </div>
 </div>
 
 @endsection
