@@ -165,21 +165,21 @@
 {{-- slider-section --}}
 <div class="w-full py-6 md:py-8 lg:py-16 lg:text-left relative z-[1] overflow-hidden md:gap-10 gap-8 flex flex-col  mx-auto max-w-7xl px-6 lg:px-8 select-none">
     <div class="flex items-center flex-wrap">
-    <div class="md:w-[40%] lg:w-[30%] w-full p-3">
-        <p class="
-        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black
-        first:*:font-normal
-        last:*:font-bold last:*:text-theme4
-    ">
-                    <span class="font-normal">We Offer B2B Marketplace </span> 
-                        <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme4">
-                        Solution for Major Industries</span>
-    </p>
-    <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">We have a team of experienced e-commerce developers who are proficient to deliver solutions that can help improve your online presence and boost sales.</p>
-    <div class="pt-5">
-        <a href="https://www.imgglobalinfotech.com/about-us.php" class="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Read More <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
-    </div>
-</div>
+        <div class="md:w-[40%] lg:w-[30%] w-full p-3">
+            <p class="
+            max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black
+            first:*:font-normal
+            last:*:font-bold last:*:text-theme4
+            ">
+                            <span class="font-normal">We Offer B2B Marketplace </span> 
+                                <span class="font-bold bg-gradient-to-r from-gray-500 via-sky-600 to-gray-500 bg-clip-text text-theme4">
+                                Solution for Major Industries</span>
+            </p>
+            <p class="mt-4 text-sm md:text-base leading-7 text-slate-600">We have a team of experienced e-commerce developers who are proficient to deliver solutions that can help improve your online presence and boost sales.</p>
+            <div class="pt-5">
+                <a href="https://www.imgglobalinfotech.com/about-us.php" class="inline-flex rounded-br-none justify-center rounded-lg text-sm font-semibold py-2 md:py-3 px-3 md:px-4 bg-slate-900 text-white hover:bg-slate-700"><span class="select-none">Read More <span aria-hidden="true" class="text-slate-400 sm:inline">→</span></span></a>
+            </div>
+        </div>
     <div class="md:w-[60%] lg:w-[70%] w-full">
         <div class="w-max flex group/marquee gap-5 *:flex *:items-center *:gap-5 *:duration-300 *:animate-marquee-h lg:*:*:w-60 md:*:*:w-48 *:*:w-40 *:*:aspect-[460/800] *:*:rounded-2xl *:*:drop-shadow-xl *:*:shadow-slate-600">
             <div class="group-hover/marquee:[animation-play-state:paused]">
