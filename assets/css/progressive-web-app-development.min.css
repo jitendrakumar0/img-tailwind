@@ -1,0 +1,307 @@
+li {
+  list-style: none;
+}
+
+.app-development_area .app_choose::before {
+  position: absolute;
+  content: "";
+  border: 2px dashed rgba(9, 72, 98, 0.6509803922);
+  width: 61%;
+  right: -77px;
+  top: 47px;
+}
+
+.banner-cta1 {
+  background: linear-gradient(45deg, #0b5a7b, #03151d) !important;
+  border-radius: 10px;
+}
+
+.Progressive-offer-box .offer_item {
+  transition: 500ms ease;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 9;
+  background-color: #084159;
+}
+.Progressive-offer-box .offer_item::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: -2%;
+  background-color: #de9c17;
+  z-index: -1;
+  transition: 500ms ease;
+  top: -14px;
+}
+.Progressive-offer-box .offer_item::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: -2%;
+  background-color: #de9c17;
+  z-index: -1;
+  transition: 500ms ease;
+  bottom: -14px;
+}
+.Progressive-offer-box .offer_item .offer_icon {
+  width: 112px;
+  height: 98px;
+  font-size: 45px;
+  border-radius: 22px 0 22px 0;
+  background: #f7f7f7;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms ease;
+  z-index: 9;
+}
+.Progressive-offer-box .offer_item .offer_icon img {
+  transition: 500ms ease;
+}
+.Progressive-offer-box .offer_item:hover:before {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+.Progressive-offer-box .offer_item:hover:after {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.Progressive-offer-box .offer_item:hover .offer_icon {
+  background: #fff;
+}
+.Progressive-offer-box .offer_item:hover .offer_icon img {
+  transform: scale(1.1);
+}
+
+.hire_section {
+  background: linear-gradient(to right, #03151d 12%, #0b5a7b);
+}
+.hire_section .hire_box {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  transition: 500ms ease;
+}
+.hire_section .hire_box.hire_box_2 {
+  margin-top: -93px;
+}
+.hire_section .hire_box:hover {
+  background: #e09c19;
+}
+
+.development_process {
+  background: linear-gradient(to right, #03151d 12%, #0b5a7b);
+  position: relative;
+}
+.development_process::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(../../../img/fintech-software-development/double-bubble-outline.webp);
+  background-size: 480px;
+  opacity: 0.1;
+}
+.development_process .develomemt_box {
+  border-radius: 15px;
+  transition: 500ms ease;
+}
+.development_process .develomemt_box::before {
+  content: "";
+  width: 80%;
+  left: -15px;
+  background: #e09c19;
+  height: 80%;
+  top: 10%;
+  z-index: -1;
+  border-radius: 15px;
+  position: absolute;
+  transition: 500ms ease;
+}
+.development_process .develomemt_box .col-12 {
+  transition: 500ms ease;
+}
+.development_process .develomemt_box .development_icon i {
+  color: #e09c19;
+}
+.development_process .develomemt_box:hover {
+  background: #094b67 !important;
+}
+.development_process .develomemt_box:hover:before {
+  display: none;
+}
+.development_process .develomemt_box:hover .col-12 {
+  color: #fff !important;
+}
+
+@keyframes bounce {
+  0%, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translateZ(0);
+  }
+  40%, 43% {
+    transform: translate3d(0, -30px, 0);
+  }
+  40%, 43%, 70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  }
+  70% {
+    transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
+}
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+.Progressive_experties_box .experties_item {
+  transition: 500ms ease;
+  border-radius: 7px;
+  z-index: 9;
+  overflow: hidden;
+  background: #094a65;
+}
+.Progressive_experties_box .experties_item::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 31%;
+  background: #de9c17;
+  width: 2%;
+  height: 42%;
+  z-index: -1;
+  border-radius: 14px;
+  transition: 500ms ease;
+}
+.Progressive_experties_box .experties_item .col-12 {
+  transition: 500ms ease;
+}
+.Progressive_experties_box .experties_item .experties_icon {
+  border: 2px solid #094a65;
+  background: #fff;
+  width: 72px;
+  height: 72px;
+  color: #222;
+  transition: 500ms ease;
+  border-radius: 9px;
+}
+.Progressive_experties_box .experties_item .experties_icon img {
+  transition: 500ms ease;
+}
+.Progressive_experties_box .experties_item:hover:before {
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 0;
+}
+.Progressive_experties_box .experties_item:hover .experties_icon {
+  background: #094a65;
+  border-color: #fff;
+  animation: bounce 1s;
+}
+
+.faq_section {
+  background: #f8f9fa;
+}
+
+.faq_section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  filter: brightness(0.5);
+  z-index: 0;
+  transform: rotateY(180deg) rotateX(180deg);
+  background-repeat: no-repeat;
+}
+
+.faq_section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top right;
+  filter: brightness(0.5);
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+
+.accordion-item {
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.0509803922);
+  border-radius: 10px;
+  border: 0;
+}
+
+button.accordion-button {
+  background: linear-gradient(to right, #03151d 12%, #0b5a7b);
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 20px 20px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff6d00;
+  color: #fff;
+  box-shadow: unset;
+  outline: unset;
+}
+
+.list_count {
+  list-style-type: decimal-leading-zero;
+}
+
+.accordion-button::after {
+  filter: brightness(20.5);
+}
+
+@media (max-width: 991.98px) {
+  .app-development_area .heading::before {
+    right: 0 !important;
+  }
+  .app-development_area .heading::after {
+    right: 0 !important;
+  }
+  .hire_section .hire_box.hire_box_2 {
+    margin-top: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .app-development_area .heading::before {
+    right: 0 !important;
+  }
+  .app-development_area .heading::after {
+    right: 0 !important;
+  }
+  .hire_section .hire_box.hire_box_2 {
+    margin-top: 0;
+  }
+  .app-development_area .app_choose::before {
+    display: none;
+  }
+  .app-features-section .nav-tabs .nav-link {
+    width: 138px;
+  }
+  .experties_box .bg-experties .experties_item .experties_icon {
+    position: static;
+    margin: 0 auto 14px auto;
+  }
+}/*# sourceMappingURL=progressive-web-app-development.min.css.map */

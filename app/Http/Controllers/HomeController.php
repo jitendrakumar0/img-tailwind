@@ -919,6 +919,10 @@ class HomeController extends Controller
     {
         return view('ecommerce-solutions.index');
     }
+    public function ecommerce_solutions1()
+    { 
+        return view('tailwind.pages.ecommerce-solutions.ecommerce-solutions');
+    }
     public function android_application_development()
     {
         return view('android-application-development.index');

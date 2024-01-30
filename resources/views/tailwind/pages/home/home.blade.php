@@ -1480,7 +1480,228 @@ src="https://www.facebook.com/tr?id=640762284881184&ev=PageView&noscript=1"
 </div>
 
 
+<div class="relative bg-gray-900 py-8 sm:py-16 select-none text-white">
+    <div class="text-white/10">
+        <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
+            <defs>
+                <pattern id="s11" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" patternTransform="translate(0 80)">
+                    <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#s11)"></rect>
+        </svg>
+    </div>
+    <div class="mx-auto px-4 sm:px-6 md:max-w-3xl md:px-4 lg:px-2 relative pb-5">
+        <p class="mt-4 max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-center">
+            <span class="font-normal">Take A Sneak Peak to Our Portfolio </span> 
+            <span class="font-bold bg-gradient-to-r from-gray-100 via-sky-600 to-gray-100 bg-clip-text text-transparent"> And Elevate Your Expectations!</span>
+        </p>
+    </div>
+    <div class="swiper portfolioSwiper w-full" 
+        data-swiper='{
+            "slidesPerView": 2,
+            "spaceBetween": 10,
+            "speed": 2000,
+            "autoplay": {"enabled": true, "delay": 2500},
+            "loop": true,
+            "effect": "coverflow",
+            "centeredSlides": true,
+            "breakpoints": {
+                "320": {"slidesPerView": 1.5, "spaceBetween": 20},
+                "480": {"slidesPerView": 1.8, "spaceBetween": 20},
+                "640": {"slidesPerView": 2.5, "spaceBetween": 30},
+                "1024": {"slidesPerView": 3.5, "spaceBetween": 30},
+                "1350": {"slidesPerView": 4, "spaceBetween": 30}
+            }
+        }'
+    >
+        <div class="swiper-wrapper flex items-center py-5">
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+                    <div class="overflow-hidden rounded-xl">
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
+                            srcset="
+                                {{asset('public'.mix('/tailwind/img/myfab11-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-750w.webp'))}} 750w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-1024w.webp'))}} 1024w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-1250w.webp'))}} 1250w,
+                                {{asset('public'.mix('/tailwind/img/myfab11-1440w.webp'))}} 1440w
+                            "
+                            data-src="{{asset('public'.mix('/tailwind/img/myfab11-1024w.webp'))}}"
+                            alt="MyFab11 App"
+                        >
 
+                    </div>
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-green-900/70 before:to-green-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                        <div class="w-full relative z-[3] text-center">
+                            <div class="text-base font-medium leading-6 tracking-tight">MyFab11 App</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Fantasy Sports App</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+                    <div class="overflow-hidden rounded-xl">
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/health-app-1200w.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
+                            srcset="
+                                {{asset('public'.mix('/tailwind/img/health-app-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/health-app-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/health-app-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/health-app-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/health-app-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/health-app-1440w.webp'))}} 1440w
+                            "
+                            data-src="{{asset('public'.mix('/tailwind/img/health-app-256w.webp'))}}"
+                            alt="I KNOW"
+                        >
+                    
+                    </div>
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-fuchsia-900/70 before:to-fuchsia-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                        <div class="w-full relative z-[3] text-center">
+                            <div class="text-base font-medium leading-6 tracking-tight">I-KNOW</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Health App</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+                    <div class="overflow-hidden rounded-xl">
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
+                            srcset="
+                                {{asset('public'.mix('/tailwind/img/now-vue-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-750w.webp'))}} 750w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-1024w.webp'))}} 1024w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-1250w.webp'))}} 1250w,
+                                {{asset('public'.mix('/tailwind/img/now-vue-1440w.webp'))}} 1440w
+                            "
+                            data-src="{{asset('public'.mix('/tailwind/img/now-vue-256w.webp'))}}"
+                            alt="Now Vue"
+                        >
+
+                    </div>
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-amber-900/70 before:to-amber-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                        <div class="w-full relative z-[3] text-center">
+                            <div class="text-base font-medium leading-6 tracking-tight">Now Vue</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Guest Check In App</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+                    <div class="overflow-hidden rounded-xl">
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
+                            srcset="
+                                {{asset('public'.mix('/tailwind/img/ipay-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/ipay-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/ipay-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/ipay-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/ipay-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/ipay-1440w.webp'))}} 1440w
+                            "
+                            data-src="{{asset('public'.mix('/tailwind/img/ipay-256w.webp'))}}"
+                            alt="iPay project"
+                        >
+
+                    </div>
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-indigo-900/70 before:to-indigo-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                        <div class="w-full relative z-[3] text-center">
+                            <div class="text-base font-medium leading-6 tracking-tight">iPay</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Recharge App</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+                    <div class="overflow-hidden rounded-xl">
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
+                            srcset="
+                                {{asset('public'.mix('/tailwind/img/destist-online-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/destist-online-1440w.webp'))}} 1440w"
+                            data-src="{{asset('public'.mix('/tailwind/img/destist-online-256w.webp'))}}"
+                            alt="Dentist Online"
+                        >
+
+                    </div>
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-cyan-900/70 before:to-cyan-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                        <div class="w-full relative z-[3] text-center">
+                            <div class="text-base font-medium leading-6 tracking-tight">Dentist Online</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Health App</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide rounded-2xl overflow-hidden group/pf">
+                <div class="p-1 bg-gray-700 relative w-full rounded-2xl overflow-hidden">
+                    <div class="overflow-hidden rounded-xl">
+                        <img
+                            loading="lazy"
+                            class="w-full aspect-[4/5] z-0 group-hover/pf:scale-[1.1] duration-[3000ms]"
+                            width="256"
+                            height="320"
+                            src="{{asset('public'.mix('/tailwind/img/hidden.webp'))}}"
+                            sizes="(min-width: 1360px) calc(25vw - 30px), (min-width: 1040px) calc(28.33vw - 27px), (min-width: 640px) calc(40vw - 26px), (min-width: 480px) calc(47.14vw + 24px), (min-width: 440px) 279px, (min-width: 340px) calc(50vw + 42px), calc(-750vw + 2599px)"
+                            srcset="
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-256w.webp'))}} 256w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-720w.webp'))}} 720w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-990w.webp'))}} 990w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1200w.webp'))}} 1200w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1330w.webp'))}} 1330w,
+                                {{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1440w.webp'))}} 1440w
+                            "
+                            data-src="{{asset('public'.mix('/tailwind/img/EcoCosmo-Project-1200w.webp'))}}"
+                            alt="EcoCosmo Project"
+                        >
+                        
+                    </div>
+                    <div class="mt-10 flex rounded-xl rounded-t-none items-center sm:justify-center absolute inset-1 top-auto z-[1] before:absolute before:inset-3 before:z-[1] before:bg-gradient-to-t before:from-emerald-900/70 before:to-emerald-900/70 before:backdrop-blur-xl before:rounded-xl py-8">
+                        <div class="w-full relative z-[3] text-center">
+                            <div class="text-base font-medium leading-6 tracking-tight">EcoCosmo</div>
+                            <div class="mt-1 text-sm md:text-sm opacity-80">Tracking App</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
   
 
 

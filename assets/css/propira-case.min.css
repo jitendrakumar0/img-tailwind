@@ -1,0 +1,139 @@
+li {
+  list-style: none;
+}
+
+.case_heading_icon i {
+  color: #db0c0c;
+}
+.case_heading_icon::before {
+  position: absolute;
+  content: "";
+  background: #db0c0c;
+  width: 51px;
+  height: 2px;
+  left: -56px;
+  top: 3px;
+}
+.case_heading_icon::after {
+  position: absolute;
+  content: "";
+  background: #db0c0c;
+  width: 51px;
+  height: 2px;
+  right: -56px;
+  top: 3px;
+}
+
+.mobile_apps_section .app_content_list .list_icons {
+  background: #db0c0c;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  padding: 47px;
+}
+
+.bottom_case_banner {
+  background-image: url(../../../../assets/img/casestudy/bobi-bg-img.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.bottom_case_banner .bottom-bd {
+  border: 1px solid #fff;
+  width: 121px;
+}
+
+.case_color_section .color_case_box {
+  background: #db0c0c;
+  border-radius: 50%;
+  height: 165px;
+  width: 165px;
+}
+.case_color_section .color_case_box .inner_plate {
+  box-shadow: 0 0 3px #000;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  padding: 42px;
+}
+.case_color_section .color_case_box.color_case_1 {
+  background: #e39b1c;
+}
+.case_color_section .color_case_box.color_case_2 {
+  background: #c7ff00;
+}
+.case_color_section .color_case_box.color_case_3 {
+  background: #71d2a6;
+}
+
+.challange_box {
+  background: #db0c0c;
+}
+.challange_box .challneg_bg_img {
+  background-image: url(../../../../assets/img/realestate-case/alierta-cover-img.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.fab_case_testimonial {
+  background: #094964;
+}
+.fab_case_testimonial .fab_test_box {
+  padding: 45px 130px 45px;
+  background-color: #fafafa;
+  max-width: 850px;
+  margin: 16px auto;
+}
+.fab_case_testimonial .fab_test_box::before {
+  content: "";
+  background-image: url(../../../../assets/img/casestudy/layer.png);
+  position: absolute;
+  left: -30px;
+  top: -30px;
+  width: 260px;
+  height: 260px;
+  z-index: -1;
+}
+.fab_case_testimonial .fab_test_box::after {
+  content: "";
+  background-image: url(../../../../assets/img/casestudy/layer.png);
+  position: absolute;
+  right: -30px;
+  bottom: -30px;
+  width: 260px;
+  height: 260px;
+  z-index: -1;
+}
+.fab_case_testimonial .fab_test_box .client-info .fab_test_img img {
+  display: inline-block !important;
+  border-radius: 50%;
+  border: 3px solid #0e420c;
+}
+
+@media (max-width: 991.98px) {
+  .fab-list_section {
+    background-image: none;
+    height: auto;
+  }
+  .fab_case_testimonial .fab_test_box::before {
+    left: -39px;
+    top: -23px;
+  }
+}
+@media (max-width: 767.98px) {
+  .fab_case_testimonial .fab_test_box {
+    padding: 22px 20px 22px;
+    background-color: #f1f1f1;
+    max-width: 850px;
+    margin: 16px -11px;
+  }
+  .fab_case_testimonial .fab_test_box::before {
+    background-image: none;
+  }
+  .fab_case_testimonial .fab_test_box::after {
+    background-image: none;
+  }
+}/*# sourceMappingURL=propira-case.min.css.map */

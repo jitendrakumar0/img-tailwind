@@ -353,7 +353,7 @@
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8  z-[1] relative py-10 overflow-hidden">
         <div class="flex flex-wrap flex-row">
-            <div class="md:w-1/2 md:p-4 p-3 w-full">
+            <div class="md:w-1/2 md:p-4 p-3 w-full rounded-xl ">
                 <div class="card h-full lg:flex items-center bg-white shadow-sm  px-6 py-5 w-full duration-300 rounded-lg rounded-br-none border-transparent border hover:border hover:border-orange-500">
                     <div class="grow">
                         <div class="text-gray-500 font-semibold text-sm">FULL TIME</div>
@@ -448,7 +448,7 @@
                             <span>
                                 <span class="inline-flex items-center gap-1">
                                     <span>
-                                       Apply Now
+                                        Apply Now
                                     </span>
                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg>
                                 </span>
@@ -772,4 +772,4 @@
 @endsection
 
 @push('scripts')
-@endpush
+@endpushshadow-[#cb48fb]
