@@ -1,7 +1,7 @@
 {
-    "/tailwind/js/app.js": "/tailwind/js/app.js",
-    "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js",
-    "/tailwind/css/app.css": "/tailwind/css/app.css",
+    "/tailwind/js/app.js": "/tailwind/js/app.js?id=8fe1be078e8ae6a866c82e1d8be56ef9",
+    "/tailwind/js/lazy-content.js": "/tailwind/js/lazy-content.js?id=8ce987e3b075f59e6ccc0b27c0b56d45",
+    "/tailwind/css/app.css": "/tailwind/css/app.css?id=18140116113fe7fa99a3afc08137b338",
     "/tailwind/4882464.webp": "/tailwind/4882464.webp?id=061619ee44e4629ca2ca2c355bb94188",
     "/tailwind/android-chrome-144x144.png": "/tailwind/android-chrome-144x144.png?id=de3c1fceec9a432a8ddcf6684b1d46c2",
     "/tailwind/android-chrome-192x192.png": "/tailwind/android-chrome-192x192.png?id=d24a76fcee41c06d0bc18709fc08be46",
@@ -323,5 +323,19 @@
     "/tailwind/mstile-70x70.png": "/tailwind/mstile-70x70.png?id=b030c4c6f977862bebfde9549f586c94",
     "/tailwind/robots.txt": "/tailwind/robots.txt?id=0cfee23eaedc5acac4f47e48c8daab4f",
     "/tailwind/safari-pinned-tab.svg": "/tailwind/safari-pinned-tab.svg?id=53630740360ccc7baf8efc5465380ae5",
-    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=007090dd4c1183a19f5536aaf2b87496"
+    "/tailwind/site.webmanifest": "/tailwind/site.webmanifest?id=007090dd4c1183a19f5536aaf2b87496",
+    "/tailwind/img/about/cardtask.avif": "/tailwind/img/about/cardtask.avif?id=b4247ef7859d2f30d2e702e5290c7697",
+    "/tailwind/img/about/service-image.webp": "/tailwind/img/about/service-image.webp?id=b0f42f0e6d6756adddc4de88e33e3ff2",
+    "/tailwind/img/about/service-image1.webp": "/tailwind/img/about/service-image1.webp?id=f29619d93f13a339b106d89cea853a5b",
+    "/tailwind/img/andoridapp/bg-shapes.webp": "/tailwind/img/andoridapp/bg-shapes.webp?id=76a314d54b3a2e3c20eb223527e883a3",
+    "/tailwind/img/andoridapp/service.webp": "/tailwind/img/andoridapp/service.webp?id=7d6968d28baecba49a0984426be826c2",
+    "/tailwind/img/andoridapp/service1.webp": "/tailwind/img/andoridapp/service1.webp?id=71fbf257ee86fe82dac1619a3e09aeea",
+    "/tailwind/img/android-application/android-app-development-company-banner.webp": "/tailwind/img/android-application/android-app-development-company-banner.webp?id=1d83c2cc49bedcfcfa870e6a29672024",
+    "/tailwind/img/android-application/android.webp": "/tailwind/img/android-application/android.webp?id=1ddd5fb048ca33d8182f4b3dd8c0b38f",
+    "/tailwind/img/android-application/bg-shapes.webp": "/tailwind/img/android-application/bg-shapes.webp?id=76a314d54b3a2e3c20eb223527e883a3",
+    "/tailwind/img/android-application/bg1-box.webp": "/tailwind/img/android-application/bg1-box.webp?id=dda3184e3c5c5cd35af0fe77882f72c5",
+    "/tailwind/img/android-application/bg2-box.webp": "/tailwind/img/android-application/bg2-box.webp?id=d8998ef459e9c2cc6bcd2bc8ad3e9b33",
+    "/tailwind/img/android-application/hiredev.webp": "/tailwind/img/android-application/hiredev.webp?id=3edbc389057ef1f5aaf7768d4f7fa448",
+    "/tailwind/img/android-application/service.webp": "/tailwind/img/android-application/service.webp?id=7d6968d28baecba49a0984426be826c2",
+    "/tailwind/img/android-application/service1.webp": "/tailwind/img/android-application/service1.webp?id=71fbf257ee86fe82dac1619a3e09aeea"
 }
