@@ -980,7 +980,7 @@
     </section>
 {{-- cta img End --}}
 
-{{-- Section 5B start --}}
+{{-- Section 5B start --}} 
     <div class="relative container mx-auto max-w-7xl md:px-6 lg:px-8 z-10 py-6 md:py-8 lg:py-16">
         <p class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight tracking-[-0.04em] text-black text-center">
             <span class="font-normal">Support your sales efforts and </span> 
