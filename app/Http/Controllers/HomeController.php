@@ -509,6 +509,11 @@ class HomeController extends Controller
             return view('tailwind.pages.propira-casestudy.propira-casestudy');
         }
 
+        public function card_casestudy()
+        {
+            return view('tailwind.pages.card-casestudy.card-casestudy');
+        }
+
         public function ott_app_development()
         {
             return view('ott-app-development.index');

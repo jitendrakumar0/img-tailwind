@@ -145,6 +145,7 @@ Route::get('/social-media-app-development.php', 'HomeController@social_demo');
 Route::get('/event-app-development.php', 'HomeController@event_demo');
 
 Route::get('/propira-case.php', 'HomeController@propira_casestudy');
+Route::get('/card-casestudy.php', 'HomeController@card_casestudy');
 
 Route::get('/ott-app-development.php', 'HomeController@ott_app_development');
 Route::get('/progressive-web-app-development.php', 'HomeController@progressive_web_app_development');
