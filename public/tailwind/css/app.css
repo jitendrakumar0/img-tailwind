@@ -2392,9 +2392,6 @@ select{
 .mt-\[1px\]{
   margin-top: 1px;
 }
-.-mb-\[90px\]{
-  margin-bottom: -90px;
-}
 .line-clamp-2{
   overflow: hidden;
   display: -webkit-box;
@@ -3303,6 +3300,9 @@ select{
 .border-2{
   border-width: 2px;
 }
+.border-4{
+  border-width: 4px;
+}
 .border-\[10px\]{
   border-width: 10px;
 }
@@ -3311,9 +3311,6 @@ select{
 }
 .border-\[3px\]{
   border-width: 3px;
-}
-.border-4{
-  border-width: 4px;
 }
 .border-y{
   border-top-width: 1px;
@@ -3565,9 +3562,6 @@ select{
 }
 .bg-white\/5{
   background-color: rgb(255 255 255 / 0.05);
-}
-.bg-gray-950\/10{
-  background-color: rgb(3 7 18 / 0.1);
 }
 .bg-opacity-75{
   --tw-bg-opacity: 0.75;
@@ -4286,6 +4280,9 @@ select{
 .\!pt-28{
   padding-top: 7rem !important;
 }
+.\!pt-4{
+  padding-top: 1rem !important;
+}
 .pb-1{
   padding-bottom: 0.25rem;
 }
@@ -4384,9 +4381,6 @@ select{
 }
 .pt-8{
   padding-top: 2rem;
-}
-.\!pt-4{
-  padding-top: 1rem !important;
 }
 .text-left{
   text-align: left;
@@ -4727,10 +4721,6 @@ select{
 .text-white\/80{
   color: rgb(255 255 255 / 0.8);
 }
-.text-gray-800{
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
-}
 .antialiased{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4874,6 +4864,10 @@ select{
   --tw-shadow-color: rgb(255 255 255 / 0.2);
   --tw-shadow: var(--tw-shadow-colored);
 }
+.shadow-white\/5{
+  --tw-shadow-color: rgb(255 255 255 / 0.05);
+  --tw-shadow: var(--tw-shadow-colored);
+}
 .shadow-white\/50{
   --tw-shadow-color: rgb(255 255 255 / 0.5);
   --tw-shadow: var(--tw-shadow-colored);
@@ -4884,10 +4878,6 @@ select{
 }
 .shadow-yellow-950{
   --tw-shadow-color: #422006;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-.shadow-white\/5{
-  --tw-shadow-color: rgb(255 255 255 / 0.05);
   --tw-shadow: var(--tw-shadow-colored);
 }
 .outline-none{
@@ -7722,11 +7712,6 @@ select{
   background-color: rgb(255 255 255 / 0.1);
 }
 
-.group\/svc.swiper-slide-thumb-active .group-\[\.swiper-slide-thumb-active\]\/svc\:bg-gray-800{
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
 .group\/accordion.active .group-\[\.active\]\/accordion\:bg-gradient-to-r{
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -7959,11 +7944,6 @@ select{
 
 .group\/svc.swiper-slide-thumb-active .group-\[\.swiper-slide-thumb-active\]\/svc\:shadow-teal-300{
   --tw-shadow-color: #5eead4;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.group\/svc.swiper-slide-thumb-active .group-\[\.swiper-slide-thumb-active\]\/svc\:shadow-gray-300{
-  --tw-shadow-color: #d1d5db;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -8593,6 +8573,9 @@ select{
   .sm\:p-3{
     padding: 0.75rem;
   }
+  .sm\:p-4{
+    padding: 1rem;
+  }
   .sm\:p-5{
     padding: 1.25rem;
   }
@@ -8601,9 +8584,6 @@ select{
   }
   .sm\:p-8{
     padding: 2rem;
-  }
-  .sm\:p-4{
-    padding: 1rem;
   }
   .sm\:px-0{
     padding-left: 0px;
@@ -9234,9 +9214,6 @@ select{
   .md\:mt-\[-50px\]{
     margin-top: -50px;
   }
-  .md\:-mb-\[120px\]{
-    margin-bottom: -120px;
-  }
   .md\:block{
     display: block;
   }
@@ -9480,6 +9457,10 @@ select{
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .md\:px-48{
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
   .md\:px-5{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -9539,10 +9520,6 @@ select{
   .md\:py-8{
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-  .md\:px-48{
-    padding-left: 12rem;
-    padding-right: 12rem;
   }
   .md\:pb-0{
     padding-bottom: 0px;
