@@ -163,7 +163,7 @@
 
 
 {{-- slider-section --}}
-<div class="w-full py-6 md:py-8 lg:py-16 lg:text-left relative z-[1] overflow-hidden md:gap-10 gap-8 flex flex-col">
+<div class="w-full py-6 md:py-8 lg:py-16 lg:text-left relative z-[1] overflow-hidden md:gap-10 gap-8 flex flex-col  mx-auto max-w-7xl px-6 lg:px-8 select-none">
     <div class="flex items-center flex-wrap">
     <div class="md:w-[40%] lg:w-[30%] w-full p-3">
         <p class="
